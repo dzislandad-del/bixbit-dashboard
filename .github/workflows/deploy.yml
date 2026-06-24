@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Inject Supabase credentials
         run: |
-          sed -i "s|window.__SB_URL__  || ''|'${{ secrets.SUPABASE_URL }}'|g" public/index.html
+          sed -i "s|window.__SB_URL__ || ''|'${{ secrets.SUPABASE_URL }}'|g" public/index.html
           sed -i "s|window.__SB_KEY__ || ''|'${{ secrets.SUPABASE_ANON_KEY }}'|g" public/index.html
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
