@@ -1,0 +1,25 @@
+{
+  "date": "2026-06-17",
+  "gscClicks90d": null,
+  "gscImpressions90d": null,
+  "ga4Sessions7d": null,
+  "ga4Users7d": null,
+  "pagesDiscovered": 70,
+  "hasLlmsTxt": false,
+  "cwv": [
+    {
+      "url": "https://bixbit.io/en",
+      "strategy": "mobile",
+      "error": "",
+      "score": 67,
+      "lcp": "2.3 s",
+      "cls": "0.888",
+      "tbt": "230 ms",
+      "fcp": "",
+      "si": "",
+      "note": "Collected via direct PageSpeed API call at session start 2026-06-17"
+    }
+  ],
+  "dataSourcesAvailable": ["gsc", "ga4", "pagespeed"],
+  "dataSourcesUnavailable": ["dataforseo", "moz", "bing"]
+}

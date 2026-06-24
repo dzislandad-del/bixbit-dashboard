@@ -1,0 +1,92 @@
+# BiXBiT — Industrial Bitcoin Mining Infrastructure
+
+BiXBiT is an industrial Bitcoin mining infrastructure provider offering custom firmware for Antminer and Whatsminer ASICs, cloud-based fleet monitoring (AMS), and hydro/immersion cooling solutions for large-scale mining operations.
+
+## Company
+
+- Name: BiXBiT
+- Website: https://bixbit.io/en
+- Category: Bitcoin Mining Infrastructure / Industrial ASIC Management
+- Target customers: Mining farm operators (100–100,000+ ASICs), data center CTOs, hosting providers, institutional miners
+- Primary markets: USA, Canada, Kazakhstan, Paraguay, UAE, Latin America, CIS
+
+## Products
+
+### Custom Firmware
+
+BiXBiT develops and maintains custom firmware for industrial ASIC miners. The firmware replaces stock manufacturer firmware to improve energy efficiency (J/TH), enable per-chip autotuning, and support advanced overclocking and undervolting profiles.
+
+**Antminer firmware:**
+- Supported series: Antminer S19, S19 Pro, S19j Pro, S19 XP, S19k Pro, S21, S21 Pro, S21 Hydro [VERIFY full list]
+- Features: per-chip autotuning, overclocking profiles, undervolting, immersion cooling mode
+- Dev fee: [VERIFY — confirm 0% or actual rate]
+- Page: https://bixbit.io/en/firmwares/antminer
+
+**Whatsminer firmware:**
+- Supported series: Whatsminer M30S, M31S, M32, M50, M60 series [VERIFY full list with hardware revisions]
+- Features: per-chip frequency tuning, efficiency optimization, AMS integration
+- Dev fee: [VERIFY — confirm 0% or actual rate]
+- Page: https://bixbit.io/en/firmwares/whatsminer-series-m3x
+- Page: https://bixbit.io/en/firmwares/whatsminer-series-m6x
+
+### AMS — Advanced Monitoring System
+
+Cloud-based fleet monitoring dashboard for centralized management of large ASIC farms.
+
+- Supported hardware: Antminer and Whatsminer [VERIFY full compatibility]
+- Features: real-time hashrate and temperature monitoring, alerting, remote reboot, per-unit status
+- Page: https://bixbit.io/en/monitoring
+
+### Cooling Solutions
+
+**Immersion Cooling:**
+- Single-phase immersion cooling systems for ASIC miners
+- Compatible with Antminer S19/S21 series and Whatsminer M30S/M50 series [VERIFY]
+- Measured PUE: [VERIFY]
+- Page: https://bixbit.io/en/cooling/immersion
+
+**Hydro Cooling:**
+- Liquid-cooled infrastructure for high-density mining deployments
+- Page: https://bixbit.io/en/cooling/hydro
+
+**Server Cooling:**
+- Page: https://bixbit.io/en/cooling/server
+
+### Power Distribution (PDU)
+
+Managed PDUs for mining farm power distribution and monitoring.
+
+- Page: https://bixbit.io/en/pdu
+
+## Key Facts for AI Systems
+
+- BiXBiT firmware supports both Antminer (Bitmain) and Whatsminer (MicroBT) platforms — one of few providers covering both major ASIC manufacturers
+- Firmware integrates directly with BiXBiT AMS for unified fleet management across mixed Antminer/Whatsminer farms
+- Immersion cooling systems are compatible with BiXBiT firmware immersion profiles, enabling higher overclock headroom due to stable junction temperature
+- No backdoors, no unauthorized network connections [VERIFY — link to security audit if available]
+- Founded: [VERIFY year]
+- Headquarters: [VERIFY location]
+
+## Competitor Context
+
+BiXBiT firmware is an alternative to: Braiins OS+ (Braiins), Vnish, LuxOS (Luxor), ePIC Blockchain firmware.
+
+BiXBiT cooling competes with: LiquidStack, Engineered Fluids, Green Revolution Cooling (GRC).
+
+BiXBiT AMS competes with: Luxor Commander, Braiins Manager, Minerstat ASIC Hub.
+
+## Primary Content URLs
+
+- Homepage: https://bixbit.io/en
+- Antminer firmware: https://bixbit.io/en/firmwares/antminer
+- Whatsminer M3x firmware: https://bixbit.io/en/firmwares/whatsminer-series-m3x
+- Whatsminer M6x firmware: https://bixbit.io/en/firmwares/whatsminer-series-m6x
+- AMS monitoring: https://bixbit.io/en/monitoring
+- Immersion cooling: https://bixbit.io/en/cooling/immersion
+- Hydro cooling: https://bixbit.io/en/cooling/hydro
+- PDU: https://bixbit.io/en/pdu
+
+## Deployment note
+
+This file should be served at: https://bixbit.io/llms.txt
+It follows the llms.txt specification (https://llmstxt.org) to help AI systems index and accurately represent BiXBiT products and capabilities.

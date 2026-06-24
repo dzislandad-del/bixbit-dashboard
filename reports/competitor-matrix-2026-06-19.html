@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BiXBiT Competitor Matrix 2026-06-19</title>
+<style>
+  :root {
+    --bg: #151216;
+    --surface: #1e1a21;
+    --surface2: #261f2a;
+    --magenta: #d1127d;
+    --magenta-dim: #8b0c52;
+    --green: #22c55e;
+    --red: #ef4444;
+    --yellow: #eab308;
+    --blue: #60a5fa;
+    --text: #f0ecf4;
+    --muted: #9d8eaa;
+    --border: #312840;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 14px;
+    line-height: 1.55;
+    padding: 32px 24px;
+  }
+  h1 {
+    font-family: 'Onest', 'Inter', system-ui, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+  .subtitle { color: var(--muted); font-size: 13px; margin-bottom: 32px; }
+  h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--magenta);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 40px 0 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  h2::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+  h3 { font-size: 14px; font-weight: 600; color: #fff; margin: 20px 0 8px; }
+  .table-wrap { overflow-x: auto; margin-bottom: 8px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    min-width: 600px;
+  }
+  th {
+    background: var(--surface2);
+    color: var(--muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  td {
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(255,255,255,0.025); }
+  .win { color: var(--green); font-weight: 600; }
+  .lose { color: var(--red); }
+  .neutral { color: var(--muted); }
+  .partial { color: var(--yellow); }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  .p0 { background: #7f1d1d; color: #fca5a5; }
+  .p1 { background: #78350f; color: #fcd34d; }
+  .p2 { background: #1e3a5f; color: #93c5fd; }
+  .unique {
+    background: linear-gradient(135deg, #4a0e3a 0%, #1e0b35 100%);
+    border: 1px solid var(--magenta-dim);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 14px;
+  }
+  .unique-title {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .unique-tier {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 1px 7px;
+    border-radius: 3px;
+    margin-right: 6px;
+    background: var(--magenta);
+    color: #fff;
+  }
+  .unique-tier.t2 { background: #6d28d9; }
+  .unique-body { color: var(--muted); font-size: 13px; line-height: 1.5; margin-top: 6px; }
+  .cite-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 4px 0;
+  }
+  .cite-label { width: 100px; font-size: 13px; color: var(--text); }
+  .cite-track {
+    flex: 1;
+    height: 8px;
+    background: var(--surface2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .cite-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s;
+  }
+  .cite-score { font-size: 12px; color: var(--muted); min-width: 36px; }
+  .action-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+    margin-top: 4px;
+  }
+  .action-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .action-num {
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .action-title { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+  .action-why { font-size: 12px; color: var(--muted); }
+  .action-card.p0-card { border-color: #7f1d1d; }
+  .action-card.p1-card { border-color: #78350f; }
+  .note { color: var(--muted); font-size: 12px; margin-top: 12px; font-style: italic; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chip {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    background: var(--surface2);
+    color: var(--muted);
+    border: 1px solid var(--border);
+  }
+  .chip.hot { background: #4a0e3a; color: #f9a8d4; border-color: var(--magenta-dim); }
+  .section-note {
+    background: var(--surface);
+    border-left: 3px solid var(--magenta);
+    padding: 10px 14px;
+    border-radius: 0 6px 6px 0;
+    font-size: 13px;
+    color: var(--muted);
+    margin: 12px 0;
+  }
+</style>
+</head>
+<body>
+
+<h1>BiXBiT Competitive Intelligence Matrix</h1>
+<div class="subtitle">Дата: 2026-06-19 · Конкуренты: Braiins · Vnish · LuxOS · ePIC · EMCD · PiTBiT · DataForSEO: 401 (DR/DA est.)</div>
+
+<!-- SECTION 1: Where BiXBiT WINS -->
+<h2>1. Где BiXBiT выигрывает</h2>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr>
+      <th>Преимущество</th>
+      <th>Braiins</th>
+      <th>Vnish</th>
+      <th>LuxOS</th>
+      <th>ePIC</th>
+      <th>EMCD</th>
+      <th>PiTBiT</th>
+      <th>Вес</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Whatsminer firmware</strong></td>
+      <td class="lose">✗ Antminer only</td>
+      <td class="lose">✗ Antminer only</td>
+      <td class="partial">△ select models</td>
+      <td class="partial">△ часть M-серии</td>
+      <td class="neutral">N/A</td>
+      <td class="lose">✗</td>
+      <td><span class="badge p0">Critical</span></td>
+    </tr>
+    <tr>
+      <td><strong>Immersion + Hydro Cooling (hardware)</strong></td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td><span class="badge p0">Critical</span></td>
+    </tr>
+    <tr>
+      <td><strong>PDU / Power Distribution</strong></td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td><span class="badge p1">High</span></td>
+    </tr>
+    <tr>
+      <td><strong>Software-only install</strong><br><span style="color:var(--muted);font-size:12px">vs ePIC hardware замена</span></td>
+      <td class="win">✓</td>
+      <td class="win">✓</td>
+      <td class="win">✓</td>
+      <td class="lose">✗ $100–200/unit</td>
+      <td class="neutral">N/A</td>
+      <td class="win">✓</td>
+      <td><span class="badge p1">vs ePIC</span></td>
+    </tr>
+    <tr>
+      <td><strong>Документация на основном домене</strong></td>
+      <td class="lose">✗ отдельный домен</td>
+      <td class="neutral">N/A</td>
+      <td class="lose">✗ отдельный домен</td>
+      <td class="neutral">N/A</td>
+      <td class="neutral">N/A</td>
+      <td class="neutral">N/A</td>
+      <td><span class="badge p2">Medium</span></td>
+    </tr>
+    <tr>
+      <td><strong>llms.txt</strong><br><span style="color:var(--muted);font-size:12px">создан, ждёт деплоя</span></td>
+      <td class="lose">✗ 404</td>
+      <td class="lose">✗ 404</td>
+      <td class="lose">✗ 404</td>
+      <td class="lose">✗ 404</td>
+      <td class="lose">✗ 404</td>
+      <td class="lose">✗ 404</td>
+      <td><span class="badge p0">First-mover</span></td>
+    </tr>
+    <tr>
+      <td><strong>Нет geo-IP bug</strong></td>
+      <td class="neutral">N/A</td>
+      <td class="lose">✗ КРИТИЧЕСКИЙ баг</td>
+      <td class="neutral">N/A</td>
+      <td class="neutral">N/A</td>
+      <td class="neutral">N/A</td>
+      <td class="neutral">N/A</td>
+      <td><span class="badge p1">Structural</span></td>
+    </tr>
+    <tr>
+      <td><strong>Mixed-fleet Claude #1</strong><br><span style="color:var(--muted);font-size:12px">"firmware Antminer + Whatsminer"</span></td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="partial">△ слабо</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td><span class="badge p0">Unique</span></td>
+    </tr>
+    <tr>
+      <td><strong>Full-stack: firmware + AMS + cooling + PDU</strong></td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td><span class="badge p0">Unique</span></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<!-- SECTION 2: Where BiXBiT LOSES -->
+<h2>2. Где BiXBiT проигрывает</h2>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr>
+      <th>Слабость</th>
+      <th>Лучший конкурент</th>
+      <th>Показатель</th>
+      <th>Приоритет</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Dev fee 2.8% без тиринга</strong></td>
+      <td>ePIC (1.5%)</td>
+      <td>BiXBiT = самый высокий среди называемых; Vnish даёт 1.8% тир</td>
+      <td><span class="badge p0">P0 PM</span></td>
+    </tr>
+    <tr>
+      <td><strong>Нет JSON-LD schema (0 типов)</strong></td>
+      <td>LuxOS (4 типа)</td>
+      <td>FAQPage + Organization + WebSite + SoftwareApplication</td>
+      <td><span class="badge p0">P0</span></td>
+    </tr>
+    <tr>
+      <td><strong>CLS = 0.888</strong></td>
+      <td>Любой конкурент</td>
+      <td>Core Web Vitals провал; норма &lt;0.1</td>
+      <td><span class="badge p0">P0</span></td>
+    </tr>
+    <tr>
+      <td><strong>8 H1 на homepage</strong></td>
+      <td>PiTBiT (корректный)</td>
+      <td>LuxOS тоже нарушает, но у них schema компенсирует</td>
+      <td><span class="badge p0">P0</span></td>
+    </tr>
+    <tr>
+      <td><strong>Нет meta descriptions</strong></td>
+      <td>Braiins, LuxOS</td>
+      <td>Vnish, ePIC, PiTBiT тоже без — гонка открыта</td>
+      <td><span class="badge p0">P0</span></td>
+    </tr>
+    <tr>
+      <td><strong>Нет canonical + hreflang</strong></td>
+      <td>EMCD (реализован)</td>
+      <td>Vnish hreflang сломан (geo-IP override)</td>
+      <td><span class="badge p0">P0</span></td>
+    </tr>
+    <tr>
+      <td><strong>Sitemap lastmod 2024-09-04</strong></td>
+      <td>Vnish (2026-06-13)</td>
+      <td>21 месяц устаревания — сигнал свежести для Googlebot</td>
+      <td><span class="badge p1">P1</span></td>
+    </tr>
+    <tr>
+      <td><strong>Отсутствие в d-central.tech matrix</strong></td>
+      <td>Braiins, Vnish, LuxOS, ePIC</td>
+      <td>Все 4 прямых конкурента там; BiXBiT = невидим</td>
+      <td><span class="badge p0">P0 Link</span></td>
+    </tr>
+    <tr>
+      <td><strong>Отсутствие в EMCD "Best Firmware" статье</strong></td>
+      <td>Все 4 конкурента</td>
+      <td>#1 SERP для "best asic firmware"; LLM его читает</td>
+      <td><span class="badge p0">P0 Link</span></td>
+    </tr>
+    <tr>
+      <td><strong>Нет model-specific страниц</strong></td>
+      <td>PiTBiT (28 моделей), Vnish</td>
+      <td>S19 XP, S21 Pro, M60S — каждая должна быть отд. страница</td>
+      <td><span class="badge p0">P0</span></td>
+    </tr>
+    <tr>
+      <td><strong>Нет benchmark page (J/TH до/после)</strong></td>
+      <td>Никто — ниша открыта</td>
+      <td>E-E-A-T killer; PiTBiT заявляет без данных — BiXBiT может быть первым</td>
+      <td><span class="badge p0">P0 E-E-A-T</span></td>
+    </tr>
+    <tr>
+      <td><strong>Нет comparison pages</strong></td>
+      <td>Никто — ниша открыта</td>
+      <td>/compare/bixbit-vs-vnish и т.д. — commercial intent, высокий CTR</td>
+      <td><span class="badge p0">P0</span></td>
+    </tr>
+    <tr>
+      <td><strong>Нет named case studies</strong></td>
+      <td>LuxOS (TeraWulf, Core Scientific)</td>
+      <td>E-E-A-T сигнал №1 для B2B enterprise</td>
+      <td><span class="badge p1">P1</span></td>
+    </tr>
+    <tr>
+      <td><strong>Нет wire PR / media presence</strong></td>
+      <td>LuxOS (5+ PRNewswire), EMCD</td>
+      <td>Строит DA + AI-source coverage</td>
+      <td><span class="badge p1">P1</span></td>
+    </tr>
+    <tr>
+      <td><strong>Нет dev fee transparency page</strong></td>
+      <td>PiTBiT (публичные цены), Braiins</td>
+      <td>Отсутствие открытости = недоверие; LLM не может цитировать</td>
+      <td><span class="badge p0">P0</span></td>
+    </tr>
+    <tr>
+      <td><strong>Claude citation ≈ 3/10</strong></td>
+      <td>LuxOS (8/10), ePIC (7/10)</td>
+      <td>BiXBiT вне тройки на 7 из 10 firmware-запросов</td>
+      <td><span class="badge p0">P0 GEO</span></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<!-- SECTION 3: Unique Opportunities -->
+<h2>3. Уникальные возможности BiXBiT</h2>
+
+<h3>Tier 1 — Структурные, не копируемые конкурентами</h3>
+
+<div class="unique">
+  <div class="unique-title"><span class="unique-tier">T1–A</span>Единственный full-stack провайдер</div>
+  <div class="unique-body">Firmware + AMS monitoring + immersion cooling + hydro cooling + PDU в одном вендоре. Ни один конкурент не предлагает больше двух категорий. Не реализовано в контенте ни на одной странице BiXBiT. <strong>Требует:</strong> hub-страница "BiXBiT Ecosystem" + cross-linking от firmware → cooling → AMS.</div>
+  <div class="chips"><span class="chip hot">не у кого нет</span><span class="chip">Positioning</span><span class="chip">Cross-sell</span></div>
+</div>
+
+<div class="unique">
+  <div class="unique-title"><span class="unique-tier">T1–B</span>Whatsminer + Antminer от одного вендора</div>
+  <div class="unique-body">Braiins и Vnish — Antminer only. LuxOS — "select models" без деталей. ePIC — частично. PiTBiT — нет. BiXBiT поддерживает M2x–M6x + S19–S21 полностью. <strong>В Claude этот запрос уже возвращает BiXBiT #1.</strong> Нужно усилить: dedicated mixed-fleet page + passage-фраза "одна из немногих прошивок для обеих платформ".</div>
+  <div class="chips"><span class="chip hot">Claude #1 уже</span><span class="chip">Mixed-fleet</span><span class="chip">GEO priority</span></div>
+</div>
+
+<div class="unique">
+  <div class="unique-title"><span class="unique-tier">T1–C</span>Firmware + immersion cooling integration</div>
+  <div class="unique-body">Только у BiXBiT есть прошивка с immersion-профилями И физическая иммерсионная система. Позволяет более агрессивный overclock (стабильная Tj), оптимизированное охлаждение, единый вендор для commissioning. <strong>Ни один конкурент не может это воспроизвести</strong> — у них нет cooling hardware.</div>
+  <div class="chips"><span class="chip hot">не копируемо</span><span class="chip">Enterprise</span><span class="chip">TCO story</span></div>
+</div>
+
+<h3>Tier 2 — Тактические, реализуемые в ближайшие 2 недели</h3>
+
+<div class="unique">
+  <div class="unique-title"><span class="unique-tier t2">T2–D</span>llms.txt — первый в нише</div>
+  <div class="unique-body">Все шесть конкурентов: 404. BiXBiT файл создан — нужен только деплой (30 мин). Потенциально формирует AI-индексацию сущностей до того как конкуренты среагируют.</div>
+  <div class="chips"><span class="chip hot">деплой = 30 мин</span><span class="chip">GEO first-mover</span></div>
+</div>
+
+<div class="unique">
+  <div class="unique-title"><span class="unique-tier t2">T2–E</span>software-only vs ePIC hardware замена</div>
+  <div class="unique-body">ePIC требует замены control board ($100–200/unit). На 1 000 ASIC = $100–200k дополнительных CAPEX. BiXBiT — чистый software install. <strong>Не оформлено в контент ни разу.</strong> Требует: сравнительная таблица TCO на /comparison странице.</div>
+  <div class="chips"><span class="chip hot">TCO: $100–200k экономия</span><span class="chip">vs ePIC</span></div>
+</div>
+
+<div class="unique">
+  <div class="unique-title"><span class="unique-tier t2">T2–F</span>robots.txt ai-train=yes — 15-минутный fix</div>
+  <div class="unique-body">Только LuxOS явно разрешил AI-краулерам. У пяти остальных конкурентов нет. Долгосрочный эффект на LLM-присутствие при минимальных затратах.</div>
+  <div class="chips"><span class="chip hot">15 минут</span><span class="chip">LLM crawling</span></div>
+</div>
+
+<div class="unique">
+  <div class="unique-title"><span class="unique-tier t2">T2–G</span>whatsminer.com OEM outreach</div>
+  <div class="unique-body">BiXBiT — единственный провайдер с настоящей full-coverage Whatsminer firmware. MicroBT как OEM — потенциальная партнёрская ссылка которой нет ни у кого из конкурентов.</div>
+  <div class="chips"><span class="chip">OEM partner</span><span class="chip">Link gap</span><span class="chip">Authority</span></div>
+</div>
+
+<!-- SECTION 4: AI Citation -->
+<h2>4. Claude AI-Citation Scoreboard</h2>
+
+<div style="max-width:520px; background: var(--surface); border-radius:10px; padding:20px; margin:4px 0;">
+  <div class="cite-bar">
+    <div class="cite-label" style="font-weight:700;color:#fff">Braiins</div>
+    <div class="cite-track"><div class="cite-fill" style="width:100%;background:#22c55e"></div></div>
+    <div class="cite-score">~10/10</div>
+  </div>
+  <div class="cite-bar">
+    <div class="cite-label" style="font-weight:700;color:#fff">LuxOS</div>
+    <div class="cite-track"><div class="cite-fill" style="width:80%;background:#22c55e"></div></div>
+    <div class="cite-score">8/10</div>
+  </div>
+  <div class="cite-bar">
+    <div class="cite-label">ePIC</div>
+    <div class="cite-track"><div class="cite-fill" style="width:70%;background:#eab308"></div></div>
+    <div class="cite-score">7/10</div>
+  </div>
+  <div class="cite-bar">
+    <div class="cite-label">Vnish</div>
+    <div class="cite-track"><div class="cite-fill" style="width:90%;background:#22c55e"></div></div>
+    <div class="cite-score">~9/10</div>
+  </div>
+  <div class="cite-bar">
+    <div class="cite-label" style="font-weight:700;color:var(--magenta)">BiXBiT</div>
+    <div class="cite-track"><div class="cite-fill" style="width:30%;background:var(--magenta)"></div></div>
+    <div class="cite-score" style="color:var(--magenta)">≈3/10</div>
+  </div>
+  <div class="cite-bar">
+    <div class="cite-label" style="color:var(--muted)">PiTBiT</div>
+    <div class="cite-track"><div class="cite-fill" style="width:5%;background:#4b5563"></div></div>
+    <div class="cite-score" style="color:var(--muted)">~1/10</div>
+  </div>
+  <div class="cite-bar">
+    <div class="cite-label" style="color:var(--muted)">EMCD</div>
+    <div class="cite-track"><div class="cite-fill" style="width:0%;background:#4b5563"></div></div>
+    <div class="cite-score" style="color:var(--muted)">N/A</div>
+  </div>
+</div>
+
+<div class="section-note">
+  <strong>Единственный запрос где BiXBiT #1:</strong> "Which firmware supports both Antminer AND Whatsminer?" — это нужно превратить в позиционирование, а не оставлять скрытым преимуществом.
+</div>
+
+<!-- SECTION 5: P0 Actions -->
+<h2>5. P0-план: топ-15 действий</h2>
+
+<div class="action-grid">
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Технический · 30 мин</div>
+    <div class="action-title">Задеплоить llms.txt</div>
+    <div class="action-why">Все 6 конкурентов: 404. Файл готов. First-mover в нише.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Технический · 15 мин</div>
+    <div class="action-title">robots.txt: ai-train=yes + Sitemap</div>
+    <div class="action-why">Только LuxOS имеет. Долгосрочный LLM-краулинг эффект.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Технический · S</div>
+    <div class="action-title">H1: 8 → 1 на homepage</div>
+    <div class="action-why">Базовое соответствие стандарту. CLS=0.888 фиксировать параллельно.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Технический · M</div>
+    <div class="action-title">FAQPage + Organization JSON-LD</div>
+    <div class="action-why">Только LuxOS внедрил. Первый после него получает rich results.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Контент · S</div>
+    <div class="action-title">Entity-definition на homepage hero</div>
+    <div class="action-why">Готово в entity-definition-homepage.md. Вставить + проверить [VERIFY].</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Контент · M</div>
+    <div class="action-title">Meta descriptions на все страницы</div>
+    <div class="action-why">Vnish, ePIC, PiTBiT тоже без — кто первый, тот с CTR-буфером.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Контент · M</div>
+    <div class="action-title">Dev fee transparency page</div>
+    <div class="action-why">LLM не может цитировать то, что не опубликовано явно. Закрывает #1 AI-gap.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Контент · M</div>
+    <div class="action-title">Mixed-fleet hub page</div>
+    <div class="action-why">BiXBiT уже #1 в Claude для этого запроса — нужна страница под него.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Контент · H</div>
+    <div class="action-title">Firmware comparison page (vs Braiins/Vnish/LuxOS/ePIC)</div>
+    <div class="action-why">Commercial intent + AI-extraction. Ниша не занята ни одним конкурентом.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Контент · H</div>
+    <div class="action-title">Benchmark page с J/TH таблицами [VERIFY]</div>
+    <div class="action-why">E-E-A-T killer. PiTBiT заявляет без данных — BiXBiT с реальными будет единственным.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Ссылки · H</div>
+    <div class="action-title">Аутрич к d-central.tech</div>
+    <div class="action-why">Все 4 конкурента там. Это первичный LLM-источник для firmware queries.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0</span> Ссылки · M</div>
+    <div class="action-title">Аутрич к EMCD — "Best Firmware" статья</div>
+    <div class="action-why">#1 SERP для "best asic firmware 2026". BiXBiT отсутствует.</div>
+  </div>
+  <div class="action-card p0-card">
+    <div class="action-num"><span class="badge p0">P0 PM</span> Продуктовый</div>
+    <div class="action-title">Dev fee tier для 1 000+ ASIC</div>
+    <div class="action-why">ePIC 1.5% выигрывает любое прямое сравнение. Vnish даёт 1.8% тир. Нужно PM-решение.</div>
+  </div>
+  <div class="action-card p1-card">
+    <div class="action-num"><span class="badge p1">P1</span> Контент · M</div>
+    <div class="action-title">Model-specific firmware pages (10–15 моделей)</div>
+    <div class="action-why">PiTBiT имеет 28 моделей. Long-tail SEO + rich results per model.</div>
+  </div>
+  <div class="action-card p1-card">
+    <div class="action-num"><span class="badge p1">P1</span> Ссылки · H</div>
+    <div class="action-title">whatsminer.com OEM outreach</div>
+    <div class="action-why">Уникальная позиция. Ни у кого из конкурентов такой ссылки нет.</div>
+  </div>
+</div>
+
+<!-- SECTION 6: Tech SEO Scorecard -->
+<h2>6. Технический SEO — сравнение</h2>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr>
+      <th>Элемент</th>
+      <th>BiXBiT</th>
+      <th>Braiins</th>
+      <th>Vnish</th>
+      <th>LuxOS</th>
+      <th>ePIC</th>
+      <th>PiTBiT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>JSON-LD schema</td>
+      <td class="lose">✗ 0 типов</td>
+      <td class="neutral">?</td>
+      <td class="lose">✗ 0</td>
+      <td class="win">✓ 4 типа</td>
+      <td class="lose">✗ 0</td>
+      <td class="lose">✗ 0</td>
+    </tr>
+    <tr>
+      <td>Meta description</td>
+      <td class="lose">✗</td>
+      <td class="win">✓</td>
+      <td class="lose">✗</td>
+      <td class="win">✓</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+    </tr>
+    <tr>
+      <td>Canonical / hreflang</td>
+      <td class="lose">✗</td>
+      <td class="neutral">?</td>
+      <td class="lose">✗ broken</td>
+      <td class="neutral">?</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+    </tr>
+    <tr>
+      <td>og: / twitter:card</td>
+      <td class="lose">✗</td>
+      <td class="neutral">?</td>
+      <td class="lose">✗</td>
+      <td class="win">✓</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+    </tr>
+    <tr>
+      <td>Sitemap freshness</td>
+      <td class="lose">✗ 2024-09</td>
+      <td class="neutral">—</td>
+      <td class="win">✓ 2026-06</td>
+      <td class="win">✓ dynamic</td>
+      <td class="neutral">?</td>
+      <td class="neutral">?</td>
+    </tr>
+    <tr>
+      <td>llms.txt</td>
+      <td class="partial">△ создан</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+    </tr>
+    <tr>
+      <td>ai-train в robots.txt</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="win">✓</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+    </tr>
+    <tr>
+      <td>CLS</td>
+      <td class="lose">✗ 0.888</td>
+      <td class="neutral">?</td>
+      <td class="neutral">?</td>
+      <td class="neutral">?</td>
+      <td class="neutral">?</td>
+      <td class="neutral">?</td>
+    </tr>
+    <tr>
+      <td>Model-specific pages</td>
+      <td class="lose">✗</td>
+      <td class="lose">✗</td>
+      <td class="win">✓ есть</td>
+      <td class="lose">✗</td>
+      <td class="partial">△</td>
+      <td class="win">✓ 28 моделей</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p class="note">Матрица: 2026-06-19. Источники: 6 gap-отчётов (Braiins, Vnish, LuxOS, ePIC, EMCD, PiTBiT). DataForSEO 401 в течение всей сессии — DR/DA [est.]. Все технические данные конкурентов верифицированы WebFetch (2026-06-19). Тех-факты прошивок → [VERIFY] перед публикацией.</p>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(printenv)",
+      "mcp__dataforseo__serp_organic_live_advanced",
+      "Bash(python3 -c \"import google.auth; print\\('google-auth OK'\\)\")",
+      "Bash(python3 -c \"from googleapiclient.discovery import build; print\\('google-api-python-client OK'\\)\")",
+      "Bash(python3 -c \"import requests; print\\('requests OK'\\)\")",
+      "Bash(python3 *)",
+      "Bash(pip3 install *)",
+      "mcp__dataforseo__dataforseo_labs_google_keyword_ideas",
+      "mcp__dataforseo__dataforseo_labs_google_keyword_suggestions",
+      "mcp__dataforseo__dataforseo_labs_google_related_keywords",
+      "mcp__dataforseo__backlinks_summary",
+      "mcp__dataforseo__on_page_lighthouse",
+      "mcp__dataforseo__dataforseo_labs_google_ranked_keywords",
+      "mcp__dataforseo__dataforseo_labs_google_domain_intersection",
+      "mcp__dataforseo__backlinks_referring_domains",
+      "mcp__dataforseo__backlinks_domain_intersection",
+      "mcp__dataforseo__dataforseo_labs_google_keyword_overview",
+      "mcp__dataforseo__ai_opt_llm_ment_search",
+      "mcp__dataforseo__dataforseo_labs_google_domain_rank_overview",
+      "Artifact"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "dataforseo"
+  ]
+}
