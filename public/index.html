@@ -1485,14 +1485,18 @@ X-Planfix-Token: {planfix_token}</pre>
         <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'linkedin')">🔷 LinkedIn Ads</button>
         <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'organic_ru')">🟢 Органика RU</button>
         <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'organic_en')">🟢 Органика EN</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'organic_es')">🟢 Органика ES</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'pages_ru')">📄 Страницы RU</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'pages_en')">📄 Страницы EN</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'pages_es')">📄 Страницы ES</button>
       </div>
     </div>
 
     <div class="xlsx-format-note">
-      <strong>Формат файла:</strong> первая строка — заголовки, далее данные по дням.<br>
-      Обязательные колонки для рекламы: <code>date</code> <code>budget</code> <code>impressions</code> <code>clicks</code> <code>conversions</code> <code>planfix_leads</code><br>
-      Для органики: <code>date</code> <code>impressions</code> <code>clicks</code> <code>bounce</code> <code>conversions</code><br>
-      CTR, CPC, CPL считаются автоматически. <span style="color:#5B8FFF;cursor:pointer" onclick="downloadXlsxTemplate()">Скачать шаблон →</span>
+      <strong>Реклама:</strong> <code>date</code> <code>campaign_name</code> <code>budget</code> <code>impressions</code> <code>clicks</code> <code>conversions</code> <code>planfix_leads</code><br>
+      <strong>Органика:</strong> <code>date</code> <code>impressions</code> <code>clicks</code> <code>bounce</code> <code>conversions</code><br>
+      <strong>Страницы:</strong> <code>url</code> <code>title</code> <code>clicks</code> <code>impressions</code> <code>position</code><br>
+      CTR, CPC, CPL считаются автоматически. <span style="color:#5B8FFF;cursor:pointer" onclick="downloadXlsxTemplate()">Скачать шаблон (10 листов) →</span>
     </div>
 
     <div class="xlsx-drop-zone" id="xlsx-drop-zone"
@@ -2633,7 +2637,9 @@ function showXlsxPreview(rows) {
 function applyXlsxImport() {
   if (!xlsxParsedData || !xlsxParsedData.length) return;
   const isOrganic = xlsxChannel.startsWith('organic_');
-  if (isOrganic) { applyOrganicXlsx(xlsxParsedData, xlsxChannel.split('_')[1]); }
+  const isPages   = xlsxChannel.startsWith('pages_');
+  if (isPages)   { applyPagesXlsx(xlsxParsedData, xlsxChannel.split('_')[1]); }
+  else if (isOrganic) { applyOrganicXlsx(xlsxParsedData, xlsxChannel.split('_')[1]); }
   else { applyAdXlsx(xlsxParsedData, xlsxChannel); }
   saveState();
   renderAll();
@@ -2665,25 +2671,59 @@ function getDateStr(row) {
 }
 
 function applyAdXlsx(rows, ch) {
-  const history = rows.slice(0, 90).map(row => {
-    const budget      = getVal(row,'budget','бюджет','cost','затраты','расход');
-    const impressions = getVal(row,'impressions','показы','impr');
-    const clicks      = getVal(row,'clicks','клики');
-    const conversions = getVal(row,'conversions','конверсии','conv');
-    const planfix     = getVal(row,'planfix','лиды','leads');
-    const ctr  = impressions > 0 ? +(clicks/impressions*100).toFixed(2) : 0;
-    const cpc  = clicks > 0 ? +(budget/clicks).toFixed(2) : 0;
-    const cpl  = conversions > 0 ? +(budget/conversions).toFixed(2) : 0;
-    return { day: getDateStr(row)||String(rows.indexOf(row)+1), clicks, impressions, cpc, cpl, conversions, planfix: planfix||Math.round(conversions*0.6) };
+  // Group by campaign name if column exists
+  const hasCampaign = rows.some(r => Object.keys(r).some(k => normalizeKey(k).includes('campaign')));
+
+  if (hasCampaign) {
+    // Build campaigns list from unique campaign names
+    const campMap = {};
+    rows.forEach(row => {
+      const name = Object.entries(row).find(([k]) => normalizeKey(k).includes('campaign'))?.[1] || 'Кампания';
+      if (!campMap[name]) campMap[name] = { name, budget:0, impressions:0, clicks:0, conversions:0, planfix_leads:0 };
+      campMap[name].budget      += getVal(row,'budget','бюджет','cost','затраты');
+      campMap[name].impressions += getVal(row,'impressions','показы','impr');
+      campMap[name].clicks      += getVal(row,'clicks','клики');
+      campMap[name].conversions += getVal(row,'conversions','конверсии','conv');
+      campMap[name].planfix_leads += getVal(row,'planfix','лиды','leads');
+    });
+    if (!state[ch].campaigns) state[ch].campaigns = [];
+    // Replace campaigns from XLSX
+    state[ch].campaigns = Object.values(campMap).map(c => ({
+      id: uid(), name: c.name,
+      budget: +c.budget.toFixed(2),
+      impressions: Math.round(c.impressions),
+      clicks: Math.round(c.clicks),
+      conversions: Math.round(c.conversions),
+      planfix_leads: Math.round(c.planfix_leads)
+    }));
+  }
+
+  // Build daily history (group by date, sum all campaigns)
+  const dateMap = {};
+  rows.forEach(row => {
+    const d = getDateStr(row) || 'day';
+    if (!dateMap[d]) dateMap[d] = { day:d, clicks:0, impressions:0, budget:0, conversions:0, planfix:0 };
+    dateMap[d].budget      += getVal(row,'budget','бюджет','cost','затраты');
+    dateMap[d].impressions += getVal(row,'impressions','показы','impr');
+    dateMap[d].clicks      += getVal(row,'clicks','клики');
+    dateMap[d].conversions += getVal(row,'conversions','конверсии','conv');
+    dateMap[d].planfix     += getVal(row,'planfix','лиды','leads');
   });
 
+  const history = Object.values(dateMap).slice(0,90).map(d => ({
+    day: d.day,
+    clicks: Math.round(d.clicks),
+    impressions: Math.round(d.impressions),
+    cpc: d.clicks > 0 ? +(d.budget/d.clicks).toFixed(2) : 0,
+    cpl: d.conversions > 0 ? +(d.budget/d.conversions).toFixed(2) : 0,
+    conversions: Math.round(d.conversions),
+    planfix: Math.round(d.planfix) || Math.round(d.conversions*0.6)
+  }));
+
   let totalBudget=0, totalImpr=0, totalClicks=0, totalConv=0, totalPlanfix=0;
-  rows.slice(0,90).forEach(row => {
-    totalBudget  += getVal(row,'budget','бюджет','cost','затраты');
-    totalImpr    += getVal(row,'impressions','показы','impr');
-    totalClicks  += getVal(row,'clicks','клики');
-    totalConv    += getVal(row,'conversions','конверсии','conv');
-    totalPlanfix += getVal(row,'planfix','лиды','leads');
+  Object.values(dateMap).forEach(d => {
+    totalBudget += d.budget; totalImpr += d.impressions;
+    totalClicks += d.clicks; totalConv += d.conversions; totalPlanfix += d.planfix;
   });
 
   const ctr = totalImpr > 0 ? +(totalClicks/totalImpr*100).toFixed(2) : 0;
@@ -2691,12 +2731,29 @@ function applyAdXlsx(rows, ch) {
   const cpl = totalConv > 0 ? +(totalBudget/totalConv).toFixed(2) : 0;
 
   state[ch] = { ...state[ch],
-    budget: +totalBudget.toFixed(2), impressions: totalImpr, clicks: totalClicks,
-    ctr, cpc, conversions: Math.round(totalConv), cpl,
+    budget: +totalBudget.toFixed(2), impressions: Math.round(totalImpr),
+    clicks: Math.round(totalClicks), ctr, cpc,
+    conversions: Math.round(totalConv), cpl,
     planfix_leads: Math.round(totalPlanfix), history,
     lastXlsxImport: new Date().toISOString()
   };
   state.lastUpdated[ch] = new Date().toLocaleString('ru') + ' (XLSX)';
+}
+
+function applyPagesXlsx(rows, lang) {
+  // Import pages: url, title, clicks, impressions, position
+  const pages = rows.map(row => {
+    const url   = Object.entries(row).find(([k]) => normalizeKey(k).includes('url'))?.[1] || '';
+    const title = Object.entries(row).find(([k]) => normalizeKey(k).includes('title') || normalizeKey(k).includes('название') || normalizeKey(k).includes('name'))?.[1] || url;
+    const clicks      = getVal(row,'clicks','клики');
+    const impressions = getVal(row,'impressions','показы');
+    const pos         = getVal(row,'position','позиция','pos','rank') || 0;
+    return { url: String(url), title: String(title), clicks: Math.round(clicks), impressions: Math.round(impressions), pos: +pos };
+  }).filter(p => p.url || p.title);
+
+  if (!state.organic[lang]) state.organic[lang] = {};
+  state.organic[lang].pages = pages;
+  state.lastUpdated['organic_'+lang] = new Date().toLocaleString('ru') + ' (XLSX)';
 }
 
 function applyOrganicXlsx(rows, lang) {
@@ -2726,32 +2783,100 @@ function applyOrganicXlsx(rows, lang) {
 
 function downloadXlsxTemplate() {
   const wb = XLSX.utils.book_new();
+
+  // Ad channels template — with campaign name
   const adData = [
-    ['date','budget','impressions','clicks','conversions','planfix_leads'],
-    ['2026-01-01',500,15000,280,6,4],['2026-01-02',520,16200,295,7,5],
-    ['2026-01-03',480,14800,260,5,3],['2026-01-04',510,15500,275,6,4],
-    ['2026-01-05',530,16800,310,8,5],['2026-01-06',490,15100,270,6,4],
-    ['2026-01-07',500,15300,280,7,5],
+    ['date','campaign_name','budget','impressions','clicks','conversions','planfix_leads'],
+    ['2026-01-01','BiXBiT — Поиск RU',500,15000,280,6,4],
+    ['2026-01-01','BiXBiT — Поиск EN',300,9000,180,4,3],
+    ['2026-01-01','BiXBiT — Ремаркетинг',200,6000,100,2,1],
+    ['2026-01-02','BiXBiT — Поиск RU',520,16200,295,7,5],
+    ['2026-01-02','BiXBiT — Поиск EN',310,9800,185,4,3],
+    ['2026-01-02','BiXBiT — Ремаркетинг',210,6400,110,3,2],
+    ['2026-01-03','BiXBiT — Поиск RU',480,14800,260,5,3],
+    ['2026-01-03','BiXBiT — Поиск EN',290,8900,170,3,2],
+    ['2026-01-03','BiXBiT — Ремаркетинг',190,5800,95,2,1],
   ];
   ['Google_Ads','Yandex','A-ADS','LinkedIn'].forEach(ch => {
     const ws = XLSX.utils.aoa_to_sheet(adData);
-    ws['!cols'] = [{wch:12},{wch:10},{wch:14},{wch:10},{wch:14},{wch:14}];
+    ws['!cols'] = [{wch:12},{wch:24},{wch:10},{wch:14},{wch:10},{wch:14},{wch:14}];
     XLSX.utils.book_append_sheet(wb, ws, ch);
   });
-  const orgData = [
+
+  // Organic traffic template — metrics by day
+  const orgMetricsData = [
     ['date','impressions','clicks','bounce','conversions','time_minutes'],
-    ['2026-01-01',900,120,42,3,2.5],['2026-01-02',950,135,40,4,2.8],
-    ['2026-01-03',880,115,44,3,2.3],['2026-01-04',920,125,41,3,2.6],
-    ['2026-01-05',980,140,39,5,3.1],['2026-01-06',860,110,45,2,2.2],
+    ['2026-01-01',900,120,42,3,2.5],
+    ['2026-01-02',950,135,40,4,2.8],
+    ['2026-01-03',880,115,44,3,2.3],
+    ['2026-01-04',920,125,41,3,2.6],
+    ['2026-01-05',980,140,39,5,3.1],
+    ['2026-01-06',860,110,45,2,2.2],
     ['2026-01-07',910,120,43,3,2.4],
   ];
-  ['Organic_RU','Organic_EN','Organic_ES'].forEach(lang => {
-    const ws = XLSX.utils.aoa_to_sheet(orgData);
+  ['Organic_RU_metrics','Organic_EN_metrics','Organic_ES_metrics'].forEach(lang => {
+    const ws = XLSX.utils.aoa_to_sheet(orgMetricsData);
     ws['!cols'] = [{wch:12},{wch:14},{wch:10},{wch:10},{wch:14},{wch:14}];
     XLSX.utils.book_append_sheet(wb, ws, lang);
   });
+
+  // Organic pages template — top pages with positions
+  const orgPagesData = [
+    ['url','title','clicks','impressions','position'],
+    ['/ru/','Главная',820,8200,2.1],
+    ['/ru/asic-miners/','ASIC-майнеры',540,4100,3.4],
+    ['/ru/hosting/','Хостинг майнинг',380,3200,5.1],
+    ['/ru/repair/','Ремонт ASIC',290,2800,4.7],
+    ['/ru/blog/','Блог',240,2100,6.2],
+    ['/ru/catalog/','Каталог оборудования',195,1900,7.8],
+    ['/ru/about/','О компании',154,1600,9.1],
+    ['/ru/contacts/','Контакты',120,1200,8.4],
+    ['/ru/blog/profitability/','Рентабельность майнинга',98,980,11.2],
+    ['/ru/delivery/','Доставка',76,860,12.3],
+  ];
+  const orgPagesEN = [
+    ['url','title','clicks','impressions','position'],
+    ['/','Home',680,5400,3.2],
+    ['/asic-miners/','ASIC Miners',420,3100,4.1],
+    ['/hosting/','Mining Hosting',290,2400,5.8],
+    ['/blog/','Blog',195,1800,7.2],
+    ['/repair/','ASIC Repair',148,1400,6.9],
+    ['/catalog/','Catalog',120,1200,9.4],
+    ['/about/','About Us',98,980,11.2],
+    ['/contacts/','Contacts',76,760,10.8],
+    ['/blog/roi/','Mining ROI Calculator',62,640,13.1],
+    ['/delivery/','Shipping',48,520,14.2],
+  ];
+  const orgPagesES = [
+    ['url','title','clicks','impressions','position'],
+    ['/es/','Inicio',280,2200,4.8],
+    ['/es/mineros-asic/','Mineros ASIC',185,1400,6.2],
+    ['/es/hosting/','Hosting Minería',120,980,8.4],
+    ['/es/blog/','Blog',85,720,11.2],
+    ['/es/reparacion/','Reparación ASIC',68,580,9.8],
+    ['/es/catalogo/','Catálogo',52,460,13.4],
+    ['/es/sobre/','Sobre Nosotros',38,340,15.1],
+    ['/es/contactos/','Contactos',28,280,14.7],
+    ['/es/blog/rentabilidad/','Rentabilidad',22,220,18.2],
+    ['/es/entrega/','Envío',18,180,19.4],
+  ];
+
+  const pagesColWidths = [{wch:30},{wch:28},{wch:10},{wch:14},{wch:12}];
+
+  const wsRU = XLSX.utils.aoa_to_sheet(orgPagesData);
+  wsRU['!cols'] = pagesColWidths;
+  XLSX.utils.book_append_sheet(wb, wsRU, 'Pages_RU');
+
+  const wsEN = XLSX.utils.aoa_to_sheet(orgPagesEN);
+  wsEN['!cols'] = pagesColWidths;
+  XLSX.utils.book_append_sheet(wb, wsEN, 'Pages_EN');
+
+  const wsES = XLSX.utils.aoa_to_sheet(orgPagesES);
+  wsES['!cols'] = pagesColWidths;
+  XLSX.utils.book_append_sheet(wb, wsES, 'Pages_ES');
+
   XLSX.writeFile(wb, 'bixbit-dashboard-template.xlsx');
-  showToast('Шаблон скачан');
+  showToast('Шаблон скачан — 10 листов');
 }
 
 document.addEventListener('DOMContentLoaded', () => {
