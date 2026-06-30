@@ -1728,22 +1728,51 @@ function genOrgHistory(baseClicks, baseImpr, baseBounce) {
 
 let state = JSON.parse(JSON.stringify(defaultData));
 
+// Deep merge: for each key, if both sides are plain objects, merge recursively;
+// otherwise the right-hand value wins. This prevents partial remote payloads
+// from wiping out sibling fields (e.g. {budget:100} overwriting the whole
+// channel object and losing clicks/cpl/campaigns/etc that were already there).
+function deepMerge(base, incoming) {
+  if (incoming === null || incoming === undefined) return base;
+  if (typeof incoming !== 'object' || Array.isArray(incoming)) return incoming;
+  const result = { ...base };
+  Object.keys(incoming).forEach(key => {
+    if (
+      result[key] && typeof result[key] === 'object' && !Array.isArray(result[key]) &&
+      incoming[key] && typeof incoming[key] === 'object' && !Array.isArray(incoming[key])
+    ) {
+      result[key] = deepMerge(result[key], incoming[key]);
+    } else {
+      result[key] = incoming[key];
+    }
+  });
+  return result;
+}
+
 async function loadState() {
   // 1. Load from localStorage instantly
   try {
     const saved = localStorage.getItem(STORE_KEY);
-    if (saved) state = { ...JSON.parse(JSON.stringify(defaultData)), ...JSON.parse(saved) };
+    if (saved) state = deepMerge(JSON.parse(JSON.stringify(defaultData)), JSON.parse(saved));
   } catch(e) {}
-  // 2. Override with Supabase if connected
+  // 2. Override with Supabase if connected — but only if remote data is newer
+  //    than what we have locally, to avoid a slightly-stale remote payload
+  //    silently wiping out edits that haven't finished syncing yet.
   if (!sbReady) return;
   try {
     const { data, error } = await _sb
       .from('dashboard_state')
-      .select('payload')
+      .select('payload, updated_at')
       .eq('project', 'bixbit')
       .maybeSingle();
     if (!error && data?.payload) {
-      state = { ...JSON.parse(JSON.stringify(defaultData)), ...data.payload };
+      const localUpdatedAt = state.__lastSavedAt ? new Date(state.__lastSavedAt).getTime() : 0;
+      const remoteUpdatedAt = data.updated_at ? new Date(data.updated_at).getTime() : 0;
+      if (remoteUpdatedAt >= localUpdatedAt) {
+        state = deepMerge(JSON.parse(JSON.stringify(defaultData)), data.payload);
+      } else {
+        console.log('Local data is newer than remote — keeping local, will re-sync on next save.');
+      }
     }
   } catch(e) { console.warn('Supabase load failed:', e); }
 }
@@ -1755,13 +1784,14 @@ async function saveState() {
     if (!state.periods) state.periods = {};
     state.periods[activePeriodKey] = snapshotCurrentPeriodData();
   }
+  state.__lastSavedAt = new Date().toISOString();
   try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {}
   if (!sbReady) { showToast('Сохранено локально'); return; }
   try {
     const { error } = await _sb
       .from('dashboard_state')
       .upsert(
-        { project: 'bixbit', payload: state, updated_at: new Date().toISOString() },
+        { project: 'bixbit', payload: state, updated_at: state.__lastSavedAt },
         { onConflict: 'project' }
       );
     if (error) throw error;
@@ -2588,6 +2618,18 @@ function saveModalData() {
       const v = parseFloat(inp.value);
       if (!isNaN(v)) state[currentModalChannel][m.key] = v;
     });
+
+    // Auto-recalculate CTR/CPC/CPL from budget/impressions/clicks/conversions
+    // so the modal behaves the same way the campaign table does — manual entry
+    // of derived metrics is easy to forget and leads to stale $0.0 values.
+    const ch = state[currentModalChannel];
+    const budget = parseFloat(ch.budget) || 0;
+    const impressions = parseFloat(ch.impressions) || 0;
+    const clicks = parseFloat(ch.clicks) || 0;
+    const conversions = parseFloat(ch.conversions) || 0;
+    ch.ctr = impressions > 0 ? +(clicks/impressions*100).toFixed(2) : 0;
+    ch.cpc = clicks > 0 ? +(budget/clicks).toFixed(2) : 0;
+    ch.cpl = conversions > 0 ? +(budget/conversions).toFixed(2) : 0;
 
     // Parse history
     const hClicks = document.getElementById('field-history-clicks')?.value.split(',').map(Number).filter(n=>!isNaN(n));
