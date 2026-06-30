@@ -581,6 +581,26 @@ body {
   display: flex; align-items: center; gap: 8px;
 }
 #compare-banner:empty { display: none; }
+
+/* PERIOD STATUS BANNER */
+#period-status-banner {
+  padding: 6px 24px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#period-status-banner:empty { display: none; }
+.period-status-saved {
+  background: rgba(29,185,84,0.08);
+  border-bottom: 1px solid rgba(29,185,84,0.2);
+  color: #1DB954;
+}
+.period-status-new {
+  background: rgba(245,166,35,0.08);
+  border-bottom: 1px solid rgba(245,166,35,0.25);
+  color: #F5A623;
+}
 .delta-up { color: #1DB954; }
 .delta-down { color: #E84040; }
 .delta-neu { color: #555; }
@@ -986,8 +1006,8 @@ td.del-col { width: 32px; text-align: center; }
         <button class="date-btn" onclick="setRange(this,'MTD')">Мес</button>
         <button class="date-btn" onclick="setRange(this,'YTD')">Год</button>
       </div>
-      <input type="date" id="date-from" class="form-input" style="width:130px;padding:5px 8px">
-      <input type="date" id="date-to" class="form-input" style="width:130px;padding:5px 8px">
+      <input type="date" id="date-from" class="form-input" style="width:130px;padding:5px 8px" onchange="handleManualDateChange()">
+      <input type="date" id="date-to" class="form-input" style="width:130px;padding:5px 8px" onchange="handleManualDateChange()">
       <div class="compare-wrap">
         <button class="btn-compare" id="btn-compare-toggle" onclick="toggleComparePanel()">
           <span id="compare-label">≈ Сравнение</span>
@@ -1017,6 +1037,7 @@ td.del-col { width: 32px; text-align: center; }
     </div>
   </div>
   <div id="compare-banner"></div>
+  <div id="period-status-banner"></div>
 
   <div class="content">
 
@@ -1728,6 +1749,12 @@ async function loadState() {
 }
 
 async function saveState() {
+  // Keep the periods archive in sync with whatever is currently active,
+  // so data isn't lost even if the page closes before switching periods.
+  if (activePeriodKey) {
+    if (!state.periods) state.periods = {};
+    state.periods[activePeriodKey] = snapshotCurrentPeriodData();
+  }
   try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {}
   if (!sbReady) { showToast('Сохранено локально'); return; }
   try {
@@ -1742,6 +1769,105 @@ async function saveState() {
   } catch(e) {
     console.warn('Supabase save error:', e);
     showToast('Сохранено локально');
+  }
+}
+
+// ========================================
+// PERIOD STORAGE — keeps per-period data so switching dates
+// doesn't silently overwrite what you entered for another period.
+// state.periods = { "2026-01-01|2026-01-31": { google:{...}, yandex:{...}, ..., organic:{...} }, ... }
+// state.google / state.yandex / state.organic always reflect the CURRENTLY ACTIVE period.
+// ========================================
+const CHANNEL_KEYS = ['google','yandex','aads','linkedin','organic'];
+
+function periodKey(from, to) {
+  return `${from || 'nodate'}|${to || 'nodate'}`;
+}
+
+function snapshotCurrentPeriodData() {
+  const data = {};
+  CHANNEL_KEYS.forEach(k => { data[k] = JSON.parse(JSON.stringify(state[k])); });
+  return data;
+}
+
+function applyPeriodData(data) {
+  CHANNEL_KEYS.forEach(k => { state[k] = JSON.parse(JSON.stringify(data[k])); });
+}
+
+let activePeriodKey = null;
+
+// Called whenever the date inputs change (manually or via quick-range buttons).
+// 1. Archives whatever is currently in state.google/yandex/... under the OLD period key.
+// 2. Looks up the NEW period key — if data exists, loads it; otherwise starts fresh (zeroed) data
+//    so old numbers from a different period never silently appear under a new one.
+function switchToPeriod(newFrom, newTo) {
+  if (!state.periods) state.periods = {};
+
+  const newKey = periodKey(newFrom, newTo);
+
+  // Archive current data under the period we're leaving (if any period was active)
+  if (activePeriodKey && activePeriodKey !== newKey) {
+    state.periods[activePeriodKey] = snapshotCurrentPeriodData();
+  }
+
+  if (newKey === activePeriodKey) {
+    // Same period re-selected, nothing to do
+    return;
+  }
+
+  if (state.periods[newKey]) {
+    // Returning to a period we've seen before — restore its data
+    applyPeriodData(state.periods[newKey]);
+    showToast('Загружен период: ' + newFrom + ' — ' + newTo);
+  } else {
+    // Brand new period — start from zeroed values so it's obviously empty,
+    // never accidentally showing numbers that belong to a different period.
+    CHANNEL_KEYS.forEach(k => {
+      if (k === 'organic') {
+        ['ru','en','es'].forEach(lang => {
+          state.organic[lang] = {
+            ...JSON.parse(JSON.stringify(defaultData.organic[lang])),
+            impressions:0, clicks:0, conversions:0, bounce:0, time_on_site:'0:00',
+            history: state.organic[lang].history.map(h => ({...h, clicks:0, impressions:0, bounce:0, time:0})),
+            pages: state.organic[lang].pages // keep page list, just metrics reset on ad channels
+          };
+        });
+      } else {
+        state[k] = {
+          ...JSON.parse(JSON.stringify(defaultData[k])),
+          budget:0, impressions:0, clicks:0, ctr:0, cpc:0, conversions:0, cpl:0, planfix_leads:0,
+          campaigns: [],
+          history: state[k].history.map(h => ({...h, clicks:0, impressions:0, cpc:0, cpl:0, conversions:0, planfix:0}))
+        };
+      }
+    });
+    showToast('Новый период — данные пустые, начни вводить');
+  }
+
+  activePeriodKey = newKey;
+  state.lastActivePeriodKey = newKey;
+  saveState();
+  renderAll();
+}
+
+function updatePeriodStatusBanner() {
+  const banner = document.getElementById('period-status-banner');
+  if (!banner) return;
+  const from = document.getElementById('date-from').value;
+  const to = document.getElementById('date-to').value;
+  if (!from || !to) { banner.innerHTML = ''; return; }
+
+  const hasData = state[CHANNEL_KEYS[0]] && (
+    parseFloat(state.google.budget) > 0 || parseFloat(state.google.clicks) > 0 ||
+    (state.google.campaigns && state.google.campaigns.length > 0)
+  );
+
+  if (hasData) {
+    banner.className = 'period-status-saved';
+    banner.innerHTML = `<span>✓</span> Период <strong>${from} — ${to}</strong> — данные сохранены`;
+  } else {
+    banner.className = 'period-status-new';
+    banner.innerHTML = `<span>⚠</span> Период <strong>${from} — ${to}</strong> — новый, данные ещё не введены`;
   }
 }
 
@@ -2316,6 +2442,7 @@ function renderAll() {
   renderOrganicLang('ru');
   renderOrganicLang('en');
   renderOrganicLang('es');
+  if (typeof updatePeriodStatusBanner === 'function') updatePeriodStatusBanner();
 }
 
 // ========================================
@@ -2360,8 +2487,19 @@ function setRange(btn, range) {
     case 'MTD': from = new Date(now.getFullYear(), now.getMonth(), 1); break;
     case 'YTD': from = new Date(now.getFullYear(), 0, 1); break;
   }
-  document.getElementById('date-from').value = from.toISOString().slice(0,10);
-  document.getElementById('date-to').value = now.toISOString().slice(0,10);
+  const newFrom = from.toISOString().slice(0,10);
+  const newTo = now.toISOString().slice(0,10);
+  document.getElementById('date-from').value = newFrom;
+  document.getElementById('date-to').value = newTo;
+  switchToPeriod(newFrom, newTo);
+}
+
+function handleManualDateChange() {
+  const from = document.getElementById('date-from').value;
+  const to = document.getElementById('date-to').value;
+  if (!from || !to) return;
+  document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+  switchToPeriod(from, to);
 }
 
 // ========================================
@@ -3031,8 +3169,21 @@ window.addEventListener('load', async () => {
   await loadState();
   await loadSnapshots();
   refreshSnapshotUI();
+
+  // Restore which period was active last time, or initialize it from
+  // the current date inputs WITHOUT wiping the data we just loaded.
+  const startFrom = document.getElementById('date-from').value;
+  const startTo = document.getElementById('date-to').value;
+  activePeriodKey = state.lastActivePeriodKey || periodKey(startFrom, startTo);
+  if (!state.periods) state.periods = {};
+  // Make sure the period we're starting on has a saved snapshot pointing at
+  // the data we just loaded, so switching away and back works correctly.
+  if (!state.periods[activePeriodKey]) {
+    state.periods[activePeriodKey] = snapshotCurrentPeriodData();
+  }
+
   renderAll();
-  setRange(document.querySelector('.date-btn.active'), '7D');
+
   const wh = localStorage.getItem('bixbit_webhook');
   if (wh && document.getElementById('webhook-url')) {
     document.getElementById('webhook-url').value = wh;
