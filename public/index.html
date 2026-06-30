@@ -2040,6 +2040,11 @@ function recalcChannelFromCampaigns(ch) {
   // Re-render top metric cards for this channel only (cheap, no chart rebuild)
   const prevData = getCompareData(ch, null);
   renderMetrics(ch + '-metrics', state[ch], adMetrics, prevData);
+
+  // If the Overview tab happens to be visible right now, keep it live too —
+  // otherwise it would show stale totals until the user clicks away and back.
+  const overviewTab = document.getElementById('tab-overview');
+  if (overviewTab && overviewTab.classList.contains('active')) renderOverview();
 }
 
 function saveCamps(ch) { saveState(); }
@@ -2490,6 +2495,11 @@ function switchTab(id) {
   document.getElementById('tab-'+id).classList.add('active');
   document.querySelectorAll('.nav-item')[['google','yandex','aads','linkedin','overview','organic','api'].indexOf(id)].classList.add('active');
   document.getElementById('tab-title').textContent = tabTitles[id] || id;
+
+  // Overview aggregates data from all channels — re-render it fresh every time
+  // it's opened, since editing a campaign table only updates that channel's
+  // own cards in place and never touches the Overview tab's cached HTML.
+  if (id === 'overview') renderOverview();
 }
 
 // ========================================
