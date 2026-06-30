@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <style>
 :root {
   --primary: #0040DD;
@@ -824,8 +825,70 @@ td.del-col { width: 32px; text-align: center; }
 .org-cell:focus { background: rgba(0,64,221,0.08); color: #fff; }
 .rank-cell { width: 32px; padding: 8px 10px; color: var(--text-dim); font-size: 11px; text-align: center; }
 
-/* SCROLLBAR */
-::-webkit-scrollbar { width: 5px; }
+/* XLSX IMPORT */
+.xlsx-modal { width: 620px; }
+.xlsx-drop-zone {
+  border: 2px dashed var(--border);
+  border-radius: 8px;
+  padding: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 16px;
+}
+.xlsx-drop-zone:hover, .xlsx-drop-zone.drag-over {
+  border-color: var(--primary);
+  background: rgba(0,64,221,0.05);
+}
+.xlsx-drop-icon { font-size: 32px; margin-bottom: 8px; }
+.xlsx-drop-text { font-size: 13px; color: var(--text-muted); }
+.xlsx-drop-sub { font-size: 11px; color: var(--text-dim); margin-top: 4px; }
+.xlsx-preview {
+  background: #0D0D0D;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 16px;
+  max-height: 200px;
+  overflow-y: auto;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  display: none;
+}
+.xlsx-channel-select {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.xlsx-ch-btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  background: var(--bg-card2);
+  color: var(--text-muted);
+  font-size: 12px;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  transition: all 0.15s;
+  text-align: left;
+}
+.xlsx-ch-btn.selected {
+  border-color: var(--primary);
+  background: rgba(0,64,221,0.12);
+  color: #5B8FFF;
+}
+.xlsx-format-note {
+  font-size: 11px;
+  color: var(--text-dim);
+  line-height: 1.7;
+  background: rgba(255,255,255,0.03);
+  border-radius: 5px;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+}
+.xlsx-format-note code { color: #7DD3FC; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #444; }
@@ -947,6 +1010,9 @@ td.del-col { width: 32px; text-align: center; }
         </div>
       </div>
       <button class="btn-primary" onclick="openBulkEdit()">✏ Ввод данных</button>
+      <button class="btn-ghost" onclick="triggerXlsxImport()">📥 Импорт XLSX</button>
+      <input type="file" id="xlsx-file-input" accept=".xlsx,.xls,.csv" style="display:none" onchange="handleXlsxImport(event)">
+      <button class="btn-ghost" onclick="downloadXlsxTemplate()">📋 Шаблон</button>
       <button class="btn-ghost" onclick="exportData()">↓ Экспорт</button>
     </div>
   </div>
@@ -1402,6 +1468,56 @@ X-Planfix-Token: {planfix_token}</pre>
   </div><!-- /content -->
 </div><!-- /main -->
 
+<!-- XLSX IMPORT MODAL -->
+<div class="modal-overlay" id="xlsx-modal">
+  <div class="modal xlsx-modal">
+    <div class="modal-title">
+      <span>📥 Импорт данных из XLSX</span>
+      <button class="modal-close" onclick="closeXlsxModal()">✕</button>
+    </div>
+
+    <div style="margin-bottom:12px">
+      <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:0.06em">Выбери канал</div>
+      <div class="xlsx-channel-select">
+        <button class="xlsx-ch-btn selected" onclick="selectXlsxChannel(this,'google')">🔵 Google Ads</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'yandex')">🔴 Яндекс Директ</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'aads')">🟡 A-ADS</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'linkedin')">🔷 LinkedIn Ads</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'organic_ru')">🟢 Органика RU</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'organic_en')">🟢 Органика EN</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'organic_es')">🟢 Органика ES</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'pages_ru')">📄 Страницы RU</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'pages_en')">📄 Страницы EN</button>
+        <button class="xlsx-ch-btn" onclick="selectXlsxChannel(this,'pages_es')">📄 Страницы ES</button>
+      </div>
+    </div>
+
+    <div class="xlsx-format-note">
+      <strong>Реклама:</strong> <code>date</code> <code>campaign_name</code> <code>budget</code> <code>impressions</code> <code>clicks</code> <code>conversions</code> <code>planfix_leads</code><br>
+      <strong>Органика:</strong> <code>date</code> <code>impressions</code> <code>clicks</code> <code>bounce</code> <code>conversions</code><br>
+      <strong>Страницы:</strong> <code>url</code> <code>title</code> <code>clicks</code> <code>impressions</code> <code>position</code><br>
+      CTR, CPC, CPL считаются автоматически. <span style="color:#5B8FFF;cursor:pointer" onclick="downloadXlsxTemplate()">Скачать шаблон (10 листов) →</span>
+    </div>
+
+    <div class="xlsx-drop-zone" id="xlsx-drop-zone"
+      onclick="document.getElementById('xlsx-file-input').click()"
+      ondragover="event.preventDefault();this.classList.add('drag-over')"
+      ondragleave="this.classList.remove('drag-over')"
+      ondrop="handleXlsxDrop(event)">
+      <div class="xlsx-drop-icon">📂</div>
+      <div class="xlsx-drop-text">Перетащи XLSX файл или нажми для выбора</div>
+      <div class="xlsx-drop-sub">.xlsx, .xls, .csv — до 10MB</div>
+    </div>
+
+    <div class="xlsx-preview" id="xlsx-preview"></div>
+
+    <div style="display:flex;gap:10px;justify-content:flex-end">
+      <button class="btn-ghost" onclick="closeXlsxModal()">Отмена</button>
+      <button class="btn-primary" id="xlsx-import-btn" onclick="applyXlsxImport()" disabled style="opacity:0.5">📥 Импортировать</button>
+    </div>
+  </div>
+</div>
+
 <!-- BULK EDIT MODAL -->
 <div class="modal-overlay" id="bulk-modal">
   <div class="modal">
@@ -1719,13 +1835,43 @@ function updateCamp(ch, id, field, val) {
   camp[field] = field === 'name' ? val : (parseFloat(val) || 0);
   // Refresh auto cells in this row only
   const tr = document.querySelector(`#camp-${ch}-body tr[data-id="${id}"]`);
-  if (!tr) return;
-  const auto = calcCampaignAuto(camp);
-  const cells = tr.querySelectorAll('.camp-cell');
-  // cells indices: 0=name,1=budget,2=impressions,3=clicks,4=ctr(auto),5=cpc(auto),6=conv,7=cpl(auto),8=planfix
-  cells[4].value = auto.ctr !== '—' ? auto.ctr+'%' : '—';
-  cells[5].value = auto.cpc !== '—' ? '$'+auto.cpc : '—';
-  cells[7].value = auto.cpl !== '—' ? '$'+auto.cpl : '—';
+  if (tr) {
+    const auto = calcCampaignAuto(camp);
+    const cells = tr.querySelectorAll('.camp-cell');
+    // cells indices: 0=name,1=budget,2=impressions,3=clicks,4=ctr(auto),5=cpc(auto),6=conv,7=cpl(auto),8=planfix
+    cells[4].value = auto.ctr !== '—' ? auto.ctr+'%' : '—';
+    cells[5].value = auto.cpc !== '—' ? '$'+auto.cpc : '—';
+    cells[7].value = auto.cpl !== '—' ? '$'+auto.cpl : '—';
+  }
+  // Recalculate channel totals from all campaigns and refresh top metric cards
+  recalcChannelFromCampaigns(ch);
+}
+
+function recalcChannelFromCampaigns(ch) {
+  const camps = state[ch].campaigns || [];
+  if (!camps.length) return;
+
+  const totals = camps.reduce((acc, c) => {
+    acc.budget       += parseFloat(c.budget) || 0;
+    acc.impressions  += parseFloat(c.impressions) || 0;
+    acc.clicks       += parseFloat(c.clicks) || 0;
+    acc.conversions  += parseFloat(c.conversions) || 0;
+    acc.planfix_leads+= parseFloat(c.planfix_leads) || 0;
+    return acc;
+  }, { budget:0, impressions:0, clicks:0, conversions:0, planfix_leads:0 });
+
+  state[ch].budget       = +totals.budget.toFixed(2);
+  state[ch].impressions  = Math.round(totals.impressions);
+  state[ch].clicks       = Math.round(totals.clicks);
+  state[ch].conversions  = Math.round(totals.conversions);
+  state[ch].planfix_leads= Math.round(totals.planfix_leads);
+  state[ch].ctr = totals.impressions > 0 ? +(totals.clicks/totals.impressions*100).toFixed(2) : 0;
+  state[ch].cpc = totals.clicks > 0 ? +(totals.budget/totals.clicks).toFixed(2) : 0;
+  state[ch].cpl = totals.conversions > 0 ? +(totals.budget/totals.conversions).toFixed(2) : 0;
+
+  // Re-render top metric cards for this channel only (cheap, no chart rebuild)
+  const prevData = getCompareData(ch, null);
+  renderMetrics(ch + '-metrics', state[ch], adMetrics, prevData);
 }
 
 function saveCamps(ch) { saveState(); }
@@ -1734,12 +1880,14 @@ function addCampRow(ch) {
   if (!state[ch].campaigns) state[ch].campaigns = [];
   state[ch].campaigns.push({ id: uid(), name:'Новая кампания', budget:0, impressions:0, clicks:0, conversions:0, planfix_leads:0 });
   renderCampaignTable(ch);
+  recalcChannelFromCampaigns(ch);
   saveCamps(ch);
 }
 
 function deleteCamp(ch, id) {
   state[ch].campaigns = state[ch].campaigns.filter(c => c.id !== id);
   renderCampaignTable(ch);
+  recalcChannelFromCampaigns(ch);
   saveCamps(ch);
 }
 
@@ -2447,6 +2595,328 @@ function updateCompareBanner() {
   banner.innerHTML = `<span>▤</span> Сравнение: <strong>${from} — ${to}</strong> vs <strong>${cmpLabel}</strong>`;
 }
 
+
+// ========================================
+// XLSX IMPORT SYSTEM
+// ========================================
+let xlsxParsedData = null;
+let xlsxChannel = 'google';
+
+function triggerXlsxImport() {
+  document.getElementById('xlsx-modal').classList.add('open');
+}
+
+function closeXlsxModal() {
+  document.getElementById('xlsx-modal').classList.remove('open');
+  xlsxParsedData = null;
+  document.getElementById('xlsx-preview').style.display = 'none';
+  document.getElementById('xlsx-preview').innerHTML = '';
+  const btn = document.getElementById('xlsx-import-btn');
+  btn.disabled = true; btn.style.opacity = '0.5';
+}
+
+function selectXlsxChannel(el, ch) {
+  document.querySelectorAll('.xlsx-ch-btn').forEach(b => b.classList.remove('selected'));
+  el.classList.add('selected');
+  xlsxChannel = ch;
+}
+
+function handleXlsxDrop(e) {
+  e.preventDefault();
+  document.getElementById('xlsx-drop-zone').classList.remove('drag-over');
+  const file = e.dataTransfer.files[0];
+  if (file) parseXlsxFile(file);
+}
+
+function handleXlsxImport(e) {
+  const file = e.target.files[0];
+  if (file) parseXlsxFile(file);
+  e.target.value = '';
+}
+
+function parseXlsxFile(file) {
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = new Uint8Array(e.target.result);
+      const workbook = XLSX.read(data, { type: 'array', cellDates: true });
+      const sheet = workbook.Sheets[workbook.SheetNames[0]];
+      const rows = XLSX.utils.sheet_to_json(sheet, { defval: 0 });
+      if (!rows.length) { showToast('Файл пустой или неверный формат'); return; }
+      xlsxParsedData = rows;
+      showXlsxPreview(rows);
+      const btn = document.getElementById('xlsx-import-btn');
+      btn.disabled = false; btn.style.opacity = '1';
+    } catch(err) { showToast('Ошибка чтения файла: ' + err.message); }
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function showXlsxPreview(rows) {
+  const preview = document.getElementById('xlsx-preview');
+  preview.style.display = 'block';
+  const headers = Object.keys(rows[0]);
+  const sample = rows.slice(0, 5);
+  let html = `<div style="color:#5B8FFF;margin-bottom:6px">✓ Загружено строк: ${rows.length} | Колонки: ${headers.join(', ')}</div>`;
+  html += `<table style="width:100%;border-collapse:collapse">`;
+  html += `<tr>${headers.map(h=>`<th style="padding:3px 6px;border-bottom:1px solid #333;color:#666;text-align:left">${h}</th>`).join('')}</tr>`;
+  sample.forEach(row => { html += `<tr>${headers.map(h=>`<td style="padding:3px 6px;border-bottom:1px solid #1a1a1a">${row[h]}</td>`).join('')}</tr>`; });
+  if (rows.length > 5) html += `<tr><td colspan="${headers.length}" style="padding:4px 6px;color:#555">... ещё ${rows.length-5} строк</td></tr>`;
+  html += '</table>';
+  preview.innerHTML = html;
+}
+
+function applyXlsxImport() {
+  if (!xlsxParsedData || !xlsxParsedData.length) return;
+  const isOrganic = xlsxChannel.startsWith('organic_');
+  const isPages   = xlsxChannel.startsWith('pages_');
+  if (isPages)   { applyPagesXlsx(xlsxParsedData, xlsxChannel.split('_')[1]); }
+  else if (isOrganic) { applyOrganicXlsx(xlsxParsedData, xlsxChannel.split('_')[1]); }
+  else { applyAdXlsx(xlsxParsedData, xlsxChannel); }
+  saveState();
+  renderAll();
+  closeXlsxModal();
+  showToast(`Импортировано ${xlsxParsedData.length} строк → ${xlsxChannel}`);
+}
+
+function normalizeKey(k) {
+  return String(k).toLowerCase().trim().replace(/\s+/g,'_').replace(/[^a-z0-9_]/g,'');
+}
+
+function getVal(row, ...keys) {
+  for (const k of Object.keys(row)) {
+    const nk = normalizeKey(k);
+    for (const key of keys) { if (nk === key || nk.includes(key)) return parseFloat(row[k]) || 0; }
+  }
+  return 0;
+}
+
+function getDateStr(row) {
+  for (const k of Object.keys(row)) {
+    if (normalizeKey(k).includes('date') || normalizeKey(k).includes('дата')) {
+      const v = row[k];
+      if (v instanceof Date) return v.toLocaleDateString('ru',{day:'2-digit',month:'2-digit'});
+      return String(v).slice(0,10);
+    }
+  }
+  return '';
+}
+
+function applyAdXlsx(rows, ch) {
+  // Group by campaign name if column exists
+  const hasCampaign = rows.some(r => Object.keys(r).some(k => normalizeKey(k).includes('campaign')));
+
+  if (hasCampaign) {
+    // Build campaigns list from unique campaign names
+    const campMap = {};
+    rows.forEach(row => {
+      const name = Object.entries(row).find(([k]) => normalizeKey(k).includes('campaign'))?.[1] || 'Кампания';
+      if (!campMap[name]) campMap[name] = { name, budget:0, impressions:0, clicks:0, conversions:0, planfix_leads:0 };
+      campMap[name].budget      += getVal(row,'budget','бюджет','cost','затраты');
+      campMap[name].impressions += getVal(row,'impressions','показы','impr');
+      campMap[name].clicks      += getVal(row,'clicks','клики');
+      campMap[name].conversions += getVal(row,'conversions','конверсии','conv');
+      campMap[name].planfix_leads += getVal(row,'planfix','лиды','leads');
+    });
+    if (!state[ch].campaigns) state[ch].campaigns = [];
+    // Replace campaigns from XLSX
+    state[ch].campaigns = Object.values(campMap).map(c => ({
+      id: uid(), name: c.name,
+      budget: +c.budget.toFixed(2),
+      impressions: Math.round(c.impressions),
+      clicks: Math.round(c.clicks),
+      conversions: Math.round(c.conversions),
+      planfix_leads: Math.round(c.planfix_leads)
+    }));
+  }
+
+  // Build daily history (group by date, sum all campaigns)
+  const dateMap = {};
+  rows.forEach(row => {
+    const d = getDateStr(row) || 'day';
+    if (!dateMap[d]) dateMap[d] = { day:d, clicks:0, impressions:0, budget:0, conversions:0, planfix:0 };
+    dateMap[d].budget      += getVal(row,'budget','бюджет','cost','затраты');
+    dateMap[d].impressions += getVal(row,'impressions','показы','impr');
+    dateMap[d].clicks      += getVal(row,'clicks','клики');
+    dateMap[d].conversions += getVal(row,'conversions','конверсии','conv');
+    dateMap[d].planfix     += getVal(row,'planfix','лиды','leads');
+  });
+
+  const history = Object.values(dateMap).slice(0,90).map(d => ({
+    day: d.day,
+    clicks: Math.round(d.clicks),
+    impressions: Math.round(d.impressions),
+    cpc: d.clicks > 0 ? +(d.budget/d.clicks).toFixed(2) : 0,
+    cpl: d.conversions > 0 ? +(d.budget/d.conversions).toFixed(2) : 0,
+    conversions: Math.round(d.conversions),
+    planfix: Math.round(d.planfix) || Math.round(d.conversions*0.6)
+  }));
+
+  let totalBudget=0, totalImpr=0, totalClicks=0, totalConv=0, totalPlanfix=0;
+  Object.values(dateMap).forEach(d => {
+    totalBudget += d.budget; totalImpr += d.impressions;
+    totalClicks += d.clicks; totalConv += d.conversions; totalPlanfix += d.planfix;
+  });
+
+  const ctr = totalImpr > 0 ? +(totalClicks/totalImpr*100).toFixed(2) : 0;
+  const cpc = totalClicks > 0 ? +(totalBudget/totalClicks).toFixed(2) : 0;
+  const cpl = totalConv > 0 ? +(totalBudget/totalConv).toFixed(2) : 0;
+
+  state[ch] = { ...state[ch],
+    budget: +totalBudget.toFixed(2), impressions: Math.round(totalImpr),
+    clicks: Math.round(totalClicks), ctr, cpc,
+    conversions: Math.round(totalConv), cpl,
+    planfix_leads: Math.round(totalPlanfix), history,
+    lastXlsxImport: new Date().toISOString()
+  };
+  state.lastUpdated[ch] = new Date().toLocaleString('ru') + ' (XLSX)';
+}
+
+function applyPagesXlsx(rows, lang) {
+  // Import pages: url, title, clicks, impressions, position
+  const pages = rows.map(row => {
+    const url   = Object.entries(row).find(([k]) => normalizeKey(k).includes('url'))?.[1] || '';
+    const title = Object.entries(row).find(([k]) => normalizeKey(k).includes('title') || normalizeKey(k).includes('название') || normalizeKey(k).includes('name'))?.[1] || url;
+    const clicks      = getVal(row,'clicks','клики');
+    const impressions = getVal(row,'impressions','показы');
+    const pos         = getVal(row,'position','позиция','pos','rank') || 0;
+    return { url: String(url), title: String(title), clicks: Math.round(clicks), impressions: Math.round(impressions), pos: +pos };
+  }).filter(p => p.url || p.title);
+
+  if (!state.organic[lang]) state.organic[lang] = {};
+  state.organic[lang].pages = pages;
+  state.lastUpdated['organic_'+lang] = new Date().toLocaleString('ru') + ' (XLSX)';
+}
+
+function applyOrganicXlsx(rows, lang) {
+  const history = rows.slice(0,90).map(row => ({
+    day: getDateStr(row)||String(rows.indexOf(row)+1),
+    clicks:      getVal(row,'clicks','клики'),
+    impressions: getVal(row,'impressions','показы'),
+    bounce:      getVal(row,'bounce','отказы','bounces') || 40,
+    time:        getVal(row,'time','время','duration','time_minutes') || 2.5
+  }));
+
+  let totalImpr=0, totalClicks=0, totalBounce=0, totalConv=0;
+  rows.slice(0,90).forEach(row => {
+    totalImpr   += getVal(row,'impressions','показы');
+    totalClicks += getVal(row,'clicks','клики');
+    totalBounce += getVal(row,'bounce','отказы','bounces') || 40;
+    totalConv   += getVal(row,'conversions','конверсии') || 0;
+  });
+
+  state.organic[lang] = { ...state.organic[lang],
+    impressions: totalImpr, clicks: totalClicks,
+    bounce: +(totalBounce/history.length).toFixed(1),
+    conversions: Math.round(totalConv), time_on_site: '2:30',
+    history, lastXlsxImport: new Date().toISOString()
+  };
+}
+
+function downloadXlsxTemplate() {
+  const wb = XLSX.utils.book_new();
+
+  // Ad channels template — with campaign name
+  const adData = [
+    ['date','campaign_name','budget','impressions','clicks','conversions','planfix_leads'],
+    ['2026-01-01','BiXBiT — Поиск RU',500,15000,280,6,4],
+    ['2026-01-01','BiXBiT — Поиск EN',300,9000,180,4,3],
+    ['2026-01-01','BiXBiT — Ремаркетинг',200,6000,100,2,1],
+    ['2026-01-02','BiXBiT — Поиск RU',520,16200,295,7,5],
+    ['2026-01-02','BiXBiT — Поиск EN',310,9800,185,4,3],
+    ['2026-01-02','BiXBiT — Ремаркетинг',210,6400,110,3,2],
+    ['2026-01-03','BiXBiT — Поиск RU',480,14800,260,5,3],
+    ['2026-01-03','BiXBiT — Поиск EN',290,8900,170,3,2],
+    ['2026-01-03','BiXBiT — Ремаркетинг',190,5800,95,2,1],
+  ];
+  ['Google_Ads','Yandex','A-ADS','LinkedIn'].forEach(ch => {
+    const ws = XLSX.utils.aoa_to_sheet(adData);
+    ws['!cols'] = [{wch:12},{wch:24},{wch:10},{wch:14},{wch:10},{wch:14},{wch:14}];
+    XLSX.utils.book_append_sheet(wb, ws, ch);
+  });
+
+  // Organic traffic template — metrics by day
+  const orgMetricsData = [
+    ['date','impressions','clicks','bounce','conversions','time_minutes'],
+    ['2026-01-01',900,120,42,3,2.5],
+    ['2026-01-02',950,135,40,4,2.8],
+    ['2026-01-03',880,115,44,3,2.3],
+    ['2026-01-04',920,125,41,3,2.6],
+    ['2026-01-05',980,140,39,5,3.1],
+    ['2026-01-06',860,110,45,2,2.2],
+    ['2026-01-07',910,120,43,3,2.4],
+  ];
+  ['Organic_RU_metrics','Organic_EN_metrics','Organic_ES_metrics'].forEach(lang => {
+    const ws = XLSX.utils.aoa_to_sheet(orgMetricsData);
+    ws['!cols'] = [{wch:12},{wch:14},{wch:10},{wch:10},{wch:14},{wch:14}];
+    XLSX.utils.book_append_sheet(wb, ws, lang);
+  });
+
+  // Organic pages template — top pages with positions
+  const orgPagesData = [
+    ['url','title','clicks','impressions','position'],
+    ['/ru/','Главная',820,8200,2.1],
+    ['/ru/asic-miners/','ASIC-майнеры',540,4100,3.4],
+    ['/ru/hosting/','Хостинг майнинг',380,3200,5.1],
+    ['/ru/repair/','Ремонт ASIC',290,2800,4.7],
+    ['/ru/blog/','Блог',240,2100,6.2],
+    ['/ru/catalog/','Каталог оборудования',195,1900,7.8],
+    ['/ru/about/','О компании',154,1600,9.1],
+    ['/ru/contacts/','Контакты',120,1200,8.4],
+    ['/ru/blog/profitability/','Рентабельность майнинга',98,980,11.2],
+    ['/ru/delivery/','Доставка',76,860,12.3],
+  ];
+  const orgPagesEN = [
+    ['url','title','clicks','impressions','position'],
+    ['/','Home',680,5400,3.2],
+    ['/asic-miners/','ASIC Miners',420,3100,4.1],
+    ['/hosting/','Mining Hosting',290,2400,5.8],
+    ['/blog/','Blog',195,1800,7.2],
+    ['/repair/','ASIC Repair',148,1400,6.9],
+    ['/catalog/','Catalog',120,1200,9.4],
+    ['/about/','About Us',98,980,11.2],
+    ['/contacts/','Contacts',76,760,10.8],
+    ['/blog/roi/','Mining ROI Calculator',62,640,13.1],
+    ['/delivery/','Shipping',48,520,14.2],
+  ];
+  const orgPagesES = [
+    ['url','title','clicks','impressions','position'],
+    ['/es/','Inicio',280,2200,4.8],
+    ['/es/mineros-asic/','Mineros ASIC',185,1400,6.2],
+    ['/es/hosting/','Hosting Minería',120,980,8.4],
+    ['/es/blog/','Blog',85,720,11.2],
+    ['/es/reparacion/','Reparación ASIC',68,580,9.8],
+    ['/es/catalogo/','Catálogo',52,460,13.4],
+    ['/es/sobre/','Sobre Nosotros',38,340,15.1],
+    ['/es/contactos/','Contactos',28,280,14.7],
+    ['/es/blog/rentabilidad/','Rentabilidad',22,220,18.2],
+    ['/es/entrega/','Envío',18,180,19.4],
+  ];
+
+  const pagesColWidths = [{wch:30},{wch:28},{wch:10},{wch:14},{wch:12}];
+
+  const wsRU = XLSX.utils.aoa_to_sheet(orgPagesData);
+  wsRU['!cols'] = pagesColWidths;
+  XLSX.utils.book_append_sheet(wb, wsRU, 'Pages_RU');
+
+  const wsEN = XLSX.utils.aoa_to_sheet(orgPagesEN);
+  wsEN['!cols'] = pagesColWidths;
+  XLSX.utils.book_append_sheet(wb, wsEN, 'Pages_EN');
+
+  const wsES = XLSX.utils.aoa_to_sheet(orgPagesES);
+  wsES['!cols'] = pagesColWidths;
+  XLSX.utils.book_append_sheet(wb, wsES, 'Pages_ES');
+
+  XLSX.writeFile(wb, 'bixbit-dashboard-template.xlsx');
+  showToast('Шаблон скачан — 10 листов');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const xlsxOverlay = document.getElementById('xlsx-modal');
+  if (xlsxOverlay) xlsxOverlay.addEventListener('click', function(e) {
+    if (e.target === this) closeXlsxModal();
+  });
+});
 
 function initDates() {
   const now = new Date();
