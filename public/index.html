@@ -1054,7 +1054,7 @@ td.del-col { width: 32px; text-align: center; }
             <tbody id="camp-google-body"></tbody>
           </table>
         </div>
-        <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии</div>
+        <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -1106,7 +1106,7 @@ td.del-col { width: 32px; text-align: center; }
             <tbody id="camp-yandex-body"></tbody>
           </table>
         </div>
-        <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии</div>
+        <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -1158,7 +1158,7 @@ td.del-col { width: 32px; text-align: center; }
             <tbody id="camp-aads-body"></tbody>
           </table>
         </div>
-        <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии</div>
+        <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -1210,7 +1210,7 @@ td.del-col { width: 32px; text-align: center; }
             <tbody id="camp-linkedin-body"></tbody>
           </table>
         </div>
-        <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии</div>
+        <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -1802,27 +1802,39 @@ function renderCampaignTable(ch) {
 
   tbody.innerHTML = state[ch].campaigns.map((c, idx) => {
     const auto = calcCampaignAuto(c);
-    return `<tr data-id="${c.id}">
+    return `<tr data-id="${c.id}" data-row="${idx}">
       <td><input class="camp-cell name-cell" type="text" value="${escHtml(c.name)}" placeholder="Название кампании"
+        data-field="name" data-row="${idx}" data-ch="${ch}"
         onchange="updateCamp('${ch}','${c.id}','name',this.value)"
+        onpaste="handleCampPaste(event,'${ch}',${idx},'name')"
         onblur="saveCamps('${ch}')"></td>
       <td><input class="camp-cell" type="number" step="any" value="${c.budget}"
+        data-field="budget" data-row="${idx}" data-ch="${ch}"
         oninput="updateCamp('${ch}','${c.id}','budget',this.value)"
+        onpaste="handleCampPaste(event,'${ch}',${idx},'budget')"
         onblur="saveCamps('${ch}')"></td>
       <td><input class="camp-cell" type="number" step="1" value="${c.impressions}"
+        data-field="impressions" data-row="${idx}" data-ch="${ch}"
         oninput="updateCamp('${ch}','${c.id}','impressions',this.value)"
+        onpaste="handleCampPaste(event,'${ch}',${idx},'impressions')"
         onblur="saveCamps('${ch}')"></td>
       <td><input class="camp-cell" type="number" step="1" value="${c.clicks}"
+        data-field="clicks" data-row="${idx}" data-ch="${ch}"
         oninput="updateCamp('${ch}','${c.id}','clicks',this.value)"
+        onpaste="handleCampPaste(event,'${ch}',${idx},'clicks')"
         onblur="saveCamps('${ch}')"></td>
       <td><input class="camp-cell auto-val" type="text" value="${auto.ctr !== '—' ? auto.ctr+'%' : '—'}" readonly tabindex="-1"></td>
       <td><input class="camp-cell auto-val" type="text" value="${auto.cpc !== '—' ? '$'+auto.cpc : '—'}" readonly tabindex="-1"></td>
       <td><input class="camp-cell" type="number" step="1" value="${c.conversions}"
+        data-field="conversions" data-row="${idx}" data-ch="${ch}"
         oninput="updateCamp('${ch}','${c.id}','conversions',this.value)"
+        onpaste="handleCampPaste(event,'${ch}',${idx},'conversions')"
         onblur="saveCamps('${ch}')"></td>
       <td><input class="camp-cell computed" type="text" value="${auto.cpl !== '—' ? '$'+auto.cpl : '—'}" readonly tabindex="-1"></td>
       <td><input class="camp-cell" type="number" step="1" value="${c.planfix_leads}"
+        data-field="planfix_leads" data-row="${idx}" data-ch="${ch}"
         oninput="updateCamp('${ch}','${c.id}','planfix_leads',this.value)"
+        onpaste="handleCampPaste(event,'${ch}',${idx},'planfix_leads')"
         onblur="saveCamps('${ch}')"></td>
       <td class="del-col"><button class="btn-del-row" onclick="deleteCamp('${ch}','${c.id}')" title="Удалить">✕</button></td>
     </tr>`;
@@ -1875,6 +1887,74 @@ function recalcChannelFromCampaigns(ch) {
 }
 
 function saveCamps(ch) { saveState(); }
+
+// ========================================
+// BULK PASTE (Google Sheets style)
+// ========================================
+const CAMP_FIELD_ORDER = ['name','budget','impressions','clicks','conversions','planfix_leads'];
+
+function handleCampPaste(e, ch, rowIdx, field) {
+  const clipboard = (e.clipboardData || window.clipboardData).getData('text');
+  if (!clipboard || !clipboard.includes('\t') && !clipboard.includes('\n')) {
+    // Single value paste — let default behavior happen, just update state after
+    setTimeout(() => {
+      const tr = document.querySelector(`#camp-${ch}-body tr[data-row="${rowIdx}"]`);
+      const input = tr?.querySelector(`input[data-field="${field}"]`);
+      if (input) updateCamp(ch, state[ch].campaigns[rowIdx].id, field, input.value);
+    }, 0);
+    return;
+  }
+
+  e.preventDefault();
+
+  // Parse TSV/CSV grid (Google Sheets and Excel copy as TSV)
+  const grid = clipboard
+    .replace(/\r/g, '')
+    .split('\n')
+    .filter(line => line.length > 0)
+    .map(line => line.split('\t'));
+
+  const startFieldIdx = CAMP_FIELD_ORDER.indexOf(field);
+  if (startFieldIdx === -1) return;
+
+  // Ensure enough campaign rows exist
+  const neededRows = rowIdx + grid.length;
+  while (state[ch].campaigns.length < neededRows) {
+    state[ch].campaigns.push({ id: uid(), name:'Новая кампания', budget:0, impressions:0, clicks:0, conversions:0, planfix_leads:0 });
+  }
+
+  grid.forEach((rowValues, gRowIdx) => {
+    const targetRow = rowIdx + gRowIdx;
+    const camp = state[ch].campaigns[targetRow];
+    if (!camp) return;
+
+    rowValues.forEach((rawVal, gColIdx) => {
+      const fieldIdx = startFieldIdx + gColIdx;
+      const targetField = CAMP_FIELD_ORDER[fieldIdx];
+      if (!targetField) return; // ran past last column, ignore extra
+
+      const val = rawVal.trim();
+      if (targetField === 'name') {
+        camp.name = val || camp.name;
+      } else {
+        const num = parseFloat(val.replace(/[^0-9.\-]/g,''));
+        camp[targetField] = isNaN(num) ? 0 : num;
+      }
+    });
+  });
+
+  renderCampaignTable(ch);
+  recalcChannelFromCampaigns(ch);
+  saveCamps(ch);
+  showToast(`Вставлено ${grid.length} строк × ${grid[0].length} колонок`);
+
+  // Restore focus to roughly where the paste started, for continued tabbing/pasting
+  setTimeout(() => {
+    const tr = document.querySelector(`#camp-${ch}-body tr[data-row="${rowIdx}"]`);
+    const input = tr?.querySelector(`input[data-field="${field}"]`);
+    if (input) input.focus();
+  }, 50);
+}
 
 function addCampRow(ch) {
   if (!state[ch].campaigns) state[ch].campaigns = [];
