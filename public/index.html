@@ -1039,6 +1039,48 @@ td.del-col { width: 32px; text-align: center; }
 ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #444; }
 
+/* DATE RANGE SEPARATOR */
+.date-range-sep {
+  width: 1px; height: 16px;
+  background: var(--border);
+  margin: 0 2px;
+  align-self: center;
+}
+.quarter-btn { font-weight: 600; letter-spacing: 0.03em; }
+
+/* PERIODS GRID */
+.periods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin-bottom: 4px;
+}
+.period-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: all 0.15s;
+  position: relative;
+}
+.period-card:hover { border-color: rgba(255,255,255,0.18); }
+.period-card.active-period { border-color: var(--primary); background: rgba(0,64,221,0.07); }
+.period-card-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; color: var(--text-muted); }
+.period-card.active-period .period-card-label { color: #5B8FFF; }
+.period-card-dates { font-family: var(--font-mono); font-size: 12px; color: var(--text); margin-bottom: 10px; }
+.period-card-kpis { display: flex; gap: 12px; flex-wrap: wrap; }
+.period-kpi { display: flex; flex-direction: column; gap: 1px; }
+.period-kpi-label { font-size: 9px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.06em; }
+.period-kpi-val { font-family: var(--font-mono); font-size: 13px; font-weight: 500; }
+.period-card-active-badge {
+  position: absolute; top: 10px; right: 10px;
+  font-size: 9px; background: rgba(0,64,221,0.2); color: #5B8FFF;
+  padding: 2px 6px; border-radius: 3px; font-weight: 600;
+}
+#periods-compare-table th { background: var(--bg-card2); }
+#periods-compare-table .metric-row-label { font-family: var(--font-ui); font-size: 12px; color: var(--text-muted); font-weight: 500; }
+
 /* SEPARATOR */
 .sep { height: 1px; background: var(--border); margin: 20px 0; }
 
@@ -1209,6 +1251,12 @@ td.del-col { width: 32px; text-align: center; }
     <span>Органика</span>
   </button>
 
+  <div class="sidebar-section">Отчёты</div>
+  <button class="nav-item" onclick="switchTab('periods')">
+    <span class="nav-dot" style="background:#A855F7"></span>
+    <span>Периоды</span>
+  </button>
+
   <div class="sidebar-section">Настройки</div>
   <button class="nav-item" onclick="switchTab('api')">
     <span class="nav-dot" style="background:#888"></span>
@@ -1230,11 +1278,16 @@ td.del-col { width: 32px; text-align: center; }
     <div class="topbar-title" id="tab-title">Google Ads</div>
     <div class="topbar-right">
       <div class="date-range">
-        <button class="date-btn active" onclick="setRange(this,'7D')">7Д</button>
+        <button class="date-btn" onclick="setRange(this,'7D')">7Д</button>
         <button class="date-btn" onclick="setRange(this,'30D')">30Д</button>
-        <button class="date-btn" onclick="setRange(this,'90D')">90Д</button>
         <button class="date-btn" onclick="setRange(this,'MTD')">Мес</button>
-        <button class="date-btn" onclick="setRange(this,'YTD')">Год</button>
+        <div class="date-range-sep"></div>
+        <button class="date-btn quarter-btn" onclick="setQuarter(this,'Q1')">Q1</button>
+        <button class="date-btn quarter-btn active" onclick="setQuarter(this,'Q2')">Q2</button>
+        <button class="date-btn quarter-btn" onclick="setQuarter(this,'Q3')">Q3</button>
+        <button class="date-btn quarter-btn" onclick="setQuarter(this,'Q4')">Q4</button>
+        <div class="date-range-sep"></div>
+        <button class="date-btn" onclick="openNewPeriodModal()" title="Создать произвольный период">+ Период</button>
       </div>
       <input type="date" id="date-from" class="form-input" style="width:130px;padding:5px 8px" onchange="handleManualDateChange()">
       <input type="date" id="date-to" class="form-input" style="width:130px;padding:5px 8px" onchange="handleManualDateChange()">
@@ -1860,6 +1913,48 @@ X-Planfix-Token: {planfix_token}</pre>
       </div>
     </div>
 
+    </div>
+
+    <!-- PERIODS TAB -->
+    <div class="tab-content" id="tab-periods">
+      <div class="section-header">
+        <div class="section-title">Сравнение периодов</div>
+        <button class="btn-primary" onclick="openNewPeriodModal()">+ Новый период</button>
+      </div>
+
+      <!-- Saved periods list -->
+      <div class="periods-grid" id="periods-grid"></div>
+
+      <!-- Comparison table -->
+      <div class="chart-card" style="margin-top:16px">
+        <div class="chart-title">📊 Сравнение по каналам</div>
+        <div style="overflow-x:auto">
+          <table class="data-table" id="periods-compare-table" style="min-width:700px">
+            <thead id="periods-compare-head"></thead>
+            <tbody id="periods-compare-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Bar chart comparison -->
+      <div class="chart-row" style="margin-top:16px">
+        <div class="chart-card">
+          <div class="chart-title">💰 Бюджет по периодам</div>
+          <div class="chart-wrap"><canvas id="periods-chart-budget" role="img" aria-label="Бюджет по периодам"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">🎯 Конверсии по периодам</div>
+          <div class="chart-wrap"><canvas id="periods-chart-conv" role="img" aria-label="Конверсии по периодам"></canvas></div>
+        </div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-card full">
+          <div class="chart-title">📈 CPL по каналам и периодам</div>
+          <div class="chart-wrap" style="height:180px"><canvas id="periods-chart-cpl" role="img" aria-label="CPL по периодам"></canvas></div>
+        </div>
+      </div>
+    </div>
+
   </div><!-- /content -->
 </div><!-- /main -->
 
@@ -1909,6 +2004,43 @@ X-Planfix-Token: {planfix_token}</pre>
     <div style="display:flex;gap:10px;justify-content:flex-end">
       <button class="btn-ghost" onclick="closeXlsxModal()">Отмена</button>
       <button class="btn-primary" id="xlsx-import-btn" onclick="applyXlsxImport()" disabled style="opacity:0.5">📥 Импортировать</button>
+    </div>
+  </div>
+</div>
+
+<!-- NEW PERIOD MODAL -->
+<div class="modal-overlay" id="new-period-modal">
+  <div class="modal" style="width:380px">
+    <div class="modal-title">
+      <span>📅 Новый период</span>
+      <button class="modal-close" onclick="closeNewPeriodModal()">✕</button>
+    </div>
+    <div class="form-row">
+      <label class="form-label">Название периода (необязательно)</label>
+      <input class="form-input" type="text" id="new-period-name" placeholder="напр. Q3 2026, Июль, Кампания X">
+    </div>
+    <div class="form-grid">
+      <div class="form-row">
+        <label class="form-label">Дата начала</label>
+        <input class="form-input" type="date" id="new-period-from">
+      </div>
+      <div class="form-row">
+        <label class="form-label">Дата окончания</label>
+        <input class="form-input" type="date" id="new-period-to">
+      </div>
+    </div>
+    <div style="margin-top:4px;margin-bottom:16px">
+      <div class="form-label" style="margin-bottom:8px">Быстрый выбор</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap">
+        <button class="btn-ghost" style="font-size:11px;padding:4px 8px" onclick="prefillNewPeriod('Q1')">Q1 2026</button>
+        <button class="btn-ghost" style="font-size:11px;padding:4px 8px" onclick="prefillNewPeriod('Q2')">Q2 2026</button>
+        <button class="btn-ghost" style="font-size:11px;padding:4px 8px" onclick="prefillNewPeriod('Q3')">Q3 2026</button>
+        <button class="btn-ghost" style="font-size:11px;padding:4px 8px" onclick="prefillNewPeriod('Q4')">Q4 2026</button>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;justify-content:flex-end">
+      <button class="btn-ghost" onclick="closeNewPeriodModal()">Отмена</button>
+      <button class="btn-primary" onclick="applyNewPeriod()">Перейти к периоду</button>
     </div>
   </div>
 </div>
@@ -3134,20 +3266,21 @@ function renderAll() {
 const tabTitles = {
   google: 'Google Ads', yandex: 'Яндекс Директ', aads: 'A-ADS',
   linkedin: 'LinkedIn Ads', overview: 'Сводка — все каналы',
-  organic: 'Органический трафик', api: 'API / Подключение'
+  organic: 'Органический трафик', api: 'API / Подключение',
+  periods: 'Сравнение периодов'
 };
 
 function switchTab(id) {
   document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   document.getElementById('tab-'+id).classList.add('active');
-  document.querySelectorAll('.nav-item')[['google','yandex','aads','linkedin','overview','organic','api'].indexOf(id)].classList.add('active');
+  const navOrder = ['google','yandex','aads','linkedin','overview','organic','periods','api'];
+  const idx = navOrder.indexOf(id);
+  if (idx >= 0) document.querySelectorAll('.nav-item')[idx]?.classList.add('active');
   document.getElementById('tab-title').textContent = tabTitles[id] || id;
 
-  // Overview aggregates data from all channels — re-render it fresh every time
-  // it's opened, since editing a campaign table only updates that channel's
-  // own cards in place and never touches the Overview tab's cached HTML.
   if (id === 'overview') renderOverview();
+  if (id === 'periods') renderPeriodsTab();
 }
 
 // ========================================
@@ -3163,6 +3296,260 @@ function switchLang(btn, lang) {
 // ========================================
 // DATE RANGE
 // ========================================
+// ========================================
+// QUARTER SHORTCUTS
+// ========================================
+const QUARTERS = {
+  Q1: { from:'2026-01-01', to:'2026-03-31', label:'Q1 2026' },
+  Q2: { from:'2026-04-01', to:'2026-06-30', label:'Q2 2026' },
+  Q3: { from:'2026-07-01', to:'2026-09-30', label:'Q3 2026' },
+  Q4: { from:'2026-10-01', to:'2026-12-31', label:'Q4 2026' }
+};
+
+function setQuarter(btn, q) {
+  document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const qd = QUARTERS[q];
+  document.getElementById('date-from').value = qd.from;
+  document.getElementById('date-to').value = qd.to;
+  switchToPeriod(qd.from, qd.to);
+}
+
+// ========================================
+// NEW PERIOD MODAL
+// ========================================
+function openNewPeriodModal() {
+  document.getElementById('new-period-modal').classList.add('open');
+  document.getElementById('new-period-name').value = '';
+  // Default to next quarter from active
+  const now = new Date();
+  const y = now.getFullYear();
+  const m = now.getMonth();
+  const firstOfMonth = new Date(y, m, 1).toISOString().slice(0,10);
+  const lastOfMonth  = new Date(y, m+1, 0).toISOString().slice(0,10);
+  document.getElementById('new-period-from').value = firstOfMonth;
+  document.getElementById('new-period-to').value   = lastOfMonth;
+}
+
+function closeNewPeriodModal() {
+  document.getElementById('new-period-modal').classList.remove('open');
+}
+
+function prefillNewPeriod(q) {
+  const qd = QUARTERS[q];
+  document.getElementById('new-period-from').value = qd.from;
+  document.getElementById('new-period-to').value   = qd.to;
+  document.getElementById('new-period-name').value = qd.label;
+}
+
+function applyNewPeriod() {
+  const from = document.getElementById('new-period-from').value;
+  const to   = document.getElementById('new-period-to').value;
+  const name = document.getElementById('new-period-name').value.trim();
+  if (!from || !to) { showToast('Выбери даты периода'); return; }
+  if (from > to) { showToast('Дата начала позже даты окончания'); return; }
+
+  // Store custom label for this period key
+  const key = periodKey(from, to);
+  if (!state.periodLabels) state.periodLabels = {};
+  if (name) state.periodLabels[key] = name;
+
+  document.getElementById('date-from').value = from;
+  document.getElementById('date-to').value   = to;
+  document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+  closeNewPeriodModal();
+  switchToPeriod(from, to);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const npm = document.getElementById('new-period-modal');
+  if (npm) npm.addEventListener('click', function(e) {
+    if (e.target === this) closeNewPeriodModal();
+  });
+});
+
+// ========================================
+// PERIODS TAB — cross-period comparison
+// ========================================
+const CHANNELS_FOR_COMPARE = [
+  { id:'google',   label:'Google Ads',    color:'#4285F4' },
+  { id:'yandex',   label:'Яндекс Директ', color:'#FF4B2B' },
+  { id:'aads',     label:'A-ADS',         color:'#F5A623' },
+  { id:'linkedin', label:'LinkedIn Ads',  color:'#0A66C2' }
+];
+
+function getPeriodLabel(key) {
+  if (state.periodLabels && state.periodLabels[key]) return state.periodLabels[key];
+  // Auto-detect quarters
+  for (const [q, qd] of Object.entries(QUARTERS)) {
+    if (key === periodKey(qd.from, qd.to)) return q + ' ' + qd.from.slice(0,4);
+  }
+  return key.replace('|', ' — ');
+}
+
+function getAllSavedPeriodKeys() {
+  if (!state.periods) return [];
+  const keys = Object.keys(state.periods);
+  if (activePeriodKey && !keys.includes(activePeriodKey)) keys.push(activePeriodKey);
+  // Sort chronologically
+  return keys.sort();
+}
+
+function getPeriodData(key) {
+  if (key === activePeriodKey) return snapshotCurrentPeriodData();
+  return state.periods[key] || null;
+}
+
+function renderPeriodsTab() {
+  const keys = getAllSavedPeriodKeys();
+  if (!keys.length) {
+    document.getElementById('periods-grid').innerHTML = '<div style="color:var(--text-dim);font-size:13px;padding:16px">Нет сохранённых периодов. Введи данные и переключись на другой период — он сохранится автоматически.</div>';
+    return;
+  }
+
+  // Render period cards
+  const grid = document.getElementById('periods-grid');
+  grid.innerHTML = keys.map(key => {
+    const data = getPeriodData(key);
+    const isActive = key === activePeriodKey;
+    const label = getPeriodLabel(key);
+    const totalBudget = CHANNELS_FOR_COMPARE.reduce((s,ch) => s + (parseFloat(data?.[ch.id]?.budget)||0), 0);
+    const totalConv   = CHANNELS_FOR_COMPARE.reduce((s,ch) => s + (parseFloat(data?.[ch.id]?.conversions)||0), 0);
+    const totalClicks = CHANNELS_FOR_COMPARE.reduce((s,ch) => s + (parseFloat(data?.[ch.id]?.clicks)||0), 0);
+
+    return `<div class="period-card ${isActive?'active-period':''}" onclick="jumpToPeriod('${key}')">
+      ${isActive ? '<span class="period-card-active-badge">Активный</span>' : ''}
+      <div class="period-card-label">${label}</div>
+      <div class="period-card-dates">${key.replace('|',' — ')}</div>
+      <div class="period-card-kpis">
+        <div class="period-kpi">
+          <span class="period-kpi-label">Бюджет</span>
+          <span class="period-kpi-val" style="color:#5B8FFF">$${Math.round(totalBudget).toLocaleString('ru')}</span>
+        </div>
+        <div class="period-kpi">
+          <span class="period-kpi-label">Клики</span>
+          <span class="period-kpi-val">${totalClicks.toLocaleString('ru')}</span>
+        </div>
+        <div class="period-kpi">
+          <span class="period-kpi-label">Конверсии</span>
+          <span class="period-kpi-val" style="color:#1DB954">${totalConv}</span>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Render comparison table
+  renderPeriodsCompareTable(keys);
+
+  // Render comparison charts
+  renderPeriodsCharts(keys);
+}
+
+function jumpToPeriod(key) {
+  const [from, to] = key.split('|');
+  document.getElementById('date-from').value = from;
+  document.getElementById('date-to').value   = to;
+  document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+  switchToPeriod(from, to);
+  showToast('Переключено на период: ' + getPeriodLabel(key));
+}
+
+function renderPeriodsCompareTable(keys) {
+  const head = document.getElementById('periods-compare-head');
+  const body = document.getElementById('periods-compare-body');
+  if (!head || !body) return;
+
+  // Header: Channel | Period1 | Period2 | ...
+  head.innerHTML = `<tr>
+    <th style="min-width:140px">Канал / Метрика</th>
+    ${keys.map(k => `<th style="text-align:right">${getPeriodLabel(k)}</th>`).join('')}
+    ${keys.length >= 2 ? '<th style="text-align:right;color:#5B8FFF">Δ посл.</th>' : ''}
+  </tr>`;
+
+  // Rows: one per channel per metric
+  const metrics = [
+    { key:'budget',       label:'Бюджет $',     fmt: v => '$'+Math.round(v).toLocaleString('ru') },
+    { key:'clicks',       label:'Клики',        fmt: v => Number(v).toLocaleString('ru') },
+    { key:'conversions',  label:'Конверсии',    fmt: v => Number(v).toLocaleString('ru') },
+    { key:'cpl',          label:'CPL $',        fmt: v => '$'+parseFloat(v).toFixed(1) },
+    { key:'planfix_leads',label:'Planfix лиды', fmt: v => Number(v).toLocaleString('ru') }
+  ];
+
+  let rows = '';
+  CHANNELS_FOR_COMPARE.forEach(ch => {
+    rows += `<tr><td colspan="${keys.length + (keys.length>=2?2:1)}" style="padding:8px 12px;background:rgba(255,255,255,0.03);font-size:11px;font-weight:600;color:${ch.color};letter-spacing:0.05em;text-transform:uppercase">${ch.label}</td></tr>`;
+    metrics.forEach(m => {
+      const vals = keys.map(k => parseFloat(getPeriodData(k)?.[ch.id]?.[m.key]||0));
+      let deltaCell = '';
+      if (keys.length >= 2) {
+        const last  = vals[vals.length-1] || 0;
+        const prev  = vals[vals.length-2] || 0;
+        if (prev > 0) {
+          const pct = ((last - prev)/prev*100).toFixed(1);
+          const cls = pct > 0 ? 'delta-up' : pct < 0 ? 'delta-down' : 'delta-neu';
+          const arr = pct > 0 ? '↑' : pct < 0 ? '↓' : '→';
+          deltaCell = `<td style="text-align:right;font-family:var(--font-mono);font-size:11px" class="${cls}">${arr}${Math.abs(pct)}%</td>`;
+        } else {
+          deltaCell = '<td style="color:var(--text-dim);text-align:right">—</td>';
+        }
+      }
+      rows += `<tr>
+        <td class="metric-row-label" style="padding-left:20px">${m.label}</td>
+        ${vals.map(v => `<td style="text-align:right;font-family:var(--font-mono);font-size:12px">${m.fmt(v)}</td>`).join('')}
+        ${deltaCell}
+      </tr>`;
+    });
+  });
+  body.innerHTML = rows;
+}
+
+function renderPeriodsCharts(keys) {
+  if (!keys.length) return;
+  const labels = keys.map(k => getPeriodLabel(k));
+
+  const budgets = CHANNELS_FOR_COMPARE.map(ch => ({
+    label: ch.label,
+    data: keys.map(k => parseFloat(getPeriodData(k)?.[ch.id]?.budget||0)),
+    backgroundColor: ch.color + '99',
+    borderRadius: 3, borderWidth: 0
+  }));
+
+  const convs = CHANNELS_FOR_COMPARE.map(ch => ({
+    label: ch.label,
+    data: keys.map(k => parseFloat(getPeriodData(k)?.[ch.id]?.conversions||0)),
+    backgroundColor: ch.color + '99',
+    borderRadius: 3, borderWidth: 0
+  }));
+
+  const cpls = CHANNELS_FOR_COMPARE.map(ch => ({
+    label: ch.label,
+    data: keys.map(k => parseFloat(getPeriodData(k)?.[ch.id]?.cpl||0)),
+    backgroundColor: ch.color + '99',
+    borderRadius: 3, borderWidth: 0
+  }));
+
+  const baseOpts = {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { labels: { color:'#888', font:{size:11}, boxWidth:10, padding:8 }}},
+    scales: {
+      x: { ticks:{color:'#666',font:{size:11}}, grid:{color:'rgba(255,255,255,0.04)'} },
+      y: { ticks:{color:'#666',font:{size:11}}, grid:{color:'rgba(255,255,255,0.06)'} }
+    }
+  };
+
+  destroyChart('periods-chart-budget');
+  const c1 = document.getElementById('periods-chart-budget');
+  if (c1) charts['periods-chart-budget'] = new Chart(c1, { type:'bar', data:{labels, datasets:budgets}, options:baseOpts });
+
+  destroyChart('periods-chart-conv');
+  const c2 = document.getElementById('periods-chart-conv');
+  if (c2) charts['periods-chart-conv'] = new Chart(c2, { type:'bar', data:{labels, datasets:convs}, options:baseOpts });
+
+  destroyChart('periods-chart-cpl');
+  const c3 = document.getElementById('periods-chart-cpl');
+  if (c3) charts['periods-chart-cpl'] = new Chart(c3, { type:'bar', data:{labels, datasets:cpls}, options:{...baseOpts, indexAxis:'y'} });
+}
+
 function setRange(btn, range) {
   document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
