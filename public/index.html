@@ -804,7 +804,90 @@ td.del-col { width: 32px; text-align: center; }
   font-style: italic;
 }
 
-/* ORGANIC PAGES EDITABLE TABLE */
+/* ORGANIC SOURCE TABLE */
+.org-source-wrap {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.org-source-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.org-source-table th {
+  padding: 8px 12px;
+  text-align: left;
+  color: var(--text-dim);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.org-source-table td {
+  padding: 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  vertical-align: middle;
+}
+.org-source-table tr:last-child td { border-bottom: none; }
+.org-source-table tr.total-row td {
+  background: rgba(255,255,255,0.03);
+  border-top: 1px solid var(--border);
+  font-weight: 600;
+}
+.src-label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 12px;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.src-label .src-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.src-cell {
+  display: block;
+  padding: 8px 12px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  outline: none;
+  min-width: 70px;
+}
+.src-cell:focus { background: rgba(0,64,221,0.08); color: #fff; }
+.src-cell.auto-val {
+  color: #5B8FFF;
+  cursor: default;
+  pointer-events: none;
+  background: rgba(0,64,221,0.04);
+}
+.total-label {
+  padding: 9px 12px;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+}
+.src-formula-note {
+  font-size: 10px;
+  color: var(--text-dim);
+  padding: 6px 12px;
+  border-top: 1px solid rgba(255,255,255,0.04);
+  font-style: italic;
+}
 .pages-editable-wrap {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -1436,6 +1519,45 @@ td.del-col { width: 32px; text-align: center; }
       <!-- RU organic -->
       <div class="lang-content active" id="lang-ru">
         <div class="metrics-grid" id="organic-ru-metrics"></div>
+      <div class="org-source-wrap">
+        <table class="org-source-table">
+          <thead><tr>
+            <th style="width:160px">Источник</th>
+            <th>Показы</th>
+            <th>Клики</th>
+            <th>Время на сайте</th>
+            <th>Отказы %</th>
+            <th>Конверсии</th>
+          </tr></thead>
+          <tbody id="org-ru-sources">
+            <tr>
+              <td><div class="src-label"><span class="src-dot" style="background:#4285F4"></span>Google Search Console</div></td>
+              <td><input class="src-cell" type="number" step="1" id="src-ru-g-imp" onchange="updateOrgSource('ru','google','impressions',this.value)" onblur="saveOrgSource('ru')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-ru-g-clk" onchange="updateOrgSource('ru','google','clicks',this.value)" onblur="saveOrgSource('ru')"></td>
+              <td><input class="src-cell" type="text"   id="src-ru-g-time" placeholder="0:00" onchange="updateOrgSource('ru','google','time_on_site',this.value)" onblur="saveOrgSource('ru')"></td>
+              <td><input class="src-cell" type="number" step="0.1" id="src-ru-g-bounce" onchange="updateOrgSource('ru','google','bounce',this.value)" onblur="saveOrgSource('ru')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-ru-g-conv" onchange="updateOrgSource('ru','google','conversions',this.value)" onblur="saveOrgSource('ru')"></td>
+            </tr>
+            <tr>
+              <td><div class="src-label"><span class="src-dot" style="background:#FF4B2B"></span>Яндекс.Вебмастер</div></td>
+              <td><input class="src-cell" type="number" step="1" id="src-ru-y-imp" onchange="updateOrgSource('ru','yandex','impressions',this.value)" onblur="saveOrgSource('ru')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-ru-y-clk" onchange="updateOrgSource('ru','yandex','clicks',this.value)" onblur="saveOrgSource('ru')"></td>
+              <td><input class="src-cell" type="text"   id="src-ru-y-time" placeholder="0:00" onchange="updateOrgSource('ru','yandex','time_on_site',this.value)" onblur="saveOrgSource('ru')"></td>
+              <td><input class="src-cell" type="number" step="0.1" id="src-ru-y-bounce" onchange="updateOrgSource('ru','yandex','bounce',this.value)" onblur="saveOrgSource('ru')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-ru-y-conv" onchange="updateOrgSource('ru','yandex','conversions',this.value)" onblur="saveOrgSource('ru')"></td>
+            </tr>
+            <tr class="total-row">
+              <td><div class="total-label">Итого</div></td>
+              <td><input class="src-cell auto-val" readonly id="src-ru-total-imp"></td>
+              <td><input class="src-cell auto-val" readonly id="src-ru-total-clk"></td>
+              <td><input class="src-cell auto-val" readonly id="src-ru-total-time"></td>
+              <td><input class="src-cell auto-val" readonly id="src-ru-total-bounce"></td>
+              <td><input class="src-cell auto-val" readonly id="src-ru-total-conv"></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="src-formula-note">Показы и клики: сумма · Время на сайте и Отказы: среднее взвешенное по кликам</div>
+      </div>
         <div class="chart-row">
           <div class="chart-card">
             <div class="chart-title">📈 Клики и показы (RU)</div>
@@ -1480,6 +1602,45 @@ td.del-col { width: 32px; text-align: center; }
       <!-- EN organic -->
       <div class="lang-content" id="lang-en" style="display:none">
         <div class="metrics-grid" id="organic-en-metrics"></div>
+      <div class="org-source-wrap">
+        <table class="org-source-table">
+          <thead><tr>
+            <th style="width:160px">Источник</th>
+            <th>Показы</th>
+            <th>Клики</th>
+            <th>Время на сайте</th>
+            <th>Отказы %</th>
+            <th>Конверсии</th>
+          </tr></thead>
+          <tbody id="org-en-sources">
+            <tr>
+              <td><div class="src-label"><span class="src-dot" style="background:#4285F4"></span>Google Search Console</div></td>
+              <td><input class="src-cell" type="number" step="1" id="src-en-g-imp" onchange="updateOrgSource('en','google','impressions',this.value)" onblur="saveOrgSource('en')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-en-g-clk" onchange="updateOrgSource('en','google','clicks',this.value)" onblur="saveOrgSource('en')"></td>
+              <td><input class="src-cell" type="text"   id="src-en-g-time" placeholder="0:00" onchange="updateOrgSource('en','google','time_on_site',this.value)" onblur="saveOrgSource('en')"></td>
+              <td><input class="src-cell" type="number" step="0.1" id="src-en-g-bounce" onchange="updateOrgSource('en','google','bounce',this.value)" onblur="saveOrgSource('en')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-en-g-conv" onchange="updateOrgSource('en','google','conversions',this.value)" onblur="saveOrgSource('en')"></td>
+            </tr>
+            <tr>
+              <td><div class="src-label"><span class="src-dot" style="background:#FF4B2B"></span>Яндex.Webmaster</div></td>
+              <td><input class="src-cell" type="number" step="1" id="src-en-y-imp" onchange="updateOrgSource('en','yandex','impressions',this.value)" onblur="saveOrgSource('en')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-en-y-clk" onchange="updateOrgSource('en','yandex','clicks',this.value)" onblur="saveOrgSource('en')"></td>
+              <td><input class="src-cell" type="text"   id="src-en-y-time" placeholder="0:00" onchange="updateOrgSource('en','yandex','time_on_site',this.value)" onblur="saveOrgSource('en')"></td>
+              <td><input class="src-cell" type="number" step="0.1" id="src-en-y-bounce" onchange="updateOrgSource('en','yandex','bounce',this.value)" onblur="saveOrgSource('en')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-en-y-conv" onchange="updateOrgSource('en','yandex','conversions',this.value)" onblur="saveOrgSource('en')"></td>
+            </tr>
+            <tr class="total-row">
+              <td><div class="total-label">Итого</div></td>
+              <td><input class="src-cell auto-val" readonly id="src-en-total-imp"></td>
+              <td><input class="src-cell auto-val" readonly id="src-en-total-clk"></td>
+              <td><input class="src-cell auto-val" readonly id="src-en-total-time"></td>
+              <td><input class="src-cell auto-val" readonly id="src-en-total-bounce"></td>
+              <td><input class="src-cell auto-val" readonly id="src-en-total-conv"></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="src-formula-note">Показы и клики: сумма · Время на сайте и Отказы: среднее взвешенное по кликам</div>
+      </div>
         <div class="chart-row">
           <div class="chart-card">
             <div class="chart-title">📈 Clicks & Impressions (EN)</div>
@@ -1524,6 +1685,45 @@ td.del-col { width: 32px; text-align: center; }
       <!-- ES organic -->
       <div class="lang-content" id="lang-es" style="display:none">
         <div class="metrics-grid" id="organic-es-metrics"></div>
+      <div class="org-source-wrap">
+        <table class="org-source-table">
+          <thead><tr>
+            <th style="width:160px">Источник</th>
+            <th>Показы</th>
+            <th>Клики</th>
+            <th>Время на сайте</th>
+            <th>Отказы %</th>
+            <th>Конверсии</th>
+          </tr></thead>
+          <tbody id="org-es-sources">
+            <tr>
+              <td><div class="src-label"><span class="src-dot" style="background:#4285F4"></span>Google Search Console</div></td>
+              <td><input class="src-cell" type="number" step="1" id="src-es-g-imp" onchange="updateOrgSource('es','google','impressions',this.value)" onblur="saveOrgSource('es')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-es-g-clk" onchange="updateOrgSource('es','google','clicks',this.value)" onblur="saveOrgSource('es')"></td>
+              <td><input class="src-cell" type="text"   id="src-es-g-time" placeholder="0:00" onchange="updateOrgSource('es','google','time_on_site',this.value)" onblur="saveOrgSource('es')"></td>
+              <td><input class="src-cell" type="number" step="0.1" id="src-es-g-bounce" onchange="updateOrgSource('es','google','bounce',this.value)" onblur="saveOrgSource('es')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-es-g-conv" onchange="updateOrgSource('es','google','conversions',this.value)" onblur="saveOrgSource('es')"></td>
+            </tr>
+            <tr>
+              <td><div class="src-label"><span class="src-dot" style="background:#FF4B2B"></span>Yandex.Webmaster</div></td>
+              <td><input class="src-cell" type="number" step="1" id="src-es-y-imp" onchange="updateOrgSource('es','yandex','impressions',this.value)" onblur="saveOrgSource('es')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-es-y-clk" onchange="updateOrgSource('es','yandex','clicks',this.value)" onblur="saveOrgSource('es')"></td>
+              <td><input class="src-cell" type="text"   id="src-es-y-time" placeholder="0:00" onchange="updateOrgSource('es','yandex','time_on_site',this.value)" onblur="saveOrgSource('es')"></td>
+              <td><input class="src-cell" type="number" step="0.1" id="src-es-y-bounce" onchange="updateOrgSource('es','yandex','bounce',this.value)" onblur="saveOrgSource('es')"></td>
+              <td><input class="src-cell" type="number" step="1" id="src-es-y-conv" onchange="updateOrgSource('es','yandex','conversions',this.value)" onblur="saveOrgSource('es')"></td>
+            </tr>
+            <tr class="total-row">
+              <td><div class="total-label">Итого</div></td>
+              <td><input class="src-cell auto-val" readonly id="src-es-total-imp"></td>
+              <td><input class="src-cell auto-val" readonly id="src-es-total-clk"></td>
+              <td><input class="src-cell auto-val" readonly id="src-es-total-time"></td>
+              <td><input class="src-cell auto-val" readonly id="src-es-total-bounce"></td>
+              <td><input class="src-cell auto-val" readonly id="src-es-total-conv"></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="src-formula-note">Показы и клики: сумма · Время на сайте и Отказы: среднее взвешенное по кликам</div>
+      </div>
         <div class="chart-row">
           <div class="chart-card">
             <div class="chart-title">📈 Clics e Impresiones (ES)</div>
@@ -1879,6 +2079,8 @@ const defaultData = {
       impressions: 28000, clicks: 3200, time_on_site: '2:34', bounce: 42,
       conversions: 87,
       history: genOrgHistory(3200, 28000, 42),
+      google:  { impressions: 18000, clicks: 2000, time_on_site: '2:40', bounce: 40, conversions: 55 },
+      yandex:  { impressions: 10000, clicks: 1200, time_on_site: '2:25', bounce: 45, conversions: 32 },
       pages: [
         {url:'/ru/', title:'Главная', clicks:820, impressions:8200, pos:2.1},
         {url:'/ru/asic-miners/', title:'ASIC-майнеры', clicks:540, impressions:4100, pos:3.4},
@@ -1903,6 +2105,8 @@ const defaultData = {
       impressions: 18000, clicks: 2100, time_on_site: '3:12', bounce: 38,
       conversions: 54,
       history: genOrgHistory(2100, 18000, 38),
+      google:  { impressions: 14000, clicks: 1600, time_on_site: '3:20', bounce: 36, conversions: 40 },
+      yandex:  { impressions: 4000,  clicks: 500,  time_on_site: '2:50', bounce: 43, conversions: 14 },
       pages: [
         {url:'/', title:'Home', clicks:680, impressions:5400, pos:3.2},
         {url:'/asic-miners/', title:'ASIC Miners', clicks:420, impressions:3100, pos:4.1},
@@ -1927,6 +2131,8 @@ const defaultData = {
       impressions: 8400, clicks: 890, time_on_site: '2:48', bounce: 45,
       conversions: 22,
       history: genOrgHistory(890, 8400, 45),
+      google:  { impressions: 6000, clicks: 640, time_on_site: '2:55', bounce: 43, conversions: 16 },
+      yandex:  { impressions: 2400, clicks: 250, time_on_site: '2:30', bounce: 50, conversions: 6 },
       pages: [
         {url:'/es/', title:'Inicio', clicks:280, impressions:2200, pos:4.8},
         {url:'/es/mineros-asic/', title:'Mineros ASIC', clicks:185, impressions:1400, pos:6.2},
@@ -2108,8 +2314,10 @@ function switchToPeriod(newFrom, newTo) {
           state.organic[lang] = {
             ...JSON.parse(JSON.stringify(defaultData.organic[lang])),
             impressions:0, clicks:0, conversions:0, bounce:0, time_on_site:'0:00',
+            google:  { impressions:0, clicks:0, time_on_site:'0:00', bounce:0, conversions:0 },
+            yandex:  { impressions:0, clicks:0, time_on_site:'0:00', bounce:0, conversions:0 },
             history: state.organic[lang].history.map(h => ({...h, clicks:0, impressions:0, bounce:0, time:0})),
-            pages: state.organic[lang].pages // keep page list, just metrics reset on ad channels
+            pages: state.organic[lang].pages
           };
         });
       } else {
@@ -2387,8 +2595,108 @@ function escHtml(s) {
 }
 
 // ========================================
-// ORGANIC PAGES EDITABLE TABLE
+// ORGANIC SOURCE TABLE (Google + Yandex → Итого)
 // ========================================
+
+function timeToMin(t) {
+  if (!t || t === '0:00') return 0;
+  const parts = String(t).split(':');
+  if (parts.length === 2) return parseFloat(parts[0]) + parseFloat(parts[1])/60;
+  return parseFloat(t) || 0;
+}
+
+function minToTime(m) {
+  if (!m || isNaN(m)) return '0:00';
+  const mins = Math.floor(m);
+  const secs = Math.round((m - mins) * 60);
+  return `${mins}:${String(secs).padStart(2,'0')}`;
+}
+
+function calcOrgSourceTotals(lang) {
+  const d = state.organic[lang];
+  const g = d.google || { impressions:0, clicks:0, time_on_site:'0:00', bounce:0, conversions:0 };
+  const y = d.yandex || { impressions:0, clicks:0, time_on_site:'0:00', bounce:0, conversions:0 };
+
+  const totalImpr = (parseFloat(g.impressions)||0) + (parseFloat(y.impressions)||0);
+  const totalClicks = (parseFloat(g.clicks)||0) + (parseFloat(y.clicks)||0);
+  const totalConv = (parseFloat(g.conversions)||0) + (parseFloat(y.conversions)||0);
+
+  // Weighted average by clicks for time and bounce
+  const gClicks = parseFloat(g.clicks) || 0;
+  const yClicks = parseFloat(y.clicks) || 0;
+  const totalW = gClicks + yClicks;
+
+  let avgTime = '0:00';
+  let avgBounce = 0;
+  if (totalW > 0) {
+    const gTime = timeToMin(g.time_on_site);
+    const yTime = timeToMin(y.time_on_site);
+    avgTime = minToTime((gTime * gClicks + yTime * yClicks) / totalW);
+    avgBounce = +((parseFloat(g.bounce||0) * gClicks + parseFloat(y.bounce||0) * yClicks) / totalW).toFixed(1);
+  }
+
+  return { impressions: totalImpr, clicks: totalClicks, time_on_site: avgTime, bounce: avgBounce, conversions: totalConv };
+}
+
+function renderOrgSourceTable(lang) {
+  const d = state.organic[lang];
+  const g = d.google || {};
+  const y = d.yandex || {};
+  const tot = calcOrgSourceTotals(lang);
+
+  const setVal = (id, val) => { const el = document.getElementById(id); if (el) el.value = val ?? ''; };
+
+  setVal(`src-${lang}-g-imp`,    g.impressions || '');
+  setVal(`src-${lang}-g-clk`,    g.clicks || '');
+  setVal(`src-${lang}-g-time`,   g.time_on_site || '');
+  setVal(`src-${lang}-g-bounce`, g.bounce || '');
+  setVal(`src-${lang}-g-conv`,   g.conversions || '');
+
+  setVal(`src-${lang}-y-imp`,    y.impressions || '');
+  setVal(`src-${lang}-y-clk`,    y.clicks || '');
+  setVal(`src-${lang}-y-time`,   y.time_on_site || '');
+  setVal(`src-${lang}-y-bounce`, y.bounce || '');
+  setVal(`src-${lang}-y-conv`,   y.conversions || '');
+
+  setVal(`src-${lang}-total-imp`,    tot.impressions);
+  setVal(`src-${lang}-total-clk`,    tot.clicks);
+  setVal(`src-${lang}-total-time`,   tot.time_on_site);
+  setVal(`src-${lang}-total-bounce`, tot.bounce + '%');
+  setVal(`src-${lang}-total-conv`,   tot.conversions);
+}
+
+function updateOrgSource(lang, src, field, val) {
+  if (!state.organic[lang][src]) state.organic[lang][src] = {};
+  if (field === 'time_on_site') {
+    state.organic[lang][src][field] = val;
+  } else {
+    state.organic[lang][src][field] = parseFloat(val) || 0;
+  }
+
+  // Sync totals into the main organic metrics (used by cards and charts)
+  const tot = calcOrgSourceTotals(lang);
+  state.organic[lang].impressions = tot.impressions;
+  state.organic[lang].clicks      = tot.clicks;
+  state.organic[lang].time_on_site= tot.time_on_site;
+  state.organic[lang].bounce      = tot.bounce;
+  state.organic[lang].conversions = tot.conversions;
+
+  // Refresh total row cells immediately (no full re-render needed)
+  const setVal = (id, val) => { const el = document.getElementById(id); if (el) el.value = val ?? ''; };
+  setVal(`src-${lang}-total-imp`,    tot.impressions);
+  setVal(`src-${lang}-total-clk`,    tot.clicks);
+  setVal(`src-${lang}-total-time`,   tot.time_on_site);
+  setVal(`src-${lang}-total-bounce`, tot.bounce + '%');
+  setVal(`src-${lang}-total-conv`,   tot.conversions);
+
+  // Refresh metric cards at the top of the organic tab
+  const prevData = getCompareData(null, lang);
+  renderMetrics('organic-'+lang+'-metrics', state.organic[lang], organicMetrics, prevData);
+}
+
+function saveOrgSource(lang) { saveState(); }
+
+
 // Field order for paste: url, title, clicks, impressions, pos
 const ORG_PAGE_FIELDS = ['url', 'title', 'clicks', 'impressions', 'pos'];
 
@@ -2784,6 +3092,9 @@ function renderOrganicLang(lang) {
   const d = state.organic[lang];
   const prevData = getCompareData(null, lang);
   renderMetrics('organic-'+lang+'-metrics', d, organicMetrics, prevData);
+
+  // Render source table (Google + Yandex input rows + Итого)
+  renderOrgSourceTable(lang);
 
   const labels = d.history.map(h=>h.day);
 
