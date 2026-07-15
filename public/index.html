@@ -2375,6 +2375,30 @@ async function initSupabase() {
     _sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
     sbReady = true;
     setApiStatus(true);
+    // Real-time: when any user saves, instantly update all connected clients
+    _sb.channel('rt-bixbit-dashboard')
+      .on('postgres_changes', {
+        event: 'UPDATE',
+        schema: 'public',
+        table: 'dashboard_state',
+        filter: 'project=eq.bixbit'
+      }, (payload) => {
+        const incoming = payload.new?.payload;
+        if (!incoming) return;
+        const incomingTime = payload.new?.updated_at ? new Date(payload.new.updated_at).getTime() : 0;
+        const currentTime = state.__lastSavedAt ? new Date(state.__lastSavedAt).getTime() : 0;
+        // Skip our own save (same timestamp) or stale data
+        if (incomingTime <= currentTime) return;
+        // Apply new state but keep current user's navigation period
+        const prevKey = activePeriodKey;
+        state = deepMerge(JSON.parse(JSON.stringify(defaultData)), incoming);
+        if (prevKey && state.periods && state.periods[prevKey]) {
+          applyPeriodData(state.periods[prevKey]);
+        }
+        renderAll();
+        showToast('Данные обновлены ✓');
+      })
+      .subscribe();
   } catch(e) { setApiStatus(false); }
 }
 
