@@ -5251,6 +5251,25 @@ async function bootApp() {
   const startFrom = document.getElementById('date-from').value;
   const startTo = document.getElementById('date-to').value;
   activePeriodKey = state.lastActivePeriodKey || periodKey(startFrom, startTo);
+
+  // FIX: Sync date inputs with the restored activePeriodKey so all users
+  // see consistent dates and period switching archives under the correct key.
+  const [_kFrom, _kTo] = activePeriodKey.split('|');
+  if (_kFrom && _kFrom !== 'nodate') {
+    document.getElementById('date-from').value = _kFrom;
+    document.getElementById('date-to').value = _kTo;
+    // Highlight the matching Q button if applicable
+    document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+    for (const [_q, _qd] of Object.entries(QUARTERS)) {
+      if (_qd.from === _kFrom && _qd.to === _kTo) {
+        document.querySelectorAll('.date-btn').forEach(b => {
+          if ((b.getAttribute('onclick') || '').includes("'" + _q + "'")) b.classList.add('active');
+        });
+        break;
+      }
+    }
+  }
+
   if (!state.periods) state.periods = {};
   // Make sure the period we're starting on has a saved snapshot pointing at
   // the data we just loaded, so switching away and back works correctly.
