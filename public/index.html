@@ -177,6 +177,100 @@ body {
 }
 .btn-ghost:hover { border-color: rgba(255,255,255,0.2); color: var(--text); }
 
+
+/* ========================================
+   VIEW / EDIT MODE TOGGLE
+   Button shows CURRENT state:
+     🔓 Редактирование  = you are in EDIT mode  (green)
+     🔒 Просмотр        = you are in VIEW mode  (magenta)
+   ======================================== */
+.mode-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  transition: all 0.18s;
+  border: 1.5px solid;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  user-select: none;
+}
+/* Current mode = EDIT (green) */
+.mode-toggle-btn.is-edit {
+  background: rgba(34,197,94,0.10);
+  border-color: rgba(34,197,94,0.45);
+  color: #4ade80;
+}
+.mode-toggle-btn.is-edit:hover {
+  background: rgba(34,197,94,0.18);
+  border-color: rgba(34,197,94,0.7);
+  color: #86efac;
+}
+/* Current mode = VIEW (magenta) */
+.mode-toggle-btn.is-view {
+  background: rgba(217,1,122,0.12);
+  border-color: rgba(217,1,122,0.5);
+  color: #f472b6;
+}
+.mode-toggle-btn.is-view:hover {
+  background: rgba(217,1,122,0.2);
+  border-color: rgba(217,1,122,0.8);
+  color: #f9a8d4;
+}
+
+/* VIEW MODE BANNER */
+#view-mode-banner {
+  display: none;
+  background: linear-gradient(90deg, rgba(217,1,122,0.08) 0%, transparent 100%);
+  border-left: 3px solid #D9017A;
+  padding: 7px 20px;
+  font-size: 12px;
+  color: rgba(244,114,182,0.9);
+  font-family: var(--font-ui);
+  letter-spacing: 0.01em;
+}
+body.view-mode #view-mode-banner { display: flex; align-items: center; gap: 10px; }
+
+/* Separator before mode button */
+.mode-sep {
+  width: 1px;
+  height: 22px;
+  background: var(--border);
+  margin: 0 4px;
+}
+
+/* ─── LOCKS APPLIED IN VIEW MODE ─── */
+body.view-mode .edit-controls { display: none !important; }
+
+body.view-mode .metric-card {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+body.view-mode .metric-card .metric-edit-hint { display: none !important; }
+
+body.view-mode .camp-cell:not([readonly]) {
+  pointer-events: none !important;
+  cursor: default !important;
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+body.view-mode .src-cell:not(.auto-val) {
+  pointer-events: none !important;
+  cursor: default !important;
+  background: transparent !important;
+}
+
+body.view-mode [contenteditable="true"] {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+
 /* CONTENT */
 .content {
   padding: 24px;
@@ -1489,14 +1583,25 @@ td.del-col { width: 32px; text-align: center; }
           <div id="snapshot-list-wrap" style="margin-top:8px"></div>
         </div>
       </div>
-      <button class="btn-primary" onclick="openBulkEdit()">✏ Ввод данных</button>
-      <button class="btn-ghost" onclick="triggerXlsxImport()">📥 Импорт XLSX</button>
-      <input type="file" id="xlsx-file-input" accept=".xlsx,.xls,.csv" style="display:none" onchange="handleXlsxImport(event)">
-      <button class="btn-ghost" onclick="downloadXlsxTemplate()">📋 Шаблон</button>
+      <div class="mode-sep"></div>
+      <button class="mode-toggle-btn is-edit" id="mode-toggle-btn" onclick="toggleEditMode()" title="Сейчас: Редактирование — нажмите для Просмотра">
+        <span id="mode-toggle-icon">🔓</span>
+        <span id="mode-toggle-text">Редактирование</span>
+      </button>
+      <div class="edit-controls" style="display:flex;align-items:center;gap:10px">
+        <button class="btn-primary" onclick="openBulkEdit()">✏ Ввод данных</button>
+        <button class="btn-ghost" onclick="triggerXlsxImport()">📥 Импорт XLSX</button>
+        <input type="file" id="xlsx-file-input" accept=".xlsx,.xls,.csv" style="display:none" onchange="handleXlsxImport(event)">
+        <button class="btn-ghost" onclick="downloadXlsxTemplate()">📋 Шаблон</button>
+      </div>
       <button class="btn-ghost" onclick="exportData()">↓ Экспорт</button>
     </div>
   </div>
   <div id="compare-banner"></div>
+  <div id="view-mode-banner">
+    <span>🔒</span>
+    <span>Режим просмотра — редактирование данных заблокировано. Нажмите <strong>✏ Редактирование</strong> для внесения изменений.</span>
+  </div>
   <div id="period-status-banner"></div>
 
   <div class="content">
@@ -2408,9 +2513,7 @@ async function initSupabase() {
 // per-user permissions, just a lock on the door for the public URL.
 // ========================================
 async function checkAuthAndShowApp() {
-  // ?preview=1 in URL bypasses auth for local file:// viewing only.
-  // This param has no effect when served from GitHub Pages because the
-  // Supabase keys are injected there and sbReady will be true anyway.
+  // ?preview=1 in URL bypasses auth for local file:// viewing.
   const isPreview = new URLSearchParams(window.location.search).get('preview') === '1';
   const isLocalFile = window.location.protocol === 'file:';
   if (isPreview && isLocalFile) {
@@ -2418,9 +2521,11 @@ async function checkAuthAndShowApp() {
     return true;
   }
 
+  // If Supabase isn't configured (no credentials injected — e.g. preview/artifact),
+  // skip auth and show the app directly. Production (GitHub Pages) always has sbReady=true.
   if (!sbReady) {
-    showLoginScreen();
-    return false;
+    showApp();
+    return true;
   }
   try {
     const { data, error } = await _sb.auth.getSession();
@@ -2973,6 +3078,7 @@ function saveCamps(ch) { saveState(); }
 const CAMP_FIELD_ORDER = ['name','budget','impressions','clicks','conversions','planfix_leads'];
 
 function handleCampPaste(e, ch, rowIdx, field) {
+  if (!editMode) return; // VIEW MODE
   const clipboard = (e.clipboardData || window.clipboardData).getData('text');
   if (!clipboard || !clipboard.includes('\t') && !clipboard.includes('\n')) {
     // Single value paste — let default behavior happen, just update state after
@@ -3126,6 +3232,7 @@ function renderOrgSourceTable(lang) {
 }
 
 function updateOrgSource(lang, src, field, val) {
+  if (!editMode) return; // VIEW MODE
   if (!state.organic[lang][src]) state.organic[lang][src] = {};
   if (field === 'time_on_site') {
     state.organic[lang][src][field] = val;
@@ -3220,6 +3327,7 @@ function savePages(lang) { saveState(); }
 // BULK PASTE for organic pages table
 // ========================================
 function handlePagePaste(e, lang, rowIdx, field) {
+  if (!editMode) return; // VIEW MODE
   const clipboard = (e.clipboardData || window.clipboardData).getData('text');
 
   // Single-cell paste: let browser handle it, then sync to state
@@ -3327,7 +3435,48 @@ function renderMetrics(containerId, dataObj, metricDefs, prevData) {
   }).join('');
 }
 
+// ========================================
+// VIEW / EDIT MODE TOGGLE
+// ========================================
+let editMode = false; // default: VIEW mode on login
+
+function toggleEditMode() {
+  editMode = !editMode;
+  applyEditMode();
+}
+
+function applyEditMode() {
+  const body = document.body;
+  const btn  = document.getElementById('mode-toggle-btn');
+  const icon = document.getElementById('mode-toggle-icon');
+  const txt  = document.getElementById('mode-toggle-text');
+
+  if (editMode) {
+    // ── EDIT MODE ──
+    body.classList.remove('view-mode');
+    if (btn) {
+      btn.className = 'mode-toggle-btn is-edit';
+      btn.title = 'Сейчас: Редактирование — нажмите для Просмотра';
+    }
+    if (icon) icon.textContent = '🔓';
+    if (txt)  txt.textContent  = 'Редактирование';
+  } else {
+    // ── VIEW MODE — close any open inline-editing first ──
+    document.querySelectorAll('.metric-card.editing').forEach(card => {
+      card.classList.remove('editing');
+    });
+    body.classList.add('view-mode');
+    if (btn) {
+      btn.className = 'mode-toggle-btn is-view';
+      btn.title = 'Сейчас: Просмотр — нажмите для Редактирования';
+    }
+    if (icon) icon.textContent = '🔒';
+    if (txt)  txt.textContent  = 'Просмотр';
+  }
+}
+
 function editMetricCard(card, containerId, key, fmt) {
+  if (!editMode) return; // VIEW MODE — no editing
   document.querySelectorAll('.metric-card.editing').forEach(c => {
     if (c !== card) c.classList.remove('editing');
   });
@@ -3339,6 +3488,7 @@ function editMetricCard(card, containerId, key, fmt) {
 }
 
 function saveInlineEdit(input, containerId, key) {
+  if (!editMode) return; // VIEW MODE
   const card = input.closest('.metric-card');
   card.classList.remove('editing');
   const raw = input.value.replace(/[^0-9.,]/g,'').replace(',','.');
@@ -4598,6 +4748,7 @@ function handleManualDateChange() {
 let currentModalChannel = null;
 
 function openBulkEdit() {
+  if (!editMode) return; // VIEW MODE
   const activeTab = document.querySelector('.tab-content.active').id.replace('tab-','');
   const channelMap = {google:'google',yandex:'yandex',aads:'aads',linkedin:'linkedin'};
 
@@ -5305,6 +5456,7 @@ async function bootApp() {
   }
 
   renderAll();
+  applyEditMode(); // init view/edit mode state
 
   const wh = localStorage.getItem('bixbit_webhook');
   if (wh && document.getElementById('webhook-url')) {
