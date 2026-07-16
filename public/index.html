@@ -2862,6 +2862,15 @@ function setApiStatus(ok) {
 }
 
 const STORE_KEY = 'bixbit_dashboard_v2';
+// Bump this version to force-clear stale localStorage on all devices
+const CACHE_BUST_VERSION = '4';
+if (localStorage.getItem('bixbit_bust_v') !== CACHE_BUST_VERSION) {
+  localStorage.removeItem(STORE_KEY);
+  localStorage.removeItem('bixbit_dashboard_v2');
+  localStorage.removeItem('bixbit_lastActivePeriodKey');
+  localStorage.setItem('bixbit_bust_v', CACHE_BUST_VERSION);
+  console.log('localStorage cleared — loading fresh from Supabase');
+}
 const SNAP_KEY_LS = 'bixbit_snapshots_v1';
 
 const defaultData = {
@@ -3036,10 +3045,7 @@ function deepMerge(base, incoming) {
 
 async function loadState() {
   // Supabase is the single source of truth.
-  // localStorage is only a fallback when Supabase is unavailable.
-  // Viewers cannot write to Supabase (saveState blocked in VIEW MODE),
-  // so Supabase always has the latest editor data.
-
+  // localStorage is only used as offline fallback.
   if (sbReady) {
     try {
       const { data, error } = await _sb
@@ -3049,20 +3055,17 @@ async function loadState() {
         .maybeSingle();
       if (!error && data?.payload) {
         state = deepMerge(JSON.parse(JSON.stringify(defaultData)), data.payload);
-        // Keep localStorage in sync for offline fallback
         try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {}
         return;
       }
-    } catch(e) { console.warn('Supabase load failed, falling back to localStorage:', e); }
+    } catch(e) { console.warn('Supabase load failed, using localStorage:', e); }
   }
-
-  // Fallback: Supabase unavailable — use localStorage
+  // Offline fallback
   try {
     const saved = localStorage.getItem(STORE_KEY);
     if (saved) state = deepMerge(JSON.parse(JSON.stringify(defaultData)), JSON.parse(saved));
   } catch(e) {}
 }
-
 async function saveState() {
   // VIEW MODE — viewers must never write to Supabase (or localStorage).
   // Prevents stale viewer state from overwriting real data entered by editors.
