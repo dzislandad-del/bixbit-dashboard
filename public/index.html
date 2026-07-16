@@ -2862,15 +2862,7 @@ function setApiStatus(ok) {
 }
 
 const STORE_KEY = 'bixbit_dashboard_v2';
-// Bump this version to force-clear stale localStorage on all devices
-const CACHE_BUST_VERSION = '4';
-if (localStorage.getItem('bixbit_bust_v') !== CACHE_BUST_VERSION) {
-  localStorage.removeItem(STORE_KEY);
-  localStorage.removeItem('bixbit_dashboard_v2');
-  localStorage.removeItem('bixbit_lastActivePeriodKey');
-  localStorage.setItem('bixbit_bust_v', CACHE_BUST_VERSION);
-  console.log('localStorage cleared — loading fresh from Supabase');
-}
+
 const SNAP_KEY_LS = 'bixbit_snapshots_v1';
 
 const defaultData = {
