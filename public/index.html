@@ -236,6 +236,21 @@ body {
 }
 body.view-mode #view-mode-banner { display: flex; align-items: center; gap: 10px; }
 
+/* Sync-ahead banner */
+#sync-ahead-banner {
+  display: none;
+  background: linear-gradient(90deg, rgba(0,64,221,0.10) 0%, transparent 100%);
+  border-left: 3px solid #0040DD;
+  padding: 7px 20px;
+  font-size: 12px;
+  color: #5B8FFF;
+  font-family: var(--font-ui);
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body.edit-sync-needed #sync-ahead-banner { display: flex; }
+
 /* Separator before mode button */
 .mode-sep {
   width: 1px;
@@ -694,6 +709,30 @@ body.view-mode [contenteditable="true"] {
   background: rgba(245,166,35,0.08);
   border-bottom: 1px solid rgba(245,166,35,0.25);
   color: #F5A623;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+}
+.copy-period-btn {
+  background: rgba(0,64,221,0.15);
+  border: 1px solid rgba(0,64,221,0.4);
+  color: #5B8FFF;
+  border-radius: 5px;
+  padding: 3px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  white-space: nowrap;
+}
+.copy-period-btn:hover { background: rgba(0,64,221,0.25); }
+.copy-period-select {
+  background: var(--bg-card2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 5px;
+  padding: 3px 8px;
+  font-size: 12px;
+  font-family: var(--font-ui);
+  cursor: pointer;
 }
 .delta-up { color: #1DB954; }
 .delta-down { color: #E84040; }
@@ -1814,10 +1853,16 @@ td.del-col { width: 32px; text-align: center; }
         <input type="file" id="xlsx-file-input" accept=".xlsx,.xls,.csv" style="display:none" onchange="handleXlsxImport(event)">
         <button class="btn-ghost" onclick="downloadXlsxTemplate()">📋 Шаблон</button>
       </div>
+      <button class="btn-ghost sync-btn" id="sync-supabase-btn" onclick="forceSyncToSupabase()" title="Принудительно сохранить текущие данные в Supabase" style="display:none">↑ Синхр.</button>
       <button class="btn-ghost" onclick="exportData()">↓ Экспорт</button>
     </div>
   </div>
   <div id="compare-banner"></div>
+  <div id="sync-ahead-banner">
+    <span>⚠️</span>
+    <span>На вашем устройстве есть данные которых нет в Supabase — другие пользователи их не видят.</span>
+    <button class="copy-period-btn" onclick="forceSyncToSupabase()" style="background:rgba(0,64,221,0.2);border-color:rgba(0,64,221,0.6)">↑ Синхронизировать сейчас</button>
+  </div>
   <div id="view-mode-banner">
     <span>🔒</span>
     <span>Режим просмотра — редактирование данных заблокировано. Нажмите <strong>✏ Редактирование</strong> для внесения изменений.</span>
@@ -2990,14 +3035,22 @@ function deepMerge(base, incoming) {
 }
 
 async function loadState() {
-  // 1. Load from localStorage instantly
+  // 1. Load localStorage as starting point
+  let localPeriods = {};
+  let localActiveData = {}; // current channel data from local
   try {
     const saved = localStorage.getItem(STORE_KEY);
-    if (saved) state = deepMerge(JSON.parse(JSON.stringify(defaultData)), JSON.parse(saved));
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      state = deepMerge(JSON.parse(JSON.stringify(defaultData)), parsed);
+      localPeriods = parsed.periods || {};
+      // Capture local values for active channels
+      ['google','yandex','aads','linkedin','organic'].forEach(k => {
+        if (parsed[k]) localActiveData[k] = parsed[k];
+      });
+    }
   } catch(e) {}
-  // 2. Override with Supabase if connected — but only if remote data is newer
-  //    than what we have locally, to avoid a slightly-stale remote payload
-  //    silently wiping out edits that haven't finished syncing yet.
+
   if (!sbReady) return;
   try {
     const { data, error } = await _sb
@@ -3006,12 +3059,52 @@ async function loadState() {
       .eq('project', 'bixbit')
       .maybeSingle();
     if (!error && data?.payload) {
-      const localUpdatedAt = state.__lastSavedAt ? new Date(state.__lastSavedAt).getTime() : 0;
-      const remoteUpdatedAt = data.updated_at ? new Date(data.updated_at).getTime() : 0;
-      if (remoteUpdatedAt >= localUpdatedAt) {
-        state = deepMerge(JSON.parse(JSON.stringify(defaultData)), data.payload);
-      } else {
-        console.log('Local data is newer than remote — keeping local, will re-sync on next save.');
+      const remotePeriods = data.payload.periods || {};
+
+      // Load Supabase as base
+      state = deepMerge(JSON.parse(JSON.stringify(defaultData)), data.payload);
+
+      // ── Smart per-period merge ──────────────────────────────────────
+      // For each period: if local has real data but remote is empty
+      // (e.g. a viewer corrupted Supabase before VIEW MODE fix),
+      // keep the local version. This prevents losing editor data.
+      let localDataPreserved = false;
+      const periodHasData = (p) => p && (
+        parseFloat(p.google?.budget) > 0 ||
+        parseFloat(p.google?.clicks) > 0 ||
+        (p.google?.campaigns && p.google.campaigns.length > 0)
+      );
+
+      Object.keys(localPeriods).forEach(key => {
+        const lp = localPeriods[key];
+        const rp = remotePeriods[key];
+        if (periodHasData(lp) && !periodHasData(rp)) {
+          if (!state.periods) state.periods = {};
+          state.periods[key] = lp;
+          localDataPreserved = true;
+          console.log('loadState: local period preserved (remote was empty):', key);
+        }
+      });
+
+      // Also check active channel data directly (not archived in periods yet)
+      const remoteHasActiveData = parseFloat(data.payload.google?.budget) > 0 ||
+                                   parseFloat(data.payload.google?.clicks) > 0;
+      const localHasActiveData  = parseFloat(localActiveData.google?.budget) > 0 ||
+                                   parseFloat(localActiveData.google?.clicks) > 0;
+      if (localHasActiveData && !remoteHasActiveData) {
+        ['google','yandex','aads','linkedin','organic'].forEach(k => {
+          if (localActiveData[k]) state[k] = localActiveData[k];
+        });
+        localDataPreserved = true;
+        console.log('loadState: local active channel data preserved (remote was empty)');
+      }
+
+      // Auto-sync: if we kept local data that remote didn't have,
+      // push to Supabase so everyone sees the correct data.
+      // Only safe to do in edit mode (default = false, so this fires
+      // only after admin explicitly switches to edit mode and re-navigates).
+      if (localDataPreserved) {
+        state.__localAheadOfRemote = true; // flag to show sync banner
       }
     }
   } catch(e) { console.warn('Supabase load failed:', e); }
@@ -3160,8 +3253,57 @@ function updatePeriodStatusBanner() {
     banner.innerHTML = `<span>✓</span> Период <strong>${from} — ${to}</strong> — данные сохранены`;
   } else {
     banner.className = 'period-status-new';
-    banner.innerHTML = `<span>⚠</span> Период <strong>${from} — ${to}</strong> — новый, данные ещё не введены`;
+
+    // Find other periods with data to offer a copy option
+    const otherPeriods = Object.keys(state.periods || {}).filter(k => {
+      if (k === activePeriodKey) return false;
+      const d = state.periods[k];
+      return d && (parseFloat(d.google?.budget) > 0 || parseFloat(d.google?.clicks) > 0 ||
+                   (d.google?.campaigns && d.google.campaigns.length > 0));
+    });
+
+    let copyHtml = '';
+    if (editMode && otherPeriods.length > 0) {
+      const opts = otherPeriods.map(k => {
+        const [f, t] = k.split('|');
+        return `<option value="${k}">${f} — ${t}</option>`;
+      }).join('');
+      copyHtml = `
+        <span style="color:var(--text-muted);font-size:11px">Скопировать данные из:</span>
+        <select class="copy-period-select" id="copy-from-select">${opts}</select>
+        <button class="copy-period-btn" onclick="executeCopyPeriod()">📋 Скопировать</button>`;
+    }
+
+    banner.innerHTML = `<span>⚠</span> <span>Период <strong>${from} — ${to}</strong> — новый, данные ещё не введены</span>${copyHtml}`;
   }
+}
+
+function executeCopyPeriod() {
+  const sel = document.getElementById('copy-from-select');
+  if (!sel) return;
+  const sourceKey = sel.value;
+  const sourceData = state.periods[sourceKey];
+  if (!sourceData) { showToast('Период не найден'); return; }
+
+  // Copy all channel data from source period to current period
+  CHANNEL_KEYS.forEach(k => {
+    if (k === 'organic') {
+      ['ru','en','es'].forEach(lang => {
+        if (sourceData.organic && sourceData.organic[lang]) {
+          state.organic[lang] = JSON.parse(JSON.stringify(sourceData.organic[lang]));
+        }
+      });
+    } else {
+      if (sourceData[k]) {
+        state[k] = JSON.parse(JSON.stringify(sourceData[k]));
+      }
+    }
+  });
+
+  const [sf, st] = sourceKey.split('|');
+  showToast(`Данные скопированы из ${sf} — ${st}`);
+  saveState();
+  renderAll();
 }
 
 // ========================================
@@ -3691,6 +3833,7 @@ function applyEditMode() {
   const icon = document.getElementById('mode-toggle-icon');
   const txt  = document.getElementById('mode-toggle-text');
 
+  const syncBtn = document.getElementById('sync-supabase-btn');
   if (editMode) {
     // ── EDIT MODE ──
     body.classList.remove('view-mode');
@@ -3700,6 +3843,11 @@ function applyEditMode() {
     }
     if (icon) icon.textContent = '🔓';
     if (txt)  txt.textContent  = 'Редактирование';
+    if (syncBtn && sbReady) syncBtn.style.display = '';
+    // Show sync-ahead banner if local data is ahead of Supabase
+    if (state.__localAheadOfRemote && sbReady) {
+      document.body.classList.add('edit-sync-needed');
+    }
   } else {
     // ── VIEW MODE — close any open inline-editing first ──
     document.querySelectorAll('.metric-card.editing').forEach(card => {
@@ -3712,6 +3860,7 @@ function applyEditMode() {
     }
     if (icon) icon.textContent = '🔒';
     if (txt)  txt.textContent  = 'Просмотр';
+    if (syncBtn) syncBtn.style.display = 'none';
   }
 }
 
@@ -5108,6 +5257,41 @@ function closeModal() {
 // ========================================
 // EXPORT
 // ========================================
+
+// ========================================
+// FORCE SYNC TO SUPABASE (editor tool)
+// ========================================
+async function forceSyncToSupabase() {
+  if (!editMode) { showToast('Переключитесь в режим редактирования'); return; }
+  if (!sbReady) { showToast('Supabase не подключён'); return; }
+  const btn = document.getElementById('sync-supabase-btn');
+  if (btn) { btn.textContent = '⟳ Синхр...'; btn.disabled = true; }
+  try {
+    // Archive current period before saving
+    if (activePeriodKey) {
+      if (!state.periods) state.periods = {};
+      state.periods[activePeriodKey] = snapshotCurrentPeriodData();
+    }
+    state.__lastSavedAt = new Date().toISOString();
+    localStorage.setItem(STORE_KEY, JSON.stringify(state));
+    const { error } = await _sb
+      .from('dashboard_state')
+      .upsert(
+        { project: 'bixbit', payload: state, updated_at: state.__lastSavedAt },
+        { onConflict: 'project' }
+      );
+    if (error) throw error;
+    state.__localAheadOfRemote = false;
+    document.body.classList.remove('edit-sync-needed');
+    showToast('✅ Данные синхронизированы в Supabase');
+  } catch(e) {
+    console.warn('Sync error:', e);
+    showToast('❌ Ошибка синхронизации: ' + e.message);
+  } finally {
+    if (btn) { btn.textContent = '↑ Синхр.'; btn.disabled = false; }
+  }
+}
+
 function exportData() {
   const blob = new Blob([JSON.stringify(state, null, 2)], {type:'application/json'});
   const url = URL.createObjectURL(blob);
