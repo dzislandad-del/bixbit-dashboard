@@ -3125,20 +3125,11 @@ async function saveState() {
   try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {}
   if (!sbReady) { showToast('Сохранено локально'); return; }
   try {
-    // UPDATE first (row seeded in schema.sql — should always exist)
-    const { error, count } = await _sb
+    const { error } = await _sb
       .from('dashboard_state')
       .update({ payload: state, updated_at: state.__lastSavedAt })
-      .eq('project', 'bixbit')
-      .select('project');
+      .eq('project', 'bixbit');
     if (error) throw error;
-    // If row didn't exist yet, insert it
-    if (!count || count === 0) {
-      const { error: insertError } = await _sb
-        .from('dashboard_state')
-        .insert({ project: 'bixbit', payload: state, updated_at: state.__lastSavedAt });
-      if (insertError) throw insertError;
-    }
     showToast('Сохранено в Supabase ✓');
   } catch(e) {
     console.warn('Supabase save error:', e);
@@ -5281,18 +5272,11 @@ async function forceSyncToSupabase() {
     }
     state.__lastSavedAt = new Date().toISOString();
     localStorage.setItem(STORE_KEY, JSON.stringify(state));
-    const { error, count } = await _sb
+    const { error } = await _sb
       .from('dashboard_state')
       .update({ payload: state, updated_at: state.__lastSavedAt })
-      .eq('project', 'bixbit')
-      .select('project');
+      .eq('project', 'bixbit');
     if (error) throw error;
-    if (!count || count === 0) {
-      const { error: insertError } = await _sb
-        .from('dashboard_state')
-        .insert({ project: 'bixbit', payload: state, updated_at: state.__lastSavedAt });
-      if (insertError) throw insertError;
-    }
     state.__localAheadOfRemote = false;
     document.body.classList.remove('edit-sync-needed');
     showToast('✅ Данные синхронизированы в Supabase');
@@ -5346,14 +5330,9 @@ async function saveSnapshots(snaps) {
   if (!sbReady) return;
   try {
     const ts = new Date().toISOString();
-    const { count: sc } = await _sb.from('dashboard_snapshots')
+    await _sb.from('dashboard_snapshots')
       .update({ snapshots: snaps, updated_at: ts })
-      .eq('project', 'bixbit')
-      .select('project');
-    if (!sc || sc === 0) {
-      await _sb.from('dashboard_snapshots')
-        .insert({ project: 'bixbit', snapshots: snaps, updated_at: ts });
-    }
+      .eq('project', 'bixbit');
   } catch(e) { console.warn('Snapshot save failed:', e); }
 }
 
