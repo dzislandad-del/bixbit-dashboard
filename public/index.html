@@ -2798,6 +2798,10 @@ async function loadState() {
 }
 
 async function saveState() {
+  // VIEW MODE — viewers must never write to Supabase (or localStorage).
+  // Prevents stale viewer state from overwriting real data entered by editors.
+  if (!editMode) return;
+
   // Keep the periods archive in sync with whatever is currently active,
   // so data isn't lost even if the page closes before switching periods.
   if (activePeriodKey) {
@@ -2869,6 +2873,22 @@ function switchToPeriod(newFrom, newTo) {
     // Returning to a period we've seen before — restore its data
     applyPeriodData(state.periods[newKey]);
     showToast('Загружен период: ' + newFrom + ' — ' + newTo);
+  } else if (!editMode && sbReady) {
+    // VIEW MODE + unknown period: fetch fresh from Supabase instead of zeroing.
+    // Prevents viewers with stale local state from seeing empty data.
+    activePeriodKey = newKey;
+    state.lastActivePeriodKey = newKey;
+    localStorage.setItem('bixbit_lastActivePeriodKey', newKey);
+    loadState().then(() => {
+      if (state.periods[newKey]) {
+        applyPeriodData(state.periods[newKey]);
+        showToast('Загружен период: ' + newFrom + ' — ' + newTo);
+      } else {
+        showToast('Данные за этот период не найдены');
+      }
+      renderAll();
+    });
+    return; // renderAll will be called inside the promise
   } else {
     // Brand new period — start from zeroed values so it's obviously empty,
     // never accidentally showing numbers that belong to a different period.
