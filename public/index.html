@@ -3036,16 +3036,16 @@ function deepMerge(base, incoming) {
 }
 
 async function loadState() {
-  // Supabase is the only source of truth — no localStorage fallback.
+  // Direct assignment — no deepMerge with defaultData demo values.
   if (!sbReady) return;
   try {
     const { data, error } = await _sb
       .from('dashboard_state')
-      .select('payload, updated_at')
+      .select('payload')
       .eq('project', 'bixbit')
       .maybeSingle();
     if (!error && data?.payload) {
-      state = deepMerge(JSON.parse(JSON.stringify(defaultData)), data.payload);
+      state = data.payload;
     }
   } catch(e) { console.warn('Supabase loadState error:', e); }
 }
