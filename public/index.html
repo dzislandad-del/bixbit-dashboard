@@ -5816,9 +5816,12 @@ async function bootApp() {
   }
 
   if (!state.periods) state.periods = {};
-  // Make sure the period we're starting on has a saved snapshot pointing at
-  // the data we just loaded, so switching away and back works correctly.
-  if (!state.periods[activePeriodKey]) {
+
+  // Apply the restored period data into root state on boot.
+  // Without this, root state from last save (stale) was shown instead.
+  if (state.periods[activePeriodKey]) {
+    applyPeriodData(state.periods[activePeriodKey]);
+  } else {
     state.periods[activePeriodKey] = snapshotCurrentPeriodData();
   }
 
