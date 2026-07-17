@@ -5861,8 +5861,8 @@ async function bootApp() {
   const startFrom = document.getElementById('date-from').value;
   const startTo = document.getElementById('date-to').value;
   // Per-user period preference: localStorage first, then shared Supabase default
-  const _localPeriodKey = localStorage.getItem('bixbit_lastActivePeriodKey');
-  activePeriodKey = _localPeriodKey || state.lastActivePeriodKey || periodKey(startFrom, startTo);
+  // Supabase lastActivePeriodKey wins over localStorage to prevent stale local key overriding correct period
+  activePeriodKey = state.lastActivePeriodKey || localStorage.getItem('bixbit_lastActivePeriodKey') || periodKey(startFrom, startTo);
 
   // FIX: Sync date inputs with the restored activePeriodKey so all users
   // see consistent dates and period switching archives under the correct key.
