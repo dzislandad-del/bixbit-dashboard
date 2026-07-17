@@ -2857,6 +2857,12 @@ function setApiStatus(ok) {
 }
 
 const STORE_KEY = 'bixbit_dashboard_v2';
+// Clear legacy localStorage — all data now lives in Supabase only
+try {
+  localStorage.removeItem(STORE_KEY);
+  localStorage.removeItem('bixbit_lastActivePeriodKey');
+  localStorage.removeItem('bixbit_bust_v');
+} catch(e) {}
 const SNAP_KEY_LS = 'bixbit_snapshots_v1';
 
 const defaultData = {
@@ -3030,29 +3036,18 @@ function deepMerge(base, incoming) {
 }
 
 async function loadState() {
-  // Supabase is the single source of truth.
-  // localStorage is only a fallback when Supabase is unavailable.
-  // Viewers cannot write to Supabase (saveState blocked in VIEW MODE),
-  // so Supabase always has the latest editor data.
-  if (sbReady) {
-    try {
-      const { data, error } = await _sb
-        .from('dashboard_state')
-        .select('payload, updated_at')
-        .eq('project', 'bixbit')
-        .maybeSingle();
-      if (!error && data?.payload) {
-        state = deepMerge(JSON.parse(JSON.stringify(defaultData)), data.payload);
-        try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {}
-        return;
-      }
-    } catch(e) { console.warn('Supabase load failed, using localStorage:', e); }
-  }
-  // Offline fallback only
+  // Supabase is the only source of truth — no localStorage fallback.
+  if (!sbReady) return;
   try {
-    const saved = localStorage.getItem(STORE_KEY);
-    if (saved) state = deepMerge(JSON.parse(JSON.stringify(defaultData)), JSON.parse(saved));
-  } catch(e) {}
+    const { data, error } = await _sb
+      .from('dashboard_state')
+      .select('payload, updated_at')
+      .eq('project', 'bixbit')
+      .maybeSingle();
+    if (!error && data?.payload) {
+      state = deepMerge(JSON.parse(JSON.stringify(defaultData)), data.payload);
+    }
+  } catch(e) { console.warn('Supabase loadState error:', e); }
 }
 async function saveState() {
   // VIEW MODE — viewers must never write to Supabase (or localStorage).
@@ -3066,8 +3061,7 @@ async function saveState() {
     state.periods[activePeriodKey] = snapshotCurrentPeriodData();
   }
   state.__lastSavedAt = new Date().toISOString();
-  try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {}
-  if (!sbReady) { showToast('Сохранено локально'); return; }
+  if (!sbReady) { showToast('Supabase недоступен'); return; }
   try {
     // UPDATE first (row seeded in schema.sql — should always exist)
     const { error, count } = await _sb
@@ -3142,7 +3136,6 @@ function switchToPeriod(newFrom, newTo) {
     // Prevents viewers with stale local state from seeing empty data.
     activePeriodKey = newKey;
     state.lastActivePeriodKey = newKey;
-    localStorage.setItem('bixbit_lastActivePeriodKey', newKey);
     loadState().then(() => {
       if (state.periods[newKey]) {
         applyPeriodData(state.periods[newKey]);
@@ -3182,7 +3175,6 @@ function switchToPeriod(newFrom, newTo) {
 
   activePeriodKey = newKey;
   state.lastActivePeriodKey = newKey;
-  localStorage.setItem('bixbit_lastActivePeriodKey', newKey);
   saveState();
   renderAll();
 }
@@ -5224,7 +5216,6 @@ async function forceSyncToSupabase() {
       state.periods[activePeriodKey] = snapshotCurrentPeriodData();
     }
     state.__lastSavedAt = new Date().toISOString();
-    localStorage.setItem(STORE_KEY, JSON.stringify(state));
     const { error, count } = await _sb
       .from('dashboard_state')
       .update({ payload: state, updated_at: state.__lastSavedAt })
@@ -5812,7 +5803,7 @@ async function bootApp() {
   const startTo = document.getElementById('date-to').value;
   // Per-user period preference: localStorage first, then shared Supabase default
   // Supabase lastActivePeriodKey wins — prevents stale localStorage from overriding correct period
-  activePeriodKey = state.lastActivePeriodKey || localStorage.getItem('bixbit_lastActivePeriodKey') || periodKey(startFrom, startTo);
+  activePeriodKey = state.lastActivePeriodKey || periodKey(startFrom, startTo);
 
   // FIX: Sync date inputs with the restored activePeriodKey so all users
   // see consistent dates and period switching archives under the correct key.
@@ -5846,10 +5837,7 @@ async function bootApp() {
   renderAll();
   applyEditMode(); // init view/edit mode state
 
-  const wh = localStorage.getItem('bixbit_webhook');
-  if (wh && document.getElementById('webhook-url')) {
-    document.getElementById('webhook-url').value = wh;
-  }
+  // webhook URL loaded from Supabase state if present
 }
 
 window.addEventListener('load', async () => {
