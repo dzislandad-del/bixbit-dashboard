@@ -3036,18 +3036,29 @@ function deepMerge(base, incoming) {
 }
 
 async function loadState() {
-  // Direct assignment — no deepMerge with defaultData demo values.
+  // Supabase is the only source of truth.
+  // Retry with backoff: PostgREST/RLS can occasionally return an empty
+  // result for a moment right after schema/policy changes propagate
+  // across replicas — retrying protects against that transient flakiness.
   if (!sbReady) return;
-  try {
-    const { data, error } = await _sb
-      .from('dashboard_state')
-      .select('payload')
-      .eq('project', 'bixbit')
-      .maybeSingle();
-    if (!error && data?.payload) {
-      state = data.payload;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const { data, error } = await _sb
+        .from('dashboard_state')
+        .select('payload')
+        .eq('project', 'bixbit')
+        .maybeSingle();
+      if (!error && data?.payload) {
+        state = data.payload;
+        return;
+      }
+      console.warn(`loadState attempt ${attempt}: no data yet`, error);
+    } catch(e) {
+      console.warn(`loadState attempt ${attempt} failed:`, e);
     }
-  } catch(e) { console.warn('Supabase loadState error:', e); }
+    if (attempt < 3) await new Promise(r => setTimeout(r, 500 * attempt));
+  }
+  console.error('loadState: all retries exhausted, showing default data');
 }
 async function saveState() {
   // VIEW MODE — viewers must never write to Supabase (or localStorage).
