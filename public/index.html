@@ -2862,7 +2862,6 @@ function setApiStatus(ok) {
 }
 
 const STORE_KEY = 'bixbit_dashboard_v2';
-
 const SNAP_KEY_LS = 'bixbit_snapshots_v1';
 
 const defaultData = {
@@ -3036,28 +3035,81 @@ function deepMerge(base, incoming) {
 }
 
 async function loadState() {
-  // Supabase is the single source of truth.
-  // localStorage is only used as offline fallback.
-  if (sbReady) {
-    try {
-      const { data, error } = await _sb
-        .from('dashboard_state')
-        .select('payload, updated_at')
-        .eq('project', 'bixbit')
-        .maybeSingle();
-      if (!error && data?.payload) {
-        state = deepMerge(JSON.parse(JSON.stringify(defaultData)), data.payload);
-        try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {}
-        return;
-      }
-    } catch(e) { console.warn('Supabase load failed, using localStorage:', e); }
-  }
-  // Offline fallback
+  // 1. Load localStorage as starting point
+  let localPeriods = {};
+  let localActiveData = {}; // current channel data from local
   try {
     const saved = localStorage.getItem(STORE_KEY);
-    if (saved) state = deepMerge(JSON.parse(JSON.stringify(defaultData)), JSON.parse(saved));
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      state = deepMerge(JSON.parse(JSON.stringify(defaultData)), parsed);
+      localPeriods = parsed.periods || {};
+      // Capture local values for active channels
+      ['google','yandex','aads','linkedin','organic'].forEach(k => {
+        if (parsed[k]) localActiveData[k] = parsed[k];
+      });
+    }
   } catch(e) {}
+
+  if (!sbReady) return;
+  try {
+    const { data, error } = await _sb
+      .from('dashboard_state')
+      .select('payload, updated_at')
+      .eq('project', 'bixbit')
+      .maybeSingle();
+    if (!error && data?.payload) {
+      const remotePeriods = data.payload.periods || {};
+
+      // Load Supabase as base
+      state = deepMerge(JSON.parse(JSON.stringify(defaultData)), data.payload);
+
+      // ── Smart per-period merge ──────────────────────────────────────
+      // For each period: if local has real data but remote is empty
+      // (e.g. a viewer corrupted Supabase before VIEW MODE fix),
+      // keep the local version. This prevents losing editor data.
+      let localDataPreserved = false;
+      const periodHasData = (p) => p && (
+        parseFloat(p.google?.budget) > 0 ||
+        parseFloat(p.google?.clicks) > 0 ||
+        (p.google?.campaigns && p.google.campaigns.length > 0)
+      );
+
+      Object.keys(localPeriods).forEach(key => {
+        const lp = localPeriods[key];
+        const rp = remotePeriods[key];
+        if (periodHasData(lp) && !periodHasData(rp)) {
+          if (!state.periods) state.periods = {};
+          state.periods[key] = lp;
+          localDataPreserved = true;
+          console.log('loadState: local period preserved (remote was empty):', key);
+        }
+      });
+
+      // Also check active channel data directly (not archived in periods yet)
+      const remoteHasActiveData = parseFloat(data.payload.google?.budget) > 0 ||
+                                   parseFloat(data.payload.google?.clicks) > 0;
+      const localHasActiveData  = parseFloat(localActiveData.google?.budget) > 0 ||
+                                   parseFloat(localActiveData.google?.clicks) > 0;
+      if (localHasActiveData && !remoteHasActiveData) {
+        ['google','yandex','aads','linkedin','organic'].forEach(k => {
+          if (localActiveData[k]) state[k] = localActiveData[k];
+        });
+        localDataPreserved = true;
+        console.log('loadState: local active channel data preserved (remote was empty)');
+      }
+
+      // Auto-sync: if we kept local data that remote didn't have,
+      // push to Supabase so everyone sees the correct data.
+      // Only safe to do in edit mode (default = false, so this fires
+      // only after admin explicitly switches to edit mode and re-navigates).
+      if (localDataPreserved) {
+        state.__localAheadOfRemote = true; // flag to show sync banner
+      }
+    }
+  } catch(e) { console.warn('Supabase load failed:', e); }
 }
+
 async function saveState() {
   // VIEW MODE — viewers must never write to Supabase (or localStorage).
   // Prevents stale viewer state from overwriting real data entered by editors.
@@ -3073,11 +3125,20 @@ async function saveState() {
   try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {}
   if (!sbReady) { showToast('Сохранено локально'); return; }
   try {
-    const { error } = await _sb
+    // UPDATE first (row seeded in schema.sql — should always exist)
+    const { error, count } = await _sb
       .from('dashboard_state')
       .update({ payload: state, updated_at: state.__lastSavedAt })
-      .eq('project', 'bixbit');
+      .eq('project', 'bixbit')
+      .select('project');
     if (error) throw error;
+    // If row didn't exist yet, insert it
+    if (!count || count === 0) {
+      const { error: insertError } = await _sb
+        .from('dashboard_state')
+        .insert({ project: 'bixbit', payload: state, updated_at: state.__lastSavedAt });
+      if (insertError) throw insertError;
+    }
     showToast('Сохранено в Supabase ✓');
   } catch(e) {
     console.warn('Supabase save error:', e);
@@ -5220,11 +5281,18 @@ async function forceSyncToSupabase() {
     }
     state.__lastSavedAt = new Date().toISOString();
     localStorage.setItem(STORE_KEY, JSON.stringify(state));
-    const { error } = await _sb
+    const { error, count } = await _sb
       .from('dashboard_state')
       .update({ payload: state, updated_at: state.__lastSavedAt })
-      .eq('project', 'bixbit');
+      .eq('project', 'bixbit')
+      .select('project');
     if (error) throw error;
+    if (!count || count === 0) {
+      const { error: insertError } = await _sb
+        .from('dashboard_state')
+        .insert({ project: 'bixbit', payload: state, updated_at: state.__lastSavedAt });
+      if (insertError) throw insertError;
+    }
     state.__localAheadOfRemote = false;
     document.body.classList.remove('edit-sync-needed');
     showToast('✅ Данные синхронизированы в Supabase');
@@ -5278,9 +5346,14 @@ async function saveSnapshots(snaps) {
   if (!sbReady) return;
   try {
     const ts = new Date().toISOString();
-    await _sb.from('dashboard_snapshots')
+    const { count: sc } = await _sb.from('dashboard_snapshots')
       .update({ snapshots: snaps, updated_at: ts })
-      .eq('project', 'bixbit');
+      .eq('project', 'bixbit')
+      .select('project');
+    if (!sc || sc === 0) {
+      await _sb.from('dashboard_snapshots')
+        .insert({ project: 'bixbit', snapshots: snaps, updated_at: ts });
+    }
   } catch(e) { console.warn('Snapshot save failed:', e); }
 }
 
@@ -5816,12 +5889,9 @@ async function bootApp() {
   }
 
   if (!state.periods) state.periods = {};
-
-  // Apply the restored period data into root state on boot.
-  // Without this, root state from last save (stale) was shown instead.
-  if (state.periods[activePeriodKey]) {
-    applyPeriodData(state.periods[activePeriodKey]);
-  } else {
+  // Make sure the period we're starting on has a saved snapshot pointing at
+  // the data we just loaded, so switching away and back works correctly.
+  if (!state.periods[activePeriodKey]) {
     state.periods[activePeriodKey] = snapshotCurrentPeriodData();
   }
 
