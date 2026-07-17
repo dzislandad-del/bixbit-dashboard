@@ -1853,16 +1853,10 @@ td.del-col { width: 32px; text-align: center; }
         <input type="file" id="xlsx-file-input" accept=".xlsx,.xls,.csv" style="display:none" onchange="handleXlsxImport(event)">
         <button class="btn-ghost" onclick="downloadXlsxTemplate()">📋 Шаблон</button>
       </div>
-      <button class="btn-ghost sync-btn" id="sync-supabase-btn" onclick="forceSyncToSupabase()" title="Принудительно сохранить текущие данные в Supabase" style="display:none">↑ Синхр.</button>
       <button class="btn-ghost" onclick="exportData()">↓ Экспорт</button>
     </div>
   </div>
   <div id="compare-banner"></div>
-  <div id="sync-ahead-banner">
-    <span>⚠️</span>
-    <span>На вашем устройстве есть данные которых нет в Supabase — другие пользователи их не видят.</span>
-    <button class="copy-period-btn" onclick="forceSyncToSupabase()" style="background:rgba(0,64,221,0.2);border-color:rgba(0,64,221,0.6)">↑ Синхронизировать сейчас</button>
-  </div>
   <div id="view-mode-banner">
     <span>🔒</span>
     <span>Режим просмотра — редактирование данных заблокировано. Нажмите <strong>✏ Редактирование</strong> для внесения изменений.</span>
@@ -5889,9 +5883,13 @@ async function bootApp() {
   }
 
   if (!state.periods) state.periods = {};
-  // Make sure the period we're starting on has a saved snapshot pointing at
-  // the data we just loaded, so switching away and back works correctly.
-  if (!state.periods[activePeriodKey]) {
+
+  // Apply the active period's data into root state on boot.
+  // Without this, stale root state from last save was shown instead of
+  // the correct period data.
+  if (state.periods[activePeriodKey]) {
+    applyPeriodData(state.periods[activePeriodKey]);
+  } else {
     state.periods[activePeriodKey] = snapshotCurrentPeriodData();
   }
 
