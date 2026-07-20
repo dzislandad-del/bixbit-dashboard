@@ -3073,6 +3073,35 @@ async function saveState() {
   }
   state.__lastSavedAt = new Date().toISOString();
   if (!sbReady) { showToast('Supabase недоступен'); return; }
+
+  // SAFETY NET: never let a save wipe existing real data with all-zeros.
+  // If the local state we're about to save has zero budget/campaigns for
+  // every ad channel, but Supabase currently holds real (non-zero) data,
+  // block the save — this is almost certainly a stale/corrupted local
+  // state accidentally overwriting good data (e.g. a leftover tab).
+  try {
+    const localLooksEmpty = ['google','yandex','aads','linkedin'].every(k => {
+      const c = state[k];
+      return !c || (parseFloat(c.budget) === 0 && (!c.campaigns || c.campaigns.length === 0));
+    });
+    if (localLooksEmpty) {
+      const { data: remoteCheck } = await _sb
+        .from('dashboard_state')
+        .select('payload')
+        .eq('project', 'bixbit')
+        .maybeSingle();
+      const remoteLooksReal = remoteCheck?.payload && ['google','yandex','aads','linkedin'].some(k => {
+        const c = remoteCheck.payload[k];
+        return c && (parseFloat(c.budget) > 0 || (c.campaigns && c.campaigns.length > 0));
+      });
+      if (remoteLooksReal) {
+        console.error('saveState BLOCKED: local state is all-zero but Supabase has real data. Refusing to overwrite.');
+        showToast('⚠️ Сохранение заблокировано — обнаружены пустые данные');
+        return;
+      }
+    }
+  } catch(e) { console.warn('Zero-write guard check failed, proceeding:', e); }
+
   try {
     // UPDATE first (row seeded in schema.sql — should always exist)
     const { error, count } = await _sb
