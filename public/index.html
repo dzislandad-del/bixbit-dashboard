@@ -879,7 +879,7 @@ pre {
   vertical-align: middle;
 }
 .camp-table tr:last-child td { border-bottom: none; }
-.camp-table tr:hover td { background: rgba(255,255,255,0.025); }
+.camp-table tr:hover td { background: rgba(255,255,255,0.07); }
 .camp-cell {
   display: block;
   padding: 8px 10px;
@@ -896,7 +896,8 @@ pre {
 .camp-cell.name-cell {
   font-family: var(--font-ui);
   font-size: 13px;
-  min-width: 160px;
+  min-width: 180px;
+  field-sizing: content;
   color: var(--text);
 }
 .camp-cell:focus {
@@ -918,6 +919,31 @@ td.del-col { width: 32px; text-align: center; }
   transition: color 0.1s;
 }
 .btn-del-row:hover { color: var(--red); }
+/* ── CAMPAIGN STATUS INDICATORS ── */
+td.status-col { width: 36px; text-align: center; padding: 0 2px !important; }
+th.status-col { width: 36px; text-align: center; }
+.camp-status-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 26px; height: 26px; border-radius: 50%;
+  border: 1.5px solid; cursor: pointer;
+  font-size: 10px; font-weight: 800;
+  transition: opacity 0.15s, transform 0.1s;
+  background: transparent;
+}
+.camp-status-btn:hover { opacity: 0.75; transform: scale(1.15); }
+.camp-status-btn[data-status="active"]  { color: #22C55E; border-color: #22C55E; background: rgba(34,197,94,0.12); }
+.camp-status-btn[data-status="new"]     { color: #5B8FFF; border-color: #5B8FFF; background: rgba(91,143,255,0.12); }
+.camp-status-btn[data-status="paused"]  { color: #9CA3AF; border-color: #4B5563; background: rgba(107,114,128,0.10); }
+.camp-table tr[data-status="paused"] td .camp-cell { opacity: 0.5 !important; }
+.status-legend {
+  display: flex; align-items: center; gap: 16px;
+  padding: 6px 12px 4px; font-size: 11px; color: var(--text-dim);
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+.sdot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+.sdot.active { background: #22C55E; }
+.sdot.new    { background: #5B8FFF; }
+.sdot.paused { background: #9CA3AF; }
 .auto-badge {
   display: inline-block;
   font-size: 11px;
@@ -1886,6 +1912,7 @@ td.del-col { width: 32px; text-align: center; }
         <div style="overflow-x:auto">
           <table class="camp-table" id="camp-google">
             <thead><tr>
+              <th class="status-col">Статус</th>
               <th>Название кампании</th>
               <th>Бюджет $</th>
               <th>Показы</th>
@@ -1901,6 +1928,7 @@ td.del-col { width: 32px; text-align: center; }
           </table>
         </div>
         <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
+        <div class="status-legend"><span class="sdot active"></span>Работает &nbsp; <span class="sdot new"></span>Новая &nbsp; <span class="sdot paused"></span>Остановлена &nbsp;<span style="margin-left:auto;font-size:10px">Нажмите на ● для смены статуса</span></div>
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -1938,6 +1966,7 @@ td.del-col { width: 32px; text-align: center; }
         <div style="overflow-x:auto">
           <table class="camp-table" id="camp-yandex">
             <thead><tr>
+              <th class="status-col">Статус</th>
               <th>Название кампании</th>
               <th>Бюджет $</th>
               <th>Показы</th>
@@ -1953,6 +1982,7 @@ td.del-col { width: 32px; text-align: center; }
           </table>
         </div>
         <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
+        <div class="status-legend"><span class="sdot active"></span>Работает &nbsp; <span class="sdot new"></span>Новая &nbsp; <span class="sdot paused"></span>Остановлена &nbsp;<span style="margin-left:auto;font-size:10px">Нажмите на ● для смены статуса</span></div>
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -1990,6 +2020,7 @@ td.del-col { width: 32px; text-align: center; }
         <div style="overflow-x:auto">
           <table class="camp-table" id="camp-aads">
             <thead><tr>
+              <th class="status-col">Статус</th>
               <th>Название кампании</th>
               <th>Бюджет $</th>
               <th>Показы</th>
@@ -2005,6 +2036,7 @@ td.del-col { width: 32px; text-align: center; }
           </table>
         </div>
         <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
+        <div class="status-legend"><span class="sdot active"></span>Работает &nbsp; <span class="sdot new"></span>Новая &nbsp; <span class="sdot paused"></span>Остановлена &nbsp;<span style="margin-left:auto;font-size:10px">Нажмите на ● для смены статуса</span></div>
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -2042,6 +2074,7 @@ td.del-col { width: 32px; text-align: center; }
         <div style="overflow-x:auto">
           <table class="camp-table" id="camp-linkedin">
             <thead><tr>
+              <th class="status-col">Статус</th>
               <th>Название кампании</th>
               <th>Бюджет $</th>
               <th>Показы</th>
@@ -2057,6 +2090,7 @@ td.del-col { width: 32px; text-align: center; }
           </table>
         </div>
         <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
+        <div class="status-legend"><span class="sdot active"></span>Работает &nbsp; <span class="sdot new"></span>Новая &nbsp; <span class="sdot paused"></span>Остановлена &nbsp;<span style="margin-left:auto;font-size:10px">Нажмите на ● для смены статуса</span></div>
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -3073,6 +3107,35 @@ async function saveState() {
   }
   state.__lastSavedAt = new Date().toISOString();
   if (!sbReady) { showToast('Supabase недоступен'); return; }
+
+  // SAFETY NET: never let a save wipe existing real data with all-zeros.
+  // If the local state we're about to save has zero budget/campaigns for
+  // every ad channel, but Supabase currently holds real (non-zero) data,
+  // block the save — this is almost certainly a stale/corrupted local
+  // state accidentally overwriting good data (e.g. a leftover tab).
+  try {
+    const localLooksEmpty = ['google','yandex','aads','linkedin'].every(k => {
+      const c = state[k];
+      return !c || (parseFloat(c.budget) === 0 && (!c.campaigns || c.campaigns.length === 0));
+    });
+    if (localLooksEmpty) {
+      const { data: remoteCheck } = await _sb
+        .from('dashboard_state')
+        .select('payload')
+        .eq('project', 'bixbit')
+        .maybeSingle();
+      const remoteLooksReal = remoteCheck?.payload && ['google','yandex','aads','linkedin'].some(k => {
+        const c = remoteCheck.payload[k];
+        return c && (parseFloat(c.budget) > 0 || (c.campaigns && c.campaigns.length > 0));
+      });
+      if (remoteLooksReal) {
+        console.error('saveState BLOCKED: local state is all-zero but Supabase has real data. Refusing to overwrite.');
+        showToast('⚠️ Сохранение заблокировано — обнаружены пустые данные');
+        return;
+      }
+    }
+  } catch(e) { console.warn('Zero-write guard check failed, proceeding:', e); }
+
   try {
     // UPDATE first (row seeded in schema.sql — should always exist)
     const { error, count } = await _sb
@@ -3317,11 +3380,18 @@ function renderCampaignTable(ch) {
 
   tbody.innerHTML = state[ch].campaigns.map((c, idx) => {
     const auto = calcCampaignAuto(c);
-    return `<tr data-id="${c.id}" data-row="${idx}">
+    const st = c.status || 'active';
+    const stIcon  = { active: '▶', new: 'NEW', paused: '⏸' }[st] || '▶';
+    const stLabel = { active: 'Работает', new: 'Новая', paused: 'Остановлена' }[st] || 'Работает';
+    return `<tr data-id="${c.id}" data-row="${idx}" data-status="${st}">
+      <td class="status-col"><button class="camp-status-btn" data-status="${st}"
+        title="${stLabel} — клик для смены статуса"
+        onclick="updateCampStatus('${ch}','${c.id}')">${stIcon}</button></td>
       <td><input class="camp-cell name-cell" type="text" value="${escHtml(c.name)}" placeholder="Название кампании"
         data-field="name" data-row="${idx}" data-ch="${ch}"
-        onchange="updateCamp('${ch}','${c.id}','name',this.value)"
+        onchange="updateCamp('${ch}','${c.id}','name',this.value);autoResizeNameInput(this)"
         onpaste="handleCampPaste(event,'${ch}',${idx},'name')"
+        oninput="autoResizeNameInput(this)"
         onblur="saveCamps('${ch}')"></td>
       <td><input class="camp-cell" type="number" step="any" value="${c.budget}"
         data-field="budget" data-row="${idx}" data-ch="${ch}"
@@ -3354,6 +3424,9 @@ function renderCampaignTable(ch) {
       <td class="del-col"><button class="btn-del-row" onclick="deleteCamp('${ch}','${c.id}')" title="Удалить">✕</button></td>
     </tr>`;
   }).join('');
+  setTimeout(() => {
+    document.querySelectorAll('#camp-'+ch+'-body .camp-cell.name-cell').forEach(autoResizeNameInput);
+  }, 0);
 }
 
 function updateCamp(ch, id, field, val) {
@@ -3441,7 +3514,7 @@ function handleCampPaste(e, ch, rowIdx, field) {
   // Ensure enough campaign rows exist
   const neededRows = rowIdx + grid.length;
   while (state[ch].campaigns.length < neededRows) {
-    state[ch].campaigns.push({ id: uid(), name:'Новая кампания', budget:0, impressions:0, clicks:0, conversions:0, planfix_leads:0 });
+    state[ch].campaigns.push({ id: uid(), name:'Новая кампания', budget:0, impressions:0, clicks:0, conversions:0, planfix_leads:0, status:'active' });
   }
 
   grid.forEach((rowValues, gRowIdx) => {
@@ -3479,7 +3552,7 @@ function handleCampPaste(e, ch, rowIdx, field) {
 
 function addCampRow(ch) {
   if (!state[ch].campaigns) state[ch].campaigns = [];
-  state[ch].campaigns.push({ id: uid(), name:'Новая кампания', budget:0, impressions:0, clicks:0, conversions:0, planfix_leads:0 });
+  state[ch].campaigns.push({ id: uid(), name:'Новая кампания', budget:0, impressions:0, clicks:0, conversions:0, planfix_leads:0, status:'new' });
   renderCampaignTable(ch);
   recalcChannelFromCampaigns(ch);
   saveCamps(ch);
@@ -3490,6 +3563,34 @@ function deleteCamp(ch, id) {
   renderCampaignTable(ch);
   recalcChannelFromCampaigns(ch);
   saveCamps(ch);
+}
+
+function updateCampStatus(ch, id) {
+  const camp = state[ch] && state[ch].campaigns && state[ch].campaigns.find(c => c.id === id);
+  if (!camp) return;
+  const cycle = { active: 'new', new: 'paused', paused: 'active' };
+  camp.status = cycle[camp.status || 'active'];
+  const tr = document.querySelector('#camp-'+ch+'-body tr[data-id="'+id+'"]');
+  if (tr) {
+    const st = camp.status;
+    tr.dataset.status = st;
+    const btn = tr.querySelector('.camp-status-btn');
+    if (btn) {
+      btn.dataset.status = st;
+      btn.textContent = { active: '▶', new: 'NEW', paused: '⏸' }[st] || '▶';
+      btn.title = { active: 'Работает — клик для смены', new: 'Новая — клик для смены', paused: 'Остановлена — клик для смены' }[st];
+    }
+  }
+  saveCamps(ch);
+}
+
+function autoResizeNameInput(inp) {
+  if (CSS.supports('field-sizing', 'content')) return; // handled by CSS
+  const canvas = autoResizeNameInput._canvas || (autoResizeNameInput._canvas = document.createElement('canvas'));
+  const ctx = canvas.getContext('2d');
+  ctx.font = '13px var(--font-ui, sans-serif)';
+  const w = ctx.measureText(inp.value || inp.placeholder || 'Название кампании').width;
+  inp.style.minWidth = Math.max(180, Math.ceil(w) + 32) + 'px';
 }
 
 function escHtml(s) {
