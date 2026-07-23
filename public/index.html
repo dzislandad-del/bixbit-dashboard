@@ -3094,10 +3094,11 @@ async function loadState() {
   }
   console.error('loadState: all retries exhausted, showing default data');
 }
-async function saveState() {
+async function saveState(forceSave) {
   // VIEW MODE — viewers must never write to Supabase (or localStorage).
   // Prevents stale viewer state from overwriting real data entered by editors.
-  if (!editMode) return;
+  // forceSave=true bypasses editMode for annotation-only changes (e.g. campaign status).
+  if (!editMode && !forceSave) return;
 
   // Keep the periods archive in sync with whatever is currently active,
   // so data isn't lost even if the page closes before switching periods.
@@ -3581,7 +3582,8 @@ function updateCampStatus(ch, id) {
       btn.title = { active: 'Работает — клик для смены', new: 'Новая — клик для смены', paused: 'Остановлена — клик для смены' }[st];
     }
   }
-  saveCamps(ch);
+  // Status is an annotation — saves regardless of editMode
+  saveState(true);
 }
 
 function autoResizeNameInput(inp) {
