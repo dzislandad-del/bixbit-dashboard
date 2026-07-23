@@ -944,6 +944,40 @@ th.status-col { width: 36px; text-align: center; }
 .sdot.active { background: #22C55E; }
 .sdot.new    { background: #5B8FFF; }
 .sdot.paused { background: #9CA3AF; }
+/* ── STATUS FILTER BAR ── */
+.status-filter-bar {
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+  padding: 8px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  background: rgba(0,0,0,0.12);
+}
+.sf-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 12px; font-family: var(--font-ui);
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.sf-btn:hover { border-color: rgba(255,255,255,0.22); color: var(--text); }
+.sf-btn.active[data-filter="all"]    { border-color: rgba(0,64,221,0.45); color: #5B8FFF; background: rgba(0,64,221,0.10); }
+.sf-btn.active[data-filter="active"] { border-color: rgba(34,197,94,0.45); color: #22C55E; background: rgba(34,197,94,0.10); }
+.sf-btn.active[data-filter="new"]    { border-color: rgba(91,143,255,0.45); color: #7AA8FF; background: rgba(91,143,255,0.10); }
+.sf-btn.active[data-filter="paused"] { border-color: rgba(107,114,128,0.45); color: #9CA3AF; background: rgba(107,114,128,0.10); }
+.sf-count {
+  font-size: 11px; font-weight: 700;
+  background: rgba(255,255,255,0.07); border-radius: 3px;
+  padding: 0 5px; min-width: 16px; text-align: center;
+  line-height: 16px;
+}
+.sf-empty-note {
+  display: none; text-align: center;
+  padding: 20px; font-size: 13px; color: var(--text-dim);
+}
 .auto-badge {
   display: inline-block;
   font-size: 11px;
@@ -1909,6 +1943,12 @@ th.status-col { width: 36px; text-align: center; }
           <span class="campaign-table-title">Рекламные кампании <span class="auto-badge">CTR / CPC / CPL — авто</span></span>
           <button class="btn-add-row" onclick="addCampRow('google')">+ Добавить кампанию</button>
         </div>
+        <div class="status-filter-bar" id="sf-google">
+          <button class="sf-btn active" data-filter="all"    onclick="filterCampTable('google','all')">Все <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="active" onclick="filterCampTable('google','active')">▶ Работают <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="new"    onclick="filterCampTable('google','new')">NEW Новые <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="paused" onclick="filterCampTable('google','paused')">⏸ Остановлены <span class="sf-count">0</span></button>
+        </div>
         <div style="overflow-x:auto">
           <table class="camp-table" id="camp-google">
             <thead><tr>
@@ -1928,7 +1968,7 @@ th.status-col { width: 36px; text-align: center; }
           </table>
         </div>
         <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
-        <div class="status-legend"><span class="sdot active"></span>Работает &nbsp; <span class="sdot new"></span>Новая &nbsp; <span class="sdot paused"></span>Остановлена &nbsp;<span style="margin-left:auto;font-size:10px">Нажмите на ● для смены статуса</span></div>
+
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -1963,6 +2003,12 @@ th.status-col { width: 36px; text-align: center; }
           <span class="campaign-table-title">Рекламные кампании <span class="auto-badge">CTR / CPC / CPL — авто</span></span>
           <button class="btn-add-row" onclick="addCampRow('yandex')">+ Добавить кампанию</button>
         </div>
+        <div class="status-filter-bar" id="sf-yandex">
+          <button class="sf-btn active" data-filter="all"    onclick="filterCampTable('yandex','all')">Все <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="active" onclick="filterCampTable('yandex','active')">▶ Работают <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="new"    onclick="filterCampTable('yandex','new')">NEW Новые <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="paused" onclick="filterCampTable('yandex','paused')">⏸ Остановлены <span class="sf-count">0</span></button>
+        </div>
         <div style="overflow-x:auto">
           <table class="camp-table" id="camp-yandex">
             <thead><tr>
@@ -1982,7 +2028,7 @@ th.status-col { width: 36px; text-align: center; }
           </table>
         </div>
         <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
-        <div class="status-legend"><span class="sdot active"></span>Работает &nbsp; <span class="sdot new"></span>Новая &nbsp; <span class="sdot paused"></span>Остановлена &nbsp;<span style="margin-left:auto;font-size:10px">Нажмите на ● для смены статуса</span></div>
+
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -2017,6 +2063,12 @@ th.status-col { width: 36px; text-align: center; }
           <span class="campaign-table-title">Рекламные кампании <span class="auto-badge">CTR / CPC / CPL — авто</span></span>
           <button class="btn-add-row" onclick="addCampRow('aads')">+ Добавить кампанию</button>
         </div>
+        <div class="status-filter-bar" id="sf-aads">
+          <button class="sf-btn active" data-filter="all"    onclick="filterCampTable('aads','all')">Все <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="active" onclick="filterCampTable('aads','active')">▶ Работают <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="new"    onclick="filterCampTable('aads','new')">NEW Новые <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="paused" onclick="filterCampTable('aads','paused')">⏸ Остановлены <span class="sf-count">0</span></button>
+        </div>
         <div style="overflow-x:auto">
           <table class="camp-table" id="camp-aads">
             <thead><tr>
@@ -2036,7 +2088,7 @@ th.status-col { width: 36px; text-align: center; }
           </table>
         </div>
         <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
-        <div class="status-legend"><span class="sdot active"></span>Работает &nbsp; <span class="sdot new"></span>Новая &nbsp; <span class="sdot paused"></span>Остановлена &nbsp;<span style="margin-left:auto;font-size:10px">Нажмите на ● для смены статуса</span></div>
+
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -2071,6 +2123,12 @@ th.status-col { width: 36px; text-align: center; }
           <span class="campaign-table-title">Рекламные кампании <span class="auto-badge">CTR / CPC / CPL — авто</span></span>
           <button class="btn-add-row" onclick="addCampRow('linkedin')">+ Добавить кампанию</button>
         </div>
+        <div class="status-filter-bar" id="sf-linkedin">
+          <button class="sf-btn active" data-filter="all"    onclick="filterCampTable('linkedin','all')">Все <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="active" onclick="filterCampTable('linkedin','active')">▶ Работают <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="new"    onclick="filterCampTable('linkedin','new')">NEW Новые <span class="sf-count">0</span></button>
+          <button class="sf-btn"        data-filter="paused" onclick="filterCampTable('linkedin','paused')">⏸ Остановлены <span class="sf-count">0</span></button>
+        </div>
         <div style="overflow-x:auto">
           <table class="camp-table" id="camp-linkedin">
             <thead><tr>
@@ -2090,7 +2148,7 @@ th.status-col { width: 36px; text-align: center; }
           </table>
         </div>
         <div class="formula-note">CTR = Клики / Показы × 100 &nbsp;·&nbsp; CPC = Бюджет / Клики &nbsp;·&nbsp; CPL = Бюджет / Конверсии &nbsp;·&nbsp; 📋 Можно вставлять данные блоком из Excel/Google Sheets (Ctrl+V в любую ячейку)</div>
-        <div class="status-legend"><span class="sdot active"></span>Работает &nbsp; <span class="sdot new"></span>Новая &nbsp; <span class="sdot paused"></span>Остановлена &nbsp;<span style="margin-left:auto;font-size:10px">Нажмите на ● для смены статуса</span></div>
+
       </div>
       <div class="chart-row">
         <div class="chart-card">
@@ -3427,6 +3485,8 @@ function renderCampaignTable(ch) {
   }).join('');
   setTimeout(() => {
     document.querySelectorAll('#camp-'+ch+'-body .camp-cell.name-cell').forEach(autoResizeNameInput);
+    updateFilterCounts(ch);
+    reapplyCampFilter(ch);
   }, 0);
 }
 
@@ -3595,6 +3655,61 @@ function autoResizeNameInput(inp) {
   inp.style.minWidth = Math.max(180, Math.ceil(w) + 32) + 'px';
 }
 
+
+// ========================================
+// STATUS FILTER FOR CAMPAIGN TABLES
+// ========================================
+const campFilters = { google:'all', yandex:'all', aads:'all', linkedin:'all' };
+
+function filterCampTable(ch, status) {
+  campFilters[ch] = status;
+
+  // Update button active states
+  const bar = document.getElementById('sf-'+ch);
+  if (bar) bar.querySelectorAll('.sf-btn').forEach(btn =>
+    btn.classList.toggle('active', btn.dataset.filter === status)
+  );
+
+  reapplyCampFilter(ch);
+}
+
+function reapplyCampFilter(ch) {
+  const status = campFilters[ch] || 'all';
+  const tbody = document.getElementById('camp-'+ch+'-body');
+  if (!tbody) return;
+
+  let visible = 0;
+  tbody.querySelectorAll('tr').forEach(tr => {
+    const show = status === 'all' || (tr.dataset.status || 'active') === status;
+    tr.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+
+  // Show/hide empty-state note
+  let note = document.getElementById('sf-empty-'+ch);
+  if (!note) {
+    note = document.createElement('div');
+    note.id = 'sf-empty-'+ch;
+    note.className = 'sf-empty-note';
+    tbody.closest('table').after(note);
+  }
+  const label = { all:'кампаний', active:'работающих кампаний', new:'новых кампаний', paused:'остановленных кампаний' }[status];
+  note.textContent = `Нет ${label}`;
+  note.style.display = visible === 0 ? 'block' : 'none';
+}
+
+function updateFilterCounts(ch) {
+  const camps = (state[ch] && state[ch].campaigns) || [];
+  const counts = { all: camps.length, active: 0, new: 0, paused: 0 };
+  camps.forEach(c => { counts[c.status || 'active'] = (counts[c.status || 'active'] || 0) + 1; });
+
+  const bar = document.getElementById('sf-'+ch);
+  if (!bar) return;
+  bar.querySelectorAll('.sf-btn').forEach(btn => {
+    const el = btn.querySelector('.sf-count');
+    if (el) el.textContent = counts[btn.dataset.filter] ?? 0;
+  });
+}
 function escHtml(s) {
   return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
