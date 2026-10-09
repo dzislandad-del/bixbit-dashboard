@@ -3184,6 +3184,27 @@ async function loadState() {
   }
   console.error('loadState: all retries exhausted, showing default data');
 }
+// ── STATE NORMALIZER ──
+// Ensures all arrays that renderAll() calls .map() on are never undefined.
+// Called after loadState() or applyPeriodData() to guard against missing fields.
+function normalizeState() {
+  const AD_KEYS = ['google', 'yandex', 'aads', 'linkedin'];
+  AD_KEYS.forEach(k => {
+    if (!state[k]) state[k] = {};
+    if (!Array.isArray(state[k].campaigns)) state[k].campaigns = [];
+    if (!Array.isArray(state[k].history))   state[k].history   = [];
+  });
+  if (!state.organic) state.organic = {};
+  ['ru', 'en', 'es'].forEach(lang => {
+    if (!state.organic[lang]) state.organic[lang] = {};
+    if (!Array.isArray(state.organic[lang].pages))     state.organic[lang].pages     = [];
+    if (!Array.isArray(state.organic[lang].history))   state.organic[lang].history   = [];
+    if (!Array.isArray(state.organic[lang].positions)) state.organic[lang].positions = [];
+  });
+  if (!state.periods) state.periods = {};
+  if (!state.days)    state.days    = {};
+}
+
 // ── MANUAL REFRESH ──
 // Re-fetches the latest state from Supabase and re-renders the current period.
 // The last Google Ads auto-sync data (stored in state.days) is overlaid automatically.
@@ -3198,14 +3219,18 @@ async function manualRefresh() {
   if (label) label.textContent = 'Обновление…';
 
   try {
-    await loadState();          // overwrites global `state` with fresh Supabase data
+    await loadState();   // overwrites global `state` with fresh Supabase data
+    normalizeState();    // guarantee all .map()-able arrays exist
 
-    // Re-apply the current period from the freshly loaded state
     const from = document.getElementById('date-from').value;
     const to   = document.getElementById('date-to').value;
 
-    if (activePeriodKey && state.periods && state.periods[activePeriodKey]) {
+    // If the server's last-active period matches the current view, state.google/yandex/etc.
+    // already hold the right data. Otherwise force a safe period switch.
+    if (activePeriodKey && state.lastActivePeriodKey !== activePeriodKey
+        && state.periods[activePeriodKey]) {
       applyPeriodData(state.periods[activePeriodKey]);
+      normalizeState();  // normalize again after period data applied
     }
     applyDailyGoogleAggregate(from, to);   // overlay daily auto-sync numbers
     renderAll();
