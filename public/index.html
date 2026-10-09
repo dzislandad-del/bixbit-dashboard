@@ -3239,6 +3239,68 @@ function applyPeriodData(data) {
   CHANNEL_KEYS.forEach(k => { state[k] = JSON.parse(JSON.stringify(data[k])); });
 }
 
+// ── DAILY GOOGLE AGGREGATE ───────────────────────────────────────────────────
+// Aggregates auto-synced Google Ads daily snapshots (state.days) for any date range.
+// Overwrites budget/clicks/impressions/ctr/cpc/campaigns from daily data.
+// Preserves conversions and planfix_leads (entered manually in the period).
+function aggregateGoogleFromDays(fromDate, toDate) {
+  const days = state.days || {};
+  let budget = 0, clicks = 0, impressions = 0;
+  const cm = {};
+  let hasData = false;
+
+  const d = new Date(fromDate + 'T00:00:00');
+  const end = new Date(toDate + 'T00:00:00');
+  for (; d <= end; d.setDate(d.getDate() + 1)) {
+    const key = d.toISOString().slice(0, 10);
+    const g = days[key] && days[key].google;
+    if (!g) continue;
+    hasData = true;
+    budget += (g.budget || 0);
+    clicks += (g.clicks || 0);
+    impressions += (g.impressions || 0);
+    (g.campaigns || []).forEach(c => {
+      if (!cm[c.name]) cm[c.name] = { name: c.name, status: c.status || 'active', id: c.id || ('d_' + Math.random().toString(36).slice(2,7)), budget: 0, clicks: 0, impressions: 0 };
+      cm[c.name].budget += (c.budget || 0);
+      cm[c.name].clicks += (c.clicks || 0);
+      cm[c.name].impressions += (c.impressions || 0);
+    });
+  }
+  if (!hasData) return null;
+
+  budget = Math.round(budget * 100) / 100;
+  return {
+    budget,
+    clicks,
+    impressions,
+    ctr: impressions > 0 ? Math.round(clicks / impressions * 10000) / 100 : 0,
+    cpc: clicks > 0 ? Math.round(budget / clicks * 100) / 100 : 0,
+    campaigns: Object.values(cm).map(c => ({
+      ...c,
+      budget: Math.round(c.budget * 100) / 100,
+      conversions: 0,
+      planfix_leads: 0
+    }))
+  };
+}
+
+function applyDailyGoogleAggregate(fromDate, toDate) {
+  if (!fromDate || !toDate) return;
+  const agg = aggregateGoogleFromDays(fromDate, toDate);
+  if (!agg) return; // no daily data yet — leave period data as-is
+  state.google = {
+    ...state.google,
+    budget:      agg.budget,
+    clicks:      agg.clicks,
+    impressions: agg.impressions,
+    ctr:         agg.ctr,
+    cpc:         agg.cpc,
+    campaigns:   agg.campaigns
+    // conversions & planfix_leads preserved from period (manual)
+  };
+}
+// ─────────────────────────────────────────────────────────────────────────────
+
 let activePeriodKey = null;
 
 // Called whenever the date inputs change (manually or via quick-range buttons).
@@ -3263,6 +3325,7 @@ function switchToPeriod(newFrom, newTo) {
   if (state.periods[newKey]) {
     // Returning to a period we've seen before — restore its data
     applyPeriodData(state.periods[newKey]);
+    applyDailyGoogleAggregate(newFrom, newTo); // overlay daily auto-sync if available
     showToast('Загружен период: ' + newFrom + ' — ' + newTo);
   } else if (!editMode && sbReady) {
     // VIEW MODE + unknown period: fetch fresh from Supabase instead of zeroing.
@@ -3272,10 +3335,10 @@ function switchToPeriod(newFrom, newTo) {
     loadState().then(() => {
       if (state.periods[newKey]) {
         applyPeriodData(state.periods[newKey]);
-        showToast('Загружен период: ' + newFrom + ' — ' + newTo);
       } else {
         showToast('Данные за этот период не найдены');
       }
+      applyDailyGoogleAggregate(newFrom, newTo); // overlay daily auto-sync if available
       renderAll();
     });
     return; // renderAll will be called inside the promise
@@ -3303,7 +3366,8 @@ function switchToPeriod(newFrom, newTo) {
         };
       }
     });
-    showToast('Новый период — данные пустые, начни вводить');
+    applyDailyGoogleAggregate(newFrom, newTo); // overlay daily auto-sync if available
+    showToast(aggregateGoogleFromDays(newFrom, newTo) ? 'Google Ads: данные за период загружены из синхронизации' : 'Новый период — данные пустые, начни вводить');
   }
 
   activePeriodKey = newKey;
@@ -6062,6 +6126,10 @@ async function bootApp() {
   } else {
     state.periods[activePeriodKey] = snapshotCurrentPeriodData();
   }
+
+  // Overlay daily auto-synced Google Ads data if available for the active period range
+  const [_bootFrom, _bootTo] = activePeriodKey.split('|');
+  if (_bootFrom && _bootFrom !== 'nodate') applyDailyGoogleAggregate(_bootFrom, _bootTo);
 
   renderAll();
   applyEditMode(); // init view/edit mode state
