@@ -3382,7 +3382,7 @@ function aggregateGoogleFromDays(fromDate, toDate) {
     clicks,
     impressions,
     ctr: impressions > 0 ? Math.round(clicks / impressions * 10000) / 100 : 0,
-    cpc: clicks > 0 ? Math.round(budget / clicks * 100) / 100 : 0,
+    cpc: clicks > 0 ? Math.round(budget / clicks * 10000) / 10000 : 0,  // 4 decimal precision to preserve sub-cent values
     campaigns: Object.values(cm).map(c => ({
       ...c,
       budget: Math.round(c.budget * 100) / 100,
@@ -3576,11 +3576,20 @@ const organicMetrics = [
   { key:'conversions', label:'Конверсии', fmt:'number', accent:'#D9017A' }
 ];
 
+// Smart CPC/CPL formatter: shows enough decimal places to not be $0.00
+function formatCpc(val) {
+  const n = parseFloat(val) || 0;
+  if (n === 0) return '$0.00';
+  if (n >= 0.01) return '$' + n.toFixed(2);
+  if (n >= 0.001) return '$' + n.toFixed(3);
+  return '$' + n.toFixed(4);
+}
+
 function fmtVal(val, fmt) {
   if (val === null || val === undefined) return '—';
   switch(fmt) {
     case 'currency': return '$' + Number(val).toLocaleString('ru');
-    case 'currency_sm': return '$' + Number(val).toFixed(2);
+    case 'currency_sm': return formatCpc(Number(val));
     case 'number': return Number(val).toLocaleString('ru');
     case 'percent': return Number(val).toFixed(2) + '%';
     case 'percent_raw': return Number(val).toFixed(1) + '%';
@@ -3599,7 +3608,7 @@ function calcCampaignAuto(c) {
   const conv   = parseFloat(c.conversions) || 0;
   return {
     ctr: impr > 0 ? (clicks / impr * 100).toFixed(2) : '—',
-    cpc: clicks > 0 ? (budget / clicks).toFixed(2) : '—',
+    cpc: clicks > 0 ? (budget / clicks) : '—',   // raw float — formatCpc handles display precision
     cpl: conv > 0   ? (budget / conv).toFixed(2) : '—'
   };
 }
@@ -3640,7 +3649,7 @@ function renderCampaignTable(ch) {
         onpaste="handleCampPaste(event,'${ch}',${idx},'clicks')"
         onblur="saveCamps('${ch}')"></td>
       <td><input class="camp-cell auto-val" type="text" value="${auto.ctr !== '—' ? auto.ctr+'%' : '—'}" readonly tabindex="-1"></td>
-      <td><input class="camp-cell auto-val" type="text" value="${auto.cpc !== '—' ? '$'+auto.cpc : '—'}" readonly tabindex="-1"></td>
+      <td><input class="camp-cell auto-val" type="text" value="${auto.cpc !== '—' ? formatCpc(auto.cpc) : '—'}" readonly tabindex="-1"></td>
       <td><input class="camp-cell" type="number" step="1" value="${c.conversions}"
         data-field="conversions" data-row="${idx}" data-ch="${ch}"
         oninput="updateCamp('${ch}','${c.id}','conversions',this.value)"
@@ -3673,7 +3682,7 @@ function updateCamp(ch, id, field, val) {
     const cells = tr.querySelectorAll('.camp-cell');
     // cells indices: 0=name,1=budget,2=impressions,3=clicks,4=ctr(auto),5=cpc(auto),6=conv,7=cpl(auto),8=planfix
     cells[4].value = auto.ctr !== '—' ? auto.ctr+'%' : '—';
-    cells[5].value = auto.cpc !== '—' ? '$'+auto.cpc : '—';
+    cells[5].value = auto.cpc !== '—' ? formatCpc(auto.cpc) : '—';
     cells[7].value = auto.cpl !== '—' ? '$'+auto.cpl : '—';
   }
   // Recalculate channel totals from all campaigns and refresh top metric cards
@@ -3699,7 +3708,7 @@ function recalcChannelFromCampaigns(ch) {
   state[ch].conversions  = Math.round(totals.conversions);
   state[ch].planfix_leads= Math.round(totals.planfix_leads);
   state[ch].ctr = totals.impressions > 0 ? +(totals.clicks/totals.impressions*100).toFixed(2) : 0;
-  state[ch].cpc = totals.clicks > 0 ? +(totals.budget/totals.clicks).toFixed(2) : 0;
+  state[ch].cpc = totals.clicks > 0 ? +(totals.budget/totals.clicks).toFixed(4) : 0;
   state[ch].cpl = totals.conversions > 0 ? +(totals.budget/totals.conversions).toFixed(2) : 0;
 
   // Re-render top metric cards for this channel only (cheap, no chart rebuild)
@@ -4662,7 +4671,7 @@ function getYearData() {
     });
     const ch_d = result[ch.id];
     ch_d.ctr = ch_d.impressions > 0 ? +(ch_d.clicks/ch_d.impressions*100).toFixed(2) : 0;
-    ch_d.cpc = ch_d.clicks > 0 ? +(ch_d.budget/ch_d.clicks).toFixed(2) : 0;
+    ch_d.cpc = ch_d.clicks > 0 ? +(ch_d.budget/ch_d.clicks).toFixed(4) : 0;
     ch_d.cpl = ch_d.conversions > 0 ? +(ch_d.budget/ch_d.conversions).toFixed(2) : 0;
   });
   return result;
@@ -5150,7 +5159,7 @@ const CMP_AD_METRICS = [
   { key:'impressions',   label:'Показы',      fmt: v => Number(v).toLocaleString('ru'),          invert: false },
   { key:'clicks',        label:'Клики',       fmt: v => Number(v).toLocaleString('ru'),          invert: false },
   { key:'ctr',           label:'CTR',         fmt: v => parseFloat(v).toFixed(2)+'%',            invert: false },
-  { key:'cpc',           label:'CPC',         fmt: v => '$'+parseFloat(v).toFixed(2),            invert: true  },
+  { key:'cpc',           label:'CPC',         fmt: v => formatCpc(v),                            invert: true  },
   { key:'conversions',   label:'Конверсии',   fmt: v => Number(v).toLocaleString('ru'),          invert: false },
   { key:'cpl',           label:'CPL',         fmt: v => '$'+parseFloat(v).toFixed(1),            invert: true  },
   { key:'planfix_leads', label:'Planfix лиды',fmt: v => Number(v).toLocaleString('ru'),          invert: false },
@@ -5572,7 +5581,7 @@ function saveModalData() {
     const clicks = parseFloat(ch.clicks) || 0;
     const conversions = parseFloat(ch.conversions) || 0;
     ch.ctr = impressions > 0 ? +(clicks/impressions*100).toFixed(2) : 0;
-    ch.cpc = clicks > 0 ? +(budget/clicks).toFixed(2) : 0;
+    ch.cpc = clicks > 0 ? +(budget/clicks).toFixed(4) : 0;
     ch.cpl = conversions > 0 ? +(budget/conversions).toFixed(2) : 0;
 
     // Parse history
@@ -5993,7 +6002,7 @@ function applyAdXlsx(rows, ch) {
     day: d.day,
     clicks: Math.round(d.clicks),
     impressions: Math.round(d.impressions),
-    cpc: d.clicks > 0 ? +(d.budget/d.clicks).toFixed(2) : 0,
+    cpc: d.clicks > 0 ? +(d.budget/d.clicks).toFixed(4) : 0,
     cpl: d.conversions > 0 ? +(d.budget/d.conversions).toFixed(2) : 0,
     conversions: Math.round(d.conversions),
     planfix: Math.round(d.planfix) || Math.round(d.conversions*0.6)
@@ -6006,7 +6015,7 @@ function applyAdXlsx(rows, ch) {
   });
 
   const ctr = totalImpr > 0 ? +(totalClicks/totalImpr*100).toFixed(2) : 0;
-  const cpc = totalClicks > 0 ? +(totalBudget/totalClicks).toFixed(2) : 0;
+  const cpc = totalClicks > 0 ? +(totalBudget/totalClicks).toFixed(4) : 0;
   const cpl = totalConv > 0 ? +(totalBudget/totalConv).toFixed(2) : 0;
 
   state[ch] = { ...state[ch],
