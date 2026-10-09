@@ -3407,6 +3407,68 @@ function applyDailyGoogleAggregate(fromDate, toDate) {
     // conversions & planfix_leads preserved from period (manual)
   };
 }
+
+// ── DAILY YANDEX AGGREGATE ────────────────────────────────────────────────────
+// Same logic as Google: aggregates auto-synced Yandex Direct daily snapshots.
+// Overwrites budget/clicks/impressions/ctr/cpc/campaigns from daily data.
+// Preserves conversions, cpl, planfix_leads (entered manually in the period).
+function aggregateYandexFromDays(fromDate, toDate) {
+  const days = state.days || {};
+  let budget = 0, clicks = 0, impressions = 0;
+  const cm = {};
+  let hasData = false;
+
+  const d = new Date(fromDate + 'T00:00:00');
+  const end = new Date(toDate + 'T00:00:00');
+  for (; d <= end; d.setDate(d.getDate() + 1)) {
+    const key = d.toISOString().slice(0, 10);
+    const y = days[key] && days[key].yandex;
+    if (!y) continue;
+    hasData = true;
+    budget      += (y.budget || 0);
+    clicks      += (y.clicks || 0);
+    impressions += (y.impressions || 0);
+    (y.campaigns || []).forEach(c => {
+      const cid = c.id || ('y_' + c.name);
+      if (!cm[cid]) cm[cid] = { id: cid, name: c.name, status: c.status || 'active', budget: 0, clicks: 0, impressions: 0, conversions: 0 };
+      cm[cid].budget      += (c.budget || 0);
+      cm[cid].clicks      += (c.clicks || 0);
+      cm[cid].impressions += (c.impressions || 0);
+      cm[cid].conversions += (c.conversions || 0);
+    });
+  }
+  if (!hasData) return null;
+
+  budget = Math.round(budget * 100) / 100;
+  return {
+    budget,
+    clicks,
+    impressions,
+    ctr: impressions > 0 ? Math.round(clicks / impressions * 10000) / 100 : 0,
+    cpc: clicks > 0 ? Math.round(budget / clicks * 10000) / 10000 : 0,
+    campaigns: Object.values(cm).map(c => ({
+      ...c,
+      budget: Math.round(c.budget * 100) / 100,
+      planfix_leads: 0
+    }))
+  };
+}
+
+function applyDailyYandexAggregate(fromDate, toDate) {
+  if (!fromDate || !toDate) return;
+  const agg = aggregateYandexFromDays(fromDate, toDate);
+  if (!agg) return; // no daily data yet — leave period data as-is
+  state.yandex = {
+    ...state.yandex,
+    budget:      agg.budget,
+    clicks:      agg.clicks,
+    impressions: agg.impressions,
+    ctr:         agg.ctr,
+    cpc:         agg.cpc,
+    campaigns:   agg.campaigns
+    // conversions, cpl & planfix_leads preserved from period (manual)
+  };
+}
 // ─────────────────────────────────────────────────────────────────────────────
 
 let activePeriodKey = null;
@@ -3434,6 +3496,7 @@ function switchToPeriod(newFrom, newTo) {
     // Returning to a period we've seen before — restore its data
     applyPeriodData(state.periods[newKey]);
     applyDailyGoogleAggregate(newFrom, newTo); // overlay daily auto-sync if available
+    applyDailyYandexAggregate(newFrom, newTo); // overlay daily Yandex Direct auto-sync if available
     showToast('Загружен период: ' + newFrom + ' — ' + newTo);
   } else if (!editMode && sbReady) {
     // VIEW MODE + unknown period: fetch fresh from Supabase instead of zeroing.
@@ -3447,6 +3510,7 @@ function switchToPeriod(newFrom, newTo) {
         showToast('Данные за этот период не найдены');
       }
       applyDailyGoogleAggregate(newFrom, newTo); // overlay daily auto-sync if available
+      applyDailyYandexAggregate(newFrom, newTo); // overlay daily Yandex Direct auto-sync if available
       renderAll();
     });
     return; // renderAll will be called inside the promise
@@ -3475,7 +3539,14 @@ function switchToPeriod(newFrom, newTo) {
       }
     });
     applyDailyGoogleAggregate(newFrom, newTo); // overlay daily auto-sync if available
-    showToast(aggregateGoogleFromDays(newFrom, newTo) ? 'Google Ads: данные за период загружены из синхронизации' : 'Новый период — данные пустые, начни вводить');
+    applyDailyYandexAggregate(newFrom, newTo); // overlay daily Yandex Direct auto-sync if available
+    const hasGoogleSync = !!aggregateGoogleFromDays(newFrom, newTo);
+    const hasYandexSync = !!aggregateYandexFromDays(newFrom, newTo);
+    showToast(
+      hasGoogleSync || hasYandexSync
+        ? (hasGoogleSync ? 'Google Ads' : '') + (hasGoogleSync && hasYandexSync ? ' + ' : '') + (hasYandexSync ? 'Яндекс Директ' : '') + ': данные за период загружены из синхронизации'
+        : 'Новый период — данные пустые, начни вводить'
+    );
   }
 
   activePeriodKey = newKey;
