@@ -13,7 +13,7 @@ SUPABASE_URL = os.environ.get('SUPABASE_URL', '')
 SUPABASE_KEY = os.environ.get('SUPABASE_ANON_KEY', '')
 SUPABASE_TABLE = 'dashboard_state'
 SUPABASE_ROW   = 'bixbit'
-API_VERSION    = 'v18'
+API_VERSION    = 'v25'
 GOOGLE_ADS_API = f'https://googleads.googleapis.com/{API_VERSION}'
 
 GAQL_QUERY = """
