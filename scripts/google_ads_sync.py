@@ -36,7 +36,7 @@ def get_access_token():
 
 def ads_headers(token):
     h = {'Authorization': f'Bearer {token}', 'developer-token': DEVELOPER_TOKEN, 'Content-Type': 'application/json'}
-    if False:  # временно отключён LOGIN_CUSTOMER_ID
+    if LOGIN_CUSTOMER_ID:
         h['login-customer-id'] = LOGIN_CUSTOMER_ID
     return h
 
