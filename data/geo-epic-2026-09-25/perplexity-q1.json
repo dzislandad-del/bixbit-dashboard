@@ -1,0 +1,30 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "prompt": "What is the best custom firmware for Antminer miners in 2026? Name specific vendors.",
+  "task_id": "09251234-2548-0612-0000-7b91ee9c75e9",
+  "web_search_country_iso_code": "US",
+  "answer_text": "For **Antminer** miners in 2026, the strongest custom-firmware choices are **Braiins OS+**, **VNish**, and **LuxOS**; there is **no single best** option for every setup.[10][18] If you want the safest default recommendation, **Braiins OS+** is the best all-around pick for most Antminer users focused on efficiency and autotuning, while **VNish** is better for maximum manual control and overclocking, and **LuxOS** is strongest for fleet-scale management and operational tooling.[2][10][16][18]\n\n**Specific vendors to consider:**\n- **Braiins OS+** — from **Braiins**; often recommended for efficiency, autotuning, and Stratum V2 support.[8][16][18]\n- **VNish** — from the **VNish** team; commonly favored for aggressive tuning and overclock flexibility.[2][15][17]\n- **LuxOS** — from **Luxor**; positioned for managed fleets and larger operations.[5][10][12]\n- **BiXBiT** — offers custom ASIC firmware for Antminer, but the search results here provide less comparative evidence than the three above.[1][7]\n- **NiceHash Firmware** — supports many Antminer models and is another legitimate vendor option, though it is not as prominently ranked as the top three in the 2026 comparison sources.[9]\n\nFor a quick decision:\n- **Best overall:** **Braiins OS+**[2][16][18]\n- **Best for max hashrate / tuning:** **VNish**[2][16]\n- **Best for fleet management:** **LuxOS**[10][18]\n\nIf you want, I can also give you a **model-by-model recommendation** for specific Antminer units like the **S19, S21, or T21**.",
+  "cited_urls": [
+    "https://bixbit.io/en/firmwares",
+    "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+    "https://d-central.tech/firmware-comparison/",
+    "https://epicblockchain.io/product/umc-os/",
+    "https://emcd.io/articles/mining/best-custom-asic-firmware-vnish-vs-braiins-os-vs-luxos/",
+    "https://www.hashrate.farm/mining-hub/firmwares",
+    "https://bixbit.io/en/firmwares/antminer",
+    "https://braiins.com/os-firmware",
+    "https://www.nicehash.com/firmware",
+    "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+    "https://d-central.tech/custom-bitmain-firmware-explained-2026/",
+    "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+    "https://www.spark.money/tools/bitcoin-mining-firmware-comparison",
+    "https://mineshop.eu/blog/crypto-mining-software",
+    "https://www.vnish.in/",
+    "https://d-central.tech/asic-firmware-guide-braiins-vnish/",
+    "https://vnish.ru/firmware/",
+    "https://d-central.tech/bitcoin-mining-software-comparison/",
+    "https://d-central.tech/antminer-firmware-update-guide/",
+    "https://downloads.braiins.com/braiins-os/"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+ "pulled_at": "2026-09-30T13:30:38",
+ "host": {
+  "host_id": "https:bixbit.io:443",
+  "verified": true,
+  "main_mirror": null,
+  "ascii_host_url": "https://bixbit.io/",
+  "unicode_host_url": "https://bixbit.io/"
+ },
+ "report": "sitemaps",
+ "window": [
+  "2026-09-02",
+  "2026-09-30"
+ ],
+ "data": {
+  "sitemaps": [
+   {
+    "sitemap_id": "80d4808b-2e03-336e-975a-27155ee164cf",
+    "sitemap_url": "https://bixbit.io/sitemap.xml",
+    "last_access_date": "2026-08-06T17:01:02.000+03:00",
+    "errors_count": 0,
+    "urls_count": 5,
+    "children_count": 5,
+    "sources": [
+     "ROBOTS_TXT",
+     "WEBMASTER"
+    ],
+    "sitemap_type": "INDEX_SITEMAP"
+   }
+  ]
+ }
+}

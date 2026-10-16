@@ -1,8 +1,9 @@
 # Content Brief: Whatsminer M30S Firmware
 **URL:** /en/whatsminer-firmware/whatsminer-m30s
 **File:** content/briefs/whatsminer-m30s-firmware.md
-**Last updated:** 2026-06-19
-**Priority:** P1
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P1 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Keep. whatsminer m30s firmware 10/mo. Optimize the existing /en/firmwares/whatsminer-series-m3x (already #3 for whatsminer firmware); don't create a new URL.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/whatsminer-series-m3x` (existing page), Page content (M3x series), section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer + technical writer — requires M30S-specific benchmark data]
 
 ---
@@ -23,15 +24,17 @@ Capture operators searching specifically for firmware solutions for the Whatsmin
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| whatsminer m30s firmware | Primary | — | — |
-| whatsminer m30s pro firmware | Secondary | — | — |
-| whatsminer m30s++ firmware | Secondary | — | — |
-| m30s custom firmware | Commercial | — | — |
-| m30s firmware update | How-to intent | — | — |
-| whatsminer m30s efficiency | Commercial / informational | — | — |
-| m30s overclocking firmware | Long-tail | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| whatsminer m30s firmware | Primary | 10 | — | — |
+| whatsminer m30s pro firmware | Secondary | n/d (<10) | — | — |
+| whatsminer m30s++ firmware | Secondary | not measured (Google Ads rejects "++") | — | — |
+| m30s custom firmware | Commercial | n/d (<10) | — | — |
+| m30s firmware update | How-to intent | n/d (<10) | — | — |
+| whatsminer m30s efficiency | Commercial / informational | n/d (<10) | — | — |
+| m30s overclocking firmware | Long-tail | n/d (<10) | — | — |
 
 ---
 

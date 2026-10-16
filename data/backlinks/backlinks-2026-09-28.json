@@ -1,0 +1,424 @@
+{
+ "meta": {
+  "collected_on": "2026-09-28",
+  "target": "bixbit.io",
+  "window_days": 31,
+  "since": "2026-08-28",
+  "compared_to": null,
+  "cost_usd": 0.2655,
+  "note": "rank по шкале 0–100 (DataForSEO rank, не Ahrefs DR)"
+ },
+ "summaries": {
+  "bixbit.io": {
+   "rank": 39,
+   "backlinks": 6722,
+   "referring_domains": 1110,
+   "referring_main_domains": 891,
+   "referring_domains_nofollow": 617,
+   "broken_backlinks": 22,
+   "broken_pages": 133,
+   "backlinks_spam_score": 44,
+   "referring_ips": 530
+  },
+  "braiins.com": {
+   "rank": 53,
+   "backlinks": 49792,
+   "referring_domains": 5263,
+   "referring_main_domains": 4094,
+   "referring_domains_nofollow": 2624,
+   "broken_backlinks": 210,
+   "broken_pages": 152,
+   "backlinks_spam_score": 23,
+   "referring_ips": 3273
+  },
+  "vnish-firmware.com": {
+   "rank": 12,
+   "backlinks": 176,
+   "referring_domains": 154,
+   "referring_main_domains": 152,
+   "referring_domains_nofollow": 20,
+   "broken_backlinks": 166,
+   "broken_pages": 90,
+   "backlinks_spam_score": 46,
+   "referring_ips": 136
+  },
+  "epicblockchain.io": {
+   "rank": 29,
+   "backlinks": 380,
+   "referring_domains": 188,
+   "referring_main_domains": 173,
+   "referring_domains_nofollow": 66,
+   "broken_backlinks": 0,
+   "broken_pages": 3,
+   "backlinks_spam_score": 13,
+   "referring_ips": 152
+  },
+  "emcd.io": {
+   "rank": 64,
+   "backlinks": 63932,
+   "referring_domains": 3835,
+   "referring_main_domains": 2664,
+   "referring_domains_nofollow": 2436,
+   "broken_backlinks": 765,
+   "broken_pages": 700,
+   "backlinks_spam_score": 35,
+   "referring_ips": 2046
+  },
+  "luxor.tech": {
+   "rank": 50,
+   "backlinks": 21233,
+   "referring_domains": 2080,
+   "referring_main_domains": 1873,
+   "referring_domains_nofollow": 1135,
+   "broken_backlinks": 1087,
+   "broken_pages": 137,
+   "backlinks_spam_score": 7,
+   "referring_ips": 1626
+  },
+  "awesomeminer.com": {
+   "rank": 70,
+   "backlinks": 68908,
+   "referring_domains": 1741,
+   "referring_main_domains": 1623,
+   "referring_domains_nofollow": 723,
+   "broken_backlinks": 2,
+   "broken_pages": 3,
+   "backlinks_spam_score": 1,
+   "referring_ips": 866
+  },
+  "hiveon.com": {
+   "rank": 62,
+   "backlinks": 456572,
+   "referring_domains": 2529,
+   "referring_main_domains": 1874,
+   "referring_domains_nofollow": 1632,
+   "broken_backlinks": 248,
+   "broken_pages": 965,
+   "backlinks_spam_score": 33,
+   "referring_ips": 1570
+  },
+  "minerstat.com": {
+   "rank": 74,
+   "backlinks": 1849893,
+   "referring_domains": 4428,
+   "referring_main_domains": 3173,
+   "referring_domains_nofollow": 2656,
+   "broken_backlinks": 887,
+   "broken_pages": 171,
+   "backlinks_spam_score": 3,
+   "referring_ips": 2338
+  }
+ },
+ "deltas": {},
+ "new_referring_domains": [
+  {
+   "domain": "abnewswire.com",
+   "rank": 0,
+   "backlinks": 10,
+   "first_seen": "2026-09-28",
+   "lost_date": "",
+   "spam_score": 0,
+   "nofollow_only": true
+  },
+  {
+   "domain": "morningrelease.com",
+   "rank": 0,
+   "backlinks": 10,
+   "first_seen": "2026-09-27",
+   "lost_date": "",
+   "spam_score": 15,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-247.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-27",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "onvaxs.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-27",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "kernelpanicpodcast.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-26",
+   "lost_date": "",
+   "spam_score": 70,
+   "nofollow_only": false
+  },
+  {
+   "domain": "lrfzim.com",
+   "rank": 0,
+   "backlinks": 23,
+   "first_seen": "2026-09-25",
+   "lost_date": "",
+   "spam_score": 50,
+   "nofollow_only": true
+  },
+  {
+   "domain": "minerfirmware.online",
+   "rank": 0,
+   "backlinks": 3,
+   "first_seen": "2026-09-25",
+   "lost_date": "",
+   "spam_score": 0,
+   "nofollow_only": true
+  },
+  {
+   "domain": "cvillico.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-23",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "link-legion-245.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-23",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-246.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-22",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "five.co.in",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-19",
+   "lost_date": "",
+   "spam_score": 30,
+   "nofollow_only": false
+  },
+  {
+   "domain": "minershero.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-11",
+   "lost_date": "",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "seo-anomaly-top-40.xyz",
+   "rank": 0,
+   "backlinks": 2,
+   "first_seen": "2026-09-11",
+   "lost_date": "",
+   "spam_score": 95,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-242.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-10",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-238.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-03",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "mediaboooster.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-03",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "savepearlharbor.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-01",
+   "lost_date": "",
+   "spam_score": 5,
+   "nofollow_only": false
+  },
+  {
+   "domain": "bixbit-dev.github.io",
+   "rank": 2,
+   "backlinks": 1,
+   "first_seen": "2026-08-31",
+   "lost_date": "",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "seo-anomaly-top-228.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-08-30",
+   "lost_date": "",
+   "spam_score": 95,
+   "nofollow_only": true
+  },
+  {
+   "domain": "fashionclothingnews.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-08-29",
+   "lost_date": "",
+   "spam_score": 70,
+   "nofollow_only": false
+  },
+  {
+   "domain": "uncledspizza.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-08-29",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "fittyfoody.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-08-29",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "seo-anomaly-shenzhen.website",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-08-29",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": true
+  },
+  {
+   "domain": "seo-anomaly-top-226.xyz",
+   "rank": 0,
+   "backlinks": 3,
+   "first_seen": "2026-08-28",
+   "lost_date": "",
+   "spam_score": 95,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-237.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-08-28",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  }
+ ],
+ "lost_referring_domains": [
+  {
+   "domain": "urls-shortener.eu",
+   "rank": 0,
+   "backlinks": 3,
+   "first_seen": "2026-02-27",
+   "lost_date": "2026-09-27",
+   "spam_score": 33,
+   "nofollow_only": false
+  },
+  {
+   "domain": "bitcointalk.org",
+   "rank": 20,
+   "backlinks": 120,
+   "first_seen": "2025-11-28",
+   "lost_date": "2026-09-26",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "iskariyer.com.tr",
+   "rank": 0,
+   "backlinks": 3,
+   "first_seen": "2026-01-06",
+   "lost_date": "2026-09-26",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "robuta.com",
+   "rank": 0,
+   "backlinks": 6,
+   "first_seen": "2026-06-12",
+   "lost_date": "2026-09-19",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "sakinatou.com",
+   "rank": 0,
+   "backlinks": 5,
+   "first_seen": "2026-08-01",
+   "lost_date": "2026-09-11",
+   "spam_score": 0,
+   "nofollow_only": true
+  },
+  {
+   "domain": "web-lesson.ru",
+   "rank": 8,
+   "backlinks": 1,
+   "first_seen": "2026-07-27",
+   "lost_date": "2026-09-10",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "siteprice.org",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-02-19",
+   "lost_date": "2026-09-03",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "casapaiva.pt",
+   "rank": 0,
+   "backlinks": 2,
+   "first_seen": "2026-05-13",
+   "lost_date": "2026-09-02",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "screenshots.wiki",
+   "rank": 0,
+   "backlinks": 3,
+   "first_seen": "2026-03-24",
+   "lost_date": "2026-08-28",
+   "spam_score": 16,
+   "nofollow_only": false
+  }
+ ],
+ "errors": {}
+}

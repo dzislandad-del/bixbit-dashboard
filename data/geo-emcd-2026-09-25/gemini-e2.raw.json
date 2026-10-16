@@ -1,0 +1,617 @@
+{
+  "id": "09251413-2548-0612-0000-2eec39936a47",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "message",
+      "sections": [
+        {
+          "type": "text",
+          "text": "The custom ASIC firmware market has highly matured, moving far beyond basic \"overclocking.\" Third-party firmware focuses on **chip-by-chip auto-tuning, thermal safety, and power-trimming (undervolting)**. Standardizing on the right firmware can yield **15% to 25% better efficiency (Joules per Terahash, J/TH)**, meaning the difference between keeping your miners profitable or being forced to turn them off.\n\n---\n\n### **1. Braiins OS+**\n*The Gold Standard for Home Miners & Efficiency Purists*\n\nBraiins (from the pioneers of the world's first mining pool) continues to be the most trusted and reliable choice for miners who value transparency, open-source principles, and clean economics.\n\n*   **Dev Fee:** **2.0% to 2.5%**. If you mine on **Braiins Pool**, your pool fee is reduced to **0%**, effectively giving you a massive rebate on the cost.\n*   **Best For:** S19 and S21 series owners, home miners, heater-miner setups, and miners using the **Stratum V2** protocol.\n*   **Key Features:** \n    *   **Per-Chip Auto-Tuning:** Exposes precise, chip-level efficiency profiling (finds the exact sweet spot for each individual ASIC chip).\n    *   **Stratum V2 Native Support:** The *only* major custom firmware that natively supports Stratum V2 (providing transaction selection and advanced encryption).\n    *   **Braiins Manager Integration:** Perfect for automated curtailment and heat-adaptation scripts.\n*   **Verdict:** Best overall balance of software safety, pool synergy, and high-efficiency (low J/TH) operations.\n\n---\n\n### **2. VNish**\n*The Undisputed King of Raw Performance & Maximum Overclocking*\n\nFirst introduced in 2016, VNish has the widest overall hardware compatibility and is the go-to firmware for squeeze-every-drop-of-hashrate performance.\n\n*   **Dev Fee:** **2.0% to 2.8%** (dependent on the model and volume).\n*   **Best For:** Operators wanting maximum overclocking headroom, immersion cooling setups, and those running older or secondary-market ASICs (like S19j Pro, L7, and L9).\n*   **Key Features:**\n    *   **Aggressive Tuning Profiles:** Features presets designed to push the hardware limits (yielding up to 30% higher raw hashrate on proper setups).\n    *   **Granular Manual Controls:** Allows manual frequency and voltage override beyond typical \"auto-tuning\" loops.\n    *   **Incredible Model Support:** Covers virtually every sub-model variation and control board (BeagleBone, Xilinx, CVITEK, Amlogic).\n*   **Verdict:** The best choice if you are running an immersion setup, have incredibly cheap power, or want to push older machines to their absolute limits. It is closed-source, but historically very stable.\n\n---\n\n### **3. LuxOS (by Luxor)**\n*The Enterprise & Grid-Flexible Power Player*\n\nLuxOS is a highly customized, corporate-ready operating system designed specifically to navigate modern grid programs and dynamic power markets (like ERCOT in Texas).\n\n*   **Dev Fee:** **2.8%**. This fee is waived entirely if you mine directly on the **Luxor Mining Pool**.\n*   **Best For:** Industrial-scale fleets, institutional miners, and home miners using standard residential voltage (110V/120V).\n*   **Key Features:**\n    *   **Ultra-Fast Curtailment:** Features sub-5-second shutdown/ramp-up triggers, critical for industrial energy curtailment programs.\n    *   **120V PSU Bypass Mode:** Allows home miners to run industrial ASICs safely on normal household outlets without frying their breakers (a rare and highly praised feature).\n    *   **Dynamic Intelligent Mining:** Integrates with real-time hashprice indexes and spot power prices to auto-adjust machine wattage to maintain profitability.\n    *   **MicroBT Partnership:** Expanded direct native support to the popular MicroBT Whatsminer M50 series.\n*   **Verdict:** If you are running an institutional fleet, participate in demand-response grid programs, or are a home miner trying to run an ASIC on a standard household outlet, LuxOS is unmatched.\n\n---\n\n### **4. Other Key Contenders**\n\n*   **NiceHash Firmware (Powered by MARA):** An impressive collaboration between NiceHash and Marathon Digital. It carries a low **2.0% fee** (reduced to **1.4%** if you mine to NiceHash Pool). It is highly regarded for its \"Intelligent Thermal Protection\" and automated sleep modes, making it a robust alternative for retail users who want to leverage Marathon's enterprise-level tuning.\n*   **ePIC (Universal Mining Controller):** Offers an alternative economic route. Instead of a recurring dev fee, they sell physical control boards loaded with their proprietary firmware. This means 0% ongoing fees, making it an excellent long-term option for large fleets wanting predictable cost structures.\n*   **Tether's MiningOS:** A fully open-source firmware introduced by stablecoin issuer Tether. It eliminates the typical developer fees entirely. While still maturing in community adoption, it is a project to watch for miners seeking zero-fee, sovereign mining setups.\n\n---\n\n### **The Verdict: Which is \"Best\"?**\n\n| Scenario | Winner | Why? |\n| :--- | :--- | :--- |\n| **The \"Set-it-and-Forget-it\" Home Miner** | **Braiins OS+** | Best user experience, native Stratum V2 security, and effectively 0% fees if paired with Braiins Pool. |\n| **The Immersion / Maximum Performance Tuner** | **VNish** | Unlocks the highest overclock profiles and works flawlessly with complex/legacy boards. |\n| **The Grid-Flexible Industrial Farm** | **LuxOS** | Best-in-class API, ultra-fast curtailment response, and deep Luxor/Whatsminer integration. |\n| **The 120V Household Outlet Miner** | **LuxOS** | The unique 110V/120V PSU bypass mode is a savior for running big miners on home power. |\n| **The Profitability Optimizer on a Budget** | **NiceHash (MARA)** | Very low 1.4% fee option with top-tier Marathon auto-tuning tech. |\n\n**A crucial final note:** Flashing third-party firmware almost always **voids your Bitmain manufacturer warranty**. If you have a brand-new, top-tier ASIC (like an S21 XP), it is generally recommended to run the stock firmware until your warranty period expires, and *then* flash custom firmware to breathe a 15–25% efficiency boost into the machine.",
+          "annotations": [
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9348h6JiU4YTBwv9rVb9Ax-BNbAjqDkbvQ-__mA5d50GE0QkDg8GyMGe2aMzhYZ8KwuuYAvnADc04g1Gmpoz50QufZE9a8Rhu6s_k2tEFHVqTo1mr0YTm6aYbCXCYTbLJSP2HzSHLsJ1HW9FrHDhBUHM6Fy2Tz3jEUv1aGAyMXyldqW7wOrDctQYKrTA=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "end_index": 203,
+              "text": "The custom ASIC firmware market has highly matured, moving far beyond basic \"overclocking.\" Third-party firmware focuses on **chip-by-chip auto-tuning, thermal safety, and power-trimming (undervolting)**"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCfhD6d-Jf_Q2WvdEzj7O4QuvcYn4Q5QpTj85fz84Y0MnCfOcjlhCwkcAb3469Ve46YYCvyXcmgTLzG_5eQVgcBJVRfFEh4TtLUk4FvNATS-9xaFRUN-0-5JlpDzJ76gi4F3lWe22iHcpyJSG0qxg=",
+              "direct_url": "https://www.bitcoinmining.com/de/bitcoin-mining-software/",
+              "start_index": 205,
+              "end_index": 407,
+              "text": "Standardizing on the right firmware can yield **15% to 25% better efficiency (Joules per Terahash, J/TH)**, meaning the difference between keeping your miners profitable or being forced to turn them off"
+            },
+            {
+              "title": "oneminers.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc5jzi2NFtBNVK35JgIrurhqbhN7x6zp_ft9GYXD8eZIVXc6rf9o4iL9LYhWXWugkck_pAWVxNiEGAvtG6C934GoDZ_VKQJ1VZ5_YozCgSSrshg7CmsKSwIA7A2SIbz6PJeAVzQlR3MI5Ah1ECfQnk0J4vpkNs7p0nH9b_brGaqtS6An3kJgiWgsSdbA==",
+              "direct_url": "https://oneminers.com/blogs/educational/asic-tuning-2026-firmware-underclocking-uptime",
+              "start_index": 205,
+              "end_index": 407,
+              "text": "Standardizing on the right firmware can yield **15% to 25% better efficiency (Joules per Terahash, J/TH)**, meaning the difference between keeping your miners profitable or being forced to turn them off"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9348h6JiU4YTBwv9rVb9Ax-BNbAjqDkbvQ-__mA5d50GE0QkDg8GyMGe2aMzhYZ8KwuuYAvnADc04g1Gmpoz50QufZE9a8Rhu6s_k2tEFHVqTo1mr0YTm6aYbCXCYTbLJSP2HzSHLsJ1HW9FrHDhBUHM6Fy2Tz3jEUv1aGAyMXyldqW7wOrDctQYKrTA=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 424,
+              "end_index": 494,
+              "text": "Braiins OS+**\n*The Gold Standard for Home Miners & Efficiency Purists*"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 424,
+              "end_index": 494,
+              "text": "Braiins OS+**\n*The Gold Standard for Home Miners & Efficiency Purists*"
+            },
+            {
+              "title": "obm.io",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHynvGi0szAgKLbmm-jdA95VaRW4ZnwXc3aKjFUD7e2odkwltJ6Y80_8UWVMS_Pf22ZLOteQEhhRwWLM-3s4I8T3HAw6A2lVnsXd9-a4qvG4H3BI0t3uGD1n2DuZIhYn-t7D54=",
+              "direct_url": "https://obm.io/blog/miners-guide-to-firmware/",
+              "start_index": 496,
+              "end_index": 688,
+              "text": "Braiins (from the pioneers of the world's first mining pool) continues to be the most trusted and reliable choice for miners who value transparency, open-source principles, and clean economics"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9348h6JiU4YTBwv9rVb9Ax-BNbAjqDkbvQ-__mA5d50GE0QkDg8GyMGe2aMzhYZ8KwuuYAvnADc04g1Gmpoz50QufZE9a8Rhu6s_k2tEFHVqTo1mr0YTm6aYbCXCYTbLJSP2HzSHLsJ1HW9FrHDhBUHM6Fy2Tz3jEUv1aGAyMXyldqW7wOrDctQYKrTA=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 496,
+              "end_index": 688,
+              "text": "Braiins (from the pioneers of the world's first mining pool) continues to be the most trusted and reliable choice for miners who value transparency, open-source principles, and clean economics"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKS1bnVkAkjcpPWQmV-lH-H5-T34ze5cNf6QCUhpdfRd5ZDrlxrCEV5qh69eXwZpeArcoySNS9hCW1xPjQaWUaT27eaEhkgtm4MN_PAvMnh27naC2mThC2G42XKsfodidaNNqpq_JjA8ljJA-FKCto3MgNvOrxSPg=",
+              "direct_url": "https://millionminer.com/news/install-braiins-os-antminer-s21-2026",
+              "start_index": 496,
+              "end_index": 688,
+              "text": "Braiins (from the pioneers of the world's first mining pool) continues to be the most trusted and reliable choice for miners who value transparency, open-source principles, and clean economics"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 691,
+              "end_index": 724,
+              "text": "*   **Dev Fee:** **2.0% to 2.5%**"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 726,
+              "end_index": 846,
+              "text": "If you mine on **Braiins Pool**, your pool fee is reduced to **0%**, effectively giving you a massive rebate on the cost"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI9Zts46WRwgBdvMo7G5rln0TWS6RCS2FYgjdDD_xRJh04m8qL9jSPdTpMgkxmanknOxfSvOzwqcD4bXGxvk5isN3rgp1i2WF_Ty6lenuIbp7PysqUWZVASznLjwH-YWSndk0-H58EgqQW5Ao1zoLEvvNgzWd9dOnQZma1bfag7QxP5R19iw6j1XTCaPUpFJHy4Q==",
+              "direct_url": "https://d-central.tech/braiinsos-unlocking-the-power-of-advanced-autotuning-for-asic-miners/",
+              "start_index": 726,
+              "end_index": 846,
+              "text": "If you mine on **Braiins Pool**, your pool fee is reduced to **0%**, effectively giving you a massive rebate on the cost"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9348h6JiU4YTBwv9rVb9Ax-BNbAjqDkbvQ-__mA5d50GE0QkDg8GyMGe2aMzhYZ8KwuuYAvnADc04g1Gmpoz50QufZE9a8Rhu6s_k2tEFHVqTo1mr0YTm6aYbCXCYTbLJSP2HzSHLsJ1HW9FrHDhBUHM6Fy2Tz3jEUv1aGAyMXyldqW7wOrDctQYKrTA=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 848,
+              "end_index": 971,
+              "text": "*   **Best For:** S19 and S21 series owners, home miners, heater-miner setups, and miners using the **Stratum V2** protocol"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 848,
+              "end_index": 971,
+              "text": "*   **Best For:** S19 and S21 series owners, home miners, heater-miner setups, and miners using the **Stratum V2** protocol"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9348h6JiU4YTBwv9rVb9Ax-BNbAjqDkbvQ-__mA5d50GE0QkDg8GyMGe2aMzhYZ8KwuuYAvnADc04g1Gmpoz50QufZE9a8Rhu6s_k2tEFHVqTo1mr0YTm6aYbCXCYTbLJSP2HzSHLsJ1HW9FrHDhBUHM6Fy2Tz3jEUv1aGAyMXyldqW7wOrDctQYKrTA=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 973,
+              "end_index": 1137,
+              "text": "*   **Key Features:** \n    *   **Per-Chip Auto-Tuning:** Exposes precise, chip-level efficiency profiling (finds the exact sweet spot for each individual ASIC chip)"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 1143,
+              "end_index": 1302,
+              "text": "*   **Stratum V2 Native Support:** The *only* major custom firmware that natively supports Stratum V2 (providing transaction selection and advanced encryption)"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI9Zts46WRwgBdvMo7G5rln0TWS6RCS2FYgjdDD_xRJh04m8qL9jSPdTpMgkxmanknOxfSvOzwqcD4bXGxvk5isN3rgp1i2WF_Ty6lenuIbp7PysqUWZVASznLjwH-YWSndk0-H58EgqQW5Ao1zoLEvvNgzWd9dOnQZma1bfag7QxP5R19iw6j1XTCaPUpFJHy4Q==",
+              "direct_url": "https://d-central.tech/braiinsos-unlocking-the-power-of-advanced-autotuning-for-asic-miners/",
+              "start_index": 1143,
+              "end_index": 1302,
+              "text": "*   **Stratum V2 Native Support:** The *only* major custom firmware that natively supports Stratum V2 (providing transaction selection and advanced encryption)"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCfhD6d-Jf_Q2WvdEzj7O4QuvcYn4Q5QpTj85fz84Y0MnCfOcjlhCwkcAb3469Ve46YYCvyXcmgTLzG_5eQVgcBJVRfFEh4TtLUk4FvNATS-9xaFRUN-0-5JlpDzJ76gi4F3lWe22iHcpyJSG0qxg=",
+              "direct_url": "https://www.bitcoinmining.com/de/bitcoin-mining-software/",
+              "start_index": 1308,
+              "end_index": 1406,
+              "text": "*   **Braiins Manager Integration:** Perfect for automated curtailment and heat-adaptation scripts"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 1408,
+              "end_index": 1521,
+              "text": "*   **Verdict:** Best overall balance of software safety, pool synergy, and high-efficiency (low J/TH) operations"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKS1bnVkAkjcpPWQmV-lH-H5-T34ze5cNf6QCUhpdfRd5ZDrlxrCEV5qh69eXwZpeArcoySNS9hCW1xPjQaWUaT27eaEhkgtm4MN_PAvMnh27naC2mThC2G42XKsfodidaNNqpq_JjA8ljJA-FKCto3MgNvOrxSPg=",
+              "direct_url": "https://millionminer.com/news/install-braiins-os-antminer-s21-2026",
+              "start_index": 1408,
+              "end_index": 1521,
+              "text": "*   **Verdict:** Best overall balance of software safety, pool synergy, and high-efficiency (low J/TH) operations"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 1538,
+              "end_index": 1609,
+              "text": "VNish**\n*The Undisputed King of Raw Performance & Maximum Overclocking*"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUx2yCjXCa8pMcJdvaCaQqoRMPl6DGDEcF4Vyd-6Sy9jBXKMPtP1YqGV_LS9VDay88prYwGRztLENRMhhYVhhWcCAKQnMnmb7dxYKyUEibFaI20j6YGxKLeVKgYK6TUaqQDuTxs4wa3DmFP-yTk28A9Ts2zC6syyY3",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 1611,
+              "end_index": 1761,
+              "text": "First introduced in 2016, VNish has the widest overall hardware compatibility and is the go-to firmware for squeeze-every-drop-of-hashrate performance"
+            },
+            {
+              "title": "vnish.global",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEsohsnQ19KUf0yopITiGeRABcWEgZWtuT3mRs5qQg_ZkUOmXEFakv1g6xjjlt5WEPeTaTHYqMtF2Jm1hdOGDC1HRe9QxqStq24RjxNc2nSiQ=",
+              "direct_url": "https://vnish.global/about/",
+              "start_index": 1611,
+              "end_index": 1761,
+              "text": "First introduced in 2016, VNish has the widest overall hardware compatibility and is the go-to firmware for squeeze-every-drop-of-hashrate performance"
+            },
+            {
+              "title": "vnish.pro",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbZsygYzNeZS0CmOl5sHYOX7YbaYY6RyvzoyB4C5qtuofdjemoUOI9r7XwqSBSpnLYe1nxfVw5vPBqz9Cp3WETBROwRamCHr17yLQ=",
+              "direct_url": "https://vnish.pro/en/",
+              "start_index": 1764,
+              "end_index": 1833,
+              "text": "*   **Dev Fee:** **2.0% to 2.8%** (dependent on the model and volume)"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 1764,
+              "end_index": 1833,
+              "text": "*   **Dev Fee:** **2.0% to 2.8%** (dependent on the model and volume)"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUx2yCjXCa8pMcJdvaCaQqoRMPl6DGDEcF4Vyd-6Sy9jBXKMPtP1YqGV_LS9VDay88prYwGRztLENRMhhYVhhWcCAKQnMnmb7dxYKyUEibFaI20j6YGxKLeVKgYK6TUaqQDuTxs4wa3DmFP-yTk28A9Ts2zC6syyY3",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 1835,
+              "end_index": 2005,
+              "text": "*   **Best For:** Operators wanting maximum overclocking headroom, immersion cooling setups, and those running older or secondary-market ASICs (like S19j Pro, L7, and L9)"
+            },
+            {
+              "title": "vnish.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi54Wq5gNgiS3QxUN5wLgxinBsDBtL6ILfn2KfUTNZgkaFZcnt7NMaT2Klr_fhWvj-1MQFboks1TzveX8rCNhxjmCu71gS2NU=",
+              "direct_url": "https://vnish.com/",
+              "start_index": 1835,
+              "end_index": 2005,
+              "text": "*   **Best For:** Operators wanting maximum overclocking headroom, immersion cooling setups, and those running older or secondary-market ASICs (like S19j Pro, L7, and L9)"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 1835,
+              "end_index": 2005,
+              "text": "*   **Best For:** Operators wanting maximum overclocking headroom, immersion cooling setups, and those running older or secondary-market ASICs (like S19j Pro, L7, and L9)"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 2007,
+              "end_index": 2180,
+              "text": "*   **Key Features:**\n    *   **Aggressive Tuning Profiles:** Features presets designed to push the hardware limits (yielding up to 30% higher raw hashrate on proper setups)"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUx2yCjXCa8pMcJdvaCaQqoRMPl6DGDEcF4Vyd-6Sy9jBXKMPtP1YqGV_LS9VDay88prYwGRztLENRMhhYVhhWcCAKQnMnmb7dxYKyUEibFaI20j6YGxKLeVKgYK6TUaqQDuTxs4wa3DmFP-yTk28A9Ts2zC6syyY3",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 2186,
+              "end_index": 2299,
+              "text": "*   **Granular Manual Controls:** Allows manual frequency and voltage override beyond typical \"auto-tuning\" loops"
+            },
+            {
+              "title": "vnish.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi54Wq5gNgiS3QxUN5wLgxinBsDBtL6ILfn2KfUTNZgkaFZcnt7NMaT2Klr_fhWvj-1MQFboks1TzveX8rCNhxjmCu71gS2NU=",
+              "direct_url": "https://vnish.com/",
+              "start_index": 2305,
+              "end_index": 2437,
+              "text": "*   **Incredible Model Support:** Covers virtually every sub-model variation and control board (BeagleBone, Xilinx, CVITEK, Amlogic)"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEomAFkO2nCyl3L9PP8_8zgomDx0kfAnXGgiFL93LJz613QFJsyY-IFnmmD-cO5v99HylYvZvASDpXPhlvjEVfgyipkfVqEA_0SRKJSADrixifxZwwLPjb4sg28nGfv",
+              "direct_url": "https://braiins.com/os-firmware/download",
+              "start_index": 2305,
+              "end_index": 2437,
+              "text": "*   **Incredible Model Support:** Covers virtually every sub-model variation and control board (BeagleBone, Xilinx, CVITEK, Amlogic)"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYpV_euCDY9nxFUxpajSozNSWlb6JZH470kvRW0yfmvk5eodnbBS19H7CYS6zMdT9ZS6v6kM-bXxgrtqyA9S19WLSimNzed55AKg7uzSSnvAzNSz4uQH9vGttH1cwgQ9VnsOVQR3RdFngkuAHUgrQKnY9g7UQB2ZRxDzSruXzYP4n8Q1GI2GRYTfaspJv4Ak5z1ChM",
+              "direct_url": "https://d-central.tech/nicehash-and-marathon-digital-unveil-promising-bitcoin-mining-firmware/",
+              "start_index": 2439,
+              "end_index": 2595,
+              "text": "*   **Verdict:** The best choice if you are running an immersion setup, have incredibly cheap power, or want to push older machines to their absolute limits"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 2439,
+              "end_index": 2595,
+              "text": "*   **Verdict:** The best choice if you are running an immersion setup, have incredibly cheap power, or want to push older machines to their absolute limits"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 2597,
+              "end_index": 2646,
+              "text": "It is closed-source, but historically very stable"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUx2yCjXCa8pMcJdvaCaQqoRMPl6DGDEcF4Vyd-6Sy9jBXKMPtP1YqGV_LS9VDay88prYwGRztLENRMhhYVhhWcCAKQnMnmb7dxYKyUEibFaI20j6YGxKLeVKgYK6TUaqQDuTxs4wa3DmFP-yTk28A9Ts2zC6syyY3",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 2663,
+              "end_index": 2727,
+              "text": "LuxOS (by Luxor)**\n*The Enterprise & Grid-Flexible Power Player*"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUx2yCjXCa8pMcJdvaCaQqoRMPl6DGDEcF4Vyd-6Sy9jBXKMPtP1YqGV_LS9VDay88prYwGRztLENRMhhYVhhWcCAKQnMnmb7dxYKyUEibFaI20j6YGxKLeVKgYK6TUaqQDuTxs4wa3DmFP-yTk28A9Ts2zC6syyY3",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 2729,
+              "end_index": 2894,
+              "text": "LuxOS is a highly customized, corporate-ready operating system designed specifically to navigate modern grid programs and dynamic power markets (like ERCOT in Texas)"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYpV_euCDY9nxFUxpajSozNSWlb6JZH470kvRW0yfmvk5eodnbBS19H7CYS6zMdT9ZS6v6kM-bXxgrtqyA9S19WLSimNzed55AKg7uzSSnvAzNSz4uQH9vGttH1cwgQ9VnsOVQR3RdFngkuAHUgrQKnY9g7UQB2ZRxDzSruXzYP4n8Q1GI2GRYTfaspJv4Ak5z1ChM",
+              "direct_url": "https://d-central.tech/nicehash-and-marathon-digital-unveil-promising-bitcoin-mining-firmware/",
+              "start_index": 2897,
+              "end_index": 2922,
+              "text": "*   **Dev Fee:** **2.8%**"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 2924,
+              "end_index": 3001,
+              "text": "This fee is waived entirely if you mine directly on the **Luxor Mining Pool**"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHbt3OJIlhYmstRuknIOts0LiUApVdLpKG-2N1_tRz2SmLX6e_81choNb8d_l7Qr2d6dKHzxwwaEFxk3ZhiSwmjjD9wpQk4AWDGUTQ-uTDEG9NqgLXE68TECFuF74MSWYTmIhAlU5wWF0OMSM=",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 2924,
+              "end_index": 3001,
+              "text": "This fee is waived entirely if you mine directly on the **Luxor Mining Pool**"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 3003,
+              "end_index": 3130,
+              "text": "*   **Best For:** Industrial-scale fleets, institutional miners, and home miners using standard residential voltage (110V/120V)"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHbt3OJIlhYmstRuknIOts0LiUApVdLpKG-2N1_tRz2SmLX6e_81choNb8d_l7Qr2d6dKHzxwwaEFxk3ZhiSwmjjD9wpQk4AWDGUTQ-uTDEG9NqgLXE68TECFuF74MSWYTmIhAlU5wWF0OMSM=",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 3003,
+              "end_index": 3130,
+              "text": "*   **Best For:** Industrial-scale fleets, institutional miners, and home miners using standard residential voltage (110V/120V)"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 3132,
+              "end_index": 3290,
+              "text": "*   **Key Features:**\n    *   **Ultra-Fast Curtailment:** Features sub-5-second shutdown/ramp-up triggers, critical for industrial energy curtailment programs"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYpV_euCDY9nxFUxpajSozNSWlb6JZH470kvRW0yfmvk5eodnbBS19H7CYS6zMdT9ZS6v6kM-bXxgrtqyA9S19WLSimNzed55AKg7uzSSnvAzNSz4uQH9vGttH1cwgQ9VnsOVQR3RdFngkuAHUgrQKnY9g7UQB2ZRxDzSruXzYP4n8Q1GI2GRYTfaspJv4Ak5z1ChM",
+              "direct_url": "https://d-central.tech/nicehash-and-marathon-digital-unveil-promising-bitcoin-mining-firmware/",
+              "start_index": 3296,
+              "end_index": 3469,
+              "text": "*   **120V PSU Bypass Mode:** Allows home miners to run industrial ASICs safely on normal household outlets without frying their breakers (a rare and highly praised feature)"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 3296,
+              "end_index": 3469,
+              "text": "*   **120V PSU Bypass Mode:** Allows home miners to run industrial ASICs safely on normal household outlets without frying their breakers (a rare and highly praised feature)"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUx2yCjXCa8pMcJdvaCaQqoRMPl6DGDEcF4Vyd-6Sy9jBXKMPtP1YqGV_LS9VDay88prYwGRztLENRMhhYVhhWcCAKQnMnmb7dxYKyUEibFaI20j6YGxKLeVKgYK6TUaqQDuTxs4wa3DmFP-yTk28A9Ts2zC6syyY3",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 3475,
+              "end_index": 3633,
+              "text": "*   **Dynamic Intelligent Mining:** Integrates with real-time hashprice indexes and spot power prices to auto-adjust machine wattage to maintain profitability"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPlk2ztpa740CHc9EXTwuINk1kRX_tVAkvN06n-qicqfMznxKzkbBjGpBrfd85J0eF_Vp5Rh74o26jCqhsy8Z2tas846NfM6Dtpcxtrf7VcmUSTxoENHvjm3KV_2HCxmiZE4Rlz7doxd9d_i1EvnS_2OeoKk6Ava0z",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 3475,
+              "end_index": 3633,
+              "text": "*   **Dynamic Intelligent Mining:** Integrates with real-time hashprice indexes and spot power prices to auto-adjust machine wattage to maintain profitability"
+            },
+            {
+              "title": "bitcoin.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEwIpsfg8GCqnpwaPb4FyVHdnT2Dy-W4Cpc5desg8Z-gA0EwiBgNrS6lhF8EuYJq7tgocJCvoC3JU7pM7CttWc5tuxr_I5SsaqyOj_MLJLKu4JSyrsyiTPIrVvoItJSD24CGrfSc_SZiwLar1nC4rpL8jYzV4TCBlVIo67C1oYOQ8cMrLWsw1m7c0VIePzreOEdvl-LnRAv2XPwUU=",
+              "direct_url": "https://news.bitcoin.com/luxor-signs-microbt-hardware-commitment-worth-100m-alongside-firmware-launch/",
+              "start_index": 3639,
+              "end_index": 3743,
+              "text": "*   **MicroBT Partnership:** Expanded direct native support to the popular MicroBT Whatsminer M50 series"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 3745,
+              "end_index": 3943,
+              "text": "*   **Verdict:** If you are running an institutional fleet, participate in demand-response grid programs, or are a home miner trying to run an ASIC on a standard household outlet, LuxOS is unmatched"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHbt3OJIlhYmstRuknIOts0LiUApVdLpKG-2N1_tRz2SmLX6e_81choNb8d_l7Qr2d6dKHzxwwaEFxk3ZhiSwmjjD9wpQk4AWDGUTQ-uTDEG9NqgLXE68TECFuF74MSWYTmIhAlU5wWF0OMSM=",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 3745,
+              "end_index": 3943,
+              "text": "*   **Verdict:** If you are running an institutional fleet, participate in demand-response grid programs, or are a home miner trying to run an ASIC on a standard household outlet, LuxOS is unmatched"
+            },
+            {
+              "title": "nicehash.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMaktjaOOzifyu2BHe_emhBINgy25GoN36UlKHMzLGXZfX-yoXKniMzUW-AhmAOw89s81pzfa4sxzLwm0fFYXdZA-CGLLJNTFFExZBAJv1B5QyAyelubmaQEtmhAFT2qCQcO3eFYO-vbQmCRopm7NT2y2t3U-pd8XB3w==",
+              "direct_url": "https://www.nicehash.com/blog/post/nicehash-firmware-powered-by-mara",
+              "start_index": 3984,
+              "end_index": 4094,
+              "text": "*   **NiceHash Firmware (Powered by MARA):** An impressive collaboration between NiceHash and Marathon Digital"
+            },
+            {
+              "title": "tradingview.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgOatmJWu5_hEgY7kWzwVw4GKZtZbLelOF-GzjXXEJ9CAoCfAHa2KwrjcKu8B6I6T8_gGZclDyGU_RHNyTjCXVv80LMRZm18V0cuyYD-8fBl0GRvKp_ZSgt1wnkvkbHkFy7v_a8itiV4axlTWiiJ-zB7R-xptoEw5wGznWFwziMUom-Yl3uTonqoCeysbQY429Pugy77GrygYlipvRc6hf5RJqdIRhuo7vC985UA05_YXEweU0Fh_WAbA=",
+              "direct_url": "https://es.tradingview.com/news/cointelegraph:3156d0871094b:0-home-miners-may-benefit-from-nicehash-marathon-digital-collaboration/",
+              "start_index": 3984,
+              "end_index": 4094,
+              "text": "*   **NiceHash Firmware (Powered by MARA):** An impressive collaboration between NiceHash and Marathon Digital"
+            },
+            {
+              "title": "nicehash.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMaktjaOOzifyu2BHe_emhBINgy25GoN36UlKHMzLGXZfX-yoXKniMzUW-AhmAOw89s81pzfa4sxzLwm0fFYXdZA-CGLLJNTFFExZBAJv1B5QyAyelubmaQEtmhAFT2qCQcO3eFYO-vbQmCRopm7NT2y2t3U-pd8XB3w==",
+              "direct_url": "https://www.nicehash.com/blog/post/nicehash-firmware-powered-by-mara",
+              "start_index": 4096,
+              "end_index": 4176,
+              "text": "It carries a low **2.0% fee** (reduced to **1.4%** if you mine to NiceHash Pool)"
+            },
+            {
+              "title": "nicehash.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGo0G4axMR5ewHXC04rJfsP_CHHwhYf_QRhfPwfScFQqzIgnUYIO2kd01tDtZADFASGDUAavpETjmVvN5Y3RSdiJFfRxnFkuw6JXEbeBJk8j04M1jtqGS4eg5KjcLMe4mFHuH7LluQ7hyzBioQHitonizLd-VeoQqeDVkPquczbClvdHOgNqpdtkwkxZCF49PcFqrh8Ty2",
+              "direct_url": "https://www.nicehash.com/support/mining-help/nicehash-firmware/nicehash-firmware-feature-overview",
+              "start_index": 4178,
+              "end_index": 4266,
+              "text": "It is highly regarded for its \"Intelligent Thermal Protection\" and automated sleep modes"
+            },
+            {
+              "title": "nicehash.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMaktjaOOzifyu2BHe_emhBINgy25GoN36UlKHMzLGXZfX-yoXKniMzUW-AhmAOw89s81pzfa4sxzLwm0fFYXdZA-CGLLJNTFFExZBAJv1B5QyAyelubmaQEtmhAFT2qCQcO3eFYO-vbQmCRopm7NT2y2t3U-pd8XB3w==",
+              "direct_url": "https://www.nicehash.com/blog/post/nicehash-firmware-powered-by-mara",
+              "start_index": 4178,
+              "end_index": 4371,
+              "text": "It is highly regarded for its \"Intelligent Thermal Protection\" and automated sleep modes, making it a robust alternative for retail users who want to leverage Marathon's enterprise-level tuning"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPlk2ztpa740CHc9EXTwuINk1kRX_tVAkvN06n-qicqfMznxKzkbBjGpBrfd85J0eF_Vp5Rh74o26jCqhsy8Z2tas846NfM6Dtpcxtrf7VcmUSTxoENHvjm3KV_2HCxmiZE4Rlz7doxd9d_i1EvnS_2OeoKk6Ava0z",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 4373,
+              "end_index": 4453,
+              "text": "*   **ePIC (Universal Mining Controller):** Offers an alternative economic route"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPlk2ztpa740CHc9EXTwuINk1kRX_tVAkvN06n-qicqfMznxKzkbBjGpBrfd85J0eF_Vp5Rh74o26jCqhsy8Z2tas846NfM6Dtpcxtrf7VcmUSTxoENHvjm3KV_2HCxmiZE4Rlz7doxd9d_i1EvnS_2OeoKk6Ava0z",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 4455,
+              "end_index": 4559,
+              "text": "Instead of a recurring dev fee, they sell physical control boards loaded with their proprietary firmware"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPlk2ztpa740CHc9EXTwuINk1kRX_tVAkvN06n-qicqfMznxKzkbBjGpBrfd85J0eF_Vp5Rh74o26jCqhsy8Z2tas846NfM6Dtpcxtrf7VcmUSTxoENHvjm3KV_2HCxmiZE4Rlz7doxd9d_i1EvnS_2OeoKk6Ava0z",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 4561,
+              "end_index": 4681,
+              "text": "This means 0% ongoing fees, making it an excellent long-term option for large fleets wanting predictable cost structures"
+            },
+            {
+              "title": "blockeden.xyz",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRGgbgf9xUzXnaETCiiwwUo7ZdfYo-8sh8QKwCm1CCY0KWAsy6-IwqlEWSy8IIc-trxUIGUpNvHWRl4jt_Mg1c4Kzl5Uk8WmekbhHvvwnu_xpBq0WSyXzE4a358u85Kaw3rBmWxoBO0M9gWXJAN09aYwmpVxrh_2JRy7E0maWou5s5l1MnXNokwkqhWnbbOlC-34Bqhbms",
+              "direct_url": "https://blockeden.xyz/blog/2026/05/20/tether-mininigos-open-source-bitcoin-mining-infrastructure/",
+              "start_index": 4683,
+              "end_index": 4777,
+              "text": "*   **Tether's MiningOS:** A fully open-source firmware introduced by stablecoin issuer Tether"
+            },
+            {
+              "title": "blockeden.xyz",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRGgbgf9xUzXnaETCiiwwUo7ZdfYo-8sh8QKwCm1CCY0KWAsy6-IwqlEWSy8IIc-trxUIGUpNvHWRl4jt_Mg1c4Kzl5Uk8WmekbhHvvwnu_xpBq0WSyXzE4a358u85Kaw3rBmWxoBO0M9gWXJAN09aYwmpVxrh_2JRy7E0maWou5s5l1MnXNokwkqhWnbbOlC-34Bqhbms",
+              "direct_url": "https://blockeden.xyz/blog/2026/05/20/tether-mininigos-open-source-bitcoin-mining-infrastructure/",
+              "start_index": 4779,
+              "end_index": 4828,
+              "text": "It eliminates the typical developer fees entirely"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 4830,
+              "end_index": 4951,
+              "text": "While still maturing in community adoption, it is a project to watch for miners seeking zero-fee, sovereign mining setups"
+            },
+            {
+              "title": "blockeden.xyz",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRGgbgf9xUzXnaETCiiwwUo7ZdfYo-8sh8QKwCm1CCY0KWAsy6-IwqlEWSy8IIc-trxUIGUpNvHWRl4jt_Mg1c4Kzl5Uk8WmekbhHvvwnu_xpBq0WSyXzE4a358u85Kaw3rBmWxoBO0M9gWXJAN09aYwmpVxrh_2JRy7E0maWou5s5l1MnXNokwkqhWnbbOlC-34Bqhbms",
+              "direct_url": "https://blockeden.xyz/blog/2026/05/20/tether-mininigos-open-source-bitcoin-mining-infrastructure/",
+              "start_index": 4830,
+              "end_index": 4951,
+              "text": "While still maturing in community adoption, it is a project to watch for miners seeking zero-fee, sovereign mining setups"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 5025,
+              "end_index": 5215,
+              "text": "|\n| :--- | :--- | :--- |\n| **The \"Set-it-and-Forget-it\" Home Miner** | **Braiins OS+** | Best user experience, native Stratum V2 security, and effectively 0% fees if paired with Braiins Pool"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI9Zts46WRwgBdvMo7G5rln0TWS6RCS2FYgjdDD_xRJh04m8qL9jSPdTpMgkxmanknOxfSvOzwqcD4bXGxvk5isN3rgp1i2WF_Ty6lenuIbp7PysqUWZVASznLjwH-YWSndk0-H58EgqQW5Ao1zoLEvvNgzWd9dOnQZma1bfag7QxP5R19iw6j1XTCaPUpFJHy4Q==",
+              "direct_url": "https://d-central.tech/braiinsos-unlocking-the-power-of-advanced-autotuning-for-asic-miners/",
+              "start_index": 5025,
+              "end_index": 5215,
+              "text": "|\n| :--- | :--- | :--- |\n| **The \"Set-it-and-Forget-it\" Home Miner** | **Braiins OS+** | Best user experience, native Stratum V2 security, and effectively 0% fees if paired with Braiins Pool"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUx2yCjXCa8pMcJdvaCaQqoRMPl6DGDEcF4Vyd-6Sy9jBXKMPtP1YqGV_LS9VDay88prYwGRztLENRMhhYVhhWcCAKQnMnmb7dxYKyUEibFaI20j6YGxKLeVKgYK6TUaqQDuTxs4wa3DmFP-yTk28A9Ts2zC6syyY3",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 5217,
+              "end_index": 5367,
+              "text": "|\n| **The Immersion / Maximum Performance Tuner** | **VNish** | Unlocks the highest overclock profiles and works flawlessly with complex/legacy boards"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 5217,
+              "end_index": 5367,
+              "text": "|\n| **The Immersion / Maximum Performance Tuner** | **VNish** | Unlocks the highest overclock profiles and works flawlessly with complex/legacy boards"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 5369,
+              "end_index": 5514,
+              "text": "|\n| **The Grid-Flexible Industrial Farm** | **LuxOS** | Best-in-class API, ultra-fast curtailment response, and deep Luxor/Whatsminer integration"
+            },
+            {
+              "title": "bitcoin.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEwIpsfg8GCqnpwaPb4FyVHdnT2Dy-W4Cpc5desg8Z-gA0EwiBgNrS6lhF8EuYJq7tgocJCvoC3JU7pM7CttWc5tuxr_I5SsaqyOj_MLJLKu4JSyrsyiTPIrVvoItJSD24CGrfSc_SZiwLar1nC4rpL8jYzV4TCBlVIo67C1oYOQ8cMrLWsw1m7c0VIePzreOEdvl-LnRAv2XPwUU=",
+              "direct_url": "https://news.bitcoin.com/luxor-signs-microbt-hardware-commitment-worth-100m-alongside-firmware-launch/",
+              "start_index": 5369,
+              "end_index": 5514,
+              "text": "|\n| **The Grid-Flexible Industrial Farm** | **LuxOS** | Best-in-class API, ultra-fast curtailment response, and deep Luxor/Whatsminer integration"
+            },
+            {
+              "title": "hashrateindex.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPlk2ztpa740CHc9EXTwuINk1kRX_tVAkvN06n-qicqfMznxKzkbBjGpBrfd85J0eF_Vp5Rh74o26jCqhsy8Z2tas846NfM6Dtpcxtrf7VcmUSTxoENHvjm3KV_2HCxmiZE4Rlz7doxd9d_i1EvnS_2OeoKk6Ava0z",
+              "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "start_index": 5369,
+              "end_index": 5514,
+              "text": "|\n| **The Grid-Flexible Industrial Farm** | **LuxOS** | Best-in-class API, ultra-fast curtailment response, and deep Luxor/Whatsminer integration"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYpV_euCDY9nxFUxpajSozNSWlb6JZH470kvRW0yfmvk5eodnbBS19H7CYS6zMdT9ZS6v6kM-bXxgrtqyA9S19WLSimNzed55AKg7uzSSnvAzNSz4uQH9vGttH1cwgQ9VnsOVQR3RdFngkuAHUgrQKnY9g7UQB2ZRxDzSruXzYP4n8Q1GI2GRYTfaspJv4Ak5z1ChM",
+              "direct_url": "https://d-central.tech/nicehash-and-marathon-digital-unveil-promising-bitcoin-mining-firmware/",
+              "start_index": 5516,
+              "end_index": 5655,
+              "text": "|\n| **The 120V Household Outlet Miner** | **LuxOS** | The unique 110V/120V PSU bypass mode is a savior for running big miners on home power"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 5516,
+              "end_index": 5655,
+              "text": "|\n| **The 120V Household Outlet Miner** | **LuxOS** | The unique 110V/120V PSU bypass mode is a savior for running big miners on home power"
+            },
+            {
+              "title": "nicehash.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMaktjaOOzifyu2BHe_emhBINgy25GoN36UlKHMzLGXZfX-yoXKniMzUW-AhmAOw89s81pzfa4sxzLwm0fFYXdZA-CGLLJNTFFExZBAJv1B5QyAyelubmaQEtmhAFT2qCQcO3eFYO-vbQmCRopm7NT2y2t3U-pd8XB3w==",
+              "direct_url": "https://www.nicehash.com/blog/post/nicehash-firmware-powered-by-mara",
+              "start_index": 5657,
+              "end_index": 5793,
+              "text": "|\n| **The Profitability Optimizer on a Budget** | **NiceHash (MARA)** | Very low 1.4% fee option with top-tier Marathon auto-tuning tech"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNdfXQTAzrv5ai6_8oDn9cmLNVVMWxlTb5Z1bvS4nq2T9ufBV7E2kzdzodU7ItPEVb9HDDrKm6IFIZ2bLbycTR63e5sQuTuTqXEmyqlB0-BJQBnMsrShRJLCESLSPPmhZzgVq6ujdFBVEPE3zq6BNi",
+              "direct_url": "https://millionminer.com/news/best-bitcoin-mining-software",
+              "start_index": 5798,
+              "end_index": 5912,
+              "text": "**A crucial final note:** Flashing third-party firmware almost always **voids your Bitmain manufacturer warranty**"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKS1bnVkAkjcpPWQmV-lH-H5-T34ze5cNf6QCUhpdfRd5ZDrlxrCEV5qh69eXwZpeArcoySNS9hCW1xPjQaWUaT27eaEhkgtm4MN_PAvMnh27naC2mThC2G42XKsfodidaNNqpq_JjA8ljJA-FKCto3MgNvOrxSPg=",
+              "direct_url": "https://millionminer.com/news/install-braiins-os-antminer-s21-2026",
+              "start_index": 5798,
+              "end_index": 5912,
+              "text": "**A crucial final note:** Flashing third-party firmware almost always **voids your Bitmain manufacturer warranty**"
+            },
+            {
+              "title": "millionminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKS1bnVkAkjcpPWQmV-lH-H5-T34ze5cNf6QCUhpdfRd5ZDrlxrCEV5qh69eXwZpeArcoySNS9hCW1xPjQaWUaT27eaEhkgtm4MN_PAvMnh27naC2mThC2G42XKsfodidaNNqpq_JjA8ljJA-FKCto3MgNvOrxSPg=",
+              "direct_url": "https://millionminer.com/news/install-braiins-os-antminer-s21-2026",
+              "start_index": 5914,
+              "end_index": 6149,
+              "text": "If you have a brand-new, top-tier ASIC (like an S21 XP), it is generally recommended to run the stock firmware until your warranty period expires, and *then* flash custom firmware to breathe a 15–25% efficiency boost into the machine"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHbt3OJIlhYmstRuknIOts0LiUApVdLpKG-2N1_tRz2SmLX6e_81choNb8d_l7Qr2d6dKHzxwwaEFxk3ZhiSwmjjD9wpQk4AWDGUTQ-uTDEG9NqgLXE68TECFuF74MSWYTmIhAlU5wWF0OMSM=",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 5914,
+              "end_index": 6149,
+              "text": "If you have a brand-new, top-tier ASIC (like an S21 XP), it is generally recommended to run the stock firmware until your warranty period expires, and *then* flash custom firmware to breathe a 15–25% efficiency boost into the machine"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

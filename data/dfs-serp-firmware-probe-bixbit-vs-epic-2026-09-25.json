@@ -1,0 +1,84 @@
+{
+ "_note": "Compact snapshot transcribed from inline DataForSEO MCP response (response was small, no tool-results file produced). US 2840 / en. Pulled 2026-09-25. Live SERP /v3/serp/google/organic/live/regular, depth 30. rank_group = organic position.",
+ "antminer custom firmware": {
+  "vol": 10,
+  "bixbit": [
+   5,
+   "/en/firmwares/antminer"
+  ],
+  "bixbit_2": [
+   26,
+   "/en/firmwares"
+  ],
+  "epic": [
+   7,
+   "/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/"
+  ],
+  "top": [
+   "reddit",
+   "braiins.com",
+   "d-central.tech",
+   "awesomeminer.com"
+  ]
+ },
+ "antminer firmware": {
+  "vol": 50,
+  "bixbit": null,
+  "epic": null,
+  "note": "Labs DB says BiXBiT pos 15 (/en/firmwares/antminer); live SERP top-25 has neither domain; forum/YouTube-dominated"
+ },
+ "whatsminer custom firmware": {
+  "vol": 10,
+  "bixbit": [
+   2,
+   "/en/firmwares"
+  ],
+  "bixbit_2": [
+   6,
+   "/en/firmwares/whatsminer-series-m3x"
+  ],
+  "bixbit_3": [
+   16,
+   "/en/firmwares/whatsminer-series-m6x"
+  ],
+  "bixbitusa.io": 9,
+  "epic": null
+ },
+ "best asic firmware": {
+  "vol": null,
+  "bixbit": [
+   18,
+   "/en/firmwares"
+  ],
+  "epic": null,
+  "top": [
+   "nicehash.com",
+   "reddit",
+   "braiins.com",
+   "hashrateindex.com (Top 5 firmware 2026)"
+  ]
+ },
+ "firmware dev fee": {
+  "vol": null,
+  "status": "40106 partial results (page 1 only)",
+  "epic": [
+   4,
+   "/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets/"
+  ],
+  "bixbit": null,
+  "top": [
+   "reddit",
+   "d-central.tech zero dev-fee guide",
+   "bitcointalk"
+  ]
+ },
+ "autotuning firmware antminer": {
+  "status": "40101 Internal SE Server Error"
+ },
+ "antminer autotuning": {
+  "status": "40101 Internal SE Server Error (retry)"
+ },
+ "mining firmware dev fee": {
+  "status": "40101 Internal SE Server Error"
+ }
+}

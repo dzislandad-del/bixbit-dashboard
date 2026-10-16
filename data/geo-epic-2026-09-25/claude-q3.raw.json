@@ -1,0 +1,402 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "46.1497 sec.",
+ "cost": 0.108931,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09251235-2548-0612-0000-f16b242b2723",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "46.1075 sec.",
+   "cost": 0.108931,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "ai_optimization",
+    "claude",
+    "llm_responses",
+    "live"
+   ],
+   "data": {
+    "api": "ai_optimization",
+    "function": "llm_responses",
+    "se": "claude",
+    "user_prompt": "Which Antminer firmware has the best autotuning for efficiency (J/TH)? Compare vendors.",
+    "model_name": "claude-sonnet-4-6",
+    "web_search": true,
+    "web_search_country_iso_code": "US",
+    "max_output_tokens": 2000,
+    "tag": "q3"
+   },
+   "result": [
+    {
+     "model_name": "claude-sonnet-4-6",
+     "input_tokens": 21762,
+     "output_tokens": 2203,
+     "reasoning_tokens": 0,
+     "web_search": true,
+     "money_spent": 0.108331,
+     "datetime": "2026-09-25 12:36:20 +00:00",
+     "items": [
+      {
+       "type": "message",
+       "sections": [
+        {
+         "type": "text",
+         "text": "Here is a comprehensive comparison of the major third-party Antminer firmware vendors and their autotuning capabilities for efficiency (J/TH):\n\n---\n\n## ⚡ Antminer Firmware Autotuning Comparison (2026)\n\n### Why Third-Party Firmware Matters\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "The firmware running on your ASIC miner controls everything — autotuning algorithms, power efficiency, thermal management, monitoring dashboards, and ultimately your profitability per kilowatt-hour.",
+         "annotations": [
+          {
+           "title": "Antminer Firmware Guide 2026: Braiins, Vnish & LuxOS",
+           "url": "https://d-central.tech/antminer-firmware-compatibility-matrix/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": " ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Yet most miners run stock Bitmain firmware by default, leaving significant hashrate and efficiency gains on the table.",
+         "annotations": [
+          {
+           "title": "Antminer Firmware Guide 2026: Braiins, Vnish & LuxOS",
+           "url": "https://d-central.tech/antminer-firmware-compatibility-matrix/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Custom firmware uses autotuning algorithms that select individual parameters for each of the hundreds of chips on a hashboard, whereas factory software often sets a single uniform voltage for the entire board.",
+         "annotations": [
+          {
+           "title": "ASIC Firmware & Overclocking Guide: Boost Hashrate & Efficiency",
+           "url": "https://academy.exmon.pro/asic-firmware-overclocking-guide-boost-hashrate-efficiency",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n---\n\n### 🏭 Stock Bitmain Firmware\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Stock Bitmain firmware ships with conservative power profiles and limited configurability. Third-party firmware unlocks capabilities that directly affect your bottom line: autotuning — automatically finding the optimal voltage and frequency for each individual ASIC chip on every hashboard.",
+         "annotations": [
+          {
+           "title": "Antminer Firmware Guide 2026: Braiins, Vnish & LuxOS",
+           "url": "https://d-central.tech/antminer-firmware-compatibility-matrix/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n- **Verdict for J/TH:** Worst of all options. No per-chip tuning, no power targeting.\n\n---\n\n### 🥇 Braiins OS+ — Best Overall for Efficiency (J/TH)\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Braiins OS+ (the \"+\" denotes the commercial version with autotuning) is the world's first open-source Bitcoin mining firmware. Its autotuning engine is arguably the most sophisticated of the three, and its open-source foundation means the code has been scrutinized by the mining community for years.",
+         "annotations": [
+          {
+           "title": "Antminer S19 Firmware Guide 2026: VNish vs Braiins OS+ vs LuxOS",
+           "url": "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Its advanced autotuning engine sets a power target (in watts) and the firmware continuously adjusts per-domain voltage and per-chip frequency to hit that target while maximizing hashrate. This is a set-it-and-forget-it approach that works exceptionally well for efficiency-focused operations.",
+         "annotations": [
+          {
+           "title": "Antminer S19 Firmware Guide 2026: VNish vs Braiins OS+ vs LuxOS",
+           "url": "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Real-world efficiency gains:**\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "An Antminer S19 on factory firmware consumes about 34.5 J/TH. With Braiins OS+, you can achieve 28–29 J/TH.",
+         "annotations": [
+          {
+           "title": "ASIC Firmware & Overclocking Guide: Boost Hashrate & Efficiency",
+           "url": "https://academy.exmon.pro/asic-firmware-overclocking-guide-boost-hashrate-efficiency",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Some S19 Pro units achieve 26–27 J/TH — well below the stock 29.5 J/TH spec.",
+         "annotations": [
+          {
+           "title": "Antminer S19 Power Efficiency: Tips for Cost-Effective Bitcoin Mining - D-Central",
+           "url": "https://d-central.tech/antminer-s19-power-efficiency-tips-for-cost-effective-bitcoin-mining/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Undervolting to ~70 J/TH with Braiins OS+ on an S9 dramatically reduces the \"cost of heating\" when used as a space heater.",
+         "annotations": [
+          {
+           "title": "The Complete Antminer Undervolting Guide: Reduce Power, Lower Heat, Maximize Efficiency - D-Central",
+           "url": "https://d-central.tech/the-complete-antminer-undervolting-guide-reduce-power-lower-heat-maximize-efficiency/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Key features:** Power-target-based autotuning, Stratum V2 support, open-source codebase, broad model compatibility.\n\n- **Verdict for J/TH:** 🏆 **Best** for efficiency-focused mining. The power-targeting model is the most elegant approach for minimizing J/TH.\n\n---\n\n### 🥈 VNish — Best for Raw Performance / Overclock Ceiling\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "VNish has the longest track record in the Antminer custom firmware space and remains the go-to choice for miners who want maximum control over their hardware tuning.",
+         "annotations": [
+          {
+           "title": "Antminer S19 Firmware Guide 2026: VNish vs Braiins OS+ vs LuxOS",
+           "url": "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "VNish is the most widely deployed third-party ASIC firmware globally, recognized by the Cambridge Centre for Alternative Finance in its 2025 research as the most influential firmware project in the ASIC ecosystem.",
+         "annotations": [
+          {
+           "title": "Custom Firmware for Antminer S19: The Complete Guide to Unlocking Your Miner - D-Central",
+           "url": "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Autotuning approach:**\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Per-chip autotuning analyzes each chip's silicon quality and sets individual per-chip frequency profiles (voltage is set per domain). Higher-quality chips get pushed harder while weaker chips are dialed back for stability.",
+         "annotations": [
+          {
+           "title": "Antminer S19 Firmware Guide 2026: VNish vs Braiins OS+ vs LuxOS",
+           "url": "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "When one chip overheats, VNish redistributes its workload to cooler chips on the same board — maintaining total hashrate without shutting down any chip entirely (chip throttling, patented).",
+         "annotations": [
+          {
+           "title": "Custom Firmware for Antminer S19: The Complete Guide to Unlocking Your Miner - D-Central",
+           "url": "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Real-world performance:**\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "VNish is known for achieving the highest overclock ceilings of the three options. On an S19 Pro, miners routinely hit 130–140 TH/s (up from 110 TH/s stock) with appropriate cooling.",
+         "annotations": [
+          {
+           "title": "Antminer S19 Firmware Guide 2026: VNish vs Braiins OS+ vs LuxOS",
+           "url": "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "It can also reduce power to the 2,000–2,700W range while maintaining competitive J/TH ratios.",
+         "annotations": [
+          {
+           "title": "Antminer S19 Firmware Guide 2026: VNish vs Braiins OS+ vs LuxOS",
+           "url": "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Caveat:** ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "VNish cannot be installed directly on units running Bitmain stock firmware dated March–November 2024 or September 2025 onward due to Bitmain's anti-reflash protections. You will need an SD card recovery flash to bypass this.",
+         "annotations": [
+          {
+           "title": "Antminer S19 Firmware Guide 2026: VNish vs Braiins OS+ vs LuxOS",
+           "url": "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n- **Verdict for J/TH:** 🥈 Excellent efficiency, especially in undervolting mode, but tuned more toward performance than pure J/TH minimization.\n\n---\n\n### 🥉 LuxOS — Best for Newer Models (S19 XP, S21)\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Setup process is similar to Braiins: install the firmware, set a wattage target, and let the autotuner calibrate. LuxOS supports power targeting for S19 XP, S19j XP, S21 series (air-cooled and hydro), and T21 models.",
+         "annotations": [
+          {
+           "title": "The Complete Antminer Undervolting Guide: Reduce Power, Lower Heat, Maximize Efficiency - D-Central",
+           "url": "https://d-central.tech/the-complete-antminer-undervolting-guide-reduce-power-lower-heat-maximize-efficiency/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\nLuxOS (by Luxor Mining) is purpose-built for newer-generation Antminers and uses a power-targeting approach similar to Braiins OS+. It is a strong choice for S21-class hardware where Braiins or VNish support may be more limited.\n\n- **Verdict for J/TH:** 🥉 Strong for newer models. Less broad compatibility than VNish or Braiins, but a top-tier option for S21/T21 hardware.\n\n---\n\n### 📊 Summary Table\n\n| Firmware | Autotuning Style | Best Use Case | J/TH Gain vs. Stock | Model Coverage |\n|---|---|---|---|---|\n| **Braiins OS+** | Power-target + per-chip freq/voltage | Efficiency-first mining | ~15–20% | S9, S17, S19, S19 Pro, S19 XP |\n| **VNish** | Per-chip freq + per-domain voltage | Max hashrate + OC | ~10–15% | Broadest (S9 through S19 XP) |\n| **LuxOS** | Power-target (similar to Braiins) | Newer gens (S19 XP, S21, T21) | ~10–15% | S19 XP, S21, T21 |\n| **Stock Bitmain** | Fixed, one-size-fits-all | Warranty compliance only | Baseline | All Antminers |\n\n---\n\n### 🔑 Key Takeaways\n\n1. **For best J/TH efficiency → Braiins OS+** is the consensus winner, with the most sophisticated power-targeting autotuner.\n2. **For maximum hashrate (OC) with decent efficiency → VNish** is the top pick.\n3. **For S21/T21 generation miners → LuxOS** is a strong and sometimes better-supported option.\n4. ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "On efficiency, the honest numbers are narrower than the marketing. Autotuning against stock is generally worth somewhere around 5 to 15 percent in joules per terahash.",
+         "annotations": [
+          {
+           "title": "Antminer Firmware Downloads | Vnish Partner, USA",
+           "url": "https://antminer-repair.com/pages/firmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n5. ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "It is worth setting the target per machine and measuring, not copying a preset from a forum.",
+         "annotations": [
+          {
+           "title": "Antminer Firmware Downloads | Vnish Partner, USA",
+           "url": "https://antminer-repair.com/pages/firmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "fan_out_queries": [
+      "Antminer third party firmware autotuning efficiency J/TH comparison 2025",
+      "Antminer firmware Braiins OS VNish LuxOS autotuning efficiency comparison",
+      "LuxOS autotuning efficiency vs Braiins VNish Antminer 2025 2026"
+     ]
+    }
+   ]
+  }
+ ]
+}

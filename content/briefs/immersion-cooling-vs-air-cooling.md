@@ -3,7 +3,8 @@
 **Cluster:** immersion-cooling-mining
 **Brief type:** Spoke — informational/comparison
 **Created:** 2026-06-19
-**Priority:** P1
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. Volume n/d for every keyword.
+**Target (architecture v2, 2026-09-25):** `/en/asics-cooling/immersion-systems` (existing page), H2 Immersion vs air (short version also on /en/asics-cooling), section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 
 ---
 
@@ -22,13 +23,15 @@ Top-of-funnel entry for operators and engineers researching whether immersion co
 
 ## Target Keywords
 
-| Type | Keyword | Volume |
-|---|---|---|
-| Primary | `immersion cooling vs air cooling mining` | N/A |
-| Secondary | `immersion cooling vs air cooling Bitcoin` | N/A |
-| Secondary | `immersion cooling benefits mining` | N/A |
-| Secondary | `air cooled vs liquid cooled ASIC miner` | N/A |
-| Long-tail | `is immersion cooling worth it for mining` | N/A |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Type | Keyword | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Primary | `immersion cooling vs air cooling mining` | n/d (<10) | — | — |
+| Secondary | `immersion cooling vs air cooling Bitcoin` | n/d (<10) | — | — |
+| Secondary | `immersion cooling benefits mining` | n/d (<10) | — | — |
+| Secondary | `air cooled vs liquid cooled ASIC miner` | n/d (<10) | — | — |
+| Long-tail | `is immersion cooling worth it for mining` | n/d (<10) | — | — |
 
 ---
 

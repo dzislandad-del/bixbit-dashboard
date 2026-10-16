@@ -11,7 +11,29 @@
       "Bash(git diff:*)",
       "Bash(git status:*)",
       "Bash(git log:*)",
-      "Bash(npx:*)"
+      "Bash(npx:*)",
+      "Bash(./scripts/check-connectors.sh*)",
+      "Bash(./scripts/gsc-query.py*)",
+      "Bash(./scripts/ga4-query.py*)",
+      "Bash(./scripts/bing-query.py*)",
+      "Bash(./scripts/page-snapshot.py*)",
+      "Bash(./scripts/crawl.py*)",
+      "Bash(./scripts/index-check.py*)",
+      "Bash(./scripts/cannibalization.py*)",
+      "Bash(./scripts/hreflang-check.py*)"
+    ],
+    "ask": [
+      "Bash(./scripts/serp-rank.py*)",
+      "Bash(./scripts/serp-features.py*)",
+      "Bash(./scripts/backlinks-monitor.py*)",
+      "Bash(./scripts/index-submit.py*)",
+      "Bash(./scripts/run-command.py rank*)",
+      "Bash(./scripts/run-command.py serp-features*)",
+      "Bash(./scripts/run-command.py backlinks*)",
+      "Bash(./scripts/run-command.py reindex *)",
+      "Bash(./scripts/run-command.py alerts *)",
+      "Bash(./scripts/run-command.py alerts-digest*)",
+      "Bash(./scripts/run-command.py alerts)"
     ],
     "deny": [
       "Read(.env)",

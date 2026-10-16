@@ -1,0 +1,5586 @@
+{
+ "meta": {
+  "pulled_at": "2026-09-28",
+  "source": "DataForSEO Labs keyword_suggestions/live (limit 100, sv>0, order sv desc) + keywords_data/google_trends/explore/live (past_5_years, web)",
+  "note": "Google Ads volumes: 10 ≈ 0–15/mo; n/d not returned (filter sv>0). Labs does not support Russia; RU demand proxied by Kazakhstan (2398, ru). Trends: Russia 40501, used Kazakhstan.",
+  "cost_usd_estimate": "8 Labs tasks × ~($0.01 + $0.0001×items) ≈ $0.12; 2 Trends tasks + 1 failed (40501, not billed) ≈ $0.02–0.05 [VERIFY in DataForSEO billing]"
+ },
+ "suggestions": {
+  "whatsminer | US/en": {
+   "total_count": 381,
+   "items": [
+    {
+     "kw": "whatsminer",
+     "sv": 590,
+     "cpc": 1.07,
+     "kd": 2,
+     "intent": "informational",
+     "trend_y": -64,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "microbt whatsminer m79s",
+     "sv": 170,
+     "cpc": 1.22,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "whatsminer m60s",
+     "sv": 110,
+     "cpc": 0.8,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -81,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "whatsminer m30s",
+     "sv": 90,
+     "cpc": 0.95,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "whatsminer m50s",
+     "sv": 70,
+     "cpc": 0.81,
+     "kd": 1,
+     "intent": "informational",
+     "trend_y": -91,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "microbt whatsminer",
+     "sv": 70,
+     "cpc": 2.79,
+     "kd": 14,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "whatsminer m79s",
+     "sv": 70,
+     "cpc": 1.49,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "whatsminer m50",
+     "sv": 70,
+     "cpc": 1.32,
+     "kd": 3,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "whatsminer m61",
+     "sv": 50,
+     "cpc": 0.47,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -60,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "whatsminer m70",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 100,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "whatsminer tool",
+     "sv": 50,
+     "cpc": null,
+     "kd": 1,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "whatsminer m60",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "whatsminer tools",
+     "sv": 50,
+     "cpc": null,
+     "kd": 11,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "whatsminer m20s",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -80,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "whatsminer m63s",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -80,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "whatsminer m66s",
+     "sv": 30,
+     "cpc": 0.61,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -60,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "whatsminer m64",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -80,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "m50 whatsminer",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "microbt whatsminer m60s",
+     "sv": 30,
+     "cpc": 1.25,
+     "kd": 2,
+     "intent": "informational",
+     "trend_y": -75,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "whatsminer m3 control board",
+     "sv": 30,
+     "cpc": 2.34,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 50,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "microbt whatsminer m50s",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -86,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "whatsminer warranty check",
+     "sv": 20,
+     "cpc": null,
+     "kd": 26,
+     "intent": "informational",
+     "trend_y": -33,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "whatsminer m31s",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "whatsminer firmware",
+     "sv": 20,
+     "cpc": 32.03,
+     "kd": 4,
+     "intent": "informational",
+     "trend_y": -75,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "whatsminer m30",
+     "sv": 20,
+     "cpc": 1.05,
+     "kd": 18,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "whatsminer m63",
+     "sv": 20,
+     "cpc": 0.42,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "whatsminer m30s 88th s",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "pangolin whatsminer m3x",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "whatsminer m20s power consumption",
+     "sv": 10,
+     "cpc": null,
+     "kd": 45,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "whatsminer m30s 90th",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "whatsminer m60s profitability",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "whatsminer m31s for sale",
+     "sv": 10,
+     "cpc": null,
+     "kd": 50,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "whatsminer official site",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": -100,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "firmware whatsminer",
+     "sv": 10,
+     "cpc": null,
+     "kd": 4,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "whatsminer setup",
+     "sv": 10,
+     "cpc": null,
+     "kd": 52,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "microbt whatsminer m63 price",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "whatsminer m3 v1",
+     "sv": 10,
+     "cpc": null,
+     "kd": 45,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "whatsminer m21s firmware",
+     "sv": 10,
+     "cpc": null,
+     "kd": 42,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "microbt whatsminer m79s for sale",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "whatsminer m21s 58",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "whatsminer m60 price",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "whatsminer m3 power supply",
+     "sv": 10,
+     "cpc": null,
+     "kd": 48,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "m30 whatsminer",
+     "sv": 10,
+     "cpc": null,
+     "kd": 18,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "whatsminer m50 120th",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "microbt whatsminer m20s 68t",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "whatsminer m3x v2",
+     "sv": 10,
+     "cpc": null,
+     "kd": 48,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "whatsminer m21s power supply",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "whatsminer shop",
+     "sv": 10,
+     "cpc": null,
+     "kd": 53,
+     "intent": "navigational",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "whatsminer m32 firmware",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "whatsminer m50 110th",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "whatsminer m50 profitability",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "whatsminer m50s profitability",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "whatsminer official website",
+     "sv": 10,
+     "cpc": null,
+     "kd": 24,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "whatsminer psu",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "whatsminer tools for android",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "whatsminer m21s 58t",
+     "sv": 10,
+     "cpc": null,
+     "kd": 47,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "whatsminer m56s price",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "microbt whatsminer m21s 56t",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "whatsminer m21s",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "whatsminer m53 hydro",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "whatsminer water cooling",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "whatsminer m20s setup",
+     "sv": 10,
+     "cpc": null,
+     "kd": 54,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "whatsminer m30s specs",
+     "sv": 10,
+     "cpc": null,
+     "kd": 18,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "ip reporter whatsminer",
+     "sv": 10,
+     "cpc": null,
+     "kd": 55,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "whatsminer logo",
+     "sv": 10,
+     "cpc": null,
+     "kd": 70,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "microbt whatsminer m21",
+     "sv": 10,
+     "cpc": null,
+     "kd": 18,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "whatsminer m32 specs",
+     "sv": 10,
+     "cpc": null,
+     "kd": 40,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "whatsminer m30s 88th profitability",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "whatsminer m32 64th",
+     "sv": 10,
+     "cpc": null,
+     "kd": 47,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "m32s whatsminer",
+     "sv": 10,
+     "cpc": null,
+     "kd": 22,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "whatsminer m21s 58th profitability",
+     "sv": 10,
+     "cpc": null,
+     "kd": 47,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "whatsminer overclock",
+     "sv": 10,
+     "cpc": null,
+     "kd": 48,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "microbt whatsminer m53",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "whatsminer repair guide",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "whatsminer que es",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "whatsminer m53s hydro",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "whatsminer m30s price in india",
+     "sv": 10,
+     "cpc": null,
+     "kd": 47,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "m61 whatsminer",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "whatsminer m63 hydro profitability",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "microbt whatsminer m66",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "slot loss balance whatsminer",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "antminer vs whatsminer",
+     "sv": 10,
+     "cpc": null,
+     "kd": 21,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "whatsminer m21s price",
+     "sv": 10,
+     "cpc": null,
+     "kd": 27,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "whatsminer 100th",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "whatsminer m20s overclock",
+     "sv": 10,
+     "cpc": null,
+     "kd": 48,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "whatsminer m3 low power firmware",
+     "sv": 10,
+     "cpc": null,
+     "kd": 42,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "whatsminer m60 profitability",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "whatsminer m20s firmware download",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "whatsminer m63 price",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "whatsminer series from microbt",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "whatsminer s20",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "whatsminer m63 hydro",
+     "sv": 10,
+     "cpc": 0.55,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "microbt whatsminer m31s price",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "whatsminer m50s price",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -50,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "whatsminer m50 price",
+     "sv": 10,
+     "cpc": 0.68,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "whatsminer m30s price",
+     "sv": 10,
+     "cpc": null,
+     "kd": 28,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "whatsminer tools app",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "whatsminer m32 66th",
+     "sv": 10,
+     "cpc": null,
+     "kd": 47,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "m56s whatsminer",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "microbt whatsminer m63",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-06"
+    }
+   ]
+  },
+  "immersion cooling | US/en": {
+   "total_count": 260,
+   "items": [
+    {
+     "kw": "server immersion cooling",
+     "sv": 1600,
+     "cpc": 3.93,
+     "kd": 21,
+     "intent": "informational",
+     "trend_y": -45,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "immersion cooling",
+     "sv": 1600,
+     "cpc": 3.93,
+     "kd": 21,
+     "intent": "informational",
+     "trend_y": -45,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "data center immersion cooling",
+     "sv": 590,
+     "cpc": 11.23,
+     "kd": 25,
+     "intent": "navigational",
+     "trend_y": -19,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling in data centers",
+     "sv": 590,
+     "cpc": 11.23,
+     "kd": 25,
+     "intent": "informational",
+     "trend_y": -19,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling data centers",
+     "sv": 590,
+     "cpc": 11.23,
+     "kd": 25,
+     "intent": "navigational",
+     "trend_y": -19,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling data center",
+     "sv": 590,
+     "cpc": 11.23,
+     "kd": 25,
+     "intent": "navigational",
+     "trend_y": -19,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling liquid",
+     "sv": 390,
+     "cpc": 7.53,
+     "kd": 27,
+     "intent": "transactional",
+     "trend_y": -33,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling for pc",
+     "sv": 390,
+     "cpc": 2.09,
+     "kd": 7,
+     "intent": "informational",
+     "trend_y": -56,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "immersion computer cooling",
+     "sv": 390,
+     "cpc": 2.09,
+     "kd": 10,
+     "intent": "informational",
+     "trend_y": -56,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "liquid immersion cooling",
+     "sv": 390,
+     "cpc": 7.53,
+     "kd": 27,
+     "intent": "informational",
+     "trend_y": -33,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling pc",
+     "sv": 390,
+     "cpc": 2.09,
+     "kd": 7,
+     "intent": "informational",
+     "trend_y": -56,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "pc immersion cooling",
+     "sv": 390,
+     "cpc": 2.09,
+     "kd": 7,
+     "intent": "informational",
+     "trend_y": -56,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "immersion cooling cpu",
+     "sv": 390,
+     "cpc": 2.09,
+     "kd": 7,
+     "intent": "informational",
+     "trend_y": -56,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "immersion pc cooling",
+     "sv": 390,
+     "cpc": 2.09,
+     "kd": 7,
+     "intent": "informational",
+     "trend_y": -56,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "immersion cooling computer",
+     "sv": 390,
+     "cpc": 2.09,
+     "kd": 7,
+     "intent": "informational",
+     "trend_y": -56,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "immersion liquid cooling",
+     "sv": 390,
+     "cpc": 7.53,
+     "kd": 27,
+     "intent": "informational",
+     "trend_y": -33,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling for data centers",
+     "sv": 210,
+     "cpc": 9.32,
+     "kd": 11,
+     "intent": "commercial",
+     "trend_y": -36,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "liquid immersion cooling for data centers",
+     "sv": 210,
+     "cpc": null,
+     "kd": 17,
+     "intent": "commercial",
+     "trend_y": 40,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "2 phase immersion cooling",
+     "sv": 170,
+     "cpc": 3.51,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -48,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "two-phase immersion cooling",
+     "sv": 170,
+     "cpc": 3.51,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -48,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "two phase immersion cooling",
+     "sv": 170,
+     "cpc": 3.51,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -48,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "2-phase immersion cooling",
+     "sv": 170,
+     "cpc": 3.51,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -48,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "midas immersion cooling",
+     "sv": 140,
+     "cpc": 0.53,
+     "kd": 2,
+     "intent": "navigational",
+     "trend_y": -35,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling fluid",
+     "sv": 110,
+     "cpc": 7.11,
+     "kd": 9,
+     "intent": "transactional",
+     "trend_y": -64,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "single phase immersion cooling",
+     "sv": 90,
+     "cpc": 7.67,
+     "kd": 10,
+     "intent": "transactional",
+     "trend_y": -22,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "liquid immersion cooling data center",
+     "sv": 90,
+     "cpc": 14.6,
+     "kd": 17,
+     "intent": "navigational",
+     "trend_y": -44,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "single-phase immersion cooling",
+     "sv": 90,
+     "cpc": 7.67,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -22,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "what is immersion cooling",
+     "sv": 90,
+     "cpc": null,
+     "kd": 15,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "arm immersion cooling system",
+     "sv": 70,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": 27,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "immersion cooling systems",
+     "sv": 70,
+     "cpc": 11.21,
+     "kd": 23,
+     "intent": "commercial",
+     "trend_y": -86,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "immersion cooling tank",
+     "sv": 70,
+     "cpc": 9.54,
+     "kd": 3,
+     "intent": "transactional",
+     "trend_y": -29,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "immersion cooling system",
+     "sv": 70,
+     "cpc": 11.21,
+     "kd": 25,
+     "intent": "transactional",
+     "trend_y": -86,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "dielectric fluid for immersion cooling",
+     "sv": 70,
+     "cpc": 7.6,
+     "kd": 2,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "submer immersion cooling",
+     "sv": 70,
+     "cpc": 4.29,
+     "kd": 9,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "immersion cooling tanks",
+     "sv": 70,
+     "cpc": 9.54,
+     "kd": 7,
+     "intent": "transactional",
+     "trend_y": -29,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "immersion cooling pc case",
+     "sv": 50,
+     "cpc": 0.32,
+     "kd": 11,
+     "intent": "transactional",
+     "trend_y": -43,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "immersion cooling fluids",
+     "sv": 50,
+     "cpc": 9.2,
+     "kd": 2,
+     "intent": "transactional",
+     "trend_y": -71,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling server",
+     "sv": 50,
+     "cpc": 5.49,
+     "kd": 25,
+     "intent": "navigational",
+     "trend_y": -43,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "immersion cooling companies",
+     "sv": 50,
+     "cpc": 6.99,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": -25,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "immersion cooling servers",
+     "sv": 50,
+     "cpc": 5.49,
+     "kd": 22,
+     "intent": "navigational",
+     "trend_y": -43,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "immersion cooling company",
+     "sv": 50,
+     "cpc": 6.99,
+     "kd": 18,
+     "intent": "navigational",
+     "trend_y": -25,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "immersion cooling gif",
+     "sv": 40,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 250,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "arm immersion cooling",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 300,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "mineral oil for immersion cooling",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -67,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "immersion cooling technology",
+     "sv": 30,
+     "cpc": null,
+     "kd": 27,
+     "intent": "informational",
+     "trend_y": -71,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "direct-to-chip vs immersion cooling",
+     "sv": 30,
+     "cpc": 2.57,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 300,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "thermaltake immersion cooling",
+     "sv": 30,
+     "cpc": null,
+     "kd": 14,
+     "intent": "transactional",
+     "trend_y": -86,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "vertiv immersion cooling",
+     "sv": 30,
+     "cpc": 6.49,
+     "kd": 4,
+     "intent": "transactional",
+     "trend_y": -33,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "grc immersion cooling",
+     "sv": 30,
+     "cpc": 4.33,
+     "kd": 8,
+     "intent": "navigational",
+     "trend_y": -71,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "how does immersion cooling work",
+     "sv": 30,
+     "cpc": 0.43,
+     "kd": 10,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "direct to chip vs immersion cooling",
+     "sv": 30,
+     "cpc": 2.57,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 300,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "shell immersion cooling fluid",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -82,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling miner",
+     "sv": 20,
+     "cpc": 2.55,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "single-phase vs two-phase immersion cooling",
+     "sv": 20,
+     "cpc": null,
+     "kd": 40,
+     "intent": "commercial",
+     "trend_y": -50,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "immersion cooling stocks",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "thermaltake immersion cooling case",
+     "sv": 20,
+     "cpc": null,
+     "kd": 21,
+     "intent": "transactional",
+     "trend_y": 100,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "immersion cooling gpu",
+     "sv": 20,
+     "cpc": null,
+     "kd": 52,
+     "intent": "informational",
+     "trend_y": 200,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "liquid immersion cooling systems",
+     "sv": 20,
+     "cpc": null,
+     "kd": 64,
+     "intent": "commercial",
+     "trend_y": -50,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "immersion cooling fluids market",
+     "sv": 20,
+     "cpc": null,
+     "kd": 9,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "immersion cooling gaming pc",
+     "sv": 20,
+     "cpc": 1.03,
+     "kd": 3,
+     "intent": "informational",
+     "trend_y": -80,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "single phase vs two phase immersion cooling",
+     "sv": 20,
+     "cpc": null,
+     "kd": 40,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "mineral oil immersion cooling",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -86,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "liquid immersion cooling system",
+     "sv": 20,
+     "cpc": null,
+     "kd": 64,
+     "intent": "transactional",
+     "trend_y": -50,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "gigabyte immersion cooling",
+     "sv": 20,
+     "cpc": null,
+     "kd": 55,
+     "intent": "transactional",
+     "trend_y": -50,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "immersion cooling miners",
+     "sv": 20,
+     "cpc": 2.55,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "arm immersion cooling system army",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": 300,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "immersion cooling vs liquid cooling",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -33,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "bac immersion cooling",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "liquid immersion cooling pc",
+     "sv": 20,
+     "cpc": 0.53,
+     "kd": 22,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling case",
+     "sv": 20,
+     "cpc": null,
+     "kd": 12,
+     "intent": "transactional",
+     "trend_y": -33,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "antminer immersion cooling",
+     "sv": 20,
+     "cpc": null,
+     "kd": 55,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "immersion cooling 3m",
+     "sv": 20,
+     "cpc": 4.5,
+     "kd": 5,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "immersion cooling market",
+     "sv": 20,
+     "cpc": null,
+     "kd": 55,
+     "intent": "navigational",
+     "trend_y": -67,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "3m immersion cooling",
+     "sv": 20,
+     "cpc": 4.5,
+     "kd": 5,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "shell immersion cooling fluid s3 x",
+     "sv": 20,
+     "cpc": 16.05,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -86,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "immersion cooling antminer",
+     "sv": 20,
+     "cpc": 2.12,
+     "kd": 55,
+     "intent": "transactional",
+     "trend_y": 300,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "immersion cooling mining",
+     "sv": 20,
+     "cpc": 2.55,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "immersion cooling fluid price",
+     "sv": 20,
+     "cpc": 3.18,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -75,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "computer immersion cooling",
+     "sv": 20,
+     "cpc": 7.83,
+     "kd": 17,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "liquidstack immersion cooling",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "immersion cooling pc price",
+     "sv": 20,
+     "cpc": null,
+     "kd": 19,
+     "intent": "commercial",
+     "trend_y": -67,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "shell immersion cooling fluid s5 x",
+     "sv": 20,
+     "cpc": 3.19,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": 50,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "asperitas immersion cooling",
+     "sv": 20,
+     "cpc": 1.41,
+     "kd": 45,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "two phase immersion cooling system",
+     "sv": 10,
+     "cpc": 8.04,
+     "kd": 45,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "3m novec immersion cooling price",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "diy immersion cooling",
+     "sv": 10,
+     "cpc": null,
+     "kd": 23,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "what is immersion cooling data center",
+     "sv": 10,
+     "cpc": null,
+     "kd": 7,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "liquid cooling vs immersion cooling",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "immersion cooling crypto mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": 3,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "3m immersion cooling fluid",
+     "sv": 10,
+     "cpc": 6.33,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic immersion cooling tank",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -100,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "immersion cooling liquid buy",
+     "sv": 10,
+     "cpc": 4.64,
+     "kd": 9,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "immersion cooling pc liquid",
+     "sv": 10,
+     "cpc": null,
+     "kd": 22,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "immersion cooling kit c2",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "immersion cooling battery",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -50,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "crypto mining immersion cooling",
+     "sv": 10,
+     "cpc": null,
+     "kd": 3,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "immersion liquid cooling data center",
+     "sv": 10,
+     "cpc": null,
+     "kd": 17,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "s9 immersion cooling",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "data center liquid immersion cooling market",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "3m novec immersion cooling liquid",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    }
+   ]
+  },
+  "asic miner | US/en": {
+   "total_count": 846,
+   "items": [
+    {
+     "kw": "asic miner",
+     "sv": 4400,
+     "cpc": 1.58,
+     "kd": 45,
+     "intent": "informational",
+     "trend_y": -46,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "miner asic",
+     "sv": 4400,
+     "cpc": 1.58,
+     "kd": 45,
+     "intent": "informational",
+     "trend_y": -46,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic miner value",
+     "sv": 1000,
+     "cpc": 7.39,
+     "kd": 35,
+     "intent": "informational",
+     "trend_y": -55,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner crypto",
+     "sv": 590,
+     "cpc": 0.52,
+     "kd": 35,
+     "intent": "commercial",
+     "trend_y": -19,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "crypto miner asic",
+     "sv": 590,
+     "cpc": 0.52,
+     "kd": 35,
+     "intent": "commercial",
+     "trend_y": -19,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "asic crypto miner",
+     "sv": 590,
+     "cpc": 0.52,
+     "kd": 35,
+     "intent": "commercial",
+     "trend_y": -19,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "asic miner profitability",
+     "sv": 480,
+     "cpc": 0.57,
+     "kd": 43,
+     "intent": "commercial",
+     "trend_y": -56,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner profit",
+     "sv": 480,
+     "cpc": 0.57,
+     "kd": 43,
+     "intent": "commercial",
+     "trend_y": -56,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner for sale",
+     "sv": 260,
+     "cpc": 2.01,
+     "kd": 41,
+     "intent": "transactional",
+     "trend_y": -66,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic miner hardware",
+     "sv": 210,
+     "cpc": 1.48,
+     "kd": 43,
+     "intent": "transactional",
+     "trend_y": -55,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "bitmain asic miner",
+     "sv": 170,
+     "cpc": 0.67,
+     "kd": 15,
+     "intent": "commercial",
+     "trend_y": -60,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic miner bitmain",
+     "sv": 170,
+     "cpc": 0.67,
+     "kd": 29,
+     "intent": "informational",
+     "trend_y": -60,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "scrypt miner asic",
+     "sv": 140,
+     "cpc": 0.83,
+     "kd": 3,
+     "intent": "informational",
+     "trend_y": -64,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "asic miner for scrypt",
+     "sv": 140,
+     "cpc": 0.83,
+     "kd": 3,
+     "intent": "commercial",
+     "trend_y": -64,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "asic scrypt miner",
+     "sv": 140,
+     "cpc": 0.83,
+     "kd": 3,
+     "intent": "informational",
+     "trend_y": -64,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "asic miner scrypt",
+     "sv": 140,
+     "cpc": 0.83,
+     "kd": 3,
+     "intent": "informational",
+     "trend_y": -64,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "asic miner prices",
+     "sv": 140,
+     "cpc": 1.21,
+     "kd": 39,
+     "intent": "informational",
+     "trend_y": -59,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "what is a asic miner",
+     "sv": 140,
+     "cpc": null,
+     "kd": 39,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "what is an asic miner",
+     "sv": 140,
+     "cpc": null,
+     "kd": 7,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "scrypt asic miner",
+     "sv": 140,
+     "cpc": 0.83,
+     "kd": 3,
+     "intent": "informational",
+     "trend_y": -64,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "asic miner price",
+     "sv": 140,
+     "cpc": 1.21,
+     "kd": 39,
+     "intent": "informational",
+     "trend_y": -59,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner what is",
+     "sv": 140,
+     "cpc": null,
+     "kd": 22,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic miner best",
+     "sv": 110,
+     "cpc": 1.56,
+     "kd": 28,
+     "intent": "commercial",
+     "trend_y": -71,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "best asic miner",
+     "sv": 110,
+     "cpc": 1.56,
+     "kd": 28,
+     "intent": "commercial",
+     "trend_y": -71,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "asic miner antminer",
+     "sv": 90,
+     "cpc": 3.68,
+     "kd": 24,
+     "intent": "commercial",
+     "trend_y": -60,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "antminer asic miner",
+     "sv": 90,
+     "cpc": 3.68,
+     "kd": 28,
+     "intent": "transactional",
+     "trend_y": -60,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "usb asic miner",
+     "sv": 90,
+     "cpc": 0.26,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -67,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic usb miner",
+     "sv": 90,
+     "cpc": 0.26,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -67,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner usb",
+     "sv": 90,
+     "cpc": 0.26,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -67,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "usb miner asic",
+     "sv": 90,
+     "cpc": 0.26,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -67,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner profitability calculator",
+     "sv": 90,
+     "cpc": 1.32,
+     "kd": 39,
+     "intent": "informational",
+     "trend_y": -71,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "cheapest asic miner",
+     "sv": 70,
+     "cpc": 1.02,
+     "kd": 39,
+     "intent": "commercial",
+     "trend_y": -64,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "cheap asic miner",
+     "sv": 70,
+     "cpc": 1.02,
+     "kd": 40,
+     "intent": "transactional",
+     "trend_y": -64,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic miner hosting",
+     "sv": 70,
+     "cpc": 25.34,
+     "kd": 13,
+     "intent": "commercial",
+     "trend_y": -25,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "asic miner value calculator",
+     "sv": 70,
+     "cpc": null,
+     "kd": 46,
+     "intent": "informational",
+     "trend_y": 600,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "buy asic miner",
+     "sv": 70,
+     "cpc": 3.17,
+     "kd": 45,
+     "intent": "transactional",
+     "trend_y": 57,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "sha256 asic miner",
+     "sv": 70,
+     "cpc": 0.8,
+     "kd": 16,
+     "intent": "informational",
+     "trend_y": -71,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic miner chip",
+     "sv": 70,
+     "cpc": 2.07,
+     "kd": 12,
+     "intent": "transactional",
+     "trend_y": -82,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "buy an asic miner",
+     "sv": 70,
+     "cpc": 3.17,
+     "kd": 48,
+     "intent": "transactional",
+     "trend_y": 57,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "sha-256 asic miner",
+     "sv": 70,
+     "cpc": 0.8,
+     "kd": 27,
+     "intent": "informational",
+     "trend_y": -71,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "buying an asic miner",
+     "sv": 70,
+     "cpc": 3.17,
+     "kd": 48,
+     "intent": "transactional",
+     "trend_y": 57,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "asic chip miner",
+     "sv": 70,
+     "cpc": 2.07,
+     "kd": 14,
+     "intent": "informational",
+     "trend_y": -82,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "sha 256 asic miner",
+     "sv": 70,
+     "cpc": 0.8,
+     "kd": 27,
+     "intent": "informational",
+     "trend_y": -71,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic miner sha256",
+     "sv": 70,
+     "cpc": 0.8,
+     "kd": 19,
+     "intent": "informational",
+     "trend_y": -71,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic sha256 miner",
+     "sv": 70,
+     "cpc": 0.8,
+     "kd": 19,
+     "intent": "transactional",
+     "trend_y": -71,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "affordable asic miner",
+     "sv": 70,
+     "cpc": 1.02,
+     "kd": 40,
+     "intent": "commercial",
+     "trend_y": -64,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "most profitable asic miner",
+     "sv": 70,
+     "cpc": 1.54,
+     "kd": 39,
+     "intent": "commercial",
+     "trend_y": -56,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "asic sha-256 miner",
+     "sv": 70,
+     "cpc": 0.8,
+     "kd": 27,
+     "intent": "informational",
+     "trend_y": -71,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic sha 256 miner",
+     "sv": 70,
+     "cpc": 0.8,
+     "kd": 27,
+     "intent": "informational",
+     "trend_y": -71,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic miner cheap",
+     "sv": 70,
+     "cpc": 1.02,
+     "kd": 40,
+     "intent": "commercial",
+     "trend_y": -64,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "low cost asic miner",
+     "sv": 70,
+     "cpc": 1.02,
+     "kd": 40,
+     "intent": "commercial",
+     "trend_y": -64,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic miner buy",
+     "sv": 70,
+     "cpc": 3.17,
+     "kd": 48,
+     "intent": "transactional",
+     "trend_y": 57,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "asic miner vs gpu",
+     "sv": 50,
+     "cpc": null,
+     "kd": 3,
+     "intent": "commercial",
+     "trend_y": -60,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "asic miner vs gpu miner",
+     "sv": 50,
+     "cpc": null,
+     "kd": 4,
+     "intent": "commercial",
+     "trend_y": -60,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "asic miner vs gpu mining",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -60,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "asic vs gpu miner",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -60,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "used asic miner",
+     "sv": 50,
+     "cpc": 2.96,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -57,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "how to build asic miner",
+     "sv": 40,
+     "cpc": null,
+     "kd": 4,
+     "intent": "informational",
+     "trend_y": -80,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "asic miner repair",
+     "sv": 40,
+     "cpc": 11.27,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": 150,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "how to make an asic miner",
+     "sv": 40,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -80,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "how to build an asic miner",
+     "sv": 40,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -80,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "asic miner calculator",
+     "sv": 40,
+     "cpc": null,
+     "kd": 42,
+     "intent": "informational",
+     "trend_y": -57,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "build asic miner",
+     "sv": 30,
+     "cpc": 0.57,
+     "kd": 4,
+     "intent": "commercial",
+     "trend_y": -75,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "120v asic miner",
+     "sv": 30,
+     "cpc": 0.3,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -67,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "used asic miner for sale",
+     "sv": 30,
+     "cpc": 1.16,
+     "kd": 22,
+     "intent": "transactional",
+     "trend_y": 50,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "build an asic miner",
+     "sv": 30,
+     "cpc": 0.57,
+     "kd": 13,
+     "intent": "transactional",
+     "trend_y": -75,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "building an asic miner",
+     "sv": 30,
+     "cpc": 0.57,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -75,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "diy asic miner",
+     "sv": 30,
+     "cpc": 0.57,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -80,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner build",
+     "sv": 30,
+     "cpc": 0.57,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -75,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "asic miner news",
+     "sv": 30,
+     "cpc": null,
+     "kd": 15,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "how much is an asic miner",
+     "sv": 30,
+     "cpc": 1.84,
+     "kd": 23,
+     "intent": "informational",
+     "trend_y": 50,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner for kaspa",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -80,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "kaspa asic miner",
+     "sv": 30,
+     "cpc": 0.61,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -80,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "asic miner cost",
+     "sv": 30,
+     "cpc": 3.15,
+     "kd": 39,
+     "intent": "informational",
+     "trend_y": -25,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "mini asic miner",
+     "sv": 30,
+     "cpc": 0.43,
+     "kd": 25,
+     "intent": "transactional",
+     "trend_y": -50,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner diy",
+     "sv": 30,
+     "cpc": 0.57,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -80,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "cost of asic miner",
+     "sv": 30,
+     "cpc": 3.15,
+     "kd": 37,
+     "intent": "informational",
+     "trend_y": -25,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "how much does an asic miner cost",
+     "sv": 20,
+     "cpc": null,
+     "kd": 74,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic value miner",
+     "sv": 20,
+     "cpc": null,
+     "kd": 35,
+     "intent": "commercial",
+     "trend_y": 100,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "asic miner 8 nano pro",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": 100,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "asic miner farm",
+     "sv": 20,
+     "cpc": null,
+     "kd": 22,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "asic miner supplier",
+     "sv": 20,
+     "cpc": null,
+     "kd": 52,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "rent asic miner",
+     "sv": 20,
+     "cpc": 5.7,
+     "kd": 34,
+     "intent": "commercial",
+     "trend_y": -50,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner rental",
+     "sv": 20,
+     "cpc": 5.7,
+     "kd": 22,
+     "intent": "commercial",
+     "trend_y": -50,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "canaan asic miner",
+     "sv": 20,
+     "cpc": 1.2,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "bitaxe single asic miner",
+     "sv": 20,
+     "cpc": null,
+     "kd": 13,
+     "intent": "transactional",
+     "trend_y": -80,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner ebay",
+     "sv": 20,
+     "cpc": 0.03,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -75,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "ebay asic miner",
+     "sv": 20,
+     "cpc": 0.03,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -75,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "home asic miner",
+     "sv": 20,
+     "cpc": 0.7,
+     "kd": 77,
+     "intent": "navigational",
+     "trend_y": -33,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner sale",
+     "sv": 20,
+     "cpc": 0.94,
+     "kd": 41,
+     "intent": "transactional",
+     "trend_y": 100,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "asic miner box",
+     "sv": 20,
+     "cpc": null,
+     "kd": 82,
+     "intent": "transactional",
+     "trend_y": 100,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "what is asic miner",
+     "sv": 20,
+     "cpc": null,
+     "kd": 17,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "small asic miner",
+     "sv": 20,
+     "cpc": 0.33,
+     "kd": 85,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "asic miner manufacturers",
+     "sv": 20,
+     "cpc": null,
+     "kd": 40,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "asic miner silencer box",
+     "sv": 20,
+     "cpc": 0.14,
+     "kd": 19,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "sia asic miner",
+     "sv": 20,
+     "cpc": 2.7,
+     "kd": 4,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "asic miner sales",
+     "sv": 20,
+     "cpc": 0.94,
+     "kd": 41,
+     "intent": "transactional",
+     "trend_y": 100,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "what is in an asic miner",
+     "sv": 20,
+     "cpc": null,
+     "kd": 48,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "smallest asic miner",
+     "sv": 20,
+     "cpc": 0.33,
+     "kd": 82,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "best asic miner 2025",
+     "sv": 20,
+     "cpc": null,
+     "kd": 33,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2025-10"
+    }
+   ]
+  },
+  "mining difficulty | US/en": {
+   "total_count": 81,
+   "items": [
+    {
+     "kw": "difficulty mining",
+     "sv": 50,
+     "cpc": null,
+     "kd": 25,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "mining difficulty",
+     "sv": 50,
+     "cpc": null,
+     "kd": 30,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "mining difficulty chart",
+     "sv": 30,
+     "cpc": null,
+     "kd": 41,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "mining pool difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "raptoreum mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 53,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "alph mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "crypto mining difficulty explained",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "what is difficulty in crypto mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "chia mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "mining network difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "how to calculate mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "what is mining difficulty in blockchain",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "firo mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "crypto mining low difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "crypto mining difficulty chart",
+     "sv": 10,
+     "cpc": null,
+     "kd": 74,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "kaspa mining difficulty chart",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "vertcoin mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 43,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "flux mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 11,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "cryptocurrency mining difficulty chart",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "coin mining difficulty chart",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "nexa mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "mining pool share difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "tron coin mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "mining difficulty explained",
+     "sv": 10,
+     "cpc": null,
+     "kd": 64,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "low difficulty mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "crypto mining difficulty list",
+     "sv": 10,
+     "cpc": null,
+     "kd": 70,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "cryptocurrency mining difficulty list",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "alephium mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "kadena mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 28,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "blockchain mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "what is mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 39,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "ravencoin mining difficulty chart",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "coin mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "ckb mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "solo mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "rtm mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "cryptocurrency mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "what is difficulty in mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": 39,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "etc mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 11,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "shiba inu mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 60,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "what determines mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "crypto mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 75,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "dynex mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "kda mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 28,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "ravencoin mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 36,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "cryptocurrency mining difficulty explained",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "dash mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "mining difficulty graph",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "scrypt mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "neoxa mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "ripple mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "rvn mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 45,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "solo mining best difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "share difficulty mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": 50,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "aleo mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "coins mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "low difficulty mining pool",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "mining difficulty meaning",
+     "sv": 10,
+     "cpc": null,
+     "kd": 65,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "dash coin mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "what is network difficulty in mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "mining difficulty comparison",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "tron mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 48,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "kas mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "beam mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "mining calculator with difficulty increase",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "mining calculator with difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 90,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "kadena mining difficulty chart",
+     "sv": 10,
+     "cpc": null,
+     "kd": 32,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "conflux mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "kaspa mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "shiba mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "ergo mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": 53,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "current mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "callisto mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "mining difficulty list",
+     "sv": 10,
+     "cpc": null,
+     "kd": 65,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "difficulty of mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": 30,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "mining difficulty calculator",
+     "sv": 10,
+     "cpc": null,
+     "kd": 90,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "sia mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "xec mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "best difficulty mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "helium mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "radiant mining difficulty",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-04"
+    }
+   ]
+  },
+  "mining farm | US/en": {
+   "total_count": 333,
+   "items": [
+    {
+     "kw": "mining farm",
+     "sv": 880,
+     "cpc": 1.75,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 22,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "farm mining",
+     "sv": 880,
+     "cpc": 1.75,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 7100,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "palworld mining farm",
+     "sv": 390,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": 12900,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "wh farm cafe mining co menu",
+     "sv": 140,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "crypto mining farm",
+     "sv": 140,
+     "cpc": 5.31,
+     "kd": 7,
+     "intent": "commercial",
+     "trend_y": -59,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "phone mining farm",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": 133,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "wh farm cafe mining co",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": -29,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "mining farm crypto",
+     "sv": 40,
+     "cpc": 6.72,
+     "kd": 30,
+     "intent": "commercial",
+     "trend_y": -43,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "propst farm gem mining",
+     "sv": 40,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -60,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "wh farm cafe mining co reviews",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "gpu mining farm",
+     "sv": 30,
+     "cpc": null,
+     "kd": 13,
+     "intent": "commercial",
+     "trend_y": -67,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "mining farm stardew",
+     "sv": 20,
+     "cpc": null,
+     "kd": 59,
+     "intent": "informational",
+     "trend_y": 100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "stardew valley mining farm layout",
+     "sv": 20,
+     "cpc": null,
+     "kd": 3,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "cryptocurrency mining farm",
+     "sv": 20,
+     "cpc": null,
+     "kd": 9,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "stardew valley mining farm",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "farm simulator gold mining",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "asic mining farm",
+     "sv": 20,
+     "cpc": null,
+     "kd": 19,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "crypto mining farm for sale",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "gold mining farm sim 22",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "mining farm ventilation",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "build a mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 58,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "core scientific mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "what is crypto mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 67,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "mining farm deutschland",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "online mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 100,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "shipping container mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 39,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "cryptocurrency mining farm for sale",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "virtual mining farm login",
+     "sv": 10,
+     "cpc": null,
+     "kd": 53,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "mining simulator 2 auto farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "farm sim mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "mining farm game",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "lost ark mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 18,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "where to farm mining new world",
+     "sv": 10,
+     "cpc": null,
+     "kd": 52,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "russian mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "laptop mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 58,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "solar powered mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 58,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "dire maul east mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "solar crypto mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 58,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "how to farm mining knowledge dragonflight",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "invest in crypto mining farm",
+     "sv": 10,
+     "cpc": 7.92,
+     "kd": 16,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "gpu mining rig farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "asic mining farm setup",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "stardew mining farm layout",
+     "sv": 10,
+     "cpc": null,
+     "kd": 6,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "coin mining farm app",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "mining crypto farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 7,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "gpu mining farm for sale",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "sawah crypto mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "starting a crypto mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "tron mining farm login",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": -100,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "gpu mining farm setup",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "wow farm mining knowledge",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "setting up mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 65,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "crypto mining farm meaning",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "mining farm wow",
+     "sv": 10,
+     "cpc": null,
+     "kd": 36,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "mining farm org",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "nft mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "largest crypto mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 63,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "mining simulator auto farm script",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "mining farm electricity",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "sawah crypto mining farm key location",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "mining farm new world",
+     "sv": 10,
+     "cpc": null,
+     "kd": 58,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "mobile phone mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "genesis mining farm reykjavik iceland",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "biggest crypto mining farm in the world",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "huge crypto mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "mining farm with solar panels",
+     "sv": 10,
+     "cpc": null,
+     "kd": 60,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "crypto mining farm login",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": -100,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "building mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 58,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "rent mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "virtual mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 62,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "wow mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 36,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "mining rig farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 6,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "cooling mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "fae farm mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "crypto farm mining",
+     "sv": 10,
+     "cpc": null,
+     "kd": 7,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "tww mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": -100,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "where is sawah crypto mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "data mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 63,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "warframe deimos mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "mining farm profitability",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "mining farm at home",
+     "sv": 10,
+     "cpc": null,
+     "kd": 67,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "crypto mining rig farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "coin mining farm review",
+     "sv": 10,
+     "cpc": null,
+     "kd": 54,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "build a crypto mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 62,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "3090 mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "al mazrah crypto mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "mining farm software",
+     "sv": 10,
+     "cpc": null,
+     "kd": 89,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "buy mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "mining farm build",
+     "sv": 10,
+     "cpc": null,
+     "kd": 58,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "what is mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "rent a mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "invest in mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 8,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "wotlk mining gold farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "khaz algar mining knowledge farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": -100,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "mining farm monitoring software",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "crypto mining farm thailand",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "mining farm hosting",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "genesis mining farm iceland",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "mining gold farm tbc",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "how to setup a mining farm",
+     "sv": 10,
+     "cpc": null,
+     "kd": 59,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-01"
+    }
+   ]
+  },
+  "асик | KZ/ru": {
+   "total_count": 180,
+   "items": [
+    {
+     "kw": "сагынбаймын асик текст",
+     "sv": 390,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -93,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "асик певец",
+     "sv": 170,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -84,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "5 минут текст асик",
+     "sv": 140,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -73,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "асик клятвы",
+     "sv": 90,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "вдвоём текст асик",
+     "sv": 90,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -81,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "асик клятвы текст",
+     "sv": 90,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -18,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "асик майнер",
+     "sv": 70,
+     "cpc": 0.16,
+     "kd": 12,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "асик для майнинга",
+     "sv": 70,
+     "cpc": 0.09,
+     "kd": 33,
+     "intent": "commercial",
+     "trend_y": -25,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "клятвы асик",
+     "sv": 70,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 29,
+     "peak_month": "2026-02"
+    },
+    {
+     "kw": "вдвоем асик текст",
+     "sv": 70,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -55,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "клятвы асик текст",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -55,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "5 минут асик текст",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -73,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "параллельно асик текст",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -78,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "асик клятвы аккорды",
+     "sv": 50,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 40,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "5 минут асик",
+     "sv": 40,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -20,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "5 минут асик скачать",
+     "sv": 40,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -90,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "асик для майнинга купить",
+     "sv": 40,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "сагынбаймын асик скачать текст",
+     "sv": 40,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -88,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "клятвы асик скачать",
+     "sv": 40,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -86,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "асик песни скачать",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -91,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "прошло асик текст",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -71,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "асик купить",
+     "sv": 30,
+     "cpc": 0.44,
+     "kd": 23,
+     "intent": "transactional",
+     "trend_y": -33,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "вдвоем асик",
+     "sv": 30,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -40,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "параллельно текст асик",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -75,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "клятвы #асик аккорды",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "асик музыка скачать",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -93,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "вдвоем асик скачать",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -89,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "купить асик в казахстане",
+     "sv": 20,
+     "cpc": 0.03,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -80,
+     "peak_month": "2025-10"
+    },
+    {
+     "kw": "любовь последняя асик скачать",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -80,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "заттыбек жанайым ремикс асик",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "клятвы асик аккорды",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "сагынбаймын асик аккорды",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -86,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "купить асик",
+     "sv": 20,
+     "cpc": 0.13,
+     "kd": 23,
+     "intent": "transactional",
+     "trend_y": -80,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "асик певец биография",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -94,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "асик аккорды",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "прошло асик",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "клятва асик",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -60,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "любовь последняя текст асик",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": 100,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "вдвоем текст асик",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -75,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "асик это",
+     "sv": 20,
+     "cpc": null,
+     "kd": 53,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "ночной город асик",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "прошло текст асик",
+     "sv": 20,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "асик s9 доходность",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "асик для майнинга что это",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "асик казахстан",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "параллельно асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "чайки текст асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "улетим текст асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "купить асик майнер в казахстане",
+     "sv": 10,
+     "cpc": 0.02,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "асик для майнинга окупаемость",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "vip казашка асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "асик музыкант",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -67,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "купить асик для биткоина",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "арабиан текст асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "асик купить новый",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "самый тихий асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "асик клятва",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -50,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "асик вип казашка скачать",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "купить асик майнер",
+     "sv": 10,
+     "cpc": 0.02,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "текст песни control асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "асик майнер калькулятор",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "асик s9",
+     "sv": 10,
+     "cpc": null,
+     "kd": 14,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "купить асик в россии",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-01"
+    },
+    {
+     "kw": "тунги калада асик скачать",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "танец текст асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "асик рэпер биография",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "асик для эфириума",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "асик отель",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "асик майнер как работает",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-03"
+    },
+    {
+     "kw": "асик чайки текст",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "асик ферма",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "асик s9 характеристики",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "чайки асик скачать",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "вип казашка текст асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "navigational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "асик купить казахстан",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "купить асик в китае",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -100,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "вальс асик текст",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "вальс асик скачать",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "сайфер асик текст",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "передумала асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "чайки асик текст",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "купить асик s9 в новосибирске",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "голоса текст асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "асик майнер доходность",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -50,
+     "peak_month": "2025-11"
+    },
+    {
+     "kw": "клятвы скачать асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -80,
+     "peak_month": "2025-09"
+    },
+    {
+     "kw": "клятвы 2 асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "вип казашка асик скачать",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -100,
+     "peak_month": "2026-07"
+    },
+    {
+     "kw": "асик майнер купить",
+     "sv": 10,
+     "cpc": 0.07,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "асик #клятвы минус",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "асик кз скачать",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": -67,
+     "peak_month": "2025-12"
+    },
+    {
+     "kw": "вдвоём #асик текст",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "асик вип казашка текст",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "вдвоём асик зарина",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "ночной город асик текст",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "асик параллельно",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "dg асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    },
+    {
+     "kw": "вдвоём асик зарина скачать",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "informational",
+     "trend_y": -100,
+     "peak_month": "2026-04"
+    },
+    {
+     "kw": "асик клятвы текст песни",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-05"
+    },
+    {
+     "kw": "сколько стоит асик для майнинга",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "commercial",
+     "trend_y": -100,
+     "peak_month": "2026-06"
+    },
+    {
+     "kw": "вдвоём скачать асик",
+     "sv": 10,
+     "cpc": null,
+     "kd": null,
+     "intent": "transactional",
+     "trend_y": null,
+     "peak_month": "2026-08"
+    }
+   ]
+  },
+  "asic firmware | US/en": {
+   "total_count": 8,
+   "items": [
+    {
+     "kw": "asic firmware",
+     "sv": 20,
+     "cpc": 22.84,
+     "kd": 63,
+     "intent": "navigational"
+    },
+    {
+     "kw": "asic custom firmware",
+     "sv": 10
+    },
+    {
+     "kw": "hiveos asic firmware",
+     "sv": 10
+    },
+    {
+     "kw": "nicehash asic firmware",
+     "sv": 10,
+     "kd": 48
+    },
+    {
+     "kw": "asic mining firmware",
+     "sv": 10,
+     "intent": "informational"
+    },
+    {
+     "kw": "hiveon asic firmware",
+     "sv": 10,
+     "kd": 24
+    },
+    {
+     "kw": "asic miner firmware",
+     "sv": 10,
+     "kd": 59,
+     "intent": "transactional"
+    },
+    {
+     "kw": "firmware for asic",
+     "sv": 10,
+     "kd": 63,
+     "intent": "informational"
+    }
+   ]
+  },
+  "прошивка (+асик/antminer/whatsminer) | KZ/ru": {
+   "total_count": 2,
+   "items": [
+    {
+     "kw": "antminer s9 прошивка",
+     "sv": 10
+    },
+    {
+     "kw": "официальная прошивка antminer s9",
+     "sv": 10
+    }
+   ]
+  }
+ },
+ "trends": {
+  "US/en": {
+   "keywords": [
+    "antminer",
+    "whatsminer",
+    "immersion cooling",
+    "bitcoin mining difficulty",
+    "hashprice"
+   ],
+   "averages_5y": [
+    21,
+    2,
+    4,
+    1,
+    1
+   ],
+   "yearly_avg": {
+    "antminer": {
+     "2022": 18.5,
+     "2023": 11.3,
+     "2024": 13.3,
+     "2025": 20.0,
+     "2026": 30.1
+    },
+    "whatsminer": {
+     "2022": 0.5,
+     "2023": 0.1,
+     "2024": 0.1,
+     "2025": 1.6,
+     "2026": 4.6
+    },
+    "immersion cooling": {
+     "2022": 2.2,
+     "2023": 2.2,
+     "2024": 3.0,
+     "2025": 5.9,
+     "2026": 12.4
+    },
+    "bitcoin mining difficulty": {
+     "2022": 0.6,
+     "2023": 0.1,
+     "2024": 0.0,
+     "2025": 1.0,
+     "2026": 2.1
+    },
+    "hashprice": {
+     "2022": 0.2,
+     "2023": 0.0,
+     "2024": 0.1,
+     "2025": 1.0,
+     "2026": 3.1
+    }
+   },
+   "month_of_year_avg_last_2y": {
+    "antminer": {
+     "01": 31.0,
+     "02": 23.8,
+     "03": 25.6,
+     "04": 32.3,
+     "05": 43.8,
+     "06": 26.4,
+     "07": 15.0,
+     "08": 9.6,
+     "09": 9.3,
+     "10": 12.7,
+     "11": 37.2,
+     "12": 27.2
+    },
+    "whatsminer": {
+     "01": 4.0,
+     "02": 3.0,
+     "03": 2.8,
+     "04": 4.6,
+     "05": 6.9,
+     "06": 3.8,
+     "07": 1.0,
+     "08": 0.6,
+     "09": 0.3,
+     "10": 0.0,
+     "11": 5.6,
+     "12": 2.7
+    },
+    "immersion cooling": {
+     "01": 10.0,
+     "02": 9.2,
+     "03": 9.9,
+     "04": 11.4,
+     "05": 12.4,
+     "06": 12.6,
+     "07": 10.2,
+     "08": 4.6,
+     "09": 3.0,
+     "10": 3.6,
+     "11": 10.8,
+     "12": 8.2
+    },
+    "bitcoin mining difficulty": {
+     "01": 3.0,
+     "02": 3.0,
+     "03": 2.1,
+     "04": 1.3,
+     "05": 1.9,
+     "06": 1.4,
+     "07": 0.4,
+     "08": 0.4,
+     "09": 0.1,
+     "10": 0.0,
+     "11": 3.4,
+     "12": 2.2
+    },
+    "hashprice": {
+     "01": 5.0,
+     "02": 2.2,
+     "03": 1.8,
+     "04": 1.9,
+     "05": 2.9,
+     "06": 3.1,
+     "07": 2.4,
+     "08": 1.6,
+     "09": 0.3,
+     "10": 0.0,
+     "11": 3.4,
+     "12": 1.7
+    }
+   }
+  },
+  "KZ/ru": {
+   "keywords": [
+    "асик",
+    "whatsminer",
+    "antminer",
+    "иммерсионное охлаждение",
+    "прошивка"
+   ],
+   "averages_5y": [
+    14,
+    0,
+    0,
+    0,
+    66
+   ],
+   "yearly_avg": {
+    "асик": {
+     "2021": 7.0,
+     "2022": 3.3,
+     "2023": 14.5,
+     "2024": 30.0,
+     "2025": 17.4,
+     "2026": 4.9
+    },
+    "whatsminer": {
+     "2021": 0.6,
+     "2022": 0.0,
+     "2023": 0.0,
+     "2024": 0.5,
+     "2025": 0.0,
+     "2026": 0.0
+    },
+    "antminer": {
+     "2021": 2.6,
+     "2022": 1.1,
+     "2023": 0.0,
+     "2024": 0.2,
+     "2025": 0.0,
+     "2026": 0.4
+    },
+    "иммерсионное охлаждение": {
+     "2021": 0.0,
+     "2022": 0.0,
+     "2023": 0.0,
+     "2024": 0.0,
+     "2025": 0.2,
+     "2026": 0.0
+    },
+    "прошивка": {
+     "2021": 61.4,
+     "2022": 69.0,
+     "2023": 61.5,
+     "2024": 70.2,
+     "2025": 70.7,
+     "2026": 59.9
+    }
+   },
+   "month_of_year_avg_last_2y": {
+    "асик": {
+     "01": 13.8,
+     "02": 13.2,
+     "03": 9.1,
+     "04": 10.1,
+     "05": 6.0,
+     "06": 9.2,
+     "07": 15.0,
+     "08": 18.1,
+     "09": 14.7,
+     "10": 17.4,
+     "11": 13.6,
+     "12": 15.9
+    },
+    "whatsminer": {
+     "01": 0.0,
+     "02": 0.0,
+     "03": 0.0,
+     "04": 0.0,
+     "05": 0.0,
+     "06": 0.0,
+     "07": 0.0,
+     "08": 0.0,
+     "09": 0.0,
+     "10": 0.0,
+     "11": 0.0,
+     "12": 0.0
+    },
+    "antminer": {
+     "01": 0.0,
+     "02": 0.0,
+     "03": 0.0,
+     "04": 0.0,
+     "05": 1.1,
+     "06": 0.0,
+     "07": 0.0,
+     "08": 0.0,
+     "09": 0.4,
+     "10": 0.0,
+     "11": 1.1,
+     "12": 0.0
+    },
+    "иммерсионное охлаждение": {
+     "01": 0.0,
+     "02": 0.0,
+     "03": 0.0,
+     "04": 0.0,
+     "05": 0.0,
+     "06": 0.0,
+     "07": 0.0,
+     "08": 1.2,
+     "09": 0.0,
+     "10": 0.0,
+     "11": 0.0,
+     "12": 0.0
+    },
+    "прошивка": {
+     "01": 69.4,
+     "02": 69.9,
+     "03": 72.1,
+     "04": 59.4,
+     "05": 63.8,
+     "06": 62.7,
+     "07": 67.2,
+     "08": 64.9,
+     "09": 62.4,
+     "10": 66.9,
+     "11": 71.7,
+     "12": 71.8
+    }
+   }
+  }
+ }
+}

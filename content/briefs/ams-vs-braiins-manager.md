@@ -2,21 +2,24 @@
 **Slug:** `/en/ams/vs-braiins-manager`
 **Cluster:** mining-fleet-monitoring
 **Type:** Spoke — Comparison / Commercial
-**Priority:** P0 (highest-value competitive spoke)
+**Priority:** P2 (was P0; recalculated 2026-09-25 from DataForSEO US data) — Demoted. Volume n/d for every keyword. Build it after the pillar and the Minerstat comparison.
+**Target (architecture v2, 2026-09-25):** `/en/ams/comparison` (NEW page), H2 AMS vs Braiins Manager, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| AMS vs Braiins Manager | Primary | [VOL: N/A — DataForSEO 401] |
-| Braiins Manager alternative | Primary | [VOL: N/A] |
-| Braiins Manager vs | Secondary | [VOL: N/A] |
-| ASIC fleet monitoring comparison | Secondary | [VOL: N/A] |
-| mining fleet management software comparison | Tertiary | [VOL: N/A] |
-| Antminer Whatsminer monitoring software | Tertiary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| AMS vs Braiins Manager | Primary | n/d (<10) | — | — |
+| Braiins Manager alternative | Primary | n/d (<10) | — | — |
+| Braiins Manager vs | Secondary | n/d (<10) | — | — |
+| ASIC fleet monitoring comparison | Secondary | n/d (<10) | — | — |
+| mining fleet management software comparison | Tertiary | n/d (<10) | — | — |
+| Antminer Whatsminer monitoring software | Tertiary | n/d (<10) | — | — |
 
 ---
 
@@ -83,7 +86,7 @@ BiXBiT AMS differentiator: single dashboard for both hardware families, with fir
 **H2: Pricing and Total Cost**
 - Braiins OS+ charges a dev fee (percentage of mining revenue) `[VERIFY: current Braiins OS+ fee structure]` — Braiins Manager pricing tied to OS+
 - BiXBiT AMS pricing: `[VERIFY: pricing model — bundled with firmware, flat SaaS, per-unit fee, free tier]`
-- No hidden dev fee on BiXBiT firmware: `[VERIFY: confirm no dev fee on BiXBiT firmware]`
+- BiXBiT firmware dev fee is disclosed up front: `[VERIFY: 2026-09 audit found a 2.8% dev fee (2% on Whatsminer M2x); get the current rate from the team]`
 - TCO framing: monitoring + firmware cost as combined line item
 
 **H2: Who Should Choose Braiins Manager**
@@ -160,5 +163,5 @@ BiXBiT AMS differentiator: single dashboard for both hardware families, with fir
 - `[VERIFY: Braiins Manager — pricing model / relationship to Braiins OS+ dev fee]`
 - `[VERIFY: Braiins Manager — max fleet size, multi-location support]`
 - `[VERIFY: AMS — all feature claims in comparison table]`
-- `[VERIFY: BiXBiT firmware — confirm no dev fee or disclose if a fee exists]`
+- `[VERIFY: 2026-09 audit found a 2.8% dev fee (2% on Whatsminer M2x); get the current rate from the team]`
 - `[VERIFY: AMS — stock firmware compatibility (does AMS work without BiXBiT firmware?)]`

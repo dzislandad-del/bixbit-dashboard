@@ -1,8 +1,9 @@
 # Content Brief: Antminer Custom Firmware
 **URL:** /en/antminer-firmware/custom
 **File:** content/briefs/antminer-custom-firmware.md
-**Last updated:** 2026-06-18
-**Priority:** P1
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. antminer custom firmware 10/mo; the query is already in the pillar keyword set. Fold into the pillar as a what-is section.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/antminer` (existing page), H2 What is custom Antminer firmware, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Technical writer + firmware engineer]
 
 ---
@@ -23,13 +24,15 @@ Educate operators who know stock Bitmain firmware is limiting them but haven't y
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer custom firmware | Primary | — | — |
-| custom firmware for antminer | Variant | — | — |
-| antminer third party firmware | Secondary | — | — |
-| antminer firmware mod | Long-tail | — | — |
-| why use custom firmware antminer | Informational long-tail | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer custom firmware | Primary | 10 | — | — |
+| custom firmware for antminer | Variant | n/d (<10) | — | — |
+| antminer third party firmware | Secondary | n/d (<10) | — | — |
+| antminer firmware mod | Long-tail | n/d (<10) | — | — |
+| why use custom firmware antminer | Informational long-tail | n/d (<10) | — | — |
 
 ---
 
@@ -69,7 +72,7 @@ Cover each capability with a technical explanation (1–2 sentences per item):
 - **Undervolting:** Reduce chip voltage below stock → reduces power draw → can maintain same hashrate at lower J/TH → critical for operators in high-electricity-cost environments [VERIFY: example undervolt power reduction % for S19 Pro]
 - **Fleet management:** Push configuration, firmware, and tuning profiles across thousands of units simultaneously via API
 - **Custom alert thresholds:** Configure temperature, hashrate, and error alerts specific to your operating environment
-- **No dev fee:** Third-party firmware implementations vary — BiXBiT charges no dev fee (zero hashrate redirection)
+- **Dev fee transparency:** Third-party firmware implementations vary. State BiXBiT's fee openly and compare on total cost of ownership (efficiency gain minus fee) [VERIFY: 2026-09 audit found a 2.8% dev fee (2% on Whatsminer M2x); get the current rate from the team before publishing. Don't say "no dev fee" or "lowest dev fee"]
 
 ### H2: Custom Firmware and Hardware Warranty
 - Honest, factual treatment of warranty implications
@@ -84,7 +87,7 @@ Cover each capability with a technical explanation (1–2 sentences per item):
   2. Has the firmware been audited for backdoors or remote access capabilities?
   3. Is the update/distribution channel secure?
   4. What is the provider's track record and fleet-scale customer base?
-- BiXBiT position: [VERIFY: describe BiXBiT's security posture — no dev fee, any audits, distribution security]
+- BiXBiT position: [VERIFY: describe BiXBiT's security posture: the actual dev fee (see above), any audits, distribution security]
 - Deeper treatment: → /en/antminer-firmware/security
 
 ### H2: Is Custom Firmware Right for Your Operation?
@@ -105,7 +108,7 @@ A: Yes. Custom firmware replaces the operating layer of the ASIC but retains sta
 A: No. Firmware controls software-layer behavior. A damaged hashboard, bad chip, or failed power supply requires hardware repair. Firmware can sometimes mask marginal hardware, which is actually dangerous — a healthy chip running under an aggressive overclock will fail faster.
 
 **Q: What is a dev fee in ASIC firmware?**
-A: Some custom firmware implementations redirect a percentage of your hashrate to the developer's wallet for a set period each hour. A 2% dev fee means 2% of your daily mining output goes to the firmware developer, not you. This is a real operational cost that compounds across large fleets. BiXBiT charges no dev fee. [VERIFY]
+A: Some custom firmware implementations redirect a percentage of your hashrate to the developer's wallet for a set period each hour. A 2% dev fee means 2% of your daily mining output goes to the firmware developer, not you. This is a real operational cost that compounds across large fleets. BiXBiT's fee: [VERIFY: 2026-09 audit found a 2.8% dev fee (2% on Whatsminer M2x); get the current rate from the team before publishing. Don't say "no dev fee" or "lowest dev fee"]
 
 **Q: How does custom firmware interact with immersion cooling?**
 A: Immersion cooling allows sustained operation at higher power states that would overheat an air-cooled unit. Custom firmware's overclocking modes are often paired with immersion deployments for this reason. BiXBiT firmware supports immersion configurations. [VERIFY: confirm immersion-specific tuning profiles exist] → /en/immersion-cooling

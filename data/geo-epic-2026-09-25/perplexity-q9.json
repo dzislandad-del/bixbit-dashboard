@@ -1,0 +1,28 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "prompt": "Is custom ASIC firmware safe? Which firmware vendors are trusted and have no backdoors?",
+  "task_id": "09251236-2548-0612-0000-1dbe8f3308cf",
+  "web_search_country_iso_code": "US",
+  "cost_usd": 0.006254,
+  "answer_text": "**Custom ASIC firmware is not automatically unsafe, but it is a real trust-and-supply-chain risk.** The safest default is the manufacturer’s stock firmware; if you use third-party firmware, you should treat it as privileged software that can redirect hashrate, change settings, collect data, or even render a control board unusable if the source is malicious or compromised.[1][6][11][12]\n\nOn your second question, I **cannot सत्यfully say any firmware vendor has “no backdoors”** based on the available evidence. That claim is generally impossible to prove for closed-source firmware, and even reputable vendors can only reduce risk through transparent release practices, checksums/signatures, rollback support, documentation, and a verifiable track record.[1][6][12][15]\n\nWhat the results support is this:\n\n- **Lowest-risk choice:** stock firmware from the miner manufacturer, downloaded from the official support channel and verified with published checksums when available.[6][12]\n- **Safer third-party choices:** well-known projects with **publicly auditable code**, verified build/release processes, and active community scrutiny are materially safer than unknown closed-source images.[12]\n- **Higher-risk choice:** opaque firmware shared through DMs, unofficial mirrors, or vendors without clear provenance, signatures, or rollback support.[1][6][11][12]\n\nAmong the vendors in your results, the ones most often presented as established are **Braiins OS+**, **VNish**, **Hiveon ASIC firmware**, **NiceHash firmware**, **BiXBiT**, and **LuxOS** (mentioned indirectly in the warranty discussion).[5][8][10][12] That said, the sources do **not** prove these are backdoor-free; they only indicate that some of them are considered reputable or widely used, and some advertise safeguards such as verification and rollback.[2][3][4][8][10][12][14]\n\nPractical trust checklist before installing any custom firmware:\n\n- Download only from the **official** vendor or a documented, independently confirmed source.[1][6][12]\n- Verify **checksums/signatures** if provided.[6][12]\n- Check whether the project is **open source** or at least has a strong public audit trail.[12]\n- Confirm **rollback/recovery** to stock firmware exists.[1][3][4][12]\n- Read the **developer-fee, telemetry, and remote-control** terms carefully.[1][6]\n- Test on **one miner first**, then expand only after stable results.[1][6]\n\nOne important non-security issue: third-party firmware often **voids warranty** on Bitmain/Antminer hardware, so even a reputable image can carry commercial risk.[5]\n\nIf you want, I can turn this into a **vendor-by-vendor trust comparison table** using only the vendors in your results.",
+  "cited_urls": [
+    "https://www.theminingshop.co.uk/asic-firmware-customisation/",
+    "https://bixbit.io/en/firmwares",
+    "https://vni.sh/what-is-firmware",
+    "https://vni.sh/faq",
+    "https://d-central.tech/does-custom-firmware-void-bitmain-warranty/",
+    "https://www.viabtc.com/en/blog/Insights-asic-miner-security-in-2026-firmware-network-and-pool-account-checklist-642",
+    "https://www.cryptominerbros.com/blog/asic-firmware-software-security-guide/",
+    "https://www.nicehash.com/firmware",
+    "https://www.ensilica.com/news-and-insight/asics-and-ic-obsolescence-designing-resilient-long-life-electronic-systems/",
+    "https://hiveon.com/knowledge-base/hiveon-asic-firmware/general/asic_faq/",
+    "https://arxiv.org/pdf/2605.03770v2",
+    "https://d-central.tech/guide-to-preventing-asic-miner-infections-best-practices-for-secure-mining-operations/",
+    "https://www.linkedin.com/jobs/view/senior-firmware-engineer-security-at-blue-origin-4458041049",
+    "https://hashcore.com/firmware",
+    "https://media.defense.gov/2026/Aug/25/2003986215/-1/-1/0/CTR_ASIC_LOA1_BEST_PRACTICES.PDF",
+    "https://www.reddit.com/r/embedded/comments/1emdjxf/protecting_product_developed_from_getting_copied/",
+    "https://www.easa.europa.eu/sites/default/files/dfu/EASA_REP_RESEA_2008_1.pdf"
+  ]
+}

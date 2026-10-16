@@ -1,0 +1,26 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "prompt": "Which Antminer custom firmware has the lowest dev fee?",
+  "task_id": "09251236-2548-0612-0000-d2a7bd7dd7d9",
+  "cost_usd": 0.078415,
+  "datetime": "2026-09-25 12:36:20 +00:00",
+  "fan_out_queries": ["custom firmware for Antminer compare dev fee", "\"ePIC\" firmware fee \"S19\"", "\"LuxOS\" dev fee percentage", "\"Braiins OS\" dev fee zero pool fee", "Antminer custom firmware lowest dev fee"],
+  "answer_text": "If you are looking for the custom firmware with the lowest developer fee (dev fee) for Antminers, your options depend heavily on whether you are using a standard stock control board or an aftermarket control board. \n\nA breakdown of the lowest-fee firmware options reveals the following:\n\n### 1. **The Absolute Lowest (0% Dev Fee): DCENT_OS**\nIf you want to run custom firmware without paying any mandatory ongoing fees, **DCENT_OS** is the best choice. \n* **Dev Fee:** **0%**.\n* **How it works:** Rather than a hardcoded dev fee, it operates on an optional donation system. By default, it sets a 2% donation, but this can be adjusted down to **0% with a single click** in the settings.\n\n### 2. **Lowest Hardware-Locked Option: ePIC UMC OS (1.5% Dev Fee)**\nePIC Blockchain’s **UMC OS** is a highly regarded custom firmware built specifically for Antminer S19 and S21 series.\n* **Dev Fee:** **1.5%**.\n* **How it works:** It requires you to purchase their physical **Universal Mining Controller (UMC) board** to replace the stock Bitmain control board. Originally, purchasing the board gave you access to the firmware with a 0% dev fee. However, the current UMC OS firmware carries a low, flat dev fee of **1.5%**, which is still lower than most other commercial software.\n\n### 3. **Lowest Mainstream Software-Only Options (1.8% to 2.8%)**\nIf you are running a stock control board and want to flash standard, widely supported commercial firmware, the fees vary slightly depending on your hardware model:\n\n* **VNish:** **1.8% to 2.8%**. For older legacy models (like the L3+), the fee can be as low as **1.8%**. For modern S19 and S21 series, it is usually **2.8%**.\n* **Braiins OS+:** **2.0% to 2.5%**. Braiins OS+ charges a standard dev fee. While you can get a **0% pool fee** by mining directly on Braiins Pool, the 2.0%–2.5% dev fee itself is still deducted to support the software. \n* **LuxOS:** **2.8%**. Luxor’s firmware charges a flat 2.8% fee, though it bundles this with 0% pool fees if you mine directly on Luxor Pool. \n\n### Summary: Which should you choose?\n* If you want a **free, standard software-only install**, use **DCENT_OS** (manually lower the donation to 0%).\n* If you want a high-performance **enterprise-grade controller upgrade**, purchase an **ePIC UMC board** to run **UMC OS** at **1.5%**.",
+  "cited_urls": [
+    {"title": "d-central.tech", "direct_url": "https://d-central.tech/downloads/old-firmwares/"},
+    {"title": "prnewswire.com", "direct_url": "https://www.prnewswire.com/news-releases/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets-302669401.html"},
+    {"title": "einnews.com", "direct_url": "https://world.einnews.com/pr_news/904290049/epic-blockchain-upgrades-mining-fleet-with-universal-controller-custom-firmware"},
+    {"title": "spark.money", "direct_url": "https://www.spark.money/tools/bitcoin-mining-firmware-comparison"},
+    {"title": "hashrateindex.com", "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/"},
+    {"title": "epicblockchain.io", "direct_url": "https://epicblockchain.io/author/epic-blockchain/"},
+    {"title": "github.com", "direct_url": "https://github.com/KatranVir/Antminer-L3-AsicFw-Custom-Firmware"},
+    {"title": "d-central.tech", "direct_url": "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/"},
+    {"title": "vnish.group", "direct_url": "https://vnish.group/en/"},
+    {"title": "braiins.com", "direct_url": "https://braiins.com/os-firmware/download"},
+    {"title": "d-central.tech", "direct_url": "https://d-central.tech/braiinsos-unlocking-the-power-of-advanced-autotuning-for-asic-miners/"},
+    {"title": "d-central.tech", "direct_url": "https://d-central.tech/nicehash-and-marathon-digital-unveil-promising-bitcoin-mining-firmware/"},
+    {"title": "spark.money", "direct_url": "https://www.spark.money/tools/bitcoin-mining-os-comparison"}
+  ],
+  "note": "Response returned inline (no raw file). Vertex AI redirect URLs omitted; direct_url as returned by DataForSEO."
+}

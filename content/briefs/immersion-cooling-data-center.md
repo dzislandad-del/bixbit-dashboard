@@ -3,7 +3,8 @@
 **Cluster:** immersion-cooling-mining
 **Brief type:** Spoke — commercial investigation
 **Created:** 2026-06-19
-**Priority:** P2
+**Priority:** P2 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Keep P2. Volume n/d.
+**Target (architecture v2, 2026-09-25):** `/en/asics-cooling/immersion-systems` (existing page), H2 Data center deployments, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 
 ---
 
@@ -24,14 +25,16 @@ Competitor gap: GRC and LiquidStack target this segment but focus on IT/enterpri
 
 ## Target Keywords
 
-| Type | Keyword | Volume |
-|---|---|---|
-| Primary | `immersion cooling data center mining` | N/A |
-| Secondary | `immersion cooling Bitcoin mining data center` | N/A |
-| Secondary | `mining data center cooling solutions` | N/A |
-| Secondary | `high density ASIC cooling data center` | N/A |
-| Long-tail | `immersion cooling data center design mining` | N/A |
-| Long-tail | `colocation immersion cooling Bitcoin miners` | N/A |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Type | Keyword | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Primary | `immersion cooling data center mining` | n/d (<10) | — | — |
+| Secondary | `immersion cooling Bitcoin mining data center` | n/d (<10) | — | — |
+| Secondary | `mining data center cooling solutions` | n/d (<10) | — | — |
+| Secondary | `high density ASIC cooling data center` | n/d (<10) | — | — |
+| Long-tail | `immersion cooling data center design mining` | n/d (<10) | — | — |
+| Long-tail | `colocation immersion cooling Bitcoin miners` | n/d (<10) | — | — |
 
 ---
 

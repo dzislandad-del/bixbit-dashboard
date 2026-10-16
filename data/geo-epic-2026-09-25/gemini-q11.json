@@ -1,0 +1,82 @@
+{
+  "engine": "gemini",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_id": "09251239-2548-0612-0000-7f8df1ce19e7",
+  "cost_usd": 0.04269,
+  "prompt": "What is ePIC UMC OS and how does it compare to other Antminer firmware?",
+  "model": "gemini-3.5-flash",
+  "datetime": "2026-09-25 12:39:13 +00:00",
+  "fan_out_queries": [
+    "ePIC UMC OS Antminer firmware",
+    "ePIC UMC OS vs other Antminer firmware"
+  ],
+  "answer_text": "**ePIC UMC OS** (Universal Mining Controller Operating System) is an aftermarket custom firmware developed by the North American engineering firm **ePIC Blockchain Technologies**. \n\nOriginally, ePIC only distributed its specialized firmware by selling physical hardware—their custom **Universal Mining Controller (UMC) board**, which replaces stock Antminer control boards. However, the software was expanded to **UMC OS**, allowing miners to flash the custom firmware directly onto standard, stock Bitmain control boards (such as Amlogic, BeagleBone, and Xilinx) without needing to buy new hardware.\n\nIt supports a wide range of popular air-cooled and immersion-converted Bitmain machines, including the **Antminer S19, S19j Pro, S19 XP, S19K Pro, S21, and T21 series**.\n\n---\n\n### Key Features of ePIC UMC OS\n* **Perpetual Tune:** Unlike traditional static profiles, this proprietary algorithm automatically monitors and adjusts the ASIC’s chip parameters in real-time, maintaining peak efficiency and hashrate targets despite changing ambient temperatures or hardware degradation.\n* **Deep Tuning Controls:** It features multiple layers of tuning control, ranging from broad automated optimization to granular controls like *Voltage Optimizer*, *Board Tune*, and *Chip Tune*.\n* **Immersion-Ready out of the Box:** Native support for 0 to 4 fans, which allows operators to run rigs in liquid immersion setups without needing physical \"fan spoofers\".\n* **Enterprise Tools:** Designed for large-scale operations, it uses the **RigRunner** tool for seamless bulk deployment across hundreds of machines simultaneously, paired with an institutional-grade API.\n\n---\n\n### How ePIC UMC OS Compares to Other Antminer Firmware\n\n| Feature | **ePIC UMC OS** | **Braiins OS (formerly Braiins OS+)** | **Vnish** | **Stock Bitmain Firmware** |\n| :--- | :--- | :--- | :--- | :--- |\n| **Development Fee** | **1.5%** (lowest commercial fee) | Typically **2.0% to 2.5%** (often lower if mining on Braiins Pool) | Typically **1.8% to 2.8%** (varies by model) | **0%** (Free) |\n| **Tuning Tech** | *Perpetual Tune* (continuous automatic tuning) | *Autotuning* (per-chip, calibration-phase based) | *Autotuning* (highly established profiles) | No autotuning (factory fixed profiles) |\n| **Hardware Option** | Optional upgrade to an physical ePIC UMC board to eliminate dev fees entirely. | Purely software-based. | Purely software-based. | Ships on standard control board. |\n| **Immersion Support** | Native (software fan disabling) | Native (software fan disabling) | Native (software fan disabling) | Requires hardware fan spoofers |\n| **Target Audience** | Enterprise/Institutional & Home miners | Home miners to medium-scale fleets | General miners & aftermarket tuning shops | Default users prioritizing factory warranty |\n\n#### 1. Development Fee (Cost Advantage)\nePIC reduced its development fee to **1.5%**. This makes it more affordable than competitors like Braiins OS (usually around 2.2% to 2.5%) and Vnish, making it highly competitive for miners seeking maximum margin. \n\n#### 2. The Physical Hardware Route (Zero-Fee Alternative)\nA unique differentiator for ePIC is their hardware ecosystem. If you choose to buy their physical **UMC Replacement Control Board** (costing ~$150), you get access to the firmware with **0% recurring development fees**. Other firmware providers like Braiins or Vnish charge a recurring developer fee forever unless you use specific pools.\n\n#### 3. Tuning Philosophy: Continuous vs. Static Autotuning\n* **Braiins OS & Vnish** typically run an initialization calibration sequence where they test the ASIC chips, find the sweet spot, lock in a profile, and leave it there until rebooted or manual re-tuning is triggered.\n* **ePIC UMC OS** uses *Perpetual Tune*. It actively monitors telemetry data during live operations, adjusting voltage and frequency continuously to adapt to temperature fluctuations (like day/night cycles) or aging silicon.\n\n#### 4. Setup and Deployment\nInstalling ePIC is handled via **RigRunner**, their dedicated installation utility designed to scan, bulk-flash, and manage IP addresses easily. While Braiins and Vnish also offer excellent batch-tool utilities, ePIC’s suite has been specifically designed to mirror the workflow demands of North American institutional facilities.\n\n### Summary: Which should you choose?\n* **Choose ePIC UMC OS** if you want the **lowest commercial dev fee (1.5%)**, are looking to buy a replacement control board to bypass dev fees entirely, or have varying ambient temperatures where *Perpetual Tune* can optimize efficiency dynamically.\n* **Choose Braiins OS** if you prefer a massive, highly established community, want to utilize Stratum V2 protocol support, or plan to mine directly to the Braiins Pool to discount your dev fees. \n* **Choose Stock Firmware** if your machine is brand new and you want to maintain your Bitmain factory warranty, as flashing any third-party firmware (including ePIC) will void it.",
+  "cited_urls": [
+    {
+      "title": "epicblockchain.io",
+      "direct_url": "https://epicblockchain.io/epic-launches-umc-os-and-altairos-powerful-third-party-firmware-for-bitcoin-mining-now-available-for-both-institutional-and-retail-users/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBGxxb8vKMIw2RH0Kjl62oyD0GKCd9MkiFO5uLXqijGURL3h4YKjE6tWyAiVP6csBBP-YTVc4n5jbfIcjO53WeoAQhpkKMLzlRT1O13velGwr7JSv2beboyqRRkRGcsaRmAudR7Wlcms6zjGgL8cA4Q1aKjkABJbX3LVyTA1LgtvdhPxXoEo91L-TqxdTBbioiwN8NOp_gh5m3LResR_JTwWz-KmmwyuOSaYdhMGxdOMUyuVlhXjvjVyuj4O_uGroTrNaIwwPMZGbHScIS2P1vN-L2kcGjDWwXWQ=="
+    },
+    {
+      "title": "moomoo.com",
+      "direct_url": "https://www.moomoo.com/news/post/64560759/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYAmiVmcuby75mDeDDy0Sh6W0DHShIV1AV2XSoCR7cE8DI52-uf3irBkxbK0tnNMoY-tOVHZt-_Z_41bbGjy_NeWSTxcNpYRI44E2VaHbV3NE2YLSMDxKFEe-D-rSBxYX3AsRR6h2z38qTtPCtx1Uj35GYc0wBlzauNVmL8beAsAimsYkhsyUmAeGdH4yexlr8tf-E9V-Q-AftUrn3ssw5"
+    },
+    {
+      "title": "hashrateindex.com",
+      "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH95aPUspNnfPbDvSn3vuRTprcf39sHKfqCvy7Zx0f9-oaWP8pRszB0BDRVpFkOan91eviRKDK2ICLfnS9Z45wXyK0wJQBbaLob9qjwnoxDWJ4lC8vkerh1nEwebwdIOTKmrUPi0MSB8cui7lKZvgspBlZL97iebyY"
+    },
+    {
+      "title": "epicblockchain.io",
+      "direct_url": "https://epicblockchain.io/support/firmware-download/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlGpx1Tnrnp23vn5gbCRnlwb9p63lVefJje3AeVYA-nVoYsirn1hA_7i9SbrEXeo4ZpQqBstx22Ol4YIX8iywt-VvOkk5zK2reHZhUym4RknI1ksKfRR3EW8sPtlcXQnf5Ls1-CbBchVAb"
+    },
+    {
+      "title": "epicblockchain.io",
+      "direct_url": "https://epicblockchain.io/product/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPbM0whzus6IYs-WE1vJ4Qp-TNctuMOP8ZFFD5YiDKKWy9Ee2UxvlX-vPeM2QSKSzCLoZYRN3Z5vwB6I92b9IgFowUH5TxAPWxtStHveKVPQSVwSm4Xv5N"
+    },
+    {
+      "title": "epicblockchain.io",
+      "direct_url": "https://epicblockchain.io/product/umc-os/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuqV3gowSdKU-ZZzPdba-eb5oChLuzqGWHOEnPcuIsluO8a7HZEtG4B0KRZJs4JlFKX-tXrvBe4tRuQKWdIfdackEZTlCAuzVxTTeg0VuvaNLmfXV9bUzniGXOsJ248A=="
+    },
+    {
+      "title": "epicblockchain.io",
+      "direct_url": "https://epicblockchain.io/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmCMUJryKGftVSkAvbeoChf916odtbChr51shnY8_qglg3vELwIVAr2zOjJiHThUSvujQ138XOrcMYiczuVjphtvT-eg4eoMWqHc6ERYqw4-eG_ofhqkeLyABBH5jFBALzTiZm5j_w8u2pCsu2pvBx008AAVJKwZtRKkyn0FgdULbMYr91NYAhDHHMLxX3IyP-1DPFREMcL5vUMvO1nFVRAgdOBZyohftGIw=="
+    },
+    {
+      "title": "einnews.com",
+      "direct_url": "https://world.einnews.com/pr_news/904290049/epic-blockchain-upgrades-mining-fleet-with-universal-controller-custom-firmware",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdP6ELTDKFXDexvL-5W_u7MYGvYDGg3Vggn5Eb5BUMSlUjhNiRGSex2M6QvDfKXLuows75_ldcBOu7bd4GUShNxz2qdPxFt3bFaMgD8Bt0vIhnU71U8z_sz3E1MBjVCI_VyY87kiLzykR7QHKh27N9Tj4jWQcJHRUfmkUtfEpr5jRLPZ5Pq_ahL8tFImD2K2bFpi5A5U8EM8Zlor5YSNd1_fqKnR2YPK-Pg3XvxiWIxxA="
+    },
+    {
+      "title": "prnewswire.com",
+      "direct_url": "https://www.prnewswire.com/news-releases/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets-302669401.html",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk_6qDV414CB4JLZhuagGXpx4dA-GE6JOON9zfSBtppcC2zOHfrIbOAC_S9KxlffIpZsn37ANW_w-fs_16UeynH8qM9ySzFGtiAmG81TV0UNOwUVRRvvV9I8-OYxFfd6-ZAW5q7eWOd-WY7T7pK-FrpmvugT4YtXqjQE7k8LmDOcZC4tgGXxU5qOQSyZImzYl0skoFz-a8UlzZVafgHneVDINRR_UC2o67KtcVREAKmLlNhZTdsbQMTQ3F1OHhyRQIGggd9olAgNJWC3WWX3Yx_tO8EyKNA0m0jBM7up2vHB2UxiTlI5GnrjaILXVEh47p"
+    },
+    {
+      "title": "mineshop.eu",
+      "direct_url": "https://mineshop.eu/blog/asic-miner/how-to-update-antminer-firmware-step-by-step-guide-for-l9-s21-models",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYw-BCnyl7yFoIw-UcT5dTQiGyRSuXw0DeIpHA4oUJL-8KaUHT8OYIsDp3yKTYQYeV-HnvPGQsKuuqFiGQjZ1IabbBonOcEi0dzuZC_M0mALsy3BbStAAxFJGFUHaG69BsI5FoHD06XsPOHmW6FbrofB1pUYAAuSQC1mYKfoK5hac7nfEkXOBrfAMWj2cUjj8FubMlpaeWKlFwfksK5w=="
+    },
+    {
+      "title": "d-central.tech",
+      "direct_url": "https://d-central.tech/bitcoin-mining-software-comparison/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrxbqSGk-PVqzevzvpVwUbP92jAUDee1xZUx0Dyh5wFZi5Ma1OfPSQwJXGXE3fFeomKGZzECC_2DbqifMJAF7T64zR04E5ZgJXcAJFUyWAi1P364wi5ql2xKJD3umMWUN7Iwz7YLiUP5nGolSESa4i"
+    },
+    {
+      "title": "reddit.com",
+      "direct_url": "https://www.reddit.com/r/BitcoinMining/comments/1oehxq4/what_firmware_are_you_running_on_your_antminer/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZtpcP2K8_XBMZikW734Vgq5T1KsTjfGEMhmUn6sZ4G26nZCaCkNsuihhjmspfToZ22pW6jHRvKPCqq76Ml_sqbActPz3K8Uy9BB0v5jo8HfKNQdOaW7AJOzyeY_x1JxqQhVt2BpugQdSSbZAgCL67Avx2hFVlkNapL1IwC8F7jgcpUWoDj3UG25gQeTgSgNMXg6935YBTmeo3LQsQ"
+    },
+    {
+      "title": "reddit.com",
+      "direct_url": "https://www.reddit.com/r/BitcoinMining/comments/1j68hij/switched_my_s19k_pro_to_epic_control_board/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuqGGmya0qEbB12XXmDQXdVGL5TJx0hF1HNHwLi_li0J-EtKzLTyN8kxchBF27IPzpgQ0orlt5Ci_jANUL4M2LFS9RYo046cJR7lsN42Ark5Wos1FqPvJSrBRB3i3L5rbLZdCouqakiGqhec9b2QGeNi6jEa1Ebdxdg-ziK90POueMnnNo-0Dfnd2fbVb6Qc2mHDEsdoKqeZ8="
+    }
+  ]
+}

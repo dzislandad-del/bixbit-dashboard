@@ -1,0 +1,1706 @@
+{
+  "meta": {
+    "project": "bixbit.io",
+    "baseline_id": "2026-09-25",
+    "collected_on": "2026-09-28",
+    "note": "Keyword set and volumes from the 2026-09-25 cluster reprioritization; SERPs pulled live on 2026-09-28.",
+    "source": "DataForSEO /v3/serp/google/organic/live/regular",
+    "location_name": "United States",
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 100,
+    "position_metric": "rank_group (organic only)",
+    "domain_match": "bixbit.io / www.bixbit.io only; partner domains (bixbitusa.io) are out of scope",
+    "caveats": [
+      "First pass used the MCP default AI-optimized output, which can truncate item lists; found positions are valid, but not-found on short lists is unreliable. 11 short/not-found keywords were re-run with noAiMode=true.",
+      "Many Google SERPs are genuinely short (<60 organic results) for niche queries; not_found_short_serp != not ranking.",
+      "Live SERPs vary between calls (see volatile flags)."
+    ],
+    "keywords_total": 30,
+    "gsc": {
+      "source": "scripts/gsc-query.py",
+      "window": "2026-08-29..2026-09-25",
+      "country": "usa",
+      "files": [
+        "data/gsc-queries-us-2026-09-28.json",
+        "data/gsc-queries-pages-us-2026-09-28.json"
+      ],
+      "note": "GSC position = impression-weighted average across devices/days; not directly comparable to a single live desktop SERP."
+    }
+  },
+  "keywords": [
+    {
+      "keyword": "antminer firmware",
+      "cluster": "antminer-firmware",
+      "priority": "P0",
+      "search_volume_us": 50,
+      "target_url": "/en/firmwares/antminer",
+      "status": "ranked",
+      "position": 8,
+      "position_absolute": 9,
+      "ranking_url": "https://bixbit.io/en/firmwares/antminer",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 8,
+          "rank_absolute": 9,
+          "url": "https://bixbit.io/en/firmwares/antminer"
+        },
+        {
+          "rank_group": 39,
+          "rank_absolute": 43,
+          "url": "https://bixbit.io/en/firmwares"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": 15,
+      "top3": [
+        "shop.bitmain.com",
+        "www.awesomeminer.com",
+        "www.reddit.com"
+      ],
+      "competitors": {
+        "vnish": 9,
+        "hiveon.com": 10,
+        "emcd.io": 30,
+        "awesomeminer.com": 2
+      },
+      "organic_items_returned": 91,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": {
+        "impressions": 80,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 23.6,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/firmwares/antminer",
+            "impressions": 60,
+            "avg_position": 22.1
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares",
+            "impressions": 46,
+            "avg_position": 37.3
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares/asic-T9-plus",
+            "impressions": 29,
+            "avg_position": 67.7
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "whatsminer firmware",
+      "cluster": "whatsminer-firmware",
+      "priority": "P0",
+      "search_volume_us": 20,
+      "target_url": "/en/firmwares/whatsminer-series-m3x",
+      "status": "ranked",
+      "position": 4,
+      "position_absolute": 4,
+      "ranking_url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 4,
+          "rank_absolute": 4,
+          "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+        },
+        {
+          "rank_group": 14,
+          "rank_absolute": 17,
+          "url": "https://bixbit.io/en/firmwares"
+        },
+        {
+          "rank_group": 26,
+          "rank_absolute": 30,
+          "url": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series"
+        },
+        {
+          "rank_group": 47,
+          "rank_absolute": 53,
+          "url": "https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware"
+        },
+        {
+          "rank_group": 63,
+          "rank_absolute": 71,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool"
+        },
+        {
+          "rank_group": 70,
+          "rank_absolute": 79,
+          "url": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware"
+        },
+        {
+          "rank_group": 76,
+          "rank_absolute": 85,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware"
+        },
+        {
+          "rank_group": 80,
+          "rank_absolute": 90,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update"
+        },
+        {
+          "rank_group": 85,
+          "rank_absolute": 95,
+          "url": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": 3,
+      "top3": [
+        "www.whatsminer.com",
+        "www.whatsminer.com",
+        "www.zeusbtc.com"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": null,
+        "luxor.tech": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": {
+          "rank_group": 19,
+          "domain": "www.awesomeminer.com"
+        }
+      },
+      "organic_items_returned": 85,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": {
+        "impressions": 93,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 9.4,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+            "impressions": 64,
+            "avg_position": 3.9
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares",
+            "impressions": 49,
+            "avg_position": 21.2
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+            "impressions": 49,
+            "avg_position": 15.6
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "bitmain firmware",
+      "cluster": "antminer-firmware",
+      "priority": "P0",
+      "search_volume_us": 140,
+      "target_url": "/en/firmwares/antminer",
+      "status": "ranked",
+      "position": 17,
+      "position_absolute": 20,
+      "ranking_url": "https://bixbit.io/en/firmwares/antminer",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 17,
+          "rank_absolute": 20,
+          "url": "https://bixbit.io/en/firmwares/antminer"
+        },
+        {
+          "rank_group": 44,
+          "rank_absolute": 50,
+          "url": "https://bixbit.io/en/firmwares"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": 45,
+      "top3": [
+        "shop.bitmain.com",
+        "service.bitmain.com",
+        "www.youtube.com"
+      ],
+      "competitors": {
+        "braiins.com": 13,
+        "vnish": 6,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": 12,
+        "minerstat.com": null,
+        "liquidstack.com": null,
+        "engineeredfluids.com": null
+      },
+      "organic_items_returned": 85,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [],
+      "notes": "Attempt 1 (default AI-mode response) returned only 17 organic items; attempt 2 used noAiMode=true (full schema) and returned 85 (kept). The AI-optimized MCP output appears to be the cause of earlier truncation.",
+      "gsc_28d_us": {
+        "impressions": 6,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 45.7,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/firmwares",
+            "impressions": 4,
+            "avg_position": 51.2
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares/antminer",
+            "impressions": 2,
+            "avg_position": 34.5
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "antminer custom firmware",
+      "cluster": "antminer-firmware",
+      "priority": "P0",
+      "search_volume_us": 10,
+      "target_url": "/en/firmwares/antminer",
+      "status": "not_found_short_serp",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "www.reddit.com",
+        "bitcointalk.org",
+        "www.youtube.com"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": null,
+        "minerstat.com": null,
+        "liquidstack.com": null,
+        "engineeredfluids.com": null
+      },
+      "organic_items_returned": 19,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [],
+      "notes": "Google returned a genuinely short SERP (pages_count=2) in full-schema mode; attempt 2 returned 11. Kept attempt 1 (19).",
+      "gsc_28d_us": {
+        "impressions": 32,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 12.3,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/firmwares/antminer",
+            "impressions": 27,
+            "avg_position": 10.3
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares",
+            "impressions": 18,
+            "avg_position": 26.9
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares/asic-s19",
+            "impressions": 8,
+            "avg_position": 60.6
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "custom firmware antminer",
+      "cluster": "antminer-firmware",
+      "priority": "P0",
+      "search_volume_us": null,
+      "target_url": "/en/firmwares/antminer",
+      "status": "ranked",
+      "position": 5,
+      "position_absolute": 7,
+      "ranking_url": "https://bixbit.io/en/firmwares/antminer",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 5,
+          "rank_absolute": 7,
+          "url": "https://bixbit.io/en/firmwares/antminer"
+        },
+        {
+          "rank_group": 25,
+          "rank_absolute": 30,
+          "url": "https://bixbit.io/en/firmwares"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "www.reddit.com",
+        "braiins.com",
+        "www.awesomeminer.com"
+      ],
+      "competitors": {
+        "braiins.com": {
+          "rank_group": 2,
+          "domain": "braiins.com"
+        },
+        "vnish": {
+          "rank_group": 11,
+          "domain": "vnish-firmware.com"
+        },
+        "luxor.tech": null,
+        "epicblockchain.io": {
+          "rank_group": 8,
+          "domain": "epicblockchain.io"
+        },
+        "emcd.io": {
+          "rank_group": 39,
+          "domain": "emcd.io"
+        },
+        "hiveon.com": {
+          "rank_group": 20,
+          "domain": "hiveon.com"
+        },
+        "awesomeminer.com": {
+          "rank_group": 3,
+          "domain": "www.awesomeminer.com"
+        }
+      },
+      "organic_items_returned": 83,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "whatsminer custom firmware",
+      "cluster": "whatsminer-firmware",
+      "priority": "P0",
+      "search_volume_us": 10,
+      "target_url": "/en/firmwares/whatsminer-series-m3x",
+      "status": "ranked",
+      "position": 2,
+      "position_absolute": 3,
+      "ranking_url": "https://bixbit.io/en/firmwares",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 2,
+          "rank_absolute": 3,
+          "url": "https://bixbit.io/en/firmwares"
+        },
+        {
+          "rank_group": 6,
+          "rank_absolute": 8,
+          "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+        },
+        {
+          "rank_group": 23,
+          "rank_absolute": 28,
+          "url": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series"
+        },
+        {
+          "rank_group": 44,
+          "rank_absolute": 51,
+          "url": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware"
+        },
+        {
+          "rank_group": 58,
+          "rank_absolute": 67,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update"
+        },
+        {
+          "rank_group": 65,
+          "rank_absolute": 74,
+          "url": "https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware"
+        },
+        {
+          "rank_group": 70,
+          "rank_absolute": 80,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool"
+        },
+        {
+          "rank_group": 71,
+          "rank_absolute": 81,
+          "url": "https://bixbit.io/en/blog/post/how-to-overclock-whatsminer-asics-over-50"
+        },
+        {
+          "rank_group": 72,
+          "rank_absolute": 82,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-3-installing-the-updated-version"
+        },
+        {
+          "rank_group": 73,
+          "rank_absolute": 83,
+          "url": "https://bixbit.io/ru/firmwares/whatsminer-all-series"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "bitcointalk.org",
+        "bixbit.io",
+        "www.whatsminer.com"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": null,
+        "luxor.tech": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": {
+          "rank_group": 11,
+          "domain": "www.awesomeminer.com"
+        }
+      },
+      "organic_items_returned": 73,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [
+        "url_mismatch_vs_target"
+      ],
+      "notes": null,
+      "gsc_28d_us": {
+        "impressions": 66,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 5.0,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/firmwares",
+            "impressions": 50,
+            "avg_position": 2.0
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+            "impressions": 50,
+            "avg_position": 7.7
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+            "impressions": 42,
+            "avg_position": 15.6
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "braiins os",
+      "cluster": "antminer-firmware",
+      "priority": "P0",
+      "search_volume_us": 210,
+      "target_url": "comparison page (new)",
+      "status": "not_in_top100",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "braiins.com",
+        "braiins.com",
+        "braiins.com"
+      ],
+      "competitors": {
+        "braiins.com": {
+          "rank_group": 1,
+          "domain": "braiins.com"
+        },
+        "vnish": null,
+        "luxor.tech": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": null
+      },
+      "organic_items_returned": 93,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "vnish firmware",
+      "cluster": "antminer-firmware",
+      "priority": "P0",
+      "search_volume_us": 140,
+      "target_url": "comparison page (new)",
+      "status": "not_found_short_serp",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "vnish-firmware.com",
+        "vnish-official.com",
+        "vnish.com"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": {
+          "rank_group": 1,
+          "domain": "vnish-firmware.com"
+        },
+        "luxor.tech": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": null
+      },
+      "organic_items_returned": 76,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [
+        "possibly_truncated_ai_mode"
+      ],
+      "notes": null,
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "best antminer custom firmware",
+      "cluster": "antminer-firmware",
+      "priority": "P0",
+      "search_volume_us": null,
+      "target_url": "comparison page (new)",
+      "status": "not_found_short_serp",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "bitcointalk.org",
+        "www.reddit.com",
+        "www.youtube.com"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": null,
+        "minerstat.com": null,
+        "liquidstack.com": null,
+        "engineeredfluids.com": null
+      },
+      "organic_items_returned": 14,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [],
+      "notes": "Short SERP (pages_count=2) both attempts, 14 organic each; kept attempt 1.",
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "antminer firmware comparison",
+      "cluster": "antminer-firmware",
+      "priority": "P0",
+      "search_volume_us": null,
+      "target_url": "comparison page (new)",
+      "status": "ranked",
+      "position": 11,
+      "position_absolute": 14,
+      "ranking_url": "https://bixbit.io/en/firmwares/antminer",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 11,
+          "rank_absolute": 14,
+          "url": "https://bixbit.io/en/firmwares/antminer"
+        },
+        {
+          "rank_group": 36,
+          "rank_absolute": 41,
+          "url": "https://bixbit.io/en/firmwares"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "www.reddit.com",
+        "d-central.tech",
+        "www.awesomeminer.com"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": {
+          "rank_group": 16,
+          "domain": "vni.sh"
+        },
+        "luxor.tech": null,
+        "epicblockchain.io": {
+          "rank_group": 4,
+          "domain": "epicblockchain.io"
+        },
+        "emcd.io": {
+          "rank_group": 28,
+          "domain": "emcd.io"
+        },
+        "hiveon.com": null,
+        "awesomeminer.com": {
+          "rank_group": 3,
+          "domain": "www.awesomeminer.com"
+        }
+      },
+      "organic_items_returned": 96,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": "Attempts 1-2 returned 40101 Internal SE Server Error; 3rd OK",
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "antminer dev fee firmware",
+      "cluster": "antminer-firmware",
+      "priority": "P0",
+      "search_volume_us": null,
+      "target_url": "dev-fee / security page (new)",
+      "status": "ranked",
+      "position": 5,
+      "position_absolute": 6,
+      "ranking_url": "https://bixbit.io/en/firmwares",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 5,
+          "rank_absolute": 6,
+          "url": "https://bixbit.io/en/firmwares"
+        },
+        {
+          "rank_group": 25,
+          "rank_absolute": 30,
+          "url": "https://bixbit.io/en/firmwares/antminer"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "www.reddit.com",
+        "www.awesomeminer.com",
+        "d-central.tech"
+      ],
+      "competitors": {
+        "braiins.com": {
+          "rank_group": 6,
+          "domain": "braiins.com"
+        },
+        "vnish": {
+          "rank_group": 19,
+          "domain": "vni.sh"
+        },
+        "luxor.tech": null,
+        "epicblockchain.io": {
+          "rank_group": 7,
+          "domain": "epicblockchain.io"
+        },
+        "emcd.io": null,
+        "hiveon.com": {
+          "rank_group": 17,
+          "domain": "hiveon.com"
+        },
+        "awesomeminer.com": {
+          "rank_group": 2,
+          "domain": "www.awesomeminer.com"
+        }
+      },
+      "organic_items_returned": 65,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": "1st attempt 40101 Internal SE Server Error; retry OK",
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "antminer firmware security",
+      "cluster": "antminer-firmware",
+      "priority": "P0",
+      "search_volume_us": null,
+      "target_url": "dev-fee / security page (new)",
+      "status": "ranked",
+      "position": 8,
+      "position_absolute": 9,
+      "ranking_url": "https://bixbit.io/en/firmwares/antminer",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 8,
+          "rank_absolute": 9,
+          "url": "https://bixbit.io/en/firmwares/antminer"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "support.bitmain.com",
+        "d-central.tech",
+        "github.com"
+      ],
+      "competitors": {},
+      "organic_items_returned": 8,
+      "api_status": 40106,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [
+        "partial_serp_40106"
+      ],
+      "notes": "Partial results: DataForSEO could not retrieve some SERP pages; only 8 organic items returned",
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "whatsminer tool",
+      "cluster": "whatsminer-firmware",
+      "priority": "P0",
+      "search_volume_us": 50,
+      "target_url": "/en/firmwares/whatsminer-series-m3x",
+      "status": "ranked",
+      "position": 10,
+      "position_absolute": 12,
+      "ranking_url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 10,
+          "rank_absolute": 12,
+          "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+        },
+        {
+          "rank_group": 23,
+          "rank_absolute": 26,
+          "url": "https://bixbit.io/en/firmwares"
+        },
+        {
+          "rank_group": 34,
+          "rank_absolute": 38,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": 16,
+      "top3": [
+        "www.whatsminer.com",
+        "www.whatsminer.com",
+        "www.zeusbtc.com"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": null,
+        "minerstat.com": null,
+        "liquidstack.com": null,
+        "engineeredfluids.com": null
+      },
+      "organic_items_returned": 58,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [],
+      "notes": "Attempt 1 returned 37 organic (bixbit absent, SERP flooded with play.google.com locale variants); attempt 2 returned 58 (kept). Unlinked brand mention: cryptonews.net (rank_group 12) snippet mentions 'BiXBiT website'. Still <60 after 2 attempts (pages_count=6).",
+      "gsc_28d_us": {
+        "impressions": 7,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 26.7,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+            "impressions": 3,
+            "avg_position": 31.3
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares",
+            "impressions": 3,
+            "avg_position": 22.3
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+            "impressions": 3,
+            "avg_position": 39.3
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "microbt firmware",
+      "cluster": "whatsminer-firmware",
+      "priority": "P0",
+      "search_volume_us": 10,
+      "target_url": "/en/firmwares/whatsminer-series-m3x",
+      "status": "ranked",
+      "position": 2,
+      "position_absolute": 2,
+      "ranking_url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 2,
+          "rank_absolute": 2,
+          "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+        },
+        {
+          "rank_group": 17,
+          "rank_absolute": 18,
+          "url": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware"
+        },
+        {
+          "rank_group": 29,
+          "rank_absolute": 30,
+          "url": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series"
+        },
+        {
+          "rank_group": 41,
+          "rank_absolute": 42,
+          "url": "https://bixbit.io/en/firmwares"
+        },
+        {
+          "rank_group": 45,
+          "rank_absolute": 46,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool"
+        },
+        {
+          "rank_group": 50,
+          "rank_absolute": 51,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update"
+        },
+        {
+          "rank_group": 51,
+          "rank_absolute": 52,
+          "url": "https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware"
+        },
+        {
+          "rank_group": 53,
+          "rank_absolute": 54,
+          "url": "https://bixbit.io/en"
+        },
+        {
+          "rank_group": 54,
+          "rank_absolute": 55,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware"
+        },
+        {
+          "rank_group": 55,
+          "rank_absolute": 56,
+          "url": "https://bixbit.io/en/firmwares/antminer"
+        },
+        {
+          "rank_group": 56,
+          "rank_absolute": 57,
+          "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card"
+        },
+        {
+          "rank_group": 57,
+          "rank_absolute": 58,
+          "url": "https://bixbit.io/en/documentation"
+        },
+        {
+          "rank_group": 58,
+          "rank_absolute": 59,
+          "url": "https://bixbit.io/ru/firmwares"
+        },
+        {
+          "rank_group": 59,
+          "rank_absolute": 60,
+          "url": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "www.whatsminer.com",
+        "bixbit.io",
+        "www.zeusbtc.com"
+      ],
+      "competitors": {
+        "braiins.com": 21,
+        "vnish": {
+          "rank_group": 27,
+          "domain": "vnish.com"
+        }
+      },
+      "organic_items_returned": 59,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "antminer s19 firmware",
+      "cluster": "antminer-firmware",
+      "priority": "P1",
+      "search_volume_us": 10,
+      "target_url": "/en/firmwares/antminer",
+      "status": "ranked",
+      "position": 8,
+      "position_absolute": 9,
+      "ranking_url": "https://bixbit.io/en/firmwares/antminer",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 8,
+          "rank_absolute": 9,
+          "url": "https://bixbit.io/en/firmwares/antminer"
+        },
+        {
+          "rank_group": 55,
+          "rank_absolute": 61,
+          "url": "https://bixbit.io/ru/firmwares/antminer"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "shop.bitmain.com",
+        "vnish-firmware.com",
+        "www.zeusbtc.com"
+      ],
+      "competitors": {
+        "braiins.com": 9,
+        "vnish": {
+          "rank_group": 2,
+          "domain": "vnish-firmware.com"
+        },
+        "emcd.io": 28
+      },
+      "organic_items_returned": 79,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": {
+        "impressions": 48,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 17.2,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/firmwares/antminer",
+            "impressions": 45,
+            "avg_position": 15.2
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares/asic-s19",
+            "impressions": 10,
+            "avg_position": 51.9
+          },
+          {
+            "page": "https://bixbit.io/ru/firmwares/antminer",
+            "impressions": 3,
+            "avg_position": 52
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "antminer s21 firmware",
+      "cluster": "antminer-firmware",
+      "priority": "P1",
+      "search_volume_us": 10,
+      "target_url": "/en/firmwares/antminer",
+      "status": "not_found_short_serp",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "shop.bitmain.com",
+        "www.awesomeminer.com",
+        "www.zeusbtc.com"
+      ],
+      "competitors": {
+        "braiins.com": 13,
+        "vnish": 12,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": 2,
+        "minerstat.com": null,
+        "liquidstack.com": null,
+        "engineeredfluids.com": null
+      },
+      "organic_items_returned": 58,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [],
+      "notes": "Attempt 2 returned only 6 organic; kept attempt 1 (58). vnish first hit = vnish.ru (rg12); also vni.sh, vnish.pro, vnish.us, vnish.info present.",
+      "gsc_28d_us": {
+        "impressions": 20,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 22.3,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/firmwares",
+            "impressions": 17,
+            "avg_position": 28.7
+          },
+          {
+            "page": "https://bixbit.io/en/firmwares/antminer",
+            "impressions": 7,
+            "avg_position": 15.6
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "immersion cooling mining",
+      "cluster": "immersion-cooling-mining",
+      "priority": "P0",
+      "search_volume_us": 20,
+      "target_url": "/en/asics-cooling/immersion-systems",
+      "status": "ranked",
+      "position": 12,
+      "position_absolute": 17,
+      "ranking_url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 12,
+          "rank_absolute": 17,
+          "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining"
+        },
+        {
+          "rank_group": 31,
+          "rank_absolute": 39,
+          "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": 14,
+      "top3": [
+        "cryptominerbros.com",
+        "bitmars.io",
+        "www.mara.com"
+      ],
+      "competitors": {
+        "braiins.com": 11,
+        "vnish": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": null,
+        "minerstat.com": null,
+        "liquidstack.com": null,
+        "engineeredfluids.com": 16
+      },
+      "organic_items_returned": 94,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [
+        "url_mismatch_vs_target"
+      ],
+      "notes": "bixbit.io same URL appears twice (rg12 and rg31).",
+      "gsc_28d_us": {
+        "impressions": 28,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 13.9,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+            "impressions": 26,
+            "avg_position": 14.3
+          },
+          {
+            "page": "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air",
+            "impressions": 3,
+            "avg_position": 14
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "asic immersion cooling",
+      "cluster": "immersion-cooling-mining",
+      "priority": "P0",
+      "search_volume_us": 10,
+      "target_url": "/en/asics-cooling/immersion-systems",
+      "status": "not_found_short_serp",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": {
+        "rank_group": 8,
+        "rank_absolute": 12,
+        "url": "https://bixbit.io/en/products"
+      },
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "bitcoinmagazine.com",
+        "www.linkedin.com",
+        "www.reddit.com"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": 18,
+        "awesomeminer.com": null,
+        "minerstat.com": null,
+        "liquidstack.com": null,
+        "engineeredfluids.com": null
+      },
+      "organic_items_returned": 32,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [
+        "volatile"
+      ],
+      "notes": "Attempt 1 returned 31 organic and DID include bixbit.io/en/products at rank_group 8 (rank_absolute 12); attempt 2 returned 32 (kept per max-items rule) without bixbit. Ranking is volatile. Short SERP (pages_count=4).",
+      "gsc_28d_us": {
+        "impressions": 51,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 24.5,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/products",
+            "impressions": 38,
+            "avg_position": 9.6
+          },
+          {
+            "page": "https://bixbit.io/en/products/cell",
+            "impressions": 19,
+            "avg_position": 84.5
+          },
+          {
+            "page": "https://bixbit.io/en/products/coolant",
+            "impressions": 19,
+            "avg_position": 73.1
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "immersion cooling",
+      "cluster": "immersion-cooling-mining",
+      "priority": "P1",
+      "search_volume_us": 1600,
+      "target_url": "/en/blog/post/how-does-immersion-cooling-work",
+      "status": "ranked",
+      "position": 33,
+      "position_absolute": 49,
+      "ranking_url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 33,
+          "rank_absolute": 49,
+          "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": 32,
+      "top3": [
+        "submer.com",
+        "www.parkplacetechnologies.com",
+        "en.wikipedia.org"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": null,
+        "minerstat.com": null,
+        "liquidstack.com": 26,
+        "engineeredfluids.com": 44
+      },
+      "organic_items_returned": 93,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [],
+      "notes": "Attempt 1 returned 51 organic (no bixbit); attempt 2 returned 93 (kept).",
+      "gsc_28d_us": {
+        "impressions": 69,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 41.2,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+            "impressions": 69,
+            "avg_position": 41.2
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "immersion computer cooling",
+      "cluster": "immersion-cooling-mining",
+      "priority": "P1",
+      "search_volume_us": 390,
+      "target_url": "/en/blog/post/how-does-immersion-cooling-work",
+      "status": "ranked",
+      "position": 15,
+      "position_absolute": 19,
+      "ranking_url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 15,
+          "rank_absolute": 19,
+          "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": 15,
+      "top3": [
+        "www.reddit.com",
+        "en.wikipedia.org",
+        "immersion-cooling.thermaltake.com"
+      ],
+      "competitors": {
+        "liquidstack.com": 21,
+        "engineeredfluids.com": {
+          "rank_group": 52,
+          "domain": "shop.engineeredfluids.com"
+        }
+      },
+      "organic_items_returned": 94,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": {
+        "impressions": 23,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 16.8,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+            "impressions": 23,
+            "avg_position": 16.8
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "what is immersion cooling",
+      "cluster": "immersion-cooling-mining",
+      "priority": "P1",
+      "search_volume_us": 90,
+      "target_url": "/en/blog/post/how-does-immersion-cooling-work",
+      "status": "ranked",
+      "position": 18,
+      "position_absolute": 25,
+      "ranking_url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 18,
+          "rank_absolute": 25,
+          "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": 19,
+      "top3": [
+        "submer.com",
+        "www.parkplacetechnologies.com",
+        "www.asperitas.com"
+      ],
+      "competitors": {
+        "liquidstack.com": 16,
+        "engineeredfluids.com": {
+          "rank_group": 33,
+          "domain": "blog.engineeredfluids.com"
+        }
+      },
+      "organic_items_returned": 91,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": {
+        "impressions": 32,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 21.0,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+            "impressions": 32,
+            "avg_position": 21.0
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "mineral oil immersion cooling",
+      "cluster": "immersion-cooling-mining",
+      "priority": "P1",
+      "search_volume_us": 20,
+      "target_url": "/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+      "status": "ranked",
+      "position": 4,
+      "position_absolute": 7,
+      "ranking_url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 4,
+          "rank_absolute": 7,
+          "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": 5,
+      "top3": [
+        "www.steoil.com",
+        "www.reddit.com",
+        "ieeexplore.ieee.org"
+      ],
+      "competitors": {
+        "engineeredfluids.com": 21
+      },
+      "organic_items_returned": 95,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": {
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 7,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+            "impressions": 4,
+            "avg_position": 7
+          },
+          {
+            "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining#Silicone%20oil",
+            "impressions": 3,
+            "avg_position": 7
+          },
+          {
+            "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining#Synthetic%20oil",
+            "impressions": 3,
+            "avg_position": 7
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "antminer mineral oil",
+      "cluster": "immersion-cooling-mining",
+      "priority": "P1",
+      "search_volume_us": 50,
+      "target_url": "/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+      "status": "not_found_short_serp",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": {
+        "rank_group": 2,
+        "rank_absolute": 6,
+        "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining"
+      },
+      "labs_position_2026_09_25": 2,
+      "top3": [
+        "www.reddit.com",
+        "www.youtube.com",
+        "www.made-in-china.com"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": 10,
+        "awesomeminer.com": null,
+        "minerstat.com": null,
+        "liquidstack.com": null,
+        "engineeredfluids.com": null
+      },
+      "organic_items_returned": 17,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [
+        "volatile"
+      ],
+      "notes": "Attempt 1: status 40106 (partial results), 7 organic, bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining at rank_group 2 (rank_absolute 6). Attempt 2: 20000, 17 organic (kept) without bixbit. SERP composition differs heavily between attempts.",
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "immersion cooling antminer",
+      "cluster": "immersion-cooling-mining",
+      "priority": "P1",
+      "search_volume_us": 20,
+      "target_url": "/en/asics-cooling/immersion-systems",
+      "status": "ranked",
+      "position": 13,
+      "position_absolute": 19,
+      "ranking_url": "https://bixbit.io/en/products",
+      "all_bixbit_urls": [
+        {
+          "rank_group": 13,
+          "rank_absolute": 19,
+          "url": "https://bixbit.io/en/products"
+        },
+        {
+          "rank_group": 47,
+          "rank_absolute": 57,
+          "url": "https://bixbit.io/en/products/cell"
+        }
+      ],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "bitmars.io",
+        "cryptominerbros.com",
+        "www.reddit.com"
+      ],
+      "competitors": {},
+      "organic_items_returned": 86,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [
+        "url_mismatch_vs_target"
+      ],
+      "notes": null,
+      "gsc_28d_us": {
+        "impressions": 26,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 16.1,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/products",
+            "impressions": 24,
+            "avg_position": 16.9
+          },
+          {
+            "page": "https://bixbit.io/en/asics-cooling",
+            "impressions": 16,
+            "avg_position": 56.2
+          },
+          {
+            "page": "https://bixbit.io/en/products/cell",
+            "impressions": 16,
+            "avg_position": 62.9
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "single phase vs two phase immersion cooling",
+      "cluster": "immersion-cooling-mining",
+      "priority": "P1",
+      "search_volume_us": 20,
+      "target_url": "single-phase page (new)",
+      "status": "not_in_top100",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "submer.com",
+        "www.engineeredfluids.com",
+        "accelsius.com"
+      ],
+      "competitors": {
+        "engineeredfluids.com": 2
+      },
+      "organic_items_returned": 94,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "asic monitor",
+      "cluster": "mining-fleet-monitoring",
+      "priority": "P0",
+      "search_volume_us": 70,
+      "target_url": "/en/ams",
+      "status": "not_found_short_serp",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": 7,
+      "top3": [
+        "www.reddit.com",
+        "bitcointalk.org",
+        "bitcointalk.org"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": null,
+        "minerstat.com": null,
+        "liquidstack.com": null,
+        "engineeredfluids.com": null
+      },
+      "organic_items_returned": 9,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [],
+      "notes": "Google returns a tiny SERP (se_results_count=10, 1 page) both attempts; kept attempt 1. minerstat appears only via bitcointalk.org threads, not minerstat.com.",
+      "gsc_28d_us": {
+        "impressions": 32,
+        "clicks": 0,
+        "ctr": 0,
+        "avg_position": 11.7,
+        "pages": [
+          {
+            "page": "https://bixbit.io/en/ams",
+            "impressions": 28,
+            "avg_position": 7.5
+          },
+          {
+            "page": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+            "impressions": 4,
+            "avg_position": 41.2
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "mining software",
+      "cluster": "mining-fleet-monitoring",
+      "priority": "P0",
+      "search_volume_us": 260,
+      "target_url": "/en/ams",
+      "status": "not_in_top100",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "mitti.com",
+        "www.nicehash.com",
+        "www.kryptex.com"
+      ],
+      "competitors": {
+        "awesomeminer.com": 5,
+        "hiveon.com": 9,
+        "minerstat.com": 10
+      },
+      "organic_items_returned": 99,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "mining monitoring software",
+      "cluster": "mining-fleet-monitoring",
+      "priority": "P0",
+      "search_volume_us": 10,
+      "target_url": "/en/ams",
+      "status": "not_in_top100",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "www.awesomeminer.com",
+        "hexagon.com",
+        "github.com"
+      ],
+      "competitors": {
+        "awesomeminer.com": 1,
+        "braiins.com": 4,
+        "minerstat.com": 9
+      },
+      "organic_items_returned": 99,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "antminer dashboard",
+      "cluster": "mining-fleet-monitoring",
+      "priority": "P1",
+      "search_volume_us": 30,
+      "target_url": "/en/ams",
+      "status": "not_found_short_serp",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "www.bitmain.com",
+        "github.com",
+        "www.cryptominerbros.com"
+      ],
+      "competitors": {
+        "braiins.com": null,
+        "vnish": null,
+        "epicblockchain.io": null,
+        "emcd.io": null,
+        "hiveon.com": null,
+        "awesomeminer.com": 12,
+        "minerstat.com": 6,
+        "liquidstack.com": null,
+        "engineeredfluids.com": null
+      },
+      "organic_items_returned": 54,
+      "api_status": 20000,
+      "fetch_mode": "rerun_full_mode",
+      "flags": [],
+      "notes": "Attempt 1 returned 13 organic; attempt 2 returned 54 (kept). awesomeminer first hit is support.awesomeminer.com (rg12); www.awesomeminer.com at rg19.",
+      "gsc_28d_us": null
+    },
+    {
+      "keyword": "minerstat alternative",
+      "cluster": "mining-fleet-monitoring",
+      "priority": "P1",
+      "search_volume_us": 10,
+      "target_url": "AMS vs Minerstat page (new)",
+      "status": "not_in_top100",
+      "position": null,
+      "position_absolute": null,
+      "ranking_url": null,
+      "all_bixbit_urls": [],
+      "alt_observation": null,
+      "labs_position_2026_09_25": null,
+      "top3": [
+        "simplemining.net",
+        "minerstat.com",
+        "www.g2.com"
+      ],
+      "competitors": {
+        "minerstat.com": 2
+      },
+      "organic_items_returned": 98,
+      "api_status": 20000,
+      "fetch_mode": "first_pass_ai_mode",
+      "flags": [],
+      "notes": null,
+      "gsc_28d_us": null
+    }
+  ]
+}

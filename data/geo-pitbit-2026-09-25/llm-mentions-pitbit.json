@@ -1,0 +1,9 @@
+{"date":"2026-09-25","endpoint":"/v3/ai_optimization/llm_mentions/search/live","note":"US/en (default location; chat_gpt is US/en only)",
+"calls":[
+{"task_id":"09251435-2548-0634-0000-d56ba0b6db4a","platform":"google","target":{"domain":"pitbitecosystem.com","search_scope":["any"],"include_subdomains":true},"total_count":0},
+{"task_id":"09251435-2548-0634-0000-1a21409642ff","platform":"google","target":{"domain":"pitbit.online","search_scope":["any"],"include_subdomains":true},"total_count":0},
+{"task_id":"09251435-2548-0634-0000-b21f4c0d1fac","platform":"chat_gpt","target":{"domain":"pitbitecosystem.com","search_scope":["any"],"include_subdomains":true},"total_count":0},
+{"task_id":"09251435-2548-0634-0000-3461df81ec8b","platform":"chat_gpt","target":{"domain":"pitbit.online","search_scope":["any"],"include_subdomains":true},"total_count":0},
+{"task_id":"09251435-2548-0634-0000-bfe6e557ebf0","platform":"google","target":{"keyword":"pitbit","search_scope":["answer"],"match_type":"partial_match"},"total_count":465,"result":"NOISE: top-20 by volume are unrelated (halloween, 'pit bitoca', ducks, lychee); 0 of 20 mention PiTBiT. Raw dump discarded."}
+],
+"comparison":"bixbit.io in Google AIO sources: 49 queries (dfs-llm-mentions-google-bixbit-sources-2026-09-25.json); bixbit.tech in ChatGPT: 3 answers"}

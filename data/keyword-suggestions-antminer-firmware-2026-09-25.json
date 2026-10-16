@@ -1,0 +1,5522 @@
+{
+  "meta": {
+    "source": "DataForSEO Labs — google/keyword_suggestions/live",
+    "request_id": "09250938-2548-0399-0000-332ba14b53e3",
+    "retrieved": "2026-09-25",
+    "seed": "antminer firmware",
+    "location_code": 2840,
+    "location": "United States",
+    "language_code": "en",
+    "include_seed_keyword": true,
+    "order_by": "keyword_info.search_volume,desc",
+    "total_count": 186,
+    "items_returned": 186,
+    "note": "AI-optimized response subset from DataForSEO MCP (.ai endpoint)"
+  },
+  "items": [
+    {
+      "keyword": "antminer firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 20:40:35 +00:00",
+        "competition": 0.08,
+        "competition_level": "LOW",
+        "cpc": 70.51,
+        "search_volume": 50,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-08": 50,
+          "2026-07": 20,
+          "2026-06": 50,
+          "2026-05": 50,
+          "2026-04": 30,
+          "2026-03": 40,
+          "2026-02": 50,
+          "2026-01": 70,
+          "2025-12": 50,
+          "2025-11": 70,
+          "2025-10": 50,
+          "2025-09": 50
+        },
+        "search_volume_trend": {
+          "monthly": 150
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 6,
+        "detected_language": "en",
+        "words_count": 2
+      },
+      "avg_backlinks_info": {
+        "backlinks": 341.9,
+        "dofollow": 147.4,
+        "referring_pages": 163.3,
+        "referring_domains": 16.1,
+        "referring_main_domains": 14,
+        "rank": 84.3,
+        "main_domain_rank": 501.9,
+        "last_updated_time": "2026-08-13 14:31:22 +00:00"
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 07:38:08 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 07:45:42 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 20,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 20,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 20,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 30,
+          "2025-12": 40,
+          "2025-11": 30,
+          "2025-10": 30,
+          "2025-09": 50
+        },
+        "search_volume_trend": {
+          "monthly": -50,
+          "yearly": -67
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "avg_backlinks_info": {
+        "backlinks": 190,
+        "dofollow": 36,
+        "referring_pages": 36.7,
+        "referring_domains": 3.2,
+        "referring_main_domains": 2.8,
+        "rank": 70.6,
+        "main_domain_rank": 422.9,
+        "last_updated_time": "2026-02-26 12:32:35 +00:00"
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-28 23:48:51 +00:00"
+      }
+    },
+    {
+      "keyword": "firmware antminer s9",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 04:10:04 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 20,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 20,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 20,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 30,
+          "2025-12": 40,
+          "2025-11": 30,
+          "2025-10": 30,
+          "2025-09": 50
+        },
+        "search_volume_trend": {
+          "monthly": -50,
+          "yearly": -67
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "avg_backlinks_info": {
+        "backlinks": 22.6,
+        "dofollow": 15.7,
+        "referring_pages": 20.6,
+        "referring_domains": 9.5,
+        "referring_main_domains": 7.9,
+        "rank": 67.1,
+        "main_domain_rank": 445.2,
+        "last_updated_time": "2026-02-25 20:38:33 +00:00"
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 07:35:55 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s7 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 03:43:50 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-03": 10,
+          "2026-02": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 45,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 02:24:26 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t17 overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 00:00:06 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188
+        ],
+        "monthly_searches": {
+          "2025-09": 20
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 01:14:00 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9i firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 03:46:12 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "last_updated_time": "2026-04-29 04:47:34 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-18 00:07:41 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 04:37:27 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 se firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 08:39:31 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-01": 10,
+          "2025-11": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "monthly": -100
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9se firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 59,
+        "detected_language": "es",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 05:10:50 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s15 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 16:21:22 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-03": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 02:26:54 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z15 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 10:59:54 +00:00",
+        "competition": 0.1,
+        "competition_level": "LOW",
+        "cpc": 26.55,
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 30,
+          "2025-10": 20,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "pt",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 05:19:22 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s17 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 08:40:45 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-03": 10
+        },
+        "search_volume_trend": {
+          "monthly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:08:36 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t17 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 21:22:35 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2025-11": 10,
+          "2025-09": 20
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 12,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 02:43:14 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer firmware upgrade",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 12:30:45 +00:00",
+        "competition": 0.04,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 55,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "foreign_intent": [
+          "transactional",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 04:39:18 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s15 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 15:21:36 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-03": 10,
+          "2025-12": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 04:17:34 +00:00"
+      }
+    },
+    {
+      "keyword": "bitmain antminer s9 firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 16:26:17 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2025-12": 10,
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional",
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 04:13:07 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9k firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 06:27:06 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-05": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 54,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-05-08 08:06:05 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 21:02:08 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-03": 10,
+          "2025-12": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 firmware overclock",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 58,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 00:42:59 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 dual firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 10:22:03 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2026-04": 10,
+          "2026-02": 10,
+          "2026-01": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 05:30:51 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s19 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 01:06:38 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-04": 10,
+          "2026-03": 20,
+          "2025-09": 20
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 57,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 08:37:50 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer e9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 15:12:04 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184,
+          13060
+        ],
+        "monthly_searches": {
+          "2026-04": 10,
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "nl",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 02:11:30 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s17 pro firmware sd card",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 19:03:24 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12194,
+          13079
+        ],
+        "monthly_searches": {
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 6
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:27:43 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9j overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 19:49:09 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188
+        ],
+        "monthly_searches": {
+          "2026-01": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 11:12:10 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s7 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 15:33:30 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ],
+        "monthly_searches": {
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 10:19:50 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer l7 firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 22:04:30 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-04": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 04:18:19 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 04:49:58 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 57,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 07:36:27 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 18:29:48 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-06": 10,
+          "2026-04": 10,
+          "2026-02": 10,
+          "2025-11": 20,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 04:18:38 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer l7 overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 06:32:09 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2025-12": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:42:59 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9se firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 18:02:00 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2026-02": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 59,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 04:00:07 +00:00"
+      }
+    },
+    {
+      "keyword": "bitmain antminer s9 firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 10:47:26 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2025-12": 10
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-25 19:14:12 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer firmware sd card",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 17:14:09 +00:00",
+        "competition": 0.29,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12194,
+          13079
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 07:23:32 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z9 mini firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 09:44:42 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2025-12": 10,
+          "2025-11": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "de",
+        "is_another_language": true,
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-25 14:11:13 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d7 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 12:35:20 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 02:58:30 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s19 firmware sd card",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 17:53:57 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12194,
+          13079
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-25 19:10:12 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 19:24:55 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 20
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "quarterly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 58,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 02:34:38 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s19j pro firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 19:50:31 +00:00",
+        "competition": 0.05,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 20,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 20
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 18,
+        "detected_language": "de",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 05:23:44 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s21 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 13:23:48 +00:00",
+        "competition": 0.09,
+        "competition_level": "LOW",
+        "cpc": 16.46,
+        "search_volume": 10,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2026-08": 20,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "monthly": 100,
+          "quarterly": 100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 15:53:43 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer ks3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 09:43:26 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-04": 10,
+          "2025-12": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 04:18:19 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 nicehash firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 20:19:28 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2025-12": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 firmware nicehash",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:54:57 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s17 firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 13:42:46 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-04": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 04:14:39 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 08:30:45 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13816
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 20,
+          "2026-03": 10,
+          "2026-02": 20,
+          "2026-01": 10,
+          "2025-12": 20,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 06:13:53 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t17 firmware sd card",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 15:36:23 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12194,
+          13079
+        ],
+        "monthly_searches": {
+          "2026-07": 10
+        },
+        "search_volume_trend": {
+          "monthly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 06:43:53 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9se custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 05:54:41 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 se custom firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 02:56:59 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9k custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 06:46:06 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-01": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:52:41 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9j firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 15:26:33 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-11": 10,
+          "2025-09": 20
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 04:37:27 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 latest firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 03:54:54 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 03:01:51 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 16:18:38 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-02": 10,
+          "2026-01": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 03:46:26 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s3 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 03:29:26 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-01": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-25 10:19:50 +00:00"
+      }
+    },
+    {
+      "keyword": "bitmain antminer s9i firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 04:49:20 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184,
+          13060
+        ],
+        "monthly_searches": {
+          "2026-04": 10,
+          "2026-02": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-25 02:48:13 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer v9 firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 18:57:03 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 02:26:54 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer ks5 pro firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 23:46:08 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2025-12": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "fr",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-05-11 10:13:35 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 21:25:03 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-04": 10,
+          "2025-11": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:51:09 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer k5 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 18:39:49 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 05:10:50 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t17 firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 02:03:51 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2025-09": 20
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-25 11:52:43 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer l3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 02:58:24 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-04": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-10": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 43,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 06:02:07 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 best firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 20:56:40 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "best antminer s9 firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 57,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "commercial",
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 02:26:54 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer v9 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 09:40:13 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-28 23:49:20 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer e9 pro firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 01:10:58 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "quarterly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "pl",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 01:58:32 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer ks5 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 11:42:49 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ],
+        "monthly_searches": {
+          "2026-06": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2025-12": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "quarterly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "fr",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 04:18:19 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s17 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 13:56:39 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 30
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 40,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:31:22 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s17 pro firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 05:44:55 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 20
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:09:44 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 upgrade firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 06:14:09 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-03": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 00:08:36 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s5 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 20:44:13 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 04:40:11 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s19 pro firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 14:17:47 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 20,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 20
+        },
+        "search_volume_trend": {
+          "monthly": -50
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 50,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 00:17:15 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s19 overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 16:42:35 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-03": 10,
+          "2026-01": 10,
+          "2025-11": 10
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "quarterly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 14:35:01 +00:00"
+      }
+    },
+    {
+      "keyword": "bitmain antminer s9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 01:59:36 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184,
+          13060
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2026-03": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 04:34:42 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z11 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 02:37:53 +00:00",
+        "competition": 0.05,
+        "competition_level": "LOW",
+        "cpc": 44.86,
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 20,
+          "2025-11": 20,
+          "2025-10": 20
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 06:52:05 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 20:29:43 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-05": 10,
+          "2026-03": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 20
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 57,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "last_updated_time": "2026-04-29 04:39:56 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer blissz firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 15:14:24 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "hu",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 06:15:43 +00:00"
+      }
+    },
+    {
+      "keyword": "bitmain antminer firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 00:38:46 +00:00",
+        "competition": 0.07,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational",
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 04:44:10 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t15 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 03:57:07 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-03": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:27:43 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 05:29:03 +00:00",
+        "competition": 0.04,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "de",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 05:14:58 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 18:46:29 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184,
+          13060
+        ],
+        "monthly_searches": {
+          "2026-03": 10,
+          "2025-09": 20
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 08:37:50 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 13.5 t firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 18:23:59 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "monthly_searches": {
+          "2025-10": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 14:11:12 +00:00"
+      }
+    },
+    {
+      "keyword": "bitmain antminer s9 firmware sd card",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 19:29:43 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12194,
+          13079
+        ],
+        "monthly_searches": {
+          "2026-03": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 6
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:53:02 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 firmware upgrade",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 12:14:41 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2025-12": 10,
+          "2025-11": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-25 14:24:57 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s19k pro firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 06:51:00 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "quarterly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 01:15:48 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z11 firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 04:14:25 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-06": 10
+        },
+        "search_volume_trend": {
+          "quarterly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "pt",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "foreign_intent": [
+          "transactional",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 14:25:15 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z9 mini firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 19:23:17 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-01": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "de",
+        "is_another_language": true,
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational",
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 02:39:27 +00:00"
+      }
+    },
+    {
+      "keyword": "best antminer s9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 11:13:59 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 57,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "commercial",
+        "foreign_intent": [
+          "transactional",
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 13:58:57 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s1 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 09:17:40 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational",
+          "informational"
+        ],
+        "last_updated_time": "2026-04-25 14:25:29 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer r4 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 16:21:53 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-06": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2025-12": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "quarterly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 00:48:13 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z11 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 05:41:05 +00:00",
+        "competition": 0.11,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:59:21 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s11 overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 21:18:45 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188
+        ],
+        "monthly_searches": {
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 55,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 00:49:53 +00:00"
+      }
+    },
+    {
+      "keyword": "asicboost firmware for antminer s9",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 03:25:31 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 firmware asicboost",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:06:31 +00:00"
+      }
+    },
+    {
+      "keyword": "how to update antminer s9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 11:02:34 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-02": 10,
+          "2026-01": 20,
+          "2025-12": 10,
+          "2025-11": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 6
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "last_updated_time": "2026-04-27 22:41:21 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s17 firmware sd card",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 20:16:29 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12194,
+          13079
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2025-11": 10,
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-24 21:08:54 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t19 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 02:48:56 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-01": 10,
+          "2025-10": 10
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "quarterly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 02:20:11 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 blissz firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 06:31:07 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "hu",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 00:32:16 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z9 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 20:13:32 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:27:43 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t9 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 05:28:36 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-01": 10,
+          "2025-12": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-28 23:13:55 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 blissz firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 05:50:55 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-03": 10,
+          "2026-01": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "hu",
+        "is_another_language": true,
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-28 23:49:20 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s19 pro firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 03:49:36 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 20,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "de",
+        "is_another_language": true,
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 00:54:57 +00:00"
+      }
+    },
+    {
+      "keyword": "nicehash antminer firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 11:05:19 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-01": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 17:31:05 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware sd card",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 12:14:11 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12194,
+          13079
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 05:10:50 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer l7 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 07:30:08 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-01": 10,
+          "2025-11": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 14:11:12 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer v9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 00:29:22 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2025-12": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 52,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 11:12:11 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 alternative firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 05:46:34 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2025-12": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-28 23:10:15 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t21 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 20:56:32 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2025-12": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 00:51:10 +00:00"
+      }
+    },
+    {
+      "keyword": "nicehash antminer s9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 08:07:31 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 firmware nicehash",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 16:42:27 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer update firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 03:37:36 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-03": 10,
+          "2026-01": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer firmware update",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "de",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 02:24:26 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer a3 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 23:42:37 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-08": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "pt",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 04:20:26 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer e3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 21:28:41 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 55,
+        "detected_language": "nl",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 08:37:50 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer l7 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 15:55:20 +00:00",
+        "competition": 0.05,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 20
+        },
+        "search_volume_trend": {
+          "yearly": -50
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 19,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "avg_backlinks_info": {
+        "backlinks": 107.3,
+        "dofollow": 96.8,
+        "referring_pages": 105.1,
+        "referring_domains": 8.2,
+        "referring_main_domains": 8.3,
+        "rank": 66.6,
+        "main_domain_rank": 351,
+        "last_updated_time": "2023-06-19 10:25:58 +00:00"
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 00:17:15 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s19 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 00:23:31 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 30,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 30
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 18,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "avg_backlinks_info": {
+        "backlinks": 74,
+        "dofollow": 32.9,
+        "referring_pages": 36.1,
+        "referring_domains": 5.4,
+        "referring_main_domains": 5.9,
+        "rank": 57.7,
+        "main_domain_rank": 418,
+        "last_updated_time": "2023-06-19 10:25:48 +00:00"
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 06:53:50 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer l9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 23:38:39 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 20,
+          "2025-10": 20,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "yearly": -50
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-05-05 22:34:43 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9i firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 22:07:23 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-07": 10,
+          "2026-03": 20,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "monthly": -100,
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 44,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 05:10:50 +00:00"
+      }
+    },
+    {
+      "keyword": "custom antminer firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 19:23:34 +00:00",
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-01": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer custom firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-26 22:33:20 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer firmware d3",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 11:10:50 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 20,
+          "2025-10": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer d3 firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 23,
+        "detected_language": "nb",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 00:54:57 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer a3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 09:13:51 +00:00",
+        "competition": 0.05,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-03": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "pt",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 07:38:08 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 00:33:50 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2025-12": 10,
+          "2025-11": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "nb",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-25 14:24:57 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 23:33:43 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 20,
+          "2025-10": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 23,
+        "detected_language": "nb",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 07:52:51 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z9 mini firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 06:33:22 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 20,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 45,
+        "detected_language": "de",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 12:39:48 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 02:17:50 +00:00",
+        "competition": 0.29,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 05:30:51 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z9 mini overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 04:17:01 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2026-01": 10,
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "de",
+        "is_another_language": true,
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 14:11:13 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer firmware s9",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 21:50:40 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2025-11": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:44:12 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware upgrade",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 09:59:37 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-03": 10,
+          "2025-11": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 upgrade firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 43,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-25 14:11:12 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer dr5 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 00:05:48 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2025-11": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 13:26:54 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z9 mini custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 06:51:41 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ],
+        "monthly_searches": {
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2025-11": 10,
+          "2025-10": 10
+        },
+        "search_volume_trend": {
+          "quarterly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "de",
+        "is_another_language": true,
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 14:40:09 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer k7 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 22:59:28 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "monthly_searches": {
+          "2026-05": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        },
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-24 23:27:24 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z15 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 01:09:59 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-07": 10,
+          "2026-06": 10,
+          "2026-05": 10,
+          "2026-04": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:36:13 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t15 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 22:44:45 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-03": 10,
+          "2026-02": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10,
+          "2025-09": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-05-02 03:41:25 +00:00"
+      }
+    },
+    {
+      "keyword": "best firmware for antminer s9",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 11:25:03 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ],
+        "monthly_searches": {
+          "2026-08": 10,
+          "2026-05": 10,
+          "2026-01": 10,
+          "2025-12": 10,
+          "2025-11": 10,
+          "2025-10": 10
+        }
+      },
+      "keyword_properties": {
+        "core_keyword": "best antminer s9 firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 57,
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "commercial",
+        "last_updated_time": "2026-04-29 08:43:13 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t17 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 09:22:58 +00:00",
+        "search_volume": 10,
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ],
+        "monthly_searches": {
+          "2026-03": 10
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 03:33:40 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer v9 firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 23:44:50 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-24 21:08:56 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 firmware x13",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 20:19:24 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ]
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "nb",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 14:25:15 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware 2018",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 09:54:32 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:52:12 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 old firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 21:24:31 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 02:26:54 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer x3 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 19:24:22 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-24 16:40:47 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t17e firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 08:59:04 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "last_updated_time": "2026-04-29 06:57:27 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware upgrade failed",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 15:28:45 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "last_updated_time": "2026-04-25 13:26:54 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware hack",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 07:11:50 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "es",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "last_updated_time": "2026-04-29 00:54:57 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s7 firmware upgrade",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 22:21:30 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 00:49:53 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z9 overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 23:45:35 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 08:49:41 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer e3 firmware 2021",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 02:51:32 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "nl",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 00:52:41 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer upgrade firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 04:55:20 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer firmware upgrade",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 55,
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "informational",
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 00:54:57 +00:00"
+      }
+    },
+    {
+      "keyword": "bitmain antminer t17 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 20:54:52 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 04:54:00 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer dr5 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 20:28:58 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-28 23:49:18 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 pro firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 17:04:50 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ]
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:26:45 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware custom",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 04:27:13 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ]
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 custom firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 58,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 14:11:12 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9k overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 06:06:26 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 05:30:41 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer e3 firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 13:30:34 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "nl",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 02:43:14 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware nicehash",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 10:30:06 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ]
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 04:18:19 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 firmware mod",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 07:07:04 +00:00",
+        "categories": [
+          10015,
+          10125,
+          10672,
+          11952
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "nb",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 05:10:50 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s11 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 10:44:01 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ],
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 01:33:32 +00:00"
+      }
+    },
+    {
+      "keyword": "firmware antminer s9 download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 14:34:21 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 firmware download",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 57,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 07:19:56 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer x3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 03:07:04 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 07:23:32 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9j firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 18:53:57 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "last_updated_time": "2026-04-28 23:12:49 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 repair firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 02:03:03 +00:00",
+        "categories": [
+          10019,
+          10167,
+          12150
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "last_updated_time": "2026-04-25 03:19:07 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 cgminer firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 11:57:40 +00:00",
+        "categories": [
+          10004,
+          10273,
+          13732
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 14:25:29 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware 2020",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 19:00:27 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ]
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 58,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 05:26:31 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9i overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 07:36:07 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 00:52:41 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer b3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 21:50:04 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational",
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-25 13:26:54 +00:00"
+      }
+    },
+    {
+      "keyword": "upgrade antminer s9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 15:18:41 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ]
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 upgrade firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 44,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-30 01:40:46 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware 2021",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 22:05:46 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ]
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 54,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 04:00:07 +00:00"
+      }
+    },
+    {
+      "keyword": "how to upgrade antminer s9 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 05:54:57 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 6
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "last_updated_time": "2026-04-28 00:02:02 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware downgrade",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 17:35:33 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 05:37:09 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s17e firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 17:39:34 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "nl",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 02:54:06 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer a3 firmware mod",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 08:16:54 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "pt",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 11:12:10 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer z9 mini batch 1 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 12:26:35 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "de",
+        "is_another_language": true,
+        "words_count": 6
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 02:20:11 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 firmware for other hashing algorithms",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 14:24:39 +00:00",
+        "categories": [
+          10008
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 7
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "last_updated_time": "2026-04-29 04:15:32 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware mod",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 08:51:37 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ],
+        "search_volume_trend": {
+          "yearly": -100
+        }
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 08:37:50 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s11 firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 13:42:48 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "core_keyword": "download firmware antminer s11",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "last_updated_time": "2026-04-29 00:27:43 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer a3 firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 00:20:07 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 07:36:27 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 custom firmware no dev fee",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 19:12:54 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 7
+      },
+      "search_intent_info": {
+        "main_intent": "commercial",
+        "last_updated_time": "2026-04-29 06:43:53 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 blissz firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 07:20:58 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "hu",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-25 13:26:54 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware asicboost",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 20:33:39 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ]
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "es",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-24 16:14:26 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 lpm firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 05:38:59 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-28 23:10:16 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9j firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 14:51:37 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 01:14:00 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware cannot find signature",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 19:49:09 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 6
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "last_updated_time": "2026-04-29 04:17:34 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t9 overclock firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 14:42:34 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 14:11:13 +00:00"
+      }
+    },
+    {
+      "keyword": "bitmain antminer s9 firmware upgrade",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 22:24:35 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-25 20:21:28 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9i firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 15:32:43 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 00:51:10 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer b7 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 08:28:24 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-25 15:15:58 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 custom firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 11:24:18 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 00:51:10 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer a3 firmware update",
+      "keyword_info": {
+        "last_updated_time": "2026-09-17 04:47:43 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "pt",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 01:42:34 +00:00"
+      }
+    },
+    {
+      "keyword": "firmware d3 antminer",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 05:15:23 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12184,
+          13060
+        ]
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer d3 firmware",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 23,
+        "detected_language": "nb",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "informational"
+        ],
+        "last_updated_time": "2026-04-29 07:38:22 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer e3 custom firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-12 16:13:42 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ]
+      },
+      "keyword_properties": {
+        "keyword_difficulty": 47,
+        "detected_language": "nl",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 04:55:33 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 asicboost firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 00:21:51 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer s9 firmware asicboost",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "es",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 05:09:52 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware overclock",
+      "keyword_info": {
+        "last_updated_time": "2026-09-13 12:35:26 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10883,
+          12188,
+          13072
+        ]
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 58,
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "last_updated_time": "2026-04-29 04:33:47 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s9 firmware 2019",
+      "keyword_info": {
+        "last_updated_time": "2026-09-14 09:23:47 +00:00",
+        "categories": [
+          10007,
+          10878,
+          12161,
+          13381
+        ]
+      },
+      "keyword_properties": {
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-25 13:26:54 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer t17e firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-15 22:06:11 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "nl",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "foreign_intent": [
+          "navigational"
+        ],
+        "last_updated_time": "2026-04-29 07:01:40 +00:00"
+      }
+    },
+    {
+      "keyword": "bitmain antminer d3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-09-16 01:33:38 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 01:56:59 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer u3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-07-11 06:25:29 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          13114
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "pl",
+        "is_another_language": true,
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "informational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 00:08:36 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer s7 firmware download",
+      "keyword_info": {
+        "last_updated_time": "2026-07-16 11:02:07 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12208,
+          13104
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "navigational",
+        "foreign_intent": [
+          "transactional"
+        ],
+        "last_updated_time": "2026-04-29 04:14:39 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer d3 x13 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-07-10 00:47:08 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "core_keyword": "antminer d3 firmware x13",
+        "synonym_clustering_algorithm": "text_processing",
+        "detected_language": "nb",
+        "is_another_language": true,
+        "words_count": 4
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 00:27:43 +00:00"
+      }
+    },
+    {
+      "keyword": "antminer dr3 firmware",
+      "keyword_info": {
+        "last_updated_time": "2026-08-27 11:46:19 +00:00",
+        "categories": [
+          10019,
+          10168,
+          10885,
+          12207
+        ]
+      },
+      "keyword_properties": {
+        "detected_language": "en",
+        "words_count": 3
+      },
+      "search_intent_info": {
+        "main_intent": "transactional",
+        "last_updated_time": "2026-04-29 06:41:42 +00:00"
+      }
+    }
+  ]
+}

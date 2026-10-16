@@ -1,8 +1,9 @@
 # Content Brief: Whatsminer Firmware — Pillar Page
 **URL:** /en/whatsminer-firmware
 **File:** content/briefs/whatsminer-firmware-pillar.md
-**Last updated:** 2026-06-19
-**Priority:** P0
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P0 (was P0; recalculated 2026-09-25 from DataForSEO US data) — Keep, now as defense. whatsminer firmware 20/mo, CPC $32.03, KD 4; BiXBiT is #3 (/en/firmwares/whatsminer-series-m3x). There is no hub-level Whatsminer page, and competitors have no Whatsminer rankings. Build the hub on an existing URL (/en/firmwares/whatsminer-all-series) [VERIFY with the team].
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/whatsminer-all-series` (existing page), Main page content (hub), section priority P0. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Engineering writer + firmware engineer reviewer]
 
 ---
@@ -25,14 +26,16 @@ Paired with /en/antminer-firmware — together these two pillars establish BiXBi
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| whatsminer firmware | Primary | — | — |
-| whatsminer custom firmware | Primary secondary | — | — |
-| best whatsminer firmware | Commercial | — | — |
-| third-party whatsminer firmware | Commercial | — | — |
-| MicroBT firmware | Broader | — | — |
-| whatsminer firmware comparison | Commercial | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| whatsminer firmware | Primary | 20 | 4 | #3 (/en/firmwares/whatsminer-series-m3x) |
+| whatsminer custom firmware | Primary secondary | 10 | 50 | — |
+| best whatsminer firmware | Commercial | n/d (<10) | — | — |
+| third-party whatsminer firmware | Commercial | n/d (<10) | — | — |
+| MicroBT firmware | Broader | 10 | — | — |
+| whatsminer firmware comparison | Commercial | n/d (<10) | — | — |
 
 ---
 
@@ -45,7 +48,7 @@ Paired with /en/antminer-firmware — together these two pillars establish BiXBi
 ## Meta
 
 **Title tag (≤60 chars):** `Whatsminer Firmware — Custom Firmware by BiXBiT`
-**Meta description (≤155 chars):** `BiXBiT custom firmware for Whatsminer M30S, M50, M60, and fleet-scale deployments. No dev fee, per-chip autotuning, full AMS integration. Request access.`
+**Meta description (≤155 chars):** `BiXBiT custom firmware for Whatsminer M30S, M50, M60, and fleet-scale deployments. Per-chip autotuning, transparent dev fee, full AMS integration.` [VERIFY: 2026-09 audit found a 2.8% dev fee (2% on Whatsminer M2x); get the current rate from the team before publishing. Don't say "no dev fee" or "lowest dev fee"]
 
 ---
 
@@ -69,7 +72,7 @@ Feature grid (icon + heading + 1-sentence description):
 - **Overclocking mode** — [VERIFY: maximum hashrate boost % vs stock MicroBT firmware; operating temperature ceiling during overclock on Whatsminer hardware]
 - **Undervolting mode** — [VERIFY: power reduction % achievable on Whatsminer M30S/M50/M60 while maintaining hashrate parity]
 - **Fleet deployment** — mass-push firmware updates across [VERIFY: confirm API/web method for Whatsminer fleet deployments; MicroBT uses a different management interface than Bitmain]
-- **No dev fee** — zero hidden hashrate redirection [VERIFY: confirm dev fee policy is identical for Whatsminer firmware as for Antminer firmware]
+- **Transparent dev fee**, disclosed up front, no hidden hashrate redirection [VERIFY: 2026-09 audit found a 2.8% dev fee (2% on Whatsminer M2x); get the current rate from the team before publishing. Don't say "no dev fee" or "lowest dev fee"]
 - **No backdoor** — [VERIFY: describe security posture for Whatsminer firmware specifically]
 - **AMS integration** — native integration with BiXBiT AMS dashboard for mixed Antminer/Whatsminer fleet monitoring [VERIFY: confirm AMS supports Whatsminer telemetry with same feature parity as Antminer]
 - **Temperature management** — [VERIFY: configurable fan curve parameters for Whatsminer fan hardware; thermal shutdown thresholds on MicroBT units]
@@ -87,7 +90,7 @@ Side-by-side comparison (save full competitor comparison for /comparison spoke):
 | Capability | Stock MicroBT | BiXBiT Custom |
 |---|---|---|
 | Per-chip tuning | [VERIFY: does stock MicroBT firmware offer any per-chip tuning?] | [VERIFY] |
-| Dev fee | No | No |
+| Dev fee | No | Yes — transparent, disclosed up front [VERIFY: current rate; 2026-09 audit: 2.8%, 2% on Whatsminer M2x] |
 | Overclocking | [VERIFY: does stock MicroBT firmware allow overclocking?] | Yes |
 | Undervolting | [VERIFY] | Yes |
 | Fleet API | [VERIFY: MicroBT API capabilities in stock firmware] | Yes |
@@ -133,7 +136,7 @@ CTA section: request demo, download trial, contact sales.
 ## FAQ (7 questions — also used for FAQPage schema)
 
 **Q1: Does BiXBiT firmware charge a dev fee on Whatsminer?**
-A: [VERIFY: confirm 0% dev fee for Whatsminer firmware — state this explicitly]
+A: BiXBiT firmware has a transparent dev fee [VERIFY: 2.8% / 2% M2x]. State the actual rate for each Whatsminer series.
 
 **Q2: Which Whatsminer models are supported?**
 A: [VERIFY: full supported model list including hardware revisions]
@@ -161,7 +164,7 @@ A: [VERIFY: security posture statement — consistent with Antminer firmware sec
 - M30S, M30S+, M30S++, M50, M50S, M60, M60S (product entities — confirm which are supported)
 - Per-chip autotuning, frequency/voltage tuning, hashboard
 - J/TH (joules per terahash) — primary efficiency metric
-- Dev fee (negative entity for BiXBiT — we have none)
+- Dev fee (BiXBiT charges a transparent dev fee — state it plainly with the current rate [VERIFY: current rate]; never imply there is none)
 - MicroBT stock firmware (competitor to position against)
 - AMS (BiXBiT monitoring product)
 - ASIC, hashrate (TH/s), power draw (W), efficiency (J/TH)
@@ -176,7 +179,7 @@ A: [VERIFY: security posture statement — consistent with Antminer firmware sec
 - **Experience:** State BiXBiT's installed base on Whatsminer hardware [VERIFY: number of Whatsminer units running BiXBiT firmware]
 - **Expertise:** Author byline: firmware engineer with Whatsminer/MicroBT hardware experience specifically named
 - **Authoritativeness:** Link to any published technical documentation, changelogs, or third-party mentions
-- **Trustworthiness:** Explicit "no dev fee, no backdoor" with verification method; benchmark data with stated test conditions
+- **Trustworthiness:** An explicit, published dev fee and a "no backdoor" statement with a verification method; benchmark data with stated test conditions
 - Whatsminer-specific benchmark numbers (J/TH, %) — generic claims not acceptable for E-E-A-T with technical operators
 - Hardware revision awareness (M30S v10/v20/v30, etc.) signals genuine hands-on knowledge
 
@@ -220,7 +223,7 @@ A: [VERIFY: security posture statement — consistent with Antminer firmware sec
   "name": "BiXBiT Whatsminer Firmware",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Whatsminer ASIC",
-  "description": "Custom firmware for MicroBT Whatsminer ASICs providing per-chip autotuning, overclocking, undervolting, and fleet-scale deployment with no dev fee.",
+  "description": "Custom firmware for MicroBT Whatsminer ASICs providing per-chip autotuning, overclocking, undervolting, and fleet-scale deployment.",
   "offers": {
     "@type": "Offer",
     "availability": "https://schema.org/InStock"

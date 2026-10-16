@@ -19,3 +19,8 @@ Thumbs.db
 *.log
 .cache/
 tmp/
+
+# сборка онлайн-приложения (scripts/hub-sync.py)
+.hub-build/
+__pycache__/
+*.pyc

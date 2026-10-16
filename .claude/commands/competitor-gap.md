@@ -1,16 +1,17 @@
 ---
 description: Gap-анализ против конкурента — контентные, ссылочные, технические и GEO-разрывы; приоритезированный план их закрытия.
-argument-hint: "[конкурент: Braiins | Vnish | LuxOS | ePIC | домен]"
+argument-hint: "[конкурент: Braiins | Vnish | ePIC | EMCD | Awesome Miner | домен]"
 ---
 
 Сделай gap-анализ BiXBiT против конкурента: **$ARGUMENTS** (по умолчанию рассмотри
-ключевых: Braiins, Vnish, LuxOS, ePIC). Действуй по `RUNBOOK.md`/`CLAUDE.md`.
+ключевых: Braiins, Vnish, ePIC, EMCD, Awesome Miner). Действуй по `RUNBOOK.md`/`CLAUDE.md` и `docs/agent-knowledge.md` (актуальные факты и особенности данных).
 
 ## Что сравнить (делегируй агентам)
 - `content-seo` — **keyword/контент-gap**: по каким темам firmware/cooling/monitoring
   конкурент ранжируется/покрывает, а BiXBiT нет. Объёмы — только из DataForSEO.
 - `offpage-seo` — **link-gap**: домены, ссылающиеся на конкурента, но не на BiXBiT
-  (Moz/Bing/DataForSEO, skill `seo-backlinks`).
+  (DataForSEO Backlinks — Moz/Bing без ключей; `domain_intersection` игнорирует exclude-target → разность
+  множеств referring_domains локально; skill `seo-backlinks`).
 - `geo-ai` — **AI-citation gap**: в каких AI-ответах (ChatGPT/Perplexity/Claude)
   цитируется конкурент, но не BiXBiT, и какие источники их «кормят».
 - `technical-seo` — заметные тех-преимущества конкурента (schema, скорость, структура).
@@ -26,3 +27,10 @@ argument-hint: "[конкурент: Braiins | Vnish | LuxOS | ePIC | домен
 - Таблицы разрывов (контент / ссылки / GEO / тех) с приоритетом P0–P3.
 - Конкретный план закрытия (какие кластеры, какие домены под аутрич, какие правки).
 В чат — топ-возможности и quick wins.
+
+## Не с нуля
+- Предыдущий раунд на реальных данных — `reports/competitor-gap-summary-2026-09-25.md` (+ ePIC/EMCD/PiTBiT).
+  Сравнивай с ним и показывай, что изменилось; сырые выгрузки `data/dfs-*-2026-09-25.json` переиспользуй.
+- Июньские gap-отчёты (2026-06-19) опирались на самотесты — многие выводы опровергнуты.
+- `bixbitusa.io` — партнёры: не конкурент.
+- DataForSEO: SERP через MCP — `noAiMode: true`; live — 1 задача на запрос; 40101/40106 — ретрай.

@@ -2,21 +2,24 @@
 **Slug:** `/en/ams/mining-hosting-monitoring`
 **Cluster:** mining-fleet-monitoring
 **Type:** Spoke — Commercial / Use Case
-**Priority:** P1
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. Volume n/d. The hosting ICP matters, but there is no search demand; it's a sales/BD asset.
+**Target (architecture v2, 2026-09-25):** `/en/ams` (existing page), H2 Multi-client for hosting providers, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| mining hosting monitoring | Primary | [VOL: N/A — DataForSEO 401] |
-| colocation ASIC management | Primary | [VOL: N/A] |
-| mining farm hosting software | Secondary | [VOL: N/A] |
-| ASIC colocation monitoring | Secondary | [VOL: N/A] |
-| bitcoin mining hosting management | Tertiary | [VOL: N/A] |
-| multi-client mining monitoring | Tertiary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| mining hosting monitoring | Primary | n/d (<10) | — | — |
+| colocation ASIC management | Primary | n/d (<10) | — | — |
+| mining farm hosting software | Secondary | n/d (<10) | — | — |
+| ASIC colocation monitoring | Secondary | n/d (<10) | — | — |
+| bitcoin mining hosting management | Tertiary | n/d (<10) | — | — |
+| multi-client mining monitoring | Tertiary | n/d (<10) | — | — |
 
 ---
 

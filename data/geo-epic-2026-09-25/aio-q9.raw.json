@@ -1,0 +1,1403 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "9.9738 sec.",
+  "cost": 0.00615,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09251237-2548-0139-0000-eb1fff4df887",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "9.9138 sec.",
+      "cost": 0.00615,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "is custom asic firmware safe",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "depth": 20,
+        "load_async_ai_overview": true,
+        "people_also_ask_click_depth": 1,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "is custom asic firmware safe",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=is%20custom%20asic%20firmware%20safe&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-09-25 12:37:32 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 102,
+          "pages_count": 2,
+          "items_count": 23,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "Custom ASIC firmware is generally **safe** when downloaded from reputable, established developers (such as VNISH, Braiins OS, NiceHash, or Hiveon), but it carries inherent operational, security, and warranty risks.[[1]](https://www.theminingshop.co.uk/asic-firmware-customisation/)[[2]](https://vni.sh/what-is-firmware)[[3]](https://github.com/minershive/hiveon-kb/blob/master/hiveon-asic-firmware/general/asic_faq.md)[[4]](https://www.nicehash.com/firmware)[[5]](https://braiins.com/blog/why-custom-mining-firmware-matters)\n\n### ✅ Safety Benefits of Reputable Custom Firmware\n\n- **Chip-level Tuning:** Optimizes individual chip voltage and frequency for better efficiency (J/TH).\n- **Built-in Protection:** Adds advanced temperature watchdogs, automated thermal throttling, and antivirus features.\n- **Reversibility:** Most trusted firmwares allow a one-click rollback to the stock manufacturer image.[[1]](https://github.com/minershive/hiveon-kb/blob/master/hiveon-asic-firmware/general/asic_faq.md)[[2]](https://vni.sh/asic-miners)[[3]](https://vni.sh/what-is-firmware)\n\n### ⚠️ Key Risks and Downsides\n\n- **Hardware Stress:** Overclocking or aggressive auto-tuning increases thermal and electrical stress, potentially shortening hardware lifespan.[[1]](https://www.theminingshop.co.uk/asic-firmware-customisation/)[[2]](https://www.viabtc.com/en/blog/custom-firmware-for-asic-miners-boost-efficiency-462)\n- **Warranty Voiding:** Manufacturers like Bitmain state that unauthorized third-party firmware can void hardware warranty coverage.[[1]](https://www.theminingshop.co.uk/asic-firmware-customisation/)\n- **Developer Fees (DevFee):** Custom firmware isn't free; it redirects a small percentage (typically 1.4% to 3%) of your mined hashrate to the developers.[[1]](https://www.nicehash.com/firmware)[[2]](https://vni.sh/what-is-firmware)\n- **Malware & Phishing:** Downloading unofficial builds from unverified forums or random links can brick your device or install malicious mining backdoors.\n\n### 💡 Best Practices for Safe Installation\n\n- **Verify Sources:** Only download files directly from official developer websites and check MD5/SHA checksums.\n- **Secure the Network:** Change default root passwords and isolate miners behind a secure firewall or VLAN.\n- **Monitor Thermals:** Watch hashboard temperatures closely after applying any new performance profile.[[1]](https://vnish-firmware.com/stock-firmware-vnish-custom-firmware-which-one-delivers-more-profit/)[[2]](https://vni.sh/what-is-firmware)[[3]](https://www.theminingshop.co.uk/asic-firmware-customisation/)[[4]](https://www.youtube.com/watch?v=cnTm3CSsFP0&t=260)[[5]](https://bixbit.io/en/firmwares)\n\nTo help tailor this advice, could you clarify:\n\n- What specific **ASIC model** (e.g., Antminer S19, WhatsMiner M50) are you considering flashing?\n- Are you looking to maximize **hashrate (overclocking)** or improve **energy efficiency (underclocking)**?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Custom ASIC firmware is generally safe when downloaded from reputable, established developers (such as VNISH, Braiins OS, NiceHash, or Hiveon), but it carries inherent operational, security, and warranty risks.",
+                  "markdown": "Custom ASIC firmware is generally **safe** when downloaded from reputable, established developers (such as VNISH, Braiins OS, NiceHash, or Hiveon), but it carries inherent operational, security, and warranty risks.[[1]](https://www.theminingshop.co.uk/asic-firmware-customisation/)[[2]](https://vni.sh/what-is-firmware)[[3]](https://github.com/minershive/hiveon-kb/blob/master/hiveon-asic-firmware/general/asic_faq.md)[[4]](https://www.nicehash.com/firmware)[[5]](https://braiins.com/blog/why-custom-mining-firmware-matters)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Mining Shop",
+                      "domain": "www.theminingshop.co.uk",
+                      "url": "https://www.theminingshop.co.uk/asic-firmware-customisation/",
+                      "title": "ASIC Firmware Customisation: 8 Essential Safety Checks",
+                      "text": "Electrical and thermal stress Update and supply-chain risk Firmware is software supply chain. Record the download source, version ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "vni.sh",
+                      "domain": "vni.sh",
+                      "url": "https://vni.sh/what-is-firmware",
+                      "title": "What is ASIC mining firmware? A miner's guide",
+                      "text": "What is ASIC mining firmware? * Ready to see it on your miner? Pick your model and flash in minutes — free, reversible, and suppor..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "GitHub",
+                      "domain": "github.com",
+                      "url": "https://github.com/minershive/hiveon-kb/blob/master/hiveon-asic-firmware/general/asic_faq.md",
+                      "title": "hiveon-kb/hiveon-asic-firmware/general/asic_faq.md at master",
+                      "text": "What is the Hiveon ASIC? This is a custom firmware from Hive OS for Antminer S9, S9i, S9j, S10, S17, S17+, S17E, S17 Pro, L3+, L3+"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "NiceHash",
+                      "domain": "www.nicehash.com",
+                      "url": "https://www.nicehash.com/firmware",
+                      "title": "NiceHash Custom ASIC Firmware",
+                      "text": "What is NiceHash Firmware? NiceHash Firmware (NHFW) is a custom ASIC mining firmware designed to optimize mining efficiency, incre..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Braiins Mining",
+                      "domain": "braiins.com",
+                      "url": "https://braiins.com/blog/why-custom-mining-firmware-matters",
+                      "title": "Why Custom Mining Firmware Matters",
+                      "text": "Example 1: Antbleed In 2017, Antminer's manufacturer, Bitmain, developed a backdoor to their stock firmware called “Antbleed”. Thi..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "✅ Safety Benefits of Reputable Custom Firmware",
+                  "text": "Chip-level Tuning: Optimizes individual chip voltage and frequency for better efficiency (J/TH). Built-in Protection: Adds advanced temperature watchdogs, automated thermal throttling, and antivirus features. Reversibility: Most trusted firmwares allow a one-click rollback to the stock manufacturer image.",
+                  "markdown": "- **Chip-level Tuning:** Optimizes individual chip voltage and frequency for better efficiency (J/TH).\n- **Built-in Protection:** Adds advanced temperature watchdogs, automated thermal throttling, and antivirus features.\n- **Reversibility:** Most trusted firmwares allow a one-click rollback to the stock manufacturer image.[[1]](https://github.com/minershive/hiveon-kb/blob/master/hiveon-asic-firmware/general/asic_faq.md)[[2]](https://vni.sh/asic-miners)[[3]](https://vni.sh/what-is-firmware)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "GitHub",
+                      "domain": "github.com",
+                      "url": "https://github.com/minershive/hiveon-kb/blob/master/hiveon-asic-firmware/general/asic_faq.md",
+                      "title": "hiveon-kb/hiveon-asic-firmware/general/asic_faq.md at master",
+                      "text": "What is the Hiveon ASIC? This is a custom firmware from Hive OS for Antminer S9, S9i, S9j, S10, S17, S17+, S17E, S17 Pro, L3+, L3+"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "vni.sh",
+                      "domain": "vni.sh",
+                      "url": "https://vni.sh/asic-miners",
+                      "title": "ASIC miners and custom firmware",
+                      "text": "Antminer L9 * Why firmware decides your margin Two operators can run identical hardware and see very different numbers, because th..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "vni.sh",
+                      "domain": "vni.sh",
+                      "url": "https://vni.sh/what-is-firmware",
+                      "title": "What is ASIC mining firmware? A miner's guide",
+                      "text": "What is ASIC mining firmware? * Ready to see it on your miner? Pick your model and flash in minutes — free, reversible, and suppor..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "⚠️ Key Risks and Downsides",
+                  "text": "Hardware Stress: Overclocking or aggressive auto-tuning increases thermal and electrical stress, potentially shortening hardware lifespan. Warranty Voiding: Manufacturers like Bitmain state that unauthorized third-party firmware can void hardware warranty coverage. Developer Fees (DevFee): Custom firmware isn't free; it redirects a small percentage (typically 1.4% to 3%) of your mined hashrate to the developers. Malware & Phishing: Downloading unofficial builds from unverified forums or random links can brick your device or install malicious mining backdoors.",
+                  "markdown": "- **Hardware Stress:** Overclocking or aggressive auto-tuning increases thermal and electrical stress, potentially shortening hardware lifespan.[[1]](https://www.theminingshop.co.uk/asic-firmware-customisation/)[[2]](https://www.viabtc.com/en/blog/custom-firmware-for-asic-miners-boost-efficiency-462)\n- **Warranty Voiding:** Manufacturers like Bitmain state that unauthorized third-party firmware can void hardware warranty coverage.[[1]](https://www.theminingshop.co.uk/asic-firmware-customisation/)\n- **Developer Fees (DevFee):** Custom firmware isn't free; it redirects a small percentage (typically 1.4% to 3%) of your mined hashrate to the developers.[[1]](https://www.nicehash.com/firmware)[[2]](https://vni.sh/what-is-firmware)\n- **Malware & Phishing:** Downloading unofficial builds from unverified forums or random links can brick your device or install malicious mining backdoors.",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Mining Shop",
+                      "domain": "www.theminingshop.co.uk",
+                      "url": "https://www.theminingshop.co.uk/asic-firmware-customisation/",
+                      "title": "ASIC Firmware Customisation: 8 Essential Safety Checks",
+                      "text": "Electrical and thermal stress Update and supply-chain risk Firmware is software supply chain. Record the download source, version ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ViaBTC",
+                      "domain": "www.viabtc.com",
+                      "url": "https://www.viabtc.com/en/blog/custom-firmware-for-asic-miners-boost-efficiency-462",
+                      "title": "Custom Firmware for ASIC Miners: Boost Efficiency",
+                      "text": "Custom Firmware for ASIC Miners: Boost Efficiency * What Is ASIC Miner Firmware? ASIC miner firmware is embedded software running ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "NiceHash",
+                      "domain": "www.nicehash.com",
+                      "url": "https://www.nicehash.com/firmware",
+                      "title": "NiceHash Custom ASIC Firmware",
+                      "text": "What is NiceHash Firmware? NiceHash Firmware (NHFW) is a custom ASIC mining firmware designed to optimize mining efficiency, incre..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "vni.sh",
+                      "domain": "vni.sh",
+                      "url": "https://vni.sh/what-is-firmware",
+                      "title": "What is ASIC mining firmware? A miner's guide",
+                      "text": "What is ASIC mining firmware? * Ready to see it on your miner? Pick your model and flash in minutes — free, reversible, and suppor..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "💡 Best Practices for Safe Installation",
+                  "text": "Verify Sources: Only download files directly from official developer websites and check MD5/SHA checksums. Secure the Network: Change default root passwords and isolate miners behind a secure firewall or VLAN. Monitor Thermals: Watch hashboard temperatures closely after applying any new performance profile.",
+                  "markdown": "- **Verify Sources:** Only download files directly from official developer websites and check MD5/SHA checksums.\n- **Secure the Network:** Change default root passwords and isolate miners behind a secure firewall or VLAN.\n- **Monitor Thermals:** Watch hashboard temperatures closely after applying any new performance profile.[[1]](https://vnish-firmware.com/stock-firmware-vnish-custom-firmware-which-one-delivers-more-profit/)[[2]](https://vni.sh/what-is-firmware)[[3]](https://www.theminingshop.co.uk/asic-firmware-customisation/)[[4]](https://www.youtube.com/watch?v=cnTm3CSsFP0&t=260)[[5]](https://bixbit.io/en/firmwares)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "vnish firmware",
+                      "domain": "vnish-firmware.com",
+                      "url": "https://vnish-firmware.com/stock-firmware-vnish-custom-firmware-which-one-delivers-more-profit/",
+                      "title": "Which One Delivers More Profit?",
+                      "text": "Stock Firmware & VNISH Custom Firmware: Which One Delivers More Profit? * How to Install VNISH Firmware Switching to VNISH firmwar..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "vni.sh",
+                      "domain": "vni.sh",
+                      "url": "https://vni.sh/what-is-firmware",
+                      "title": "What is ASIC mining firmware? A miner's guide",
+                      "text": "What is ASIC mining firmware? * Ready to see it on your miner? Pick your model and flash in minutes — free, reversible, and suppor..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Mining Shop",
+                      "domain": "www.theminingshop.co.uk",
+                      "url": "https://www.theminingshop.co.uk/asic-firmware-customisation/",
+                      "title": "ASIC Firmware Customisation: 8 Essential Safety Checks",
+                      "text": "Electrical and thermal stress Update and supply-chain risk Firmware is software supply chain. Record the download source, version ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=cnTm3CSsFP0&t=260",
+                      "title": "Bitmain S19 Autotuning Firmware Available Now! Asic.to Update",
+                      "text": "Bitmain S19 Autotuning Firmware Available Now! Asic.to Update machine giving you about 107 terraash worth of value i know I said i..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "BiXBiT",
+                      "domain": "bixbit.io",
+                      "url": "https://bixbit.io/en/firmwares",
+                      "title": "BiXBiT Custom ASIC Mining Firmware",
+                      "text": "Free access to the monitoring system BiXBiT AMS with firmware * Mass device management * Advanced device sorting and filtering * P..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "To help tailor this advice, could you clarify:What specific ASIC model (e.g., Antminer S19, WhatsMiner M50) are you considering flashing?\nAre you looking to maximize hashrate (overclocking) or improve energy efficiency (underclocking) ?",
+                  "markdown": "To help tailor this advice, could you clarify:\n\n- What specific **ASIC model** (e.g., Antminer S19, WhatsMiner M50) are you considering flashing?\n- Are you looking to maximize **hashrate (overclocking)** or improve **energy efficiency (underclocking)**?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "vni.sh",
+                  "domain": "vni.sh",
+                  "url": "https://vni.sh/what-is-firmware",
+                  "title": "What is ASIC mining firmware? A miner's guide",
+                  "text": "What is ASIC mining firmware? * Ready to see it on your miner? Pick your model and flash in minutes — free, reversible, and suppor..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "The Mining Shop",
+                  "domain": "www.theminingshop.co.uk",
+                  "url": "https://www.theminingshop.co.uk/asic-firmware-customisation/",
+                  "title": "ASIC Firmware Customisation: 8 Essential Safety Checks",
+                  "text": "Electrical and thermal stress Update and supply-chain risk Firmware is software supply chain. Record the download source, version ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "NiceHash",
+                  "domain": "www.nicehash.com",
+                  "url": "https://www.nicehash.com/firmware",
+                  "title": "NiceHash Custom ASIC Firmware",
+                  "text": "What is NiceHash Firmware? NiceHash Firmware (NHFW) is a custom ASIC mining firmware designed to optimize mining efficiency, incre..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "GitHub",
+                  "domain": "github.com",
+                  "url": "https://github.com/minershive/hiveon-kb/blob/master/hiveon-asic-firmware/general/asic_faq.md",
+                  "title": "hiveon-kb/hiveon-asic-firmware/general/asic_faq.md at master",
+                  "text": "What is the Hiveon ASIC? This is a custom firmware from Hive OS for Antminer S9, S9i, S9j, S10, S17, S17+, S17E, S17 Pro, L3+, L3+"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "vnish firmware",
+                  "domain": "vnish-firmware.com",
+                  "url": "https://vnish-firmware.com/stock-firmware-vnish-custom-firmware-which-one-delivers-more-profit/",
+                  "title": "Which One Delivers More Profit?",
+                  "text": "Stock Firmware & VNISH Custom Firmware: Which One Delivers More Profit? * How to Install VNISH Firmware Switching to VNISH firmwar..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "ViaBTC",
+                  "domain": "www.viabtc.com",
+                  "url": "https://www.viabtc.com/en/blog/custom-firmware-for-asic-miners-boost-efficiency-462",
+                  "title": "Custom Firmware for ASIC Miners: Boost Efficiency",
+                  "text": "Custom Firmware for ASIC Miners: Boost Efficiency * What Is ASIC Miner Firmware? ASIC miner firmware is embedded software running ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Braiins Mining",
+                  "domain": "braiins.com",
+                  "url": "https://braiins.com/blog/why-custom-mining-firmware-matters",
+                  "title": "Why Custom Mining Firmware Matters",
+                  "text": "Example 1: Antbleed In 2017, Antminer's manufacturer, Bitmain, developed a backdoor to their stock firmware called “Antbleed”. Thi..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "vni.sh",
+                  "domain": "vni.sh",
+                  "url": "https://vni.sh/asic-miners",
+                  "title": "ASIC miners and custom firmware",
+                  "text": "Antminer L9 * Why firmware decides your margin Two operators can run identical hardware and see very different numbers, because th..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=cnTm3CSsFP0&t=260",
+                  "title": "Bitmain S19 Autotuning Firmware Available Now! Asic.to Update",
+                  "text": "Bitmain S19 Autotuning Firmware Available Now! Asic.to Update machine giving you about 107 terraash worth of value i know I said i..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "BiXBiT",
+                  "domain": "bixbit.io",
+                  "url": "https://bixbit.io/en/firmwares",
+                  "title": "BiXBiT Custom ASIC Mining Firmware",
+                  "text": "Free access to the monitoring system BiXBiT AMS with firmware * Mass device management * Advanced device sorting and filtering * P..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "vnish-firmware.com",
+              "title": "Which One Delivers More Profit?",
+              "url": "https://vnish-firmware.com/stock-firmware-vnish-custom-firmware-which-one-delivers-more-profit/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://vnish-firmware.com › Blog",
+              "website_name": "vnish firmware",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "In short, stock firmware is safe and predictable, but it sacrifices performance and efficiency in favor of stability. VNISH Firmware: A Smarter Approach to ASIC ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "stock firmware is safe"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://vnish-firmware.com/stock-firmware-vnish-custom-firmware-which-one-delivers-more-profit/#:~:text=In%20short%2C%20stock%20firmware%20is,Smarter%20Approach%20to%20ASIC%20Efficiency",
+                  "domain": "vnish-firmware.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is firmware updater safe?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Are ASIC miners still profitable?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is ASIC mining better than GPU?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Which ASIC miner is most profitable?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How many ASIC miners to mine 1 Bitcoin?",
+                  "seed_question": "Which ASIC miner is most profitable?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How much does Antminer S21 make per day?",
+                  "seed_question": "Which ASIC miner is most profitable?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "cryptominerbros.com",
+              "title": "ASIC Firmware & Software: How to Keep Your Miners ...",
+              "url": "https://cryptominerbros.com/blog/asic-firmware-software-security-guide/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://cryptominerbros.com › Blog › Mining",
+              "website_name": "Crypto Miner Bros",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mar 3, 2026 — Many miners inquire “is ASIC firmware safe?” The answer will depend on the sources and verification procedures. Firmware from the ... Read more",
+              "pre_snippet": "03/03/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "ASIC firmware safe",
+                "Firmware"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://cryptominerbros.com/blog/asic-firmware-software-security-guide/#:~:text=Many%20miners%20inquire%20%E2%80%9Cis%20ASIC,firmware%20is%20a%20significant%20risk.",
+                  "domain": "cryptominerbros.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-03-03 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "vni.sh",
+              "title": "What is ASIC mining firmware? A miner's guide - VNISH",
+              "url": "https://vni.sh/what-is-firmware",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://vni.sh › Firmware",
+              "website_name": "vni.sh",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Is custom ASIC firmware safe to use? Yes. Images are MD5-verified, add SSH control and virus protection, and you can roll back to stock firmware in one ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Is custom ASIC firmware safe to use? Yes"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://vni.sh/what-is-firmware#:~:text=VNISH",
+                  "domain": "vni.sh"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "What is the best custom firmware for ASICs? : r/BitcoinMining",
+              "url": "https://www.reddit.com/r/BitcoinMining/comments/kv5yzh/what_is_the_best_custom_firmware_for_asics/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "9 comments  ·  5 years ago",
+              "website_name": "Reddit · r/BitcoinMining",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "I would recommend Braiins OS+ for the S9's. It individually tunes the chips for max efficiency at a max wattage you specify. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Braiins OS"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Custom ASIC Firmware : r/BitcoinMining - Reddit",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/BitcoinMining/comments/qebiq9/custom_asic_firmware/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "ASIC Firmware for OC and Inmersion cooling : r ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/BitcoinMining/comments/vsvdr9/asic_firmware_for_oc_and_inmersion_cooling/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=is+custom+asic+firmware+safe+site:www.reddit.com&sca_esv=6dacb47cd9b525ae&hl=en&gl=US&sxsrf=APpeQnuf_SRHzGyAFHduMoJtW7ZqkrCBaw:1790339843350&sa=X&ved=2ahUKEwiwjY_T34mXAxUcKvsDHbp1Ij8QrQIoAnoECDgQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "www.viabtc.com",
+              "title": "Custom Firmware for ASIC Miners: Boost Efficiency",
+              "url": "https://www.viabtc.com/en/blog/custom-firmware-for-asic-miners-boost-efficiency-462",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.viabtc.com › blog › custom-firmware-for-as...",
+              "website_name": "ViaBTC",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Oct 19, 2025 — Manufacturer firmware prioritizes safety, reliability, and warranty compliance, but it often restricts performance to maintain hardware ... Read more",
+              "pre_snippet": "10/19/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "firmware",
+                "safety"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.viabtc.com/en/blog/custom-firmware-for-asic-miners-boost-efficiency-462#:~:text=Manufacturer%20firmware%20prioritizes%20safety%2C%20reliability%2C,performance%20to%20maintain%20hardware%20longevity.",
+                  "domain": "www.viabtc.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-19 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "bitcointalk.org",
+              "title": "How would you get started on create a custom firmware for ...",
+              "url": "https://bitcointalk.org/index.php?topic=5455747.0",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bitcointalk.org › Bitcoin › Mining › Mining support",
+              "website_name": "Bitcoin Forum",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jun 8, 2023 — Bitmain or any other asic manufacturer is not allowed to publicly redistribute modified cgminer without releasing the code. They have been ... Read more",
+              "pre_snippet": "06/08/2023 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "asic"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://bitcointalk.org/index.php?topic=5455747.0#:~:text=Bitmain%20or%20any%20other%20asic,attitude%20with%20them%20is%20passive.",
+                  "domain": "bitcointalk.org"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-06-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "bixbit.io",
+              "title": "BiXBiT Custom ASIC Mining Firmware",
+              "url": "https://bixbit.io/en/firmwares",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bixbit.io › firmwares",
+              "website_name": "BiXBiT",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Absolutely not. All firmware versions are thoroughly tested before each release. Moreover, all partners devices have been operating on BiXBiT firmware for many ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "All firmware versions are thoroughly tested"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://bixbit.io/en/firmwares#:~:text=How%20to%20get%20firmware%20for",
+                  "domain": "bixbit.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "github.com",
+              "title": "hiveon-kb/hiveon-asic-firmware/general/asic_faq.md ...",
+              "url": "https://github.com/minershive/hiveon-kb/blob/master/hiveon-asic-firmware/general/asic_faq.md",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://github.com › hiveon-kb › blob › master › asic_faq",
+              "website_name": "GitHub",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The ASIC is flashed with the latest BitMain firmware. I can't flash it with Hiveon ASIC. The latest BitMain firmware enables protection against custom firmware. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "ASIC",
+                "firmware",
+                "custom firmware"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://github.com/minershive/hiveon-kb/blob/master/hiveon-asic-firmware/general/asic_faq.md#:~:text=The%20ASIC%20is%20flashed%20with,enables%20protection%20against%20custom%20firmware.",
+                  "domain": "github.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "d-central.tech",
+              "title": "Custom Bitmain Firmware: A Plain-English Guide (2026)",
+              "url": "https://d-central.tech/custom-bitmain-firmware-explained-2026/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://d-central.tech › Blog",
+              "website_name": "D-Central",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Aug 21, 2026 — Flashing custom firmware almost always voids the Bitmain warranty, and a failed flash can brick a machine, though recovery is usually possible ... Read more",
+              "pre_snippet": "08/21/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "custom firmware"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://d-central.tech/custom-bitmain-firmware-explained-2026/#:~:text=Flashing%20custom%20firmware%20almost%20always,possible%20with%20the%20right%20tools.",
+                  "domain": "d-central.tech"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-08-21 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Custom antminer firmware",
+                "Goldshell custom firmware",
+                "S19k pro custom firmware",
+                "BiXBiT firmware",
+                "Vnish firmware",
+                "Hiveon firmware",
+                "Best antminer firmware",
+                "Antminer Z15 custom firmware"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 13,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.nicehash.com",
+              "title": "NiceHash Custom ASIC Firmware",
+              "url": "https://www.nicehash.com/firmware",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.nicehash.com › firmware",
+              "website_name": "NiceHash",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Nice Hash Firmware (NHFW) is a custom ASIC mining firmware designed to optimize mining efficiency, increase hashrate, and reduce power consumption. It features ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Nice"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.nicehash.com/firmware#:~:text=NiceHash%20Firmware%20(NHFW)%20is%20a,enhanced%20stability%20for%20supported%20devices.",
+                  "domain": "www.nicehash.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 11,
+              "rank_absolute": 14,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "hashrateindex.com",
+              "title": "Top 5 Bitcoin Mining Firmware for 2026",
+              "url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hashrateindex.com › blog › top-bitcoin-mining-f...",
+              "website_name": "HashrateIndex",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jan 1, 2026 — Founded in 2016, VNish is a globally deployed firmware platform known for early innovation and broad ASIC model support. Many features now ... Read more",
+              "pre_snippet": "01/01/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "firmware",
+                "ASIC"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/#:~:text=Founded%20in%202016%2C%20VNish%20is,pioneered%20and%20popularized%20by%20VNish.",
+                  "domain": "hashrateindex.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-01-01 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 12,
+              "rank_absolute": 15,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "hashcore.com",
+              "title": "Custom ASIC Firmware",
+              "url": "https://hashcore.com/firmware",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hashcore.com › firmware",
+              "website_name": "HashCore",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Custom firmware for Bitmain ASIC miners. Increase hashrate by up to 24%, save up to 15% energy, and extend device lifespan by up to 20%.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 624,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Custom firmware for Bitmain ASIC miners"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 13,
+              "rank_absolute": 16,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "bitcointalk.org",
+              "title": "How would you get started on create a custom firmware for ...",
+              "url": "https://bitcointalk.org/index.php?topic=5455747.0",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bitcointalk.org › Bitcoin › Mining › Mining support",
+              "website_name": "Bitcoin Forum",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jun 8, 2023 — Bitmain or any other asic manufacturer is not allowed to publicly redistribute modified cgminer without releasing the code. They have been ... Read more",
+              "pre_snippet": "06/08/2023 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "asic"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://bitcointalk.org/index.php?topic=5455747.0#:~:text=Bitmain%20or%20any%20other%20asic,attitude%20with%20them%20is%20passive.",
+                  "domain": "bitcointalk.org"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-06-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 14,
+              "rank_absolute": 17,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "braiins.com",
+              "title": "Why Custom Mining Firmware Matters",
+              "url": "https://braiins.com/blog/why-custom-mining-firmware-matters",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://braiins.com › blog › why-custom-mining-firmw...",
+              "website_name": "Braiins Mining",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jun 27, 2022 — ‍Pros and Cons of Custom Firmware · Risk of damage to hardware with uneducated use · Potential security risk from remote operation (be sure to ... Read more",
+              "pre_snippet": "06/27/2022 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Risk of damage to hardware with uneducated use"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://braiins.com/blog/why-custom-mining-firmware-matters#:~:text=%E2%80%8DPros%20and%20Cons%20of%20Custom,Firmware&text=Risk%20of%20damage%20to%20hardware,with%20uneducated%20use&text=Potential%20security%20risk%20from%20remote,follow%20all%20necessary%20security%20steps)",
+                  "domain": "braiins.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-06-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 15,
+              "rank_absolute": 18,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "hiveon.com",
+              "title": "ASICs and Hiveon ASIC firmware FAQ",
+              "url": "https://hiveon.com/knowledge-base/hiveon-asic-firmware/general/asic_faq/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hiveon.com › hiveon-asic-firmware › general › as...",
+              "website_name": "Hiveon",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The ASIC is flashed with the latest BitMain firmware. I can't flash it with Hiveon ASIC firmware. The latest BitMain firmware has a custom firmware protection. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "ASIC",
+                "firmware",
+                "ASIC firmware",
+                "custom firmware"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://hiveon.com/knowledge-base/hiveon-asic-firmware/general/asic_faq/#:~:text=The%20ASIC%20is%20flashed%20with,has%20a%20custom%20firmware%20protection.",
+                  "domain": "hiveon.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 16,
+              "rank_absolute": 19,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "digitalminingsolutions.tech",
+              "title": "The Case for Custom ASIC Firmware",
+              "url": "https://digitalminingsolutions.tech/the-case-for-custom-asic-firmware/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://digitalminingsolutions.tech › the-case-for-custom...",
+              "website_name": "Digital Mining Solutions",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 1, 2025 — Custom firmware gives users far more control over their hardware, making it a popular choice for maximizing output or reducing energy costs ... Read more",
+              "pre_snippet": "05/01/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Custom firmware gives users far more control over their hardware"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://digitalminingsolutions.tech/the-case-for-custom-asic-firmware/#:~:text=Custom%20firmware%20gives%20users%20far,performance%2C%20efficiency%2C%20and%20hardware%20lifespan.",
+                  "domain": "digitalminingsolutions.tech"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-05-01 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 17,
+              "rank_absolute": 20,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.theminingshop.co.uk",
+              "title": "ASIC Firmware Customisation: 8 Essential Safety Checks",
+              "url": "https://www.theminingshop.co.uk/asic-firmware-customisation/?srsltid=AU7gw4WUx4UtXlYhUN2Mqq_Y0i2xHEfWExl26cVEmo2qMch9VhSfGxOs",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.theminingshop.co.uk › asic-firmware-custo...",
+              "website_name": "The Mining Shop",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 29, 2022 — Third-party firmware replaces or modifies that software. Custom firmware is not automatically better or unsafe. The risk depends on the ... Read more",
+              "pre_snippet": "05/29/2022 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Custom firmware is not automatically better or unsafe"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.theminingshop.co.uk/asic-firmware-customisation/?srsltid=AU7gw4WUx4UtXlYhUN2Mqq_Y0i2xHEfWExl26cVEmo2qMch9VhSfGxOs#:~:text=Third-party%20firmware%20replaces%20or%20modifies,model%20support%2C%20configuration%20and%20operator.",
+                  "domain": "www.theminingshop.co.uk"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-05-29 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 18,
+              "rank_absolute": 21,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "mineshop.eu",
+              "title": "How to Update Your ASIC Miner Firmware Safely",
+              "url": "https://mineshop.eu/blog/asic-miner/how-to-update-asic-miner-firmware-safely",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://mineshop.eu › blog › how-to-update-asic-miner-fi...",
+              "website_name": "Mineshop.eu",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Custom firmware like Braiins OS+ can deliver 5–15% efficiency gains on compatible models, but charges a 2% dev fee and voids most manufacturer warranties. The ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Custom firmware like Braiins OS+ can deliver 5–15% efficiency gains"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://mineshop.eu/blog/asic-miner/how-to-update-asic-miner-firmware-safely#:~:text=Custom%20firmware%20like%20Braiins%20OS%2B,specific%20machine%20and%20electricity%20rate.",
+                  "domain": "mineshop.eu"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 19,
+              "rank_absolute": 22,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "medium.com",
+              "title": "Hiveon ASIC — The Game Changing Firmware",
+              "url": "https://medium.com/@hodsmat/hiveon-asic-the-game-changing-firmware-5eb640094402",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "6 likes  ·  6 years ago",
+              "website_name": "Medium · John Ganchak",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The firmware includes a 2% devfee while still giving you a higher profit than the stock firmware and Hiveon OS for free. Up to 25% energy ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "firmware"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://medium.com/@hodsmat/hiveon-asic-the-game-changing-firmware-5eb640094402#:~:text=The%20firmware%20includes%20a%202%25,efficiency%20improvement%20(on%20Antminer%20S9%E2%80%9375W%2FTH)%3B",
+                  "domain": "medium.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 2,
+              "rank_absolute": 23,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Custom antminer firmware",
+                "Goldshell custom firmware",
+                "S19k pro custom firmware",
+                "BiXBiT firmware",
+                "Vnish firmware",
+                "Hiveon firmware",
+                "Best antminer firmware",
+                "Antminer Z15 custom firmware"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

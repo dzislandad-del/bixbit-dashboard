@@ -1,0 +1,27 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "prompt": "Which custom firmware is available for Whatsminer M30, M50 and M60 miners? List specific vendors.",
+  "task_id": "09251235-2548-0612-0000-91bc81ec45f6",
+  "cost_usd": 0.107129,
+  "datetime": "2026-09-25 12:35:17 +00:00",
+  "fan_out_queries": ["Whatsminer M50 M60 custom firmware vendors", "VNish firmware whatsminer m30 m50", "LuxOS whatsminer m30 m50 m60", "Whatsminer M60 custom firmware VNish Braiins LuxOS", "Whatsminer M30 custom firmware vnish", "BiXBiT whatsminer custom firmware M30 M50 M60", "Whatsminer M30 M50 M60 custom firmware"],
+  "answer_text": "For a long time, custom firmware for MicroBT WhatsMiner machines was extremely rare due to the proprietary and heavily closed nature of MicroBT’s control board architectures (H3, H6, H6OS, and H616) and their varying power supply units. \n\nHowever, custom firmware options are available for the **WhatsMiner M30, M50, and M60** series. Below are the specific prominent custom firmware vendors offering compatibility for these models:\n\n### 1. LuxOS (by Luxor)\nLuxor, a prominent full-stack Bitcoin mining pool and software provider, expanded its native **LuxOS** firmware to support MicroBT hardware. \n* **Supported Models:** \n  * **M50 Series:** Fully supported (including M50, M50S, M50S+, and M50S++).\n  * **M60 Series:** Support has begun rolling out for the M60 and M60S series.\n* **Key Features:** LuxOS provides Advanced Thermal Management (ATM) to prevent sudden binary shutdowns, incredibly fast hashrate ramping, dynamic power targeting, API-driven controls, and a feature called \"Hash on Disconnect\" (which keeps machines hashing synthetic work so generator-powered farms don't experience damaging sudden load drops). \n\n### 2. BiXBiT\nBiXBiT is one of the earliest and most consistent providers of custom firmware for WhatsMiner machines. They offer specialized setups particularly suited for both air-cooled and immersion-cooled operations.\n* **Supported Models:** \n  * **M30 Series:** Wide compatibility across M30, M31, and M32 models (under the M3x umbrella).\n  * **M50 Series:** Fully supported (M5x series).\n  * **M60 Series:** Fully supported.\n* **Key Features:** BiXBiT is highly popular for liquid/immersion cooling conversions, automatic profile generation for overclocking and underclocking, advanced chip tuning, and integration with their proprietary AMS (Asic Monitoring System).\n\n### 3. VNish (and associated platforms like AsicDip / WH-Firmware)\nVNish is one of the largest names in custom ASIC firmware. While historically famous for Antminers, VNish (often distributed directly or via white-label development partners like AsicDip) has expanded to WhatsMiner hardware.\n* **Supported Models:** \n  * **M30 Series:** Wide compatibility (M30, M30S, M30S++, M31S, etc.).\n  * **M50 Series:** Fully supported (M50, M50S, M53, etc.).\n  * **M60 Series:** Select support available.\n* **Key Features:** VNish offers individual chip tuning, massive efficiency gains (improving Watts per Terahash), individual profiles to adjust for varying ambient temperatures, and the ability to easily rollback to factory firmware. \n\n---\n\n### *A Note on Braiins OS*\nWhile **Braiins** (formerly Braiins OS+) is one of the industry's premier custom firmwares, as of late 2026, their custom auto-tuning firmware is still **predominantly focused on Bitmain Antminers**. You can monitor and configure WhatsMiner machines using the *Braiins Toolbox* management software, but actual Braiins custom firmware on WhatsMiner machines remains highly restricted or unsupported compared to LuxOS, BiXBiT, and VNish.",
+  "cited_urls": [
+    {"title": "reddit.com", "direct_url": "https://www.reddit.com/r/BitcoinMining/comments/vt49j6/whatsminer_custom_firmware_vaporware/"},
+    {"title": "hashrateindex.com", "direct_url": "https://hashrateindex.com/blog/luxos-comes-to-whatsminer-what-the-launch-means-for-microbt-fleets/"},
+    {"title": "youtube.com", "direct_url": "https://www.youtube.com/shorts/KzEOxCJehVE"},
+    {"title": "youtube.com", "direct_url": "https://www.youtube.com/watch?v=EqeQQepv2FY"},
+    {"title": "youtube.com", "direct_url": "https://www.youtube.com/watch?v=JOLQpr6G-c4"},
+    {"title": "bixbit.io", "direct_url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"},
+    {"title": "bixbit.io", "direct_url": "https://bixbit.io/en/firmwares/whatsminer-series-m5x"},
+    {"title": "hashrateindex.com", "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/"},
+    {"title": "asicdip.com", "direct_url": "https://asicdip.com/en/firmware/Whatsminer_M20S_M21S_M30S_M31S_M32"},
+    {"title": "vnish.farm", "direct_url": "https://vnish.farm/en/firmware/Whatsminer_M20S_M21S_M30S_M31S_M32"},
+    {"title": "vnish-firmware.com", "direct_url": "https://vnish-firmware.com/firmware/"},
+    {"title": "vnish.pro", "direct_url": "https://vnish.pro/en/"},
+    {"title": "braiins.com", "direct_url": "https://braiins.com/toolbox"},
+    {"title": "braiins.com", "direct_url": "https://academy.braiins.com/braiins-toolbox/limitations"}
+  ],
+  "note": "Response returned inline (no raw file). Vertex AI redirect URLs omitted; direct_url as returned by DataForSEO."
+}

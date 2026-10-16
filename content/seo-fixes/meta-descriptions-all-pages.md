@@ -1,3 +1,5 @@
+> ⛔ **УСТАРЕЛО (2026-09-28).** Построено на ложных данных WebFetch (не видит `<head>`): canonical, meta description и JSON-LD на сайте ЕСТЬ. Не выполнять. Актуальное задание — `content/dev-task-p0-2026-09-28.md`.
+
 # Meta Descriptions — все страницы /en/*
 **Источник:** data/site-structure.md (краул 2026-06-17)
 **Статус сайта:** meta description пустой на всех 32 страницах (P0 из full-audit)

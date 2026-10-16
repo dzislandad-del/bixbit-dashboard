@@ -1,0 +1,25 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "prompt": "What is the best mining farm monitoring and fleet management software for large ASIC operations?",
+  "task_id": "09251235-2548-0612-0000-0f0c21a81def",
+  "web_search_country_iso_code": "US",
+  "cost_usd": 0.005996,
+  "answer_text": "For **large ASIC operations**, the strongest single pick from the results is **MinersMe Cloud** if you want the broadest *fleet-management* coverage for a large, stock-firmware fleet, especially when you also need diagnostics, maintenance workflows, telemetry, and client billing in one console.[2] If your operation is more focused on *pure ASIC fleet orchestration and monitoring* rather than billing/CRM-style functions, **Foreman** is the most specialized large-fleet management platform in these results.[3][13]\n\nA practical way to choose is:\n\n- **MinersMe Cloud** — best overall value for **1,000–100,000+ miners** on stock firmware; combines monitoring, per-chip diagnostics, failure prediction, breaker telemetry, AI maintenance ticketing, and billing.[2]\n- **Foreman** — best for **enterprise ASIC fleet management** and cloud-based control of large miner fleets; described as polished and built specifically for ASICs.[13]\n- **Braiins Manager** — best if you are already in the **Braiins ecosystem** or want a management dashboard tightly aligned with Braiins firmware and hosting workflows.[12][3]\n- **Awesome Miner** — strong centralized orchestration option for **large farms**, but the results position it more as a broad mining manager than the most ASIC-specialized enterprise platform.[11][6]\n- **Minerstat** — repeatedly appears as an overall top pick for ASIC monitoring and automation, especially for operators wanting centralized monitoring plus profitability tools.[1][4][7]\n\nIf you want a single recommendation: **MinersMe Cloud for the broadest large-fleet operations platform, or Foreman for the most ASIC-focused fleet-management tool**.[2][13]",
+  "cited_urls": [
+    "https://wifitalents.com/best/bitcoins-mining-software/",
+    "https://www.minersme.cloud/compare/",
+    "https://nonce.app/en/research/best-bitcoin-mining-management-tool-2026",
+    "https://wifitalents.com/best/asic-mining-software/",
+    "https://worldmetrics.org/best/crypto-mining-software/",
+    "https://gitnux.org/best/bitcoins-mining-software/",
+    "https://worldmetrics.org/best/asic-mining-software/",
+    "https://leedminer.com/blog/how-to-set-up-remote-monitoring-for-your-miner",
+    "https://emcd.io/articles/mining/bitcoin-mining-software-how-to-manage-an-asic-mining-farm-with-btc-tools-sub-accounts-and-batch-updates/",
+    "https://emcd.io/monitoring/",
+    "https://mudrex.com/learn/bitcoin-mining-software-2024/",
+    "https://braiins.com/manager",
+    "https://d-central.tech/bitcoin-mining-software-comparison/",
+    "https://hashrateindex.com/blog/what-is-bitcoin-mining-asic-management-software/"
+  ]
+}

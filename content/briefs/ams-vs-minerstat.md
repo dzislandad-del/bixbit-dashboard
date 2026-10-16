@@ -2,19 +2,22 @@
 **Slug:** `/en/ams/vs-minerstat`
 **Cluster:** mining-fleet-monitoring
 **Type:** Spoke — Comparison / Commercial
-**Priority:** P1
+**Priority:** P1 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Keep. minerstat alternative 10/mo (KD 24) + minerstat vs 10 — the only comparison spoke with measurable volume.
+**Target (architecture v2, 2026-09-25):** `/en/ams/comparison` (NEW page), H2 AMS vs Minerstat, section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| Minerstat alternative | Primary | [VOL: N/A — DataForSEO 401] |
-| AMS vs Minerstat | Primary | [VOL: N/A] |
-| Minerstat ASIC Hub alternative | Secondary | [VOL: N/A] |
-| mining monitoring software comparison | Secondary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Minerstat alternative | Primary | 10 | 24 | — |
+| AMS vs Minerstat | Primary | n/d (<10) | — | — |
+| Minerstat ASIC Hub alternative | Secondary | n/d (<10) | — | — |
+| mining monitoring software comparison | Secondary | n/d (<10) | — | — |
 
 ---
 

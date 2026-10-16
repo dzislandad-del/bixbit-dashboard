@@ -1,0 +1,581 @@
+{
+ "meta": {
+  "pulled_at": "2026-09-28",
+  "endpoint": "/v3/keywords_data/google_ads/search_volume/live",
+  "location_code": 2398,
+  "location": "Kazakhstan",
+  "language_code": "ru",
+  "noAiMode": true,
+  "task_id": "09281401-2548-0367-0000-19b7fae2694a",
+  "cost_usd": 0.09,
+  "keywords": 58,
+  "note": "KZ is a proxy for CIS, not total RU demand (Russia/Belarus not supported by Labs, 40501). Google Ads buckets: 10 = threshold; null = no data (<10); 0 = Google Ads reports zero. monthly_last6 = most recent 6 months, newest first. Real RU demand -> GSC impressions (data/gsc-queries-all-2026-09-28.json, data/gsc-queries-pages-ru-2026-09-28.json). Used by content/briefs/ru/*.md."
+ },
+ "rows": [
+  {
+   "keyword": "прошивка для асика",
+   "search_volume": null
+  },
+  {
+   "keyword": "прошивка асика",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивки для асиков",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    10,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "кастомная прошивка для асиков",
+   "search_volume": null
+  },
+  {
+   "keyword": "прошивка для майнинга",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "скачать прошивку для асика",
+   "search_volume": null
+  },
+  {
+   "keyword": "лучшая прошивка для асика",
+   "search_volume": null
+  },
+  {
+   "keyword": "прошивка antminer",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивка антмайнер",
+   "search_volume": null
+  },
+  {
+   "keyword": "antminer прошивка",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    10,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивка antminer s19",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивка antminer s19j pro",
+   "search_volume": null
+  },
+  {
+   "keyword": "прошивка antminer s21",
+   "search_volume": null
+  },
+  {
+   "keyword": "кастомная прошивка antminer",
+   "search_volume": null
+  },
+  {
+   "keyword": "прошивка bitmain",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивка antminer s9",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "официальная прошивка antminer",
+   "search_volume": null
+  },
+  {
+   "keyword": "разгон antminer s19",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивка whatsminer",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "прошивка вотсмайнер",
+   "search_volume": null
+  },
+  {
+   "keyword": "прошивка ватсмайнер",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивка whatsminer m30s",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    10,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивка whatsminer m50",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивка whatsminer m21s",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивка whatsminer m60",
+   "search_volume": null
+  },
+  {
+   "keyword": "разгон whatsminer",
+   "search_volume": null
+  },
+  {
+   "keyword": "обновление прошивки whatsminer",
+   "search_volume": null
+  },
+  {
+   "keyword": "разгон асика",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "разгон асиков",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "андервольтинг асика",
+   "search_volume": null
+  },
+  {
+   "keyword": "андервольт асика",
+   "search_volume": null
+  },
+  {
+   "keyword": "автотюнинг асика",
+   "search_volume": null
+  },
+  {
+   "keyword": "прошивка vnish",
+   "search_volume": 10,
+   "competition": "LOW",
+   "competition_index": 0,
+   "monthly_last6": [
+    10,
+    10,
+    10,
+    0,
+    10,
+    0
+   ]
+  },
+  {
+   "keyword": "прошивка вниш",
+   "search_volume": 10,
+   "cpc": 1.04,
+   "competition": "LOW",
+   "competition_index": 29,
+   "monthly_last6": [
+    10,
+    0,
+    10,
+    0,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "braiins os",
+   "search_volume": 10,
+   "competition": "LOW",
+   "competition_index": 3,
+   "monthly_last6": [
+    20,
+    20,
+    20,
+    40,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "hiveon asic",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "мониторинг асиков",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    10,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "программа для мониторинга асиков",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "мониторинг майнинга",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "удаленное управление асиками",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "программа для управления асиками",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "мониторинг майнинг фермы",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "программа для майнинг фермы",
+   "search_volume": null
+  },
+  {
+   "keyword": "коды ошибок whatsminer",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    10,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "ошибки whatsminer",
+   "search_volume": 10,
+   "competition": "LOW",
+   "competition_index": 0,
+   "monthly_last6": [
+    10,
+    0,
+    10,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "ошибки ватсмайнер",
+   "search_volume": 10,
+   "competition": "LOW",
+   "competition_index": 0,
+   "monthly_last6": [
+    10,
+    0,
+    10,
+    10,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "ошибка 540 whatsminer",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "ошибка 2010 whatsminer",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    10,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "ошибки antminer",
+   "search_volume": null
+  },
+  {
+   "keyword": "иммерсионное охлаждение",
+   "search_volume": 20,
+   "competition": "LOW",
+   "competition_index": 4,
+   "monthly_last6": [
+    30,
+    10,
+    20,
+    20,
+    20,
+    20
+   ]
+  },
+  {
+   "keyword": "иммерсионное охлаждение асиков",
+   "search_volume": 10,
+   "competition": "LOW",
+   "competition_index": 0,
+   "monthly_last6": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "иммерсионное охлаждение для майнинга",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "иммерсионная жидкость",
+   "search_volume": 20,
+   "competition": "LOW",
+   "competition_index": 0,
+   "monthly_last6": [
+    10,
+    10,
+    20,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "иммерсионная ванна для асиков",
+   "search_volume": 10,
+   "competition": "MEDIUM",
+   "competition_index": 48,
+   "monthly_last6": [
+    10,
+    0,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "охлаждение асиков",
+   "search_volume": 10,
+   "competition": "LOW",
+   "competition_index": 0,
+   "monthly_last6": [
+    10,
+    10,
+    30,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "охлаждение майнинг фермы",
+   "search_volume": 10,
+   "monthly_last6": [
+    0,
+    0,
+    10,
+    10,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "водяное охлаждение майнинг",
+   "search_volume": 0,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "гидроохлаждение асиков",
+   "search_volume": null
+  }
+ ]
+}

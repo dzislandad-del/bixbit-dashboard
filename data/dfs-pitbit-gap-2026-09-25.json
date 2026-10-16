@@ -1,0 +1,395 @@
+{
+ "date": "2026-09-25",
+ "source": "DataForSEO MCP (Labs, Keywords Data google_ads, SERP organic/live/advanced)",
+ "labs": {
+  "domain_rank_overview": {
+   "pitbitecosystem.com|US 2840/en": {
+    "count": 1,
+    "etv": 0.464,
+    "pos_21_30": 1,
+    "is_new": 1,
+    "is_lost": 1
+   },
+   "pitbitecosystem.com|KZ 2398/ru": "empty (0 keywords)",
+   "pitbit.online|US 2840/en": {
+    "count": 1,
+    "etv": 0.029,
+    "pos_41_50": 1,
+    "is_new": 1,
+    "is_lost": 1
+   },
+   "pitbit.online|KZ 2398/ru": "empty (0 keywords)"
+  },
+  "ranked_keywords (historical_serp_mode=all)": {
+   "pitbitecosystem.com|US": [
+    {
+     "kw": "bitmain warranty check",
+     "vol": 110,
+     "pos": 29,
+     "url": "/en/warranty/"
+    },
+    {
+     "kw": "repairbit",
+     "vol": 140,
+     "pos": 97,
+     "url": "/",
+     "is_lost": true
+    }
+   ],
+   "pitbit.online|US": [
+    {
+     "kw": "piitb",
+     "vol": 30,
+     "pos": 46,
+     "url": "/"
+    },
+    {
+     "kw": "repairbit",
+     "vol": 140,
+     "pos": 89,
+     "url": "/",
+     "is_lost": true
+    }
+   ],
+   "pitbitecosystem.com|KZ": "0",
+   "pitbit.online|KZ": "0",
+   "pitbitecosystem.com|UA 2804/ru": "0",
+   "pitbit.online|UA 2804/ru": "0"
+  },
+  "domain_intersection vs bixbit.io": {
+   "pitbitecosystem.com|US": "0",
+   "pitbit.online|US": "0",
+   "pitbitecosystem.com|KZ": "0"
+  },
+  "backlinks_info seen in ranked_keywords": {
+   "pitbitecosystem.com/": {
+    "referring_domains": 17,
+    "dofollow_backlinks": 4
+   },
+   "pitbit.online/": {
+    "referring_domains": 52,
+    "dofollow_backlinks": 50
+   }
+  }
+ },
+ "search_volume_google_ads": {
+  "KZ 2398/ru": {
+   "прошивка асика": 10,
+   "прошивка antminer": 10,
+   "прошивка s19": 10,
+   "прошивка s19j pro": 10,
+   "прошивка whatsminer": 10,
+   "прошивка l7": 10,
+   "мониторинг асиков": 10,
+   "вниш прошивка": 10,
+   "hiveos asic": 10,
+   "braiins os": 10,
+   "vnish": 110,
+   "pitbit": 20,
+   "bixbit": 10,
+   "биксбит": 20,
+   "no data": [
+    "прошивка для асиков",
+    "прошивка антмайнер",
+    "прошивка s21",
+    "прошивка s19 xp",
+    "прошивка вацмайнер",
+    "асик мониторинг",
+    "мониторинг майнинг фермы",
+    "разгон асика",
+    "разгон antminer",
+    "питбит",
+    "кастомная прошивка asic",
+    "прошивка l9",
+    "мониторинг асиков онлайн",
+    "прошивка без девфи",
+    "прошивка асик антмайнер",
+    "pitbit online"
+   ]
+  },
+  "US 2840/en": {
+   "pitbit": 70,
+   "bixbit": 140,
+   "bixbit firmware": 10,
+   "vnish": 22200,
+   "antminer monitoring software": 10,
+   "no data": [
+    "pitbit firmware",
+    "pitbit online",
+    "pitbit ecosystem",
+    "elphapex firmware",
+    "elphapex dg1 firmware"
+   ]
+  }
+ },
+ "serp": {
+  "прошивка antminer|KZ/ru depth20": {
+   "status": "20000",
+   "top": [
+    "youtube MSKMINER S17 SD",
+    "reddit s9k braiins",
+    "bazabtc KAS fw",
+    "youtube L3+ Hive",
+    "youtube 7Miners SUPERstock",
+    "forum.bits.media s19",
+    "bazabtc XMR",
+    "reddit L3+",
+    "youtube 7Miners S19",
+    "(p2) youtube 7Miners T21 stock vs custom",
+    "forum.bits.media",
+    "youtube VNISH S17",
+    "reddit",
+    "youtube MSKMINER",
+    "youtube HOME MINER",
+    "reddit S21+ hydro vnish",
+    "youtube L3 no fee"
+   ],
+   "pitbit": "not in top 20",
+   "bixbit": "not in top 20",
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "images"
+   ]
+  },
+  "мониторинг асиков|KZ/ru depth20": {
+   "status": "20000",
+   "top": [
+    [
+     1,
+     "monito.run"
+    ],
+    [
+     2,
+     "moonone.ru"
+    ],
+    [
+     3,
+     "bixbit.io/ru/ams"
+    ],
+    [
+     4,
+     "tcs-mining.ru comparison blog"
+    ],
+    [
+     "video",
+     "VNISH OFFICIAL x2, Мани Майнинг"
+    ],
+    [
+     5,
+     "moonone.ru blog"
+    ],
+    [
+     6,
+     "aximine.com"
+    ],
+    [
+     7,
+     "minermonitor.ru"
+    ],
+    [
+     8,
+     "monito.run/blog"
+    ],
+    [
+     9,
+     "vk.ru sova_monitoring"
+    ]
+   ],
+   "pitbit": "not in top 20",
+   "bixbit": 3,
+   "related": [
+    "Мониторинг асиков с телефона",
+    "Удаленный мониторинг асиков",
+    "Программа для мониторинга асиков на Телефон",
+    "Мониторинг майнеров",
+    "Программа мониторинга асиков",
+    "Moonone",
+    "Magicminermonitor"
+   ]
+  },
+  "прошивка s19|KZ/ru depth20": {
+   "status": "20000 (11 results returned)",
+   "top": [
+    [
+     1,
+     "youtube PITBIT ECOSYSTEM 'Обзор S19 I на прошивке от PITBIT' (2025)"
+    ],
+    [
+     2,
+     "minecool.ru vnish tests 2022"
+    ],
+    [
+     3,
+     "youtube S19 88chip"
+    ],
+    [
+     4,
+     "reddit braiins s19j"
+    ],
+    [
+     5,
+     "youtube"
+    ],
+    [
+     6,
+     "miningclub.info"
+    ],
+    [
+     7,
+     "youtube MSKMINER/VNISH/BRAIINS comparison"
+    ],
+    [
+     8,
+     "reddit"
+    ],
+    [
+     9,
+     "youtube S19 XP"
+    ]
+   ],
+   "pitbit": "1 (YouTube channel only, not own domain)",
+   "bixbit": "not in results"
+  },
+  "прошивка whatsminer|KZ/ru depth20": {
+   "status": "20000",
+   "top": [
+    [
+     1,
+     "bixbit.io/ru/documentation/.../4-obnovlenie-proshivki-mainera"
+    ],
+    [
+     2,
+     "trendtonext.com"
+    ],
+    [
+     3,
+     "whatsminer.com firmware-download"
+    ],
+    [
+     4,
+     "bazabtc"
+    ],
+    [
+     "video",
+     "WMOC, BiXBiT Official, 7Miners"
+    ],
+    [
+     5,
+     "miningclub.info"
+    ],
+    [
+     6,
+     "bixbit.io/ru/firmwares"
+    ],
+    [
+     7,
+     "igtec.ru"
+    ],
+    [
+     8,
+     "nicehash ru"
+    ],
+    [
+     9,
+     "chim-mining.ru WMOC no devfee"
+    ],
+    [
+     10,
+     "youtube"
+    ],
+    [
+     11,
+     "forum.bits.media BiXBiT Dev thread"
+    ],
+    [
+     12,
+     "bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer"
+    ],
+    [
+     13,
+     "youtube BiXBiT Official M30S"
+    ],
+    [
+     14,
+     "trendtonext"
+    ],
+    [
+     15,
+     "forum.bits.media no-devfee whatsminer"
+    ],
+    [
+     16,
+     "whatsminer.com"
+    ],
+    [
+     17,
+     "youtube Miner World"
+    ],
+    [
+     18,
+     "cdn.miners.tools"
+    ]
+   ],
+   "pitbit": "not in top 20",
+   "bixbit": "1, 6, 12 (+ video, bits.media thread #11, YouTube #13)",
+   "related": [
+    "BiXBiT прошивка",
+    "BiXBiT Прошивка отзывы",
+    "Прошивка Whatsminer M30S",
+    "Прошивка whatsminer m21s",
+    "Прошивка Whatsminer M31S",
+    "Прошивка whatsminer m20s"
+   ]
+  },
+  "прошивка для асиков|Russia 2643/ru": {
+   "status": "40501 Invalid Field: location_code (Russia not accepted by SERP endpoint either)"
+  },
+  "pitbit|US/en depth10": {
+   "status": "20000",
+   "top": [
+    [
+     1,
+     "pibit.ai"
+    ],
+    [
+     2,
+     "linkedin pibitai"
+    ],
+    [
+     3,
+     "pitbit.online"
+    ],
+    [
+     4,
+     "ycombinator pibit-ai"
+    ],
+    [
+     5,
+     "youtube @pitbit003 PITBIT ECOSYSTEM (39.7K followers)"
+    ],
+    [
+     6,
+     "linkedin pitbit (biotech, pitbit.at)"
+    ],
+    [
+     7,
+     "pitbit.systems (PITBIT client cabinet)"
+    ],
+    [
+     8,
+     "pitchbook pibit"
+    ],
+    [
+     9,
+     "pippit.ai"
+    ]
+   ],
+   "note": "US 'pitbit' volume (70) is contaminated by Pibit.AI / Pippit / pitbit.at; PiTBiT-intent share unknown"
+  }
+ },
+ "unsupported_locations": {
+  "Russia 2643": "40501 in Labs and SERP",
+  "Belarus 2112": "40501 in Labs and SERP"
+ }
+}

@@ -1,0 +1,1330 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "9.3082 sec.",
+  "cost": 0.00615,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09251238-2548-0139-0000-73f779278083",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "9.2339 sec.",
+      "cost": 0.00615,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "antminer firmware reduce power consumption",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "depth": 20,
+        "load_async_ai_overview": true,
+        "people_also_ask_click_depth": 1,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "antminer firmware reduce power consumption",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=antminer%20firmware%20reduce%20power%20consumption&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-09-25 12:38:51 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 109,
+          "pages_count": 2,
+          "items_count": 23,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "You can reduce an Antminer's power consumption by installing official low-power firmware modes or using third-party aftermarket firmware to undervolt and downclock the hashboards.[[1]](https://www.youtube.com/watch?v=vhowOxUSfhA)[[2]](https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/)[[3]](https://www.youtube.com/watch?v=TiQ5VWlK8cM&t=196)\n\n### Official Bitmain Firmware Modes\n\n- **Low-Power Mode:** Bitmain released official firmware updates for select models (like the [[S19 Pro Go to product viewer dialog for this item.](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,mid:576462762670836376,imageDocid:13224952769452777621,gpcid:16124266137253005970,headlineOfferDocid:3831453100164657380,catalogid:180011640135411784,productDocid:17774019745564701746&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAF) Go to product viewer dialog for this item.](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,mid:576462762670836376,imageDocid:13224952769452777621,gpcid:16124266137253005970,headlineOfferDocid:3831453100164657380,catalogid:180011640135411784,productDocid:17774019745564701746&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAE) and [[L7 Go to product viewer dialog for this item.](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,imageDocid:4945771344779750860,headlineOfferDocid:12494606786171027585,productDocid:12494606786171027585&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAI) Go to product viewer dialog for this item.](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,imageDocid:4945771344779750860,headlineOfferDocid:12494606786171027585,productDocid:12494606786171027585&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAH) ) that add a \"Low Power\" mode in the web GUI configuration menu.[[1]](https://www.youtube.com/watch?v=TiQ5VWlK8cM&t=196)[[2]](https://www.youtube.com/watch?v=vhowOxUSfhA)[[3]](https://www.youtube.com/watch?v=XWUAizSnvZM)\n- **How to apply:** Log into your miner's web interface, navigate to the **Settings** or **Miner Configuration** tab, change the working mode from \"Normal\" to **Low Power** , and save/restart.[[1]](https://www.youtube.com/watch?v=TiQ5VWlK8cM&t=196)\n- **Effect:** This decreases power draw significantly (e.g., over 1,200W reduction on an S19 Pro ) while proportionally lowering the hash rate, heat output, and fan noise.[[1]](https://www.youtube.com/watch?v=vhowOxUSfhA)\n\n### Third-Party / Aftermarket Firmware\n\n- **Popular Options:** Custom firmware solutions like [Braiins OS](https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste), LuxOS , and [VNISH](https://vnish.pro/en/firmware-antminer-s19-hydro.html) offer advanced tuning and precise power-target controls.[[1]](https://bitcoin.stackexchange.com/questions/122121/how-to-remotely-configure-antminer-s19-pro-hash-rate-or-ideally-power-limit-in)[[2]](https://hashrateindex.com/blog/how-luxos-can-maximize-your-asic-miners-power-consumption-and-revenue/)[[3]](https://vnish.pro/en/firmware-antminer-s19-hydro.html)[[4]](https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste)\n- **Undervolting & Autotuning:** These tools let you set a specific wattage target or percentage reduction by granularly tuning chip frequencies and voltages per individual hashboard.[[1]](https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste)[[2]](https://bitcoin.stackexchange.com/questions/122121/how-to-remotely-configure-antminer-s19-pro-hash-rate-or-ideally-power-limit-in)[[3]](https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/)\n- **Benefits:** They often achieve better efficiency (J/TH) curves than stock firmware, allowing you to maximize profitability when electricity costs spike.[[1]](https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/)[[2]](https://vnish.pro/en/firmware-antminer-s19-hydro.html)\n\nIf you'd like, tell me:\n\n- Your **exact Antminer model** (e.g., S19 Pro, S21, S9)\n- Whether you prefer **stock firmware** or are open to **third-party options** like Braiins or VNISH\n\nI can give you step-by-step instructions or expected performance metrics for your device.",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "You can reduce an Antminer's power consumption by installing official low-power firmware modes or using third-party aftermarket firmware to undervolt and downclock the hashboards.",
+                  "markdown": "You can reduce an Antminer's power consumption by installing official low-power firmware modes or using third-party aftermarket firmware to undervolt and downclock the hashboards.[[1]](https://www.youtube.com/watch?v=vhowOxUSfhA)[[2]](https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/)[[3]](https://www.youtube.com/watch?v=TiQ5VWlK8cM&t=196)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=vhowOxUSfhA",
+                      "title": "Bitmain Antminer S19 Pro firmware Christmas 2022",
+                      "text": "Bitmain Antminer S19 Pro firmware Christmas 2022  - low power mode! hi everyone my name's Philip. and welcome to my channel it's D..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Miners1688",
+                      "domain": "www.miners1688.com",
+                      "url": "https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/",
+                      "title": "ASIC Firmware Tuning and Undervolting for Peak Efficiency",
+                      "text": "Strategic undervolting delivers multiple advantages: reduced power draw (often 10-20%), lower operating temperatures extending har..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=TiQ5VWlK8cM&t=196",
+                      "title": "THANKS BITMAIN... for the low power mode!",
+                      "text": "THANKS BITMAIN... for the low power mode! and then you can update to the new uh firmware that gives you the low power mode. so mak..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Official Bitmain Firmware Modes",
+                  "text": "Low-Power Mode: Bitmain released official firmware updates for select models (like the S19 Pro and L7 ) that add a \"Low Power\" mode in the web GUI configuration menu. How to apply: Log into your miner's web interface, navigate to the Settings or Miner Configuration tab, change the working mode from \"Normal\" to Low Power, and save/restart. Effect: This decreases power draw significantly (e.g., over 1,200W reduction on an S19 Pro ) while proportionally lowering the hash rate, heat output, and fan noise.",
+                  "markdown": "- **Low-Power Mode:** Bitmain released official firmware updates for select models (like the [[S19 Pro Go to product viewer dialog for this item.](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,mid:576462762670836376,imageDocid:13224952769452777621,gpcid:16124266137253005970,headlineOfferDocid:3831453100164657380,catalogid:180011640135411784,productDocid:17774019745564701746&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAF) Go to product viewer dialog for this item.](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,mid:576462762670836376,imageDocid:13224952769452777621,gpcid:16124266137253005970,headlineOfferDocid:3831453100164657380,catalogid:180011640135411784,productDocid:17774019745564701746&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAE) and [[L7 Go to product viewer dialog for this item.](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,imageDocid:4945771344779750860,headlineOfferDocid:12494606786171027585,productDocid:12494606786171027585&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAI) Go to product viewer dialog for this item.](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,imageDocid:4945771344779750860,headlineOfferDocid:12494606786171027585,productDocid:12494606786171027585&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAH) ) that add a \"Low Power\" mode in the web GUI configuration menu.[[1]](https://www.youtube.com/watch?v=TiQ5VWlK8cM&t=196)[[2]](https://www.youtube.com/watch?v=vhowOxUSfhA)[[3]](https://www.youtube.com/watch?v=XWUAizSnvZM)\n- **How to apply:** Log into your miner's web interface, navigate to the **Settings** or **Miner Configuration** tab, change the working mode from \"Normal\" to **Low Power** , and save/restart.[[1]](https://www.youtube.com/watch?v=TiQ5VWlK8cM&t=196)\n- **Effect:** This decreases power draw significantly (e.g., over 1,200W reduction on an S19 Pro ) while proportionally lowering the hash rate, heat output, and fan noise.[[1]](https://www.youtube.com/watch?v=vhowOxUSfhA)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "S19 ProGo to product viewer dialog for this item.Go to product viewer dialog for this item.",
+                      "description": null,
+                      "url": "https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,mid:576462762670836376,imageDocid:13224952769452777621,gpcid:16124266137253005970,headlineOfferDocid:3831453100164657380,catalogid:180011640135411784,productDocid:17774019745564701746&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAE",
+                      "domain": "www.google.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "S19 ProGo to product viewer dialog for this item.",
+                      "description": null,
+                      "url": "https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,mid:576462762670836376,imageDocid:13224952769452777621,gpcid:16124266137253005970,headlineOfferDocid:3831453100164657380,catalogid:180011640135411784,productDocid:17774019745564701746&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAF",
+                      "domain": "www.google.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "L7Go to product viewer dialog for this item.Go to product viewer dialog for this item.",
+                      "description": null,
+                      "url": "https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,imageDocid:4945771344779750860,headlineOfferDocid:12494606786171027585,productDocid:12494606786171027585&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAH",
+                      "domain": "www.google.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "L7Go to product viewer dialog for this item.",
+                      "description": null,
+                      "url": "https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,imageDocid:4945771344779750860,headlineOfferDocid:12494606786171027585,productDocid:12494606786171027585&q=product&sa=X&ved=2ahUKEwjIssf634mXAxULR_4FHcsyF-0Qxa4PegoIAggACAAIFxAI",
+                      "domain": "www.google.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=TiQ5VWlK8cM&t=196",
+                      "title": "THANKS BITMAIN... for the low power mode!",
+                      "text": "THANKS BITMAIN... for the low power mode! and then you can update to the new uh firmware that gives you the low power mode. so mak..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=vhowOxUSfhA",
+                      "title": "Bitmain Antminer S19 Pro firmware Christmas 2022",
+                      "text": "Bitmain Antminer S19 Pro firmware Christmas 2022  - low power mode! hi everyone my name's Philip. and welcome to my channel it's D..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=XWUAizSnvZM",
+                      "title": "BITMAIN L7 LOW POWER MODE.",
+                      "text": "TRUSTED Crypto Mining Hardware Shops ------------------------------------------------------------------ Bitcoin Mining hardware an..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Third-Party / Aftermarket Firmware",
+                  "text": "Popular Options: Custom firmware solutions like Braiins OS, LuxOS, and VNISH offer advanced tuning and precise power-target controls. Undervolting & Autotuning: These tools let you set a specific wattage target or percentage reduction by granularly tuning chip frequencies and voltages per individual hashboard. Benefits: They often achieve better efficiency (J/TH) curves than stock firmware, allowing you to maximize profitability when electricity costs spike.",
+                  "markdown": "- **Popular Options:** Custom firmware solutions like [Braiins OS](https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste), LuxOS , and [VNISH](https://vnish.pro/en/firmware-antminer-s19-hydro.html) offer advanced tuning and precise power-target controls.[[1]](https://bitcoin.stackexchange.com/questions/122121/how-to-remotely-configure-antminer-s19-pro-hash-rate-or-ideally-power-limit-in)[[2]](https://hashrateindex.com/blog/how-luxos-can-maximize-your-asic-miners-power-consumption-and-revenue/)[[3]](https://vnish.pro/en/firmware-antminer-s19-hydro.html)[[4]](https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste)\n- **Undervolting & Autotuning:** These tools let you set a specific wattage target or percentage reduction by granularly tuning chip frequencies and voltages per individual hashboard.[[1]](https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste)[[2]](https://bitcoin.stackexchange.com/questions/122121/how-to-remotely-configure-antminer-s19-pro-hash-rate-or-ideally-power-limit-in)[[3]](https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/)\n- **Benefits:** They often achieve better efficiency (J/TH) curves than stock firmware, allowing you to maximize profitability when electricity costs spike.[[1]](https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/)[[2]](https://vnish.pro/en/firmware-antminer-s19-hydro.html)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Braiins OS",
+                      "description": null,
+                      "url": "https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste",
+                      "domain": "braiins.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "VNISH",
+                      "description": null,
+                      "url": "https://vnish.pro/en/firmware-antminer-s19-hydro.html",
+                      "domain": "vnish.pro"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Bitcoin Stack Exchange",
+                      "domain": "bitcoin.stackexchange.com",
+                      "url": "https://bitcoin.stackexchange.com/questions/122121/how-to-remotely-configure-antminer-s19-pro-hash-rate-or-ideally-power-limit-in",
+                      "title": "How to remotely configure Antminer S19 Pro+ hash rate or ideally power limit in Watts (wattage)",
+                      "text": "There's no official documentation on how to remotely configure the hash rate or power limit on the Antminer S19 Pro+ using the sto..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HashrateIndex",
+                      "domain": "hashrateindex.com",
+                      "url": "https://hashrateindex.com/blog/how-luxos-can-maximize-your-asic-miners-power-consumption-and-revenue/",
+                      "title": "How LuxOS Can Maximize Your ASIC Miner's Power ...",
+                      "text": "How LuxOS Can Maximize Your ASIC Miner's Power Consumption and Profit Here's how Luxor's LuxOS Antminer firmware can help miners b..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "vnish.pro",
+                      "domain": "vnish.pro",
+                      "url": "https://vnish.pro/en/firmware-antminer-s19-hydro.html",
+                      "title": "Vnish Firmware for Antminer S19 (hydro)",
+                      "text": "Firmware description VNISH is custom firmware for ASIC miners that offers more features than standard software. This firmware is u..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Braiins Mining",
+                      "domain": "braiins.com",
+                      "url": "https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste",
+                      "title": "Smarter Clock Speed Management for Bitcoin Miners",
+                      "text": "With just a few clicks, you can: * ✅ Set power modes on miners running stock firmware across major brands: Antminers Whatsminers A..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Braiins Mining",
+                      "domain": "braiins.com",
+                      "url": "https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste",
+                      "title": "Smarter Clock Speed Management for Bitcoin Miners",
+                      "text": "With just a few clicks, you can: * ✅ Set power modes on miners running stock firmware across major brands: Antminers Whatsminers A..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Bitcoin Stack Exchange",
+                      "domain": "bitcoin.stackexchange.com",
+                      "url": "https://bitcoin.stackexchange.com/questions/122121/how-to-remotely-configure-antminer-s19-pro-hash-rate-or-ideally-power-limit-in",
+                      "title": "How to remotely configure Antminer S19 Pro+ hash rate or ideally power limit in Watts (wattage)",
+                      "text": "There's no official documentation on how to remotely configure the hash rate or power limit on the Antminer S19 Pro+ using the sto..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Miners1688",
+                      "domain": "www.miners1688.com",
+                      "url": "https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/",
+                      "title": "ASIC Firmware Tuning and Undervolting for Peak Efficiency",
+                      "text": "Strategic undervolting delivers multiple advantages: reduced power draw (often 10-20%), lower operating temperatures extending har..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "If you'd like, tell me:Your exact Antminer model (e.g., S19 Pro, S21, S9)\nWhether you prefer stock firmware or are open to third-party options like Braiins or VNISH\nI can give you step-by-step instructions or expected performance metrics for your device.",
+                  "markdown": "If you'd like, tell me:\n\n- Your **exact Antminer model** (e.g., S19 Pro, S21, S9)\n- Whether you prefer **stock firmware** or are open to **third-party options** like Braiins or VNISH\n\nI can give you step-by-step instructions or expected performance metrics for your device.",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=vhowOxUSfhA",
+                  "title": "Bitmain Antminer S19 Pro firmware Christmas 2022",
+                  "text": "Bitmain Antminer S19 Pro firmware Christmas 2022  - low power mode! hi everyone my name's Philip. and welcome to my channel it's D..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=TiQ5VWlK8cM&t=196",
+                  "title": "THANKS BITMAIN... for the low power mode!",
+                  "text": "THANKS BITMAIN... for the low power mode! and then you can update to the new uh firmware that gives you the low power mode. so mak..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "HashrateIndex",
+                  "domain": "hashrateindex.com",
+                  "url": "https://hashrateindex.com/blog/how-luxos-can-maximize-your-asic-miners-power-consumption-and-revenue/",
+                  "title": "How LuxOS Can Maximize Your ASIC Miner's Power ...",
+                  "text": "How LuxOS Can Maximize Your ASIC Miner's Power Consumption and Profit Here's how Luxor's LuxOS Antminer firmware can help miners b..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=XWUAizSnvZM",
+                  "title": "BITMAIN L7 LOW POWER MODE.",
+                  "text": "TRUSTED Crypto Mining Hardware Shops ------------------------------------------------------------------ Bitcoin Mining hardware an..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Miners1688",
+                  "domain": "www.miners1688.com",
+                  "url": "https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/",
+                  "title": "ASIC Firmware Tuning and Undervolting for Peak Efficiency",
+                  "text": "Strategic undervolting delivers multiple advantages: reduced power draw (often 10-20%), lower operating temperatures extending har..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Braiins Mining",
+                  "domain": "braiins.com",
+                  "url": "https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste",
+                  "title": "Smarter Clock Speed Management for Bitcoin Miners",
+                  "text": "With just a few clicks, you can: * ✅ Set power modes on miners running stock firmware across major brands: Antminers Whatsminers A..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "vnish.pro",
+                  "domain": "vnish.pro",
+                  "url": "https://vnish.pro/en/firmware-antminer-s19-hydro.html",
+                  "title": "Vnish Firmware for Antminer S19 (hydro)",
+                  "text": "Firmware description VNISH is custom firmware for ASIC miners that offers more features than standard software. This firmware is u..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Bitcoin Stack Exchange",
+                  "domain": "bitcoin.stackexchange.com",
+                  "url": "https://bitcoin.stackexchange.com/questions/122121/how-to-remotely-configure-antminer-s19-pro-hash-rate-or-ideally-power-limit-in",
+                  "title": "How to remotely configure Antminer S19 Pro+ hash rate or ideally power limit in Watts (wattage)",
+                  "text": "There's no official documentation on how to remotely configure the hash rate or power limit on the Antminer S19 Pro+ using the sto..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "bitcoin.stackexchange.com",
+              "title": "How to remotely configure Antminer S19 Pro+ hash rate or ...",
+              "url": "https://bitcoin.stackexchange.com/questions/122121/how-to-remotely-configure-antminer-s19-pro-hash-rate-or-ideally-power-limit-in",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bitcoin.stackexchange.com › questions › how-to-...",
+              "website_name": "Bitcoin Stack Exchange",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mar 3, 2024 — I am helping a friend set up his Antminer S19 Pro+ miner and due to fluctuating power availability, he needs to control the hash rate, or ideally power ...",
+              "pre_snippet": "03/03/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "1 answer",
+                  "description": null,
+                  "url": "https://bitcoin.stackexchange.com/a/122984",
+                  "domain": "bitcoin.stackexchange.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-03-03 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How to reduce power consumption on your #Asicminer",
+              "url": "https://www.youtube.com/watch?v=bFGsmIsUk_g",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "970+ views  ·  4 years ago",
+              "website_name": "YouTube · Crypto Mining lab",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "We going to try and reduce the power consumption on an asic miner for this experiment we will be using Antminer L3+ combined with third party ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "reduce the power consumption on an asic miner"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-01-29 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.miners1688.com",
+              "title": "ASIC Firmware Tuning and Undervolting for Peak Efficiency",
+              "url": "https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/?srsltid=AU7gw4WCd5Ht8IJKr8EBDFX579gQaXrEFjVU7rzV2epawSzNW3OO20Cm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.miners1688.com › General News",
+              "website_name": "Miners1688",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jan 27, 2026 — Discover how firmware tuning and undervolting can reduce your mining operation's power consumption by up to 15% while maintaining profitability ...",
+              "pre_snippet": "01/27/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "firmware",
+                "reduce",
+                "power consumption"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-01-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "ASIC miner, limit power usage : r/BitcoinMining",
+              "url": "https://www.reddit.com/r/BitcoinMining/comments/1i54wu7/asic_miner_limit_power_usage/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments  ·  1 year ago",
+              "website_name": "Reddit · r/BitcoinMining",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "firmware offers 2 power level ・ set your power level freely ・ antminer s19. you can install an alternative firmware to it, can freely select ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "firmware",
+                "power",
+                "antminer"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "ASIC power consumption and efficiency reduction",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/BitcoinMining/comments/198u9ul/asic_power_consumption_and_efficiency_reduction/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Antminer S19 90 Th 4000+ W high power consumption",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/BitcoinMining/comments/17398gz/antminer_s19_90_th_4000_w_high_power_consumption/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=antminer+firmware+reduce+power+consumption+site:www.reddit.com&sca_esv=6dacb47cd9b525ae&hl=en&gl=US&sxsrf=APpeQnufizuDhfTHhdicxhm44VR9_vELug:1790339923999&sa=X&ved=2ahUKEwiducn534mXAxWa5QIHHYIxCFgQrQIoAnoECCkQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How much electricity does a bitcoin miner consume per day?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How much does an Antminer make per day?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How much profit can I expect per day from AntMiner S9?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Which Antminer is most profitable?",
+                  "seed_question": "How much profit can I expect per day from AntMiner S9?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How much hashrate to mine 1 BTC in a month?",
+                  "seed_question": "How much profit can I expect per day from AntMiner S9?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Bitmain Antminer S19 Pro firmware Christmas 2022",
+              "url": "https://www.youtube.com/watch?v=vhowOxUSfhA",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "3.4K+ views  ·  3 years ago",
+              "website_name": "YouTube · Philip D'Ath",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": null,
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-12-26 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "d-central.tech",
+              "title": "How to Install Bitmain's Low Power Mode Firmware Update ...",
+              "url": "https://d-central.tech/how-to-install-bitmains-low-power-mode-firmware-update-on-s19-and-s19j-pro/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://d-central.tech › Blog",
+              "website_name": "D-Central",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Aug 13, 2026 — By enabling Low Power Mode, the Antminer S19 and S19j Pro can operate at a reduced wattage per terahash ratio, thereby improving the watts per ... Read more",
+              "pre_snippet": "08/13/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Antminer",
+                "reduced wattage"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://d-central.tech/how-to-install-bitmains-low-power-mode-firmware-update-on-s19-and-s19j-pro/#:~:text=By%20enabling%20Low%20Power%20Mode%2C,key%20metric%20in%20mining%20operations.",
+                  "domain": "d-central.tech"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-08-13 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "hashrateindex.com",
+              "title": "How LuxOS Can Maximize Your ASIC Miner's Power ...",
+              "url": "https://hashrateindex.com/blog/how-luxos-can-maximize-your-asic-miners-power-consumption-and-revenue/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hashrateindex.com › blog › how-luxos-can-maxi...",
+              "website_name": "HashrateIndex",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Apr 3, 2024 — LuxOS firmware to overclock their ASICs during times of lower power draw to increase their fleet's power consumption and maximize profits.",
+              "pre_snippet": "04/03/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "LuxOS firmware"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-04-03 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "vnish.pro",
+              "title": "Vnish Firmware for Antminer S19 (hydro)",
+              "url": "https://vnish.pro/en/firmware-antminer-s19-hydro.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://vnish.pro › firmware-antminer-s19-hydro",
+              "website_name": "vnish.pro",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Increase ASIC Antminer performance by up to 30%, reduce power consumption, and gain full control over the miner thanks to VNISH's intelligent AutoTune.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "reduce power consumption"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "bitcointalk.org",
+              "title": "New firmware for antminer S9 - less power consumption",
+              "url": "https://bitcointalk.org/index.php?topic=5055138.180",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bitcointalk.org › ...",
+              "website_name": "Bitcoin Forum",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Nov 7, 2018 — Asicboost gives you a drop in power consumption while maintaining the same hashrate. If you really need the increase in hashrate, you can ... Read more",
+              "pre_snippet": "11/07/2018 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Asicboost gives you a drop in power consumption"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Antminer S15 with latest firmware consumes 1900W in ...",
+                  "description": null,
+                  "url": "https://bitcointalk.org/index.php?topic=5134752.0",
+                  "domain": "bitcointalk.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Tuning antminer S9i/j/ lower power consumption ...",
+                  "description": null,
+                  "url": "https://bitcointalk.org/index.php?topic=5166599.0",
+                  "domain": "bitcointalk.org"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from bitcointalk.org",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=antminer+firmware+reduce+power+consumption+site:bitcointalk.org&sca_esv=6dacb47cd9b525ae&hl=en&gl=US&sxsrf=APpeQnufizuDhfTHhdicxhm44VR9_vELug:1790339923999&sa=X&ved=2ahUKEwiducn534mXAxWa5QIHHYIxCFgQrQIoAnoECD0QAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2018-11-07 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Antminer firmware reduce power consumption reddit",
+                "Bitmain antminer firmware reduce power consumption reddit",
+                "Antminer firmware reduce power consumption 2022",
+                "Antminer ssh",
+                "S19k Pro low power mode"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 13,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "braiins.com",
+              "title": "Smarter Clock Speed Management for Bitcoin Miners",
+              "url": "https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://braiins.com › blog › smarter-clock-speed-manag...",
+              "website_name": "Braiins Mining",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 23, 2025 — Downclocking (reducing clock speed) typically lowers power consumption and improves efficiency (lower J/TH), but not simply because the ... Read more",
+              "pre_snippet": "05/23/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Downclocking (reducing clock speed) typically lowers power consumption"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste#:~:text=Downclocking%20(reducing%20clock%20speed)%20typically,because%20the%20frequency%20is%20reduced.",
+                  "domain": "braiins.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-05-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 11,
+              "rank_absolute": 14,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "www.zeusbtc.com",
+              "title": "Antminer L3+ power consumption reduction firmware",
+              "url": "https://www.zeusbtc.com/ASIC-Miner-Repair/Parts-Tools-Details.asp?ID=2478",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.zeusbtc.com › Parts-Tools-Details",
+              "website_name": "Zeus Mining",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Antminer L3+ power consumption reduction firmware can reduce 100-200W power on the basis of 504m/s hash rate, and still maintain the stable operation of L3+ ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 900,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "can reduce 100-200W power"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.zeusbtc.com/ASIC-Miner-Repair/Parts-Tools-Details.asp?ID=2478#:~:text=Antminer%20L3%2B%20power%20consumption%20reduction,stable%20operation%20of%20L3%2B%20miners.",
+                  "domain": "www.zeusbtc.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 12,
+              "rank_absolute": 15,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.awesomeminer.com",
+              "title": "Antminer S19 Hydro firmware",
+              "url": "https://www.awesomeminer.com/firmware/antminer-s19h",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.awesomeminer.com › firmware › antminer-s...",
+              "website_name": "Awesome Miner",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Underclock the Antminer for lower power usage. More profit. Improved power efficiency by tuning of each individual ASIC chip; Easy to use presets for ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Underclock the Antminer for lower power usage"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.awesomeminer.com/firmware/antminer-s19h#:~:text=Underclock%20the%20Antminer%20for%20lower,hash%20rate%20and%20power%20usage",
+                  "domain": "www.awesomeminer.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 13,
+              "rank_absolute": 16,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "www.justanswer.com",
+              "title": "Expert Tips on Quieting Antminer S19k Pro | Q&A",
+              "url": "https://www.justanswer.com/computer/r5a0q-need-expert-real-life-experience-antminer.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.justanswer.com › computer › r5a0q-need-e...",
+              "website_name": "JustAnswer",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "This reduces power consumption and, in turn, fan speed. Apply the settings ... Ensure Latest Firmware Outdated firmware can limit available options. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "reduces power consumption",
+                "Firmware",
+                "firmware",
+                "limit"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.justanswer.com/computer/r5a0q-need-expert-real-life-experience-antminer.html#:~:text=This%20reduces%20power%20consumption%20and%2C,monitor%20performance%20to%20ensure%20stability.&text=Ensure%20Latest%20Firmware%20Outdated%20firmware,can%20limit%20available%20options.",
+                  "domain": "www.justanswer.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 14,
+              "rank_absolute": 17,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "crazy-mining.org",
+              "title": "Custom Antminer ASIC Firmware to Reduce Power ...",
+              "url": "https://crazy-mining.org/en/mining/custom-antminer-asic-firmware-to-reduce-power-consumption/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://crazy-mining.org › ... › Cryptocurrency Mining",
+              "website_name": "crazy-mining.org",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Learn how custom firmware can reduce Antminer ASIC power consumption. This comprehensive guide includes recommendations, tips, and links to reputable ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Learn how custom firmware can reduce Antminer ASIC power consumption"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 15,
+              "rank_absolute": 18,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "businesscloud.co.uk",
+              "title": "Antminer S19 power consumption & ASIC miner profitability",
+              "url": "https://businesscloud.co.uk/news/antminer-s19-power-consumption-profitability/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://businesscloud.co.uk › News",
+              "website_name": "businesscloud.co.uk",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Apr 2, 2025 — Custom firmware can reduce power consumption, improve stability, and optimize mining parameters for greater efficiency. Understanding the ... Read more",
+              "pre_snippet": "04/02/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Custom firmware can reduce power consumption"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://businesscloud.co.uk/news/antminer-s19-power-consumption-profitability/#:~:text=Custom%20firmware%20can%20reduce%20power,Understanding%20the%20Antminer%20S19%20Series",
+                  "domain": "businesscloud.co.uk"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-04-02 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 16,
+              "rank_absolute": 19,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "THANKS BITMAIN... for the low power mode!",
+              "url": "https://www.youtube.com/watch?v=TiQ5VWlK8cM",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "14.8K+ views  ·  3 years ago",
+              "website_name": "YouTube · Red Panda Mining",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": null,
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-12-24 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 17,
+              "rank_absolute": 20,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "endlessmining.com",
+              "title": "Understanding ASIC Efficiency: Maximizing Profits with ...",
+              "url": "https://endlessmining.com/us/blog/understanding-asic-efficiency-maximizing-profits-with-less-power",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://endlessmining.com › blog › understanding-asic-ef...",
+              "website_name": "Endless Mining",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 20, 2025 — Underclocking means reducing the hashrate and power consumption of your machine. This increases its efficiency: For example, instead of running ... Read more",
+              "pre_snippet": "05/20/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "reducing the hashrate and power consumption"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://endlessmining.com/us/blog/understanding-asic-efficiency-maximizing-profits-with-less-power#:~:text=Underclocking%20means%20reducing%20the%20hashrate,at%2075%20TH%2Fs%20and%202%2C000W",
+                  "domain": "endlessmining.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-05-20 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 18,
+              "rank_absolute": 21,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.bydfi.com",
+              "title": "What are some tips to optimize the power consumption of ...",
+              "url": "https://www.bydfi.com/en/questions/what-are-some-tips-to-optimize-the-power-consumption-of-the-antminer-s9-when-mining-cryptocurrencies",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.bydfi.com › Crypto Q&A",
+              "website_name": "BYDFi",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Apr 1, 2025 — Keeping your Antminer S9 up to date with the latest firmware can often bring improvements in power efficiency. Additionally, regularly cleaning ... Read more",
+              "pre_snippet": "04/01/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Antminer",
+                "firmware",
+                "power"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.bydfi.com/en/questions/what-are-some-tips-to-optimize-the-power-consumption-of-the-antminer-s9-when-mining-cryptocurrencies#:~:text=Keeping%20your%20Antminer%20S9%20up,overheating%20and%20unnecessary%20power%20consumption.",
+                  "domain": "www.bydfi.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-04-01 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 19,
+              "rank_absolute": 22,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "support.bitmain.com",
+              "title": "Instructions of new multi-option firmware",
+              "url": "https://support.bitmain.com/hc/en-us/articles/360023715154-Instructions-of-new-multi-option-firmware",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://support.bitmain.com › en-us › articles › 360023...",
+              "website_name": "BITMAIN",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 27, 2019 — You can choose the appropriate option to improve the hash rate, or choose the corresponding option to reduce the power consumption. It is ... Read more",
+              "pre_snippet": "05/27/2019 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "choose the corresponding option to reduce the power consumption"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://support.bitmain.com/hc/en-us/articles/360023715154-Instructions-of-new-multi-option-firmware#:~:text=You%20can%20choose%20the%20appropriate,option%20simultaneously%20for%20multi%20miners.",
+                  "domain": "support.bitmain.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-05-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 2,
+              "rank_absolute": 23,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Antminer firmware reduce power consumption reddit",
+                "Bitmain antminer firmware reduce power consumption reddit",
+                "Antminer firmware reduce power consumption 2022",
+                "Antminer ssh",
+                "S19k Pro low power mode"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

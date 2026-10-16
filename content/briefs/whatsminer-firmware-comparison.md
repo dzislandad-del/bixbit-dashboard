@@ -1,8 +1,9 @@
 # Content Brief: Whatsminer Firmware Comparison
 **URL:** /en/whatsminer-firmware/comparison
 **File:** content/briefs/whatsminer-firmware-comparison.md
-**Last updated:** 2026-06-19
-**Priority:** P1
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P1 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Keep. Volume n/d, but it is the only segment with no competitors; LLMs name BiXBiT for Whatsminer on 4 of 5 engines. Reinforce with a comparison table.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/comparison` (NEW page), Whatsminer column/section of the comparison page, section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Technical writer with firmware product knowledge — comparison claims must be accurate]
 
 ---
@@ -23,14 +24,16 @@ Capture decision-stage operators comparing firmware options for their Whatsminer
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| whatsminer firmware comparison | Primary | — | — |
-| best whatsminer custom firmware | Commercial | — | — |
-| whatsminer firmware alternatives | Commercial | — | — |
-| microbt custom firmware comparison | Technical | — | — |
-| whatsminer third party firmware comparison | Long-tail | — | — |
-| bixbit vs stock microbt firmware | Brand comparison | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| whatsminer firmware comparison | Primary | n/d (<10) | — | — |
+| best whatsminer custom firmware | Commercial | n/d (<10) | — | — |
+| whatsminer firmware alternatives | Commercial | n/d (<10) | — | — |
+| microbt custom firmware comparison | Technical | n/d (<10) | — | — |
+| whatsminer third party firmware comparison | Long-tail | n/d (<10) | — | — |
+| bixbit vs stock microbt firmware | Brand comparison | n/d (<10) | — | — |
 
 ---
 
@@ -80,7 +83,7 @@ Primary comparison (the most common decision being made):
 | Per-chip autotuning | [VERIFY: stock MicroBT capability] | [VERIFY: BiXBiT capability on Whatsminer] |
 | Overclocking | [VERIFY: stock capability] | Yes |
 | Undervolting / Efficiency Mode | [VERIFY: stock capability] | Yes |
-| Dev fee | No | No |
+| Dev fee | No | Yes — transparent, disclosed up front [VERIFY: current rate; 2026-09 audit: 2.8%, 2% on Whatsminer M2x] |
 | Fleet API for mass updates | [VERIFY: stock API capability] | Yes |
 | Third-party monitoring integration | Limited | Full AMS |
 | Security audit | N/A | [VERIFY] |

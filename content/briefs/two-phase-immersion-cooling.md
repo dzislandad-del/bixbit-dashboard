@@ -3,7 +3,8 @@
 **Cluster:** immersion-cooling-mining
 **Brief type:** Spoke — informational/commercial
 **Created:** 2026-06-19
-**Priority:** P2
+**Priority:** P2 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Keep P2. Volume n/d. A section of the single-phase vs two-phase page.
+**Target (architecture v2, 2026-09-25):** `/en/asics-cooling/immersion-systems` (existing page), H2 Single-phase vs two-phase (two-phase part), section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 
 ---
 
@@ -22,13 +23,15 @@ Serve the technically sophisticated segment of BiXBiT's ICP (CTOs, data center e
 
 ## Target Keywords
 
-| Type | Keyword | Volume |
-|---|---|---|
-| Primary | `two phase immersion cooling mining` | N/A |
-| Secondary | `two phase immersion cooling ASIC` | N/A |
-| Secondary | `two phase liquid cooling Bitcoin miner` | N/A |
-| Secondary | `fluorocarbon immersion cooling mining` | N/A |
-| Long-tail | `two phase vs single phase immersion cooling Bitcoin mining` | N/A |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Type | Keyword | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Primary | `two phase immersion cooling mining` | n/d (<10) | — | — |
+| Secondary | `two phase immersion cooling ASIC` | n/d (<10) | — | — |
+| Secondary | `two phase liquid cooling Bitcoin miner` | n/d (<10) | — | — |
+| Secondary | `fluorocarbon immersion cooling mining` | n/d (<10) | — | — |
+| Long-tail | `two phase vs single phase immersion cooling Bitcoin mining` | not measured | — | — |
 
 ---
 

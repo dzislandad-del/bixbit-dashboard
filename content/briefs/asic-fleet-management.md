@@ -2,21 +2,24 @@
 **Slug:** `/en/ams/asic-fleet-management`
 **Cluster:** mining-fleet-monitoring
 **Type:** Spoke — Informational / Technical
-**Priority:** P0
+**Priority:** P2 (was P0; recalculated 2026-09-25 from DataForSEO US data) — Demoted. Volume n/d for every keyword.
+**Target (architecture v2, 2026-09-25):** `/en/ams` (existing page), H2 Fleet management at scale, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| ASIC fleet management | Primary | [VOL: N/A — DataForSEO 401] |
-| ASIC fleet management software | Primary | [VOL: N/A] |
-| bitcoin mining fleet management | Secondary | [VOL: N/A] |
-| mining fleet management platform | Secondary | [VOL: N/A] |
-| managing ASIC mining fleet | Tertiary | [VOL: N/A] |
-| bitcoin mining management system | Tertiary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| ASIC fleet management | Primary | n/d (<10) | — | — |
+| ASIC fleet management software | Primary | n/d (<10) | — | — |
+| bitcoin mining fleet management | Secondary | n/d (<10) | — | — |
+| mining fleet management platform | Secondary | n/d (<10) | — | — |
+| managing ASIC mining fleet | Tertiary | n/d (<10) | — | — |
+| bitcoin mining management system | Tertiary | n/d (<10) | — | — |
 
 ---
 

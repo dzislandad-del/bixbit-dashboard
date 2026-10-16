@@ -1,8 +1,9 @@
 # Content Brief: Antminer Firmware Install Guide
 **URL:** /en/antminer-firmware/install
 **File:** content/briefs/antminer-firmware-install.md
-**Last updated:** 2026-06-18
-**Priority:** P1
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P1 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Keep, but merge with the update spoke into one install + update page. Install volume is n/d, update is 20/mo. ePIC ranks #7 for antminer custom firmware with an install guide.
+**Target (architecture v2, 2026-09-25):** `/en/documentation/antminer-firmware-install` (NEW page), Main page content (new how-to), section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Technical writer + firmware engineer reviewer]
 
 ---
@@ -23,14 +24,16 @@ Serve the operator who is ready to install BiXBiT firmware for the first time. T
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer firmware install | Primary | — | — |
-| how to install antminer firmware | Long-tail primary | — | — |
-| antminer firmware flash guide | Secondary | — | — |
-| install custom firmware antminer | Commercial | — | — |
-| antminer sd card firmware | Method-specific | — | — |
-| antminer firmware recovery | Recovery-specific | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer firmware install | Primary | n/d (<10) | — | — |
+| how to install antminer firmware | Long-tail primary | n/d (<10) | — | — |
+| antminer firmware flash guide | Secondary | n/d (<10) | — | — |
+| install custom firmware antminer | Commercial | n/d (<10) | — | — |
+| antminer sd card firmware | Method-specific | n/d (<10) | — | — |
+| antminer firmware recovery | Recovery-specific | n/d (<10) | — | — |
 
 ---
 

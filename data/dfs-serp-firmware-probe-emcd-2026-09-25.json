@@ -1,0 +1,183 @@
+{
+ "date": "2026-09-25",
+ "source": "DataForSEO serp/google/organic/live/advanced, US 2840 / en, depth 20",
+ "note": "compact extract of organic results written from inline responses",
+ "queries": {
+  "best custom asic firmware": {
+   "status": "40106 partial (page 1 only); /live/regular returned 40101 twice",
+   "organic": [
+    [
+     1,
+     "braiins.com/os-firmware"
+    ],
+    [
+     2,
+     "reddit.com r/BitcoinMining what_is_the_best_custom_firmware_for_asics"
+    ],
+    [
+     3,
+     "hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/"
+    ],
+    [
+     4,
+     "hiveon.com/asic/"
+    ],
+    [
+     5,
+     "youtube.com Antminer S9 firmware comparison"
+    ],
+    [
+     6,
+     "bitcointalk.org asic.to"
+    ],
+    [
+     7,
+     "nicehash.com/firmware"
+    ],
+    [
+     8,
+     "d-central.tech/asic-firmware-guide-braiins-vnish/"
+    ],
+    [
+     9,
+     "hackernoon.com nicehash kaspa firmware"
+    ]
+   ],
+   "emcd.io": "not in page 1",
+   "bixbit.io": "not in page 1"
+  },
+  "vnish vs braiins os": {
+   "status": "20000",
+   "organic": [
+    [
+     1,
+     "reddit.com vnish_or_braiins_for_autotuning_s19"
+    ],
+    [
+     2,
+     "d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/"
+    ],
+    [
+     3,
+     "braiins.com/os-firmware"
+    ],
+    [
+     4,
+     "vnish.us/vnish-vs-braiins-os-vs-stock-firmware-2026-..."
+    ],
+    [
+     5,
+     "d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/"
+    ],
+    [
+     6,
+     "vni.sh/vnish-vs-braiins"
+    ],
+    [
+     7,
+     "linkedin.com vnish post"
+    ],
+    [
+     8,
+     "bitcointalk.org topic=5411944"
+    ],
+    [
+     9,
+     "hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/"
+    ],
+    [
+     10,
+     "d-central.tech/braiinsos-unlocking-...autotuning"
+    ],
+    [
+     11,
+     "mineshop.eu how-to-install-braiins-os-antminer-2026"
+    ],
+    [
+     12,
+     "voskcointalk.com braiins-vs-luxor"
+    ],
+    [
+     13,
+     "vnish-firmware.com stock-vs-vnish"
+    ],
+    [
+     14,
+     "solarayeffect.com/aftermarket_firmware.html"
+    ],
+    [
+     15,
+     "braiins.com/blog/local-vs-cloud-mining-tools"
+    ],
+    [
+     16,
+     "vni.sh/compare"
+    ]
+   ],
+   "emcd.io": "not in top 20",
+   "bixbit.io": "not in top 20"
+  },
+  "прошивка для асиков": {
+   "location": "Kazakhstan 2398 / ru",
+   "status": "20000 (page 1 only returned)",
+   "organic": [
+    [
+     1,
+     "miningclub.info Ebit firmware thread (2022)"
+    ],
+    [
+     2,
+     "youtube.com T17 Vnish (2019)"
+    ],
+    [
+     3,
+     "operativa.ru/new-technologies/proshivka-asika-s9k-zachem-ona-nuzhna.html — third-party article naming BiXBiT S9k firmware (2022)"
+    ],
+    [
+     4,
+     "forum.bits.media BeagleBone (2017)"
+    ],
+    [
+     5,
+     "miningclub.info Antminer S15 (2021)"
+    ],
+    [
+     6,
+     "m.avito.ru PitBit S19K Pro firmware service listing"
+    ],
+    [
+     7,
+     "forum.bits.media BeagleBone p1"
+    ]
+   ],
+   "emcd.io": "not on page 1",
+   "bixbit.io": "own pages not on page 1; mentioned by operativa.ru #3"
+  }
+ },
+ "bixbit_kz_ru_ranked_keywords": {
+  "total": 6,
+  "note": "all off-topic /ru/blog posts: умные печи для дома 11, умный печь для дома 15, самый мощный компьютер в мире 16, джек дорси 23, суперкомпьютер 29, суперкомпьютеры 44"
+ },
+ "emcd_us_ranked_keywords_filter2": {
+  "filter": "vnish|braiins|luxos|overclock|tun|immersion|efficien|s21",
+  "total": 3,
+  "rows": [
+   [
+    "gtx 1660 super overclock",
+    30,
+    6
+   ],
+   [
+    "1660 super overclock",
+    70,
+    7
+   ],
+   [
+    "miner efficiency",
+    50,
+    37,
+    "/articles/mining/asic-miners-profitability-and-roi/"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "property": "320129421",
+  "start": "2026-08-31",
+  "end": "2026-09-27",
+  "preset": "channels",
+  "dimensions": [
+   "sessionDefaultChannelGroup"
+  ],
+  "metrics": [
+   "sessions",
+   "engagedSessions",
+   "keyEvents",
+   "totalUsers"
+  ],
+  "filter": null,
+  "rows": 11,
+  "row_count_total": 11,
+  "pulled_at": "2026-09-28T15:30:54"
+ },
+ "rows": [
+  {
+   "sessionDefaultChannelGroup": "Cross-network",
+   "sessions": 57638,
+   "engagedSessions": 43626,
+   "keyEvents": 56116,
+   "totalUsers": 45918
+  },
+  {
+   "sessionDefaultChannelGroup": "Paid Search",
+   "sessions": 31441,
+   "engagedSessions": 10624,
+   "keyEvents": 1500,
+   "totalUsers": 26990
+  },
+  {
+   "sessionDefaultChannelGroup": "Unassigned",
+   "sessions": 7835,
+   "engagedSessions": 1060,
+   "keyEvents": 943,
+   "totalUsers": 7429
+  },
+  {
+   "sessionDefaultChannelGroup": "Referral",
+   "sessions": 4284,
+   "engagedSessions": 1164,
+   "keyEvents": 373,
+   "totalUsers": 3844
+  },
+  {
+   "sessionDefaultChannelGroup": "Direct",
+   "sessions": 3766,
+   "engagedSessions": 1225,
+   "keyEvents": 527,
+   "totalUsers": 2781
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Search",
+   "sessions": 2877,
+   "engagedSessions": 1689,
+   "keyEvents": 657,
+   "totalUsers": 1771
+  },
+  {
+   "sessionDefaultChannelGroup": "Paid Other",
+   "sessions": 347,
+   "engagedSessions": 181,
+   "keyEvents": 170,
+   "totalUsers": 246
+  },
+  {
+   "sessionDefaultChannelGroup": "AI Assistant",
+   "sessions": 68,
+   "engagedSessions": 34,
+   "keyEvents": 16,
+   "totalUsers": 37
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Social",
+   "sessions": 47,
+   "engagedSessions": 30,
+   "keyEvents": 12,
+   "totalUsers": 32
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Video",
+   "sessions": 41,
+   "engagedSessions": 26,
+   "keyEvents": 15,
+   "totalUsers": 27
+  },
+  {
+   "sessionDefaultChannelGroup": "Email",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "keyEvents": 0,
+   "totalUsers": 1
+  }
+ ]
+}

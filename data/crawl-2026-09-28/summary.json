@@ -1,0 +1,52 @@
+{
+ "crawled_at": "2026-09-28T16:46:24",
+ "start": "https://bixbit.io/",
+ "pages_crawled": 1873,
+ "html_pages": 1760,
+ "indexable": 1208,
+ "truncated_by_max_pages": false,
+ "robots_blocked_links": 1,
+ "sitemap_urls": 900,
+ "internal_links": 211239,
+ "external_links": 32078,
+ "status_codes": {
+  "0": 5,
+  "200": 1763,
+  "404": 105
+ },
+ "html_by_locale": {
+  "en": 299,
+  "ru": 1461
+ },
+ "issues": {
+  "error_pages": 110,
+  "broken_links": 1756,
+  "redirects": 3,
+  "links_to_redirects": 44,
+  "noindex": 552,
+  "canonical_other": 530,
+  "canonical_missing": 0,
+  "title_missing": 3,
+  "title_length": 537,
+  "description_missing": 0,
+  "description_length": 399,
+  "h1_problems": 24,
+  "title_duplicates": 5,
+  "description_duplicates": 6,
+  "images_missing_alt": 1673,
+  "faqpage_empty": 52,
+  "jsonld_errors": 9,
+  "thin_content": 0,
+  "sitemap_bad": 3,
+  "sitemap_duplicates": 4,
+  "not_in_sitemap": 317,
+  "orphans": 2,
+  "deep_pages": 888,
+  "money_pages_inlinks": 62,
+  "external_broken": 128
+ },
+ "images_total": 15429,
+ "images_missing_alt_total": 139,
+ "duration_s": 1142,
+ "images_empty_alt_total": 3149
+}

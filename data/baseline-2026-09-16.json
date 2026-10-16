@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-16",
+  "methodologyNote": "Targeted re-verification pass (~28 URLs + full sitemap network via raw curl), not a full re-crawl. See data/site-structure.md header for exact scope. Prior baseline: data/baseline-2026-06-17.json.",
+  "gscClicks90d": null,
+  "gscImpressions90d": null,
+  "ga4Sessions7d": null,
+  "ga4Users7d": null,
+  "pagesDiscoveredApprox": 440,
+  "pagesDiscoveredNote": "~400 from sitemap-blog.xml (en+ru, up from ~290 in June) + ~40 core/product/firmware/documentation/tools pages. Not a full page-by-page re-verification; see site-structure.md for per-URL confidence.",
+  "hasLlmsTxt": false,
+  "llmsTxtNote": "Confirmed 404 live at https://bixbit.io/llms.txt. Repo draft at content/geo/llms.txt is also stale (references URLs that don't match the current site structure).",
+  "cwv": [
+    {
+      "url": "https://bixbit.io/en",
+      "strategy": "mobile",
+      "score": null,
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "note": "NOT RE-VERIFIED THIS CYCLE — no PageSpeed/CrUX connector available. Prior figure (2026-06-17: score 67, LCP 2.3s, CLS 0.888, TBT 230ms) is 3 months stale and must not be cited as current."
+    }
+  ],
+  "schemaStatus": {
+    "canonical": "deployed sitewide (10/10 pages checked) — reverses June 'zero canonical' finding",
+    "metaDescription": "deployed sitewide (10/10 pages checked) but quality inconsistent (e.g. /en/faq is a template placeholder) — reverses June 'zero meta description' finding",
+    "jsonLd": "WebSite + Organization deployed sitewide; partial BreadcrumbList/FAQPage — reverses June 'zero JSON-LD' finding, but with 6 documented bugs (see reports/sub/technical-seo-2026-09-16.md)",
+    "hreflang": "deployed on only 2 of ~10 templates checked (/en/blog, /en/calc)",
+    "productOrSoftwareApplicationSchema": "still 100% absent sitewide — unchanged since June"
+  },
+  "devFeeConfirmed": {
+    "standard": "2.8%",
+    "whatsminerM2x": "2%",
+    "source": "confirmed on-page fact at /en/firmwares and /en/firmwares/antminer, 2026-09-16",
+    "note": "Contradicts the 'no dev fee' claim in content/briefs/antminer-firmware-pillar.md and whatsminer-firmware-pillar.md — those briefs need rewriting. Reconfirm periodically since commercial terms can change."
+  },
+  "dataSourcesAvailable": [],
+  "dataSourcesUnavailable": ["gsc", "ga4", "pagespeed", "dataforseo", "moz", "bing"],
+  "dataSourcesRegressionNote": "All 6 sources unavailable this cycle, vs. gsc/ga4/pagespeed being available in the 2026-06-17 baseline. This is a regression in tooling access, not a site change — restore connectors before the next /full-audit or /weekly-drift."
+}

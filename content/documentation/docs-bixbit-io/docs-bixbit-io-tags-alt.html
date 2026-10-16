@@ -1,0 +1,1252 @@
+<title>docs.bixbit.io — теги и ALT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{color-scheme:dark;--bg:#151216;--surface:#1e1a20;--surface-2:#272229;--line:#3a333d;--text:#f4f1f5;--muted:#b3a9b6;--faint:#857b88;--accent:#d1127d;--accent-text:#ff5fb1;--accent-soft:rgba(209,18,125,.14);--warn:#e0a53a;--warn-soft:rgba(224,165,58,.15);--ru:#6fa8ff;--ru-soft:rgba(111,168,255,.14);
+--head:"Onest",system-ui,sans-serif;--body:"Inter",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){color-scheme:light;--bg:#f7f4f7;--surface:#fff;--surface-2:#f0ebf0;--line:#ddd4dd;--text:#1c171d;--muted:#5d5360;--faint:#8a808c;--accent:#b30f6b;--accent-text:#a30d61;--accent-soft:rgba(179,15,107,.09);--warn:#a36a06;--warn-soft:rgba(163,106,6,.1);--ru:#2c64c2;--ru-soft:rgba(44,100,194,.1)}}
+:root[data-theme="light"]{color-scheme:light;--bg:#f7f4f7;--surface:#fff;--surface-2:#f0ebf0;--line:#ddd4dd;--text:#1c171d;--muted:#5d5360;--faint:#8a808c;--accent:#b30f6b;--accent-text:#a30d61;--accent-soft:rgba(179,15,107,.09);--warn:#a36a06;--warn-soft:rgba(163,106,6,.1);--ru:#2c64c2;--ru-soft:rgba(44,100,194,.1)}
+:root[data-theme="dark"]{color-scheme:dark}
+*{box-sizing:border-box}body{background:var(--bg);color:var(--text);font:15px/1.55 var(--body);padding-inline:16px;padding-block:0 64px}
+.wrap{max-width:980px;margin:0 auto}
+.top{padding-block:36px 20px;border-bottom:1px solid var(--line)}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text)}
+h1{font:700 clamp(26px,4.5vw,36px)/1.15 var(--head);margin:.35em 0 .3em;text-wrap:balance}
+h2{font:700 22px/1.25 var(--head);margin:44px 0 12px;text-wrap:balance}
+h3{font:600 16px/1.3 var(--head);margin:20px 0 8px} h4{font:600 13px/1.3 var(--body);margin:0;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+p{max-width:72ch;margin:0 0 10px} .muted{color:var(--faint);font-size:14px}
+a{color:var(--accent-text);text-underline-offset:2px}
+code,pre{font:13px/1.5 var(--mono)} code{background:var(--surface-2);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+pre{background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:10px 12px;overflow-x:auto;white-space:pre;margin:6px 0 12px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:16px 0}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:14px}
+.step b{display:block;font:600 14px var(--head);margin-bottom:4px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-block:12px;border-bottom:1px solid var(--line)}
+.bar input{flex:1 1 220px;min-width:0;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:14px var(--body)}
+.seg button{background:var(--surface);color:var(--muted);border:1px solid var(--line);padding:7px 12px;font:500 13px var(--body);cursor:pointer}
+.seg button:first-child{border-radius:8px 0 0 8px} .seg button:last-child{border-radius:0 8px 8px 0} .seg button+button{border-left:0}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--text);border-color:var(--accent)}
+.count{font:13px var(--mono);color:var(--faint)}
+.page{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0}
+.page header{display:flex;gap:10px;align-items:center;margin-bottom:8px;flex-wrap:wrap}
+.page header a{font:500 14px var(--mono);overflow-wrap:anywhere}
+.loc{font:600 11px/1 var(--body);padding:5px 7px;border-radius:999px;letter-spacing:.04em}
+.loc.en{background:var(--accent-soft);color:var(--accent-text)} .loc.ru{background:var(--ru-soft);color:var(--ru)}
+dl.cmp{display:grid;grid-template-columns:110px 1fr;gap:6px 12px;margin:0 0 12px}
+dl.cmp dt{font:600 12px var(--body);color:var(--faint);text-transform:uppercase;letter-spacing:.04em;padding-top:3px}
+dl.cmp dd{margin:0} .was{color:var(--faint);text-decoration:line-through;font-size:13px} .now{font-weight:500}
+.num{font:12px var(--mono);color:var(--faint);font-variant-numeric:tabular-nums;white-space:nowrap}
+.row-h{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:6px}
+button.copy{background:transparent;color:var(--accent-text);border:1px solid var(--accent);border-radius:7px;padding:5px 10px;font:500 12px var(--body);cursor:pointer}
+button.copy:hover{background:var(--accent-soft)} button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:8px;margin:8px 0 4px}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:13.5px}
+th,td{text-align:left;vertical-align:top;padding:7px 10px;border-bottom:1px solid var(--line)} tr:last-child td{border-bottom:0}
+th{font:600 11px var(--body);text-transform:uppercase;letter-spacing:.04em;color:var(--faint);background:var(--surface-2)}
+td.old{color:var(--faint)} .flag{font:600 10px var(--body);background:var(--warn-soft);color:var(--warn);padding:2px 6px;border-radius:999px;text-transform:uppercase;white-space:nowrap}
+@media (max-width:560px){dl.cmp{grid-template-columns:1fr}}
+</style>
+<div class="wrap">
+<div class="top">
+<div class="eyebrow">docs.bixbit.io · VitePress</div>
+<h1>Теги и ALT для документации</h1>
+<p>Title, description и ALT для всех 58 страниц (29 EN и 29 RU) и 212 изображений. У каждой страницы есть готовый блок frontmatter и строки картинок в формате <code>![ALT](файл)</code>. Всё копируется кнопкой.</p>
+<div class="steps">
+<div class="step"><b>1. Конфиг сайта</b>Добавьте в <code>.vitepress/config</code> шаблон заголовка и hreflang (ниже), а в <code>public/</code> — <code>robots.txt</code>.</div>
+<div class="step"><b>2. Frontmatter</b>Вставьте блок в самое начало <code>.md</code>-файла страницы. Если frontmatter там уже есть, замените в нём <code>title</code> и <code>description</code>.</div>
+<div class="step"><b>3. ALT</b>Замените строки картинок на скопированные. Файл картинки не меняется, меняется только текст в квадратных скобках.</div>
+</div>
+<p class="muted">Title задаётся без суффикса: « | BiXBiT Docs» добавит шаблон из шага 1. Отдельные og-теги во frontmatter не нужны, их уже выводит существующий <code>transformHead</code> сайта. Строки с пометкой «проверить» — там, где скриншот расходится с текстом страницы.</p>
+<h3>Конфиг VitePress</h3><div class="row-h"><span></span><button class="copy" data-t="cfg">Скопировать</button></div><pre>// .vitepress/config — добавить в существующий конфиг (не заменять transformHead, а дополнить его return)
+titleTemplate: &#x27;:title | BiXBiT Docs&#x27;,
+sitemap: { hostname: &#x27;https://docs.bixbit.io&#x27; },
+// внутри существующего transformHead({ pageData }) добавить:
+const rel = pageData.relativePath, isRu = rel.startsWith(&#x27;ru/&#x27;)
+const base = (isRu ? rel.slice(3) : rel).replace(/(^|\/)index\.md$/, &#x27;$1&#x27;).replace(/\.md$/, &#x27;.html&#x27;)
+const en = `https://docs.bixbit.io/${base}`, ru = `https://docs.bixbit.io/ru/${base}`
+// ...и в массив, который возвращает функция:
+[&#x27;link&#x27;, { rel: &#x27;alternate&#x27;, hreflang: &#x27;en&#x27;, href: en }],
+[&#x27;link&#x27;, { rel: &#x27;alternate&#x27;, hreflang: &#x27;ru&#x27;, href: ru }],
+[&#x27;link&#x27;, { rel: &#x27;alternate&#x27;, hreflang: &#x27;x-default&#x27;, href: en }],
+[&#x27;meta&#x27;, { property: &#x27;og:site_name&#x27;, content: &#x27;BiXBiT Docs&#x27; }],
+[&#x27;meta&#x27;, { property: &#x27;og:url&#x27;, content: isRu ? ru : en }]</pre><textarea hidden id="cfg">// .vitepress/config — добавить в существующий конфиг (не заменять transformHead, а дополнить его return)
+titleTemplate: &#x27;:title | BiXBiT Docs&#x27;,
+sitemap: { hostname: &#x27;https://docs.bixbit.io&#x27; },
+// внутри существующего transformHead({ pageData }) добавить:
+const rel = pageData.relativePath, isRu = rel.startsWith(&#x27;ru/&#x27;)
+const base = (isRu ? rel.slice(3) : rel).replace(/(^|\/)index\.md$/, &#x27;$1&#x27;).replace(/\.md$/, &#x27;.html&#x27;)
+const en = `https://docs.bixbit.io/${base}`, ru = `https://docs.bixbit.io/ru/${base}`
+// ...и в массив, который возвращает функция:
+[&#x27;link&#x27;, { rel: &#x27;alternate&#x27;, hreflang: &#x27;en&#x27;, href: en }],
+[&#x27;link&#x27;, { rel: &#x27;alternate&#x27;, hreflang: &#x27;ru&#x27;, href: ru }],
+[&#x27;link&#x27;, { rel: &#x27;alternate&#x27;, hreflang: &#x27;x-default&#x27;, href: en }],
+[&#x27;meta&#x27;, { property: &#x27;og:site_name&#x27;, content: &#x27;BiXBiT Docs&#x27; }],
+[&#x27;meta&#x27;, { property: &#x27;og:url&#x27;, content: isRu ? ru : en }]</textarea>
+<h3>public/robots.txt</h3><div class="row-h"><span></span><button class="copy" data-t="rob">Скопировать</button></div><pre>User-agent: *
+Allow: /
+
+Sitemap: https://docs.bixbit.io/sitemap.xml</pre><textarea hidden id="rob">User-agent: *
+Allow: /
+
+Sitemap: https://docs.bixbit.io/sitemap.xml</textarea>
+</div>
+<div class="bar" role="search">
+<input id="q" type="search" placeholder="Найти страницу по адресу или названию" aria-label="Поиск страницы">
+<div class="seg" role="group" aria-label="Язык"><button data-l="all" aria-pressed="true">Все</button><button data-l="en" aria-pressed="false">EN</button><button data-l="ru" aria-pressed="false">RU</button></div>
+<span class="count" id="cnt">58 страниц</span>
+</div>
+<section class='sec'><h2>Установка и обновление прошивки</h2><article class="page" data-loc="en" data-q="https://docs.bixbit.io/installing_and_updating_bixbit_firmware/ install and update bixbit firmware">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/installing_and_updating_bixbit_firmware/" target="_blank" rel="noopener">/installing_and_updating_bixbit_firmware/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Installing and Updating BiXBiT Firmware | Documentation</div><div class="now">Install and Update BiXBiT Firmware | BiXBiT Docs <span class="num">48</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">How to install and update BiXBiT firmware on Antminer and Whatsminer ASIC miners: installer_tool.exe, WhatsMinerTool, PhoenixCard SD card and upgrade paths. <span class="num">156</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm0">Скопировать</button></div>
+<pre id="fm0pre">---
+title: &quot;Install and Update BiXBiT Firmware&quot;
+description: &quot;How to install and update BiXBiT firmware on Antminer and Whatsminer ASIC miners: installer_tool.exe, WhatsMinerTool, PhoenixCard SD card and upgrade paths.&quot;
+---</pre><textarea hidden id="fm0">---
+title: &quot;Install and Update BiXBiT Firmware&quot;
+description: &quot;How to install and update BiXBiT firmware on Antminer and Whatsminer ASIC miners: installer_tool.exe, WhatsMinerTool, PhoenixCard SD card and upgrade paths.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/installing_and_updating_bixbit_firmware/ установка и обновление прошивки bixbit">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/installing_and_updating_bixbit_firmware/" target="_blank" rel="noopener">/ru/installing_and_updating_bixbit_firmware/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Установка и обновление прошивки BiXBiT | Документация</div><div class="now">Установка и обновление прошивки BiXBiT | BiXBiT Docs <span class="num">52</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как установить и обновить прошивку BiXBiT на ASIC-майнеры Antminer и Whatsminer: installer_tool.exe, WhatsMinerTool, SD-карта через PhoenixCard. <span class="num">144</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm1">Скопировать</button></div>
+<pre id="fm1pre">---
+title: &quot;Установка и обновление прошивки BiXBiT&quot;
+description: &quot;Как установить и обновить прошивку BiXBiT на ASIC-майнеры Antminer и Whatsminer: installer_tool.exe, WhatsMinerTool, SD-карта через PhoenixCard.&quot;
+---</pre><textarea hidden id="fm1">---
+title: &quot;Установка и обновление прошивки BiXBiT&quot;
+description: &quot;Как установить и обновить прошивку BiXBiT на ASIC-майнеры Antminer и Whatsminer: installer_tool.exe, WhatsMinerTool, SD-карта через PhoenixCard.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/installing_and_updating_bixbit_firmware/antminer.html install &amp; update antminer firmware">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/installing_and_updating_bixbit_firmware/antminer.html" target="_blank" rel="noopener">/installing_and_updating_bixbit_firmware/antminer.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Antminer | Documentation</div><div class="now">Install &amp; Update Antminer Firmware | BiXBiT Docs <span class="num">48</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Install and update BiXBiT firmware on Antminer S19, S21, T21 and L7 with installer_tool.exe: compatible hashboards, known issues, IP scan and bulk flashing. <span class="num">156</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm2">Скопировать</button></div>
+<pre id="fm2pre">---
+title: &quot;Install &amp; Update Antminer Firmware&quot;
+description: &quot;Install and update BiXBiT firmware on Antminer S19, S21, T21 and L7 with installer_tool.exe: compatible hashboards, known issues, IP scan and bulk flashing.&quot;
+---</pre><textarea hidden id="fm2">---
+title: &quot;Install &amp; Update Antminer Firmware&quot;
+description: &quot;Install and update BiXBiT firmware on Antminer S19, S21, T21 and L7 with installer_tool.exe: compatible hashboards, known issues, IP scan and bulk flashing.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (6)</h4><button class="copy" data-t="md2">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image1.png</code></td><td class='old'>image1.png</td><td>Antminer installer Firmware File Selection: Check available FW versions, version 0.9.9.3 listed, Download or Cancel</td><td class='num'>115</td></tr><tr><td><code>/images/image-8.png</code></td><td class='old'>image.png</td><td>Antminer Firmware Installer main window with local files: IP List, Scan, device list, Installation Settings, Install</td><td class='num'>116</td></tr><tr><td><code>/images/image-10.png</code></td><td class='old'>image.png</td><td>Installer Miner IP Management: range 192.168.66.1-192.168.66.255, HTTP user root, HTTP port 80, SSH port 22, Ok</td><td class='num'>111</td></tr><tr><td><code>/images/image-11.png</code></td><td class='old'>image.png</td><td>Installation Settings: Parallel installs (1-10) set to 3, two Force install checkboxes, Firmware Install Options button</td><td class='num'>119</td></tr><tr><td><code>/images/image8.png</code></td><td class='old'>image8.png</td><td>Firmware Install Options dialog with the AMS Key field for adding miners to AMS during installation</td><td class='num'>99</td></tr><tr><td><code>/images/image-12.png</code></td><td class='old'>image.png</td><td>Antminer Firmware Installer: Antminer S19 XP (AMLogic) flashed, Progress shows Done. Code: Success: OK!</td><td class='num'>103</td></tr></tbody></table></div>
+<textarea hidden id="md2">![Antminer installer Firmware File Selection: Check available FW versions, version 0.9.9.3 listed, Download or Cancel](/images/image1.png)
+![Antminer Firmware Installer main window with local files: IP List, Scan, device list, Installation Settings, Install](/images/image-8.png)
+![Installer Miner IP Management: range 192.168.66.1-192.168.66.255, HTTP user root, HTTP port 80, SSH port 22, Ok](/images/image-10.png)
+![Installation Settings: Parallel installs (1-10) set to 3, two Force install checkboxes, Firmware Install Options button](/images/image-11.png)
+![Firmware Install Options dialog with the AMS Key field for adding miners to AMS during installation](/images/image8.png)
+![Antminer Firmware Installer: Antminer S19 XP (AMLogic) flashed, Progress shows Done. Code: Success: OK!](/images/image-12.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/installing_and_updating_bixbit_firmware/antminer.html установка и обновление прошивки antminer">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/installing_and_updating_bixbit_firmware/antminer.html" target="_blank" rel="noopener">/ru/installing_and_updating_bixbit_firmware/antminer.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Antminer | Документация</div><div class="now">Установка и обновление прошивки Antminer | BiXBiT Docs <span class="num">54</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как установить и обновить прошивку BiXBiT на Antminer S19, S21, T21 и L7 через installer_tool.exe: совместимые хэш-платы, известные проблемы, массовая прошивка. <span class="num">160</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm3">Скопировать</button></div>
+<pre id="fm3pre">---
+title: &quot;Установка и обновление прошивки Antminer&quot;
+description: &quot;Как установить и обновить прошивку BiXBiT на Antminer S19, S21, T21 и L7 через installer_tool.exe: совместимые хэш-платы, известные проблемы, массовая прошивка.&quot;
+---</pre><textarea hidden id="fm3">---
+title: &quot;Установка и обновление прошивки Antminer&quot;
+description: &quot;Как установить и обновить прошивку BiXBiT на Antminer S19, S21, T21 и L7 через installer_tool.exe: совместимые хэш-платы, известные проблемы, массовая прошивка.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (6)</h4><button class="copy" data-t="md3">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image1.png</code></td><td class='old'>image1.png</td><td>Окно Firmware File Selection установщика Antminer: Check available FW versions, в списке версия 0.9.9.3, Download или Cancel</td><td class='num'>124</td></tr><tr><td><code>/images/image-8.png</code></td><td class='old'>image.png</td><td>Главное окно Antminer Firmware Installer на локальных файлах: IP List, Scan, список устройств, Installation Settings, Install</td><td class='num'>125</td></tr><tr><td><code>/images/image-10.png</code></td><td class='old'>image.png</td><td>Miner IP Management установщика: диапазон 192.168.66.1-192.168.66.255, HTTP User root, HTTP Port 80, SSH Port 22, Ok</td><td class='num'>116</td></tr><tr><td><code>/images/image-11.png</code></td><td class='old'>image.png</td><td>Блок Installation Settings: Parallel installs (1-10) = 3, два чекбокса Force install, кнопка Firmware Install Options</td><td class='num'>117</td></tr><tr><td><code>/images/image8.png</code></td><td class='old'>image8.png</td><td>Окно Firmware Install Options: поле AMS Key, чтобы устройства сразу появились в AMS после прошивки</td><td class='num'>98</td></tr><tr><td><code>/images/image-12.png</code></td><td class='old'>image.png</td><td>Antminer Firmware Installer: Antminer S19 XP (AMLogic) прошит, в Progress — Done. Code: Success: OK!</td><td class='num'>100</td></tr></tbody></table></div>
+<textarea hidden id="md3">![Окно Firmware File Selection установщика Antminer: Check available FW versions, в списке версия 0.9.9.3, Download или Cancel](/images/image1.png)
+![Главное окно Antminer Firmware Installer на локальных файлах: IP List, Scan, список устройств, Installation Settings, Install](/images/image-8.png)
+![Miner IP Management установщика: диапазон 192.168.66.1-192.168.66.255, HTTP User root, HTTP Port 80, SSH Port 22, Ok](/images/image-10.png)
+![Блок Installation Settings: Parallel installs (1-10) = 3, два чекбокса Force install, кнопка Firmware Install Options](/images/image-11.png)
+![Окно Firmware Install Options: поле AMS Key, чтобы устройства сразу появились в AMS после прошивки](/images/image8.png)
+![Antminer Firmware Installer: Antminer S19 XP (AMLogic) прошит, в Progress — Done. Code: Success: OK!](/images/image-12.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/installing_and_updating_bixbit_firmware/whatsminer.html install &amp; update whatsminer firmware">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/installing_and_updating_bixbit_firmware/whatsminer.html" target="_blank" rel="noopener">/installing_and_updating_bixbit_firmware/whatsminer.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Whatsminer | Documentation</div><div class="now">Install &amp; Update Whatsminer Firmware | BiXBiT Docs <span class="num">50</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Step-by-step guide to installing and updating BiXBiT firmware on Whatsminer: WhatsMinerTool for H3, H6 and H6os boards, PhoenixCard SD card for H616. <span class="num">149</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm4">Скопировать</button></div>
+<pre id="fm4pre">---
+title: &quot;Install &amp; Update Whatsminer Firmware&quot;
+description: &quot;Step-by-step guide to installing and updating BiXBiT firmware on Whatsminer: WhatsMinerTool for H3, H6 and H6os boards, PhoenixCard SD card for H616.&quot;
+---</pre><textarea hidden id="fm4">---
+title: &quot;Install &amp; Update Whatsminer Firmware&quot;
+description: &quot;Step-by-step guide to installing and updating BiXBiT firmware on Whatsminer: WhatsMinerTool for H3, H6 and H6os boards, PhoenixCard SD card for H616.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (7)</h4><button class="copy" data-t="md4">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-127.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool Monitoring tab: Version Info shows the control board model (H616) and firmware date in yyyymmdd format</td><td class='num'>117</td></tr><tr><td><code>/images/image-128.png</code></td><td class='old'>image.png</td><td>Whatsminer web interface Status page: Hardware Info shows the control board model (H616), Firmware Version shows its date</td><td class='num'>121</td></tr><tr><td><code>/images/image-2.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool Upgrade for H3/H6/H6os boards: Select File, choose Whatsminer-ALL-Models .bin, tick the miner, Start Upgrade</td><td class='num'>123</td></tr><tr><td><code>/images/image-3.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool Upgrade: selecting the intermediate file Whatsminer-ALL-Models_CustomCleanupBefore1.8_h616.bin, steps 1–6</td><td class='num'>120</td></tr><tr><td><code>/images/image-5.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool list: status Success and the CustomNeedUpgrade suffix in Version Info after the intermediate firmware</td><td class='num'>116</td></tr><tr><td><code>/images/image-4.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool Upgrade, stage 2: selecting the main Whatsminer-ALL-Models .bin firmware file, steps 1–6</td><td class='num'>103</td></tr><tr><td><code>/images/image-6.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool Upgrade: updating BiXBiT firmware 1.8.0.x with the Whatsminer-ALL-Models .bin file, steps 1–6</td><td class='num'>108</td></tr></tbody></table></div>
+<textarea hidden id="md4">![WhatsMinerTool Monitoring tab: Version Info shows the control board model (H616) and firmware date in yyyymmdd format](/images/image-127.png)
+![Whatsminer web interface Status page: Hardware Info shows the control board model (H616), Firmware Version shows its date](/images/image-128.png)
+![WhatsMinerTool Upgrade for H3/H6/H6os boards: Select File, choose Whatsminer-ALL-Models .bin, tick the miner, Start Upgrade](/images/image-2.png)
+![WhatsMinerTool Upgrade: selecting the intermediate file Whatsminer-ALL-Models_CustomCleanupBefore1.8_h616.bin, steps 1–6](/images/image-3.png)
+![WhatsMinerTool list: status Success and the CustomNeedUpgrade suffix in Version Info after the intermediate firmware](/images/image-5.png)
+![WhatsMinerTool Upgrade, stage 2: selecting the main Whatsminer-ALL-Models .bin firmware file, steps 1–6](/images/image-4.png)
+![WhatsMinerTool Upgrade: updating BiXBiT firmware 1.8.0.x with the Whatsminer-ALL-Models .bin file, steps 1–6](/images/image-6.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/installing_and_updating_bixbit_firmware/whatsminer.html установка и обновление прошивки whatsminer">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/installing_and_updating_bixbit_firmware/whatsminer.html" target="_blank" rel="noopener">/ru/installing_and_updating_bixbit_firmware/whatsminer.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Whatsminer | Документация</div><div class="now">Установка и обновление прошивки Whatsminer | BiXBiT Docs <span class="num">56</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Пошаговая инструкция: установка и обновление прошивки BiXBiT на Whatsminer через WhatsMinerTool (платы H3, H6, H6os) и SD-карту PhoenixCard (H616). <span class="num">147</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm5">Скопировать</button></div>
+<pre id="fm5pre">---
+title: &quot;Установка и обновление прошивки Whatsminer&quot;
+description: &quot;Пошаговая инструкция: установка и обновление прошивки BiXBiT на Whatsminer через WhatsMinerTool (платы H3, H6, H6os) и SD-карту PhoenixCard (H616).&quot;
+---</pre><textarea hidden id="fm5">---
+title: &quot;Установка и обновление прошивки Whatsminer&quot;
+description: &quot;Пошаговая инструкция: установка и обновление прошивки BiXBiT на Whatsminer через WhatsMinerTool (платы H3, H6, H6os) и SD-карту PhoenixCard (H616).&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (7)</h4><button class="copy" data-t="md5">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool, вкладка Monitoring: в Version Info видна модель платы управления (H616) и дата прошивки в формате ГГГГММДД</td><td class='num'>122</td></tr><tr><td><code>/images/image-1.png</code></td><td class='old'>image.png</td><td>Веб-интерфейс Whatsminer, Status: в Hardware Info — модель платы управления (H616), в Firmware Version — дата прошивки</td><td class='num'>118</td></tr><tr><td><code>/images/image-2.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool, Upgrade для плат H3/H6/H6os: Select File, файл Whatsminer-ALL-Models .bin, отметить майнер, Start Upgrade</td><td class='num'>121</td></tr><tr><td><code>/images/image-3.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool, Upgrade: выбор промежуточного файла Whatsminer-ALL-Models_CustomCleanupBefore1.8_h616.bin, шаги 1–6</td><td class='num'>115</td></tr><tr><td><code>/images/image-5.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool: статус Success и приписка CustomNeedUpgrade в Version Info после установки промежуточной прошивки</td><td class='num'>113</td></tr><tr><td><code>/images/image-4.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool, Upgrade, этап 2: выбор основного файла прошивки Whatsminer-ALL-Models .bin, шаги 1–6</td><td class='num'>100</td></tr><tr><td><code>/images/image-6.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool, Upgrade: обновление прошивки BiXBiT 1.8.0.x файлом Whatsminer-ALL-Models .bin, шаги 1–6</td><td class='num'>103</td></tr></tbody></table></div>
+<textarea hidden id="md5">![WhatsMinerTool, вкладка Monitoring: в Version Info видна модель платы управления (H616) и дата прошивки в формате ГГГГММДД](/images/image.png)
+![Веб-интерфейс Whatsminer, Status: в Hardware Info — модель платы управления (H616), в Firmware Version — дата прошивки](/images/image-1.png)
+![WhatsMinerTool, Upgrade для плат H3/H6/H6os: Select File, файл Whatsminer-ALL-Models .bin, отметить майнер, Start Upgrade](/images/image-2.png)
+![WhatsMinerTool, Upgrade: выбор промежуточного файла Whatsminer-ALL-Models_CustomCleanupBefore1.8_h616.bin, шаги 1–6](/images/image-3.png)
+![WhatsMinerTool: статус Success и приписка CustomNeedUpgrade в Version Info после установки промежуточной прошивки](/images/image-5.png)
+![WhatsMinerTool, Upgrade, этап 2: выбор основного файла прошивки Whatsminer-ALL-Models .bin, шаги 1–6](/images/image-4.png)
+![WhatsMinerTool, Upgrade: обновление прошивки BiXBiT 1.8.0.x файлом Whatsminer-ALL-Models .bin, шаги 1–6](/images/image-6.png)</textarea></div>
+</article></section><section class='sec'><h2>Дополнительные инструкции</h2><article class="page" data-loc="en" data-q="https://docs.bixbit.io/additional_instructions/ antminer &amp; whatsminer how-to guides">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/additional_instructions/" target="_blank" rel="noopener">/additional_instructions/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Additional Instructions | Documentation</div><div class="now">Antminer &amp; Whatsminer How-To Guides | BiXBiT Docs <span class="num">49</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Extra guides for ASIC miners on BiXBiT firmware: overclocking, DNS for AMS, factory firmware rollback, log export, immersion prep, SD cards and error codes. <span class="num">156</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm6">Скопировать</button></div>
+<pre id="fm6pre">---
+title: &quot;Antminer &amp; Whatsminer How-To Guides&quot;
+description: &quot;Extra guides for ASIC miners on BiXBiT firmware: overclocking, DNS for AMS, factory firmware rollback, log export, immersion prep, SD cards and error codes.&quot;
+---</pre><textarea hidden id="fm6">---
+title: &quot;Antminer &amp; Whatsminer How-To Guides&quot;
+description: &quot;Extra guides for ASIC miners on BiXBiT firmware: overclocking, DNS for AMS, factory firmware rollback, log export, immersion prep, SD cards and error codes.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/additional_instructions/ инструкции для antminer и whatsminer">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/additional_instructions/" target="_blank" rel="noopener">/ru/additional_instructions/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Дополнительные инструкции | Документация</div><div class="now">Инструкции для Antminer и Whatsminer | BiXBiT Docs <span class="num">50</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Дополнительные инструкции для ASIC на прошивке BiXBiT: разгон, DNS для AMS, откат заводской прошивки, логи, подготовка к иммерсии, SD-карты, коды ошибок. <span class="num">153</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm7">Скопировать</button></div>
+<pre id="fm7pre">---
+title: &quot;Инструкции для Antminer и Whatsminer&quot;
+description: &quot;Дополнительные инструкции для ASIC на прошивке BiXBiT: разгон, DNS для AMS, откат заводской прошивки, логи, подготовка к иммерсии, SD-карты, коды ошибок.&quot;
+---</pre><textarea hidden id="fm7">---
+title: &quot;Инструкции для Antminer и Whatsminer&quot;
+description: &quot;Дополнительные инструкции для ASIC на прошивке BiXBiT: разгон, DNS для AMS, откат заводской прошивки, логи, подготовка к иммерсии, SD-карты, коды ошибок.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/additional_instructions/asic_overclock.html whatsminer overclocking: manual settings">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/additional_instructions/asic_overclock.html" target="_blank" rel="noopener">/additional_instructions/asic_overclock.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">ASIC Miner Overclocking and Other Related Functions | Documentation</div><div class="now">Whatsminer Overclocking: Manual Settings | BiXBiT Docs <span class="num">54</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">How to overclock a Whatsminer on BiXBiT firmware: autotune logic, PSU Power Limit, Target Voltage and Frequency, reference formulas and an M32 worked example. <span class="num">158</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm8">Скопировать</button></div>
+<pre id="fm8pre">---
+title: &quot;Whatsminer Overclocking: Manual Settings&quot;
+description: &quot;How to overclock a Whatsminer on BiXBiT firmware: autotune logic, PSU Power Limit, Target Voltage and Frequency, reference formulas and an M32 worked example.&quot;
+---</pre><textarea hidden id="fm8">---
+title: &quot;Whatsminer Overclocking: Manual Settings&quot;
+description: &quot;How to overclock a Whatsminer on BiXBiT firmware: autotune logic, PSU Power Limit, Target Voltage and Frequency, reference formulas and an M32 worked example.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (1)</h4><button class="copy" data-t="md8">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-74.png</code></td><td class='old'>image.png</td><td>Whatsminer Advanced Options with the M32 example values: Target Frequency 890, Target Voltage 1392, PSU Power Limit 3755</td><td class='num'>120</td></tr></tbody></table></div>
+<textarea hidden id="md8">![Whatsminer Advanced Options with the M32 example values: Target Frequency 890, Target Voltage 1392, PSU Power Limit 3755](/images/image-74.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/additional_instructions/asic_overclock.html разгон whatsminer: ручная настройка">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/additional_instructions/asic_overclock.html" target="_blank" rel="noopener">/ru/additional_instructions/asic_overclock.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Разгон ASIC-майнера и другие функции связанные с разгоном | Документация</div><div class="now">Разгон Whatsminer: ручная настройка | BiXBiT Docs <span class="num">49</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как разогнать Whatsminer на прошивке BiXBiT: логика автотюна, PSU Power Limit, Target Voltage и Target Frequency, формулы расчёта и пример для M32. <span class="num">147</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm9">Скопировать</button></div>
+<pre id="fm9pre">---
+title: &quot;Разгон Whatsminer: ручная настройка&quot;
+description: &quot;Как разогнать Whatsminer на прошивке BiXBiT: логика автотюна, PSU Power Limit, Target Voltage и Target Frequency, формулы расчёта и пример для M32.&quot;
+---</pre><textarea hidden id="fm9">---
+title: &quot;Разгон Whatsminer: ручная настройка&quot;
+description: &quot;Как разогнать Whatsminer на прошивке BiXBiT: логика автотюна, PSU Power Limit, Target Voltage и Target Frequency, формулы расчёта и пример для M32.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (1)</h4><button class="copy" data-t="md9">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-74.png</code></td><td class='old'>image.png</td><td>Advanced Options Whatsminer со значениями примера M32: Target Frequency 890, Target Voltage 1392, PSU Power Limit 3755</td><td class='num'>118</td></tr></tbody></table></div>
+<textarea hidden id="md9">![Advanced Options Whatsminer со значениями примера M32: Target Frequency 890, Target Voltage 1392, PSU Power Limit 3755](/images/image-74.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/additional_instructions/configuring_dns.html configure dns for ams on antminer &amp; whatsminer">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/additional_instructions/configuring_dns.html" target="_blank" rel="noopener">/additional_instructions/configuring_dns.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Configuring DNS | Documentation</div><div class="now">Configure DNS for AMS on Antminer &amp; Whatsminer | BiXBiT Docs <span class="num">60</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Fix AMS connection issues by setting a custom DNS server on Antminer and Whatsminer with BiXBiT firmware: static IP required, DNS field and entry format. <span class="num">153</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm10">Скопировать</button></div>
+<pre id="fm10pre">---
+title: &quot;Configure DNS for AMS on Antminer &amp; Whatsminer&quot;
+description: &quot;Fix AMS connection issues by setting a custom DNS server on Antminer and Whatsminer with BiXBiT firmware: static IP required, DNS field and entry format.&quot;
+---</pre><textarea hidden id="fm10">---
+title: &quot;Configure DNS for AMS on Antminer &amp; Whatsminer&quot;
+description: &quot;Fix AMS connection issues by setting a custom DNS server on Antminer and Whatsminer with BiXBiT firmware: static IP required, DNS field and entry format.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/additional_instructions/configuring_dns.html настройка dns для подключения к ams">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/additional_instructions/configuring_dns.html" target="_blank" rel="noopener">/ru/additional_instructions/configuring_dns.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Настройка DNS | Документация</div><div class="now">Настройка DNS для подключения к AMS | BiXBiT Docs <span class="num">49</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как решить проблемы подключения к AMS: настройка DNS-сервера на Antminer и Whatsminer с прошивкой BiXBiT, статический IP, поле DNS и формат записи. <span class="num">147</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm11">Скопировать</button></div>
+<pre id="fm11pre">---
+title: &quot;Настройка DNS для подключения к AMS&quot;
+description: &quot;Как решить проблемы подключения к AMS: настройка DNS-сервера на Antminer и Whatsminer с прошивкой BiXBiT, статический IP, поле DNS и формат записи.&quot;
+---</pre><textarea hidden id="fm11">---
+title: &quot;Настройка DNS для подключения к AMS&quot;
+description: &quot;Как решить проблемы подключения к AMS: настройка DNS-сервера на Antminer и Whatsminer с прошивкой BiXBiT, статический IP, поле DNS и формат записи.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/additional_instructions/factory_firmware_installation_and_rollback.html antminer/whatsminer factory firmware rollback">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/additional_instructions/factory_firmware_installation_and_rollback.html" target="_blank" rel="noopener">/additional_instructions/factory_firmware_installation_and_rollback.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Factory Firmware Installation and Rollback | Documentation</div><div class="now">Antminer/Whatsminer Factory Firmware Rollback | BiXBiT Docs <span class="num">59</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Roll back Antminer or Whatsminer to factory firmware before installing BiXBiT: SD or USB image by control board, WhatsMinerTool .bin or PhoenixCard SD card. <span class="num">156</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm12">Скопировать</button></div>
+<pre id="fm12pre">---
+title: &quot;Antminer/Whatsminer Factory Firmware Rollback&quot;
+description: &quot;Roll back Antminer or Whatsminer to factory firmware before installing BiXBiT: SD or USB image by control board, WhatsMinerTool .bin or PhoenixCard SD card.&quot;
+---</pre><textarea hidden id="fm12">---
+title: &quot;Antminer/Whatsminer Factory Firmware Rollback&quot;
+description: &quot;Roll back Antminer or Whatsminer to factory firmware before installing BiXBiT: SD or USB image by control board, WhatsMinerTool .bin or PhoenixCard SD card.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (5)</h4><button class="copy" data-t="md12">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-37.png</code></td><td class='old'>image.png</td><td>Windows Format dialog for a 16 GB flash drive (F:): FAT32 file system, Quick Format checked, Start button</td><td class='num'>105</td></tr><tr><td><code>/images/image-38.png</code></td><td class='old'>image.png</td><td>universal_aml.zip files copied to the flash drive root: aml_sdc_burn.ini, aml_sdc_burn.UBOOT.ENC, aml_upgrade_package_enc.img</td><td class='num'>125</td></tr><tr><td><code>/images/image-76.png</code></td><td class='old'>image.png</td><td>Whatsminer support site, Firmwares Download: M3x &amp; M5x &amp; M6x series selected, Download button for the .bin firmware file</td><td class='num'>120</td></tr><tr><td><code>/images/image-75.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool Upgrade: Select File, pick Whatsminer-M3x-all-20250321.14.bin, Open, tick the miner, Start Upgrade (steps 1-6)</td><td class='num'>125</td></tr><tr><td><code>/images/image-77.png</code></td><td class='old'>image.png</td><td>Whatsminer support site, Firmwares Download: SD-card flashing program by control board (H616, H6os, H6, H3), Download</td><td class='num'>117</td></tr></tbody></table></div>
+<textarea hidden id="md12">![Windows Format dialog for a 16 GB flash drive (F:): FAT32 file system, Quick Format checked, Start button](/images/image-37.png)
+![universal_aml.zip files copied to the flash drive root: aml_sdc_burn.ini, aml_sdc_burn.UBOOT.ENC, aml_upgrade_package_enc.img](/images/image-38.png)
+![Whatsminer support site, Firmwares Download: M3x &amp; M5x &amp; M6x series selected, Download button for the .bin firmware file](/images/image-76.png)
+![WhatsMinerTool Upgrade: Select File, pick Whatsminer-M3x-all-20250321.14.bin, Open, tick the miner, Start Upgrade (steps 1-6)](/images/image-75.png)
+![Whatsminer support site, Firmwares Download: SD-card flashing program by control board (H616, H6os, H6, H3), Download](/images/image-77.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/additional_instructions/factory_firmware_installation_and_rollback.html откат заводской прошивки antminer и whatsminer">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/additional_instructions/factory_firmware_installation_and_rollback.html" target="_blank" rel="noopener">/ru/additional_instructions/factory_firmware_installation_and_rollback.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Установка и откат заводской прошивки | Документация</div><div class="now">Откат заводской прошивки Antminer и Whatsminer | BiXBiT Docs <span class="num">60</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как откатить Antminer или Whatsminer на заводскую прошивку перед установкой BiXBiT: образ на флешку по модели КПУ, WhatsMinerTool или SD-карта. <span class="num">143</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm13">Скопировать</button></div>
+<pre id="fm13pre">---
+title: &quot;Откат заводской прошивки Antminer и Whatsminer&quot;
+description: &quot;Как откатить Antminer или Whatsminer на заводскую прошивку перед установкой BiXBiT: образ на флешку по модели КПУ, WhatsMinerTool или SD-карта.&quot;
+---</pre><textarea hidden id="fm13">---
+title: &quot;Откат заводской прошивки Antminer и Whatsminer&quot;
+description: &quot;Как откатить Antminer или Whatsminer на заводскую прошивку перед установкой BiXBiT: образ на флешку по модели КПУ, WhatsMinerTool или SD-карта.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (5)</h4><button class="copy" data-t="md13">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-37.png</code></td><td class='old'>image.png</td><td>Окно форматирования флешки 16GB (F:) в Windows: файловая система FAT32, отмечено Quick Format, кнопка Start</td><td class='num'>107</td></tr><tr><td><code>/images/image-38.png</code></td><td class='old'>image.png</td><td>Содержимое архива universal_aml.zip в корне флешки: aml_sdc_burn.ini, aml_sdc_burn.UBOOT.ENC, aml_upgrade_package_enc.img</td><td class='num'>121</td></tr><tr><td><code>/images/image-76.png</code></td><td class='old'>image.png</td><td>Сайт Whatsminer, Firmwares Download: раздел M3x &amp; M5x &amp; M6x series и кнопка Download для файла прошивки .bin</td><td class='num'>108</td></tr><tr><td><code>/images/image-75.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool, Upgrade: Select File, файл Whatsminer-M3x-all-20250321.14.bin, Open, отметить майнер, Start Upgrade, шаги 1-6</td><td class='num'>125</td></tr><tr><td><code>/images/image-77.png</code></td><td class='old'>image.png</td><td>Сайт Whatsminer, Firmwares Download: SD-card flashing program по моделям КПУ (H616, H6os, H6, H3), кнопка Download</td><td class='num'>114</td></tr></tbody></table></div>
+<textarea hidden id="md13">![Окно форматирования флешки 16GB (F:) в Windows: файловая система FAT32, отмечено Quick Format, кнопка Start](/images/image-37.png)
+![Содержимое архива universal_aml.zip в корне флешки: aml_sdc_burn.ini, aml_sdc_burn.UBOOT.ENC, aml_upgrade_package_enc.img](/images/image-38.png)
+![Сайт Whatsminer, Firmwares Download: раздел M3x &amp; M5x &amp; M6x series и кнопка Download для файла прошивки .bin](/images/image-76.png)
+![WhatsMinerTool, Upgrade: Select File, файл Whatsminer-M3x-all-20250321.14.bin, Open, отметить майнер, Start Upgrade, шаги 1-6](/images/image-75.png)
+![Сайт Whatsminer, Firmwares Download: SD-card flashing program по моделям КПУ (H616, H6os, H6, H3), кнопка Download](/images/image-77.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/additional_instructions/log_export.html export logs from antminer and whatsminer">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/additional_instructions/log_export.html" target="_blank" rel="noopener">/additional_instructions/log_export.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Log Export | Documentation</div><div class="now">Export Logs from Antminer and Whatsminer | BiXBiT Docs <span class="num">54</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Export Antminer and Whatsminer logs for troubleshooting: download them from the BiXBiT firmware web interface or use WhatsMinerTool Remote Ctrl &gt; Export Log. <span class="num">157</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm14">Скопировать</button></div>
+<pre id="fm14pre">---
+title: &quot;Export Logs from Antminer and Whatsminer&quot;
+description: &quot;Export Antminer and Whatsminer logs for troubleshooting: download them from the BiXBiT firmware web interface or use WhatsMinerTool Remote Ctrl &gt; Export Log.&quot;
+---</pre><textarea hidden id="fm14">---
+title: &quot;Export Logs from Antminer and Whatsminer&quot;
+description: &quot;Export Antminer and Whatsminer logs for troubleshooting: download them from the BiXBiT firmware web interface or use WhatsMinerTool Remote Ctrl &gt; Export Log.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (2)</h4><button class="copy" data-t="md14">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-79.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool: miner ticked, Remote Ctrl opens the Remote Control Dialog with Export Log among the options, OK (steps 1-4) <span class="flag">проверить</span></td><td class='num'>123</td></tr><tr><td><code>/images/image-80.png</code></td><td class='old'>image.png</td><td>Browse for Folder dialog: LOGS folder selected as the log export directory, then OK (steps 5-6)</td><td class='num'>95</td></tr></tbody></table></div>
+<textarea hidden id="md14">![WhatsMinerTool: miner ticked, Remote Ctrl opens the Remote Control Dialog with Export Log among the options, OK (steps 1-4)](/images/image-79.png)
+![Browse for Folder dialog: LOGS folder selected as the log export directory, then OK (steps 5-6)](/images/image-80.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/additional_instructions/log_export.html экспорт логов antminer и whatsminer">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/additional_instructions/log_export.html" target="_blank" rel="noopener">/ru/additional_instructions/log_export.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Экспорт логов | Документация</div><div class="now">Экспорт логов Antminer и Whatsminer | BiXBiT Docs <span class="num">49</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как выгрузить логи Antminer и Whatsminer для диагностики: через web-интерфейс прошивки BiXBiT или в WhatsMinerTool через Remote Ctrl &gt; Export Log. <span class="num">146</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm15">Скопировать</button></div>
+<pre id="fm15pre">---
+title: &quot;Экспорт логов Antminer и Whatsminer&quot;
+description: &quot;Как выгрузить логи Antminer и Whatsminer для диагностики: через web-интерфейс прошивки BiXBiT или в WhatsMinerTool через Remote Ctrl &gt; Export Log.&quot;
+---</pre><textarea hidden id="fm15">---
+title: &quot;Экспорт логов Antminer и Whatsminer&quot;
+description: &quot;Как выгрузить логи Antminer и Whatsminer для диагностики: через web-интерфейс прошивки BiXBiT или в WhatsMinerTool через Remote Ctrl &gt; Export Log.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (2)</h4><button class="copy" data-t="md15">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-79.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool: майнер отмечен, Remote Ctrl открывает Remote Control Dialog, среди пунктов есть Export Log, OK (шаги 1-4) <span class="flag">проверить</span></td><td class='num'>121</td></tr><tr><td><code>/images/image-80.png</code></td><td class='old'>image.png</td><td>Окно Browse for Folder: для сохранения логов выбрана папка LOGS, кнопка OK (шаги 5-6)</td><td class='num'>85</td></tr></tbody></table></div>
+<textarea hidden id="md15">![WhatsMinerTool: майнер отмечен, Remote Ctrl открывает Remote Control Dialog, среди пунктов есть Export Log, OK (шаги 1-4)](/images/image-79.png)
+![Окно Browse for Folder: для сохранения логов выбрана папка LOGS, кнопка OK (шаги 5-6)](/images/image-80.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/additional_instructions/preparation_for_immersion_cooling.html prepare whatsminer for immersion cooling">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/additional_instructions/preparation_for_immersion_cooling.html" target="_blank" rel="noopener">/additional_instructions/preparation_for_immersion_cooling.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Preparing an ASIC Miner for Immersion Cooling | Documentation</div><div class="now">Prepare Whatsminer for Immersion Cooling | BiXBiT Docs <span class="num">54</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Prepare a Whatsminer for immersion cooling on BiXBiT firmware: remove fans, enable Liquid Cooling, disable PSU fan checks or flash the PSU with AirToLiquid. <span class="num">156</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm16">Скопировать</button></div>
+<pre id="fm16pre">---
+title: &quot;Prepare Whatsminer for Immersion Cooling&quot;
+description: &quot;Prepare a Whatsminer for immersion cooling on BiXBiT firmware: remove fans, enable Liquid Cooling, disable PSU fan checks or flash the PSU with AirToLiquid.&quot;
+---</pre><textarea hidden id="fm16">---
+title: &quot;Prepare Whatsminer for Immersion Cooling&quot;
+description: &quot;Prepare a Whatsminer for immersion cooling on BiXBiT firmware: remove fans, enable Liquid Cooling, disable PSU fan checks or flash the PSU with AirToLiquid.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (12)</h4><button class="copy" data-t="md16">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-39.png</code></td><td class='old'>image.png</td><td>Whatsminer prepared for immersion: front and rear fan openings with fans removed (1, 2), PSU fan (3), connector close-up (4) <span class="flag">проверить</span></td><td class='num'>124</td></tr><tr><td><code>/images/image-40.png</code></td><td class='old'>image.png</td><td>BiXBiT firmware on Whatsminer, Overclock tab: enable the Liquid Cooling checkbox (1), then click Save &amp; Apply (2)</td><td class='num'>113</td></tr><tr><td><code>/images/image-41.png</code></td><td class='old'>image.png</td><td>BiXBiT firmware PSU Control tab on Whatsminer (PSU P732A): Disable Power Fan button turns off the PSU fan check</td><td class='num'>111</td></tr><tr><td><code>/images/image-42.png</code></td><td class='old'>image.png</td><td>BiXBiT firmware on a Whatsminer M2x, PSU Control tab (PSU P21D): Upgrade PSU Firmware button for immersion mode</td><td class='num'>111</td></tr><tr><td><code>/images/image-43.png</code></td><td class='old'>image.png</td><td>BiXBiT website Firmware menu with the WhatsPower PSU firmware list: p222b, p222c, p221c, p21D, p21</td><td class='num'>98</td></tr><tr><td><code>/images/image-44.png</code></td><td class='old'>image.png</td><td>AirToLiquid 1.5.7 toolbar with the Setting button highlighted</td><td class='num'>61</td></tr><tr><td><code>/images/image-45.png</code></td><td class='old'>image.png</td><td>AirToLiquid Setting Dialog: Fw Upgrade manual/auto set to Manual</td><td class='num'>64</td></tr><tr><td><code>/images/image-46.png</code></td><td class='old'>image.png</td><td>AirToLiquid Miner IP Management: scan range 192.168.10.1-192.168.10.255 (comment Farm1) added and selected, OK</td><td class='num'>110</td></tr><tr><td><code>/images/image-47.png</code></td><td class='old'>image.png</td><td>AirToLiquid: UpgradePower, Select File, pick whatspower-p21-rm-fan-err.bin, tick the M21S miner, Start Upgrade (steps 1-5)</td><td class='num'>122</td></tr><tr><td><code>/images/image-50.png</code></td><td class='old'>image.png</td><td>AirToLiquid confirmation to upgrade the selected power supply firmware, warning that the warranty will be cleared, OK</td><td class='num'>117</td></tr><tr><td><code>/images/image-52.png</code></td><td class='old'>image.png</td><td>AirToLiquid device list: M21S_V22 at 192.168.10.57 shows status Upgrading while the PSU is flashed</td><td class='num'>98</td></tr><tr><td><code>/images/image-53.png</code></td><td class='old'>image.png</td><td>AirToLiquid device list: M21S_V22 at 192.168.10.57 shows status Success after PSU flashing</td><td class='num'>90</td></tr></tbody></table></div>
+<textarea hidden id="md16">![Whatsminer prepared for immersion: front and rear fan openings with fans removed (1, 2), PSU fan (3), connector close-up (4)](/images/image-39.png)
+![BiXBiT firmware on Whatsminer, Overclock tab: enable the Liquid Cooling checkbox (1), then click Save &amp; Apply (2)](/images/image-40.png)
+![BiXBiT firmware PSU Control tab on Whatsminer (PSU P732A): Disable Power Fan button turns off the PSU fan check](/images/image-41.png)
+![BiXBiT firmware on a Whatsminer M2x, PSU Control tab (PSU P21D): Upgrade PSU Firmware button for immersion mode](/images/image-42.png)
+![BiXBiT website Firmware menu with the WhatsPower PSU firmware list: p222b, p222c, p221c, p21D, p21](/images/image-43.png)
+![AirToLiquid 1.5.7 toolbar with the Setting button highlighted](/images/image-44.png)
+![AirToLiquid Setting Dialog: Fw Upgrade manual/auto set to Manual](/images/image-45.png)
+![AirToLiquid Miner IP Management: scan range 192.168.10.1-192.168.10.255 (comment Farm1) added and selected, OK](/images/image-46.png)
+![AirToLiquid: UpgradePower, Select File, pick whatspower-p21-rm-fan-err.bin, tick the M21S miner, Start Upgrade (steps 1-5)](/images/image-47.png)
+![AirToLiquid confirmation to upgrade the selected power supply firmware, warning that the warranty will be cleared, OK](/images/image-50.png)
+![AirToLiquid device list: M21S_V22 at 192.168.10.57 shows status Upgrading while the PSU is flashed](/images/image-52.png)
+![AirToLiquid device list: M21S_V22 at 192.168.10.57 shows status Success after PSU flashing](/images/image-53.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/additional_instructions/preparation_for_immersion_cooling.html подготовка whatsminer к иммерсии">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/additional_instructions/preparation_for_immersion_cooling.html" target="_blank" rel="noopener">/ru/additional_instructions/preparation_for_immersion_cooling.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Подготовка ASIC-майнера к иммерсионному охлаждению | Документация</div><div class="now">Подготовка Whatsminer к иммерсии | BiXBiT Docs <span class="num">46</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как подготовить Whatsminer к иммерсионному охлаждению на прошивке BiXBiT: снять вентиляторы, включить Liquid Cooling, отключить проверку вентилятора БП. <span class="num">152</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm17">Скопировать</button></div>
+<pre id="fm17pre">---
+title: &quot;Подготовка Whatsminer к иммерсии&quot;
+description: &quot;Как подготовить Whatsminer к иммерсионному охлаждению на прошивке BiXBiT: снять вентиляторы, включить Liquid Cooling, отключить проверку вентилятора БП.&quot;
+---</pre><textarea hidden id="fm17">---
+title: &quot;Подготовка Whatsminer к иммерсии&quot;
+description: &quot;Как подготовить Whatsminer к иммерсионному охлаждению на прошивке BiXBiT: снять вентиляторы, включить Liquid Cooling, отключить проверку вентилятора БП.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (12)</h4><button class="copy" data-t="md17">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-39.png</code></td><td class='old'>image.png</td><td>Whatsminer перед погружением: проёмы снятых вентиляторов спереди и сзади (1, 2), вентилятор БП (3), разъём крупно (4) <span class="flag">проверить</span></td><td class='num'>117</td></tr><tr><td><code>/images/image-40.png</code></td><td class='old'>image.png</td><td>Прошивка BiXBiT на Whatsminer, вкладка Overclock: включить чекбокс Liquid Cooling (1) и нажать Save &amp; Apply (2)</td><td class='num'>111</td></tr><tr><td><code>/images/image-41.png</code></td><td class='old'>image.png</td><td>Вкладка PSU Control прошивки BiXBiT на Whatsminer (БП P732A): кнопка Disable Power Fan отключает проверку вентилятора БП</td><td class='num'>120</td></tr><tr><td><code>/images/image-42.png</code></td><td class='old'>image.png</td><td>Прошивка BiXBiT на Whatsminer M2x, вкладка PSU Control (БП P21D): кнопка Upgrade PSU Firmware для иммерсионного режима</td><td class='num'>118</td></tr><tr><td><code>/images/image-43.png</code></td><td class='old'>image.png</td><td>Меню «Прошивки» на сайте BiXBiT, список прошивок WhatsPower для БП: p222b, p222c, p221c, p21D, p21</td><td class='num'>98</td></tr><tr><td><code>/images/image-44.png</code></td><td class='old'>image.png</td><td>Панель AirToLiquid 1.5.7, выделена кнопка Setting</td><td class='num'>49</td></tr><tr><td><code>/images/image-45.png</code></td><td class='old'>image.png</td><td>AirToLiquid, Setting Dialog: в Fw Upgrade manual/auto выбран режим Manual</td><td class='num'>73</td></tr><tr><td><code>/images/image-46.png</code></td><td class='old'>image.png</td><td>AirToLiquid, Miner IP Management: добавлен и отмечен диапазон 192.168.10.1-192.168.10.255 (комментарий Farm1), OK</td><td class='num'>113</td></tr><tr><td><code>/images/image-47.png</code></td><td class='old'>image.png</td><td>AirToLiquid: UpgradePower, Select File, файл whatspower-p21-rm-fan-err.bin, отметить майнер M21S, Start Upgrade (шаги 1-5)</td><td class='num'>122</td></tr><tr><td><code>/images/image-50.png</code></td><td class='old'>image.png</td><td>AirToLiquid: подтверждение прошивки выбранного блока питания с предупреждением о снятии гарантии, кнопка OK</td><td class='num'>107</td></tr><tr><td><code>/images/image-52.png</code></td><td class='old'>image.png</td><td>Список устройств AirToLiquid: M21S_V22 (192.168.10.57) в статусе Upgrading во время прошивки БП</td><td class='num'>95</td></tr><tr><td><code>/images/image-53.png</code></td><td class='old'>image.png</td><td>Список устройств AirToLiquid: M21S_V22 (192.168.10.57) в статусе Success после прошивки БП</td><td class='num'>90</td></tr></tbody></table></div>
+<textarea hidden id="md17">![Whatsminer перед погружением: проёмы снятых вентиляторов спереди и сзади (1, 2), вентилятор БП (3), разъём крупно (4)](/images/image-39.png)
+![Прошивка BiXBiT на Whatsminer, вкладка Overclock: включить чекбокс Liquid Cooling (1) и нажать Save &amp; Apply (2)](/images/image-40.png)
+![Вкладка PSU Control прошивки BiXBiT на Whatsminer (БП P732A): кнопка Disable Power Fan отключает проверку вентилятора БП](/images/image-41.png)
+![Прошивка BiXBiT на Whatsminer M2x, вкладка PSU Control (БП P21D): кнопка Upgrade PSU Firmware для иммерсионного режима](/images/image-42.png)
+![Меню «Прошивки» на сайте BiXBiT, список прошивок WhatsPower для БП: p222b, p222c, p221c, p21D, p21](/images/image-43.png)
+![Панель AirToLiquid 1.5.7, выделена кнопка Setting](/images/image-44.png)
+![AirToLiquid, Setting Dialog: в Fw Upgrade manual/auto выбран режим Manual](/images/image-45.png)
+![AirToLiquid, Miner IP Management: добавлен и отмечен диапазон 192.168.10.1-192.168.10.255 (комментарий Farm1), OK](/images/image-46.png)
+![AirToLiquid: UpgradePower, Select File, файл whatspower-p21-rm-fan-err.bin, отметить майнер M21S, Start Upgrade (шаги 1-5)](/images/image-47.png)
+![AirToLiquid: подтверждение прошивки выбранного блока питания с предупреждением о снятии гарантии, кнопка OK](/images/image-50.png)
+![Список устройств AirToLiquid: M21S_V22 (192.168.10.57) в статусе Upgrading во время прошивки БП](/images/image-52.png)
+![Список устройств AirToLiquid: M21S_V22 (192.168.10.57) в статусе Success после прошивки БП](/images/image-53.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/additional_instructions/sd-card_flashing.html write whatsminer firmware to sd (phoenixcard)">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/additional_instructions/sd-card_flashing.html" target="_blank" rel="noopener">/additional_instructions/sd-card_flashing.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Writing an image to the SD card | Documentation</div><div class="now">Write Whatsminer Firmware to SD (PhoenixCard) | BiXBiT Docs <span class="num">59</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Write a Whatsminer firmware .img to an SD card with PhoenixCard: select the drive, pick the image, keep Product mode, click Burn and check the burn result. <span class="num">155</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm18">Скопировать</button></div>
+<pre id="fm18pre">---
+title: &quot;Write Whatsminer Firmware to SD (PhoenixCard)&quot;
+description: &quot;Write a Whatsminer firmware .img to an SD card with PhoenixCard: select the drive, pick the image, keep Product mode, click Burn and check the burn result.&quot;
+---</pre><textarea hidden id="fm18">---
+title: &quot;Write Whatsminer Firmware to SD (PhoenixCard)&quot;
+description: &quot;Write a Whatsminer firmware .img to an SD card with PhoenixCard: select the drive, pick the image, keep Product mode, click Burn and check the burn result.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (5)</h4><button class="copy" data-t="md18">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-109.png</code></td><td class='old'>image.png</td><td>PhoenixCard_V427 folder from the firmware archive with PhoenixCard.exe highlighted</td><td class='num'>82</td></tr><tr><td><code>/images/image-110.png</code></td><td class='old'>image.png</td><td>PhoenixCard V4.2.7: the SD card (drive K, 7679M) selected in the Dev List</td><td class='num'>73</td></tr><tr><td><code>/images/image-111.png</code></td><td class='old'>image.png</td><td>PhoenixCard V4.2.7: Image button that opens the firmware file selection dialog</td><td class='num'>78</td></tr><tr><td><code>/images/image-112.png</code></td><td class='old'>image.png</td><td>File dialog: select Whatsminer-ALL-Models_1.6.0.2_h616-after20231213.img, then click Open</td><td class='num'>89</td></tr><tr><td><code>/images/image-113.png</code></td><td class='old'>image.png</td><td>PhoenixCard V4.2.7: Work Type Product selected, Burn button writes the image to the SD card</td><td class='num'>91</td></tr></tbody></table></div>
+<textarea hidden id="md18">![PhoenixCard_V427 folder from the firmware archive with PhoenixCard.exe highlighted](/images/image-109.png)
+![PhoenixCard V4.2.7: the SD card (drive K, 7679M) selected in the Dev List](/images/image-110.png)
+![PhoenixCard V4.2.7: Image button that opens the firmware file selection dialog](/images/image-111.png)
+![File dialog: select Whatsminer-ALL-Models_1.6.0.2_h616-after20231213.img, then click Open](/images/image-112.png)
+![PhoenixCard V4.2.7: Work Type Product selected, Burn button writes the image to the SD card](/images/image-113.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/additional_instructions/sd-card_flashing.html запись прошивки whatsminer на sd (phoenixcard)">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/additional_instructions/sd-card_flashing.html" target="_blank" rel="noopener">/ru/additional_instructions/sd-card_flashing.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Запись образа прошивки на SD-карту | Документация</div><div class="now">Запись прошивки Whatsminer на SD (PhoenixCard) | BiXBiT Docs <span class="num">60</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как записать образ прошивки Whatsminer (.img) на SD-карту в PhoenixCard: выбрать диск и образ, режим Product, нажать Burn и проверить результат записи. <span class="num">151</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm19">Скопировать</button></div>
+<pre id="fm19pre">---
+title: &quot;Запись прошивки Whatsminer на SD (PhoenixCard)&quot;
+description: &quot;Как записать образ прошивки Whatsminer (.img) на SD-карту в PhoenixCard: выбрать диск и образ, режим Product, нажать Burn и проверить результат записи.&quot;
+---</pre><textarea hidden id="fm19">---
+title: &quot;Запись прошивки Whatsminer на SD (PhoenixCard)&quot;
+description: &quot;Как записать образ прошивки Whatsminer (.img) на SD-карту в PhoenixCard: выбрать диск и образ, режим Product, нажать Burn и проверить результат записи.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (7)</h4><button class="copy" data-t="md19">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-102.png</code></td><td class='old'>image.png</td><td>Папка PhoenixCard_V427 из архива с прошивкой, выделен файл PhoenixCard.exe</td><td class='num'>74</td></tr><tr><td><code>/images/image-103.png</code></td><td class='old'>image.png</td><td>PhoenixCard V4.2.7: в Dev List выбрана SD-карта, диск K (7679M)</td><td class='num'>63</td></tr><tr><td><code>/images/image-104.png</code></td><td class='old'>image.png</td><td>PhoenixCard V4.2.7: кнопка Image открывает окно выбора файла прошивки</td><td class='num'>69</td></tr><tr><td><code>/images/image-105.png</code></td><td class='old'>image.png</td><td>Окно выбора файла: образ Whatsminer-ALL-Models_1.6.0.2_h616-after20231213.img, кнопка Open</td><td class='num'>90</td></tr><tr><td><code>/images/image-106.png</code></td><td class='old'>image.png</td><td>PhoenixCard V4.2.7: выбран режим Product, кнопка Burn запускает запись образа на SD-карту</td><td class='num'>89</td></tr><tr><td><code>/images/image-107.png</code></td><td class='old'>image.png</td><td>PhoenixCard V4.2.7: идёт запись образа на SD-карту, прогресс 24%, в журнале Formatting the card и Start Burning</td><td class='num'>111</td></tr><tr><td><code>/images/image-108.png</code></td><td class='old'>image.png</td><td>Управление дисками после записи: SD-карта (Диск 1, 7,50 ГБ) с томами 8 МБ RAW, 7,36 ГБ FAT32 и нераспределённым местом</td><td class='num'>118</td></tr></tbody></table></div>
+<textarea hidden id="md19">![Папка PhoenixCard_V427 из архива с прошивкой, выделен файл PhoenixCard.exe](/images/image-102.png)
+![PhoenixCard V4.2.7: в Dev List выбрана SD-карта, диск K (7679M)](/images/image-103.png)
+![PhoenixCard V4.2.7: кнопка Image открывает окно выбора файла прошивки](/images/image-104.png)
+![Окно выбора файла: образ Whatsminer-ALL-Models_1.6.0.2_h616-after20231213.img, кнопка Open](/images/image-105.png)
+![PhoenixCard V4.2.7: выбран режим Product, кнопка Burn запускает запись образа на SD-карту](/images/image-106.png)
+![PhoenixCard V4.2.7: идёт запись образа на SD-карту, прогресс 24%, в журнале Formatting the card и Start Burning](/images/image-107.png)
+![Управление дисками после записи: SD-карта (Диск 1, 7,50 ГБ) с томами 8 МБ RAW, 7,36 ГБ FAT32 и нераспределённым местом](/images/image-108.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/additional_instructions/sd-card_formatting.html format an sd card to fat32 for asic firmware">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/additional_instructions/sd-card_formatting.html" target="_blank" rel="noopener">/additional_instructions/sd-card_formatting.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">SD Card Formatting | Documentation</div><div class="now">Format an SD Card to FAT32 for ASIC Firmware | BiXBiT Docs <span class="num">58</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Fully format an SD card to FAT32 in Windows Disk Management before writing ASIC firmware: delete old volumes, create a new simple volume and check the result. <span class="num">158</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm20">Скопировать</button></div>
+<pre id="fm20pre">---
+title: &quot;Format an SD Card to FAT32 for ASIC Firmware&quot;
+description: &quot;Fully format an SD card to FAT32 in Windows Disk Management before writing ASIC firmware: delete old volumes, create a new simple volume and check the result.&quot;
+---</pre><textarea hidden id="fm20">---
+title: &quot;Format an SD Card to FAT32 for ASIC Firmware&quot;
+description: &quot;Fully format an SD card to FAT32 in Windows Disk Management before writing ASIC firmware: delete old volumes, create a new simple volume and check the result.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (13)</h4><button class="copy" data-t="md20">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-114.png</code></td><td class='old'>image.png</td><td>microSD adapter with the Lock write-protection switch circled: make sure it is unlocked before formatting</td><td class='num'>105</td></tr><tr><td><code>/images/image-115.png</code></td><td class='old'>image.png</td><td>Windows 11 Start button right-click menu with Disk Management highlighted</td><td class='num'>73</td></tr><tr><td><code>/images/image-116.png</code></td><td class='old'>image.png</td><td>Disk Management: the SD card shown as Disk 1, Removable, 7.50 GB, with existing partitions</td><td class='num'>90</td></tr><tr><td><code>/images/image-117.png</code></td><td class='old'>image.png</td><td>Disk Management: right-click an SD card partition and choose Delete Volume...</td><td class='num'>77</td></tr><tr><td><code>/images/image-118.png</code></td><td class='old'>image.png</td><td>Delete simple volume warning that all data on it will be erased, Yes button</td><td class='num'>75</td></tr><tr><td><code>/images/image-119.png</code></td><td class='old'>image.png</td><td>Disk Management: all 7.50 GB of the SD card (Disk 1) now shows as Unallocated</td><td class='num'>77</td></tr><tr><td><code>/images/image-120.png</code></td><td class='old'>image.png</td><td>Disk Management: right-click the unallocated SD card space and choose New Simple Volume...</td><td class='num'>90</td></tr><tr><td><code>/images/image-121.png</code></td><td class='old'>image.png</td><td>New Simple Volume Wizard welcome screen, click Next</td><td class='num'>51</td></tr><tr><td><code>/images/image-122.png</code></td><td class='old'>image.png</td><td>New Simple Volume Wizard: volume size set to the maximum, 7678 MB</td><td class='num'>65</td></tr><tr><td><code>/images/image-123.png</code></td><td class='old'>image.png</td><td>New Simple Volume Wizard: assign drive letter F</td><td class='num'>47</td></tr><tr><td><code>/images/image-124.png</code></td><td class='old'>image.png</td><td>New Simple Volume Wizard, Format Partition: FAT32, default allocation unit size, Perform a quick format checked</td><td class='num'>111</td></tr><tr><td><code>/images/image-125.png</code></td><td class='old'>image.png</td><td>Completing the New Simple Volume Wizard: Disk 1, 7678 MB, drive F:, FAT32, quick format, Finish</td><td class='num'>95</td></tr><tr><td><code>/images/image-126.png</code></td><td class='old'>image.png</td><td>Disk Management result: SD card (F:) is a single 7.50 GB FAT32 partition, Healthy (Basic Data Partition)</td><td class='num'>104</td></tr></tbody></table></div>
+<textarea hidden id="md20">![microSD adapter with the Lock write-protection switch circled: make sure it is unlocked before formatting](/images/image-114.png)
+![Windows 11 Start button right-click menu with Disk Management highlighted](/images/image-115.png)
+![Disk Management: the SD card shown as Disk 1, Removable, 7.50 GB, with existing partitions](/images/image-116.png)
+![Disk Management: right-click an SD card partition and choose Delete Volume...](/images/image-117.png)
+![Delete simple volume warning that all data on it will be erased, Yes button](/images/image-118.png)
+![Disk Management: all 7.50 GB of the SD card (Disk 1) now shows as Unallocated](/images/image-119.png)
+![Disk Management: right-click the unallocated SD card space and choose New Simple Volume...](/images/image-120.png)
+![New Simple Volume Wizard welcome screen, click Next](/images/image-121.png)
+![New Simple Volume Wizard: volume size set to the maximum, 7678 MB](/images/image-122.png)
+![New Simple Volume Wizard: assign drive letter F](/images/image-123.png)
+![New Simple Volume Wizard, Format Partition: FAT32, default allocation unit size, Perform a quick format checked](/images/image-124.png)
+![Completing the New Simple Volume Wizard: Disk 1, 7678 MB, drive F:, FAT32, quick format, Finish](/images/image-125.png)
+![Disk Management result: SD card (F:) is a single 7.50 GB FAT32 partition, Healthy (Basic Data Partition)](/images/image-126.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/additional_instructions/sd-card_formatting.html форматирование sd-карты в fat32 для прошивки">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/additional_instructions/sd-card_formatting.html" target="_blank" rel="noopener">/ru/additional_instructions/sd-card_formatting.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Полное форматирование SD-карты перед установкой прошивки | Документация</div><div class="now">Форматирование SD-карты в FAT32 для прошивки | BiXBiT Docs <span class="num">58</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как полностью отформатировать SD-карту в FAT32 через «Управление дисками» перед записью прошивки ASIC: удалить тома, создать простой том, частые проблемы. <span class="num">154</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm21">Скопировать</button></div>
+<pre id="fm21pre">---
+title: &quot;Форматирование SD-карты в FAT32 для прошивки&quot;
+description: &quot;Как полностью отформатировать SD-карту в FAT32 через «Управление дисками» перед записью прошивки ASIC: удалить тома, создать простой том, частые проблемы.&quot;
+---</pre><textarea hidden id="fm21">---
+title: &quot;Форматирование SD-карты в FAT32 для прошивки&quot;
+description: &quot;Как полностью отформатировать SD-карту в FAT32 через «Управление дисками» перед записью прошивки ASIC: удалить тома, создать простой том, частые проблемы.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (13)</h4><button class="copy" data-t="md21">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-94.png</code></td><td class='old'>image.png</td><td>Адаптер microSD: обведён переключатель защиты от записи Lock, перед форматированием он должен быть разблокирован</td><td class='num'>112</td></tr><tr><td><code>/images/image-82.png</code></td><td class='old'>image.png</td><td>Контекстное меню кнопки «Пуск» в Windows 11, выделен пункт «Управление дисками»</td><td class='num'>79</td></tr><tr><td><code>/images/image-83.png</code></td><td class='old'>image.png</td><td>«Управление дисками»: SD-карта отображается как Диск 1, «Съемное устройство», 7,50 ГБ, с разделами</td><td class='num'>98</td></tr><tr><td><code>/images/image-95.png</code></td><td class='old'>image.png</td><td>«Управление дисками»: правый клик по разделу SD-карты и пункт «Удалить том...»</td><td class='num'>78</td></tr><tr><td><code>/images/image-97.png</code></td><td class='old'>image.png</td><td>Предупреждение «Удалить простой том»: все данные на томе будут уничтожены, кнопка «Да»</td><td class='num'>86</td></tr><tr><td><code>/images/image-96.png</code></td><td class='old'>image.png</td><td>«Управление дисками»: всё место SD-карты (Диск 1, 7,50 ГБ) в статусе «Не распределена»</td><td class='num'>86</td></tr><tr><td><code>/images/image-98.png</code></td><td class='old'>image.png</td><td>Правый клик по нераспределённому месту SD-карты и пункт «Создать простой том...»</td><td class='num'>80</td></tr><tr><td><code>/images/image-100.png</code></td><td class='old'>image.png</td><td>Мастер создания простого тома, стартовое окно, кнопка «Далее»</td><td class='num'>61</td></tr><tr><td><code>/images/image-89.png</code></td><td class='old'>image.png</td><td>Мастер создания простого тома: максимальный размер тома, 7678 МБ</td><td class='num'>64</td></tr><tr><td><code>/images/image-90.png</code></td><td class='old'>image.png</td><td>Мастер создания простого тома: назначение буквы диска F</td><td class='num'>55</td></tr><tr><td><code>/images/image-101.png</code></td><td class='old'>image.png</td><td>Мастер создания простого тома, форматирование раздела: FAT32, размер кластера по умолчанию, быстрое форматирование</td><td class='num'>114</td></tr><tr><td><code>/images/image-92.png</code></td><td class='old'>image.png</td><td>Завершение мастера создания простого тома: Диск 1, 7678 МБ, буква F:, FAT32, быстрое форматирование, «Готово»</td><td class='num'>109</td></tr><tr><td><code>/images/image-93.png</code></td><td class='old'>image.png</td><td>Итог в «Управлении дисками»: SD-карта (F:) стала одним разделом 7,50 ГБ FAT32 со статусом «Исправен»</td><td class='num'>100</td></tr></tbody></table></div>
+<textarea hidden id="md21">![Адаптер microSD: обведён переключатель защиты от записи Lock, перед форматированием он должен быть разблокирован](/images/image-94.png)
+![Контекстное меню кнопки «Пуск» в Windows 11, выделен пункт «Управление дисками»](/images/image-82.png)
+![«Управление дисками»: SD-карта отображается как Диск 1, «Съемное устройство», 7,50 ГБ, с разделами](/images/image-83.png)
+![«Управление дисками»: правый клик по разделу SD-карты и пункт «Удалить том...»](/images/image-95.png)
+![Предупреждение «Удалить простой том»: все данные на томе будут уничтожены, кнопка «Да»](/images/image-97.png)
+![«Управление дисками»: всё место SD-карты (Диск 1, 7,50 ГБ) в статусе «Не распределена»](/images/image-96.png)
+![Правый клик по нераспределённому месту SD-карты и пункт «Создать простой том...»](/images/image-98.png)
+![Мастер создания простого тома, стартовое окно, кнопка «Далее»](/images/image-100.png)
+![Мастер создания простого тома: максимальный размер тома, 7678 МБ](/images/image-89.png)
+![Мастер создания простого тома: назначение буквы диска F](/images/image-90.png)
+![Мастер создания простого тома, форматирование раздела: FAT32, размер кластера по умолчанию, быстрое форматирование](/images/image-101.png)
+![Завершение мастера создания простого тома: Диск 1, 7678 МБ, буква F:, FAT32, быстрое форматирование, «Готово»](/images/image-92.png)
+![Итог в «Управлении дисками»: SD-карта (F:) стала одним разделом 7,50 ГБ FAT32 со статусом «Исправен»](/images/image-93.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/additional_instructions/whatsminer_error_codes.html whatsminer error codes: list and fixes">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/additional_instructions/whatsminer_error_codes.html" target="_blank" rel="noopener">/additional_instructions/whatsminer_error_codes.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Error codes for Whatsminer ASIC | Documentation</div><div class="now">Whatsminer Error Codes: List and Fixes | BiXBiT Docs <span class="num">52</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Whatsminer error codes 110 to 8410 with causes and fixes: fans, power supply, temperature sensors, EEPROM, hashboards, control board, pools and water flow. <span class="num">155</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm22">Скопировать</button></div>
+<pre id="fm22pre">---
+title: &quot;Whatsminer Error Codes: List and Fixes&quot;
+description: &quot;Whatsminer error codes 110 to 8410 with causes and fixes: fans, power supply, temperature sensors, EEPROM, hashboards, control board, pools and water flow.&quot;
+---</pre><textarea hidden id="fm22">---
+title: &quot;Whatsminer Error Codes: List and Fixes&quot;
+description: &quot;Whatsminer error codes 110 to 8410 with causes and fixes: fans, power supply, temperature sensors, EEPROM, hashboards, control board, pools and water flow.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/additional_instructions/whatsminer_error_codes.html коды ошибок whatsminer: список и решения">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/additional_instructions/whatsminer_error_codes.html" target="_blank" rel="noopener">/ru/additional_instructions/whatsminer_error_codes.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Коды ошибок Whatsminer ASIC | Документация</div><div class="now">Коды ошибок Whatsminer: список и решения | BiXBiT Docs <span class="num">54</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Коды ошибок Whatsminer от 110 до 8410 с причинами и способами устранения: вентиляторы, блок питания, датчики температуры, EEPROM, хэш-платы, КПУ и пулы. <span class="num">152</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm23">Скопировать</button></div>
+<pre id="fm23pre">---
+title: &quot;Коды ошибок Whatsminer: список и решения&quot;
+description: &quot;Коды ошибок Whatsminer от 110 до 8410 с причинами и способами устранения: вентиляторы, блок питания, датчики температуры, EEPROM, хэш-платы, КПУ и пулы.&quot;
+---</pre><textarea hidden id="fm23">---
+title: &quot;Коды ошибок Whatsminer: список и решения&quot;
+description: &quot;Коды ошибок Whatsminer от 110 до 8410 с причинами и способами устранения: вентиляторы, блок питания, датчики температуры, EEPROM, хэш-платы, КПУ и пулы.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article></section><section class='sec'><h2>Базовая настройка ASIC</h2><article class="page" data-loc="en" data-q="https://docs.bixbit.io/basic_asic_miner_configuration.html basic asic miner setup: ip address and pools">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/basic_asic_miner_configuration.html" target="_blank" rel="noopener">/basic_asic_miner_configuration.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Basic ASIC Miner Configuration | Documentation</div><div class="now">Basic ASIC Miner Setup: IP Address and Pools | BiXBiT Docs <span class="num">58</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Connect an Antminer or Whatsminer, find its IP with WhatsMinerTool or IP Reporter, then set pools and workers in BTC Tools, WhatsMinerTool or the web UI. <span class="num">153</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm24">Скопировать</button></div>
+<pre id="fm24pre">---
+title: &quot;Basic ASIC Miner Setup: IP Address and Pools&quot;
+description: &quot;Connect an Antminer or Whatsminer, find its IP with WhatsMinerTool or IP Reporter, then set pools and workers in BTC Tools, WhatsMinerTool or the web UI.&quot;
+---</pre><textarea hidden id="fm24">---
+title: &quot;Basic ASIC Miner Setup: IP Address and Pools&quot;
+description: &quot;Connect an Antminer or Whatsminer, find its IP with WhatsMinerTool or IP Reporter, then set pools and workers in BTC Tools, WhatsMinerTool or the web UI.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (17)</h4><button class="copy" data-t="md24">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-13.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool 9.2.1: IP Monitor button (1) opens the Detect and Bind IP window, Start button (2) begins IP detection</td><td class='num'>117</td></tr><tr><td><code>/images/image-14.png</code></td><td class='old'>image.png</td><td>Whatsminer control board panel: the IP Found button highlighted next to the ETH port and status LEDs</td><td class='num'>100</td></tr><tr><td><code>/images/image-15.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool Detect and Bind IP window: the Source IP column with the detected miner&#x27;s IP address highlighted</td><td class='num'>111</td></tr><tr><td><code>/images/image-16.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool Miner IP Management: Start IP 192.168.10.1, End IP 192.168.10.255, Add, range checked, OK (steps 1–6)</td><td class='num'>116</td></tr><tr><td><code>/images/image-17.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool main window: the Start button (1) that launches the network scan for Whatsminer devices</td><td class='num'>102</td></tr><tr><td><code>/images/image-18.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool in Monitoring mode: found Whatsminer miners with IP, Running status, model, hashrate and power columns</td><td class='num'>117</td></tr><tr><td><code>/images/image-19.png</code></td><td class='old'>image.png</td><td>Bitmain Firmware List page: Others (1) and IP-reporter (2) selected, Download button (3) for IP Reporter.zip</td><td class='num'>108</td></tr><tr><td><code>/images/image-20.png</code></td><td class='old'>image.png</td><td>Bitmain IP Reporter window with Shelf, Step and Position fields and the Start button <span class="flag">проверить</span></td><td class='num'>84</td></tr><tr><td><code>/images/image-21.png</code></td><td class='old'>image.png</td><td>Antminer S19 control board: IP Report button, Ethernet port, Reset button, red Fault and green Normal LEDs labeled <span class="flag">проверить</span></td><td class='num'>114</td></tr><tr><td><code>/images/ip-reporter-1.png</code></td><td class='old'>IP-Reporter.png</td><td>IP Reporter Confirmation dialog showing the Antminer IP address 192.168.66.80, MAC and position 1-1</td><td class='num'>99</td></tr><tr><td><code>/images/image-23.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool Pools form: pool, worker, suffix and password fields (2), miners selected (3), Start Update button (4) <span class="flag">проверить</span></td><td class='num'>117</td></tr><tr><td><code>/images/image-24.png</code></td><td class='old'>image.png</td><td>Whatsminer web UI: CGMiner Configuration menu (1), --custom-- pool option (2), worker and password (3), Save &amp; Apply (4) <span class="flag">проверить</span></td><td class='num'>120</td></tr><tr><td><code>/images/image-25.png</code></td><td class='old'>image.png</td><td>BTC Tools v1.3.4: IP Ranges list (1), pool settings and toolbar (2), scan results table with detected miners (3)</td><td class='num'>112</td></tr><tr><td><code>/images/image-26.png</code></td><td class='old'>image.png</td><td>BTC Tools IP Range Editor: range 192.168.1.1–192.168.1.255 with the comment Farm1 and the OK button</td><td class='num'>99</td></tr><tr><td><code>/images/image-28.png</code></td><td class='old'>image.png</td><td>BTC Tools after the scan: Pool 1–3, SubAccount and PWD fields with Worker Suffix options IP, No Change, Empty</td><td class='num'>109</td></tr><tr><td><code>/images/image-29.png</code></td><td class='old'>image.png</td><td>Antminer S21 Pro stock firmware Settings page: Pools with Mining Address, Miner Name and Password fields, Save button <span class="flag">проверить</span></td><td class='num'>117</td></tr><tr><td><code>/images/image-30.png</code></td><td class='old'>image.png</td><td>BiXBiT firmware for Antminer, Settings &gt; Setup: POOLS block with Mining Address, Mining User and Passwords for pools 1–3</td><td class='num'>120</td></tr></tbody></table></div>
+<textarea hidden id="md24">![WhatsMinerTool 9.2.1: IP Monitor button (1) opens the Detect and Bind IP window, Start button (2) begins IP detection](/images/image-13.png)
+![Whatsminer control board panel: the IP Found button highlighted next to the ETH port and status LEDs](/images/image-14.png)
+![WhatsMinerTool Detect and Bind IP window: the Source IP column with the detected miner&#x27;s IP address highlighted](/images/image-15.png)
+![WhatsMinerTool Miner IP Management: Start IP 192.168.10.1, End IP 192.168.10.255, Add, range checked, OK (steps 1–6)](/images/image-16.png)
+![WhatsMinerTool main window: the Start button (1) that launches the network scan for Whatsminer devices](/images/image-17.png)
+![WhatsMinerTool in Monitoring mode: found Whatsminer miners with IP, Running status, model, hashrate and power columns](/images/image-18.png)
+![Bitmain Firmware List page: Others (1) and IP-reporter (2) selected, Download button (3) for IP Reporter.zip](/images/image-19.png)
+![Bitmain IP Reporter window with Shelf, Step and Position fields and the Start button](/images/image-20.png)
+![Antminer S19 control board: IP Report button, Ethernet port, Reset button, red Fault and green Normal LEDs labeled](/images/image-21.png)
+![IP Reporter Confirmation dialog showing the Antminer IP address 192.168.66.80, MAC and position 1-1](/images/ip-reporter-1.png)
+![WhatsMinerTool Pools form: pool, worker, suffix and password fields (2), miners selected (3), Start Update button (4)](/images/image-23.png)
+![Whatsminer web UI: CGMiner Configuration menu (1), --custom-- pool option (2), worker and password (3), Save &amp; Apply (4)](/images/image-24.png)
+![BTC Tools v1.3.4: IP Ranges list (1), pool settings and toolbar (2), scan results table with detected miners (3)](/images/image-25.png)
+![BTC Tools IP Range Editor: range 192.168.1.1–192.168.1.255 with the comment Farm1 and the OK button](/images/image-26.png)
+![BTC Tools after the scan: Pool 1–3, SubAccount and PWD fields with Worker Suffix options IP, No Change, Empty](/images/image-28.png)
+![Antminer S21 Pro stock firmware Settings page: Pools with Mining Address, Miner Name and Password fields, Save button](/images/image-29.png)
+![BiXBiT firmware for Antminer, Settings &gt; Setup: POOLS block with Mining Address, Mining User and Passwords for pools 1–3](/images/image-30.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/basic_asic_miner_configuration.html базовая настройка asic: ip-адрес и пулы">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/basic_asic_miner_configuration.html" target="_blank" rel="noopener">/ru/basic_asic_miner_configuration.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Базовая настройка ASIC-майнера | Документация</div><div class="now">Базовая настройка ASIC: IP-адрес и пулы | BiXBiT Docs <span class="num">53</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Подключение Antminer и Whatsminer: поиск IP-адреса в WhatsMinerTool или IP Reporter, настройка пулов и воркеров в BTC Tools, WhatsMinerTool и веб-интерфейсе. <span class="num">157</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm25">Скопировать</button></div>
+<pre id="fm25pre">---
+title: &quot;Базовая настройка ASIC: IP-адрес и пулы&quot;
+description: &quot;Подключение Antminer и Whatsminer: поиск IP-адреса в WhatsMinerTool или IP Reporter, настройка пулов и воркеров в BTC Tools, WhatsMinerTool и веб-интерфейсе.&quot;
+---</pre><textarea hidden id="fm25">---
+title: &quot;Базовая настройка ASIC: IP-адрес и пулы&quot;
+description: &quot;Подключение Antminer и Whatsminer: поиск IP-адреса в WhatsMinerTool или IP Reporter, настройка пулов и воркеров в BTC Tools, WhatsMinerTool и веб-интерфейсе.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (17)</h4><button class="copy" data-t="md25">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-13.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool 9.2.1: кнопка IP Monitor (1) открывает окно Detect and Bind IP, кнопка Start (2) запускает поиск IP</td><td class='num'>114</td></tr><tr><td><code>/images/image-14.png</code></td><td class='old'>image.png</td><td>Панель платы управления Whatsminer: кнопка IP Found рядом с портом ETH и светодиодами статуса</td><td class='num'>93</td></tr><tr><td><code>/images/image-15.png</code></td><td class='old'>image.png</td><td>Окно Detect and Bind IP в WhatsMinerTool: выделена колонка Source IP с найденным IP-адресом майнера</td><td class='num'>99</td></tr><tr><td><code>/images/image-16.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool, Miner IP Management: Start IP 192.168.10.1, End IP 192.168.10.255, Add, отмеченный диапазон, OK (шаги 1–6)</td><td class='num'>122</td></tr><tr><td><code>/images/image-17.png</code></td><td class='old'>image.png</td><td>Главное окно WhatsMinerTool: кнопка Start (1), которая запускает сканирование сети</td><td class='num'>82</td></tr><tr><td><code>/images/image-18.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool в режиме Monitoring: найденные майнеры Whatsminer с IP, статусом Running, моделью, хешрейтом и мощностью</td><td class='num'>119</td></tr><tr><td><code>/images/image-19.png</code></td><td class='old'>image.png</td><td>Страница Firmware List Bitmain: выбраны Others (1) и IP-reporter (2), кнопка Download (3) для архива IP Reporter.zip</td><td class='num'>116</td></tr><tr><td><code>/images/image-20.png</code></td><td class='old'>image.png</td><td>Окно Bitmain IP Reporter: поля Shelf, Step и Position и кнопка Start <span class="flag">проверить</span></td><td class='num'>68</td></tr><tr><td><code>/images/image-21.png</code></td><td class='old'>image.png</td><td>Плата управления Antminer S19: подписаны кнопка IP Report, порт Ethernet, кнопка Reset, красный и зелёный светодиоды</td><td class='num'>116</td></tr><tr><td><code>/images/ip-reporter.png</code></td><td class='old'>IP-Reporter.png</td><td>Окно Confirmation в IP Reporter: IP-адрес Antminer 192.168.66.80, MAC-адрес и позиция 1-1</td><td class='num'>89</td></tr><tr><td><code>/images/image-23.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool, форма Pools: поля пула, воркера, суффикса и пароля (2), выбор майнеров (3), кнопка Start Update (4) <span class="flag">проверить</span></td><td class='num'>115</td></tr><tr><td><code>/images/image-24.png</code></td><td class='old'>image.png</td><td>Веб-интерфейс Whatsminer: меню CGMiner Configuration (1), пункт --custom-- (2), воркер и пароль (3), Save &amp; Apply (4) <span class="flag">проверить</span></td><td class='num'>117</td></tr><tr><td><code>/images/image-25.png</code></td><td class='old'>image.png</td><td>BTC Tools v1.3.4: список IP Ranges (1), настройки пулов и панель кнопок (2), таблица найденных майнеров (3)</td><td class='num'>107</td></tr><tr><td><code>/images/image-26.png</code></td><td class='old'>image.png</td><td>BTC Tools, окно IP Range Editor: диапазон 192.168.1.1–192.168.1.255, комментарий Farm1 и кнопка OK</td><td class='num'>98</td></tr><tr><td><code>/images/image-28.png</code></td><td class='old'>image.png</td><td>BTC Tools после сканирования: поля Pool 1–3, SubAccount и PWD и варианты Worker Suffix: IP, No Change, Empty</td><td class='num'>108</td></tr><tr><td><code>/images/image-29.png</code></td><td class='old'>image.png</td><td>Заводская прошивка Antminer S21 Pro, страница Settings: пулы с полями Mining Address, Miner Name, Password и кнопка Save <span class="flag">проверить</span></td><td class='num'>120</td></tr><tr><td><code>/images/image-30.png</code></td><td class='old'>image.png</td><td>Прошивка BiXBiT для Antminer, Settings &gt; Setup: блок POOLS с полями Mining Address, Mining User и Passwords для пулов 1–3</td><td class='num'>121</td></tr></tbody></table></div>
+<textarea hidden id="md25">![WhatsMinerTool 9.2.1: кнопка IP Monitor (1) открывает окно Detect and Bind IP, кнопка Start (2) запускает поиск IP](/images/image-13.png)
+![Панель платы управления Whatsminer: кнопка IP Found рядом с портом ETH и светодиодами статуса](/images/image-14.png)
+![Окно Detect and Bind IP в WhatsMinerTool: выделена колонка Source IP с найденным IP-адресом майнера](/images/image-15.png)
+![WhatsMinerTool, Miner IP Management: Start IP 192.168.10.1, End IP 192.168.10.255, Add, отмеченный диапазон, OK (шаги 1–6)](/images/image-16.png)
+![Главное окно WhatsMinerTool: кнопка Start (1), которая запускает сканирование сети](/images/image-17.png)
+![WhatsMinerTool в режиме Monitoring: найденные майнеры Whatsminer с IP, статусом Running, моделью, хешрейтом и мощностью](/images/image-18.png)
+![Страница Firmware List Bitmain: выбраны Others (1) и IP-reporter (2), кнопка Download (3) для архива IP Reporter.zip](/images/image-19.png)
+![Окно Bitmain IP Reporter: поля Shelf, Step и Position и кнопка Start](/images/image-20.png)
+![Плата управления Antminer S19: подписаны кнопка IP Report, порт Ethernet, кнопка Reset, красный и зелёный светодиоды](/images/image-21.png)
+![Окно Confirmation в IP Reporter: IP-адрес Antminer 192.168.66.80, MAC-адрес и позиция 1-1](/images/ip-reporter.png)
+![WhatsMinerTool, форма Pools: поля пула, воркера, суффикса и пароля (2), выбор майнеров (3), кнопка Start Update (4)](/images/image-23.png)
+![Веб-интерфейс Whatsminer: меню CGMiner Configuration (1), пункт --custom-- (2), воркер и пароль (3), Save &amp; Apply (4)](/images/image-24.png)
+![BTC Tools v1.3.4: список IP Ranges (1), настройки пулов и панель кнопок (2), таблица найденных майнеров (3)](/images/image-25.png)
+![BTC Tools, окно IP Range Editor: диапазон 192.168.1.1–192.168.1.255, комментарий Farm1 и кнопка OK](/images/image-26.png)
+![BTC Tools после сканирования: поля Pool 1–3, SubAccount и PWD и варианты Worker Suffix: IP, No Change, Empty](/images/image-28.png)
+![Заводская прошивка Antminer S21 Pro, страница Settings: пулы с полями Mining Address, Miner Name, Password и кнопка Save](/images/image-29.png)
+![Прошивка BiXBiT для Antminer, Settings &gt; Setup: блок POOLS с полями Mining Address, Mining User и Passwords для пулов 1–3](/images/image-30.png)</textarea></div>
+</article></section><section class='sec'><h2>Функции прошивки: Antminer</h2><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/ bixbit firmware for antminer: features">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/antminer/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Antminer | Documentation</div><div class="now">BiXBiT Firmware for Antminer: Features | BiXBiT Docs <span class="num">52</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Guide to the BiXBiT firmware web interface for Antminer: top control panel, Dashboard, Settings with autotune, IP Settings, Miner Log and System sections. <span class="num">154</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm26">Скопировать</button></div>
+<pre id="fm26pre">---
+title: &quot;BiXBiT Firmware for Antminer: Features&quot;
+description: &quot;Guide to the BiXBiT firmware web interface for Antminer: top control panel, Dashboard, Settings with autotune, IP Settings, Miner Log and System sections.&quot;
+---</pre><textarea hidden id="fm26">---
+title: &quot;BiXBiT Firmware for Antminer: Features&quot;
+description: &quot;Guide to the BiXBiT firmware web interface for Antminer: top control panel, Dashboard, Settings with autotune, IP Settings, Miner Log and System sections.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/ прошивка bixbit для antminer: функции">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/antminer/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Antminer | Документация</div><div class="now">Прошивка BiXBiT для Antminer: функции | BiXBiT Docs <span class="num">51</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Руководство по веб-интерфейсу прошивки BiXBiT для Antminer: верхняя панель управления, Dashboard, Settings с автотюном, IP Settings, Miner Log и System. <span class="num">152</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm27">Скопировать</button></div>
+<pre id="fm27pre">---
+title: &quot;Прошивка BiXBiT для Antminer: функции&quot;
+description: &quot;Руководство по веб-интерфейсу прошивки BiXBiT для Antminer: верхняя панель управления, Dashboard, Settings с автотюном, IP Settings, Miner Log и System.&quot;
+---</pre><textarea hidden id="fm27">---
+title: &quot;Прошивка BiXBiT для Antminer: функции&quot;
+description: &quot;Руководство по веб-интерфейсу прошивки BiXBiT для Antminer: верхняя панель управления, Dashboard, Settings с автотюном, IP Settings, Miner Log и System.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_dashboard.html antminer firmware: dashboard section">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_dashboard.html" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/antminer/antminer_dashboard.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Dashboard Section | Documentation</div><div class="now">Antminer Firmware: Dashboard Section | BiXBiT Docs <span class="num">50</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Antminer Dashboard in BiXBiT firmware: uptime, real-time and average hashrate, board and chip temps, power, efficiency, fan speed, per-board stats and pools. <span class="num">157</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm28">Скопировать</button></div>
+<pre id="fm28pre">---
+title: &quot;Antminer Firmware: Dashboard Section&quot;
+description: &quot;Antminer Dashboard in BiXBiT firmware: uptime, real-time and average hashrate, board and chip temps, power, efficiency, fan speed, per-board stats and pools.&quot;
+---</pre><textarea hidden id="fm28">---
+title: &quot;Antminer Firmware: Dashboard Section&quot;
+description: &quot;Antminer Dashboard in BiXBiT firmware: uptime, real-time and average hashrate, board and chip temps, power, efficiency, fan speed, per-board stats and pools.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (1)</h4><button class="copy" data-t="md28">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-34.png</code></td><td class='old'>image.png</td><td>BiXBiT firmware Dashboard on Antminer S19: uptime, hashrate, temps, power, efficiency, fans, profile chart, boards, pools</td><td class='num'>121</td></tr></tbody></table></div>
+<textarea hidden id="md28">![BiXBiT firmware Dashboard on Antminer S19: uptime, hashrate, temps, power, efficiency, fans, profile chart, boards, pools](/images/image-34.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_dashboard.html прошивка antminer: раздел dashboard">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_dashboard.html" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/antminer/antminer_dashboard.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Раздел Dashboard | Документация</div><div class="now">Прошивка Antminer: раздел Dashboard | BiXBiT Docs <span class="num">49</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Раздел Dashboard прошивки BiXBiT для Antminer: аптайм, текущий и средний хешрейт, температуры плат и чипов, потребление, эффективность, вентиляторы и пулы. <span class="num">155</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm29">Скопировать</button></div>
+<pre id="fm29pre">---
+title: &quot;Прошивка Antminer: раздел Dashboard&quot;
+description: &quot;Раздел Dashboard прошивки BiXBiT для Antminer: аптайм, текущий и средний хешрейт, температуры плат и чипов, потребление, эффективность, вентиляторы и пулы.&quot;
+---</pre><textarea hidden id="fm29">---
+title: &quot;Прошивка Antminer: раздел Dashboard&quot;
+description: &quot;Раздел Dashboard прошивки BiXBiT для Antminer: аптайм, текущий и средний хешрейт, температуры плат и чипов, потребление, эффективность, вентиляторы и пулы.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (1)</h4><button class="copy" data-t="md29">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-34.png</code></td><td class='old'>image.png</td><td>Dashboard прошивки BiXBiT на Antminer S19: аптайм, хешрейт, температуры, потребление, эффективность, вентиляторы, платы, пулы</td><td class='num'>125</td></tr></tbody></table></div>
+<textarea hidden id="md29">![Dashboard прошивки BiXBiT на Antminer S19: аптайм, хешрейт, температуры, потребление, эффективность, вентиляторы, платы, пулы](/images/image-34.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_header.html antminer firmware: top control panel">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_header.html" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/antminer/antminer_header.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Device Top Control Panel | Documentation</div><div class="now">Antminer Firmware: Top Control Panel | BiXBiT Docs <span class="num">50</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Top panel of BiXBiT firmware for Antminer: device status, model, control board and PSU, Locate Miner, Stock FW rollback, factory reset, reboot and sleep. <span class="num">153</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm30">Скопировать</button></div>
+<pre id="fm30pre">---
+title: &quot;Antminer Firmware: Top Control Panel&quot;
+description: &quot;Top panel of BiXBiT firmware for Antminer: device status, model, control board and PSU, Locate Miner, Stock FW rollback, factory reset, reboot and sleep.&quot;
+---</pre><textarea hidden id="fm30">---
+title: &quot;Antminer Firmware: Top Control Panel&quot;
+description: &quot;Top panel of BiXBiT firmware for Antminer: device status, model, control board and PSU, Locate Miner, Stock FW rollback, factory reset, reboot and sleep.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (1)</h4><button class="copy" data-t="md30">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-33.png</code></td><td class='old'>image.png</td><td>BiXBiT firmware top panel on Antminer S19: status, model, control board, PSU, Locate miner, Stock FW, action icons, language</td><td class='num'>124</td></tr></tbody></table></div>
+<textarea hidden id="md30">![BiXBiT firmware top panel on Antminer S19: status, model, control board, PSU, Locate miner, Stock FW, action icons, language](/images/image-33.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_header.html прошивка antminer: верхняя панель управления">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_header.html" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/antminer/antminer_header.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Верхняя панель управления устройством | Документация</div><div class="now">Прошивка Antminer: верхняя панель управления | BiXBiT Docs <span class="num">58</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Верхняя панель прошивки BiXBiT для Antminer: статус и модель устройства, плата управления и БП, поиск майнера, откат на Stock FW, сброс, перезагрузка и сон. <span class="num">156</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm31">Скопировать</button></div>
+<pre id="fm31pre">---
+title: &quot;Прошивка Antminer: верхняя панель управления&quot;
+description: &quot;Верхняя панель прошивки BiXBiT для Antminer: статус и модель устройства, плата управления и БП, поиск майнера, откат на Stock FW, сброс, перезагрузка и сон.&quot;
+---</pre><textarea hidden id="fm31">---
+title: &quot;Прошивка Antminer: верхняя панель управления&quot;
+description: &quot;Верхняя панель прошивки BiXBiT для Antminer: статус и модель устройства, плата управления и БП, поиск майнера, откат на Stock FW, сброс, перезагрузка и сон.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (1)</h4><button class="copy" data-t="md31">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-33.png</code></td><td class='old'>image.png</td><td>Верхняя панель прошивки BiXBiT на Antminer S19: статус, модель, плата, БП, Locate miner, Stock FW, кнопки действий, язык</td><td class='num'>120</td></tr></tbody></table></div>
+<textarea hidden id="md31">![Верхняя панель прошивки BiXBiT на Antminer S19: статус, модель, плата, БП, Locate miner, Stock FW, кнопки действий, язык](/images/image-33.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_ip_settings.html antminer firmware: ip settings (dhcp/static)">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_ip_settings.html" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/antminer/antminer_ip_settings.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">IP Settings Section | Documentation</div><div class="now">Antminer Firmware: IP Settings (DHCP/Static) | BiXBiT Docs <span class="num">58</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Set DHCP or a static IP on Antminer with BiXBiT firmware: hostname, protocol, IP address, subnet mask, gateway and DNS servers in the IP Settings section. <span class="num">154</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm32">Скопировать</button></div>
+<pre id="fm32pre">---
+title: &quot;Antminer Firmware: IP Settings (DHCP/Static)&quot;
+description: &quot;Set DHCP or a static IP on Antminer with BiXBiT firmware: hostname, protocol, IP address, subnet mask, gateway and DNS servers in the IP Settings section.&quot;
+---</pre><textarea hidden id="fm32">---
+title: &quot;Antminer Firmware: IP Settings (DHCP/Static)&quot;
+description: &quot;Set DHCP or a static IP on Antminer with BiXBiT firmware: hostname, protocol, IP address, subnet mask, gateway and DNS servers in the IP Settings section.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (1)</h4><button class="copy" data-t="md32">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/ip-settings.png</code></td><td class='old'>IP Settings.png</td><td>BiXBiT firmware IP Settings on Antminer: network info, hostname, DHCP/Static protocol, IP, subnet mask, gateway, DNS</td><td class='num'>116</td></tr></tbody></table></div>
+<textarea hidden id="md32">![BiXBiT firmware IP Settings on Antminer: network info, hostname, DHCP/Static protocol, IP, subnet mask, gateway, DNS](/images/ip-settings.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_ip_settings.html прошивка antminer: раздел ip settings">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_ip_settings.html" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/antminer/antminer_ip_settings.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Раздел IP Settings | Документация</div><div class="now">Прошивка Antminer: раздел IP Settings | BiXBiT Docs <span class="num">51</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как настроить DHCP или статический IP на Antminer с прошивкой BiXBiT: имя хоста, протокол, IP-адрес, маска подсети, шлюз и DNS-серверы в разделе IP Settings. <span class="num">157</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm33">Скопировать</button></div>
+<pre id="fm33pre">---
+title: &quot;Прошивка Antminer: раздел IP Settings&quot;
+description: &quot;Как настроить DHCP или статический IP на Antminer с прошивкой BiXBiT: имя хоста, протокол, IP-адрес, маска подсети, шлюз и DNS-серверы в разделе IP Settings.&quot;
+---</pre><textarea hidden id="fm33">---
+title: &quot;Прошивка Antminer: раздел IP Settings&quot;
+description: &quot;Как настроить DHCP или статический IP на Antminer с прошивкой BiXBiT: имя хоста, протокол, IP-адрес, маска подсети, шлюз и DNS-серверы в разделе IP Settings.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (1)</h4><button class="copy" data-t="md33">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/ip-settings.png</code></td><td class='old'>IP Settings.png</td><td>IP Settings прошивки BiXBiT на Antminer: сетевая информация, hostname, протокол DHCP/Static, IP, маска, шлюз, DNS</td><td class='num'>113</td></tr></tbody></table></div>
+<textarea hidden id="md33">![IP Settings прошивки BiXBiT на Antminer: сетевая информация, hostname, протокол DHCP/Static, IP, маска, шлюз, DNS](/images/ip-settings.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_logs.html antminer firmware: miner log section">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_logs.html" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/antminer/antminer_logs.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Miner Log Section | Documentation</div><div class="now">Antminer Firmware: Miner Log Section | BiXBiT Docs <span class="num">50</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Miner Log section of BiXBiT firmware for Antminer: view device logs since the last boot on the Current tab, or download full logs for selected dates. <span class="num">149</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm34">Скопировать</button></div>
+<pre id="fm34pre">---
+title: &quot;Antminer Firmware: Miner Log Section&quot;
+description: &quot;Miner Log section of BiXBiT firmware for Antminer: view device logs since the last boot on the Current tab, or download full logs for selected dates.&quot;
+---</pre><textarea hidden id="fm34">---
+title: &quot;Antminer Firmware: Miner Log Section&quot;
+description: &quot;Miner Log section of BiXBiT firmware for Antminer: view device logs since the last boot on the Current tab, or download full logs for selected dates.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_logs.html прошивка antminer: раздел miner log">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_logs.html" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/antminer/antminer_logs.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Раздел Miner Log | Документация</div><div class="now">Прошивка Antminer: раздел Miner Log | BiXBiT Docs <span class="num">49</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Раздел Miner Log прошивки BiXBiT для Antminer: просмотр логов устройства с момента загрузки на вкладке Current и скачивание полных логов за нужные даты. <span class="num">152</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm35">Скопировать</button></div>
+<pre id="fm35pre">---
+title: &quot;Прошивка Antminer: раздел Miner Log&quot;
+description: &quot;Раздел Miner Log прошивки BiXBiT для Antminer: просмотр логов устройства с момента загрузки на вкладке Current и скачивание полных логов за нужные даты.&quot;
+---</pre><textarea hidden id="fm35">---
+title: &quot;Прошивка Antminer: раздел Miner Log&quot;
+description: &quot;Раздел Miner Log прошивки BiXBiT для Antminer: просмотр логов устройства с момента загрузки на вкладке Current и скачивание полных логов за нужные даты.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_settings.html antminer firmware settings: autotune &amp; pools">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_settings.html" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/antminer/antminer_settings.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Settings Section | Documentation</div><div class="now">Antminer Firmware Settings: Autotune &amp; Pools | BiXBiT Docs <span class="num">58</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Antminer Settings in BiXBiT firmware: operating mode, fan and temperature limits, pools, autotune, Profile Switcher, proxy and Hotel Fee tabs explained. <span class="num">152</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm36">Скопировать</button></div>
+<pre id="fm36pre">---
+title: &quot;Antminer Firmware Settings: Autotune &amp; Pools&quot;
+description: &quot;Antminer Settings in BiXBiT firmware: operating mode, fan and temperature limits, pools, autotune, Profile Switcher, proxy and Hotel Fee tabs explained.&quot;
+---</pre><textarea hidden id="fm36">---
+title: &quot;Antminer Firmware Settings: Autotune &amp; Pools&quot;
+description: &quot;Antminer Settings in BiXBiT firmware: operating mode, fan and temperature limits, pools, autotune, Profile Switcher, proxy and Hotel Fee tabs explained.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (6)</h4><button class="copy" data-t="md36">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-35.png</code></td><td class='old'>image.png</td><td>Antminer Settings, Setup tab in BiXBiT firmware: 18 options from Mode and Liquid cooling to fan, temp limits and bad chips</td><td class='num'>122</td></tr><tr><td><code>/images/image-36.png</code></td><td class='old'>image.png</td><td>POOLS block on the Antminer Setup tab: Mining Address, Mining User and Passwords fields for Pool 1, 2 and 3</td><td class='num'>107</td></tr><tr><td><code>/images/setting-autotune-marked.png</code></td><td class='old'>Setting - Autotune marked.png</td><td>BiXBiT Antminer Autotune tab: profile, repeat period, advanced options, Freq MHz, voltages, regenerate and delete buttons</td><td class='num'>121</td></tr><tr><td><code>/images/setting-profile-switcher-marked.png</code></td><td class='old'>Setting - Profile Switcher marked.png</td><td>Antminer Profile Switcher tab: enable switcher, maximum profile, chip temps to lower and raise profile (°C), Ignore PWM</td><td class='num'>119</td></tr><tr><td><code>/images/setting-proxy-marked.png</code></td><td class='old'>Setting - Proxy marked.png</td><td>Antminer Proxy tab in BiXBiT firmware: proxy type SOCKS5, host with port, user and password fields</td><td class='num'>98</td></tr><tr><td><code>/images/setting-hotelfee-marked.png</code></td><td class='old'>Setting - HotelFee marked.png</td><td>Antminer Hotel Fee tab in BiXBiT firmware: Enabled, pool address, pool user, password and Percent set to 25</td><td class='num'>107</td></tr></tbody></table></div>
+<textarea hidden id="md36">![Antminer Settings, Setup tab in BiXBiT firmware: 18 options from Mode and Liquid cooling to fan, temp limits and bad chips](/images/image-35.png)
+![POOLS block on the Antminer Setup tab: Mining Address, Mining User and Passwords fields for Pool 1, 2 and 3](/images/image-36.png)
+![BiXBiT Antminer Autotune tab: profile, repeat period, advanced options, Freq MHz, voltages, regenerate and delete buttons](/images/setting-autotune-marked.png)
+![Antminer Profile Switcher tab: enable switcher, maximum profile, chip temps to lower and raise profile (°C), Ignore PWM](/images/setting-profile-switcher-marked.png)
+![Antminer Proxy tab in BiXBiT firmware: proxy type SOCKS5, host with port, user and password fields](/images/setting-proxy-marked.png)
+![Antminer Hotel Fee tab in BiXBiT firmware: Enabled, pool address, pool user, password and Percent set to 25](/images/setting-hotelfee-marked.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_settings.html прошивка antminer: раздел settings и автотюн">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_settings.html" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/antminer/antminer_settings.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Раздел Settings | Документация</div><div class="now">Прошивка Antminer: раздел Settings и автотюн | BiXBiT Docs <span class="num">58</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Раздел Settings прошивки BiXBiT для Antminer: режим работы, вентиляторы и температурные лимиты, пулы, автотюн, Profile Switcher, прокси и Hotel Fee. <span class="num">148</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm37">Скопировать</button></div>
+<pre id="fm37pre">---
+title: &quot;Прошивка Antminer: раздел Settings и автотюн&quot;
+description: &quot;Раздел Settings прошивки BiXBiT для Antminer: режим работы, вентиляторы и температурные лимиты, пулы, автотюн, Profile Switcher, прокси и Hotel Fee.&quot;
+---</pre><textarea hidden id="fm37">---
+title: &quot;Прошивка Antminer: раздел Settings и автотюн&quot;
+description: &quot;Раздел Settings прошивки BiXBiT для Antminer: режим работы, вентиляторы и температурные лимиты, пулы, автотюн, Profile Switcher, прокси и Hotel Fee.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (6)</h4><button class="copy" data-t="md37">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-35.png</code></td><td class='old'>image.png</td><td>Вкладка Setup в Settings прошивки BiXBiT для Antminer: 18 опций от Mode и Liquid cooling до вентиляторов, лимитов и чипов</td><td class='num'>121</td></tr><tr><td><code>/images/image-36.png</code></td><td class='old'>image.png</td><td>Блок POOLS на вкладке Setup для Antminer: поля Mining Address, Mining User и Passwords для Pool 1, 2 и 3</td><td class='num'>104</td></tr><tr><td><code>/images/setting-autotune-marked.png</code></td><td class='old'>Setting - Autotune marked.png</td><td>Вкладка Autotune прошивки BiXBiT для Antminer: профиль, период, расширенные опции, частота, напряжения, кнопки профилей</td><td class='num'>119</td></tr><tr><td><code>/images/setting-profile-switcher-marked.png</code></td><td class='old'>Setting - Profile Switcher marked.png</td><td>Вкладка Profile Switcher для Antminer: включение, максимальный профиль, температуры понижения и повышения профиля, Ignore PWM</td><td class='num'>125</td></tr><tr><td><code>/images/setting-proxy-marked.png</code></td><td class='old'>Setting - Proxy marked.png</td><td>Вкладка Proxy прошивки BiXBiT для Antminer: тип прокси SOCKS5, хост с портом, пользователь и пароль</td><td class='num'>99</td></tr><tr><td><code>/images/setting-hotelfee-marked.png</code></td><td class='old'>Setting - HotelFee marked.png</td><td>Вкладка Hotel Fee прошивки BiXBiT для Antminer: Enabled, адрес пула, воркер, пароль и Percent = 25</td><td class='num'>98</td></tr></tbody></table></div>
+<textarea hidden id="md37">![Вкладка Setup в Settings прошивки BiXBiT для Antminer: 18 опций от Mode и Liquid cooling до вентиляторов, лимитов и чипов](/images/image-35.png)
+![Блок POOLS на вкладке Setup для Antminer: поля Mining Address, Mining User и Passwords для Pool 1, 2 и 3](/images/image-36.png)
+![Вкладка Autotune прошивки BiXBiT для Antminer: профиль, период, расширенные опции, частота, напряжения, кнопки профилей](/images/setting-autotune-marked.png)
+![Вкладка Profile Switcher для Antminer: включение, максимальный профиль, температуры понижения и повышения профиля, Ignore PWM](/images/setting-profile-switcher-marked.png)
+![Вкладка Proxy прошивки BiXBiT для Antminer: тип прокси SOCKS5, хост с портом, пользователь и пароль](/images/setting-proxy-marked.png)
+![Вкладка Hotel Fee прошивки BiXBiT для Antminer: Enabled, адрес пула, воркер, пароль и Percent = 25](/images/setting-hotelfee-marked.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_system.html antminer firmware: system section">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_system.html" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/antminer/antminer_system.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">System Section | Documentation</div><div class="now">Antminer Firmware: System Section | BiXBiT Docs <span class="num">47</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">System section of BiXBiT firmware for Antminer: change the web interface password or install stock firmware from a BMU file, with an option to clear logs. <span class="num">154</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm38">Скопировать</button></div>
+<pre id="fm38pre">---
+title: &quot;Antminer Firmware: System Section&quot;
+description: &quot;System section of BiXBiT firmware for Antminer: change the web interface password or install stock firmware from a BMU file, with an option to clear logs.&quot;
+---</pre><textarea hidden id="fm38">---
+title: &quot;Antminer Firmware: System Section&quot;
+description: &quot;System section of BiXBiT firmware for Antminer: change the web interface password or install stock firmware from a BMU file, with an option to clear logs.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_system.html прошивка antminer: раздел system">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_system.html" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/antminer/antminer_system.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Раздел System | Документация</div><div class="now">Прошивка Antminer: раздел System | BiXBiT Docs <span class="num">46</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Раздел System прошивки BiXBiT для Antminer: смена пароля веб-интерфейса и установка заводской прошивки из bmu-файла с очисткой логов (чекбокс Clear logs). <span class="num">154</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm39">Скопировать</button></div>
+<pre id="fm39pre">---
+title: &quot;Прошивка Antminer: раздел System&quot;
+description: &quot;Раздел System прошивки BiXBiT для Antminer: смена пароля веб-интерфейса и установка заводской прошивки из bmu-файла с очисткой логов (чекбокс Clear logs).&quot;
+---</pre><textarea hidden id="fm39">---
+title: &quot;Прошивка Antminer: раздел System&quot;
+description: &quot;Раздел System прошивки BiXBiT для Antminer: смена пароля веб-интерфейса и установка заводской прошивки из bmu-файла с очисткой логов (чекбокс Clear logs).&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article></section><section class='sec'><h2>Функции прошивки: Whatsminer</h2><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/ bixbit firmware for whatsminer: features">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/whatsminer/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Whatsminer | Documentation</div><div class="now">BiXBiT Firmware for Whatsminer: Features | BiXBiT Docs <span class="num">54</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Guide to the BiXBiT firmware web interface for Whatsminer: Status with logs and hardware overview, Configuration with pools and overclocking, and System. <span class="num">153</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm40">Скопировать</button></div>
+<pre id="fm40pre">---
+title: &quot;BiXBiT Firmware for Whatsminer: Features&quot;
+description: &quot;Guide to the BiXBiT firmware web interface for Whatsminer: Status with logs and hardware overview, Configuration with pools and overclocking, and System.&quot;
+---</pre><textarea hidden id="fm40">---
+title: &quot;BiXBiT Firmware for Whatsminer: Features&quot;
+description: &quot;Guide to the BiXBiT firmware web interface for Whatsminer: Status with logs and hardware overview, Configuration with pools and overclocking, and System.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/ прошивка bixbit для whatsminer: функции">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/whatsminer/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Whatsminer | Документация</div><div class="now">Прошивка BiXBiT для Whatsminer: функции | BiXBiT Docs <span class="num">53</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Руководство по веб-интерфейсу прошивки BiXBiT для Whatsminer: Status с логами и обзором системы, Configuration с пулами и разгоном, а также раздел System. <span class="num">154</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm41">Скопировать</button></div>
+<pre id="fm41pre">---
+title: &quot;Прошивка BiXBiT для Whatsminer: функции&quot;
+description: &quot;Руководство по веб-интерфейсу прошивки BiXBiT для Whatsminer: Status с логами и обзором системы, Configuration с пулами и разгоном, а также раздел System.&quot;
+---</pre><textarea hidden id="fm41">---
+title: &quot;Прошивка BiXBiT для Whatsminer: функции&quot;
+description: &quot;Руководство по веб-интерфейсу прошивки BiXBiT для Whatsminer: Status с логами и обзором системы, Configuration с пулами и разгоном, а также раздел System.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_configuration.html whatsminer firmware: configuration section">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_configuration.html" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_configuration.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Configuration Section | Documentation</div><div class="now">Whatsminer Firmware: Configuration Section | BiXBiT Docs <span class="num">56</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Whatsminer Configuration in BiXBiT firmware: network, pools, overclock profiles, Profile Switcher, Hotel Fee, PSU control, boards, temp limits and proxy. <span class="num">153</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm42">Скопировать</button></div>
+<pre id="fm42pre">---
+title: &quot;Whatsminer Firmware: Configuration Section&quot;
+description: &quot;Whatsminer Configuration in BiXBiT firmware: network, pools, overclock profiles, Profile Switcher, Hotel Fee, PSU control, boards, temp limits and proxy.&quot;
+---</pre><textarea hidden id="fm42">---
+title: &quot;Whatsminer Firmware: Configuration Section&quot;
+description: &quot;Whatsminer Configuration in BiXBiT firmware: network, pools, overclock profiles, Profile Switcher, Hotel Fee, PSU control, boards, temp limits and proxy.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (12)</h4><button class="copy" data-t="md42">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/fda74569-4e91-440d-b193-8303e932648a.png</code></td><td class='old'>{FDA74569-4E91-440D-B193-8303E932648A}.png</td><td>Whatsminer Interfaces overview: LAN (eth0) status with uptime, MAC address, RX/TX traffic, IPv4 and the Edit button</td><td class='num'>115</td></tr><tr><td><code>/images/7612826c-c6c6-429b-9a32-0b25f224eeba.png</code></td><td class='old'>{7612826C-C6C6-429B-9A32-0B25F224EEBA}.png</td><td>Whatsminer Interfaces - LAN: Static address protocol with IPv4 address, netmask, gateway, broadcast and custom DNS</td><td class='num'>114</td></tr><tr><td><code>/images/image-57.png</code></td><td class='old'>image.png</td><td>Whatsminer Pool tab in BiXBiT firmware: Coin Type BTC, Pool 1–3 addresses, workers and passwords, Save &amp; Apply</td><td class='num'>110</td></tr><tr><td><code>/images/image-58.png</code></td><td class='old'>image.png</td><td>Whatsminer Overclock tab: Liquid Cooling, Additional PSU, fan speed and mode, current profile, Advanced Options</td><td class='num'>111</td></tr><tr><td><code>/images/image-59.png</code></td><td class='old'>image.png</td><td>WhatsMinerTool ChipTemp column: 116.0_72.1_93.8 is the maximum, minimum and average chip temperature</td><td class='num'>100</td></tr><tr><td><code>/images/image-61.png</code></td><td class='old'>image.png</td><td>Whatsminer Profile Switcher tab: enable, maximum profile, max chip temp thresholds to lower/raise profile, Ignore PWM</td><td class='num'>117</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-12-v-124016.png</code></td><td class='old'>Скриншот сделанный 2026-08-12 в 12.40.16.png</td><td>Whatsminer Hotel Fee tab: Enabled, pool URL with stratum+tcp and port, user, password and Fee set to 45</td><td class='num'>103</td></tr><tr><td><code>/images/image-62.png</code></td><td class='old'>image.png</td><td>Whatsminer PSU Control tab: PSU firmware info, Upgrade PSU Firmware and Enable/Disable Power Fan buttons for immersion</td><td class='num'>118</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-12-v-130037.png</code></td><td class='old'>Скриншот сделанный 2026-08-12 в 13.00.37.png</td><td>Whatsminer Boards tab: slots 0–2 enabled, Auto Disable Slots on Errors, recovery reboot settings, Limit Boards Power</td><td class='num'>116</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-12-v-132845.png</code></td><td class='old'>Скриншот сделанный 2026-08-12 в 13.28.45.png</td><td>Whatsminer Env Temp Limits tab: Mining Resume Env Temp 35 and Mining Suspend Env Temp 45 with default, min, max</td><td class='num'>111</td></tr><tr><td><code>/images/image-65.png</code></td><td class='old'>image.png</td><td>Whatsminer Cool Temp tab: Cool Temp Mode dropdown with Default, Env Temp and Manual options</td><td class='num'>91</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-12-v-133852.png</code></td><td class='old'>Скриншот сделанный 2026-08-12 в 13.38.52.png</td><td>Whatsminer Proxy tab in BiXBiT firmware: type SOCKS5, host with port, user and password fields</td><td class='num'>94</td></tr></tbody></table></div>
+<textarea hidden id="md42">![Whatsminer Interfaces overview: LAN (eth0) status with uptime, MAC address, RX/TX traffic, IPv4 and the Edit button](/images/fda74569-4e91-440d-b193-8303e932648a.png)
+![Whatsminer Interfaces - LAN: Static address protocol with IPv4 address, netmask, gateway, broadcast and custom DNS](/images/7612826c-c6c6-429b-9a32-0b25f224eeba.png)
+![Whatsminer Pool tab in BiXBiT firmware: Coin Type BTC, Pool 1–3 addresses, workers and passwords, Save &amp; Apply](/images/image-57.png)
+![Whatsminer Overclock tab: Liquid Cooling, Additional PSU, fan speed and mode, current profile, Advanced Options](/images/image-58.png)
+![WhatsMinerTool ChipTemp column: 116.0_72.1_93.8 is the maximum, minimum and average chip temperature](/images/image-59.png)
+![Whatsminer Profile Switcher tab: enable, maximum profile, max chip temp thresholds to lower/raise profile, Ignore PWM](/images/image-61.png)
+![Whatsminer Hotel Fee tab: Enabled, pool URL with stratum+tcp and port, user, password and Fee set to 45](/images/skrinshot-sdelannyj-2026-08-12-v-124016.png)
+![Whatsminer PSU Control tab: PSU firmware info, Upgrade PSU Firmware and Enable/Disable Power Fan buttons for immersion](/images/image-62.png)
+![Whatsminer Boards tab: slots 0–2 enabled, Auto Disable Slots on Errors, recovery reboot settings, Limit Boards Power](/images/skrinshot-sdelannyj-2026-08-12-v-130037.png)
+![Whatsminer Env Temp Limits tab: Mining Resume Env Temp 35 and Mining Suspend Env Temp 45 with default, min, max](/images/skrinshot-sdelannyj-2026-08-12-v-132845.png)
+![Whatsminer Cool Temp tab: Cool Temp Mode dropdown with Default, Env Temp and Manual options](/images/image-65.png)
+![Whatsminer Proxy tab in BiXBiT firmware: type SOCKS5, host with port, user and password fields](/images/skrinshot-sdelannyj-2026-08-12-v-133852.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_configuration.html прошивка whatsminer: раздел configuration">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_configuration.html" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_configuration.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Раздел Configuration | Документация</div><div class="now">Прошивка Whatsminer: раздел Configuration | BiXBiT Docs <span class="num">55</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Раздел Configuration прошивки BiXBiT для Whatsminer: сеть, пулы, профили разгона, Profile Switcher, Hotel Fee, управление БП, платы, температуры и прокси. <span class="num">154</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm43">Скопировать</button></div>
+<pre id="fm43pre">---
+title: &quot;Прошивка Whatsminer: раздел Configuration&quot;
+description: &quot;Раздел Configuration прошивки BiXBiT для Whatsminer: сеть, пулы, профили разгона, Profile Switcher, Hotel Fee, управление БП, платы, температуры и прокси.&quot;
+---</pre><textarea hidden id="fm43">---
+title: &quot;Прошивка Whatsminer: раздел Configuration&quot;
+description: &quot;Раздел Configuration прошивки BiXBiT для Whatsminer: сеть, пулы, профили разгона, Profile Switcher, Hotel Fee, управление БП, платы, температуры и прокси.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (12)</h4><button class="copy" data-t="md43">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/fda74569-4e91-440d-b193-8303e932648a.png</code></td><td class='old'>{FDA74569-4E91-440D-B193-8303E932648A}.png</td><td>Whatsminer, Interfaces: статус LAN (eth0) — аптайм, MAC-адрес, трафик RX/TX, IPv4 и кнопка Edit</td><td class='num'>95</td></tr><tr><td><code>/images/7612826c-c6c6-429b-9a32-0b25f224eeba.png</code></td><td class='old'>{7612826C-C6C6-429B-9A32-0B25F224EEBA}.png</td><td>Whatsminer, Interfaces - LAN: протокол Static address, IPv4-адрес, маска, шлюз, broadcast и собственный DNS</td><td class='num'>107</td></tr><tr><td><code>/images/image-57.png</code></td><td class='old'>image.png</td><td>Вкладка Pool прошивки BiXBiT для Whatsminer: Coin Type BTC, адреса Pool 1–3, воркеры и пароли, Save &amp; Apply</td><td class='num'>107</td></tr><tr><td><code>/images/image-58.png</code></td><td class='old'>image.png</td><td>Вкладка Overclock для Whatsminer: Liquid Cooling, Additional PSU, скорость вентиляторов, Fan Mode, профиль, Advanced Options</td><td class='num'>124</td></tr><tr><td><code>/images/image-59.png</code></td><td class='old'>image.png</td><td>Колонка ChipTemp в WhatsMinerTool: 116.0_72.1_93.8 — максимальная, минимальная и средняя температура чипов</td><td class='num'>106</td></tr><tr><td><code>/images/image-61.png</code></td><td class='old'>image.png</td><td>Вкладка Profile Switcher для Whatsminer: включение, максимальный профиль, пороги температуры чипов, Ignore PWM</td><td class='num'>110</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-12-v-124016.png</code></td><td class='old'>Скриншот сделанный 2026-08-12 в 12.40.16.png</td><td>Вкладка Hotel Fee для Whatsminer: Enabled, URL пула со stratum+tcp и портом, воркер, пароль и Fee = 45</td><td class='num'>102</td></tr><tr><td><code>/images/image-62.png</code></td><td class='old'>image.png</td><td>Вкладка PSU Control для Whatsminer: данные прошивки БП, Upgrade PSU Firmware и кнопки Enable/Disable Power Fan</td><td class='num'>110</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-12-v-130037.png</code></td><td class='old'>Скриншот сделанный 2026-08-12 в 13.00.37.png</td><td>Вкладка Boards для Whatsminer: слоты 0–2, Auto Disable Slots on Errors, настройки recovery-перезагрузок, Limit Boards Power</td><td class='num'>123</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-12-v-132845.png</code></td><td class='old'>Скриншот сделанный 2026-08-12 в 13.28.45.png</td><td>Вкладка Env Temp Limits для Whatsminer: Mining Resume Env Temp 35 и Mining Suspend Env Temp 45 с допустимыми значениями</td><td class='num'>119</td></tr><tr><td><code>/images/image-65.png</code></td><td class='old'>image.png</td><td>Вкладка Cool Temp для Whatsminer: список Cool Temp Mode с режимами Default, Env Temp и Manual</td><td class='num'>93</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-12-v-133852.png</code></td><td class='old'>Скриншот сделанный 2026-08-12 в 13.38.52.png</td><td>Вкладка Proxy прошивки BiXBiT для Whatsminer: тип SOCKS5, хост с портом, пользователь и пароль</td><td class='num'>94</td></tr></tbody></table></div>
+<textarea hidden id="md43">![Whatsminer, Interfaces: статус LAN (eth0) — аптайм, MAC-адрес, трафик RX/TX, IPv4 и кнопка Edit](/images/fda74569-4e91-440d-b193-8303e932648a.png)
+![Whatsminer, Interfaces - LAN: протокол Static address, IPv4-адрес, маска, шлюз, broadcast и собственный DNS](/images/7612826c-c6c6-429b-9a32-0b25f224eeba.png)
+![Вкладка Pool прошивки BiXBiT для Whatsminer: Coin Type BTC, адреса Pool 1–3, воркеры и пароли, Save &amp; Apply](/images/image-57.png)
+![Вкладка Overclock для Whatsminer: Liquid Cooling, Additional PSU, скорость вентиляторов, Fan Mode, профиль, Advanced Options](/images/image-58.png)
+![Колонка ChipTemp в WhatsMinerTool: 116.0_72.1_93.8 — максимальная, минимальная и средняя температура чипов](/images/image-59.png)
+![Вкладка Profile Switcher для Whatsminer: включение, максимальный профиль, пороги температуры чипов, Ignore PWM](/images/image-61.png)
+![Вкладка Hotel Fee для Whatsminer: Enabled, URL пула со stratum+tcp и портом, воркер, пароль и Fee = 45](/images/skrinshot-sdelannyj-2026-08-12-v-124016.png)
+![Вкладка PSU Control для Whatsminer: данные прошивки БП, Upgrade PSU Firmware и кнопки Enable/Disable Power Fan](/images/image-62.png)
+![Вкладка Boards для Whatsminer: слоты 0–2, Auto Disable Slots on Errors, настройки recovery-перезагрузок, Limit Boards Power](/images/skrinshot-sdelannyj-2026-08-12-v-130037.png)
+![Вкладка Env Temp Limits для Whatsminer: Mining Resume Env Temp 35 и Mining Suspend Env Temp 45 с допустимыми значениями](/images/skrinshot-sdelannyj-2026-08-12-v-132845.png)
+![Вкладка Cool Temp для Whatsminer: список Cool Temp Mode с режимами Default, Env Temp и Manual](/images/image-65.png)
+![Вкладка Proxy прошивки BiXBiT для Whatsminer: тип SOCKS5, хост с портом, пользователь и пароль](/images/skrinshot-sdelannyj-2026-08-12-v-133852.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_status.html whatsminer firmware: status section">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_status.html" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_status.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Status Section | Documentation</div><div class="now">Whatsminer Firmware: Status Section | BiXBiT Docs <span class="num">49</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Whatsminer Status in BiXBiT firmware: miner summary, hashboards, pools, errors and events, API, system and miner logs, processes, memory and network overview. <span class="num">158</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm44">Скопировать</button></div>
+<pre id="fm44pre">---
+title: &quot;Whatsminer Firmware: Status Section&quot;
+description: &quot;Whatsminer Status in BiXBiT firmware: miner summary, hashboards, pools, errors and events, API, system and miner logs, processes, memory and network overview.&quot;
+---</pre><textarea hidden id="fm44">---
+title: &quot;Whatsminer Firmware: Status Section&quot;
+description: &quot;Whatsminer Status in BiXBiT firmware: miner summary, hashboards, pools, errors and events, API, system and miner logs, processes, memory and network overview.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (10)</h4><button class="copy" data-t="md44">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-54.png</code></td><td class='old'>image.png</td><td>Whatsminer Miner Status: Mining, with the Restart Miner, Download Logs and Toggle Led buttons</td><td class='num'>93</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-151135.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.11.35.png</td><td>Whatsminer Summary: elapsed time, THSav, accepted/rejected shares, Liquid Cooling, voltage, power, power mode, PSU temp</td><td class='num'>119</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-151227.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.12.27.png</td><td>Whatsminer Devices table: frequency and THSav, THS1m, THS15m hashrate for hashboards SM0–SM2 and the total</td><td class='num'>106</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-151407.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.14.07.png</td><td>Whatsminer Devices details: UpfreqCompleted, EffectiveChips, board temperature and chip temps (min-avg-max) for SM0–SM2</td><td class='num'>119</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-151454.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.14.54.png</td><td>Whatsminer Pools table: URL, active flag, user, Alive/Dead status, difficulty, accepted, rejected and stale shares</td><td class='num'>114</td></tr><tr><td><code>/images/image-56.png</code></td><td class='old'>image.png</td><td>Whatsminer Errors table: fan speed errors 110, 111, 130, 131 and 2010 all pools disabled, with timestamps</td><td class='num'>105</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-152120.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.21.20.png</td><td>Whatsminer Events table: E013 pool password change, Pools Change action, count, last time, source btminer</td><td class='num'>105</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-153254.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.32.54.png</td><td>Whatsminer Overview, System: model M31S+_V80, H616 hardware info, firmware and custom version, kernel, uptime, load</td><td class='num'>115</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-153313.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.33.13.png</td><td>Whatsminer Overview, Memory: total available, free and buffered RAM in kB with usage percentage</td><td class='num'>95</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-153341.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.33.41.png</td><td>Whatsminer Overview, Network: IPv4 WAN status via DHCP with address, netmask, gateway, DNS and active connections</td><td class='num'>113</td></tr></tbody></table></div>
+<textarea hidden id="md44">![Whatsminer Miner Status: Mining, with the Restart Miner, Download Logs and Toggle Led buttons](/images/image-54.png)
+![Whatsminer Summary: elapsed time, THSav, accepted/rejected shares, Liquid Cooling, voltage, power, power mode, PSU temp](/images/skrinshot-sdelannyj-2026-08-10-v-151135.png)
+![Whatsminer Devices table: frequency and THSav, THS1m, THS15m hashrate for hashboards SM0–SM2 and the total](/images/skrinshot-sdelannyj-2026-08-10-v-151227.png)
+![Whatsminer Devices details: UpfreqCompleted, EffectiveChips, board temperature and chip temps (min-avg-max) for SM0–SM2](/images/skrinshot-sdelannyj-2026-08-10-v-151407.png)
+![Whatsminer Pools table: URL, active flag, user, Alive/Dead status, difficulty, accepted, rejected and stale shares](/images/skrinshot-sdelannyj-2026-08-10-v-151454.png)
+![Whatsminer Errors table: fan speed errors 110, 111, 130, 131 and 2010 all pools disabled, with timestamps](/images/image-56.png)
+![Whatsminer Events table: E013 pool password change, Pools Change action, count, last time, source btminer](/images/skrinshot-sdelannyj-2026-08-10-v-152120.png)
+![Whatsminer Overview, System: model M31S+_V80, H616 hardware info, firmware and custom version, kernel, uptime, load](/images/skrinshot-sdelannyj-2026-08-10-v-153254.png)
+![Whatsminer Overview, Memory: total available, free and buffered RAM in kB with usage percentage](/images/skrinshot-sdelannyj-2026-08-10-v-153313.png)
+![Whatsminer Overview, Network: IPv4 WAN status via DHCP with address, netmask, gateway, DNS and active connections](/images/skrinshot-sdelannyj-2026-08-10-v-153341.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_status.html прошивка whatsminer: раздел status">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_status.html" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_status.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Раздел Status | Документация</div><div class="now">Прошивка Whatsminer: раздел Status | BiXBiT Docs <span class="num">48</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Раздел Status прошивки BiXBiT для Whatsminer: сводка, хешплаты, пулы, ошибки и события, логи Miner API, System и Miner, процессы, память и сеть устройства. <span class="num">155</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm45">Скопировать</button></div>
+<pre id="fm45pre">---
+title: &quot;Прошивка Whatsminer: раздел Status&quot;
+description: &quot;Раздел Status прошивки BiXBiT для Whatsminer: сводка, хешплаты, пулы, ошибки и события, логи Miner API, System и Miner, процессы, память и сеть устройства.&quot;
+---</pre><textarea hidden id="fm45">---
+title: &quot;Прошивка Whatsminer: раздел Status&quot;
+description: &quot;Раздел Status прошивки BiXBiT для Whatsminer: сводка, хешплаты, пулы, ошибки и события, логи Miner API, System и Miner, процессы, память и сеть устройства.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (10)</h4><button class="copy" data-t="md45">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-54.png</code></td><td class='old'>image.png</td><td>Whatsminer, Miner Status: Mining и кнопки Restart Miner, Download Logs и Toggle Led</td><td class='num'>83</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-151135.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.11.35.png</td><td>Whatsminer, Summary: время работы, THSav, принятые и отклонённые шары, Liquid Cooling, напряжение, мощность, температура БП</td><td class='num'>123</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-151227.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.12.27.png</td><td>Whatsminer, таблица Devices: частота и хешрейт THSav, THS1m, THS15m по хешплатам SM0–SM2 и итог</td><td class='num'>95</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-151407.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.14.07.png</td><td>Whatsminer, Devices: UpfreqCompleted, EffectiveChips, температура платы и чипов (min-avg-max) для SM0–SM2</td><td class='num'>105</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-151454.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.14.54.png</td><td>Whatsminer, таблица Pools: URL, активность, воркер, статус Alive/Dead, сложность, принятые, отклонённые и stale-шары</td><td class='num'>116</td></tr><tr><td><code>/images/image-56.png</code></td><td class='old'>image.png</td><td>Whatsminer, таблица Errors: ошибки вентиляторов 110, 111, 130, 131 и 2010 (все пулы отключены) с временем</td><td class='num'>105</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-152120.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.21.20.png</td><td>Whatsminer, таблица Events: E013 смена пароля пула, действие Pools Change, счётчик, время, источник btminer</td><td class='num'>107</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-153254.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.32.54.png</td><td>Whatsminer, Overview, System: модель M31S+_V80, плата H616, версии прошивки и BiXBiT, ядро, аптайм и нагрузка</td><td class='num'>109</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-153313.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.33.13.png</td><td>Whatsminer, Overview, Memory: доступная, свободная и буферизованная память в kB с процентом</td><td class='num'>91</td></tr><tr><td><code>/images/skrinshot-sdelannyj-2026-08-10-v-153341.png</code></td><td class='old'>Скриншот сделанный 2026-08-10 в 15.33.41.png</td><td>Whatsminer, Overview, Network: статус IPv4 WAN по DHCP — адрес, маска, шлюз, DNS и активные соединения</td><td class='num'>102</td></tr></tbody></table></div>
+<textarea hidden id="md45">![Whatsminer, Miner Status: Mining и кнопки Restart Miner, Download Logs и Toggle Led](/images/image-54.png)
+![Whatsminer, Summary: время работы, THSav, принятые и отклонённые шары, Liquid Cooling, напряжение, мощность, температура БП](/images/skrinshot-sdelannyj-2026-08-10-v-151135.png)
+![Whatsminer, таблица Devices: частота и хешрейт THSav, THS1m, THS15m по хешплатам SM0–SM2 и итог](/images/skrinshot-sdelannyj-2026-08-10-v-151227.png)
+![Whatsminer, Devices: UpfreqCompleted, EffectiveChips, температура платы и чипов (min-avg-max) для SM0–SM2](/images/skrinshot-sdelannyj-2026-08-10-v-151407.png)
+![Whatsminer, таблица Pools: URL, активность, воркер, статус Alive/Dead, сложность, принятые, отклонённые и stale-шары](/images/skrinshot-sdelannyj-2026-08-10-v-151454.png)
+![Whatsminer, таблица Errors: ошибки вентиляторов 110, 111, 130, 131 и 2010 (все пулы отключены) с временем](/images/image-56.png)
+![Whatsminer, таблица Events: E013 смена пароля пула, действие Pools Change, счётчик, время, источник btminer](/images/skrinshot-sdelannyj-2026-08-10-v-152120.png)
+![Whatsminer, Overview, System: модель M31S+_V80, плата H616, версии прошивки и BiXBiT, ядро, аптайм и нагрузка](/images/skrinshot-sdelannyj-2026-08-10-v-153254.png)
+![Whatsminer, Overview, Memory: доступная, свободная и буферизованная память в kB с процентом](/images/skrinshot-sdelannyj-2026-08-10-v-153313.png)
+![Whatsminer, Overview, Network: статус IPv4 WAN по DHCP — адрес, маска, шлюз, DNS и активные соединения](/images/skrinshot-sdelannyj-2026-08-10-v-153341.png)</textarea></div>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_system.html whatsminer firmware: system section">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_system.html" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_system.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">System Section | Documentation</div><div class="now">Whatsminer Firmware: System Section | BiXBiT Docs <span class="num">49</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">System section of BiXBiT firmware for Whatsminer: set the device time, time zone and NTP servers, change the account password, and reboot the miner. <span class="num">148</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm46">Скопировать</button></div>
+<pre id="fm46pre">---
+title: &quot;Whatsminer Firmware: System Section&quot;
+description: &quot;System section of BiXBiT firmware for Whatsminer: set the device time, time zone and NTP servers, change the account password, and reboot the miner.&quot;
+---</pre><textarea hidden id="fm46">---
+title: &quot;Whatsminer Firmware: System Section&quot;
+description: &quot;System section of BiXBiT firmware for Whatsminer: set the device time, time zone and NTP servers, change the account password, and reboot the miner.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_system.html прошивка whatsminer: раздел system">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_system.html" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_system.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Раздел System | Документация</div><div class="now">Прошивка Whatsminer: раздел System | BiXBiT Docs <span class="num">48</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Раздел System прошивки BiXBiT для Whatsminer: настройка времени, часового пояса и NTP-серверов, смена пароля учетной записи и перезагрузка устройства. <span class="num">150</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm47">Скопировать</button></div>
+<pre id="fm47pre">---
+title: &quot;Прошивка Whatsminer: раздел System&quot;
+description: &quot;Раздел System прошивки BiXBiT для Whatsminer: настройка времени, часового пояса и NTP-серверов, смена пароля учетной записи и перезагрузка устройства.&quot;
+---</pre><textarea hidden id="fm47">---
+title: &quot;Прошивка Whatsminer: раздел System&quot;
+description: &quot;Раздел System прошивки BiXBiT для Whatsminer: настройка времени, часового пояса и NTP-серверов, смена пароля учетной записи и перезагрузка устройства.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article></section><section class='sec'><h2>Функции прошивки: хаб</h2><article class="page" data-loc="en" data-q="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/ additional features of bixbit firmware">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/functionality_of_the_bixbit_firmware/" target="_blank" rel="noopener">/functionality_of_the_bixbit_firmware/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Additional Features of BiXBiT Firmware | Documentation</div><div class="now">Additional Features of BiXBiT Firmware | BiXBiT Docs <span class="num">52</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Reference for the BiXBiT firmware web interface on Antminer and Whatsminer: dashboard, status, pools, autotune, profiles, network, logs and system settings. <span class="num">156</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm48">Скопировать</button></div>
+<pre id="fm48pre">---
+title: &quot;Additional Features of BiXBiT Firmware&quot;
+description: &quot;Reference for the BiXBiT firmware web interface on Antminer and Whatsminer: dashboard, status, pools, autotune, profiles, network, logs and system settings.&quot;
+---</pre><textarea hidden id="fm48">---
+title: &quot;Additional Features of BiXBiT Firmware&quot;
+description: &quot;Reference for the BiXBiT firmware web interface on Antminer and Whatsminer: dashboard, status, pools, autotune, profiles, network, logs and system settings.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/ дополнительный функционал прошивки bixbit">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/" target="_blank" rel="noopener">/ru/functionality_of_the_bixbit_firmware/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Дополнительный функционал прошивки BiXBiT | Документация</div><div class="now">Дополнительный функционал прошивки BiXBiT | BiXBiT Docs <span class="num">55</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Справочник по веб-интерфейсу прошивки BiXBiT для Antminer и Whatsminer: дашборд, статус, пулы, автотюн, профили разгона, сеть, логи и системные настройки. <span class="num">154</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm49">Скопировать</button></div>
+<pre id="fm49pre">---
+title: &quot;Дополнительный функционал прошивки BiXBiT&quot;
+description: &quot;Справочник по веб-интерфейсу прошивки BiXBiT для Antminer и Whatsminer: дашборд, статус, пулы, автотюн, профили разгона, сеть, логи и системные настройки.&quot;
+---</pre><textarea hidden id="fm49">---
+title: &quot;Дополнительный функционал прошивки BiXBiT&quot;
+description: &quot;Справочник по веб-интерфейсу прошивки BiXBiT для Antminer и Whatsminer: дашборд, статус, пулы, автотюн, профили разгона, сеть, логи и системные настройки.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article></section><section class='sec'><h2>AMS</h2><article class="page" data-loc="en" data-q="https://docs.bixbit.io/ams/ ams monitoring system documentation">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/ams/" target="_blank" rel="noopener">/ams/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">AMS - Monitoring System | Documentation</div><div class="now">AMS Monitoring System Documentation | BiXBiT Docs <span class="num">49</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Documentation for AMS, the BiXBiT control and monitoring system for ASIC miners: connect Antminer and Whatsminer devices to a Workspace with an API key. <span class="num">152</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm50">Скопировать</button></div>
+<pre id="fm50pre">---
+title: &quot;AMS Monitoring System Documentation&quot;
+description: &quot;Documentation for AMS, the BiXBiT control and monitoring system for ASIC miners: connect Antminer and Whatsminer devices to a Workspace with an API key.&quot;
+---</pre><textarea hidden id="fm50">---
+title: &quot;AMS Monitoring System Documentation&quot;
+description: &quot;Documentation for AMS, the BiXBiT control and monitoring system for ASIC miners: connect Antminer and Whatsminer devices to a Workspace with an API key.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/ams/ ams: система мониторинга asic">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/ams/" target="_blank" rel="noopener">/ru/ams/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">AMS - система мониторинга | Документация</div><div class="now">AMS: система мониторинга ASIC | BiXBiT Docs <span class="num">43</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Документация AMS — системы мониторинга и управления ASIC-майнерами от BiXBiT: как подключить Antminer и Whatsminer к пространству по API-ключу. <span class="num">143</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm51">Скопировать</button></div>
+<pre id="fm51pre">---
+title: &quot;AMS: система мониторинга ASIC&quot;
+description: &quot;Документация AMS — системы мониторинга и управления ASIC-майнерами от BiXBiT: как подключить Antminer и Whatsminer к пространству по API-ключу.&quot;
+---</pre><textarea hidden id="fm51">---
+title: &quot;AMS: система мониторинга ASIC&quot;
+description: &quot;Документация AMS — системы мониторинга и управления ASIC-майнерами от BiXBiT: как подключить Antminer и Whatsminer к пространству по API-ключу.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="en" data-q="https://docs.bixbit.io/ams/connecting_a_device.html connect antminer &amp; whatsminer to ams">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/ams/connecting_a_device.html" target="_blank" rel="noopener">/ams/connecting_a_device.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Connecting Devices to AMS | Documentation</div><div class="now">Connect Antminer &amp; Whatsminer to AMS | BiXBiT Docs <span class="num">50</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Connect Antminer and Whatsminer miners on BiXBiT firmware to AMS monitoring: create a Workspace, copy its API key, paste it into the AMS tab and click Install. <span class="num">159</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm52">Скопировать</button></div>
+<pre id="fm52pre">---
+title: &quot;Connect Antminer &amp; Whatsminer to AMS&quot;
+description: &quot;Connect Antminer and Whatsminer miners on BiXBiT firmware to AMS monitoring: create a Workspace, copy its API key, paste it into the AMS tab and click Install.&quot;
+---</pre><textarea hidden id="fm52">---
+title: &quot;Connect Antminer &amp; Whatsminer to AMS&quot;
+description: &quot;Connect Antminer and Whatsminer miners on BiXBiT firmware to AMS monitoring: create a Workspace, copy its API key, paste it into the AMS tab and click Install.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (4)</h4><button class="copy" data-t="md52">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-71.png</code></td><td class='old'>image.png</td><td>AMS workspace settings, General tab: API KEY field with copy button, workspace title and description <span class="flag">проверить</span></td><td class='num'>100</td></tr><tr><td><code>/images/image-72.png</code></td><td class='old'>image.png</td><td>AMS tab in BiXBiT firmware on Antminer: How to connect steps, API KEY field and Install button</td><td class='num'>94</td></tr><tr><td><code>/images/image-73.png</code></td><td class='old'>image.png</td><td>AMS tab after connection: API key saved, the Install button replaced by Uninstall</td><td class='num'>81</td></tr><tr><td><code>/images/image-66.png</code></td><td class='old'>image.png</td><td>Whatsminer BiXBiT firmware, AMS (control &amp; monitoring) tab: Install AMS Monitoring steps, API Key field, Install</td><td class='num'>112</td></tr></tbody></table></div>
+<textarea hidden id="md52">![AMS workspace settings, General tab: API KEY field with copy button, workspace title and description](/images/image-71.png)
+![AMS tab in BiXBiT firmware on Antminer: How to connect steps, API KEY field and Install button](/images/image-72.png)
+![AMS tab after connection: API key saved, the Install button replaced by Uninstall](/images/image-73.png)
+![Whatsminer BiXBiT firmware, AMS (control &amp; monitoring) tab: Install AMS Monitoring steps, API Key field, Install](/images/image-66.png)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/ams/connecting_a_device.html подключение antminer и whatsminer к ams">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/ams/connecting_a_device.html" target="_blank" rel="noopener">/ru/ams/connecting_a_device.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Подключение устройств к AMS | Документация</div><div class="now">Подключение Antminer и Whatsminer к AMS | BiXBiT Docs <span class="num">53</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Как подключить Antminer и Whatsminer на прошивке BiXBiT к мониторингу AMS: создать пространство, скопировать API-ключ, вставить его во вкладку AMS. <span class="num">147</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm53">Скопировать</button></div>
+<pre id="fm53pre">---
+title: &quot;Подключение Antminer и Whatsminer к AMS&quot;
+description: &quot;Как подключить Antminer и Whatsminer на прошивке BiXBiT к мониторингу AMS: создать пространство, скопировать API-ключ, вставить его во вкладку AMS.&quot;
+---</pre><textarea hidden id="fm53">---
+title: &quot;Подключение Antminer и Whatsminer к AMS&quot;
+description: &quot;Как подключить Antminer и Whatsminer на прошивке BiXBiT к мониторингу AMS: создать пространство, скопировать API-ключ, вставить его во вкладку AMS.&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (4)</h4><button class="copy" data-t="md53">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/image-67.png</code></td><td class='old'>image.png</td><td>Настройки пространства в AMS, вкладка «Основное»: поле API ключ с кнопкой copy, название и описание <span class="flag">проверить</span></td><td class='num'>99</td></tr><tr><td><code>/images/image-69.png</code></td><td class='old'>image.png</td><td>Вкладка AMS в прошивке BiXBiT на Antminer: шаги подключения, поле API ключ и кнопка «Подключить»</td><td class='num'>96</td></tr><tr><td><code>/images/image-70.png</code></td><td class='old'>image.png</td><td>Вкладка AMS после подключения: API ключ сохранён, кнопка «Подключить» сменилась на «Отключить»</td><td class='num'>94</td></tr><tr><td><code>/images/image-66.png</code></td><td class='old'>image.png</td><td>Прошивка BiXBiT на Whatsminer, вкладка AMS (control &amp; monitoring): шаги Install AMS Monitoring, поле API Key, Install</td><td class='num'>117</td></tr></tbody></table></div>
+<textarea hidden id="md53">![Настройки пространства в AMS, вкладка «Основное»: поле API ключ с кнопкой copy, название и описание](/images/image-67.png)
+![Вкладка AMS в прошивке BiXBiT на Antminer: шаги подключения, поле API ключ и кнопка «Подключить»](/images/image-69.png)
+![Вкладка AMS после подключения: API ключ сохранён, кнопка «Подключить» сменилась на «Отключить»](/images/image-70.png)
+![Прошивка BiXBiT на Whatsminer, вкладка AMS (control &amp; monitoring): шаги Install AMS Monitoring, поле API Key, Install](/images/image-66.png)</textarea></div>
+</article></section><section class='sec'><h2>Служебное</h2><article class="page" data-loc="en" data-q="https://docs.bixbit.io/docs.html pagecms editor guide (internal)">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/docs.html" target="_blank" rel="noopener">/docs.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Docs | Documentation</div><div class="now">PageCMS Editor Guide (Internal) | BiXBiT Docs <span class="num">45</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">Internal guide for docs.bixbit.io editors: PageCMS workflow, frontmatter, SEO fields, image ALT text, Vue components and VitePress Markdown syntax examples. <span class="num">156</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm54">Скопировать</button></div>
+<pre id="fm54pre">---
+title: &quot;PageCMS Editor Guide (Internal)&quot;
+description: &quot;Internal guide for docs.bixbit.io editors: PageCMS workflow, frontmatter, SEO fields, image ALT text, Vue components and VitePress Markdown syntax examples.&quot;
+head:
+  - - meta
+    - name: robots
+      content: &quot;noindex, follow&quot;
+---</pre><textarea hidden id="fm54">---
+title: &quot;PageCMS Editor Guide (Internal)&quot;
+description: &quot;Internal guide for docs.bixbit.io editors: PageCMS workflow, frontmatter, SEO fields, image ALT text, Vue components and VitePress Markdown syntax examples.&quot;
+head:
+  - - meta
+    - name: robots
+      content: &quot;noindex, follow&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (2)</h4><button class="copy" data-t="md54">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/logo.svg</code></td><td class='old'>Логотип AMS</td><td>BiXBiT logo</td><td class='num'>11</td></tr><tr><td><code>https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif</code></td><td class='old'>Пример GIF</td><td><i>нет: файл отдаёт 404</i></td><td class='num'>0</td></tr></tbody></table></div>
+<textarea hidden id="md54">![BiXBiT logo](/images/logo.svg)</textarea></div>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/docs.html редактирование документации в pagecms">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/docs.html" target="_blank" rel="noopener">/ru/docs.html</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Docs | Документация</div><div class="now">Редактирование документации в PageCMS | BiXBiT Docs <span class="num">51</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Внутренняя инструкция для редакторов docs.bixbit.io: PageCMS, frontmatter, SEO-поля, ALT-тексты, компоненты Vue и примеры разметки VitePress Markdown. <span class="num">150</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm55">Скопировать</button></div>
+<pre id="fm55pre">---
+title: &quot;Редактирование документации в PageCMS&quot;
+description: &quot;Внутренняя инструкция для редакторов docs.bixbit.io: PageCMS, frontmatter, SEO-поля, ALT-тексты, компоненты Vue и примеры разметки VitePress Markdown.&quot;
+head:
+  - - meta
+    - name: robots
+      content: &quot;noindex, follow&quot;
+---</pre><textarea hidden id="fm55">---
+title: &quot;Редактирование документации в PageCMS&quot;
+description: &quot;Внутренняя инструкция для редакторов docs.bixbit.io: PageCMS, frontmatter, SEO-поля, ALT-тексты, компоненты Vue и примеры разметки VitePress Markdown.&quot;
+head:
+  - - meta
+    - name: robots
+      content: &quot;noindex, follow&quot;
+---</textarea>
+<div class="imgs"><div class="row-h"><h4>Изображения (2)</h4><button class="copy" data-t="md55">Скопировать строки ![ALT](файл)</button></div>
+<div class="tbl"><table><thead><tr><th>Файл</th><th>Сейчас</th><th>Новый ALT</th><th>Симв.</th></tr></thead><tbody><tr><td><code>/images/logo.svg</code></td><td class='old'>Логотип AMS</td><td>Логотип BiXBiT</td><td class='num'>14</td></tr><tr><td><code>https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif</code></td><td class='old'>Пример GIF</td><td><i>нет: файл отдаёт 404</i></td><td class='num'>0</td></tr></tbody></table></div>
+<textarea hidden id="md55">![Логотип BiXBiT](/images/logo.svg)</textarea></div>
+</article></section><section class='sec'><h2>Главная</h2><article class="page" data-loc="en" data-q="https://docs.bixbit.io/ antminer &amp; whatsminer firmware guides">
+<header><span class="loc en">EN</span><a href="https://docs.bixbit.io/" target="_blank" rel="noopener">/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Home | Documentation</div><div class="now">Antminer &amp; Whatsminer Firmware Guides | BiXBiT Docs <span class="num">51</span></div></dd>
+<dt>Description</dt><dd><div class="was">Documentation</div><div class="now">BiXBiT documentation for Antminer and Whatsminer: firmware install and update, overclocking, immersion prep, SD card flashing, error codes and AMS setup. <span class="num">153</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm56">Скопировать</button></div>
+<pre id="fm56pre">---
+title: &quot;Antminer &amp; Whatsminer Firmware Guides&quot;
+description: &quot;BiXBiT documentation for Antminer and Whatsminer: firmware install and update, overclocking, immersion prep, SD card flashing, error codes and AMS setup.&quot;
+---</pre><textarea hidden id="fm56">---
+title: &quot;Antminer &amp; Whatsminer Firmware Guides&quot;
+description: &quot;BiXBiT documentation for Antminer and Whatsminer: firmware install and update, overclocking, immersion prep, SD card flashing, error codes and AMS setup.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article><article class="page" data-loc="ru" data-q="https://docs.bixbit.io/ru/ документация по прошивкам asic и ams">
+<header><span class="loc ru">RU</span><a href="https://docs.bixbit.io/ru/" target="_blank" rel="noopener">/ru/</a></header>
+<dl class="cmp">
+<dt>Title</dt><dd><div class="was">Главная | Документация</div><div class="now">Документация по прошивкам ASIC и AMS | BiXBiT Docs <span class="num">50</span></div></dd>
+<dt>Description</dt><dd><div class="was">Документация</div><div class="now">Документация BiXBiT для Antminer и Whatsminer: установка и обновление прошивки, разгон, иммерсия, запись SD-карты, коды ошибок и подключение к AMS. <span class="num">147</span></div></dd>
+</dl>
+<div class="row-h"><h4>Frontmatter — вставить в начало .md</h4><button class="copy" data-t="fm57">Скопировать</button></div>
+<pre id="fm57pre">---
+title: &quot;Документация по прошивкам ASIC и AMS&quot;
+description: &quot;Документация BiXBiT для Antminer и Whatsminer: установка и обновление прошивки, разгон, иммерсия, запись SD-карты, коды ошибок и подключение к AMS.&quot;
+---</pre><textarea hidden id="fm57">---
+title: &quot;Документация по прошивкам ASIC и AMS&quot;
+description: &quot;Документация BiXBiT для Antminer и Whatsminer: установка и обновление прошивки, разгон, иммерсия, запись SD-карты, коды ошибок и подключение к AMS.&quot;
+---</textarea>
+<p class="muted">Изображений на странице нет.</p>
+</article></section>
+<p class="muted" style="margin-top:40px">Собрано 30.09.2026 по сырому HTML всех страниц и просмотру каждого уникального скриншота. Исходные файлы: <code>content/documentation/docs-bixbit-io/</code> в репозитории bixbit-seo. Там же список из ~65 найденных ошибок в тексте документации.</p>
+</div>
+<script>
+(function(){
+  var loc='all', q=document.getElementById('q'), cnt=document.getElementById('cnt');
+  var pages=[].slice.call(document.querySelectorAll('.page'));
+  function apply(){
+    var s=q.value.trim().toLowerCase(), n=0;
+    pages.forEach(function(p){ var ok=(loc==='all'||p.dataset.loc===loc)&&(!s||p.dataset.q.indexOf(s)>-1); p.hidden=!ok; if(ok)n++; });
+    document.querySelectorAll('.sec').forEach(function(sec){ sec.hidden=!sec.querySelector('.page:not([hidden])'); });
+    cnt.textContent=n+' стр.';
+  }
+  q.addEventListener('input',apply);
+  document.querySelectorAll('.seg button').forEach(function(b){ b.addEventListener('click',function(){
+    loc=b.dataset.l; document.querySelectorAll('.seg button').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false');}); apply(); }); });
+  document.addEventListener('click',function(ev){
+    var b=ev.target.closest('button.copy'); if(!b) return;
+    var t=document.getElementById(b.dataset.t).value, old=b.textContent;
+    function done(ok){ b.textContent=ok?'Скопировано':'Выделено — нажмите ⌘C'; setTimeout(function(){b.textContent=old;},1600); }
+    function fallback(){ var ta=document.getElementById(b.dataset.t); ta.hidden=false; ta.select(); try{ document.execCommand('copy'); done(true);}catch(e){done(false);} ta.hidden=true; }
+    try{ navigator.clipboard.writeText(t).then(function(){done(true);},fallback); }catch(e){ fallback(); }
+  });
+})();
+</script>

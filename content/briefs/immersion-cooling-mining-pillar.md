@@ -5,6 +5,9 @@
 **Created:** 2026-06-19
 **Author assignment:** Senior engineer with immersion deployment experience [VERIFY: assign real author name]
 
+**Priority:** P0 (was P0; recalculated 2026-09-25 from DataForSEO US data) — Keep. immersion cooling mining 20/mo, KD 0, BiXBiT #14 (blog post); asic immersion cooling 10, KD 0. Move the ranking to the commercial /en/asics-cooling/immersion-systems page. The broad demand is immersion cooling 1600 (KD 21, BiXBiT #32) and immersion computer cooling 390 (KD 10, #15); both are wider than the ICP, so serve them through the blog post and link to the pillar.
+**Target (architecture v2, 2026-09-25):** `/en/asics-cooling/immersion-systems` (existing page), Main page content (pillar), section priority P0. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
+
 ---
 
 ## Page Goal
@@ -25,14 +28,16 @@ Commercial product/category page that converts operators evaluating immersion co
 
 ## Target Keywords
 
-| Type | Keyword | Volume |
-|---|---|---|
-| Primary | `immersion cooling mining` | N/A (DataForSEO 401) |
-| Secondary | `ASIC immersion cooling` | N/A |
-| Secondary | `bitcoin miner immersion cooling` | N/A |
-| Secondary | `immersion cooled bitcoin miner` | N/A |
-| Secondary | `mining immersion cooling system` | N/A |
-| Long-tail | `industrial immersion cooling for bitcoin mining` | N/A |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Type | Keyword | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Primary | `immersion cooling mining` | 20 | 0 | #14 (/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining) |
+| Secondary | `ASIC immersion cooling` | 10 | 0 | — |
+| Secondary | `bitcoin miner immersion cooling` | n/d (<10) | — | — |
+| Secondary | `immersion cooled bitcoin miner` | n/d (<10) | — | — |
+| Secondary | `mining immersion cooling system` | n/d (<10) | — | — |
+| Long-tail | `industrial immersion cooling for bitcoin mining` | n/d (<10) | — | — |
 
 ---
 

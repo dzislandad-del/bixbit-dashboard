@@ -1,0 +1,11 @@
+[
+{"keyword":"mineral oil immersion cooling","status_code":20000,"bixbit":[{"rank_group":4,"rank_absolute":7,"url":"https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining"}],"top3":["www.steoil.com","www.reddit.com","ieeexplore.ieee.org"],"competitors":{"engineeredfluids.com":21},"total_organic":95},
+{"keyword":"antminer mineral oil","status_code":40106,"status_note":"partial results: some pages could not be retrieved","bixbit":[],"top3":["d-central.tech","altairtech.io","forums.raspberrypi.com"],"competitors":{"hiveon.com":48},"total_organic":55},
+{"keyword":"immersion cooling antminer","status_code":20000,"bixbit":[{"rank_group":13,"rank_absolute":19,"url":"https://bixbit.io/en/products"},{"rank_group":47,"rank_absolute":57,"url":"https://bixbit.io/en/products/cell"}],"top3":["bitmars.io","cryptominerbros.com","www.reddit.com"],"competitors":{},"total_organic":86},
+{"keyword":"single phase vs two phase immersion cooling","status_code":20000,"bixbit":[],"top3":["submer.com","www.engineeredfluids.com","accelsius.com"],"competitors":{"engineeredfluids.com":2},"total_organic":94},
+{"keyword":"asic monitor","status_code":20000,"bixbit":[],"top3":["play.google.com","www.synopsys.com","www.onsemi.com"],"competitors":{},"total_organic":67,"note":"rank_group 42 careers.zoharbastiaans.com (spam page) uses 'BiXBiT AMS' in its title; not a bixbit.io URL"},
+{"keyword":"mining software","status_code":20000,"bixbit":[],"top3":["mitti.com","www.nicehash.com","www.kryptex.com"],"competitors":{"awesomeminer.com":5,"hiveon.com":9,"minerstat.com":10},"total_organic":99},
+{"keyword":"mining monitoring software","status_code":20000,"bixbit":[],"top3":["www.awesomeminer.com","hexagon.com","github.com"],"competitors":{"awesomeminer.com":1,"braiins.com":4,"minerstat.com":9},"total_organic":99},
+{"keyword":"antminer dashboard","status_code":20000,"bixbit":[],"top3":["www.jinglemining.com","www.zeusbtc.com","www.reddit.com"],"competitors":{},"total_organic":13},
+{"keyword":"minerstat alternative","status_code":20000,"bixbit":[],"top3":["simplemining.net","minerstat.com","www.g2.com"],"competitors":{"minerstat.com":2},"total_organic":98}
+]

@@ -1,0 +1,605 @@
+{
+ "meta": {
+  "collected_on": "2026-10-10",
+  "target": "bixbit.io",
+  "window_days": 31,
+  "since": "2026-09-09",
+  "compared_to": "data/backlinks/backlinks-2026-09-28.json",
+  "cost_usd": 0.2659,
+  "note": "rank по шкале 0–100 (DataForSEO rank, не Ahrefs DR)"
+ },
+ "summaries": {
+  "bixbit.io": {
+   "rank": 39,
+   "backlinks": 6741,
+   "referring_domains": 1113,
+   "referring_main_domains": 894,
+   "referring_domains_nofollow": 634,
+   "broken_backlinks": 22,
+   "broken_pages": 131,
+   "backlinks_spam_score": 44,
+   "referring_ips": 541
+  },
+  "braiins.com": {
+   "rank": 53,
+   "backlinks": 50382,
+   "referring_domains": 6006,
+   "referring_main_domains": 4845,
+   "referring_domains_nofollow": 2638,
+   "broken_backlinks": 225,
+   "broken_pages": 155,
+   "backlinks_spam_score": 24,
+   "referring_ips": 3971
+  },
+  "vnish-firmware.com": {
+   "rank": 11,
+   "backlinks": 928,
+   "referring_domains": 891,
+   "referring_main_domains": 888,
+   "referring_domains_nofollow": 20,
+   "broken_backlinks": 918,
+   "broken_pages": 90,
+   "backlinks_spam_score": 52,
+   "referring_ips": 869
+  },
+  "epicblockchain.io": {
+   "rank": 33,
+   "backlinks": 379,
+   "referring_domains": 185,
+   "referring_main_domains": 169,
+   "referring_domains_nofollow": 64,
+   "broken_backlinks": 0,
+   "broken_pages": 3,
+   "backlinks_spam_score": 14,
+   "referring_ips": 151
+  },
+  "emcd.io": {
+   "rank": 64,
+   "backlinks": 64957,
+   "referring_domains": 4373,
+   "referring_main_domains": 3197,
+   "referring_domains_nofollow": 2451,
+   "broken_backlinks": 769,
+   "broken_pages": 555,
+   "backlinks_spam_score": 36,
+   "referring_ips": 2591
+  },
+  "luxor.tech": {
+   "rank": 50,
+   "backlinks": 22191,
+   "referring_domains": 2068,
+   "referring_main_domains": 1859,
+   "referring_domains_nofollow": 1145,
+   "broken_backlinks": 1081,
+   "broken_pages": 135,
+   "backlinks_spam_score": 7,
+   "referring_ips": 1612
+  },
+  "awesomeminer.com": {
+   "rank": 70,
+   "backlinks": 69829,
+   "referring_domains": 2571,
+   "referring_main_domains": 2442,
+   "referring_domains_nofollow": 741,
+   "broken_backlinks": 2,
+   "broken_pages": 3,
+   "backlinks_spam_score": 2,
+   "referring_ips": 1702
+  },
+  "hiveon.com": {
+   "rank": 62,
+   "backlinks": 438361,
+   "referring_domains": 3316,
+   "referring_main_domains": 2664,
+   "referring_domains_nofollow": 1647,
+   "broken_backlinks": 230,
+   "broken_pages": 958,
+   "backlinks_spam_score": 33,
+   "referring_ips": 2329
+  },
+  "minerstat.com": {
+   "rank": 74,
+   "backlinks": 1849768,
+   "referring_domains": 5148,
+   "referring_main_domains": 3900,
+   "referring_domains_nofollow": 2624,
+   "broken_backlinks": 1582,
+   "broken_pages": 265,
+   "backlinks_spam_score": 3,
+   "referring_ips": 3063
+  }
+ },
+ "deltas": {
+  "bixbit.io": {
+   "rank": 0,
+   "backlinks": 19,
+   "referring_domains": 3,
+   "referring_main_domains": 3,
+   "referring_domains_nofollow": 17,
+   "broken_backlinks": 0,
+   "broken_pages": -2,
+   "backlinks_spam_score": 0,
+   "referring_ips": 11
+  },
+  "braiins.com": {
+   "rank": 0,
+   "backlinks": 590,
+   "referring_domains": 743,
+   "referring_main_domains": 751,
+   "referring_domains_nofollow": 14,
+   "broken_backlinks": 15,
+   "broken_pages": 3,
+   "backlinks_spam_score": 1,
+   "referring_ips": 698
+  },
+  "vnish-firmware.com": {
+   "rank": -1,
+   "backlinks": 752,
+   "referring_domains": 737,
+   "referring_main_domains": 736,
+   "referring_domains_nofollow": 0,
+   "broken_backlinks": 752,
+   "broken_pages": 0,
+   "backlinks_spam_score": 6,
+   "referring_ips": 733
+  },
+  "epicblockchain.io": {
+   "rank": 4,
+   "backlinks": -1,
+   "referring_domains": -3,
+   "referring_main_domains": -4,
+   "referring_domains_nofollow": -2,
+   "broken_backlinks": 0,
+   "broken_pages": 0,
+   "backlinks_spam_score": 1,
+   "referring_ips": -1
+  },
+  "emcd.io": {
+   "rank": 0,
+   "backlinks": 1025,
+   "referring_domains": 538,
+   "referring_main_domains": 533,
+   "referring_domains_nofollow": 15,
+   "broken_backlinks": 4,
+   "broken_pages": -145,
+   "backlinks_spam_score": 1,
+   "referring_ips": 545
+  },
+  "luxor.tech": {
+   "rank": 0,
+   "backlinks": 958,
+   "referring_domains": -12,
+   "referring_main_domains": -14,
+   "referring_domains_nofollow": 10,
+   "broken_backlinks": -6,
+   "broken_pages": -2,
+   "backlinks_spam_score": 0,
+   "referring_ips": -14
+  },
+  "awesomeminer.com": {
+   "rank": 0,
+   "backlinks": 921,
+   "referring_domains": 830,
+   "referring_main_domains": 819,
+   "referring_domains_nofollow": 18,
+   "broken_backlinks": 0,
+   "broken_pages": 0,
+   "backlinks_spam_score": 1,
+   "referring_ips": 836
+  },
+  "hiveon.com": {
+   "rank": 0,
+   "backlinks": -18211,
+   "referring_domains": 787,
+   "referring_main_domains": 790,
+   "referring_domains_nofollow": 15,
+   "broken_backlinks": -18,
+   "broken_pages": -7,
+   "backlinks_spam_score": 0,
+   "referring_ips": 759
+  },
+  "minerstat.com": {
+   "rank": 0,
+   "backlinks": -125,
+   "referring_domains": 720,
+   "referring_main_domains": 727,
+   "referring_domains_nofollow": -32,
+   "broken_backlinks": 695,
+   "broken_pages": 94,
+   "backlinks_spam_score": 0,
+   "referring_ips": 725
+  }
+ },
+ "new_referring_domains": [
+  {
+   "domain": "clifflisting.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-09",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "archive-hu.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-09",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "link-legion-366.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-09",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-365.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-09",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "seo-cartel-0-263.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-08",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "bestwebs123.site",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-08",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": false
+  },
+  {
+   "domain": "seo-cartel-0-268.xyz",
+   "rank": 0,
+   "backlinks": 3,
+   "first_seen": "2026-10-08",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "prohoster.info",
+   "rank": 0,
+   "backlinks": 2,
+   "first_seen": "2026-10-08",
+   "lost_date": "",
+   "spam_score": 0,
+   "nofollow_only": true
+  },
+  {
+   "domain": "seo-cartel-0-253.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-07",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "seo-cartel-0-264.xyz",
+   "rank": 0,
+   "backlinks": 8,
+   "first_seen": "2026-10-07",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "seo-cartel-0-265.xyz",
+   "rank": 0,
+   "backlinks": 3,
+   "first_seen": "2026-10-07",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "seo-cartel-0-269.xyz",
+   "rank": 0,
+   "backlinks": 4,
+   "first_seen": "2026-10-07",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "seo-cartel-0-270.xyz",
+   "rank": 0,
+   "backlinks": 2,
+   "first_seen": "2026-10-07",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "seo-cartel-0-251.xyz",
+   "rank": 0,
+   "backlinks": 4,
+   "first_seen": "2026-10-06",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-358.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-05",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-370.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-05",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "dupurgeniefr.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-04",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "seo-cartel-0-261.xyz",
+   "rank": 0,
+   "backlinks": 6,
+   "first_seen": "2026-10-03",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "seo-cartel-0-255.xyz",
+   "rank": 0,
+   "backlinks": 2,
+   "first_seen": "2026-10-03",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "seo-cartel-0-256.xyz",
+   "rank": 0,
+   "backlinks": 4,
+   "first_seen": "2026-10-03",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "thedocmag.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-10-01",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "sharemarketnewspaper.com",
+   "rank": 0,
+   "backlinks": 10,
+   "first_seen": "2026-09-30",
+   "lost_date": "",
+   "spam_score": 40,
+   "nofollow_only": true
+  },
+  {
+   "domain": "abnewswire.com",
+   "rank": 0,
+   "backlinks": 10,
+   "first_seen": "2026-09-28",
+   "lost_date": "",
+   "spam_score": 0,
+   "nofollow_only": true
+  },
+  {
+   "domain": "morningrelease.com",
+   "rank": 0,
+   "backlinks": 10,
+   "first_seen": "2026-09-27",
+   "lost_date": "",
+   "spam_score": 15,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-247.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-27",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "onvaxs.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-27",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "kernelpanicpodcast.com",
+   "rank": 0,
+   "backlinks": 2,
+   "first_seen": "2026-09-26",
+   "lost_date": "",
+   "spam_score": 70,
+   "nofollow_only": false
+  },
+  {
+   "domain": "lrfzim.com",
+   "rank": 0,
+   "backlinks": 23,
+   "first_seen": "2026-09-25",
+   "lost_date": "",
+   "spam_score": 50,
+   "nofollow_only": true
+  },
+  {
+   "domain": "minerfirmware.online",
+   "rank": 0,
+   "backlinks": 3,
+   "first_seen": "2026-09-25",
+   "lost_date": "",
+   "spam_score": 0,
+   "nofollow_only": true
+  },
+  {
+   "domain": "cvillico.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-23",
+   "lost_date": "",
+   "spam_score": 60,
+   "nofollow_only": false
+  },
+  {
+   "domain": "link-legion-245.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-23",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-246.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-22",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  },
+  {
+   "domain": "five.co.in",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-19",
+   "lost_date": "",
+   "spam_score": 30,
+   "nofollow_only": false
+  },
+  {
+   "domain": "minershero.com",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-11",
+   "lost_date": "",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "seo-anomaly-top-40.xyz",
+   "rank": 0,
+   "backlinks": 2,
+   "first_seen": "2026-09-11",
+   "lost_date": "",
+   "spam_score": 95,
+   "nofollow_only": true
+  },
+  {
+   "domain": "link-legion-242.xyz",
+   "rank": 0,
+   "backlinks": 1,
+   "first_seen": "2026-09-10",
+   "lost_date": "",
+   "spam_score": 75,
+   "nofollow_only": true
+  }
+ ],
+ "lost_referring_domains": [
+  {
+   "domain": "siteprice.org",
+   "rank": 0,
+   "backlinks": 2,
+   "first_seen": "2025-10-24",
+   "lost_date": "2026-10-10",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "bitcointalk.org",
+   "rank": 20,
+   "backlinks": 121,
+   "first_seen": "2025-11-28",
+   "lost_date": "2026-09-30",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "shortenurls.eu",
+   "rank": 0,
+   "backlinks": 2,
+   "first_seen": "2026-01-23",
+   "lost_date": "2026-09-29",
+   "spam_score": 25,
+   "nofollow_only": false
+  },
+  {
+   "domain": "robuta.com",
+   "rank": 0,
+   "backlinks": 7,
+   "first_seen": "2026-06-12",
+   "lost_date": "2026-09-29",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "urls-shortener.eu",
+   "rank": 0,
+   "backlinks": 3,
+   "first_seen": "2026-02-27",
+   "lost_date": "2026-09-27",
+   "spam_score": 33,
+   "nofollow_only": false
+  },
+  {
+   "domain": "iskariyer.com.tr",
+   "rank": 0,
+   "backlinks": 3,
+   "first_seen": "2026-01-06",
+   "lost_date": "2026-09-26",
+   "spam_score": 0,
+   "nofollow_only": false
+  },
+  {
+   "domain": "web-lesson.ru",
+   "rank": 8,
+   "backlinks": 1,
+   "first_seen": "2026-07-27",
+   "lost_date": "2026-09-10",
+   "spam_score": 0,
+   "nofollow_only": false
+  }
+ ],
+ "errors": {}
+}

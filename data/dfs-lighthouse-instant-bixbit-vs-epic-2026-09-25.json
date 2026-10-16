@@ -1,0 +1,34 @@
+{
+ "date": "2026-09-25",
+ "source": "DataForSEO /v3/on_page/lighthouse/live/json (Lighthouse 13.4.0, mobile, simulated throttling, single run each) + /v3/on_page/instant_pages (JS on) + raw HTML via python urllib",
+ "caveat": "Lab data, single run, not CrUX field data. PSI API 500 / CrUX 403 this cycle.",
+ "lighthouse_mobile": {
+  "https://bixbit.io/en": {"perf": 0.87, "a11y": 0.93, "best_practices": 0.77, "seo": 0.85, "fcp_ms": 1591, "lcp_ms": 2750, "si_ms": 2246, "tbt_ms": 365, "cls": 0.001, "ttfb_ms": 37, "tti_ms": 18084, "bytes": 16857578},
+  "https://bixbit.io/en/firmwares/antminer": {"perf": 0.56, "a11y": 0.90, "best_practices": 0.73, "seo": 0.92, "fcp_ms": 1741, "lcp_ms": 42054, "si_ms": 2193, "tbt_ms": 758, "cls": 0.005, "ttfb_ms": 43, "tti_ms": 65587, "bytes": 23764522},
+  "https://epicblockchain.io/": {"perf": 0.47, "a11y": 0.86, "best_practices": 0.92, "seo": 0.92, "fcp_ms": 5122, "lcp_ms": 51495, "si_ms": 22802, "tbt_ms": 390, "cls": null, "ttfb_ms": 2263, "tti_ms": 55468, "bytes": 32726482},
+  "https://epicblockchain.io/product/umc-os/": {"perf": 0.55, "a11y": 0.93, "best_practices": 1.0, "seo": 1.0, "fcp_ms": 4045, "lcp_ms": 9024, "si_ms": 6250, "tbt_ms": 314, "cls": 0.009, "ttfb_ms": 2340, "tti_ms": 10076, "bytes": 2025215}
+ },
+ "instant_pages": {
+  "https://bixbit.io/en": {"onpage_score": 94.51, "encoding": "gzip", "html_errors": ["tag closed unexpectedly L45", "duplicate <body> L46"], "og_image": "favicon android-chrome-512x512.png", "twitter_tags": 0},
+  "https://bixbit.io/en/firmwares/antminer": {"onpage_score": 90.02, "encoding": "gzip", "html_errors": ["tag closed unexpectedly L45", "duplicate <body> L46"], "warnings": [">1500 DOM nodes"], "high_loading_time": true, "og_image": "favicon", "twitter_tags": 0},
+  "https://epicblockchain.io/": {"onpage_score": 97.07, "encoding": "br", "html_errors": [], "twitter_card": "summary_large_image"},
+  "https://epicblockchain.io/product/umc-os/": {"onpage_score": 94.51, "encoding": "br", "html_errors": [], "twitter_card": "summary_large_image", "og_image": "page-specific webp 617x302"}
+ },
+ "raw_html_schema_types": {
+  "bixbit /en": ["WebSite", "Organization"],
+  "bixbit /en/firmwares/antminer": ["WebSite", "Organization"],
+  "bixbit /en/firmwares": ["WebSite", "Organization", "BreadcrumbList", "FAQPage"],
+  "bixbit /en/firmwares/whatsminer-series-m5x": ["WebSite", "Organization", "SoftwareApplication", "BreadcrumbList"],
+  "bixbit blog post": ["Article", "Person", "BreadcrumbList", "WebSite", "Organization"],
+  "epic /": ["@graph: WebPage", "WebSite+SearchAction", "Organization", "BreadcrumbList", "ImageObject"],
+  "epic /product/umc-os/": ["@graph: WebPage", "WebSite", "Organization", "BreadcrumbList", "ImageObject"],
+  "epic blog post": ["@graph: Article", "WebPage", "Person", "FAQPage", "BreadcrumbList", "Organization", "WebSite"]
+ },
+ "sitemaps": {
+  "epic": {"cms": "WordPress + Elementor 4.2.4 + Yoast", "index_children": 5, "page": 24, "post": 34, "category": 5, "post_tag": 10, "author": 2, "image_entries_page_sitemap": 132, "notes": "/404-2/ listed in page-sitemap"},
+  "bixbit": {"blog_urls_total": 839, "blog_en": 106, "newest_en_post": "2026-09-09", "image_entries": 0}
+ },
+ "headers": {"bixbit_hsts": false, "epic_hsts": true},
+ "llms_txt": {"bixbit": 404, "epic": 404},
+ "heaviest_assets_bixbit_antminer_MB": {"problematic-chips.png": 3.27, "network-protection.png": 3.24, "profile-switcher.png": 3.17, "hero-laptop.webp": 2.56, "hash-board-failure.png": 2.5, "profile-generation.png": 2.0, "adaptive-tuning.png": 1.04, "autotune.png": 0.81}
+}

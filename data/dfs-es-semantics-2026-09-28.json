@@ -1,0 +1,4311 @@
+{
+ "meta": {
+  "pulled_at": "2026-09-28",
+  "cost_usd": 0.721,
+  "calls": {
+   "labs_keyword_ideas_MX": 0.048,
+   "labs_keyword_suggestions(antminer MX/ES/VE, whatsminer MX, asic MX, inmersion MX, mineria MX)": 0.141,
+   "google_ads_search_volume x5 (ES/MX/AR/CO/VE, 99 kw)": 0.45,
+   "labs_bulk_keyword_difficulty MX+ES": 0.048,
+   "labs_search_intent es": 0.024,
+   "serp organic live (noAiMode) x2": 0.01
+  },
+  "locations": {
+   "ES": 2724,
+   "MX": 2484,
+   "AR": 2032,
+   "CO": 2170,
+   "VE": 2862
+  },
+  "language": "es",
+  "notes": [
+   "Google Ads volumes are buckets; 10 = threshold, null = no data. Venezuela (2862) IS supported by Google Ads and Labs (no 40501).",
+   "KD: Labs has KD only for head terms; null for almost all long-tail (not measured, not zero).",
+   "Labs keyword_ideas MX with mining seeds returned off-topic items (vmware etc.) - discarded; seed inmersion is dominated by kitchen blenders - only mining-specific rows used.",
+   "Anomaly: vnish (worldwide es) 110000 from 2026-09-28 earlier pull - do not use. asic (MX 110000) is mixed with ASIC shoes/ASIC Australia - do not use.",
+   "liquido dielectrico (MX 720) is mostly electrical-transformer/industrial demand - relevant only as LSI, not as target.",
+   "mineria de bitcoins (ES/MX 880) is informational/B2C - blog only, not commercial pages."
+  ],
+  "intent_source": "labs search_intent (language es), main label"
+ },
+ "keywords": [
+  {
+   "kw": "firmware antminer",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware para antminer",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware antminer s19",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware antminer s9",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware antminer s21",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "antminer s19 firmware",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "antminer s9 firmware",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "antminer firmware",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware personalizado antminer",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware personalizado asic",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware asic",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware para asic",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware whatsminer",
+   "intent": "informational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "whatsminer firmware",
+   "intent": "informational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 20
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware whatsminer m30s",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware whatsminer m50",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "descargar firmware antminer s9",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 0,
+    "AR": 0,
+    "CO": 0,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "descargar firmware antminer",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "mejor firmware para antminer s9",
+   "intent": "commercial",
+   "vol": {
+    "MX": 0,
+    "ES": 0,
+    "AR": 0,
+    "CO": 0,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "mejor firmware antminer",
+   "intent": "commercial",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "actualizar firmware antminer",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "actualizar firmware antminer s19",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "como actualizar firmware antminer",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "instalar firmware antminer",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "overclock antminer",
+   "intent": "informational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "overclock antminer s19",
+   "intent": "informational",
+   "vol": {
+    "MX": 0,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 0
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "overclock antminer s9",
+   "intent": "transactional",
+   "vol": {
+    "MX": 0,
+    "ES": 10,
+    "AR": 10,
+    "CO": 0,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "overclocking asic",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "underclock antminer",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "undervolt antminer",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "autotuning antminer",
+   "intent": "commercial",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware antminer l7",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "firmware antminer l9",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "braiins os",
+   "intent": "informational",
+   "vol": {
+    "MX": 20,
+    "ES": 20,
+    "AR": 10,
+    "CO": 10,
+    "VE": 30
+   },
+   "cpc": {
+    "CO": 5.99
+   },
+   "kd": {}
+  },
+  {
+   "kw": "braiins os antminer s19",
+   "intent": "navigational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": null,
+    "VE": 0
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "vnish firmware",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 20,
+    "AR": 20,
+    "CO": 10,
+    "VE": 30
+   },
+   "cpc": {
+    "MX": 0.23,
+    "AR": 0.27,
+    "CO": 0.15,
+    "VE": 0.06
+   },
+   "kd": {}
+  },
+  {
+   "kw": "firmware vnish",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "MX": 0.01,
+    "VE": 0.01
+   },
+   "kd": {}
+  },
+  {
+   "kw": "vnish antminer",
+   "intent": "informational",
+   "vol": {
+    "MX": 0,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "luxos firmware",
+   "intent": "commercial",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 0,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "hiveon asic",
+   "intent": "informational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "whatsminer tool",
+   "intent": "informational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 70
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "whatsminer tool descargar",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "btc tools",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "antminer s19 consumo",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "antminer modo bajo consumo",
+   "intent": "commercial",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "antminer s9 overclock",
+   "intent": "informational",
+   "vol": {
+    "MX": 0,
+    "ES": 10,
+    "AR": 10,
+    "CO": 0,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "monitoreo de mineros",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "monitoreo asic",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "monitoreo de asic",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "software de monitoreo mineria",
+   "intent": "commercial",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "software de mineria",
+   "intent": "commercial",
+   "vol": {
+    "MX": 20,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "ES": 3.35,
+    "VE": 9.09
+   },
+   "kd": {
+    "ES": 49
+   }
+  },
+  {
+   "kw": "software para mineria",
+   "intent": "commercial",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "MX": 2.48
+   },
+   "kd": {
+    "ES": 49
+   }
+  },
+  {
+   "kw": "software para mineria de bitcoin",
+   "intent": "commercial",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "programa para minar bitcoin",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "monitoreo granja mineria",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "awesome miner",
+   "intent": "informational",
+   "vol": {
+    "MX": 10,
+    "ES": 30,
+    "AR": 10,
+    "CO": 10,
+    "VE": 20
+   },
+   "cpc": {
+    "ES": 0.09,
+    "AR": 0.17,
+    "CO": 0.01,
+    "VE": 0.06
+   },
+   "kd": {
+    "MX": 57,
+    "ES": 5
+   }
+  },
+  {
+   "kw": "minerstat",
+   "intent": "informational",
+   "vol": {
+    "MX": 50,
+    "ES": 90,
+    "AR": 70,
+    "CO": 20,
+    "VE": 70
+   },
+   "cpc": {
+    "ES": 1.86,
+    "AR": 0.24
+   },
+   "kd": {
+    "MX": 4,
+    "ES": 11
+   }
+  },
+  {
+   "kw": "hive os",
+   "intent": "informational",
+   "vol": {
+    "MX": 70,
+    "ES": 70,
+    "AR": 50,
+    "CO": 20,
+    "VE": 40
+   },
+   "cpc": {},
+   "kd": {
+    "MX": 29,
+    "ES": 27
+   }
+  },
+  {
+   "kw": "hiveos asic",
+   "intent": "informational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 0,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "refrigeracion por inmersion",
+   "intent": "informational",
+   "vol": {
+    "MX": 40,
+    "ES": 70,
+    "AR": 20,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "refrigeracion por inmersion mineria",
+   "intent": "commercial",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "refrigeracion por inmersion asic",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "mineria por inmersion",
+   "intent": "informational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "ES": 0.58
+   },
+   "kd": {}
+  },
+  {
+   "kw": "enfriamiento por inmersion",
+   "intent": "informational",
+   "vol": {
+    "MX": 50,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "MX": 0.53
+   },
+   "kd": {
+    "MX": 56
+   }
+  },
+  {
+   "kw": "liquido dielectrico",
+   "intent": "informational",
+   "vol": {
+    "MX": 720,
+    "ES": 110,
+    "AR": 90,
+    "CO": 50,
+    "VE": 30
+   },
+   "cpc": {
+    "MX": 0.29,
+    "ES": 0.09,
+    "AR": 0.23,
+    "CO": 0.03
+   },
+   "kd": {
+    "MX": 0,
+    "ES": 0
+   }
+  },
+  {
+   "kw": "liquido dielectrico mineria",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "aceite dielectrico mineria",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "tanque de inmersion",
+   "intent": "transactional",
+   "vol": {
+    "MX": 70,
+    "ES": 10,
+    "AR": 10,
+    "CO": 30,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "tanque de inmersion mineria",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "refrigeracion liquida asic",
+   "intent": "transactional",
+   "vol": {
+    "MX": 0,
+    "ES": 10,
+    "AR": 10,
+    "CO": 0,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "refrigeracion liquida mineria",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 0,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {
+    "ES": 17
+   }
+  },
+  {
+   "kw": "antminer hydro",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "MX": 0.15,
+    "AR": 0.08
+   },
+   "kd": {}
+  },
+  {
+   "kw": "antminer s21 xp hydro",
+   "intent": "navigational",
+   "vol": {
+    "MX": 20,
+    "ES": 30,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "MX": 1.85,
+    "ES": 0.36,
+    "AR": 0.09
+   },
+   "kd": {}
+  },
+  {
+   "kw": "whatsminer hydro",
+   "intent": "informational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "refrigeracion para mineria",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "enfriamiento mineria bitcoin",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "ruido antminer",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "contenedor mineria bitcoin",
+   "intent": "navigational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "contenedor de mineria",
+   "intent": "transactional",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "pdu mineria",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "pdu para mineria",
+   "intent": "commercial",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "pdu asic",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "pdu inteligente",
+   "intent": "informational",
+   "vol": {
+    "MX": 20,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "ES": 0.58,
+    "AR": 1.29
+   },
+   "kd": {}
+  },
+  {
+   "kw": "pdu administrable",
+   "intent": "navigational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "MX": 0.26,
+    "CO": 0.92
+   },
+   "kd": {
+    "MX": 26
+   }
+  },
+  {
+   "kw": "pdu 380v",
+   "intent": "transactional",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "codigos de error whatsminer",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "errores whatsminer",
+   "intent": "informational",
+   "vol": {
+    "MX": 10,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 30
+   },
+   "cpc": {
+    "CO": 0.01,
+    "VE": 0.01
+   },
+   "kd": {}
+  },
+  {
+   "kw": "error whatsminer",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "whatsminer error codes",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "codigos de error antminer",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "mineria bitcoin",
+   "intent": "informational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "mineria de bitcoins",
+   "intent": "informational",
+   "vol": {
+    "MX": 880,
+    "ES": 880,
+    "AR": 590,
+    "CO": 390,
+    "VE": 320
+   },
+   "cpc": {
+    "MX": 0.46,
+    "ES": 0.75,
+    "AR": 0.32,
+    "CO": 0.19,
+    "VE": 0.54
+   },
+   "kd": {
+    "MX": 3,
+    "ES": 1
+   }
+  },
+  {
+   "kw": "granja de mineria bitcoin",
+   "intent": "navigational",
+   "vol": {
+    "MX": null,
+    "ES": null,
+    "AR": null,
+    "CO": null,
+    "VE": null
+   },
+   "cpc": {},
+   "kd": {}
+  },
+  {
+   "kw": "equipos asic",
+   "intent": "commercial",
+   "vol": {
+    "MX": 30,
+    "ES": 20,
+    "AR": 20,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "MX": 0.35,
+    "ES": 0.69,
+    "AR": 0.23,
+    "CO": 0.17
+   },
+   "kd": {}
+  },
+  {
+   "kw": "minero asic",
+   "intent": "informational",
+   "vol": {
+    "MX": 30,
+    "ES": 20,
+    "AR": 20,
+    "CO": 10,
+    "VE": 10
+   },
+   "cpc": {
+    "MX": 0.12,
+    "ES": 0.36,
+    "AR": 0.22,
+    "CO": 0.2
+   },
+   "kd": {
+    "MX": 14,
+    "ES": 0
+   }
+  },
+  {
+   "kw": "asic miner",
+   "intent": "informational",
+   "vol": {
+    "MX": 260,
+    "ES": 320,
+    "AR": 110,
+    "CO": 110,
+    "VE": 70
+   },
+   "cpc": {
+    "MX": 0.17,
+    "ES": 0.75,
+    "AR": 0.23,
+    "CO": 0.36,
+    "VE": 0.52
+   },
+   "kd": {
+    "MX": 14,
+    "ES": 0
+   }
+  },
+  {
+   "kw": "whatsminer",
+   "intent": "informational",
+   "vol": {
+    "MX": 170,
+    "ES": 90,
+    "AR": 70,
+    "CO": 90,
+    "VE": 260
+   },
+   "cpc": {
+    "MX": 0.5,
+    "ES": 2.68,
+    "AR": 0.1,
+    "CO": 0.19
+   },
+   "kd": {
+    "MX": 13,
+    "ES": 1
+   }
+  },
+  {
+   "kw": "antminer",
+   "intent": "informational",
+   "vol": {
+    "MX": 480,
+    "ES": 480,
+    "AR": 210,
+    "CO": 210,
+    "VE": 320
+   },
+   "cpc": {
+    "MX": 0.29,
+    "ES": 0.51,
+    "AR": 0.27,
+    "CO": 0.22,
+    "VE": 0.85
+   },
+   "kd": {
+    "MX": 0,
+    "ES": 0
+   }
+  },
+  {
+   "kw": "bixbit",
+   "intent": "transactional",
+   "vol": {
+    "MX": 20,
+    "ES": 10,
+    "AR": 10,
+    "CO": 10,
+    "VE": 170
+   },
+   "cpc": {
+    "VE": 0.19
+   },
+   "kd": {}
+  }
+ ],
+ "labs_suggestions": {
+  "esp-antminer": [
+   [
+    "antminer",
+    480,
+    0.51,
+    "HIGH",
+    0,
+    "informational"
+   ],
+   [
+    "antminer s21",
+    210,
+    0.61,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer z15 pro",
+    110,
+    0.49,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s19 pro",
+    110,
+    0.75,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s19",
+    110,
+    0.6,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s21 pro",
+    90,
+    0.68,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s9",
+    70,
+    0.13,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer z15",
+    70,
+    0.6,
+    "HIGH",
+    12,
+    "transactional"
+   ],
+   [
+    "bitmain antminer z15 pro",
+    70,
+    0.64,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s21 xp",
+    50,
+    0.6,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s23",
+    50,
+    0.51,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer",
+    50,
+    0.75,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s21 xp",
+    50,
+    0.32,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer x9",
+    40,
+    0.45,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer l9",
+    40,
+    0.33,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s23 hyd 3u",
+    40,
+    0.36,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s19 xp hyd 255th",
+    40,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "bitmain antminer s21",
+    40,
+    0.51,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s19k pro",
+    40,
+    0.84,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s21 pro",
+    30,
+    0.19,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s21 xp hydro",
+    30,
+    0.72,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer x5",
+    30,
+    0.09,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s21 xp hydro",
+    30,
+    0.36,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer l7",
+    30,
+    0.59,
+    "HIGH",
+    14,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s19 pro",
+    20,
+    0.28,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "bitmain antminer l9",
+    20,
+    0.65,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s21 hyd",
+    20,
+    null,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s19j pro",
+    20,
+    0.37,
+    "HIGH",
+    12,
+    "transactional"
+   ],
+   [
+    "antminer s19 xp",
+    20,
+    0.26,
+    "HIGH",
+    12,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s19k pro",
+    20,
+    0.34,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer z15",
+    20,
+    0.24,
+    "HIGH",
+    53,
+    "transactional"
+   ],
+   [
+    "antminer s23 hyd 3u",
+    20,
+    0.4,
+    "HIGH",
+    null,
+    "informational"
+   ],
+   [
+    "antminer s21 200th",
+    20,
+    0.38,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer compare",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer dash",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "antminer 3d model",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer k7 price",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer in china",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "antminer l7 9050mh",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s21 hyd 335t",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s21 pro profitability",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer s19 pro características",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "antminer t17 42th",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s7 cuanto produce",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "asic antminer e9",
+    10,
+    null,
+    null,
+    50,
+    "transactional"
+   ],
+   [
+    "antminer s21 profitability",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer wiki",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "antminer s17 pro profitability",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer s9 overclock",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "antminer s19 pro 110t",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer z15 420ksol s",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "antminer s21 pro 234th profitability",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer ip",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "antminer aliexpress",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer al1",
+    10,
+    null,
+    null,
+    0,
+    "transactional"
+   ],
+   [
+    "asic bitmain antminer s19 pro",
+    10,
+    0.84,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer chile",
+    10,
+    null,
+    null,
+    null,
+    "navigational"
+   ],
+   [
+    "antminer s9 13.5th",
+    10,
+    null,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s19 pro 95th",
+    10,
+    null,
+    "HIGH",
+    null,
+    "informational"
+   ],
+   [
+    "antminer farm",
+    10,
+    null,
+    null,
+    null,
+    "navigational"
+   ]
+  ],
+  "mex-antminer": [
+   [
+    "antminer",
+    480,
+    0.29,
+    "HIGH",
+    0,
+    "informational"
+   ],
+   [
+    "antminer s21",
+    170,
+    0.17,
+    "HIGH",
+    1,
+    "transactional"
+   ],
+   [
+    "antminer s19 pro",
+    140,
+    0.12,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s19",
+    110,
+    0.26,
+    "HIGH",
+    10,
+    "transactional"
+   ],
+   [
+    "antminer s21 pro",
+    70,
+    0.19,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s21",
+    50,
+    0.06,
+    "HIGH",
+    null,
+    "navigational"
+   ],
+   [
+    "instalacion electrica para antminer s9",
+    50,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "antminer s9",
+    50,
+    0.11,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer noise reduction",
+    40,
+    null,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s21 xp",
+    40,
+    0.08,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer",
+    40,
+    0.1,
+    "HIGH",
+    18,
+    "transactional"
+   ],
+   [
+    "antminer l7",
+    30,
+    0.1,
+    "HIGH",
+    24,
+    "transactional"
+   ],
+   [
+    "antminer s19j pro",
+    30,
+    0.09,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer l9",
+    30,
+    0.43,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s23",
+    30,
+    0.08,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer x9",
+    20,
+    0.18,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer z15",
+    20,
+    0.16,
+    "HIGH",
+    59,
+    "transactional"
+   ],
+   [
+    "antminer s21 xp hydro",
+    20,
+    1.85,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s19 pro",
+    20,
+    0.09,
+    "HIGH",
+    24,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s21 pro",
+    20,
+    0.1,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s19 xp",
+    20,
+    0.05,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s19j",
+    10,
+    null,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s19 precio",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer s19 pro amazon",
+    10,
+    0.02,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer l3",
+    10,
+    0.26,
+    "HIGH",
+    61,
+    "transactional"
+   ],
+   [
+    "antminer firmware",
+    10,
+    null,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s19 hydro",
+    10,
+    null,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "s9 antminer",
+    10,
+    null,
+    null,
+    0,
+    "transactional"
+   ],
+   [
+    "antminer l7 9050",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s9 watts",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer t19",
+    10,
+    0.06,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s9 profitability nicehash",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "test fixture antminer",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "antminer s9 ebay",
+    10,
+    0.1,
+    "MEDIUM",
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s9j",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "antminer s21 precio",
+    10,
+    null,
+    "HIGH",
+    null,
+    "commercial"
+   ],
+   [
+    "antminer s9 specs",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer e9 precio",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer s19 profitability",
+    10,
+    0.2,
+    "MEDIUM",
+    null,
+    "commercial"
+   ],
+   [
+    "antminer mas potente",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer s19 pro 110th/s",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer for sale",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s21 xp precio",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer price",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "s9k antminer",
+    10,
+    null,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s17 características",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "bitmain antminer firmware",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer z15",
+    10,
+    0.28,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s7 calculator",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "antminer s7 profit",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "bitmain antminer z9 mini profitability",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer mexico",
+    10,
+    0.03,
+    "HIGH",
+    null,
+    "navigational"
+   ],
+   [
+    "antminer bitmain s9",
+    10,
+    null,
+    null,
+    59,
+    "transactional"
+   ],
+   [
+    "asics antminer",
+    10,
+    0.06,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s9 hashboard",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "antminer s9 13.5 th",
+    10,
+    null,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s21 xp 270",
+    10,
+    0.18,
+    "HIGH",
+    null,
+    "commercial"
+   ],
+   [
+    "antminer s9 características",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "configurar antminer s9",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "que puedo minar con antminer s9",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ]
+  ],
+  "mex-asic": [
+   [
+    "asic",
+    110000,
+    0.14,
+    "HIGH",
+    0,
+    "informational"
+   ],
+   [
+    "asic gel-kayano",
+    4400,
+    0.22,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "asic sc",
+    320,
+    null,
+    "LOW",
+    0,
+    "navigational"
+   ],
+   [
+    "asic miner",
+    260,
+    0.17,
+    "HIGH",
+    14,
+    "informational"
+   ],
+   [
+    "miner asic",
+    260,
+    0.17,
+    "HIGH",
+    14,
+    "informational"
+   ],
+   [
+    "asic miner value",
+    210,
+    0.17,
+    "LOW",
+    81,
+    "informational"
+   ],
+   [
+    "asic queretaro",
+    140,
+    0.38,
+    "HIGH",
+    0,
+    "navigational"
+   ],
+   [
+    "asic wiki",
+    90,
+    3.33,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "asic wikipedia",
+    90,
+    3.33,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "que es asic",
+    70,
+    null,
+    "LOW",
+    2,
+    "informational"
+   ],
+   [
+    "asic meaning",
+    70,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "asic australia",
+    70,
+    0.87,
+    "LOW",
+    null,
+    "navigational"
+   ],
+   [
+    "asic toluca",
+    50,
+    0.74,
+    "LOW",
+    null,
+    "navigational"
+   ],
+   [
+    "asic que es",
+    50,
+    null,
+    "LOW",
+    2,
+    "informational"
+   ],
+   [
+    "asic calibraciones",
+    50,
+    1.08,
+    "LOW",
+    50,
+    "informational"
+   ],
+   [
+    "asic calibracion",
+    50,
+    1.08,
+    "LOW",
+    50,
+    "informational"
+   ],
+   [
+    "asic colombia",
+    40,
+    0.19,
+    "MEDIUM",
+    null,
+    "navigational"
+   ],
+   [
+    "asic chip",
+    40,
+    2.37,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "asic #colombia",
+    40,
+    0.19,
+    "MEDIUM",
+    null,
+    "navigational"
+   ],
+   [
+    "laboratorio asic huichapan",
+    40,
+    null,
+    "LOW",
+    50,
+    "navigational"
+   ],
+   [
+    "asic laboratorio",
+    30,
+    null,
+    "LOW",
+    null,
+    "navigational"
+   ],
+   [
+    "equipos asic",
+    30,
+    0.35,
+    "HIGH",
+    null,
+    "commercial"
+   ],
+   [
+    "minero asic",
+    30,
+    0.12,
+    "HIGH",
+    14,
+    "informational"
+   ],
+   [
+    "asic minería",
+    30,
+    0.08,
+    "HIGH",
+    14,
+    "informational"
+   ],
+   [
+    "laboratorio asic",
+    30,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "asic campeche",
+    20,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "asic calibración",
+    20,
+    1.06,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "asic design",
+    20,
+    null,
+    "LOW",
+    null,
+    "navigational"
+   ],
+   [
+    "asic redes",
+    20,
+    1.36,
+    "HIGH",
+    null,
+    "informational"
+   ],
+   [
+    "asic mining",
+    20,
+    0.06,
+    "HIGH",
+    28,
+    "informational"
+   ],
+   [
+    "mineros asic",
+    20,
+    0.17,
+    "HIGH",
+    14,
+    "informational"
+   ],
+   [
+    "asic tiger mexico",
+    20,
+    0.56,
+    "HIGH",
+    null,
+    "navigational"
+   ],
+   [
+    "asic miner price",
+    10,
+    0.03,
+    "HIGH",
+    null,
+    "informational"
+   ],
+   [
+    "asic regulator",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "empresa asic",
+    10,
+    null,
+    "LOW",
+    null,
+    "navigational"
+   ],
+   [
+    "asic mining shop",
+    10,
+    null,
+    null,
+    null,
+    "navigational"
+   ],
+   [
+    "asic cisco",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "minerstat asic calculator",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "asic miner como funciona",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "asic zapatillas",
+    10,
+    null,
+    null,
+    57,
+    "transactional"
+   ],
+   [
+    "asic agencia de seguridad e informes comerciales sa",
+    10,
+    null,
+    null,
+    null,
+    "navigational"
+   ],
+   [
+    "asic miner mexico",
+    10,
+    null,
+    "HIGH",
+    null,
+    "commercial"
+   ],
+   [
+    "asic miner value s19j pro",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "asic miner rentabilidad",
+    10,
+    null,
+    "LOW",
+    null,
+    "commercial"
+   ],
+   [
+    "register company asic",
+    10,
+    null,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "que es un asic miner",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "asic precio",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "asic crypto",
+    10,
+    0.04,
+    "MEDIUM",
+    null,
+    "informational"
+   ],
+   [
+    "laboratorio de calibracion asic",
+    10,
+    null,
+    "HIGH",
+    null,
+    "navigational"
+   ],
+   [
+    "como hacer un asic miner",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "asic seguridad",
+    10,
+    0.06,
+    "HIGH",
+    null,
+    "navigational"
+   ],
+   [
+    "mining calculator asic",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "asic cuernavaca",
+    10,
+    null,
+    null,
+    null,
+    "navigational"
+   ],
+   [
+    "asic miner amazon",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "asic controls",
+    10,
+    null,
+    "LOW",
+    null,
+    "navigational"
+   ],
+   [
+    "asic zapatillas running hombre",
+    10,
+    null,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "asic calculator",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "asic electronics",
+    10,
+    2.59,
+    "LOW",
+    null,
+    "navigational"
+   ],
+   [
+    "asic trading name",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "asic miner profitability ranking",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ]
+  ],
+  "mex-inmersion": [
+   [
+    "batidora de inmersion",
+    8100,
+    0.16,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "inmersion",
+    5400,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "licuadora de inmersion",
+    3600,
+    0.18,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "oster batidora de inmersion",
+    1600,
+    0.16,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "aceites de inmersion",
+    1600,
+    0.31,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "que es inmersion",
+    1600,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "batidora de inmersion oster",
+    1600,
+    0.16,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "aceite de inmersion",
+    1600,
+    0.31,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "batidor de inmersion",
+    1300,
+    0.15,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "inmersion significado",
+    1300,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "inmersion en hielo",
+    590,
+    1,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "licuadoras de inmersion",
+    590,
+    0.16,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "batidora inmersion",
+    480,
+    0.18,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "batidor inmersion",
+    480,
+    0.18,
+    "HIGH",
+    0,
+    "navigational"
+   ],
+   [
+    "batidora de inmersion taurus",
+    390,
+    0.16,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "inmersion letal",
+    390,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "taurus batidora de inmersion",
+    390,
+    0.16,
+    "HIGH",
+    0,
+    "navigational"
+   ],
+   [
+    "hamilton beach batidora de inmersion",
+    390,
+    0.17,
+    "HIGH",
+    0,
+    "commercial"
+   ],
+   [
+    "batidora de inmersion cuisinart",
+    390,
+    0.13,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "batidoras de inmersion industrial",
+    390,
+    0.31,
+    "HIGH",
+    0,
+    "commercial"
+   ],
+   [
+    "asfixia por inmersion",
+    390,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "batidora de inmersion hamilton beach",
+    390,
+    0.17,
+    "HIGH",
+    0,
+    "commercial"
+   ],
+   [
+    "riego por inmersion",
+    390,
+    0.16,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "batidor de inmersion industrial",
+    390,
+    0.31,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "licuadora inmersion",
+    320,
+    0.25,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "pluma de inmersion",
+    320,
+    0.09,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "ahogamiento por inmersion",
+    260,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "termometro de inmersion",
+    260,
+    0.51,
+    "MEDIUM",
+    0,
+    "transactional"
+   ],
+   [
+    "calentador de inmersion",
+    260,
+    0.19,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "aceite de inmersion para microscopia",
+    260,
+    0.19,
+    "MEDIUM",
+    0,
+    "transactional"
+   ],
+   [
+    "baño de inmersion",
+    260,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "galvanizado por inmersion en caliente",
+    260,
+    2.07,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "galvanizado en caliente por inmersion",
+    260,
+    2.07,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "baños de inmersion",
+    260,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "calentadores de inmersion",
+    260,
+    0.19,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "sierra de inmersion makita",
+    260,
+    0.17,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "inmersion sinonimo",
+    210,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "sinonimo de inmersion",
+    210,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "batidora de inmersion oster stick mixer",
+    170,
+    0.11,
+    "MEDIUM",
+    0,
+    "transactional"
+   ],
+   [
+    "licuadora de inmersion cuisinart",
+    170,
+    0.14,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "batidora de inmersion rival",
+    170,
+    0.09,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "bautismo por inmersion",
+    140,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "calentador de inmersion de agua",
+    140,
+    0.08,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "batidora de inmersion rca",
+    140,
+    0.16,
+    "HIGH",
+    54,
+    "transactional"
+   ],
+   [
+    "batidora de inmersion ninja",
+    140,
+    0.17,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "batidora de inmersion kitchenaid",
+    140,
+    0.2,
+    "HIGH",
+    54,
+    "transactional"
+   ],
+   [
+    "batidor de inmersion taurus",
+    140,
+    0.11,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "batidora de inmersion koblenz",
+    140,
+    0.12,
+    "HIGH",
+    0,
+    "navigational"
+   ],
+   [
+    "router de inmersion",
+    140,
+    0.12,
+    "HIGH",
+    0,
+    "navigational"
+   ],
+   [
+    "tinas de inmersion",
+    140,
+    0.43,
+    "HIGH",
+    0,
+    "informational"
+   ],
+   [
+    "batidoras de inmersion",
+    140,
+    0.2,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "batidora de inmersion t fal",
+    110,
+    0.1,
+    "HIGH",
+    null,
+    "transactional"
+   ],
+   [
+    "resistencia de inmersion",
+    110,
+    1.17,
+    "HIGH",
+    0,
+    "informational"
+   ],
+   [
+    "licuadora de inmersion kitchenaid",
+    110,
+    0.26,
+    "HIGH",
+    54,
+    "transactional"
+   ],
+   [
+    "aceite de inmersion para que sirve",
+    110,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "muerte por inmersion",
+    110,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "resistencias de inmersion",
+    110,
+    1.17,
+    "HIGH",
+    0,
+    "informational"
+   ],
+   [
+    "que es el aceite de inmersion",
+    90,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "batidora inmersion oster",
+    90,
+    0.15,
+    "HIGH",
+    0,
+    "transactional"
+   ],
+   [
+    "inmersion que es",
+    90,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ]
+  ],
+  "mex-mineria": [
+   [
+    "mineria de bitcoins",
+    880,
+    0.46,
+    "HIGH",
+    3,
+    "commercial"
+   ],
+   [
+    "mineria de criptomonedas",
+    320,
+    0.54,
+    "HIGH",
+    15,
+    "commercial"
+   ],
+   [
+    "que es la mineria de bitcoins",
+    90,
+    null,
+    "LOW",
+    9,
+    "informational"
+   ],
+   [
+    "que es la mineria de criptomonedas",
+    70,
+    null,
+    "LOW",
+    34,
+    "informational"
+   ],
+   [
+    "mineria criptomonedas",
+    70,
+    1.22,
+    "HIGH",
+    15,
+    "commercial"
+   ],
+   [
+    "criptomonedas mineria",
+    70,
+    1.22,
+    "HIGH",
+    15,
+    "commercial"
+   ],
+   [
+    "como funciona la mineria de criptomonedas",
+    50,
+    null,
+    "LOW",
+    67,
+    "informational"
+   ],
+   [
+    "mineria bitcoins",
+    40,
+    0.68,
+    "MEDIUM",
+    0,
+    "commercial"
+   ],
+   [
+    "mineria de cripto",
+    30,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "mineria cripto",
+    20,
+    0.21,
+    "HIGH",
+    null,
+    "informational"
+   ],
+   [
+    "software de mineria",
+    20,
+    null,
+    "MEDIUM",
+    null,
+    "commercial"
+   ],
+   [
+    "mineria de criptomonedas gratis",
+    20,
+    2.29,
+    "MEDIUM",
+    null,
+    "informational"
+   ],
+   [
+    "que es mineria de criptomonedas",
+    20,
+    null,
+    "LOW",
+    34,
+    "informational"
+   ],
+   [
+    "kit de mineria criptomonedas",
+    10,
+    0.06,
+    "HIGH",
+    null,
+    "commercial"
+   ],
+   [
+    "que significa mineria de bitcoins",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "rig de mineria basico",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "equipos para mineria de criptomonedas",
+    10,
+    0.03,
+    "HIGH",
+    null,
+    "commercial"
+   ],
+   [
+    "que es hacer mineria de criptomonedas",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "mineria ilegal criptomonedas",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "juegos de mineria de criptomonedas",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "mineria de criptomoneda en venezuela",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "mineria de criptoactivos",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "maquinas de mineria criptomonedas",
+    10,
+    null,
+    "HIGH",
+    null,
+    "commercial"
+   ],
+   [
+    "software mineria",
+    10,
+    null,
+    "LOW",
+    56,
+    "commercial"
+   ],
+   [
+    "mineria de criptomonedas con cpu",
+    10,
+    null,
+    "LOW",
+    null,
+    "commercial"
+   ],
+   [
+    "software en mineria",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "rig de mineria criptomonedas",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "que significa mineria de criptomonedas",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "como empezar en la mineria de criptomonedas",
+    10,
+    null,
+    "MEDIUM",
+    null,
+    "informational"
+   ],
+   [
+    "porque es ilegal la mineria de criptomonedas",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "mineria de criptomonedas en mexico",
+    10,
+    null,
+    "LOW",
+    18,
+    "informational"
+   ],
+   [
+    "software de mineria de criptomonedas",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "como hacer mineria de criptomonedas",
+    10,
+    0.26,
+    "MEDIUM",
+    null,
+    "informational"
+   ],
+   [
+    "invertir en mineria de criptomonedas",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "mineria de datos criptomonedas",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "como hacer mineria de bitcoins",
+    10,
+    null,
+    "LOW",
+    80,
+    "informational"
+   ],
+   [
+    "software de mineria de datos",
+    10,
+    null,
+    "LOW",
+    53,
+    "commercial"
+   ],
+   [
+    "calculadora de criptomonedas mineria",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "software mineria de datos",
+    10,
+    null,
+    "LOW",
+    null,
+    "commercial"
+   ],
+   [
+    "mineria ilegal de criptomonedas",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "como es la mineria de criptomonedas",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "mineria de criptomonedas telegram",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "como se hace mineria de criptomonedas",
+    10,
+    null,
+    "MEDIUM",
+    null,
+    "informational"
+   ],
+   [
+    "software utilizados en la mineria",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "que es mineria criptomonedas",
+    10,
+    null,
+    null,
+    34,
+    "informational"
+   ],
+   [
+    "mineria criptomonedas en la nube",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "maquina mineria criptomonedas",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "mineria de criptomonedas pdf",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "tipos de mineria de criptomonedas",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "mejor software de mineria",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "como funciona mineria criptomonedas",
+    10,
+    null,
+    null,
+    67,
+    "informational"
+   ],
+   [
+    "que es una mineria de criptomonedas",
+    10,
+    null,
+    "LOW",
+    34,
+    "informational"
+   ],
+   [
+    "mineria de criptomonedas con celular",
+    10,
+    null,
+    "HIGH",
+    null,
+    "commercial"
+   ],
+   [
+    "mineria con asic",
+    10,
+    null,
+    null,
+    23,
+    "informational"
+   ],
+   [
+    "paginas de mineria de criptomonedas",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "mineria de criptomonedas es legal",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "futuro de la mineria de criptomonedas",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "mineria de criptomonedas online",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "es legal la mineria de criptomonedas",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "mineria criptomonedas chile",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ]
+  ],
+  "mex-whatsminer": [
+   [
+    "whatsminer",
+    170,
+    0.5,
+    "HIGH",
+    13,
+    "informational"
+   ],
+   [
+    "whatsminer m30s",
+    70,
+    0.13,
+    "HIGH",
+    0,
+    "informational"
+   ],
+   [
+    "whatsminer m50",
+    30,
+    0.12,
+    "HIGH",
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m50s",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m20s",
+    10,
+    0.17,
+    "MEDIUM",
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m32",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "microbt whatsminer",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m60",
+    10,
+    0.18,
+    "HIGH",
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m21s",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m63s",
+    10,
+    null,
+    "HIGH",
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m63",
+    10,
+    null,
+    "HIGH",
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer price",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "whatsminer m53",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer 50",
+    10,
+    null,
+    "MEDIUM",
+    null,
+    "informational"
+   ],
+   [
+    "errores whatsminer",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m31s",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m21",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m70",
+    10,
+    null,
+    "MEDIUM",
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m60s",
+    10,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m30s profitability",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer calculator",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "whatsminer m61",
+    10,
+    null,
+    "HIGH",
+    null,
+    "informational"
+   ]
+  ],
+  "ven-antminer": [
+   [
+    "antminer",
+    320,
+    0.85,
+    "LOW",
+    15,
+    "informational"
+   ],
+   [
+    "antminer s19",
+    140,
+    0.47,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s9",
+    110,
+    null,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s21",
+    90,
+    0.35,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s19 pro",
+    50,
+    null,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "s19 antminer",
+    50,
+    1.36,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s19j pro",
+    30,
+    null,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "s9 antminer",
+    30,
+    null,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "antminer s21 pro",
+    30,
+    0.02,
+    "LOW",
+    0,
+    "transactional"
+   ],
+   [
+    "bitmain antminer",
+    30,
+    2.45,
+    "LOW",
+    18,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s21 xp",
+    20,
+    null,
+    "LOW",
+    null,
+    "navigational"
+   ],
+   [
+    "bitmain antminer s21",
+    20,
+    1.02,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "cuanto genera una antminer s19",
+    20,
+    null,
+    "LOW",
+    null,
+    "informational"
+   ],
+   [
+    "antminer l7",
+    20,
+    null,
+    "LOW",
+    2,
+    "transactional"
+   ],
+   [
+    "calculadora antminer",
+    20,
+    0.81,
+    "LOW",
+    22,
+    "informational"
+   ],
+   [
+    "antminer s19 pro precio",
+    20,
+    null,
+    "LOW",
+    0,
+    "commercial"
+   ],
+   [
+    "antminer s19 95th",
+    20,
+    null,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "bitmain antminer s21 xp hydro",
+    20,
+    null,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s9 precio",
+    20,
+    null,
+    "LOW",
+    0,
+    "commercial"
+   ],
+   [
+    "antminer s21 precio",
+    20,
+    null,
+    "LOW",
+    null,
+    "commercial"
+   ],
+   [
+    "asic antminer s21",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "s9 firmware antminer",
+    10,
+    null,
+    null,
+    6,
+    "transactional"
+   ],
+   [
+    "antminer l7 9500",
+    10,
+    null,
+    "LOW",
+    null,
+    "transactional"
+   ],
+   [
+    "silenciador antminer",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer l7 9050m profitability",
+    10,
+    null,
+    null,
+    null,
+    "commercial"
+   ],
+   [
+    "antminer l9 calculator",
+    10,
+    null,
+    null,
+    null,
+    "informational"
+   ],
+   [
+    "cuanto genera una antminer s9",
+    10,
+    null,
+    "LOW",
+    0,
+    "informational"
+   ],
+   [
+    "antminer s9 14th",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer s19 90th",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ],
+   [
+    "antminer ebay",
+    10,
+    null,
+    null,
+    null,
+    "transactional"
+   ]
+  ]
+ },
+ "serp": {
+  "firmware antminer|MX|es": {
+   "bixbit": "#6 /en/firmwares/antminer (EN page, not /es/)",
+   "top": [
+    "shop.bitmain.com",
+    "zeusbtc.com",
+    "hashcore.com/es/firmware/antminer-s19 (ES page)",
+    "youtube (ES tutorial)",
+    "vnish-firmware.com",
+    "bixbit.io/en",
+    "vnish.ru",
+    "nicehash.com (ES blog)",
+    "youtube"
+   ],
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "results": 29,
+   "volatile": true
+  },
+  "firmware whatsminer|VE|es": {
+   "bixbit": "#8 /en/blog/post/announcement-of-whatsminer-firmware (EN blog)",
+   "top": [
+    "cdn.miners.tools/es (x7 in top-16)",
+    "scribd",
+    "youtube (Whatsminer M60 overclocking + AMS video)",
+    "github",
+    "bitcointalk"
+   ],
+   "features": [
+    "ai_overview",
+    "images"
+   ],
+   "results": 16,
+   "note": "short SERP (<60) - not-found != not ranking",
+   "volatile": true
+  }
+ }
+}

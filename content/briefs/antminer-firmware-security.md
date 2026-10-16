@@ -1,8 +1,9 @@
 # Content Brief: Antminer Firmware Security
 **URL:** /en/antminer-firmware/security
 **File:** content/briefs/antminer-firmware-security.md
-**Last updated:** 2026-06-18
-**Priority:** P2
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P0 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Promoted. Rework it into a dev-fee + security page (shared for Antminer and Whatsminer). Volume is n/d, but on the lowest dev fee prompt ePIC is named on 4 of 5 engines and BiXBiT on 0 (GEO 2026-09-25). The priority comes from GEO, not volume.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/dev-fee` (NEW page), Main page content (new page), section priority P0. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer + security reviewer — this page requires accurate security claims]
 
 ---
@@ -23,14 +24,16 @@ Address the highest-anxiety topic in the custom firmware category: "Is this firm
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer firmware security | Primary | — | — |
-| antminer firmware backdoor | High-intent | — | — |
-| antminer dev fee firmware | Commercial concern | — | — |
-| safe antminer custom firmware | Long-tail | — | — |
-| antminer firmware audit | Trust signal | — | — |
-| bitcoin miner firmware security | Broader | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer firmware security | Primary | n/d (<10) | — | — |
+| antminer firmware backdoor | High-intent | n/d (<10) | — | — |
+| antminer dev fee firmware | Commercial concern | n/d (<10) | — | — |
+| safe antminer custom firmware | Long-tail | n/d (<10) | — | — |
+| antminer firmware audit | Trust signal | n/d (<10) | — | — |
+| bitcoin miner firmware security | Broader | n/d (<10) | — | — |
 
 ---
 
@@ -63,7 +66,7 @@ Address the highest-anxiety topic in the custom firmware category: "Is this firm
   1. Monitor your pool dashboard for expected vs actual share submissions over a 24-hour period
   2. Run a network traffic capture (tcpdump/Wireshark) on one unit and inspect outgoing stratum connections [VERIFY: provide example command or methodology]
   3. Use AMS telemetry to track pool connection uptime per unit
-- **BiXBiT position:** [VERIFY: explicit statement — does BiXBiT charge a dev fee? Confirm this is accurate and will remain the business model. Quantify: 0% dev fee, or state the actual fee if there is one. Do not publish a claim that doesn't match the product.]
+- **BiXBiT position:** [VERIFY: explicit statement — does BiXBiT charge a dev fee? Confirm this is accurate and will remain the business model. Quantify: transparent dev fee [VERIFY: 2.8% / 2% M2x]. Do not publish a claim that doesn't match the product.]
 
 ### H2: Backdoors — Types and How They Manifest
 Technical and precise — this section requires engineering review:
@@ -101,7 +104,7 @@ Operator-actionable checklist — the primary value of this page:
 
 ### H2: BiXBiT Firmware — Security Posture
 [This section requires accurate, verified statements — no approximations]
-- Dev fee: [VERIFY: exact fee — state 0% and confirm; or state actual fee if nonzero]
+- Dev fee: [VERIFY: 2026-09 audit found a 2.8% dev fee (2% on Whatsminer M2x); get the current rate from the team before publishing. Don't say "no dev fee" or "lowest dev fee"]
 - External connections: [VERIFY: list all external endpoints contacted by the firmware, purpose of each — e.g., update server, AMS telemetry, no others]
 - Remote access: [VERIFY: what remote access capabilities exist in BiXBiT firmware, if any, and what authentication protects them]
 - Security audit: [VERIFY: has BiXBiT firmware been audited by a third party? If yes, name the auditor and date. If no, state this honestly and describe self-attestation process.]

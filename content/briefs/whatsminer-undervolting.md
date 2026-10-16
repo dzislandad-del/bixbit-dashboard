@@ -1,8 +1,9 @@
 # Content Brief: Whatsminer Undervolting
 **URL:** /en/whatsminer-firmware/undervolting
 **File:** content/briefs/whatsminer-undervolting.md
-**Last updated:** 2026-06-19
-**Priority:** P2
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P2 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Keep P2. Volume n/d.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/whatsminer-all-series` (existing page), H2 Tuning modes → undervolting, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer — requires Whatsminer undervolt benchmark data]
 
 ---
@@ -23,15 +24,17 @@ Capture efficiency-focused Whatsminer operators searching for ways to reduce ele
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| whatsminer undervolting | Primary | — | — |
-| whatsminer undervolt firmware | Primary secondary | — | — |
-| underclock whatsminer m30s | Long-tail | — | — |
-| whatsminer power reduction firmware | Commercial | — | — |
-| microbt undervolting | Broader | — | — |
-| whatsminer efficiency mode | Secondary | — | — |
-| whatsminer lower power consumption | Long-tail | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| whatsminer undervolting | Primary | n/d (<10) | — | — |
+| whatsminer undervolt firmware | Primary secondary | n/d (<10) | — | — |
+| underclock whatsminer m30s | Long-tail | n/d (<10) | — | — |
+| whatsminer power reduction firmware | Commercial | n/d (<10) | — | — |
+| microbt undervolting | Broader | n/d (<10) | — | — |
+| whatsminer efficiency mode | Secondary | n/d (<10) | — | — |
+| whatsminer lower power consumption | Long-tail | n/d (<10) | — | — |
 
 ---
 

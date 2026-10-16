@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "pulled_at": "2026-09-28",
+    "endpoint": "/v3/keywords_data/google_ads/search_volume/live",
+    "note": "Call 1: location Kazakhstan (2398), language ru — proxy for CIS (Russia/Belarus not supported). AI-optimized response truncated to the first 10 of 17 keywords; the rest are not measured. Call 2: no location (worldwide), language es, noAiMode, cost $0.09. Values are Google Ads buckets (10 = threshold). 'vnish' 110000 is an anomaly (likely mixed with an unrelated term) — do not use."
+  },
+  "kz_ru": [
+    {"keyword": "прошивка antminer", "search_volume": 10},
+    {"keyword": "прошивка для асика", "search_volume": null},
+    {"keyword": "прошивка асика", "search_volume": 10},
+    {"keyword": "прошивка whatsminer", "search_volume": 10},
+    {"keyword": "прошивка antminer s19", "search_volume": 10},
+    {"keyword": "прошивка antminer s21", "search_volume": null},
+    {"keyword": "кастомная прошивка antminer", "search_volume": null},
+    {"keyword": "разгон асика", "search_volume": null},
+    {"keyword": "прошивка whatsminer m30s", "search_volume": null},
+    {"keyword": "мониторинг асиков", "search_volume": 10},
+    {"keyword": "иммерсионное охлаждение", "search_volume": "not returned (truncated)"},
+    {"keyword": "коды ошибок whatsminer", "search_volume": "not returned (truncated)"},
+    {"keyword": "прошивка vnish", "search_volume": "not returned (truncated)"},
+    {"keyword": "braiins os", "search_volume": "not returned (truncated)"},
+    {"keyword": "antminer firmware", "search_volume": "not returned (truncated)"},
+    {"keyword": "whatsminer firmware", "search_volume": "not returned (truncated)"},
+    {"keyword": "bixbit", "search_volume": "not returned (truncated)"}
+  ],
+  "worldwide_es": [
+    {"keyword": "firmware antminer", "search_volume": 40, "cpc": 0.7},
+    {"keyword": "firmware para antminer", "search_volume": null},
+    {"keyword": "firmware whatsminer", "search_volume": null},
+    {"keyword": "firmware asic", "search_volume": null},
+    {"keyword": "firmware personalizado antminer", "search_volume": null},
+    {"keyword": "antminer s19 firmware", "search_volume": 50, "cpc": 0.83},
+    {"keyword": "antminer s21 firmware", "search_volume": null},
+    {"keyword": "overclock antminer", "search_volume": 10},
+    {"keyword": "software de monitoreo mineria", "search_volume": null},
+    {"keyword": "monitoreo de asic", "search_volume": null},
+    {"keyword": "refrigeracion por inmersion mineria", "search_volume": null},
+    {"keyword": "refrigeracion por inmersion", "search_volume": 210},
+    {"keyword": "codigos de error whatsminer", "search_volume": null},
+    {"keyword": "braiins os", "search_volume": 1300, "cpc": 3.28},
+    {"keyword": "vnish", "search_volume": 110000, "cpc": 0.15, "flag": "anomaly"},
+    {"keyword": "mineria bitcoin venezuela", "search_volume": null},
+    {"keyword": "mineria bitcoin paraguay", "search_volume": null}
+  ]
+}

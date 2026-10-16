@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-25",
+  "source": "DataForSEO on_page/lighthouse/live/json (mobile, LH 13.4.0, simulated, 1 run) + on_page/instant_pages (JS off unless noted) + on_page/raw_html + serp/google/organic/live/regular",
+  "lighthouse_mobile": {
+    "https://pitbitecosystem.com/en/": {"perf": 0.44, "a11y": 0.88, "bp": 0.73, "seo": 0.58, "agentic": 0.50, "fcp_ms": 3631, "lcp_ms": 10421, "tbt_ms": 570, "cls": 0.05, "ttfb_ms": 1048, "tti_ms": 95478, "bytes": 29857720},
+    "https://pitbitecosystem.com/en/firmware/": {"perf": 0.59, "a11y": 0.80, "bp": 0.73, "seo": 0.58, "agentic": 0.43, "fcp_ms": 3517, "lcp_ms": 3725, "tbt_ms": 535, "cls": 0.119, "ttfb_ms": 253, "bytes": 6451807},
+    "https://pitbit.online/": {"perf": 0.97, "a11y": 0.89, "bp": 0.96, "seo": 0.92, "agentic": 0.67, "fcp_ms": 1977, "lcp_ms": 2277, "tbt_ms": null, "ttfb_ms": 37, "bytes": 131217}
+  },
+  "third_parties_en": ["yandexcloud.net", "Yandex Metrica", "Yandex CDN/APIs", "Jivochat", "TradingView widget", "JSDelivr", "Google Fonts"],
+  "raw_html": {
+    "https://pitbitecosystem.com/en/": {"title": "Home page - PITBIT", "description": "Описание сайта", "keywords": "ключевые слова", "robots_meta": ["noindex, nofollow", "index, follow"], "canonical": null, "hreflang": [], "jsonld": 0, "og": {"og:locale": "ru-RU", "og:title": "", "og:description": ""}, "html_lang": "en", "h1": "Ecosystem for ASIC miner management | firmware", "parse_errors": 11, "same_with_googlebot_ua": true},
+    "https://pitbitecosystem.com/en/firmware/": {"title": "Firmware", "description": "Firmware", "robots_meta": ["noindex, nofollow", "index, follow"], "canonical": null, "hreflang": [], "jsonld": 0, "words": 509},
+    "https://pitbitecosystem.com/en/catalog/firmware/firmware-for-antminer-s21-pro/": {"title": "ASIC Software - Safe Overclocking. Unique System.", "robots_meta": ["noindex, nofollow", "index, follow"], "canonical": null, "hreflang": [], "jsonld": 0},
+    "https://pitbitecosystem.com/": {"lang": "ru", "title": "Прошивки и система управления майнерами (ASIC) | PITBIT", "robots_meta": ["index, follow"], "canonical": "https://pitbitecosystem.com/", "hreflang": [], "jsonld": "@graph Organization(@id, legalName, foundingDate, address, contactPoint, sameAs VK/Telegram/YouTube) + WebSite(@id, SearchAction)", "og_twitter": "full set, og:image = android-chrome-512x512.png"},
+    "https://pitbit.online/": {"title": "PITBIT ONLINE - miners online monitoring system", "description_lang": "ru", "h1": null, "words": 21, "canonical": null, "robots_meta": null, "type": "login app, nav: /openstat /openstatpool /firmware, no link back to pitbitecosystem.com"}
+  },
+  "robots_txt": {"status": 200, "type": "Bitrix default", "sitemap": "https://pitbitecosystem.com/sitemap.xml", "disallow_includes": ["/*pagen", "/*register=", "/*backurl="]},
+  "sitemap": {"index": ["sitemap-files.xml (13 URLs)", "sitemap-iblock-2.xml (29 URLs, 26 RU firmware product pages)"], "lastmod": "auto, per URL, today", "en_urls": 0},
+  "llms_txt": 404,
+  "serp_site_en_us": {"query": "site:pitbitecosystem.com/en/", "organic_results": 4, "urls": ["/en/news/?PAGEN_2=22... x3", "/en/auth/registration.php?register=yes&backurl=..."]}
+}

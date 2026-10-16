@@ -1,0 +1,6143 @@
+{
+ "meta": {
+  "site": "https://bixbit.io/",
+  "start": "2026-08-29",
+  "end": "2026-09-25",
+  "dimensions": [
+   "query",
+   "page"
+  ],
+  "filters": [
+   {
+    "dimension": "page",
+    "operator": "contains",
+    "expression": "/documentation"
+   }
+  ],
+  "search_type": "web",
+  "rows": 765,
+  "pulled_at": "2026-09-28T16:59:55"
+ },
+ "rows": [
+  {
+   "query": "ошибки ватсмайнер",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 28,
+   "impressions": 104,
+   "ctr": 0.2692,
+   "position": 2.7
+  },
+  {
+   "query": "ошибки whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 19,
+   "impressions": 106,
+   "ctr": 0.1792,
+   "position": 2.8
+  },
+  {
+   "query": "ошибки вотсмайнер",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 14,
+   "impressions": 46,
+   "ctr": 0.3043,
+   "position": 2.2
+  },
+  {
+   "query": "whatsminer error code",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 9,
+   "impressions": 64,
+   "ctr": 0.1406,
+   "position": 2.1
+  },
+  {
+   "query": "whatsminer error codes",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 8,
+   "impressions": 36,
+   "ctr": 0.2222,
+   "position": 1.8
+  },
+  {
+   "query": "bixbit прошивка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 7,
+   "impressions": 41,
+   "ctr": 0.1707,
+   "position": 2.2
+  },
+  {
+   "query": "whatsminer ошибки",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 6,
+   "impressions": 18,
+   "ctr": 0.3333,
+   "position": 2.7
+  },
+  {
+   "query": "ошибка ватсмайнер",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 6,
+   "impressions": 32,
+   "ctr": 0.1875,
+   "position": 2.7
+  },
+  {
+   "query": "phoenixcard",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 5,
+   "impressions": 213,
+   "ctr": 0.0235,
+   "position": 5.9
+  },
+  {
+   "query": "error whatsminer",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 2,
+   "impressions": 19,
+   "ctr": 0.1053,
+   "position": 2.1
+  },
+  {
+   "query": "power input under-voltage protection 1. code: 0x40000",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 2,
+   "impressions": 20,
+   "ctr": 0.1,
+   "position": 3.9
+  },
+  {
+   "query": "slot2 reading chip id error",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 2,
+   "impressions": 20,
+   "ctr": 0.1,
+   "position": 4.5
+  },
+  {
+   "query": "whatsminer прошивка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 2,
+   "impressions": 20,
+   "ctr": 0.1,
+   "position": 2.6
+  },
+  {
+   "query": "как отформатировать карту памяти в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 2,
+   "impressions": 55,
+   "ctr": 0.0364,
+   "position": 7.7
+  },
+  {
+   "query": "коды ошибок whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 2,
+   "impressions": 38,
+   "ctr": 0.0526,
+   "position": 2.8
+  },
+  {
+   "query": "540 slot0 reading chip id error",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 16
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 5
+  },
+  {
+   "query": "btc tools v1.3.3",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-3-pool-and-worker-setup",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 1
+  },
+  {
+   "query": "error code whatsminer",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 1,
+   "impressions": 16,
+   "ctr": 0.0625,
+   "position": 2
+  },
+  {
+   "query": "m30s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-immersionnoe-okhlazhdenie",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 5
+  },
+  {
+   "query": "m30s+",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 4
+  },
+  {
+   "query": "miner ip",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 1,
+   "impressions": 8,
+   "ctr": 0.125,
+   "position": 8.4
+  },
+  {
+   "query": "oui les deux",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-immersion-cooling",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 2
+  },
+  {
+   "query": "phoenix card 4.2 7",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 6.5
+  },
+  {
+   "query": "phoenixcard 4.2.8",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 1,
+   "impressions": 5,
+   "ctr": 0.2,
+   "position": 9
+  },
+  {
+   "query": "slot0 reading chip id error",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 1,
+   "impressions": 38,
+   "ctr": 0.0263,
+   "position": 5.7
+  },
+  {
+   "query": "whatsminer m50 прошивка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 1,
+   "impressions": 16,
+   "ctr": 0.0625,
+   "position": 3.6
+  },
+  {
+   "query": "whatsminer официальный сайт",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 1,
+   "impressions": 13,
+   "ctr": 0.0769,
+   "position": 3.6
+  },
+  {
+   "query": "whatsminertool",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 1,
+   "impressions": 77,
+   "ctr": 0.013,
+   "position": 8.1
+  },
+  {
+   "query": "whatsminertool",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 1,
+   "impressions": 3,
+   "ctr": 0.3333,
+   "position": 12
+  },
+  {
+   "query": "как найти ip адрес",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 2
+  },
+  {
+   "query": "как найти асик в сети",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 1,
+   "impressions": 39,
+   "ctr": 0.0256,
+   "position": 6.1
+  },
+  {
+   "query": "майнер whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 1,
+   "impressions": 11,
+   "ctr": 0.0909,
+   "position": 9.4
+  },
+  {
+   "query": "не открывается",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-3-dopolnitelnye-nastroiki-razgona",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 1
+  },
+  {
+   "query": "ошибка 2320 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 1,
+   "impressions": 18,
+   "ctr": 0.0556,
+   "position": 6.1
+  },
+  {
+   "query": "прошивка ватсмайнер м50",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 1,
+   "impressions": 18,
+   "ctr": 0.0556,
+   "position": 3.8
+  },
+  {
+   "query": "%\"asic-rs\" \"change_password\" \"block_on\"",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "1 40",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "1 40",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "1 541 701 240",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 45,
+   "ctr": 0,
+   "position": 5.2
+  },
+  {
+   "query": "110-130",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "111",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "120",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "197",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "200",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "201",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "2010",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "2010",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "202",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "202 ошибка",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "203",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "204",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "205",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "205",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "208",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "230",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "230",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "236",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "257",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "257",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "300-410",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "320",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "4.2.7",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "4.2.7",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "411",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "query": "411",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "412",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "500",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "502",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "52 degrees",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/5-general-recommendations-for-overclocking-and-voltage-levels-on-an-additional-power-supply",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "530",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "540",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 1.5
+  },
+  {
+   "query": "540 error",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "540 error",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "540 slot0 reading chip id error",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 3.8
+  },
+  {
+   "query": "542 slot2 reading chip id error",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 20,
+   "ctr": 0,
+   "position": 3.2
+  },
+  {
+   "query": "542 slot2 reading chip id error",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "55",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "550136",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "560",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "561",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "561",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "562 slot2 loss balance",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "562 slot2 loss balance",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 27
+  },
+  {
+   "query": "600",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "600",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "a altas velocidades",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "air cooled",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "all pools disabled for 2s, please check the network or pools configure.",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 31,
+   "ctr": 0,
+   "position": 6.2
+  },
+  {
+   "query": "ams bixbit",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-3-ams-1",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "ams bixbit",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-additional-functionality-of-bixbit-firmware",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "ams bixbit",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-3-ams-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "antminer a3 overclocking",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 53
+  },
+  {
+   "query": "antminer a3 overclocking",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-5-overclocking-recommendations",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 32
+  },
+  {
+   "query": "antminer a3 overclocking",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 66.6
+  },
+  {
+   "query": "antminer ip reporter",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 35
+  },
+  {
+   "query": "antminer l3+ как настроить",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 55.5
+  },
+  {
+   "query": "antminer l3+ как настроить",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 66.3
+  },
+  {
+   "query": "antminer l7 overclock",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-1-overclocking-settings-page",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7.5
+  },
+  {
+   "query": "antminer l7 overclock firmware",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-2-data-display-setup-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 45
+  },
+  {
+   "query": "antminer l7 overclock firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-1-overclocking-settings-page",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "antminer s11 разгон",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "query": "antminer s21+",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "antminer настройка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 45
+  },
+  {
+   "query": "antminer настройка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 64
+  },
+  {
+   "query": "asic error 0x0002",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "asic error: 0x0002",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "asic interface ip",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-initial-device-setup",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 20
+  },
+  {
+   "query": "asic ip reporter",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 38
+  },
+  {
+   "query": "asic m20s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 45.1
+  },
+  {
+   "query": "asic whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 45,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "query": "asic whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "asic whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 57.4
+  },
+  {
+   "query": "asic whatsminer m20s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 39.3
+  },
+  {
+   "query": "assert",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "best networking solutions for miners?",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/2-connecting-a-device-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 18
+  },
+  {
+   "query": "bitmain ip reporter",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 33
+  },
+  {
+   "query": "bitmain ip reporter",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 43
+  },
+  {
+   "query": "bixberry auth key",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-3-proxy",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/documentation",
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 4.9
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/5-general-recommendations-for-overclocking-and-voltage-levels-on-an-additional-power-supply",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-1-preparation-for-installing-bixbit-firmware",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-4-updating-bixbit-firmware-to-a-newer-version-on-any-control-board-model",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-1-boards-tab",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-3-proxy",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 15
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-1-preparing-the-miner-for-the-dive",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-2-options-available-on-the-overclock-page",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 15.5
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/appendix-1-additional-functionality",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/ru/documentation",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "bixbit ams",
+   "page": "https://bixbit.io/en/documentation",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 85.1
+  },
+  {
+   "query": "bixbit ams",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 92.3
+  },
+  {
+   "query": "bixbit ams",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-1-preparation-for-installing-bixbit-firmware",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 90.5
+  },
+  {
+   "query": "bixbit ams",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-3-ams-1",
+   "clicks": 0,
+   "impressions": 29,
+   "ctr": 0,
+   "position": 33.8
+  },
+  {
+   "query": "bixbit ams",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-additional-functionality-of-bixbit-firmware",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 57.6
+  },
+  {
+   "query": "bixbit ams",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "bixbit ams",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/7-additional-operations",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 92.5
+  },
+  {
+   "query": "bixbit ams",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/appendix-1-3-ams",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 14.4
+  },
+  {
+   "query": "bixbit ams",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-3-ams-1",
+   "clicks": 0,
+   "impressions": 23,
+   "ctr": 0,
+   "position": 51.5
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 70.3
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-power-supply-unit",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/1-delivery-set-of-an-additional-power-supply",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/3-1-assembling-the-modified-feeding-rail-of-the-miner",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/6-example-of-m30s-v70-miner-25-overclocking",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 85
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 91.8
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-1-preparation-for-installing-bixbit-firmware",
+   "clicks": 0,
+   "impressions": 43,
+   "ctr": 0,
+   "position": 18.2
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-2-procedure-for-control-boards-h3-h6-or-h6os",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 43
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-4-updating-bixbit-firmware-to-a-newer-version-on-any-control-board-model",
+   "clicks": 0,
+   "impressions": 26,
+   "ctr": 0,
+   "position": 29
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-firmware-installation-and-update",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 45.4
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/7-additional-operations-1",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 82.5
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-3-proxy",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 87.2
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-additional-functionality-of-bixbit-firmware",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 54.9
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 83.9
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/1-technical-requirements",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 89.3
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-3-pool-and-worker-setup",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 96.5
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-initial-device-setup",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 99.1
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 86.4
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 78.2
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-3-installing-the-updated-version",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 75.8
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 28,
+   "ctr": 0,
+   "position": 24.5
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 59.2
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-immersion-cooling",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 95.5
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-1-overclocking-settings-page",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 94
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 90.8
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/7-additional-operations",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 73.7
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/appendix-1-3-ams",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 94
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/ru/documentation",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 98
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-1-podgotovka-k-ustanovke-proshivki-bixbit",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 99.4
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 100
+  },
+  {
+   "query": "bixbit immersion cooling",
+   "page": "https://bixbit.io/en/documentation",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 99.5
+  },
+  {
+   "query": "bixbit immersion cooling",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/5-1-preparing-the-miner-for-immersion",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 88
+  },
+  {
+   "query": "bixbit immersion cooling",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-immersion-cooling",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 63
+  },
+  {
+   "query": "bixbit immersion cooling",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-2-options-available-on-the-overclock-page",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "bixbit прошивка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-1-podgotovka-k-ustanovke-proshivki-bixbit",
+   "clicks": 0,
+   "impressions": 32,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "bixbit прошивка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-obnovlenie-proshivki-bixbit-na-bolee-novuiu-versiiu-na-liuboi-modeli-kpu",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 12.6
+  },
+  {
+   "query": "bixbit прошивка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "btc tools температура плат",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera",
+   "clicks": 0,
+   "impressions": 63,
+   "ctr": 0,
+   "position": 9.5
+  },
+  {
+   "query": "burn card maker",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 57
+  },
+  {
+   "query": "burn card maker 2.0 3",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "query": "cho xem hình ảnh",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-initial-device-setup-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "code 206",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "code 206",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "control board issues",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "cómo arreglo este error",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "cómo lo reinicio de fabrica",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/7-3-reset-miner-settings-to-factory-values",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "die ip",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "donde consigo",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "donde puedo descargar el programa?",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-firmware-installation-and-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "download whatsminer tool v2 1",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 42.5
+  },
+  {
+   "query": "e013",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "emcd",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "erro 217",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "error 133",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "error 201",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "error 202",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "error 206",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "error 233",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "query": "error 2350",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "error 251",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "error 26",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "error 540",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "espanol",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "ethminer вылетает",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 38
+  },
+  {
+   "query": "fancheck",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2b-disabling-power-supply-fan-check-for-m3x-m5x-series-miners",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "fat16 sd card",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 54
+  },
+  {
+   "query": "fat32 format sd",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "query": "flase",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "how to fix error?",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "how to format a microsd to fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "query": "how to overclock asic miner",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-5-overclocking-recommendations",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 16.8
+  },
+  {
+   "query": "how to overclock whatsminer m3",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-5-overclocking-recommendations",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 16
+  },
+  {
+   "query": "how to overclock whatsminer m3",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "clicks": 0,
+   "impressions": 24,
+   "ctr": 0,
+   "position": 2.2
+  },
+  {
+   "query": "innosilicon t2t разгон",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 26
+  },
+  {
+   "query": "ip bitmain",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 34
+  },
+  {
+   "query": "ip miner",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 11.7
+  },
+  {
+   "query": "ip mining",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 61.8
+  },
+  {
+   "query": "ip reporter antminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 38
+  },
+  {
+   "query": "ip reporter bitmain",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 32
+  },
+  {
+   "query": "ipacanner",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 54
+  },
+  {
+   "query": "kernel.bio.link",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-3-installing-the-updated-version",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "m20 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 27
+  },
+  {
+   "query": "m30s",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "m30s",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/5-2-disabling-main-fan-checks-on-the-device",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "m30s",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2b-disabling-power-supply-fan-check-for-m3x-m5x-series-miners",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "m30s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "m30s whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "m30s+",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/6-example-of-m30s-v70-miner-25-overclocking",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "m30s+",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-immersion-cooling",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "m30s+",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "m30s+",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2-otkliuchenie-proverki-osnovnykh-ventiliatorov-na-ustroistve",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "m30s+",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-3-otkliuchenie-proverki-ventiliatorov-bloka-pitaniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "m30s+",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-immersionnoe-okhlazhdenie",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "m30s+",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "m30s++",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "m30s++",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "m31s whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "query": "m31s асик",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 23.5
+  },
+  {
+   "query": "m31s+",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "m32s",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "m50",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4.5
+  },
+  {
+   "query": "m50",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "m50",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "m50",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2-otkliuchenie-proverki-osnovnykh-ventiliatorov-na-ustroistve",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "m50",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-immersionnoe-okhlazhdenie",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "m50",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "m50 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 27.8
+  },
+  {
+   "query": "m60",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "m61",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "m61s+",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "manufacturing default",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/7-3-reset-miner-settings-to-factory-values",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "microbt whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 23.3
+  },
+  {
+   "query": "microbt whatsminer d1",
+   "page": "https://bixbit.io/en/documentation",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 60.5
+  },
+  {
+   "query": "microbt whatsminer d1",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 38.3
+  },
+  {
+   "query": "miner advanced configuration",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "miner configuration",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-initial-device-setup-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "miner fan speed error",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 20.3
+  },
+  {
+   "query": "miner firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 42
+  },
+  {
+   "query": "miner ip address",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 4.7
+  },
+  {
+   "query": "mining board communication error",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 29
+  },
+  {
+   "query": "mining board firmware repair",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 31.5
+  },
+  {
+   "query": "mining controller firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 50
+  },
+  {
+   "query": "mining machine",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/1-delivery-set-of-an-additional-power-supply",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "mining server configuration guide",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-initial-device-setup",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 36.5
+  },
+  {
+   "query": "mobile miner как пользоваться",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 59.5
+  },
+  {
+   "query": "mskminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 67
+  },
+  {
+   "query": "normal",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "overclock asic miner",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "clicks": 0,
+   "impressions": 22,
+   "ctr": 0,
+   "position": 11.9
+  },
+  {
+   "query": "overclocking antminers",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 23.5
+  },
+  {
+   "query": "overclocking asic miners",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 42.5
+  },
+  {
+   "query": "overclocking asic miners",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-5-overclocking-recommendations",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 51
+  },
+  {
+   "query": "overclocking asic miners",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 14.4
+  },
+  {
+   "query": "p222b",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2-obnovlenie-proshivki-bloka-pitaniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 27
+  },
+  {
+   "query": "phenix card",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "pheonixcard",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "phoenix card 4.1.2",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 12.5
+  },
+  {
+   "query": "phoenix card 4.2.7",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 9.8
+  },
+  {
+   "query": "phoenix card 4.2.8",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "phoenixcard",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 21
+  },
+  {
+   "query": "phoenixcard 3.1",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10.5
+  },
+  {
+   "query": "phoenixcard 3.10 download",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 13
+  },
+  {
+   "query": "phoenixcard 4.2 7",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "phoenixcard 4.2 8",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 9.2
+  },
+  {
+   "query": "phoenixcard 4.2 8 скачать",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "phoenixcard 4.2.7",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "phoenixcard tool",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "phoenixcard v4.1.2",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "query": "phoenixcard v4.2.4",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "phoenixcard v4.2.8",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "phoenixcard windows",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "phoenixcard.exe",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 3.5
+  },
+  {
+   "query": "phoenixcardv306",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "phoneix card",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "phonex card",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "phonix card",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "pool",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-3-pool-and-worker-setup",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "power input under-voltage protection 1. code: 0x40000",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 59.5
+  },
+  {
+   "query": "power mining",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "query": "power over-temperature warning. code: 0x40000000000",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "psu firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 6.9
+  },
+  {
+   "query": "psu update",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10.5
+  },
+  {
+   "query": "que ha pasado?",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-3-2-writing-an-image-to-the-sd-card",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "que ha pasado?",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "que hago",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "razgon_modnikov.wmv",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-3-dopolnitelnye-nastroiki-razgona",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 74
+  },
+  {
+   "query": "reboot all",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "s19j pro",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "s21+",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "s21+ 235",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "s30+",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "s30+",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "si arranco",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "si arranco",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "si ya me di cuenta",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-firmware-installation-and-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "si ya me di cuenta",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "si ya me di cuenta",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "sim por favor",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-initial-device-setup-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "site:bixbit.io",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-power-supply-unit",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 22
+  },
+  {
+   "query": "site:bixbit.io",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-initial-device-setup-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 97
+  },
+  {
+   "query": "site:bixbit.io",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-1-boards-tab",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "query": "site:bixbit.io",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/2-connecting-a-device",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 67.5
+  },
+  {
+   "query": "site:bixbit.io",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-4-general-overclocking-strategy",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 63
+  },
+  {
+   "query": "site:bixbit.io",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/appendix-1-additional-functionality",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 43
+  },
+  {
+   "query": "site:bixbit.io",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-bloka-pitaniia/poriadok-podkliucheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "query": "site:bixbit.io",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 65.5
+  },
+  {
+   "query": "site:bixbit.io",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-dopolnitelnye-operatsii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 26
+  },
+  {
+   "query": "slot1 loss balance",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5.5
+  },
+  {
+   "query": "slot1 reading chip id error",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "slot2 loss balance",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "query": "sm0",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "sm0 sm1 sm2",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "query": "solo eso",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "tanque de inmersion",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "vnish presets undervolting overclocking efficiency",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/5-general-recommendations-for-overclocking-and-voltage-levels-on-an-additional-power-supply",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 15.5
+  },
+  {
+   "query": "warning: there are 1 errors that affect the machine running!",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "wat to mine",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "watsmainer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "watsminer",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "watsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 8.8
+  },
+  {
+   "query": "watsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "watsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "what about overclocking?",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-5-overclocking-recommendations",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 13
+  },
+  {
+   "query": "whatminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 36,
+   "ctr": 0,
+   "position": 6.4
+  },
+  {
+   "query": "whats miner",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "whatsmainer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7.5
+  },
+  {
+   "query": "whatsmi ip",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 4.7
+  },
+  {
+   "query": "whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 340,
+   "ctr": 0,
+   "position": 7.9
+  },
+  {
+   "query": "whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 64.7
+  },
+  {
+   "query": "whatsminer 31s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 15.8
+  },
+  {
+   "query": "whatsminer asic",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 37,
+   "ctr": 0,
+   "position": 5.2
+  },
+  {
+   "query": "whatsminer asic",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 57.2
+  },
+  {
+   "query": "whatsminer asic",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 28
+  },
+  {
+   "query": "whatsminer custom firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 73.6
+  },
+  {
+   "query": "whatsminer custom firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 75.2
+  },
+  {
+   "query": "whatsminer custom firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 70.1
+  },
+  {
+   "query": "whatsminer custom firmware",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "whatsminer d1",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 16.7
+  },
+  {
+   "query": "whatsminer d1",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 72.5
+  },
+  {
+   "query": "whatsminer download",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 67.5
+  },
+  {
+   "query": "whatsminer download",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 79.2
+  },
+  {
+   "query": "whatsminer error",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "whatsminer error code",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "whatsminer error codes",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 14.3
+  },
+  {
+   "query": "whatsminer error codes",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "whatsminer firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 10.1
+  },
+  {
+   "query": "whatsminer firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 93,
+   "ctr": 0,
+   "position": 60.2
+  },
+  {
+   "query": "whatsminer firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "whatsminer firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 87,
+   "ctr": 0,
+   "position": 72.9
+  },
+  {
+   "query": "whatsminer firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 61
+  },
+  {
+   "query": "whatsminer firmware download",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 66.1
+  },
+  {
+   "query": "whatsminer firmware download",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 81.5
+  },
+  {
+   "query": "whatsminer firmware update",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "query": "whatsminer firmware update",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 51.4
+  },
+  {
+   "query": "whatsminer firmware update",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 82.3
+  },
+  {
+   "query": "whatsminer firmware update",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 78.3
+  },
+  {
+   "query": "whatsminer immersion firmware",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-power-supply-unit",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 7.3
+  },
+  {
+   "query": "whatsminer immersion firmware",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/1-delivery-set-of-an-additional-power-supply",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 13
+  },
+  {
+   "query": "whatsminer immersion firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 83.4
+  },
+  {
+   "query": "whatsminer immersion firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 85.8
+  },
+  {
+   "query": "whatsminer immersion firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-immersion-cooling",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 28.6
+  },
+  {
+   "query": "whatsminer m",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 32,
+   "ctr": 0,
+   "position": 8.1
+  },
+  {
+   "query": "whatsminer m 20",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "whatsminer m 50",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "whatsminer m1",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 85
+  },
+  {
+   "query": "whatsminer m1",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "query": "whatsminer m10",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 30
+  },
+  {
+   "query": "whatsminer m2",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 22,
+   "ctr": 0,
+   "position": 23.5
+  },
+  {
+   "query": "whatsminer m2",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 88.5
+  },
+  {
+   "query": "whatsminer m20",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 35
+  },
+  {
+   "query": "whatsminer m20 характеристики",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "whatsminer m20 что майнит",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "whatsminer m20s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 63.5
+  },
+  {
+   "query": "whatsminer m20s firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 72.5
+  },
+  {
+   "query": "whatsminer m20s firmware download",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 62.4
+  },
+  {
+   "query": "whatsminer m21",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 60
+  },
+  {
+   "query": "whatsminer m21s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 66.4
+  },
+  {
+   "query": "whatsminer m21s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 37.3
+  },
+  {
+   "query": "whatsminer m21s 56t",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 31.6
+  },
+  {
+   "query": "whatsminer m21s firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 60.2
+  },
+  {
+   "query": "whatsminer m21s firmware download",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 57.8
+  },
+  {
+   "query": "whatsminer m21s прошивка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 22.9
+  },
+  {
+   "query": "whatsminer m21s прошивка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "query": "whatsminer m3",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 20,
+   "ctr": 0,
+   "position": 30.8
+  },
+  {
+   "query": "whatsminer m3",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 78.3
+  },
+  {
+   "query": "whatsminer m3 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 74
+  },
+  {
+   "query": "whatsminer m3 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 79.7
+  },
+  {
+   "query": "whatsminer m3 overclock",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/5-general-recommendations-for-overclocking-and-voltage-levels-on-an-additional-power-supply",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 94.4
+  },
+  {
+   "query": "whatsminer m3 overclock",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/6-example-of-m30s-v70-miner-25-overclocking",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 46.9
+  },
+  {
+   "query": "whatsminer m3 overclock",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-1-overclocking-settings-page",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 97
+  },
+  {
+   "query": "whatsminer m3 overclock",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-2-options-available-on-the-overclock-page",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 90.1
+  },
+  {
+   "query": "whatsminer m3 overclock",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 80.2
+  },
+  {
+   "query": "whatsminer m3 overclock",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-4-general-overclocking-strategy",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 97.3
+  },
+  {
+   "query": "whatsminer m3 overclock",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-5-overclocking-recommendations",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 51.6
+  },
+  {
+   "query": "whatsminer m3 overclock",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "clicks": 0,
+   "impressions": 34,
+   "ctr": 0,
+   "position": 1.6
+  },
+  {
+   "query": "whatsminer m3 tools",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "query": "whatsminer m3 tools",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "query": "whatsminer m3 настройка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "whatsminer m3 настройка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-2-nastroika-otobrazheniia-dannykh",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 51.5
+  },
+  {
+   "query": "whatsminer m3 настройка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 73
+  },
+  {
+   "query": "whatsminer m3 настройка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 97
+  },
+  {
+   "query": "whatsminer m3 настройка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 92
+  },
+  {
+   "query": "whatsminer m3 настройка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 36
+  },
+  {
+   "query": "whatsminer m3 настройка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "query": "whatsminer m30",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "whatsminer m30 s характеристики",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "whatsminer m30 прошивка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 26.8
+  },
+  {
+   "query": "whatsminer m30s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "whatsminer m30s 112t",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 100
+  },
+  {
+   "query": "whatsminer m30s доходность",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "whatsminer m30s прошивка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 26.2
+  },
+  {
+   "query": "whatsminer m30s прошивка bixbit",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "query": "whatsminer m30s прошивка bixbit",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "whatsminer m30s прошивка bixbit",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-1-podgotovka-k-ustanovke-proshivki-bixbit",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 23.4
+  },
+  {
+   "query": "whatsminer m30s прошивка bixbit",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 4.7
+  },
+  {
+   "query": "whatsminer m30s характеристики",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "whatsminer m30s что майнит",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "whatsminer m31",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 26.7
+  },
+  {
+   "query": "whatsminer m31s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 21,
+   "ctr": 0,
+   "position": 33.6
+  },
+  {
+   "query": "whatsminer m31s характеристики",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "whatsminer m32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 76.1
+  },
+  {
+   "query": "whatsminer m32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 35.9
+  },
+  {
+   "query": "whatsminer m33",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 20
+  },
+  {
+   "query": "whatsminer m3x",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "query": "whatsminer m3x",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 74
+  },
+  {
+   "query": "whatsminer m3x 12.5 th s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "query": "whatsminer m50",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "whatsminer m50",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-3-pool-and-worker-setup",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "whatsminer m50",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 19.5
+  },
+  {
+   "query": "whatsminer m50 118 th s доходность",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "whatsminer m50 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 66.1
+  },
+  {
+   "query": "whatsminer m50 размер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "whatsminer m50 характеристики",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9.5
+  },
+  {
+   "query": "whatsminer m53 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 73.3
+  },
+  {
+   "query": "whatsminer m53 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 71.2
+  },
+  {
+   "query": "whatsminer m53 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-3-installing-the-updated-version",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 70.5
+  },
+  {
+   "query": "whatsminer m53 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 72.7
+  },
+  {
+   "query": "whatsminer m53s firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 69.8
+  },
+  {
+   "query": "whatsminer m53s firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 67.8
+  },
+  {
+   "query": "whatsminer m53s firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-3-installing-the-updated-version",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 67
+  },
+  {
+   "query": "whatsminer m53s firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 69.4
+  },
+  {
+   "query": "whatsminer m53s firmware",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 74
+  },
+  {
+   "query": "whatsminer m60 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 62.3
+  },
+  {
+   "query": "whatsminer m60 габариты",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "whatsminer m60 размер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "whatsminer m60 характеристики",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "whatsminer m61 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 49.4
+  },
+  {
+   "query": "whatsminer m61 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 66.7
+  },
+  {
+   "query": "whatsminer m63 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 74.5
+  },
+  {
+   "query": "whatsminer m63 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 77.1
+  },
+  {
+   "query": "whatsminer m63 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 75.2
+  },
+  {
+   "query": "whatsminer m63 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 67.4
+  },
+  {
+   "query": "whatsminer m63 firmware",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 79.3
+  },
+  {
+   "query": "whatsminer m63 hydro характеристики",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "whatsminer m63s hydro характеристики",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "whatsminer m63s hydro что майнит",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "whatsminer m66 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 66.1
+  },
+  {
+   "query": "whatsminer m66 firmware",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 68.4
+  },
+  {
+   "query": "whatsminer m66 firmware",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 72.2
+  },
+  {
+   "query": "whatsminer m66s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "whatsminer m66s характеристики",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "whatsminer power supply",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 5.9
+  },
+  {
+   "query": "whatsminer power supply",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/1-komplektatsiia-postavki-dopolnitelnogo-boka-pitaniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 36
+  },
+  {
+   "query": "whatsminer s30",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 23,
+   "ctr": 0,
+   "position": 11.3
+  },
+  {
+   "query": "whatsminer software",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 68.2
+  },
+  {
+   "query": "whatsminer software",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 74.9
+  },
+  {
+   "query": "whatsminer tool",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 28
+  },
+  {
+   "query": "whatsminer tool descargar",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 80,
+   "ctr": 0,
+   "position": 25.4
+  },
+  {
+   "query": "whatsminer tool download",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 37,
+   "ctr": 0,
+   "position": 26.5
+  },
+  {
+   "query": "whatsminer tool software download",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 58.4
+  },
+  {
+   "query": "whatsminer tool скачать",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "whatsminer tools",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 31
+  },
+  {
+   "query": "whatsminer tools software",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 61.2
+  },
+  {
+   "query": "whatsminer tools software",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "query": "whatsminer tools скачать",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "whatsminer warranty check",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 26
+  },
+  {
+   "query": "whatsminer официальный сайт",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 14.5
+  },
+  {
+   "query": "whatsminer ошибки",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 10.6
+  },
+  {
+   "query": "whatsminertool",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "query": "whatsminertool",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "whatsminertool",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-dopolnitelnye-operatsii",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "query": "whatsminertool скачать",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/1-tekhnicheskie-trebovaniia",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "whatsminertool скачать",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 5.5
+  },
+  {
+   "query": "whatsminertools",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 5.2
+  },
+  {
+   "query": "whatspower p21",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-bloka-pitaniia/poriadok-podkliucheniia",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 8.3
+  },
+  {
+   "query": "whattominer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "where the sensor located",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "wmoc",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "wo bekomme ich die firmware her",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "x96q прошивка через sd карту",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "yam miner",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-3-ams-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 28
+  },
+  {
+   "query": "yam майнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-3-ams-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 16
+  },
+  {
+   "query": "а",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "а",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-2-eksport-logov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "а через флешку",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "асик",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "асик m31s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 22
+  },
+  {
+   "query": "асик whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "асик whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "асик ватсмайнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "асик м31s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 17.3
+  },
+  {
+   "query": "асик м50",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "без модификации",
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/6-example-of-m30s-v70-miner-25-overclocking",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "блок питания для асика",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/3-2-ustanovka-bloka-pitaniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 38
+  },
+  {
+   "query": "блоки питания для asic",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/3-2-ustanovka-bloka-pitaniia",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 19.3
+  },
+  {
+   "query": "большие связи",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-initial-device-setup-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "ватсмайнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 22,
+   "ctr": 0,
+   "position": 8.2
+  },
+  {
+   "query": "вентиляция для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-immersionnoe-okhlazhdenie",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 91
+  },
+  {
+   "query": "вотсмайнер",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "вотсмайнер",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "query": "вотсмайнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "query": "вотсмайнер м30s",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 10.7
+  },
+  {
+   "query": "все",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "все",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "второе",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "где скачать образ",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "гет асик",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/appendix-1-3-ams",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 14.7
+  },
+  {
+   "query": "да",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-3-pool-and-worker-setup",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "да",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "дай ссылку на статью",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "даунвольтинг вацмайнера на прошивке вниш",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "даунвольтинг вацмайнера на прошивке вниш",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "даунвольтинг вацмайнера на прошивке вниш",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "диагностика",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "кабель для асика whatsminer",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/1-komplektatsiia-postavki-dopolnitelnogo-boka-pitaniia",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "query": "кабель для асика whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 19.8
+  },
+  {
+   "query": "кабель для асика whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 13.7
+  },
+  {
+   "query": "как во вниш узнать лог асика",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-2-eksport-logov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "как найти ip адрес асика",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "query": "как найти айпи адрес асика",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 7.7
+  },
+  {
+   "query": "как найти айпи адрес асика",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 43.5
+  },
+  {
+   "query": "как настроить asic",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "как настроить phoenixminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 61
+  },
+  {
+   "query": "как настроить асик",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "query": "как настроить асик",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 29.2
+  },
+  {
+   "query": "как настроить асик",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "query": "как настроить майнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 37
+  },
+  {
+   "query": "как настроить майнинг",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 73.2
+  },
+  {
+   "query": "как отформатировать microsd в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 5.3
+  },
+  {
+   "query": "как отформатировать sd карту в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 39,
+   "ctr": 0,
+   "position": 6.3
+  },
+  {
+   "query": "как отформатировать sd-карту в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 7.2
+  },
+  {
+   "query": "как отформатировать карту памяти 128 гб в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 21
+  },
+  {
+   "query": "как отформатировать микро сд в фат32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "как отформатировать сд карту в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 6.4
+  },
+  {
+   "query": "как перепрошить",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "как перепрошить",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "как перепрошить sd карту",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 22
+  },
+  {
+   "query": "как перепрошить карту памяти",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 36.5
+  },
+  {
+   "query": "как подключить асик",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 87
+  },
+  {
+   "query": "как подключить асик",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 39
+  },
+  {
+   "query": "как подключить асик",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 35.3
+  },
+  {
+   "query": "как подключить асик",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "query": "как подключить асик для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 35
+  },
+  {
+   "query": "как подключить асик к мобильному интернету",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 55.3
+  },
+  {
+   "query": "как подключить асик к мобильному интернету",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 31.9
+  },
+  {
+   "query": "как подключить асик к мобильному интернету",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 45.6
+  },
+  {
+   "query": "как подключить асик к мобильному интернету",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 64.5
+  },
+  {
+   "query": "как подключить асик к пулу",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "query": "как подключить асик к пулу",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 32,
+   "ctr": 0,
+   "position": 7.1
+  },
+  {
+   "query": "как подключить асик к пулу",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 74.5
+  },
+  {
+   "query": "как подключить асик майнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 24
+  },
+  {
+   "query": "как подключить асик майнер к компьютеру",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "query": "как подключить асик майнер к компьютеру",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 32
+  },
+  {
+   "query": "как подключить асик майнер к компьютеру",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 63
+  },
+  {
+   "query": "как подключить майнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 34.8
+  },
+  {
+   "query": "как подключить майнер к компьютеру",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 38
+  },
+  {
+   "query": "как подключить майнер к компьютеру",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 42
+  },
+  {
+   "query": "как подключить майнер к компьютеру",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 35
+  },
+  {
+   "query": "как подключить майнер к пулу",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "query": "как подключить майнинг",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 23,
+   "ctr": 0,
+   "position": 90.5
+  },
+  {
+   "query": "как подключить майнинг",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 22,
+   "ctr": 0,
+   "position": 75.5
+  },
+  {
+   "query": "как подключить майнинг",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 23,
+   "ctr": 0,
+   "position": 57.5
+  },
+  {
+   "query": "как подключить майнинг",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 21,
+   "ctr": 0,
+   "position": 86.3
+  },
+  {
+   "query": "как подключиться к пулу для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 37.8
+  },
+  {
+   "query": "как понять есть интернет или нет",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "как поставить майнер в автозагрузку",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 55
+  },
+  {
+   "query": "как проверить пинг",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "как прошить карту памяти",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "query": "как прошить сд карту",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "query": "как сбросить до заводских",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "как синхронизировать блоки питания для майнинга",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/3-2-ustanovka-bloka-pitaniia",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 60.5
+  },
+  {
+   "query": "как синхронизировать блоки питания для майнинга",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/5-obshchie-rekomendatsii-po-razgonu-i-urovniu-napriazheniia-na-dopolnitelnom-bloke-pitaniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 45
+  },
+  {
+   "query": "как удалить майнинг",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "как узнать ip адрес асика",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 5.4
+  },
+  {
+   "query": "как узнать ip асика",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "какое по",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "коды ошибок whatsminer",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 22.2
+  },
+  {
+   "query": "коды ошибок whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 9.8
+  },
+  {
+   "query": "коды ошибок whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 39
+  },
+  {
+   "query": "м 30",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "м21 асик",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "query": "м30",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "м50",
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-firmware-installation-and-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "м50",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "м50",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "м50",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "м50",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "м50",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "м50",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "м60",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "м61 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "м64",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "майнер не запускается",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 50
+  },
+  {
+   "query": "майнер не запускается",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 29.2
+  },
+  {
+   "query": "майнер устройство",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "майнинг настройка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 75.2
+  },
+  {
+   "query": "майнинг разгон",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "clicks": 0,
+   "impressions": 44,
+   "ctr": 0,
+   "position": 70.5
+  },
+  {
+   "query": "майнинг разгон",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-3-dopolnitelnye-nastroiki-razgona",
+   "clicks": 0,
+   "impressions": 36,
+   "ctr": 0,
+   "position": 51.8
+  },
+  {
+   "query": "майнинг разгон",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 90.8
+  },
+  {
+   "query": "майнинг разгон",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 43,
+   "ctr": 0,
+   "position": 54.5
+  },
+  {
+   "query": "мигает красный индикатор",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "на s19xp на внишевской прошивке идет перезагрузка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "на русском давай",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "на русском давай",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "на русском языке",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "на русском языке",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "на русском языке",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "найти ip адрес",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "найти айпи",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "написать свой майнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "query": "написать свой майнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 93
+  },
+  {
+   "query": "настройка асика",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 28
+  },
+  {
+   "query": "настройка асика для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 12.5
+  },
+  {
+   "query": "настройка майнера",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "не открывается",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "не получилось",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "нужна ссылка",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "нужна ссылка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "нужна ссылка",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-3-otkliuchenie-proverki-ventiliatorov-bloka-pitaniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "отформатировать sd карту в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 6.2
+  },
+  {
+   "query": "отформатировать карту памяти в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "query": "охлаждение для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-immersionnoe-okhlazhdenie",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 67.8
+  },
+  {
+   "query": "ошибка",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "ошибка 0x0000001",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "ошибка 167",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "ошибка 200",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "ошибка 2010",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "ошибка 2010",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 2.4
+  },
+  {
+   "query": "ошибка 2010 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 3.3
+  },
+  {
+   "query": "ошибка 203",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "ошибка 205",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "ошибка 206 whatsminer",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 16.4
+  },
+  {
+   "query": "ошибка 206 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 25.6
+  },
+  {
+   "query": "ошибка 206 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "ошибка 210 whatsminer m21s",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 15.2
+  },
+  {
+   "query": "ошибка 210 whatsminer m21s",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "query": "ошибка 210 whatsminer m21s",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 4.3
+  },
+  {
+   "query": "ошибка 217 whatsminer",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 17
+  },
+  {
+   "query": "ошибка 217 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 14
+  },
+  {
+   "query": "ошибка 217 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 3.6
+  },
+  {
+   "query": "ошибка 217 whatsminer как исправить",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "query": "ошибка 2320 whatsminer",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 12.9
+  },
+  {
+   "query": "ошибка 2320 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 22.8
+  },
+  {
+   "query": "ошибка 280",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "ошибка 540",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 5.8
+  },
+  {
+   "query": "ошибка 540 whatsminer",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 22
+  },
+  {
+   "query": "ошибка 540 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 23.6
+  },
+  {
+   "query": "ошибка 540 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 29,
+   "ctr": 0,
+   "position": 1.8
+  },
+  {
+   "query": "ошибка 542",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "ошибка 560 whatsminer",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 16.5
+  },
+  {
+   "query": "ошибка 560 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 23.8
+  },
+  {
+   "query": "ошибка 560 whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 22,
+   "ctr": 0,
+   "position": 3.5
+  },
+  {
+   "query": "ошибка 561",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "ошибка ватсмайнер",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "ошибки whatsminer",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 27
+  },
+  {
+   "query": "ошибки whatsminer",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 24,
+   "ctr": 0,
+   "position": 10.7
+  },
+  {
+   "query": "ошибки whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 34.3
+  },
+  {
+   "query": "ошибки ватсмайнер",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 34
+  },
+  {
+   "query": "ошибки ватсмайнер",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 10.4
+  },
+  {
+   "query": "ошибки ватсмайнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "ошибки вотсмайнер",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 9.2
+  },
+  {
+   "query": "ошибки при майнинге",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 44,
+   "ctr": 0,
+   "position": 69
+  },
+  {
+   "query": "ошибки при майнинге",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 54,
+   "ctr": 0,
+   "position": 10.6
+  },
+  {
+   "query": "перезагрузка майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 0,
+   "impressions": 25,
+   "ctr": 0,
+   "position": 44.6
+  },
+  {
+   "query": "подключение асика",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 28
+  },
+  {
+   "query": "подключение асика к пулу",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "покажи в картинках",
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "программа для форматирования sd-карт в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 10.4
+  },
+  {
+   "query": "прокси для bybit",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-1-vkladka-proxy",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 30.2
+  },
+  {
+   "query": "прокси для bybit",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-dopolnitelnyi-funktsional",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 50.2
+  },
+  {
+   "query": "прокси для whitebit",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-dopolnitelnyi-funktsional",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 59.7
+  },
+  {
+   "query": "прокси для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-1-vkladka-proxy",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 14.7
+  },
+  {
+   "query": "прочитай",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "прошивка microsd карты",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 18
+  },
+  {
+   "query": "прошивка whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 1.7
+  },
+  {
+   "query": "прошивка whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-1-stranitsa-s-nastroikami-razgona",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "прошивка whatsminer m31s",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 27
+  },
+  {
+   "query": "прошивка whatsminer m61",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 23.7
+  },
+  {
+   "query": "прошивка биоса для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 42,
+   "ctr": 0,
+   "position": 77.6
+  },
+  {
+   "query": "прошивка биоса для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2-obnovlenie-proshivki-bloka-pitaniia",
+   "clicks": 0,
+   "impressions": 44,
+   "ctr": 0,
+   "position": 73.5
+  },
+  {
+   "query": "прошивка вниш whatsminer",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "прошивка вотсмайнер",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 2.7
+  },
+  {
+   "query": "прошивка для asic whatsminer серии m3x",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 22,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "прошивка карты памяти microsd",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 19.6
+  },
+  {
+   "query": "прошивки для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-1-podgotovka-k-ustanovke-proshivki-bixbit",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 97
+  },
+  {
+   "query": "прошивки для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 25,
+   "ctr": 0,
+   "position": 86.4
+  },
+  {
+   "query": "рабочая температура асика",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 5.5
+  },
+  {
+   "query": "разгон r9 390 для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "query": "разгон r9 майнинг",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 41
+  },
+  {
+   "query": "разгон r9 майнинг",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-3-dopolnitelnye-nastroiki-razgona",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 69.2
+  },
+  {
+   "query": "разгон r9 майнинг",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 58
+  },
+  {
+   "query": "разгон r9 майнинг",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 42,
+   "ctr": 0,
+   "position": 42.2
+  },
+  {
+   "query": "разгон для майнинга",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 63.5
+  },
+  {
+   "query": "разгон для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-3-dopolnitelnye-nastroiki-razgona",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 59.8
+  },
+  {
+   "query": "разгон для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 87
+  },
+  {
+   "query": "разгон для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 0,
+   "impressions": 44,
+   "ctr": 0,
+   "position": 45.4
+  },
+  {
+   "query": "расшифруй ошибки",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "температура для майнинга",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera",
+   "clicks": 0,
+   "impressions": 31,
+   "ctr": 0,
+   "position": 35.9
+  },
+  {
+   "query": "температура чипов antminer s9",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "query": "трастпул",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "узнать ip",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 7.7
+  },
+  {
+   "query": "узнать айпи",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "уходит в защиту",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "форматирование sd карты fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 6.2
+  },
+  {
+   "query": "форматирование sd карты в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "query": "форматировать sd карту в fat32",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "что за ошибка",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 1.7
+  },
+  {
+   "query": "что за ошибка",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "что за ошибка?",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "что за ошибка?",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "query": "что за ошибки",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "что не так",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "что такое hw в асике",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 67
+  },
+  {
+   "query": "что такое hw в асике",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 88
+  },
+  {
+   "query": "что такое hw в асике",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 80.5
+  },
+  {
+   "query": "что такое форматирование sd карты",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 30
+  },
+  {
+   "query": "что такое форматирование карты памяти",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 34.2
+  },
+  {
+   "query": "что это за ошибки",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "шератон майнинг",
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-2-hotel-fee",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 32.4
+  },
+  {
+   "query": "шумобокс",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "это другой",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "query": "як перевірити чи він працює",
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "query": "ارور 206 ماینر",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 9.6
+  },
+  {
+   "query": "ارور 541 واتس ماینر",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "ارور 600 واتس ماینر",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "query": "ارور های واتس ماینر",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "query": "ارور واتس ماینر",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "query": "اي العطل",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "خطاهای واتس ماینر",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "query": "خطای 206 ماینر",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "query": "ماينر m30",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "query": "ماينر m30",
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "query": "什么问题",
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  }
+ ]
+}

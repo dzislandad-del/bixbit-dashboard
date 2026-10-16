@@ -1,0 +1,827 @@
+{
+  "id": "09251231-2548-0634-0000-e0986f7a2923",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "total_count": 4,
+  "items": [
+    {
+      "platform": "chat_gpt",
+      "model_name": "gpt-5-6",
+      "question": "which mining pool is most profitable?",
+      "answer": "If you mean **Bitcoin (SHA-256) mining**, there isn't one pool that's *always* the most profitable—the answer depends mainly on **pool fee, payout model, transaction-fee treatment, and your miner's hashrate**.\n\nAs of August 2026, I'd shortlist:\n\n| Pool | Typical model/fee | My take |\n|---|---|---|\n| **Braiins Pool** | FPPS; 2%, potentially 0% with Braiins OS | ⭐ Strong choice for many miners |\n| **Luxor** | FPPS; ~0.7% reported | ⭐ Potentially best on pure fee economics |\n| **Foundry USA** | FPPS; institutional-focused | Excellent for large farms |\n| **ViaBTC** | PPS+ 4% / PPLNS 2% | Easy to use, but PPS+ fee is high |\n| **OCEAN** | TIDES; ~2% | Good if decentralization/self-custody matters |\n\n\nBraiins currently advertises **0% fees when using Braiins OS**, while ViaBTC officially lists 4% for PPS+ and 2% for PPLNS. [braiins.com](https://braiins.com/pool?utm_source=chatgpt.com) Recent 2026 comparisons put Luxor around 0.7% and identify Braiins/Luxor among the lower-fee options. [www.spark.money](https://www.spark.money/tools/bitcoin-mining-pool-comparison?utm_source=chatgpt.com)\n\n### My recommendation\n\n- **Running an Antminer at home:** I'd investigate **Braiins Pool** first.\n- **Large professional farm:** **Foundry or Luxor**.\n- **Want maximum expected payout and accept variance:** look closely at **PPLNS/low-fee pools**.\n- **Want predictable daily income:** **FPPS/PPS+** is generally preferable.\n\nThe important part is that **the lowest advertised fee doesn't necessarily mean the highest net BTC**. Stale shares, payout fees, transaction-fee allocation, downtime, and the payout scheme all matter.\n\nIf you tell me **your exact ASIC model(s), number of miners, electricity cost ($/kWh), and whether you're mining BTC or another coin**, I can calculate which pool is likely to give you the **highest net profit** right now.",
+      "sources": [
+        {
+          "source_name": "Braiins",
+          "title": "Braiins Pool",
+          "domain": "braiins.com",
+          "url": "https://braiins.com/pool?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Spark",
+          "title": "Bitcoin Mining Pool Comparison: Fees, Payouts, and Size | Spark",
+          "domain": "www.spark.money",
+          "url": "https://www.spark.money/tools/bitcoin-mining-pool-comparison?utm_source=chatgpt.com"
+        }
+      ],
+      "search_results": [
+        {
+          "description": "Discover the 11 best Bitcoin mining pools of 2026. Get insights on fees, payouts, hash rates, and which pool suits your mining strategy.",
+          "breadcrumb": "coinbureau.com",
+          "title": "11 Best Bitcoin Mining Pools of 2026: Compare The Top Bitcoin Mining Pool for Miners!",
+          "domain": "coinbureau.com",
+          "url": "https://coinbureau.com/analysis/best-bitcoin-mining-pools?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Payment Method  ViaBTC pool supports two payment methods: PPS+ and PPLNS. The default is PPS+. You can go to Settings to choose the method you prefer based on your risk tolerance.  PPS+ (Pay Per Shar...",
+          "breadcrumb": "viabtc.info",
+          "title": "ViaBTC | Fees",
+          "domain": "www.viabtc.info",
+          "url": "https://www.viabtc.info/en/pricing?utm_source=chatgpt.com"
+        },
+        {
+          "description": "FPPS vs PPS+ Mining Pool: Transaction Fees and Payout Tradeoffs  2026-06-24 15:11  For miners comparing an FPPS vs PPS+ mining pool, the key question is not only “Which model pays more?” It is “How d...",
+          "breadcrumb": "viabtc.com",
+          "title": "ViaBTC | FPPS vs PPS+ Mining Pool: Transaction Fees and Payout Tradeoffs",
+          "domain": "www.viabtc.com",
+          "url": "https://www.viabtc.com/en/blog/Mining-fpps-vs-pps-mining-pool-miner-guide-551?category=0&utm_source=chatgpt.com"
+        },
+        {
+          "description": "Image: Best Bitcoin Mining Pools for 2026: 11 Pools Compared  BEST BITCOIN MINING POOLS FOR 2026: 11 POOLS COMPARED  Published: 5/6/2026  * * *  Bitcoin mining pools combine hashrate from many miners...",
+          "breadcrumb": "simplemining.io",
+          "title": "Best Bitcoin Mining Pools for 2026: 11 Pools Compared | Simple Mining Insights",
+          "domain": "www.simplemining.io",
+          "url": "https://www.simplemining.io/insights/post/best-bitcoin-mining-pools?utm_source=chatgpt.com"
+        },
+        {
+          "description": "FPPS is the most common payout model for large mining pools in 2026. The pool pays you a fixed amount for every valid share you submit, regardless of whether the pool actually finds a block. The paym...",
+          "breadcrumb": "solosatoshi.com",
+          "title": "Understanding Bitcoin Mining Pools: The 2026 Guide | Solo Satoshi",
+          "domain": "www.solosatoshi.com",
+          "url": "https://www.solosatoshi.com/understanding-mining-pools-mining-101/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "REWARDS & PAYOUTS#  #PAYOUTS & FEES  Braiins Pool currently applies the following fee to provide the pool mining service.  * Proceeds from transaction (network) fees are shared with miners. * Payouts...",
+          "breadcrumb": "braiins.com",
+          "title": "Rewards & Payouts - Braiins Academy",
+          "domain": "academy.braiins.com",
+          "url": "https://academy.braiins.com/braiins-pool/rewards-and-payouts?utm_source=chatgpt.com"
+        },
+        {
+          "description": "MAJOR POOL PAYMENT METHODS: FOUNDRY, F2POOL, ANTPOOL, VIABTC, BRAIINS POOL, LUXOR, AND EMCD  Pool defaults can change, so the current fee table should always be verified before switching. As of 2026...",
+          "breadcrumb": "emcd.io",
+          "title": "FPPS vs PPLNS vs PPS+: Bitcoin Mining Pool Payout Schemes Compared in 2026",
+          "domain": "emcd.io",
+          "url": "https://emcd.io/articles/mining/fpps-vs-pplns-vs-pps-bitcoin-mining-pool-payout-schemes-compared/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "By Michelle Legge • Head of Crypto Tax Education  Updated Apr 7, 2026  Image: Robin Singh  Reviewed by Robin Singh  Founder  This article has been fact checked and reviewed as per our editorial polic...",
+          "breadcrumb": "koinly.io",
+          "title": "10 Best Bitcoin Mining Pools in 2026 | Koinly",
+          "domain": "koinly.io",
+          "url": "https://koinly.io/nl/blog/best-bitcoin-mining-pools/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Some of the biggest Bitcoin mining pools in 2026 include Foundary USA, AntPool, and ViaBTC. large FPPS or PPS+ pools like Foundry ・ lower-fee options such as ...",
+          "breadcrumb": "koinly.io",
+          "title": "10 Best Bitcoin Mining Pools in 2026",
+          "domain": "koinly.io",
+          "url": "https://koinly.io/blog/best-bitcoin-mining-pools/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "BITCOIN MINING POOLS COMPARED  All major pools compared by payout method, fees, and features.  [Button: Transparent] [Button: Commercial] [Button: Specialty]  Image  BRAIINS POOL  midsize  Formerly Sl...",
+          "breadcrumb": "bitcoinmining.com",
+          "title": "Best Bitcoin Mining Pools - Compared and Reviewed (2026)",
+          "domain": "www.bitcoinmining.com",
+          "url": "https://www.bitcoinmining.com/bitcoin-mining-pools/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Home News Best Bitcoin Mining Pool 2026: Foundry, AntPool, F2Pool, ViaBTC, Braiins, Ocean, and 5 More: The Honest Comparison  Mining Guides · 32 min read · May 01, 2026  BEST BITCOIN MINING POOL 2026...",
+          "breadcrumb": "millionminer.com",
+          "title": "Best Mining Pool 2026: Foundry, AntPool, F2Pool & 8 More",
+          "domain": "millionminer.com",
+          "url": "https://millionminer.com/news/best-bitcoin-mining-pool-2026-comparison?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Bitcoin mining pool shutdown: SBI Crypto, the Japanese mining subsidiary of SBI Group, is permanently closing its public Bitcoin pool on...",
+          "breadcrumb": "techtimes.com",
+          "title": "SBI Crypto Mining Pool Closes July 31: 2.2% of Bitcoin Hashrate Must Move Now",
+          "domain": "www.techtimes.com",
+          "url": "https://www.techtimes.com/articles/319596/20260703/sbi-crypto-mining-pool-closes-july-31-22-bitcoin-hashrate-must-move-now.htm?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Explore the best mining pools globally and learn how they improve mining efficiency, reward distribution, and profitability for crypto...",
+          "breadcrumb": "blockchain-council.org",
+          "title": "List Of Best Mining Pools All Over The Globe",
+          "domain": "www.blockchain-council.org",
+          "url": "https://www.blockchain-council.org/bitcoin/list-best-mining-pools-all-over-globe/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Learn how mining pools work, from payout methods and risk factors to the top crypto mining pool options for efficient and stable earnings.",
+          "breadcrumb": "tradersunion.com",
+          "title": "How Mining Pools Work: Payouts, Risks, Top Options",
+          "domain": "tradersunion.com",
+          "url": "https://tradersunion.com/interesting-articles/how-does-crypto-mining-work-should-you-prefer-staking/mining-pools/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Our top picks for the best mining pool to join in 2026 are Kryptex, Binance Pool, EMCD, Antpool, Mining Dutch, and Braiins Pool. Choosing a stable, reliable, ...",
+          "breadcrumb": "webopedia.com",
+          "title": "Best Crypto Mining Pools in 2026: Fees & Payouts Compared",
+          "domain": "www.webopedia.com",
+          "url": "https://www.webopedia.com/crypto/mining/best-mining-pools/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Dec 29, 2025 — 1. Foundry USA · Pool Fee: 2% fee for PPLNS and 4% for PPS · BTC Pool Hashrate: 231.5 EH/s · Reward Distribution Method: FPPS · Supported Hardware: ...",
+          "breadcrumb": "asicmarketplace.com",
+          "title": "Top Bitcoin Mining Pools to Join in 2026",
+          "domain": "asicmarketplace.com",
+          "url": "https://asicmarketplace.com/blog/top-bitcoin-mining-pools/?srsltid=AfmBOopby5EWyKym925TVbjLpiGBnh7Q4AxKkndTdKnHuGZ6RZCyG4ut&utm_source=chatgpt.com"
+        },
+        {
+          "description": "by S Bistarelli · 2025 · Cited by 3 — AntPool was the mining pool that earned the most money, followed by Foundry USA, which collected more than three times the money in March 2023.",
+          "breadcrumb": "sciencedirect.com",
+          "title": "An In-depth Analysis of Mining Pools Revenue",
+          "domain": "www.sciencedirect.com",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2096720925000934?utm_source=chatgpt.com"
+        },
+        {
+          "description": "I found that using braiins pool with their braiins os + firmware . They give you back the 2.5% pool fee if you use their firmware and then you ...",
+          "breadcrumb": "reddit.com",
+          "title": "Selecting a mining pool : r/BitcoinMining",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/BitcoinMining/comments/1hhkdv3/selecting_a_mining_pool/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Dec 22, 2025 — What Are the Best Bitcoin Mining Pools in 2026? · 1. Foundry USA · 2. AntPool · 3. ViaBTC · 4. F2Pool · 5. EMCD · 6. Binance Pool · 7. Braiins Pool.",
+          "breadcrumb": "bingx.com",
+          "title": "What Are the Top Bitcoin Mining Pools to Mine BTC in 2026?",
+          "domain": "bingx.com",
+          "url": "https://bingx.com/en/learn/article/top-bitcoin-mining-pools-to-mine-btc?utm_source=chatgpt.com"
+        }
+      ],
+      "ai_search_volume": 57,
+      "monthly_searches": {
+        "2026-07": 57,
+        "2026-06": 49,
+        "2026-05": 64,
+        "2026-04": 62,
+        "2026-03": 84,
+        "2026-02": 96,
+        "2026-01": 117,
+        "2025-12": 123,
+        "2025-11": 111,
+        "2025-10": 84,
+        "2025-09": 70,
+        "2025-08": 65
+      },
+      "first_response_at": "2025-11-16 17:58:38 +00:00",
+      "last_response_at": "2026-08-08 08:12:27 +00:00",
+      "fan_out_queries": [
+        "most profitable Bitcoin mining pools 2026 fees FPPS Braiins Pool Foundry ViaBTC Antpool",
+        "Bitcoin mining pool fees FPPS Foundry ViaBTC Antpool Braiins Pool 2026"
+      ]
+    },
+    {
+      "platform": "chat_gpt",
+      "model_name": "gpt-5-6",
+      "question": "which bitcoin mining site is legit?",
+      "answer": "Yes — I checked current sources. **Be very careful with “Bitcoin cloud mining” websites.** The FTC specifically warns that fake mining sites can show you imaginary profits and then demand more crypto when you try to withdraw. [www.ftc.gov](https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2021/05/cryptocurrency-buzz-drives-record-investment-scam-losses?utm_source=chatgpt.com)\n\nIf by “mining site” you mean **a legitimate Bitcoin mining pool**, I’d look at established pools rather than sites promising fixed daily returns.\n\n### What I would consider safer\n- **Foundry USA Pool** — a major Bitcoin mining pool operated by Foundry.\n- **Braiins Pool** — an established Bitcoin mining pool associated with Braiins mining software.\n- **ViaBTC** — a long-running cryptocurrency mining pool.\n\nThe important distinction is that these are **mining pools**, not websites where you simply deposit $100 and supposedly earn guaranteed Bitcoin every day.\n\n🚩 **Avoid any site that:**\n- Guarantees a specific daily/weekly Bitcoin return\n- Says your money will “double” or gives extremely high APY\n- Requires you to pay a **withdrawal/tax/unlock fee in Bitcoin**\n- Mainly recruits people through Telegram/WhatsApp\n- Shows a mining balance but doesn't provide independently verifiable mining activity\n- Requires you to deposit more money to release your “profits”\n\nThe FTC says there are **no guaranteed returns** in crypto investments and specifically warns about bogus cryptocurrency mining/investment websites. [consumer.ftc.gov](https://consumer.ftc.gov/articles/investment-scams?utm_source=chatgpt.com)\n\n**If you have a particular mining website in mind, send me the name or URL.** I can investigate that exact site and tell you whether I find evidence that it's legitimate or a scam.",
+      "sources": [
+        {
+          "source_name": "Federal Trade Commission",
+          "title": "Cryptocurrency buzz drives record investment scam losses | Federal Trade Commission",
+          "domain": "www.ftc.gov",
+          "url": "https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2021/05/cryptocurrency-buzz-drives-record-investment-scam-losses?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Consumer Advice",
+          "title": "Investment Scams | Consumer Advice",
+          "domain": "consumer.ftc.gov",
+          "url": "https://consumer.ftc.gov/articles/investment-scams?utm_source=chatgpt.com"
+        }
+      ],
+      "search_results": [
+        {
+          "description": "Confused about cryptocurrencies, like bitcoin or Ether (associated with Ethereum)? You’re not alone. Before you use or invest in cryptocurrency, know what makes it different from cash and other payme...",
+          "breadcrumb": "ftc.gov",
+          "title": "What To Know About Cryptocurrency and Scams | Consumer Advice",
+          "domain": "consumer.ftc.gov",
+          "url": "https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Tags:  * Consumer Protection * Bureau of Consumer Protection * Finance * Advertising and Marketing * Advertising and Marketing Basics * Credit and Finance * FinTech  Last Updated  July 20, 2026  Case...",
+          "breadcrumb": "ftc.gov",
+          "title": "Celsius Network, Inc., et al., FTC v. | Federal Trade Commission",
+          "domain": "www.ftc.gov",
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/222-3137-celsius-network-inc-et-al-ftc-v?utm_source=chatgpt.com"
+        },
+        {
+          "description": "You might be interested in making money through investments. Who isn’t? So offers that promise big returns might draw your attention…and scammers know this. They use those promises and clever schemes...",
+          "breadcrumb": "ftc.gov",
+          "title": "With people losing big to investment scams, learn how to spot and avoid them | Consumer Advice",
+          "domain": "consumer.ftc.gov",
+          "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/people-losing-big-investment-scams-learn-how-spot-and-avoid-them?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Investment scammers claim you’ll get big returns investing in a hot new money-making “opportunity” — maybe something like cryptocurrency. Some scammers say you’ll likely make a lot of money if you fo...",
+          "breadcrumb": "ftc.gov",
+          "title": "Can you spot an investment scam? | Consumer Advice",
+          "domain": "consumer.ftc.gov",
+          "url": "https://consumer.ftc.gov/consumer-alerts/2024/07/can-you-spot-investment-scam?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Tags:  * Consumer Protection * Bureau of Consumer Protection * Finance * Advertising and Marketing * Credit and Finance * FinTech  Alexander Mashinsky, the former CEO of cryptocurrency platform Celsi...",
+          "breadcrumb": "ftc.gov",
+          "title": "Founders of Celsius Network Ordered to Pay $16.5 Million to Resolve FTC Charges | Federal Trade Commission",
+          "domain": "www.ftc.gov",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/founders-celsius-network-ordered-pay-165-million-resolve-ftc-charges?utm_source=chatgpt.com"
+        },
+        {
+          "description": "With so many people on social media, it’s no surprise that scammers are there, too. A scammer might, for example, send you a message on Facebook, LinkedIn, or WhatsApp offering a chance to invest in...",
+          "breadcrumb": "ftc.gov",
+          "title": "Unexpected messages on social media about investing are almost always scams | Consumer Advice",
+          "domain": "consumer.ftc.gov",
+          "url": "https://consumer.ftc.gov/consumer-alerts/2024/06/unexpected-messages-social-media-about-investing-are-almost-always-scams?utm_source=chatgpt.com"
+        },
+        {
+          "description": "April 2026  Image: FacebookImage: TwitterImage: LinkedIn  The FTC is no longer accepting claims.  The FTC never asks you to pay to file a claim or get a refund. Don't pay anyone who promises you an F...",
+          "breadcrumb": "ftc.gov",
+          "title": "NGL Settlement | Federal Trade Commission",
+          "domain": "www.ftc.gov",
+          "url": "https://www.ftc.gov/enforcement/refunds/ngl-settlement?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Cryptocurrency has gotten lots of attention as a new way to invest. But here’s the thing: scammers are taking advantage of people’s understanding (or not) of cryptocurrency investments, and how they...",
+          "breadcrumb": "ftc.gov",
+          "title": "Spotting cryptocurrency investment scams | Consumer Advice",
+          "domain": "consumer.ftc.gov",
+          "url": "https://consumer.ftc.gov/consumer-alerts/2021/05/spotting-cryptocurrency-investment-scams?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Tags:  * Consumer Protection * Bureau of Consumer Protection * Work-at-Home * Going into Business * deceptive/misleading conduct * Retail * Finance * Advertising and Marketing * Endorsements, Influen...",
+          "breadcrumb": "ftc.gov",
+          "title": "DK Automation | Federal Trade Commission",
+          "domain": "www.ftc.gov",
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/dk-automation?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Monday, June 25, 2018 | 1:00PM  Room  DePaul University, Chicago, IL  Tags:  * Consumer Protection * Midwest Region * Bureau of Consumer Protection * Technology * Credit and Finance * FinTech  EVENT...",
+          "breadcrumb": "ftc.gov",
+          "title": "Decrypting Cryptocurrency Scams | Federal Trade Commission",
+          "domain": "search.ftc.gov",
+          "url": "https://search.ftc.gov/news-events/events/2018/06/decrypting-cryptocurrency-scams?utm_source=chatgpt.com"
+        },
+        {
+          "description": "FAQ'S: POOL#  #POOL  Which coins can I mine on Braiins Pool?  Currently you can mine Bitcoin on Braiins Pool. At this time we don't plan to support other alt-coins such as Ethereum (ETH), Monero (XMR...",
+          "breadcrumb": "braiins.com",
+          "title": "FAQ's: Pool - Braiins Academy",
+          "domain": "academy.braiins.com",
+          "url": "https://academy.braiins.com/braiins-pool/faqs/pool?utm_source=chatgpt.com"
+        },
+        {
+          "description": "FAQ'S: BASICS#  #BASICS  What is Braiins Hashpower market?  Braiins Hashpower market is a real-time marketplace for buying Bitcoin mining hashrate (SHA-256 algorithm). It allows buyers to acquire min...",
+          "breadcrumb": "braiins.com",
+          "title": "FAQ's: Basics - Braiins Academy",
+          "domain": "academy.braiins.com",
+          "url": "https://academy.braiins.com/braiins-hashpower/faqs/basics?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Braiins Pool  THE WORLD'S LONGEST RUNNING MINING POOL  1.3M+ BTC Mined since 2010  Try DemoStart Mining  Image: Braiin's Pool Bitcoin mining dashboard showing 5 minute hashrate of 731.2 TH/s, worker...",
+          "breadcrumb": "braiins.com",
+          "title": "Braiins Pool",
+          "domain": "braiins.com",
+          "url": "https://braiins.com/pool?utm_source=chatgpt.com"
+        },
+        {
+          "description": "HASHRATE AGGREGATION PROXY  Reduce data loads, configure parallel usage of multiple pools, set backup pools and more. All from one app.  Image  OPTIMIZE YOUR BITCOIN MINING OPS  Hashrate aggregation...",
+          "breadcrumb": "braiins.com",
+          "title": "Braiins Farm Proxy | Hashrate Aggregation proxy",
+          "domain": "braiins.com",
+          "url": "https://braiins.com/braiins-proxy?utm_source=chatgpt.com"
+        },
+        {
+          "description": "QUICK START#  #CONFIGURE YOUR MINING DEVICE  Individual hardware manufacturers may have specific settings requirements and different settings interfaces. Please follow their official documentation wh...",
+          "breadcrumb": "braiins.com",
+          "title": "Quick Start - Braiins Academy",
+          "domain": "academy.braiins.com",
+          "url": "https://academy.braiins.com/braiins-pool/quick-start?utm_source=chatgpt.com"
+        },
+        {
+          "description": "FAQ'S#  What mining pools are compatible with Braiins Farm Proxy?  Braiins Farm Proxy should run with any major pool. It was tested on publicly available mining pools: Braiins Pool, AntPool, Poolin,...",
+          "breadcrumb": "braiins.com",
+          "title": "FAQ's - Braiins Academy",
+          "domain": "academy.braiins.com",
+          "url": "https://academy.braiins.com/farm-proxy/faqs?utm_source=chatgpt.com"
+        },
+        {
+          "description": "ACTIVE SALE  FUNDING HARDWARE R&D division  Total subscription  100,000,000 CZK (approx. $4,536,000)  Interest  9.5% per annum  Issuer  Hash Mining s.r.o.  I AM INTERESTED  Image  2023  ACTIVE SALE...",
+          "breadcrumb": "braiins.com",
+          "title": "Bonds - Funding hardware R&D division",
+          "domain": "braiins.com",
+          "url": "https://braiins.com/bonds/2023?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Introducing Braiins Mini Miner - home mining made easy. Learn More  We apologize but this page has not yet been translated to your language.  BITCOIN MINING ECOSYSTEM  Mine more bitcoin with Braiins...",
+          "breadcrumb": "braiins.com",
+          "title": "Braiins | Bitcoin mining ecosystem",
+          "domain": "braiins.com",
+          "url": "https://braiins.com/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Notice  Announcement  Message  Important Update on Collateral-Pledged Loans 2025-10-03 09:59:42  Announcement on the Discontinuation of SYS Pool 2026-06-22 02:06:22  Announcement on the Discontinuati...",
+          "breadcrumb": "viabtc.com",
+          "title": "ViaBTC | Your All-in-one Crypto Mining Pool",
+          "domain": "www.viabtc.com",
+          "url": "https://www.viabtc.com/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Download App  iOS & Android  Download now   Language  English  简体中文  繁体中文  Pусский  Español  Currency  CNY  USD   Log InSign up  Important Update on Collateral-Pledged Loans  /  Announcement on the Di...",
+          "breadcrumb": "viabtc.com",
+          "title": "ViaBTC | Your All-in-one Crypto Mining Pool",
+          "domain": "www.viabtc.com",
+          "url": "https://www.viabtc.com/?r=899&utm_source=chatgpt.com"
+        },
+        {
+          "description": "Notice  Announcement  Message  Important Update on Collateral-Pledged Loans 2025-10-03 09:59:42  Announcement on the Discontinuation of SYS Pool 2026-06-22 02:06:22  Announcement on the Discontinuati...",
+          "breadcrumb": "viabtc.com",
+          "title": "ViaBTC | Your All-in-one Crypto Mining Pool",
+          "domain": "www.viabtc.com",
+          "url": "https://www.viabtc.com/en/?r=107641&utm_source=chatgpt.com"
+        },
+        {
+          "description": "Image: Foundry-USA-Pool-inverse  The world’s #1 Bitcoin mining pool.  Log In  U.S.-BASED, INSTITUTIONAL-GRADE BITCOIN MINING POOL FOCUSED ON SECURITY AND RELIABILITY. BUILT BY MINERS FOR MINERS, DELI...",
+          "breadcrumb": "foundrydigital.com",
+          "title": "#1 Bitcoin Mining Pool | Foundry USA Pool",
+          "domain": "foundrydigital.com",
+          "url": "https://foundrydigital.com/foundry-usa-pool-3/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Mar 5, 2026 — Identifying Legitimate Platforms Versus Scam Operations. Red Flags in Cloud Mining Services. Ponzi-structured cloud mining scams exhibit ...Read more",
+          "breadcrumb": "bitget.com",
+          "title": "Crypto Cloud Mining 2026: Legitimate Platforms vs Scams ...",
+          "domain": "www.bitget.com",
+          "url": "https://www.bitget.com/academy/crypto-cloud-mining?utm_source=chatgpt.com"
+        },
+        {
+          "description": "2026 (MMXXVI) is the current year, and is a common year starting on Thursday of the Gregorian calendar, the 2026th year of the Common Era (CE) and Anno ...Read more",
+          "breadcrumb": "wikipedia.org",
+          "title": "2026",
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/2026?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Mar 24, 2023 — In a new scam, an “automated cloud-mining platform” is telling users they can receive large payouts purportedly mined by their account.",
+          "breadcrumb": "kaspersky.com",
+          "title": "Scam e-mails from “cloud-mining platform”",
+          "domain": "www.kaspersky.com",
+          "url": "https://www.kaspersky.com/blog/bitcoin-cloud-mining-scam/47616/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Aug 18, 2021 — We recently discovered eight deceptive mobile apps that masquerade as cryptocurrency cloud mining applications where users can earn cryptocurrency by investing ...Read more",
+          "breadcrumb": "trendmicro.com",
+          "title": "Fake Cryptocurrency Mining Apps Trick Victims Into ...",
+          "domain": "www.trendmicro.com",
+          "url": "https://www.trendmicro.com/en_us/research/21/h/fake-cryptocurrency-mining-apps-trick-victims-into-watching-ads-.html?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Dec 19, 2025 — Bitcoin mining scams are fake mining schemes that steal funds through cloud-mining fraud, Ponzi structures, and malware.",
+          "breadcrumb": "bingx.com",
+          "title": "Top Bitcoin Mining Scams to Watch Out for in 2026",
+          "domain": "bingx.com",
+          "url": "https://bingx.com/en/learn/article/what-are-the-top-bitcoin-mining-scams?utm_source=chatgpt.com"
+        },
+        {
+          "description": "It looks like the scam is this ・ the e-mail says you have a “cloud Bitcoin mining” account ・ accounts are deleted after 365 days of ...",
+          "breadcrumb": "reddit.com",
+          "title": "e-mail says you have a valuable “cloud Bitcoin mining ...",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/Scams/comments/yjcdmb/scam_explanation_email_says_you_have_a_valuable/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "... scams in this tracker are based on consumer complaints in California. ... Bitcoin Cloud Mining: Investment or Scam? 4. 16. Bitcoin Tile App · r ...Read more",
+          "breadcrumb": "reddit.com",
+          "title": "Bitcoin mining app scam or not : r/CryptoScams",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/CryptoScams/comments/1kg06v7/bitcoin_mining_app_scam_or_not/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "6 days ago — Search the table below by company name, scam type, or keywords to learn about the specific complaints the DFPI has received.Read more",
+          "breadcrumb": "ca.gov",
+          "title": "Crypto Scam Tracker - DFPI - CA.gov",
+          "domain": "dfpi.ca.gov",
+          "url": "https://dfpi.ca.gov/consumers/crypto/crypto-scam-tracker/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Apr 26, 2026 — Many risks exist, including scams, hidden charges, and restricted withdrawals, especially on free plans. Platforms like CoinDCX can help ...Read more",
+          "breadcrumb": "coindcx.com",
+          "title": "Best Free Crypto Cloud Mining Platforms in 2026",
+          "domain": "coindcx.com",
+          "url": "https://coindcx.com/blog/cryptocurrency/crypto-cloud-mining-platforms/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Feb 26, 2026 — Bitcoin scams in 2026 target miners and hodlers with fake hardware sellers, cloud mining Ponzis, phishing, and SIM swaps.",
+          "breadcrumb": "d-central.tech",
+          "title": "Bitcoin Scams in 2026: A Miner's Guide to Protecting Your ...",
+          "domain": "d-central.tech",
+          "url": "https://d-central.tech/common-cryptocurrency-scams/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "May 12, 2026 — Crypto scam alert 2026: experts flag threee risky projects: learn red flags, protect funds, and avoid costly crypto traps early.",
+          "breadcrumb": "bitcoinfoundation.org",
+          "title": "Crypto Scam Alert 2026: 3 Projects Already Red-Flagged ...",
+          "domain": "bitcoinfoundation.org",
+          "url": "https://bitcoinfoundation.org/news/altcoins/crypto-scam-alert-2026-3-projects-already-red-flagged-by-experts/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "crypto 300 club scam Crypto300club (Crypto 300 club review scams) ... Crypto-mining.biz (LTC Mining scam) crypto-mining.farm. Crypto ...Read more",
+          "breadcrumb": "cryptolegal.uk",
+          "title": "List of Reported Scam Companies in 2026",
+          "domain": "www.cryptolegal.uk",
+          "url": "https://www.cryptolegal.uk/list-of-reported-scam-companies/?utm_source=chatgpt.com"
+        },
+        {
+          "breadcrumb": "philstar.com",
+          "title": "The STAR Cover (June 7, 2026)",
+          "domain": "www.philstar.com",
+          "url": "https://www.philstar.com/other-sections/star-cover/2026/06/07/2533332/star-cover-june-7-2026?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Mar 27, 2026 — Review: Top 5 Best Bitcoin Cloud Mining Apps in 2026 Supporting Daily Withdrawals for Mobile Users · 1. FTmining — The Future of Cryptocurrency ...Read more",
+          "breadcrumb": "cryptopolitan.com",
+          "title": "Review: Top 5 Best Bitcoin Cloud Mining Apps in 2026 ...",
+          "domain": "www.cryptopolitan.com",
+          "url": "https://www.cryptopolitan.com/review-top-5-best-bitcoin-cloud-mining-apps-in-2026-supporting-daily-withdrawals-for-mobile-users/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Apr 8, 2026 — Bitcoin cloud mining explained — how it works, risks and scams to avoid, and honest reviews of active providers. Updated for 2026.",
+          "breadcrumb": "bitcoinmining.com",
+          "title": "Best Bitcoin Cloud Mining Platforms - Reviewed (2026)",
+          "domain": "www.bitcoinmining.com",
+          "url": "https://www.bitcoinmining.com/best-bitcoin-cloud-mining-contract-reviews/?utm_source=chatgpt.com"
+        },
+        {
+          "breadcrumb": "tribune.net.ph",
+          "title": "SM City La Union employees brave rain for Brigada Eskwela 2026",
+          "domain": "tribune.net.ph",
+          "url": "https://tribune.net.ph/2026/06/06/sm-city-la-union-employees-brave-rain-for-brigada-eskwela-2026?utm_source=chatgpt.com"
+        },
+        {
+          "description": "8 Jul 2026 — Compare the best Bitcoin cloud mining platforms in 2026 by contracts, fees, payouts, risk signals and realistic ROI before buying mining ...",
+          "breadcrumb": "coinbureau.com",
+          "title": "Best Bitcoin Cloud Mining Platforms 2026: Fees, Risks and ...",
+          "domain": "coinbureau.com",
+          "url": "https://coinbureau.com/analysis/bitcoin-cloud-mining-platforms?utm_source=chatgpt.com"
+        },
+        {
+          "description": "I'm going to show you the top three legit cloud mining websites that actually work in 2026.",
+          "breadcrumb": "youtube.com",
+          "title": "Is Cloud Mining Worth It in 2026? (The Only 3 Sites I Would ...",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=I-AjlvKklGE&utm_source=chatgpt.com"
+        },
+        {
+          "description": "The Bitcoin mining application is not a scam but I think it is a massive waste of time.",
+          "breadcrumb": "youtube.com",
+          "title": "I Put My Money into the SCAM Bitcoin Mining App",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=j9qVcMJGZwU&utm_source=chatgpt.com"
+        },
+        {
+          "description": "Share your videos with friends, family, and the world.",
+          "breadcrumb": "youtube.com",
+          "title": "How to Start Cloud Mining Crypto 2026",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=VqXsfWTb5Sk&utm_source=chatgpt.com"
+        },
+        {
+          "description": "Learn how Bitcoin mining scams work, common red flags, and how investigators analyze fraudulent mining operations.",
+          "breadcrumb": "cncintel.com",
+          "title": "Bitcoin Mining Scams Explained",
+          "domain": "cncintel.com",
+          "url": "https://cncintel.com/bitcoin-mining-scams/?utm_source=chatgpt.com"
+        },
+        {
+          "breadcrumb": "packers.com",
+          "title": "Photos: Packers participate in 2026 Green Bay Charity Softball Game",
+          "domain": "www.packers.com",
+          "url": "https://www.packers.com/photos/photos-packers-participate-in-2026-green-bay-charity-softball-game?utm_source=chatgpt.com"
+        },
+        {
+          "description": "We would never recommend cloud mining as the probability you will be scammed is almost 100%. We advised x.CGMining.com we believed it is a scam and received the ...Read more",
+          "breadcrumb": "bravenewcoin.com",
+          "title": "Warning! Most Cloud Mining Platforms Are Scams",
+          "domain": "bravenewcoin.com",
+          "url": "https://bravenewcoin.com/insights/cloud-mining-scams?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Cloud mining can be trusted if you choose a reputable and transparent provider. However, due to the high risk of scams and the often lower profitability.Read more",
+          "breadcrumb": "river.com",
+          "title": "Can Cloud Mining Be Trusted? - River Financial",
+          "domain": "river.com",
+          "url": "https://river.com/learn/can-cloud-mining-be-trusted/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Oct 20, 2024 — The Bitcoin Mining Scam is a new online threat. In the world of cryptocurrency, scams are unfortunately all too common.Read more",
+          "breadcrumb": "coinjar.com",
+          "title": "Bitcoin Mining Scam: Warning Signs",
+          "domain": "www.coinjar.com",
+          "url": "https://www.coinjar.com/learn/bitcoin-mining-scam?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Jul 11, 2025 — Learn to identify cloud mining scams: uncover red flags like guaranteed returns, lack of transparency, and no KYC. Protect your business ...",
+          "breadcrumb": "chainup.com",
+          "title": "Cloud Mining Scams: Red Flags & How to Avoid Them",
+          "domain": "www.chainup.com",
+          "url": "https://www.chainup.com/blog/cloud-mining-scams-how-to-avoid/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "3 Jun 2026 — The best free crypto mining apps in 2026 include Pi Network, StormGain, CryptoTab, NiceHash, Binance, and MinerGate, each offering a ...Read more",
+          "breadcrumb": "upay.com",
+          "title": "Top 10 Free Crypto Mining Apps In 2026",
+          "domain": "blog.upay.com",
+          "url": "https://blog.upay.com/top-free-crypto-mining-apps/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Mar 24, 2026 — This guide explores 8 legitimate Bitcoin cloud mining apps for mobile users, while also explaining how to identify secure platforms, avoid scams ...Read more",
+          "breadcrumb": "mexc.com",
+          "title": "8 Legitimate Bitcoin Cloud Mining Apps for Mobile Users in ...",
+          "domain": "www.mexc.com",
+          "url": "https://www.mexc.com/news/977801?utm_source=chatgpt.com"
+        }
+      ],
+      "ai_search_volume": 14,
+      "monthly_searches": {
+        "2026-07": 14,
+        "2026-06": 14,
+        "2026-05": 9,
+        "2026-04": 1,
+        "2026-01": 8,
+        "2025-12": 18,
+        "2025-11": 30,
+        "2025-10": 27,
+        "2025-09": 20,
+        "2025-08": 6
+      },
+      "first_response_at": "2026-01-12 13:48:39 +00:00",
+      "last_response_at": "2026-08-21 07:50:32 +00:00",
+      "fan_out_queries": [
+        "legit bitcoin cloud mining sites scam warnings 2026",
+        "Bitcoin mining pool official Foundry USA Braiins Pool ViaBTC",
+        "FTC bitcoin cloud mining scam cryptocurrency mining investment"
+      ]
+    },
+    {
+      "platform": "chat_gpt",
+      "model_name": "gpt-5-6",
+      "question": "are there any legit mining apps?",
+      "answer": "Yes—but there’s an important catch: **most “crypto mining” apps on phones aren’t actually mining cryptocurrency with your phone.** They’re usually cloud-mining services, reward apps, or dashboards for hardware you already own. [Blockchain Council](https://www.blockchain-council.org/bitcoin/mobile-bitcoin-mining/?utm_source=chatgpt.com) [SwapSpace](https://swapspace.co/blog/crypto-mining-apps-for-android?utm_source=chatgpt.com)\n\n### Ones I'd consider legitimate\n\n- **Braiins Pool app** — Legitimate, but **it does not mine on your phone**. It lets you monitor Bitcoin miners you already operate through Braiins Pool. Braiins explicitly says the mobile app is a monitoring tool. [Google Play](https://play.google.com/store/apps/details?hl=en_US&id=com.slushpool.app&utm_source=chatgpt.com) [Braiins Academy](https://academy.braiins.com/braiins-pool/monitoring?utm_source=chatgpt.com)\n- **Pi Network** — A real cryptocurrency project with an official mobile app, although its \"mining\" isn't Bitcoin-style proof-of-work mining. Pi says its mobile mechanism doesn't use significant phone resources. [Pi Network](https://minepi.com/faqs/do-i-need-to-leave-the-app-open-to-mine-does-the-app-drain-my-battery-or-data/?utm_source=chatgpt.com) [Pi Network](https://minepi.com/roadmap/?utm_source=chatgpt.com)\n- **Actual CPU mining apps/projects** exist, such as the open-source Scala Android Miner, but smartphone mining generally produces extremely little and can wear/drain the device. [GitHub](https://github.com/scala-network/MobileMiner?utm_source=chatgpt.com) [Blockchain Council](https://www.blockchain-council.org/bitcoin/mobile-bitcoin-mining/?utm_source=chatgpt.com)\n\n### What I'd avoid\n\nI'd be **very cautious with apps promising “free Bitcoin every day,” guaranteed returns, or high profits for buying a cloud-mining package**. A Google Play listing by itself doesn't establish that the underlying mining operation is real. [Sekin](https://sekin.in/crypto-mining-apps-for-android-what-they-really-do-and-how-to-avoid-scams/?utm_source=chatgpt.com)\n\nThere's a particularly good reason to be skeptical right now: in August 2026, a Nevada businessman was convicted over a **$24 million fake crypto-mining operation** that promised investors 15–30% annual returns. [Tom's Hardware](https://www.tomshardware.com/tech-industry/cryptocurrency/crypto-bro-faces-280-years-in-prison-for-defrauding-investors-with-promises-of-an-ai-supercomputer-for-mining-jury-convicts-businessman-of-running-usd24-million-ponzi-scheme-claimed-up-to-30-percent-apr-and-a-100-percent-money-back-guarantee?utm_source=chatgpt.com)\n\n**If your goal is actually to make money from your phone**, I can give you a shortlist of **legit crypto apps that can earn you crypto without requiring you to buy a miner**, and separate the genuinely worthwhile ones from the junk.",
+      "sources": [
+        {
+          "source_name": "Blockchain Council",
+          "markdown": "[Blockchain Council](https://www.blockchain-council.org/bitcoin/mobile-bitcoin-mining/?utm_source=chatgpt.com)",
+          "title": "Mobile Bitcoin Mining - Blockchain Council",
+          "domain": "www.blockchain-council.org",
+          "url": "https://www.blockchain-council.org/bitcoin/mobile-bitcoin-mining/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "SwapSpace",
+          "markdown": "[SwapSpace](https://swapspace.co/blog/crypto-mining-apps-for-android?utm_source=chatgpt.com)",
+          "title": "Crypto mining apps for Android: how they work and what to check in 2026 | SwapSpace Blog",
+          "domain": "swapspace.co",
+          "url": "https://swapspace.co/blog/crypto-mining-apps-for-android?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Google Play",
+          "markdown": "[Google Play](https://play.google.com/store/apps/details?hl=en_US&id=com.slushpool.app&utm_source=chatgpt.com)",
+          "title": "Braiins Pool - Apps on Google Play",
+          "domain": "play.google.com",
+          "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.slushpool.app&utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Braiins Academy",
+          "markdown": "[Braiins Academy](https://academy.braiins.com/braiins-pool/monitoring?utm_source=chatgpt.com)",
+          "title": "Monitoring - Braiins Academy",
+          "domain": "academy.braiins.com",
+          "url": "https://academy.braiins.com/braiins-pool/monitoring?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Pi Network",
+          "markdown": "[Pi Network](https://minepi.com/faqs/do-i-need-to-leave-the-app-open-to-mine-does-the-app-drain-my-battery-or-data/?utm_source=chatgpt.com)",
+          "title": "Do I need to leave the app open to mine? Does the app drain my battery or data? | Pi Network",
+          "domain": "minepi.com",
+          "url": "https://minepi.com/faqs/do-i-need-to-leave-the-app-open-to-mine-does-the-app-drain-my-battery-or-data/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Pi Network",
+          "markdown": "[Pi Network](https://minepi.com/roadmap/?utm_source=chatgpt.com)",
+          "title": "Roadmap | Pi Network",
+          "domain": "minepi.com",
+          "url": "https://minepi.com/roadmap/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "GitHub",
+          "markdown": "[GitHub](https://github.com/scala-network/MobileMiner?utm_source=chatgpt.com)",
+          "title": "GitHub - scala-network/MobileMiner: A mobile application wrapping XLArig to enable mining on Android devices. · GitHub",
+          "domain": "github.com",
+          "url": "https://github.com/scala-network/MobileMiner?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Sekin",
+          "markdown": "[Sekin](https://sekin.in/crypto-mining-apps-for-android-what-they-really-do-and-how-to-avoid-scams/?utm_source=chatgpt.com)",
+          "title": "Crypto Mining Apps for Android: Real Mining or Scam?",
+          "domain": "sekin.in",
+          "url": "https://sekin.in/crypto-mining-apps-for-android-what-they-really-do-and-how-to-avoid-scams/?utm_source=chatgpt.com"
+        },
+        {
+          "snippet": "Brent Kovar, a Las Vegas businessman, has been convicted by a Nevada court of running a $24 million Ponzi scheme under the guise of a cryptocurrency mining operation called Profit Connect. Promising returns of 15% to 30% APR and a 100% money-back guarantee, Kovar falsely claimed that Profit Connect employed an AI-powered supercomputer for profitable crypto mining. In reality, no crypto holdings existed, and returns paid to earlier investors were sourced solely from funds brought in by newer ones. Between 2017 and 2021, Kovar defrauded 400 investors by misrepresenting the company’s assets and using investor funds for personal use, including buying gifts and a home. The Department of Justice confirmed that the company was never operational as promised. Kovar faces up to 280 years in prison. This case echoes similar cryptocurrency frauds in recent years, such as BitConnect’s $2 billion scam and a $6 billion Ponzi scheme in China, reflecting the growing trend of deceptive ventures leveraging crypto hype to exploit investors. The likelihood of recouping lost funds remains uncertain for the victims.",
+          "source_name": "Tom's Hardware",
+          "markdown": "[Tom's Hardware](https://www.tomshardware.com/tech-industry/cryptocurrency/crypto-bro-faces-280-years-in-prison-for-defrauding-investors-with-promises-of-an-ai-supercomputer-for-mining-jury-convicts-businessman-of-running-usd24-million-ponzi-scheme-claimed-up-to-30-percent-apr-and-a-100-percent-money-back-guarantee?utm_source=chatgpt.com)",
+          "title": "Crypto bro faces 280 years in prison for defrauding investors with promises of an 'AI supercomputer' for mining - jury convicts businessman of running $24-million Ponzi scheme, claimed up to 30% APR and a 100% money-back guarantee",
+          "domain": "www.tomshardware.com",
+          "url": "https://www.tomshardware.com/tech-industry/cryptocurrency/crypto-bro-faces-280-years-in-prison-for-defrauding-investors-with-promises-of-an-ai-supercomputer-for-mining-jury-convicts-businessman-of-running-usd24-million-ponzi-scheme-claimed-up-to-30-percent-apr-and-a-100-percent-money-back-guarantee?utm_source=chatgpt.com"
+        }
+      ],
+      "ai_search_volume": 13,
+      "monthly_searches": {
+        "2026-07": 13,
+        "2026-06": 11,
+        "2026-05": 9,
+        "2026-04": 8,
+        "2026-03": 7,
+        "2026-02": 6,
+        "2026-01": 1,
+        "2025-12": 1
+      },
+      "first_response_at": "2026-09-01 11:21:21 +00:00",
+      "last_response_at": "2026-09-01 11:21:21 +00:00"
+    },
+    {
+      "platform": "chat_gpt",
+      "model_name": "gpt-5-2",
+      "question": "what is the most profitable bitcoin mining pool?",
+      "answer": "There isn’t a single **universally “most profitable” Bitcoin mining pool** for every miner — profitability depends on several variables including hardware efficiency, electricity cost, payout method, pool fees, and market conditions. However, **as of early-2026**, some pools consistently rank at or near the top in terms of revenue opportunity and reliability:\n\n### 🥇 Most Prominent and Generally Profitable Bitcoin Mining Pools\n\n**1. Foundry USA Pool**  \n- Currently the **largest Bitcoin mining pool by hashrate share (≈ 30–32% of the network)**, meaning it finds blocks more often than any other pool. [www.nadcab.com](https://www.nadcab.com/blog/bitcoin-mining-pools?utm_source=chatgpt.com)[www.nadcab.com](https://www.nadcab.com/blog/mining-pools-in-blockchain?utm_source=chatgpt.com)[ecos.am](https://ecos.am/en/blog/best-bitcoin-mining-pools-features-fees-and-how-to-choose%3Fsrsltid%3DAfmBOopV4oSPvH2mzbzxbifMdqUUZnieMyCSTkyt128UxyXjGuWTzWua?utm_source=chatgpt.com)[hashrateindex.com](https://hashrateindex.com/blog/top-10-bitcoin-mining-pools-of-2026/?utm_source=chatgpt.com)[d-central.tech](https://d-central.tech/best-bitcoin-mining-pools/?utm_source=chatgpt.com)  \n- Uses **FPPS (Full Pay-Per-Share)** payout methods — miners receive both block reward *and* transaction fees with relatively predictable earnings. [www.nadcab.com](https://www.nadcab.com/blog/bitcoin-mining-pools?utm_source=chatgpt.com)  \n- Institutional-grade infrastructure often yields more stable payouts, especially for medium to large operations. [www.nadcab.com](https://www.nadcab.com/blog/bitcoin-mining-pools?utm_source=chatgpt.com)[www.nadcab.com](https://www.nadcab.com/blog/mining-pools-in-blockchain?utm_source=chatgpt.com)[ecos.am](https://ecos.am/en/blog/best-bitcoin-mining-pools-features-fees-and-how-to-choose%3Fsrsltid%3DAfmBOopV4oSPvH2mzbzxbifMdqUUZnieMyCSTkyt128UxyXjGuWTzWua?utm_source=chatgpt.com)[hashrateindex.com](https://hashrateindex.com/blog/top-10-bitcoin-mining-pools-of-2026/?utm_source=chatgpt.com)[d-central.tech](https://d-central.tech/best-bitcoin-mining-pools/?utm_source=chatgpt.com)\n\n👉 **Best for:** Larger, professional miners who want consistent, stable rewards.\n\n**2. AntPool**  \n- One of the oldest and biggest pools with ~17–20% of hashrate. [ecos.am](https://ecos.am/en/blog/best-bitcoin-mining-pools-features-fees-and-how-to-choose%3Fsrsltid%3DAfmBOopV4oSPvH2mzbzxbifMdqUUZnieMyCSTkyt128UxyXjGuWTzWua?utm_source=chatgpt.com)  \n- Offers multiple payout methods (FPPS / PPLNS), letting miners tailor earnings to strategy. [ecos.am](https://ecos.am/en/blog/best-bitcoin-mining-pools-features-fees-and-how-to-choose%3Fsrsltid%3DAfmBOopV4oSPvH2mzbzxbifMdqUUZnieMyCSTkyt128UxyXjGuWTzWua?utm_source=chatgpt.com)  \n- Strong global network distribution. [hashrateindex.com](https://hashrateindex.com/blog/top-10-bitcoin-mining-pools-of-2026/?utm_source=chatgpt.com)\n\n👉 **Best for:** Miners who want flexibility in payout options and global server coverage.\n\n**3. F2Pool**  \n- Among the oldest and most stable pools with ~10–15% of hashrate. [hashrateindex.com](https://hashrateindex.com/blog/top-10-bitcoin-mining-pools-of-2026/?utm_source=chatgpt.com)  \n- Mixes FPPS and PPLNS payouts, making it competitive for many miners. [hashrateindex.com](https://hashrateindex.com/blog/top-10-bitcoin-mining-pools-of-2026/?utm_source=chatgpt.com)\n\n👉 **Best for:** Miners who prioritize consistent payouts with relatively low fees.\n\n**4. Smaller/Alternative Pools (e.g., SpiderPool, Luxor, Braiins Pool)**  \n- These pools have lower overall hashrate but **competitive fee structures or niche advantages** such as 0% fees or advanced payout schemes. [hashrateindex.com](https://hashrateindex.com/blog/top-10-bitcoin-mining-pools-of-2026/?utm_source=chatgpt.com)[d-central.tech](https://d-central.tech/best-bitcoin-mining-pools/?utm_source=chatgpt.com)  \n- Historically, some miners have reported marginally higher short-term payouts on smaller pools with very low fees — *but results vary widely*. (Reddit community insights suggest some miners prefer smaller pools for slightly better return per TH/s in specific conditions.) [www.reddit.com](https://www.reddit.com/r/BitcoinMining/comments/1gdb2pu?utm_source=chatgpt.com)\n\n👉 **Best for:** Specialized small miners willing to trade payout frequency for slightly higher per-share rewards.\n\n---\n\n### 🔍 Key Profitability Factors (beyond “biggest pool”)\n\n- **Payout Method:**  \n  - *FPPS* (Full Payout per Share) is generally more predictable and often more profitable over time for stable miners.  \n  - *PPLNS* reward schemes can yield more if you’re patient and blocks are found frequently. [changelly.com](https://changelly.com/blog/best-bitcoin-mining-pools-list/?utm_source=chatgpt.com)\n\n- **Fees:** Lower fees = higher net profit. Some pools offer 0% for certain configurations (institutional deals, special programs). [hashrateindex.com](https://hashrateindex.com/blog/top-10-bitcoin-mining-pools-of-2026/?utm_source=chatgpt.com)[d-central.tech](https://d-central.tech/best-bitcoin-mining-pools/?utm_source=chatgpt.com)\n\n- **Hashrate Share:** Bigger pools find blocks more often, reducing variance and smoothing income. [hashrateindex.com](https://hashrateindex.com/blog/top-10-bitcoin-mining-pools-of-2026/?utm_source=chatgpt.com)\n\n- **Latency & Server Location:** Closer servers reduce orphaned shares and can slightly improve effective revenue.\n\n---\n\n### ⚠️ Final Takeaway\n\nIf you’re after **maximizing profitability long-term** with stable earnings, **Foundry USA Pool** is arguably the most consistently profitable choice for most operations thanks to its network share and FPPS payout model. [www.nadcab.com](https://www.nadcab.com/blog/bitcoin-mining-pools?utm_source=chatgpt.com)\n\nHowever, smaller pools with **lower fees or alternative payout schemes** can *occasionally* deliver slightly better short-term rewards, especially for smaller miners with low latency or specific hardware setups. [www.reddit.com](https://www.reddit.com/r/BitcoinMining/comments/1gdb2pu?utm_source=chatgpt.com)\n\nWould you like a **side-by-side fee and payout comparison chart** of the top Bitcoin mining pools? (That helps decide which one is most profitable for your exact setup.)",
+      "sources": [
+        {
+          "source_name": "Nadcab Labs",
+          "title": "10 Best Bitcoin Mining Pools to Watch in 2024",
+          "domain": "www.nadcab.com",
+          "url": "https://www.nadcab.com/blog/bitcoin-mining-pools?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Nadcab Labs",
+          "title": "Top 8 Blockchain Mining Pools to Watch in 2026",
+          "domain": "www.nadcab.com",
+          "url": "https://www.nadcab.com/blog/mining-pools-in-blockchain?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "ECOS",
+          "title": "Best Bitcoin Mining Pools in 2026: How to Choose",
+          "domain": "ecos.am",
+          "url": "https://ecos.am/en/blog/best-bitcoin-mining-pools-features-fees-and-how-to-choose%3Fsrsltid%3DAfmBOopV4oSPvH2mzbzxbifMdqUUZnieMyCSTkyt128UxyXjGuWTzWua?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Hashrate Index",
+          "title": "Top 10 Bitcoin Mining Pools for 2026",
+          "domain": "hashrateindex.com",
+          "url": "https://hashrateindex.com/blog/top-10-bitcoin-mining-pools-of-2026/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "D-Central",
+          "title": "Best Bitcoin Mining Pools 2026 | Fees, Payouts & Reviews | D-Central",
+          "domain": "d-central.tech",
+          "url": "https://d-central.tech/best-bitcoin-mining-pools/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Reddit",
+          "title": "Check out the comparison chart",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/BitcoinMining/comments/1gdb2pu?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "changelly.com",
+          "title": "Crypto Mining Pools 101: Types, Rewards and How They Work",
+          "domain": "changelly.com",
+          "url": "https://changelly.com/blog/best-bitcoin-mining-pools-list/?utm_source=chatgpt.com"
+        }
+      ],
+      "search_results": [
+        {
+          "description": "TOP BITCOIN MINING POOLS IN 2025  Choosing the right mining pool is crucial for maximizing mining efficiency and profitability. With numerous pools available, it can be challenging to determine the be...",
+          "breadcrumb": "ecos-21d1d6.gitlab.io",
+          "title": "Top Bitcoin Mining Pools in 2025: A Complete Guide | ECOS",
+          "domain": "ecos-21d1d6.gitlab.io",
+          "url": "https://ecos-21d1d6.gitlab.io/en/blog/best-bitcoin-mining-pools-in-2025-features-fees-and-how-to-choose/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "BITCOIN MINING POOL COMPARISON: SLUSH VS F2POOL VS ANTPOOL PROFITABILITY ANALYSIS 2025  Compare Slush Pool, F2Pool, and Antpool fees, payouts, and profitability. Find the best Bitcoin mining pool for...",
+          "breadcrumb": "markaicode.com",
+          "title": "Bitcoin Mining Pool Comparison: Slush vs F2Pool vs Antpool Profitability Analysis 2025 | Markaicode",
+          "domain": "markaicode.com",
+          "url": "https://markaicode.com/bitcoin-mining-pool-comparison-slush-f2pool-antpool/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "KEY FACTORS TO EVALUATE  Below are the eight criteria that separate a decent pool from a great one.  1. Fee Structure - Most pools charge 1‑4% of the reward. Some older, peer‑to‑peer pools claim 0% fe...",
+          "breadcrumb": "dextoday.com",
+          "title": "Mining Pool Selection Guide: Fees, Payouts & Top Picks for 2025",
+          "domain": "dextoday.com",
+          "url": "https://dextoday.com/mining-pool-selection-guide-fees-payouts-top-picks-for?utm_source=chatgpt.com"
+        },
+        {
+          "description": "* Proportional payment system: In this payment structure, miners receive a payout based on their percentage of total shares when a block is found. This method is straightforward but can lead to varia...",
+          "breadcrumb": "reereviews.com",
+          "title": "Best Mining Pool [Updated On: November 2025]",
+          "domain": "reereviews.com",
+          "url": "https://reereviews.com/best-mining-pool/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Last Updated: December 24th, 2025|28 mins  THE TOP 10 BITCOIN MINING POOLS TO CONSIDER IN 2026  Analysis  Image: Jibran MirzaJibran Mirza  TABLE OF CONTENTS  Key Takeaways  Bitcoin Mining Pools: Quick...",
+          "breadcrumb": "coinbureau.com",
+          "title": "Best Bitcoin Mining Pools Of 2026: Compare The Top Bitcoin Mining Pool for Miners! - Coin Bureau",
+          "domain": "coinbureau.com",
+          "url": "https://coinbureau.com/analysis/best-bitcoin-mining-pools?utm_source=chatgpt.com"
+        },
+        {
+          "description": "TOP 10 BITCOIN MINING POOLS OF 2025  Here is Hashrate Index’s list for the best Bitcoin mining pools battling it out in 2025.  Kaan Farahani  6 Jan 2025  Since their introduction in 2011, mining pool...",
+          "breadcrumb": "hashrateindex.com",
+          "title": "Top 10 Bitcoin Mining Pools of 2025",
+          "domain": "hashrateindex.com",
+          "url": "https://hashrateindex.com/blog/top-10-bitcoin-mining-pools-of-2025/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "TOP 15 BITCOIN MINING POOLS OF 2025  Image  * Author Crypto Grandma * Published January 17 2025 * Category Market News Mining 101  Share  As Bitcoin mining evolves, the battle for block rewards has s...",
+          "breadcrumb": "mintxmining.com",
+          "title": "Top 15 Bitcoin Mining Pools of 2025 - MintX",
+          "domain": "mintxmining.com",
+          "url": "https://mintxmining.com/top-bitcoin-mining-pools-2025/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "BITCOIN MINING POOLS AND THEIR IMPACT ON BITCOIN DEVELOPMENT  Published on: 26 Sep 2025  Author: Monika  Share  Bitcoin  KEY TAKEAWAYS  * Bitcoin mining pools now control the vast majority of network...",
+          "breadcrumb": "nadcab.com",
+          "title": "Bitcoin Mining Pools - Powering the Bitcoin Network",
+          "domain": "www.nadcab.com",
+          "url": "https://www.nadcab.com/blog/bitcoin-mining-pools-impact?utm_source=chatgpt.com"
+        },
+        {
+          "description": "What makes Braiins special: The pool offers BraiinsOS+ firmware. You could be mining smarter—this software helps you get up to 25% more done. Even better, you get 0% pool fees instead of paying the s...",
+          "breadcrumb": "godex.io",
+          "title": "Best Mining Pools: Top Bitcoin Mining Pool Options for 2025 | Godex",
+          "domain": "godex.io",
+          "url": "https://godex.io/blog/best-mining-pools-for-bitcoin-in-2025?utm_source=chatgpt.com"
+        },
+        {
+          "description": "BEST BITCOIN MINING POOLS IN 2025  Below is a fully updated, SEO-optimized comparison of the top Bitcoin mining pools this year.  1. FOUNDRY USA (BEST FOR PREDICTABLE INSTITUTIONAL-GRADE PAYOUTS)  Fou...",
+          "breadcrumb": "apextomining.com",
+          "title": "Best Bitcoin Mining Pools In 2025 - Apexto Mining",
+          "domain": "apextomining.com",
+          "url": "https://apextomining.com/2025/11/27/best-bitcoin-mining-pools-in-2025-complete-guide-for-miners/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "The network now spans over 100 countries, secures nearly one million mined blocks, and generates billions of dollars in annual miner revenue, while consuming a significant share of global electricity....",
+          "breadcrumb": "iciclebridge.com",
+          "title": "What Are the Top Bitcoin Mining Pools to Mine BTC in 2026?",
+          "domain": "iciclebridge.com",
+          "url": "https://iciclebridge.com/en/learn/article/top-bitcoin-mining-pools-to-mine-btc?utm_source=chatgpt.com"
+        },
+        {
+          "description": "HOW DO BITCOIN MINING POOLS WORK?  When a Bitcoin mining pool is formed, each member of the pool contributes their own mining hardware and shares their processing power with the other members of the...",
+          "breadcrumb": "btcmining.academy",
+          "title": "The Biggest Bitcoin Mining Pools: A Comparison - Bitcoin Mining Academy",
+          "domain": "www.btcmining.academy",
+          "url": "https://www.btcmining.academy/the-biggest-bitcoin-mining-pools-a-comparison/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "THE MOST PROFITABLE CRYPTO MINING POOLS IN 2025 — A PRACTICAL GUIDE  By /  If you’re mining in 2025, “most profitable” isn’t just about which crypto mining pool pays the most per block — it’s a mix o...",
+          "breadcrumb": "cryptominers.club",
+          "title": "The most profitable crypto mining pools in 2025 — a practical guide - cryptominers",
+          "domain": "www.cryptominers.club",
+          "url": "https://www.cryptominers.club/the-most-profitable-crypto-mining-pools-in-2025-a-practical-guide/?utm_source=chatgpt.com"
+        }
+      ],
+      "ai_search_volume": 1,
+      "monthly_searches": {
+        "2026-06": 1,
+        "2026-05": 4,
+        "2026-04": 4,
+        "2026-03": 5,
+        "2026-02": 11,
+        "2026-01": 14,
+        "2025-12": 15,
+        "2025-11": 10,
+        "2025-10": 8,
+        "2025-09": 5,
+        "2025-08": 3
+      },
+      "first_response_at": "2026-02-26 07:47:29 +00:00",
+      "last_response_at": "2026-02-26 07:47:29 +00:00",
+      "brand_entities": [
+        {
+          "title": "Foundry USA Pool",
+          "category": "local_business"
+        }
+      ],
+      "fan_out_queries": [
+        "most profitable Bitcoin mining pool 2026 profitability Bitcoin mining pools",
+        "which Bitcoin mining pool gives highest revenue share Bitcoin mining pool profitability comparison"
+      ]
+    }
+  ]
+}

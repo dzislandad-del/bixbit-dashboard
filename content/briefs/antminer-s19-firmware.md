@@ -1,8 +1,9 @@
 # Content Brief: Antminer S19 Firmware
 **URL:** /en/antminer-firmware/antminer-s19
 **File:** content/briefs/antminer-s19-firmware.md
-**Last updated:** 2026-06-18
-**Priority:** P1
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P1 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Keep. 5 keywords × 10/mo = 50/mo, KD 18–57. The S19 installed base is large.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/antminer` (existing page), H2 Antminer S19 series, section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Technical writer + firmware engineer reviewer]
 
 ---
@@ -23,14 +24,16 @@ Capture operators with the largest installed base — the S19 series is the most
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer s19 firmware | Primary | — | — |
-| antminer s19 pro firmware | Secondary | — | — |
-| antminer s19j pro firmware | Secondary | — | — |
-| antminer s19 custom firmware | Commercial | — | — |
-| antminer s19 xp firmware | Long-tail | — | — |
-| antminer s19 firmware update | Transactional | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer s19 firmware | Primary | 10 | 18 | — |
+| antminer s19 pro firmware | Secondary | 10 | 50 | — |
+| antminer s19j pro firmware | Secondary | 10 | 18 | — |
+| antminer s19 custom firmware | Commercial | 10 | 57 | — |
+| antminer s19 xp firmware | Long-tail | n/d (<10) | — | — |
+| antminer s19 firmware update | Transactional | 10 | — | — |
 
 ---
 

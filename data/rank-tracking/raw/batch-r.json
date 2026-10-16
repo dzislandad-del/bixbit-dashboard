@@ -1,0 +1,310 @@
+[
+  {
+    "keyword": "bitmain firmware",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [
+      {
+        "rank_group": 17,
+        "rank_absolute": 20,
+        "url": "https://bixbit.io/en/firmwares/antminer"
+      },
+      {
+        "rank_group": 44,
+        "rank_absolute": 50,
+        "url": "https://bixbit.io/en/firmwares"
+      }
+    ],
+    "top3": [
+      "shop.bitmain.com",
+      "service.bitmain.com",
+      "www.youtube.com"
+    ],
+    "competitors": {
+      "braiins.com": 13,
+      "vnish": 6,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": 12,
+      "minerstat.com": null,
+      "liquidstack.com": null,
+      "engineeredfluids.com": null
+    },
+    "total_organic": 85,
+    "notes": "Attempt 1 (default AI-mode response) returned only 17 organic items; attempt 2 used noAiMode=true (full schema) and returned 85 (kept). The AI-optimized MCP output appears to be the cause of earlier truncation."
+  },
+  {
+    "keyword": "antminer custom firmware",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [],
+    "top3": [
+      "www.reddit.com",
+      "bitcointalk.org",
+      "www.youtube.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": null,
+      "minerstat.com": null,
+      "liquidstack.com": null,
+      "engineeredfluids.com": null
+    },
+    "total_organic": 19,
+    "notes": "Google returned a genuinely short SERP (pages_count=2) in full-schema mode; attempt 2 returned 11. Kept attempt 1 (19)."
+  },
+  {
+    "keyword": "best antminer custom firmware",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [],
+    "top3": [
+      "bitcointalk.org",
+      "www.reddit.com",
+      "www.youtube.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": null,
+      "minerstat.com": null,
+      "liquidstack.com": null,
+      "engineeredfluids.com": null
+    },
+    "total_organic": 14,
+    "notes": "Short SERP (pages_count=2) both attempts, 14 organic each; kept attempt 1."
+  },
+  {
+    "keyword": "whatsminer tool",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [
+      {
+        "rank_group": 10,
+        "rank_absolute": 12,
+        "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+      },
+      {
+        "rank_group": 23,
+        "rank_absolute": 26,
+        "url": "https://bixbit.io/en/firmwares"
+      },
+      {
+        "rank_group": 34,
+        "rank_absolute": 38,
+        "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool"
+      }
+    ],
+    "top3": [
+      "www.whatsminer.com",
+      "www.whatsminer.com",
+      "www.zeusbtc.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": null,
+      "minerstat.com": null,
+      "liquidstack.com": null,
+      "engineeredfluids.com": null
+    },
+    "total_organic": 58,
+    "notes": "Attempt 1 returned 37 organic (bixbit absent, SERP flooded with play.google.com locale variants); attempt 2 returned 58 (kept). Unlinked brand mention: cryptonews.net (rank_group 12) snippet mentions 'BiXBiT website'. Still <60 after 2 attempts (pages_count=6)."
+  },
+  {
+    "keyword": "antminer s21 firmware",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [],
+    "top3": [
+      "shop.bitmain.com",
+      "www.awesomeminer.com",
+      "www.zeusbtc.com"
+    ],
+    "competitors": {
+      "braiins.com": 13,
+      "vnish": 12,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": 2,
+      "minerstat.com": null,
+      "liquidstack.com": null,
+      "engineeredfluids.com": null
+    },
+    "total_organic": 58,
+    "notes": "Attempt 2 returned only 6 organic; kept attempt 1 (58). vnish first hit = vnish.ru (rg12); also vni.sh, vnish.pro, vnish.us, vnish.info present."
+  },
+  {
+    "keyword": "immersion cooling mining",
+    "status_code": 20000,
+    "attempts": 1,
+    "bixbit": [
+      {
+        "rank_group": 12,
+        "rank_absolute": 17,
+        "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining"
+      },
+      {
+        "rank_group": 31,
+        "rank_absolute": 39,
+        "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining"
+      }
+    ],
+    "top3": [
+      "cryptominerbros.com",
+      "bitmars.io",
+      "www.mara.com"
+    ],
+    "competitors": {
+      "braiins.com": 11,
+      "vnish": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": null,
+      "minerstat.com": null,
+      "liquidstack.com": null,
+      "engineeredfluids.com": 16
+    },
+    "total_organic": 94,
+    "notes": "bixbit.io same URL appears twice (rg12 and rg31)."
+  },
+  {
+    "keyword": "asic immersion cooling",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [],
+    "top3": [
+      "bitcoinmagazine.com",
+      "www.linkedin.com",
+      "www.reddit.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": 18,
+      "awesomeminer.com": null,
+      "minerstat.com": null,
+      "liquidstack.com": null,
+      "engineeredfluids.com": null
+    },
+    "total_organic": 32,
+    "notes": "Attempt 1 returned 31 organic and DID include bixbit.io/en/products at rank_group 8 (rank_absolute 12); attempt 2 returned 32 (kept per max-items rule) without bixbit. Ranking is volatile. Short SERP (pages_count=4)."
+  },
+  {
+    "keyword": "immersion cooling",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [
+      {
+        "rank_group": 33,
+        "rank_absolute": 49,
+        "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work"
+      }
+    ],
+    "top3": [
+      "submer.com",
+      "www.parkplacetechnologies.com",
+      "en.wikipedia.org"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": null,
+      "minerstat.com": null,
+      "liquidstack.com": 26,
+      "engineeredfluids.com": 44
+    },
+    "total_organic": 93,
+    "notes": "Attempt 1 returned 51 organic (no bixbit); attempt 2 returned 93 (kept)."
+  },
+  {
+    "keyword": "antminer mineral oil",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [],
+    "top3": [
+      "www.reddit.com",
+      "www.youtube.com",
+      "www.made-in-china.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": 10,
+      "awesomeminer.com": null,
+      "minerstat.com": null,
+      "liquidstack.com": null,
+      "engineeredfluids.com": null
+    },
+    "total_organic": 17,
+    "notes": "Attempt 1: status 40106 (partial results), 7 organic, bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining at rank_group 2 (rank_absolute 6). Attempt 2: 20000, 17 organic (kept) without bixbit. SERP composition differs heavily between attempts."
+  },
+  {
+    "keyword": "asic monitor",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [],
+    "top3": [
+      "www.reddit.com",
+      "bitcointalk.org",
+      "bitcointalk.org"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": null,
+      "minerstat.com": null,
+      "liquidstack.com": null,
+      "engineeredfluids.com": null
+    },
+    "total_organic": 9,
+    "notes": "Google returns a tiny SERP (se_results_count=10, 1 page) both attempts; kept attempt 1. minerstat appears only via bitcointalk.org threads, not minerstat.com."
+  },
+  {
+    "keyword": "antminer dashboard",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [],
+    "top3": [
+      "www.bitmain.com",
+      "github.com",
+      "www.cryptominerbros.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": 12,
+      "minerstat.com": 6,
+      "liquidstack.com": null,
+      "engineeredfluids.com": null
+    },
+    "total_organic": 54,
+    "notes": "Attempt 1 returned 13 organic; attempt 2 returned 54 (kept). awesomeminer first hit is support.awesomeminer.com (rg12); www.awesomeminer.com at rg19."
+  }
+]

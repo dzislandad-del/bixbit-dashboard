@@ -1,0 +1,726 @@
+{
+  "id": "09251246-2548-0634-0000-d15d9cb52780",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "total_count": 5,
+  "items": [
+    {
+      "platform": "chat_gpt",
+      "model_name": "gpt-5-2",
+      "question": "what country has banned crypto?",
+      "answer": "Several countries around the world have **banned or heavily restricted cryptocurrency** — meaning they prohibit most or all crypto activity such as trading, owning, or using it as money. The exact list can change as policies evolve, but based on current information (as of late 2025), here are the key nations where cryptocurrency is **completely banned or illegal**: [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)\n\n### 🔒 **Countries with a Full Cryptocurrency Ban**\nThese countries prohibit crypto transactions, trading, and often possession or use:\n\n- **Algeria** – All crypto use is prohibited. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Afghanistan** – Crypto transactions are banned. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Bangladesh** – Digital assets are illegal. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Bolivia** – Long-standing ban on crypto activities. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[btcignite.com](https://btcignite.com/crypto-illegal-countries-list-2025-complete-guide-to-banned-nations?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_censorship_in_Iran?utm_source=chatgpt.com)  \n- **China** – Crypto trading/mining/transactions are banned for individuals. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Egypt** – Crypto use is outlawed. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Morocco** – All virtual currency transactions are prohibited. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Nepal** – Crypto is illegal. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Tunisia** – Cryptocurrency banned by central bank and law. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[btcignite.com](https://btcignite.com/crypto-illegal-countries-list-2025-complete-guide-to-banned-nations?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_censorship_in_Iran?utm_source=chatgpt.com)  \n- **Iraq** – Central bank bans crypto. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[btcignite.com](https://btcignite.com/crypto-illegal-countries-list-2025-complete-guide-to-banned-nations?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_censorship_in_Iran?utm_source=chatgpt.com)\n\n### ⚠️ **Countries with Major Restrictions**\nThese don’t always ban ownership outright, but restrict banking involvement or legal recognition:\n\n- **Iran** recently enacted broad bans on crypto transactions and use as payment. [en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_censorship_in_Iran?utm_source=chatgpt.com)  \n- **Kuwait** bans trading and is cracking down on mining. [www.reuters.com](https://www.reuters.com/business/energy/kuwait-cracks-down-cryptocurrency-mining-amid-power-crisis-2025-05-01/?utm_source=chatgpt.com)  \n- Other countries may prohibit banks and financial institutions from handling crypto, severely limiting its practical use (e.g., some Middle Eastern and African nations). [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)\n\n### 📌 **Important Notes**\n- Even in countries with bans, **underground trading or peer-to-peer activity may still occur**. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[btcignite.com](https://btcignite.com/crypto-illegal-countries-list-2025-complete-guide-to-banned-nations?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_censorship_in_Iran?utm_source=chatgpt.com)  \n- Policies differ: some nations ban *use as money* but allow holding crypto as an asset, and others even prohibit *mining activities*. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)\n\nIf you want, I can break this down by **region (Africa, Asia, Middle East, etc.)** or show **which countries have *partial bans*** (like banning banks from dealing with crypto).",
+      "sources": [
+        {
+          "source_name": "EMCD All Things Crypto in One App",
+          "title": "Legality of cryptocurrency by country and territory",
+          "domain": "emcd.io",
+          "url": "https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "BTC Ignite",
+          "title": "Crypto Illegal Countries List 2025: Complete Guide to Banned Nations",
+          "domain": "btcignite.com",
+          "url": "https://btcignite.com/crypto-illegal-countries-list-2025-complete-guide-to-banned-nations?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Wikipedia",
+          "title": "Internet censorship in Iran",
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Internet_censorship_in_Iran?utm_source=chatgpt.com"
+        },
+        {
+          "snippet": "Kuwait has launched a sweeping crackdown on cryptocurrency mining operations, blaming them as a significant contributor to the country's escalating power crisis, which is causing blackouts ahead of the intense summer heat. Although cryptocurrency trading is banned in Kuwait, there are no specific regulations regarding mining. Authorities have deemed the activity illegal due to its strain on the power grid, particularly as Kuwait struggles with population growth, urban sprawl, high temperatures, and deferred maintenance at power facilities.\n\nThe Ministry of Interior, in coordination with the electricity ministry, initiated raids in areas like Al-Wafrah, where some homes were reportedly using up to 20 times the regular electricity levels for crypto mining. Following the raids, energy consumption in the area plummeted by 55%. While Kuwait only accounted for 0.05% of the global bitcoin mining share in 2022, experts suggest that even a minor share of global mining activity can significantly affect Kuwait's relatively small power system.\n\nOfficials criticized miners for exploiting low electricity prices, government subsidies, and regulatory loopholes. The central bank continues to warn against crypto investments, contrasting sharply with regional neighbors like Dubai, which hosted a prominent crypto event the same week.",
+          "source_name": "Reuters",
+          "title": "Kuwait cracks down on cryptocurrency mining amid power crisis",
+          "domain": "www.reuters.com",
+          "url": "https://www.reuters.com/business/energy/kuwait-cracks-down-cryptocurrency-mining-amid-power-crisis-2025-05-01/?utm_source=chatgpt.com"
+        }
+      ],
+      "search_results": [
+        {
+          "description": "HomeVideos  10 AFRICAN COUNTRIES THAT HAVE BANNED CRYPTOCURRENCY  15 May 2024 at 08:17Cryptocurrency transactions in some African countries have remained banned despite the possibility of introducing...",
+          "breadcrumb": "pulse.ng",
+          "title": "10 African countries that have banned cryptocurrency | Pulse Nigeria",
+          "domain": "www.pulse.ng",
+          "url": "https://www.pulse.ng/articles/domestic/african-countries-that-have-banned-cryptocurrency-2024072704250176923?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Countries where Cryptocurrency is legal vary; some countries welcome digital currency, while others ban it due to safety concerns and to prevent illegal online activities.  Investors and traders can u...",
+          "breadcrumb": "demandsage.com",
+          "title": "Crypto Legal Countries List 2025 (Bitcoin Banned & Friendly)",
+          "domain": "www.demandsage.com",
+          "url": "https://www.demandsage.com/crypto-legal-countries/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Crypto  CRYPTO BANS IN 2025: COUNTRIES WHERE IT'S STILL RESTRICTED  Crypto Bans in 2025: Countries Where It’s Still Restricted  Published on:  01 Nov 2025, 8:30 am  Although many countries have moved...",
+          "breadcrumb": "icodesk.io",
+          "title": "Crypto Bans in 2025: Countries Where It's Still Restricted",
+          "domain": "icodesk.io",
+          "url": "https://icodesk.io/crypto/crypto-bans-in-2025-countries-where-its-still-restricted?utm_source=chatgpt.com"
+        },
+        {
+          "description": "TABLE-B: COUNTRIES THAT HAVE BANNED CRYPTOCURRENCIES  S. No.  | Country  | Status of ban 1  | Ecuador  | It passed a law banning Bitcoin and decentralized digital currencies in 2014. The Central Bank...",
+          "breadcrumb": "ikigailaw.com",
+          "title": "Global Cryptocurrency Regulatory Landscape",
+          "domain": "www.ikigailaw.com",
+          "url": "https://www.ikigailaw.com/article/178/our-story?utm_source=chatgpt.com"
+        },
+        {
+          "description": "+1 (646) 466-6530 (New York) info@ceoworld.biz  Sunday, December 28th, 2025 1:21 AM  Special ReportsAnalytics & Strategy  Image: Anna SiampaniAnna SiampaniFebruary 3, 2025  Despite the global rise of...",
+          "breadcrumb": "ceoworld.biz",
+          "title": "Cryptocurrency Is Still Restricted or Prohibited in These 10 Countries in 2025 - CEOWORLD magazine",
+          "domain": "ceoworld.biz",
+          "url": "https://ceoworld.biz/2025/02/03/cryptocurrency-is-still-restricted-or-prohibited-in-these-10-countries-in-2025/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "HERE ARE THE COUNTRIES THAT BANNED CRYPTOCURRENCY  Zia Muhammad 3/17/2024 05:57:00 PM  The recent bull run that Bitcoin experienced has resulted in many people wanting to invest in cryptocurrencies on...",
+          "breadcrumb": "digitalinformationworld.com",
+          "title": "Here are the Countries That Banned Cryptocurrency",
+          "domain": "www.digitalinformationworld.com",
+          "url": "https://www.digitalinformationworld.com/2024/03/here-are-countries-that-banned.html?utm_source=chatgpt.com"
+        },
+        {
+          "description": "LEGAL STATUS BY COUNTRY  It’s easiest to name the countries where crypto is outright illegal. According to the U.S. Library of Congress, as of November 2021, a total of nine countries have banned cryp...",
+          "breadcrumb": "nasdaq.com",
+          "title": "Countries Where Cryptocurrency Is Legal and Illegal | Nasdaq",
+          "domain": "www.nasdaq.com",
+          "url": "https://www.nasdaq.com/articles/countries-where-cryptocurrency-is-legal-and-illegal?utm_source=chatgpt.com"
+        },
+        {
+          "description": "KEY TAKEAWAYS  A full breakdown of the places around the world where cryptocurrency is banned outright, as well as a look at regulations around the world.  As a digital form of currency that operates...",
+          "breadcrumb": "techopedia.com",
+          "title": "Which Countries Have Banned Crypto, and Why?",
+          "domain": "www.techopedia.com",
+          "url": "https://www.techopedia.com/cryptocurrency-bans-explained-which-countries-have-restricted-crypto?utm_source=chatgpt.com"
+        },
+        {
+          "description": "The ever-increasing trend of investing in cryptocurrencies raised financial concerns for governments across the world, leading to a crypto ban.  According to a 2021 report from the Law Library of Con...",
+          "breadcrumb": "jagranjosh.com",
+          "title": "List of countries where cryptocurrency is banned",
+          "domain": "www.jagranjosh.com",
+          "url": "https://www.jagranjosh.com/general-knowledge/list-of-countries-where-cryptocurrency-is-banned-1642429237-1?utm_source=chatgpt.com"
+        },
+        {
+          "description": "The ever-increasing trend of investing in cryptocurrencies raised financial concerns for governments across the world, leading to a crypto ban.  According to a 2021 report from the Law Library of Con...",
+          "breadcrumb": "jagranjosh.com",
+          "title": "List of countries where cryptocurrency is banned",
+          "domain": "stg.jagranjosh.com",
+          "url": "https://stg.jagranjosh.com/general-knowledge/list-of-countries-where-cryptocurrency-is-banned-1642429237-1?utm_source=chatgpt.com"
+        },
+        {
+          "description": "* Go to navigation * Go to main content * Go to search * Go to footer  By Chloe Orji  Published on 30/08/2021 - 16:24 GMT+2 •Updated 25/08/2022 - 20:25 GMT+2  WHILE SOME COUNTRIES LIKE EL SALVADOR ARE...",
+          "breadcrumb": "euronews.com",
+          "title": "Bitcoin ban: These are the countries where crypto is restricted or illegal | Euronews",
+          "domain": "www.euronews.com",
+          "url": "https://www.euronews.com/next/2022/08/25/bitcoin-ban-these-are-the-countries-where-crypto-is-restricted-or-illegal2?utm_source=chatgpt.com"
+        },
+        {
+          "description": "This could result in your digital currencies being confiscated, heavy fines, or even imprisonment. The legal status of virtual currencies can change rapidly, so what was legal last year may be illega...",
+          "breadcrumb": "travala.com",
+          "title": "Where Cryptocurrency Is Banned: Countries You Should Know Before You Travel",
+          "domain": "www.travala.com",
+          "url": "https://www.travala.com/blog/where-cryptocurrency-is-banned-countries-you-should-know-before-you-travel/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "That is why some countries impose certain restrictions.  Each country defines its own legal status for Bitcoin and other cryptos.  Bitcoin has caused controversies since its appearance in 2009. So hav...",
+          "breadcrumb": "mixer.money",
+          "title": "Countries That Have Banned Cryptocurrency: A mixer.money Review",
+          "domain": "blog.mixer.money",
+          "url": "https://blog.mixer.money/en/countries-that-have-banned-cryptocurrency/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "COUNTRIES WHERE BITCOIN IS PROHIBITED  Country  | Cryptocurrency ban Afghanistan  | The Taliban banned crypto in Afghanistan in August 2022. Algeria  | The purchase, sale, use, and possession of crypt...",
+          "breadcrumb": "cryptonews.com",
+          "title": "Is Bitcoin Legal? Countries That Allow or Ban Crypto - Cryptonews",
+          "domain": "cryptonews.com",
+          "url": "https://cryptonews.com/academy/is-bitcoin-legal-countries-that-allow-or-ban-crypto/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "COUNTRIES WHERE CRYPTOCURRENCY IS ILLEGAL  Cryptocurrencies are banned in some countries due to concerns about regulatory issues, financial stability, loss of control, consumer protection, tax evasion...",
+          "breadcrumb": "whitebit.com",
+          "title": "Is Cryptocurrency Legal | Is Bitcoin Safe | WhiteBIT Blog",
+          "domain": "blog.whitebit.com",
+          "url": "https://blog.whitebit.com/en/is-bitcoin-and-cryptocurrency-legal/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "LEGAL STATUS BY COUNTRY  It’s easiest to name the countries where crypto is outright illegal. According to the U.S. Library of Congress, as of November 2021, a total of nine countries have banned cryp...",
+          "breadcrumb": "money.com",
+          "title": "Countries Where Crypto is Legal (and Illegal) | Money.com",
+          "domain": "money.com",
+          "url": "https://money.com/cryptocurrency-legal-status-by-country/?utm_source=chatgpt.com"
+        }
+      ],
+      "ai_search_volume": 6,
+      "monthly_searches": {
+        "2026-06": 6,
+        "2026-05": 6,
+        "2026-04": 1,
+        "2026-01": 10,
+        "2025-12": 13,
+        "2025-11": 13,
+        "2025-10": 4
+      },
+      "first_response_at": "2025-12-30 08:14:28 +00:00",
+      "last_response_at": "2025-12-30 08:14:28 +00:00",
+      "fan_out_queries": [
+        "which countries have banned cryptocurrency",
+        "countries banning crypto regulation list cryptocurrency prohibited country"
+      ]
+    },
+    {
+      "platform": "chat_gpt",
+      "model_name": "gpt-5-2",
+      "question": "which country doesn't allow crypto?",
+      "answer": "Here’s a snapshot of **countries that currently *don’t allow cryptocurrency* (i.e., crypto is banned or illegal)** — meaning citizens cannot legally buy, sell, trade, or use crypto under national law: [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[www.demandsage.com](https://www.demandsage.com/crypto-legal-countries/?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency_in_Iran?utm_source=chatgpt.com)\n\n### 🇳🇴 Countries with **Full or Complete Crypto Bans**\nThese countries generally ban *all* cryptocurrency transactions, trading, and use:\n\n**Commonly cited fully banned jurisdictions:**\n- **China** – crypto activities (trading, mining, exchanges) are illegal; only the state-backed digital yuan is allowed. [www.reuters.com](https://www.reuters.com/world/asia-pacific/china-vows-tighten-virtual-currency-restrictions-2026-02-06/?utm_source=chatgpt.com)  \n- **Algeria** – total ban on cryptocurrency use and transactions. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Bangladesh** – cryptocurrency trading and use are illegal. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Nepal** – crypto activities are outlawed. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Afghanistan** – crypto banned under current rule. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Morocco** – transactions and use prohibited. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Tunisia** – cryptocurrency use banned under financial law. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[www.demandsage.com](https://www.demandsage.com/crypto-legal-countries/?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency_in_Iran?utm_source=chatgpt.com)  \n- **Egypt** – legal prohibition supported by a religious advisory ruling. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- **Pakistan** – crypto remains illegal or in a strict legal grey area with no legal tender status. [www.demandsage.com](https://www.demandsage.com/crypto-legal-countries/?utm_source=chatgpt.com)  \n\n*(Several sources vary slightly on lists — some include Iraq, Qatar, or other nations depending on interpretation.)* [www.b2bpay.co](https://www.b2bpay.co/list-restricted-currencies?utm_source=chatgpt.com)\n\n### ⚠️ Other Countries with **Severe Restrictions**\nIn some places, crypto isn’t fully *banned* but financial institutions, banks, or payment systems are prohibited from dealing with it — making it effectively very limited:\n\nExamples include:  \n- **Iran** — major restrictions and recent bans on crypto payments. [en.wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency_in_Iran?utm_source=chatgpt.com)  \n- **Qatar**, **Russia**, **Saudi Arabia** — banks and financial services are barred from crypto operations. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n\n### 📌 Important Notes\n- **Regulations change often:** Some countries that *used to* ban crypto are reconsidering regulations or implementing frameworks rather than flat bans. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[www.demandsage.com](https://www.demandsage.com/crypto-legal-countries/?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency_in_Iran?utm_source=chatgpt.com)  \n- A “ban” can mean different things — from total outlawing of *any* crypto activity to only banning certain elements like trading, payments, or banking involvement. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)\n\nIf you’re asking about a *specific country’s* crypto status, let me know and I can give you the most up-to-date details.",
+      "sources": [
+        {
+          "source_name": "EMCD All Things Crypto in One App",
+          "title": "Legality of cryptocurrency by country and territory",
+          "domain": "emcd.io",
+          "url": "https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "DemandSage",
+          "title": "Crypto Legal Countries List 2026 [Bitcoin Banned & Friendly]",
+          "domain": "www.demandsage.com",
+          "url": "https://www.demandsage.com/crypto-legal-countries/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Wikipedia",
+          "title": "Cryptocurrency in Iran",
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Cryptocurrency_in_Iran?utm_source=chatgpt.com"
+        },
+        {
+          "snippet": "China has intensified its crackdown on virtual currencies, reaffirming its ban on cryptocurrency activities and announcing new restrictions. The central bank, in coordination with other regulatory agencies, declared unauthorized offshore issuance of yuan-pegged stablecoins illegal and announced that tokens backed by Chinese onshore assets will be strictly vetted. This move reinforces the central bank’s monopoly over digital currency issuance through its official digital yuan and aims to clamp down on speculative crypto activities labeled as illegal financial conduct. Despite the ongoing ban on virtual currencies, the announcement hints at regulatory support for real-world asset (RWA) tokenization, marking a significant development for businesses in that space. Experts note the shift signals a structured approach to integrating RWA tokens into China’s financial system, though enforcement and policy specifics remain forthcoming.",
+          "source_name": "Reuters",
+          "title": "China steps up crypto crackdown, will vet real-world asset tokens",
+          "domain": "www.reuters.com",
+          "url": "https://www.reuters.com/world/asia-pacific/china-vows-tighten-virtual-currency-restrictions-2026-02-06/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "B2B Pay powered by Barclays",
+          "title": "List of restricted currencies {Complete list}",
+          "domain": "www.b2bpay.co",
+          "url": "https://www.b2bpay.co/list-restricted-currencies?utm_source=chatgpt.com"
+        }
+      ],
+      "search_results": [
+        {
+          "description": "Here's the list of countries that have banned cryptocurrencies.  1- Algeria  Algeria introduced a law in 2018 which banned buying, selling or holding virtual currencies in the country.  2- Bangladesh...",
+          "breadcrumb": "jagranjosh.com",
+          "title": "List of countries where cryptocurrency is banned",
+          "domain": "www.jagranjosh.com",
+          "url": "https://www.jagranjosh.com/general-knowledge/list-of-countries-where-cryptocurrency-is-banned-1642429237-1?utm_source=chatgpt.com"
+        },
+        {
+          "description": "CRYPTOCURRENCY BANNED COUNTRIES LIST: WHERE CRYPTO IS ILLEGAL IN 2025  By The Financial Ocean / April 26, 2025  Country  | Type of Ban  | Notes --- | --- | --- China  | Full Ban  | Trading, mining, ex...",
+          "breadcrumb": "thefinancialocean.com",
+          "title": "Cryptocurrency Banned Countries List: Where Crypto Is Illegal in 2025 -",
+          "domain": "thefinancialocean.com",
+          "url": "https://thefinancialocean.com/cryptocurrency-banned-countries-list-where-crypto-is-illegal-in-2025/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "The government had previously banned Initial Coin Offerings, or ICOs for short, in 2017, and these moves ended up leading to the price of Bitcoin and other crypto tokens declining somewhat. In 2021, t...",
+          "breadcrumb": "digitalinformationworld.com",
+          "title": "Here are the Countries That Banned Cryptocurrency",
+          "domain": "www.digitalinformationworld.com",
+          "url": "https://www.digitalinformationworld.com/2024/03/here-are-countries-that-banned.html?utm_source=chatgpt.com"
+        },
+        {
+          "description": "CRYPTOCURRENCY BANS EXPLAINED: WHICH COUNTRIES HAVE RESTRICTED CRYPTO AND WHY?  Image: A bitcoin on a laptop  KEY TAKEAWAYS  A full breakdown of the places around the world where cryptocurrency is ba...",
+          "breadcrumb": "techopedia.com",
+          "title": "Which Countries Have Banned Crypto, and Why?",
+          "domain": "www.techopedia.com",
+          "url": "https://www.techopedia.com/cryptocurrency-bans-explained-which-countries-have-restricted-crypto?utm_source=chatgpt.com"
+        },
+        {
+          "description": "China is a wealthy country that, until recently, had a thriving crypto market. However, the Chinese government decided to ban cryptocurrency trading and mining entirely. Since 2013, China has been li...",
+          "breadcrumb": "makeuseof.com",
+          "title": "10 Countries Where Cryptocurrency Is Illegal or Restricted",
+          "domain": "www.makeuseof.com",
+          "url": "https://www.makeuseof.com/countries-where-cryptocurrency-is-banned/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "COUNTRIES WHERE CRYPTOCURRENCY IS ILLEGAL  Cryptocurrencies are banned in some countries due to concerns about regulatory issues, financial stability, loss of control, consumer protection, tax evasion...",
+          "breadcrumb": "whitebit.com",
+          "title": "Is Cryptocurrency Legal | Is Bitcoin Safe | WhiteBIT Blog",
+          "domain": "blog.whitebit.com",
+          "url": "https://blog.whitebit.com/en/is-bitcoin-and-cryptocurrency-legal/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Find Us  BITCOIN BAN: THESE ARE THE COUNTRIES WHERE CRYPTO IS RESTRICTED OR ILLEGAL  Image: Cryptocurrencies like Bitcoin are heavily regulated or restricted in a number of countries around the world...",
+          "breadcrumb": "euronews.com",
+          "title": "Bitcoin ban: These are the countries where crypto is restricted or illegal | Euronews",
+          "domain": "www.euronews.com",
+          "url": "https://www.euronews.com/next/2022/08/25/bitcoin-ban-these-are-the-countries-where-crypto-is-restricted-or-illegal2?utm_source=chatgpt.com"
+        },
+        {
+          "description": "* Monetary Control: Central banks fear crypto could undermine national currencies and monetary policies. * Financial Crime Risks: Concerns about money laundering, tax evasion, and terrorist financing...",
+          "breadcrumb": "cryptolab.it.com",
+          "title": "Countries Where Cryptocurrency is Illegal: A 2024 Global Guide",
+          "domain": "cryptolab.it.com",
+          "url": "https://cryptolab.it.com/countries-where-cryptocurrency-is-illegal-a-2024-global-guide.html?utm_source=chatgpt.com"
+        },
+        {
+          "description": "2. BANGLADESH  Besides China, another neighbouring nation of India has put in place a complete ban on cryptocurrencies. It's Bangladesh.  The central bank of Bangladesh does not allow crypto-trading....",
+          "breadcrumb": "indiatimes.com",
+          "title": "Countries Where Cryptocurrency Is Currently Banned",
+          "domain": "www.indiatimes.com",
+          "url": "https://www.indiatimes.com/worth/investment/countries-where-cryptocurrency-is-currently-banned-559833.html?utm_source=chatgpt.com"
+        },
+        {
+          "description": "18 COUNTRIES WHERE BITCOIN IS BANNED OR RESTRICTED  3.4  | by  Loke Choon Khei  |  Edited by  Vera Lim - Updated August 14 2025  WHICH COUNTRIES BAN BITCOIN?  Bitcoin faces restrictions in 18 countri...",
+          "breadcrumb": "coingecko.com",
+          "title": "18 Countries Where Bitcoin Is Banned or Restricted | CoinGecko",
+          "domain": "www.coingecko.com",
+          "url": "https://www.coingecko.com/learn/countries-ban-bitcoin?utm_source=chatgpt.com"
+        },
+        {
+          "description": "LEGAL STATUS BY COUNTRY  It’s easiest to name the countries where crypto is outright illegal. According to the U.S. Library of Congress, as of November 2021, a total of nine countries have banned cryp...",
+          "breadcrumb": "money.com",
+          "title": "Countries Where Crypto is Legal (and Illegal) | Money.com",
+          "domain": "money.com",
+          "url": "https://money.com/cryptocurrency-legal-status-by-country/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "10 COUNTRIES WHERE CRYPTO IS STILL BANNED IN 2025  March 19, 2025March 19, 2025  Image: 10 Countries Where Crypto Is Still Banned in 2025  Cryptocurrency has come a long way since Bitcoin’s launch in...",
+          "breadcrumb": "auriccrypto.com",
+          "title": "10 Countries Where Crypto Is Still Banned in 2025",
+          "domain": "auriccrypto.com",
+          "url": "https://auriccrypto.com/articles/10-countries-where-crypto-is-still-banned-in-2025/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "COUNTRIES WHERE CRYPTO IS ILLEGAL: COMPLETE LIST AND WHY IT MATTERS  * Cassian Alderwick * 13 Comments * Dec, 9 2025  By December 2025, over 1.4 billion people live in countries where owning, trading...",
+          "breadcrumb": "neongrafix.com",
+          "title": "Countries Where Crypto is Illegal: Complete List and Why It Matters",
+          "domain": "neongrafix.com",
+          "url": "https://neongrafix.com/countries-where-crypto-is-illegal-complete-list-and-why-it-matters?utm_source=chatgpt.com"
+        }
+      ],
+      "ai_search_volume": 5,
+      "monthly_searches": {
+        "2026-03": 5,
+        "2026-02": 13,
+        "2026-01": 15,
+        "2025-12": 12,
+        "2025-11": 8,
+        "2025-10": 9,
+        "2025-09": 6,
+        "2025-08": 4
+      },
+      "first_response_at": "2026-02-17 16:42:18 +00:00",
+      "last_response_at": "2026-02-17 16:42:18 +00:00",
+      "fan_out_queries": [
+        "which countries have banned cryptocurrency which countries don't allow crypto",
+        "countries where cryptocurrency is illegal or banned list"
+      ]
+    },
+    {
+      "platform": "chat_gpt",
+      "model_name": "gpt-5-1",
+      "question": "is dash worth mining?",
+      "answer": "\nHere’s a breakdown of whether Dash (DASH) is “worth mining” — the answer is: **maybe**, but **only under specific conditions**. It depends heavily on your hardware, electricity cost, and what you expect in return.  \n\n---\n\n## ✅ What works in favor of mining Dash\n\n- Dash uses the **X11 algorithm**, which historically allowed for mining via CPU/GPU — though today the network is dominated by ASICs. [docs.dash.org](https://docs.dash.org/en/19.0.0/docs/user/mining/?utm_source=chatgpt.com)  \n- If you have a modern and efficient ASIC miner and **low electricity costs**, mining could be somewhat profitable. For example, according to a mining-reference site: mining is considered potentially profitable if electricity costs are below **~$0.224 per kWh** using a high-power ASIC (as of their last update) [minerstat.com](https://minerstat.com/coin/DASH/faq?utm_source=chatgpt.com)[www.coinwarz.com](https://www.coinwarz.com/mining/dash/difficulty-chart?utm_source=chatgpt.com)[www.coinwarz.com](https://www.coinwarz.com/mining/dash/calculator?utm_source=chatgpt.com)[www.investing.com](https://www.investing.com/news/cryptocurrency-news/dash-mining-guide-how-to-mine-dash-cryptocurrency-1411998?utm_source=chatgpt.com)  \n- There are still mining-pools and infrastructure for Dash, meaning that solo-mining isn’t required — you can realistically participate via a pool, which increases chances of earning some DASH. [docs.dash.org](https://docs.dash.org/en/stable/mining/index.html?utm_source=chatgpt.com)[emcd.io](https://emcd.io/articles/mining/how-to-mine-dash/?utm_source=chatgpt.com)  \n\n---\n\n## ⚠️ What works against mining Dash these days\n\n- Difficulty & network hashrate are **very high**. Recent data shows difficulty around ~149 million, which means competition is fierce. [www.coinwarz.com](https://www.coinwarz.com/mining/dash/difficulty-chart?utm_source=chatgpt.com)[www.coinwarz.com](https://www.coinwarz.com/mining/dash/calculator?utm_source=chatgpt.com)  \n- Many older ASICs (or any CPU/GPU rigs) are **no longer viable** — the computational power simply isn’t enough to mine DASH profitably anymore. [docs.dash.org](https://docs.dash.org/en/19.0.0/docs/user/mining/?utm_source=chatgpt.com)[docs.dash.org](https://docs.dash.org/en/stable/mining/index.html?utm_source=chatgpt.com)[emcd.io](https://emcd.io/articles/mining/how-to-mine-dash/?utm_source=chatgpt.com)  \n- Profit margins are extremely slim, and in many cases — especially with average or high electricity costs — mining may be **net negative**. One calculator example shows daily power cost exceeding daily revenue. [www.coinwarz.com](https://www.coinwarz.com/mining/dash/difficulty-chart?utm_source=chatgpt.com)[www.coinwarz.com](https://www.coinwarz.com/mining/dash/calculator?utm_source=chatgpt.com)  \n- Earnings are volatile: Dash’s price fluctuates, network difficulty changes, and electricity/hardware costs can swing profitability drastically. [www.investing.com](https://www.investing.com/news/cryptocurrency-news/dash-mining-guide-how-to-mine-dash-cryptocurrency-1411998?utm_source=chatgpt.com)  \n\n---\n\n## 🎯 When mining Dash *might* be worth it — what to check first\n\nBefore committing to Dash mining, you should:\n\n- Use a **modern, high-efficiency ASIC miner** explicitly for X11 (avoid GPU/CPU — they are no longer competitive).  \n- Ensure your **electricity cost is very low** (ideally well below $0.22/kWh).  \n- Be comfortable with **slim profit margins and volatility** — treat mining as a speculative side activity, not a guaranteed income.  \n- Be ready to monitor **network difficulty, DASH price, and hardware efficiency** frequently and adjust or stop mining when conditions worsen.  \n\n---\n\n## 🧮 My take: For most people today, mining Dash is *only* worth it under rare, favorable conditions  \n\nIf you already own efficient ASIC hardware **and** have cheap electricity (or renewable energy, etc.), mining dash might generate small profits or at least let you accumulate DASH. But for a typical home-miner with average electricity costs or older hardware — the odds are against profitability.  \n\nIf you like — I can run a **rough profitability estimate** for your area (Port Saint Lucie, FL) factoring in local average electricity rates to see whether mining DASH might make sense for *you*.  \nDo you want me to build that estimate now?",
+      "sources": [
+        {
+          "source_name": "Dash Documentation",
+          "title": "Mining — Dash latest documentation",
+          "domain": "docs.dash.org",
+          "url": "https://docs.dash.org/en/19.0.0/docs/user/mining/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "minerstat",
+          "title": "Dash FAQ - X11 ⛏️ | minerstat",
+          "domain": "minerstat.com",
+          "url": "https://minerstat.com/coin/DASH/faq?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "CoinWarz",
+          "title": "Dash Difficulty Chart - DASH Difficulty - CoinWarz",
+          "domain": "www.coinwarz.com",
+          "url": "https://www.coinwarz.com/mining/dash/difficulty-chart?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "CoinWarz",
+          "title": "Dash Mining Calculator - DASH Mining Calculator - CoinWarz",
+          "domain": "www.coinwarz.com",
+          "url": "https://www.coinwarz.com/mining/dash/calculator?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Investing.com",
+          "title": "DASH Mining Guide: How to Mine DASH Cryptocurrency By Cryptovest",
+          "domain": "www.investing.com",
+          "url": "https://www.investing.com/news/cryptocurrency-news/dash-mining-guide-how-to-mine-dash-cryptocurrency-1411998?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Dash Documentation",
+          "title": "Mining — Dash latest documentation",
+          "domain": "docs.dash.org",
+          "url": "https://docs.dash.org/en/stable/mining/index.html?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "EMCD All Things Crypto in One App",
+          "title": "How to Mine DASH: cryptocurrency mining guide",
+          "domain": "emcd.io",
+          "url": "https://emcd.io/articles/mining/how-to-mine-dash/?utm_source=chatgpt.com"
+        }
+      ],
+      "search_results": [
+        {
+          "description": "26th Sep 2025  0Based on 0 rates  27th Sep 2025  0Based on 0 rates  28th Sep 2025  0Based on 0 rates  29th Sep 2025  0Based on 0 rates  30th Sep 2025  0Based on 0 rates  1st Oct 2025  0Based on 0 rat...",
+          "breadcrumb": "minerstat.com",
+          "title": "Dash FAQ - X11 ⛏️ | minerstat",
+          "domain": "minerstat.com",
+          "url": "https://minerstat.com/coin/dash/faq?utm_source=chatgpt.com"
+        },
+        {
+          "description": "6. DASH (DASH): FAST TRANSACTIONS, SOLID REWARDS  Dash, a cryptocurrency that originated from a hard fork of the Bitcoin blockchain, distinguishes itself with a strong focus on rapid transaction speed...",
+          "breadcrumb": "gov.capital",
+          "title": "Unearth Digital Gold: The Top 7 Most Profitable Cryptocurrencies to Mine Right Now! – Gov Capital Investor Blog",
+          "domain": "gov.capital",
+          "url": "https://gov.capital/unearth-digital-gold-the-top-7-most-profitable-cryptocurrencies-to-mine-right-now/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Dash mining can be profitable, but it greatly depends on several variables, such as the price of Dash at the time, the price of power, and the effectiveness of the mining equipment employed. Those wi...",
+          "breadcrumb": "koinx.com",
+          "title": "How to Mine DASH - KoinX",
+          "domain": "www.koinx.com",
+          "url": "https://www.koinx.com/mining-guides/how-to-mine-dash?utm_source=chatgpt.com"
+        },
+        {
+          "description": "DASH MINING GUIDE (2020 EDITION)  Image: DASH mining guide (2020 Edition)  Image: Michael Gu  Michael Gu  January 11, 2020  10 min read  90 views  Crypto DeFi  DASH mining is the process of generating...",
+          "breadcrumb": "boxmining.com",
+          "title": "DASH mining guide (2020 Edition) | Boxmining",
+          "domain": "www.boxmining.com",
+          "url": "https://www.boxmining.com/dash-mining/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "TECHNOLOGICAL FEATURES OF DASH CRYPTO  Due to the Decentralized governance by blockchains, master node owners are able to vote on budget proposals and decisions that affect DASH cryptocurrency. These...",
+          "breadcrumb": "dash.org",
+          "title": "A Bit Greedy- Become a Crypto Expert about Dash - Dash",
+          "domain": "www.dash.org",
+          "url": "https://www.dash.org/news/cryptoexpert/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "TABLE OF CONTENTS  * Introduction * Understanding the X11 Algorithm * Why X11 Matters for Dash Mining * ASIC Hardware & Efficiency * Real-World Example: Bitmain Antminer D9 * Key Profitability Drivers...",
+          "breadcrumb": "yesmining.io",
+          "title": "Is Dash Mining Still Profitable? How X11 and ASICs Change the Game",
+          "domain": "yesmining.io",
+          "url": "https://yesmining.io/en/is-dash-mining-still-profitable-how-x11-and-asics-change-the-game/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Each time a block is validated, miners receive a block reward. For Dash, this reward consists of Dash coins, which are the core of the cryptocurrency’s ecosystem.  To better understand how Dash mining...",
+          "breadcrumb": "radiobenda.com",
+          "title": "Discovering the Power of Dash Cryptocurrency Mining_ A Step Towards Profitable Ventures - The Future of Cryptocurrency: Outlook for 2025",
+          "domain": "www.radiobenda.com",
+          "url": "https://www.radiobenda.com/discovering-the-power-of-dash-cryptocurrency-mining_-a-step-towards-profitable-ventures/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "DASH  SPECIFICATIONS  Name  | Dash Symbol  | DASH Algorithm  | x11 Block time  | 2m 38s Last block  | 2,373,205 Block reward  | 0.44 Current Difficulty  | 82,591,259 Current Nethash  | 2.25 Ph/s  MOST...",
+          "breadcrumb": "asicminercompare.com",
+          "title": "Dash Mining Profitability - Asic Miner Compare",
+          "domain": "asicminercompare.com",
+          "url": "https://asicminercompare.com/coins/dash?utm_source=chatgpt.com"
+        },
+        {
+          "description": "DASH (DASH) CALCULATOR  Our professional Crypto Mining Calculator delivers precise profitability insights using real-time network data. It automatically factors in key parameters such as network hashr...",
+          "breadcrumb": "minercompare.com",
+          "title": "Dash (DASH) Mining Calculator",
+          "domain": "minercompare.com",
+          "url": "https://minercompare.com/coin/dash?utm_source=chatgpt.com"
+        },
+        {
+          "description": "3. LITECOIN (LTC)  Litecoin is one of the oldest Bitcoin alternatives and remains profitable because of merged mining with Dogecoin.  * Algorithm: Scrypt * Block Reward: 6.25 LTC * Block Time: ~2.5 mi...",
+          "breadcrumb": "cryptominerbros.com",
+          "title": "Is Bitcoin Mining Still Profitable? - CryptoMinerBros",
+          "domain": "www.cryptominerbros.com",
+          "url": "https://www.cryptominerbros.com/blog/is-bitcoin-mining-still-profitable/?utm_source=chatgpt.com"
+        }
+      ],
+      "ai_search_volume": 2,
+      "monthly_searches": {
+        "2026-03": 2,
+        "2026-02": 2,
+        "2026-01": 9,
+        "2025-12": 13,
+        "2025-11": 14,
+        "2025-10": 15,
+        "2025-09": 11,
+        "2025-08": 8,
+        "2025-07": 4,
+        "2025-06": 1,
+        "2025-05": 3,
+        "2025-04": 3
+      },
+      "first_response_at": "2025-12-09 05:35:50 +00:00",
+      "last_response_at": "2025-12-09 05:35:50 +00:00",
+      "brand_entities": [
+        {
+          "title": "Dash",
+          "category": "cryptocurrency"
+        }
+      ],
+      "fan_out_queries": [
+        "is mining Dash cryptocurrency worth mining in 2025 Dash mining profitability difficulty how to mine Dash profitability",
+        "What is Dash cryptocurrency mining difficulty and how profitable is Dash mining cost of electricity and hardware"
+      ]
+    },
+    {
+      "platform": "chat_gpt",
+      "model_name": "gpt-5-3",
+      "question": "are s9 miners still profitable?",
+      "answer": "Short answer: **almost never in 2026**—unless you have *extremely cheap (or free) electricity* or a very specific use case.\n\nHere’s the real breakdown 👇\n\n---\n\n## 💸 Profitability in 2026\n- Typical S9 specs: ~13.5 TH/s, ~1300–1400W power draw  \n- With normal electricity (~$0.07–$0.14/kWh), **you’ll usually lose money**  \n- Even with relatively cheap power, profits are often **near $0 or just a few cents/day** [www.ydminer.com](https://www.ydminer.com/news/antminer-s9/?utm_source=chatgpt.com)  \n- One analysis says you only become meaningfully profitable **below ~$0.02/kWh** (2 cents!) [cryptogeek.info](https://cryptogeek.info/en/blog/antminer-s9?utm_source=chatgpt.com)  \n\n👉 That’s far cheaper than residential electricity almost anywhere in the U.S.\n\n---\n\n## ⚠️ Why S9s struggle now\n**1. Massive network difficulty**\n- Bitcoin mining difficulty has increased dramatically since 2017  \n- S9’s hashrate is tiny compared to modern machines [www.alibaba.com](https://www.alibaba.com/product-insights/how-to-choose-the-best-antminer-s9-for-bitcoin-mining-in-2026.html?utm_source=chatgpt.com)  \n\n**2. Way less efficient than new miners**\n- S9: ~13 TH/s  \n- New ASICs: 100+ TH/s with much better efficiency [d-central.tech](https://d-central.tech/antminer-s9-is-it-still-worth-mining-in-2025/?utm_source=chatgpt.com)  \n\n**3. Power cost kills profits**\n- Uses about as much electricity as a space heater  \n- Energy cost usually exceeds mining rewards [emcd.io](https://emcd.io/articles/mining/mining-with-antminer-s9-asic-is-it-still-profitable/?utm_source=chatgpt.com)  \n\n**4. 2024 halving made it worse**\n- Rewards dropped to 3.125 BTC per block  \n- Older machines like S9 got squeezed hardest [www.alibaba.com](https://www.alibaba.com/product-insights/how-to-choose-the-best-antminer-s9-for-bitcoin-mining-in-2026.html?utm_source=chatgpt.com)  \n\n---\n\n## 🟢 When it *can* still make sense\nThere are a few niche scenarios:\n\n- **Free or ultra-cheap electricity** (solar surplus, stranded energy)\n- **Heat reuse** (using it as a space heater while mining)\n- **Learning / hobby mining**\n- **Very large-scale setups with special power deals**\n\nSome hobbyists still run them just to accumulate small amounts of BTC or experiment, not for real profit.\n\n---\n\n## 🧠 Bottom line\n- For **normal home use**: ❌ Not profitable  \n- For **cheap industrial power (<$0.02/kWh)**: ⚠️ Maybe barely  \n- For **learning / fun / heating**: ✅ Still useful  \n\n---\n\nIf you want, tell me your electricity rate and I can estimate *exact daily profit/loss* for an S9 in your situation.",
+      "sources": [
+        {
+          "source_name": "Ydminer",
+          "title": "How Profitable Is Antminer S9 in 2024? A Complete Breakdown | Bolonminer, Antminer, Whatsminer, Innosilicon | Ydminer",
+          "domain": "www.ydminer.com",
+          "url": "https://www.ydminer.com/news/antminer-s9/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Cryptogeek",
+          "title": "Antminer S9 Profitability - Review 2026",
+          "domain": "cryptogeek.info",
+          "url": "https://cryptogeek.info/en/blog/antminer-s9?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Alibaba",
+          "title": "How To Choose The Best Antminer S9 For Bitcoin Mining In 2026",
+          "domain": "www.alibaba.com",
+          "url": "https://www.alibaba.com/product-insights/how-to-choose-the-best-antminer-s9-for-bitcoin-mining-in-2026.html?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "D-Central",
+          "title": "Antminer S9: Is It Still Worth Mining in 2026? - D-Central",
+          "domain": "d-central.tech",
+          "url": "https://d-central.tech/antminer-s9-is-it-still-worth-mining-in-2025/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "EMCD",
+          "title": "Mining with Antminer S9 ASIC: Is It Still Profitable?",
+          "domain": "emcd.io",
+          "url": "https://emcd.io/articles/mining/mining-with-antminer-s9-asic-is-it-still-profitable/?utm_source=chatgpt.com"
+        }
+      ],
+      "search_results": [
+        {
+          "description": "ANTMINER S9 PROFITABILITY  ANTMINER S9 PROFITABILITY MINING CALCULATOR  Antminer s9 profitability — The Antminer S9 is one of Bitmain's most iconic SHA-256 Bitcoin miners, and is well known for its r...",
+          "breadcrumb": "antminerprofitability.com",
+          "title": "Antminer S9 Profitability - Real-time Antminer Profitability Mining Calculator",
+          "domain": "antminerprofitability.com",
+          "url": "https://antminerprofitability.com/antminer-s9-profitability/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "ANTMINER S9I PROFITABILITY  ANTMINER S9I (S9 I) PROFITABILITY MINING CALCULATOR  The Antminer S9i 14 TH/s is Bitmain's second-generation Antminer S9 with an added 'i' S9 i and slightly less power usa...",
+          "breadcrumb": "antminerprofitability.com",
+          "title": "Antminer S9i Profitability - Real-time Antminer Profitability Mining Calculator",
+          "domain": "antminerprofitability.com",
+          "url": "https://antminerprofitability.com/antminer-s9i-profitability/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Image: The Antminer S9 in 2026: Dead for Profit, Alive for Decentralization and Home Heating  Antminer  THE ANTMINER S9 IN 2026: DEAD FOR PROFIT, ALIVE FOR DECENTRALIZATION AND HOME HEATING  July 17,...",
+          "breadcrumb": "d-central.tech",
+          "title": "The Antminer S9 in 2026: Dead for Profit, Alive for Decentralization and Home Heating - D-Central",
+          "domain": "d-central.tech",
+          "url": "https://d-central.tech/the-future-of-bitcoin-mining-with-the-antminer-s9/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "WHY THE S9 STILL MATTERS FOR HOME MINING  The Bitcoin network hashrate now exceeds 800 EH/s. An S9 at 13.5 TH/s is a rounding error in that calculation. So why does it still matter? Because raw hashra...",
+          "breadcrumb": "d-central.tech",
+          "title": "The Antminer S9: Why This Legendary Bitcoin Miner Still Dominates Home Mining in 2026 - D-Central",
+          "domain": "d-central.tech",
+          "url": "https://d-central.tech/the-antminer-s9-unveiling-the-secrets-to-its-continued-success-in-the-bitcoin-mining-industry/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Antminer S9 (13TH/s)  Image: Fancy Rectangle  MANUFACTURED BYImage: Bitmain  Image: antminer s9  REALTIME MINING PROFIT  -$1.79 /Day  as of Mar 12, 2026  Image: Hashrate  13TH/s  Hashrate  Image: Pow...",
+          "breadcrumb": "miningnow.com",
+          "title": "Bitmain Antminer S9 (13Th/s) Realtime Profit, Specs & Cost | Mining Now",
+          "domain": "miningnow.com",
+          "url": "https://miningnow.com/asic-miner/bitmain-antminer-s9-13th-s/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Antminer S9 (13.5TH/s)  Image: Fancy Rectangle  MANUFACTURED BYImage: Bitmain  Image: antminer s9  REALTIME MINING PROFIT  -$1.81 /Day  as of Mar 12, 2026  Image: Hashrate  13.5TH/s  Hashrate  Image:...",
+          "breadcrumb": "miningnow.com",
+          "title": "Bitmain Antminer S9 (13.5Th/s) Realtime Profit, Specs & Cost | Mining Now",
+          "domain": "miningnow.com",
+          "url": "https://miningnow.com/asic-miner/bitmain-antminer-s9-13-5th-s/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Antminer S9 (11.5TH/s)  Image: Fancy Rectangle  MANUFACTURED BYImage: Bitmain  Image: antminer s9  REALTIME MINING PROFIT  -$1.53 /Day  as of Mar 12, 2026  Image: Hashrate  11.5TH/s  Hashrate  Image:...",
+          "breadcrumb": "miningnow.com",
+          "title": "Bitmain Antminer S9 (11.5Th/s) Realtime Profit, Specs & Cost | Mining Now",
+          "domain": "miningnow.com",
+          "url": "https://miningnow.com/asic-miner/bitmain-antminer-s9-11-5th-s/?utm_source=chatgpt.com"
+        }
+      ],
+      "ai_search_volume": 1,
+      "monthly_searches": {
+        "2026-06": 1,
+        "2026-05": 2,
+        "2026-04": 7,
+        "2026-03": 17,
+        "2026-02": 22,
+        "2026-01": 21,
+        "2025-12": 30,
+        "2025-11": 27,
+        "2025-10": 24,
+        "2025-09": 6,
+        "2025-08": 5,
+        "2025-07": 6
+      },
+      "first_response_at": "2026-01-16 13:55:35 +00:00",
+      "last_response_at": "2026-04-10 11:06:35 +00:00",
+      "fan_out_queries": [
+        "Antminer S9 profitability 2026 bitcoin mining profitability S9"
+      ]
+    },
+    {
+      "platform": "chat_gpt",
+      "model_name": "gpt-5-2",
+      "question": "does crypto mining illegal?",
+      "answer": "Whether **crypto mining is illegal** depends heavily on **where you are located** — there isn’t a single global rule. In many places it’s **legal with regulation**, in some it’s **restricted or banned**, and in others the laws are **unclear or changing**. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[mininglegit.com](https://mininglegit.com/legal-regulatory-environment-of-crypto-mining-by-jurisdiction-2025-update/?utm_source=chatgpt.com)[en.altcoinlog.com](https://en.altcoinlog.com/crypto-legal-status-by-country/?utm_source=chatgpt.com)[u.today](https://u.today/press-releases/is-bitcoin-mining-legal-regions-in-the-world-where-mining-is-legally-permissible?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Virtual_currency_law_in_Iran?utm_source=chatgpt.com)\n\n---\n\n## 🟢 **Places Where Crypto Mining Is Legal (Often with Rules)**\nIn many countries, mining cryptocurrency is legal, but miners must follow rules like:\n- Registering the business or operation  \n- Paying taxes on income from mining  \n- Complying with electricity and environmental regulations  \n\nExamples include:  \n- **United States** – legal, but regulated (state rules vary)  \n- **Japan & South Korea** – require licenses and AML/KYC compliance for operations [mininglegit.com](https://mininglegit.com/legal-regulatory-environment-of-crypto-mining-by-jurisdiction-2025-update/?utm_source=chatgpt.com)  \n- **Russia** – mining and ownership legal currently, but with registration and tax rules (and proposals to tighten enforcement) [en.altcoinlog.com](https://en.altcoinlog.com/crypto-legal-status-by-country/?utm_source=chatgpt.com)  \n- **Kazakhstan & some EU countries** – legal with registration/conditions [u.today](https://u.today/press-releases/is-bitcoin-mining-legal-regions-in-the-world-where-mining-is-legally-permissible?utm_source=chatgpt.com)\n\n---\n\n## 🔴 **Places Where Crypto Mining Is Banned or Illegal**\nSome countries **prohibit crypto mining outright** — often tied to broader bans on cryptocurrencies or due to energy and economic concerns:\n\nCountries with bans or severe restrictions include:  \n- **China** – mining effectively banned nationwide since 2021. [www.icij.org](https://www.icij.org/investigations/coin-laundry/cryptocurrency-regulations-global-explainer/?utm_source=chatgpt.com)  \n- **Bangladesh** – all crypto activities including mining are prohibited. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[mininglegit.com](https://mininglegit.com/legal-regulatory-environment-of-crypto-mining-by-jurisdiction-2025-update/?utm_source=chatgpt.com)[en.altcoinlog.com](https://en.altcoinlog.com/crypto-legal-status-by-country/?utm_source=chatgpt.com)[u.today](https://u.today/press-releases/is-bitcoin-mining-legal-regions-in-the-world-where-mining-is-legally-permissible?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Virtual_currency_law_in_Iran?utm_source=chatgpt.com)  \n- **Algeria, Morocco, Nepal** – banned mining as part of wide crypto bans. [www.greenpeace.org](https://www.greenpeace.org/usa/countries-say-no-to-bitcoin-mines/?utm_source=chatgpt.com)  \n- **Kosovo** – outlawed mining to conserve electricity. [en.wikipedia.org](https://en.wikipedia.org/wiki/Legality_of_cryptocurrency_by_country_or_territory?utm_source=chatgpt.com)\n\nOther countries may **not ban mining specifically**, but **restrict or discourage it** due to electricity usage or lack of legal framework. [www.greenpeace.org](https://www.greenpeace.org/usa/countries-say-no-to-bitcoin-mines/?utm_source=chatgpt.com)\n\n---\n\n## ⚠️ **Gray Areas & Conditional Legality**\nSome places haven’t clearly defined mining in law, so legality depends on interpretation or evolving regulations:\n- **India** doesn’t explicitly ban mining, but rules and taxes create uncertainty. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[mininglegit.com](https://mininglegit.com/legal-regulatory-environment-of-crypto-mining-by-jurisdiction-2025-update/?utm_source=chatgpt.com)[en.altcoinlog.com](https://en.altcoinlog.com/crypto-legal-status-by-country/?utm_source=chatgpt.com)[u.today](https://u.today/press-releases/is-bitcoin-mining-legal-regions-in-the-world-where-mining-is-legally-permissible?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Virtual_currency_law_in_Iran?utm_source=chatgpt.com)  \n- **Iran** has regulated mining historically, though crypto trading has seen bans. [en.wikipedia.org](https://en.wikipedia.org/wiki/Virtual_currency_law_in_Iran?utm_source=chatgpt.com)  \n- **Middle Eastern nations** vary widely — some allow mining, others have restrictions. [www.reddit.com](https://www.reddit.com/r/cryptoQandA/comments/1cksidb?utm_source=chatgpt.com)\n\n---\n\n## 🪙 **Can You Face Jail Time?**\nIn countries where mining is **banned or heavily restricted**, authorities have the power to **fine or even jail** operators who break the law — depending on local penalties. Examples:\n- **Bangladesh** criminalizes crypto activities including mining. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[mininglegit.com](https://mininglegit.com/legal-regulatory-environment-of-crypto-mining-by-jurisdiction-2025-update/?utm_source=chatgpt.com)[en.altcoinlog.com](https://en.altcoinlog.com/crypto-legal-status-by-country/?utm_source=chatgpt.com)[u.today](https://u.today/press-releases/is-bitcoin-mining-legal-regions-in-the-world-where-mining-is-legally-permissible?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Virtual_currency_law_in_Iran?utm_source=chatgpt.com)  \n- Some nations treat unlicensed mining as an illegal financial activity with possible penalties — but specific jail terms vary by jurisdiction.\n\n---\n\n## 📌 **Key Takeaways**\n- **Crypto mining is *not universally illegal*** — it’s legal in many countries with regulation. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)  \n- In **some countries, it’s strictly banned** or effectively banned because crypto activity is outlawed. [emcd.io](https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com)[mininglegit.com](https://mininglegit.com/legal-regulatory-environment-of-crypto-mining-by-jurisdiction-2025-update/?utm_source=chatgpt.com)[en.altcoinlog.com](https://en.altcoinlog.com/crypto-legal-status-by-country/?utm_source=chatgpt.com)[u.today](https://u.today/press-releases/is-bitcoin-mining-legal-regions-in-the-world-where-mining-is-legally-permissible?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Virtual_currency_law_in_Iran?utm_source=chatgpt.com)  \n- Laws are **changing rapidly** — what’s legal today could be regulated or restricted later.\n\n---\n\nIf you tell me **which country** or **state/province** you’re interested in, I can give you a **specific legality summary** for crypto mining there.",
+      "sources": [
+        {
+          "source_name": "EMCD",
+          "title": "Legality of cryptocurrency by country and territory",
+          "domain": "emcd.io",
+          "url": "https://emcd.io/articles/financial-literacy/cryptocurrency-legalization-in-the-world-where-crypto-is-banned-and-where-it-is-open-to-all/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "mininglegit.com",
+          "title": "Is Crypto Mining Legal? Country-by-Country Breakdown for 2025",
+          "domain": "mininglegit.com",
+          "url": "https://mininglegit.com/legal-regulatory-environment-of-crypto-mining-by-jurisdiction-2025-update/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "AltCoinLog",
+          "title": "Cryptocurrency Legality Worldwide: Where It’s Allowed and Banned",
+          "domain": "en.altcoinlog.com",
+          "url": "https://en.altcoinlog.com/crypto-legal-status-by-country/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "U.Today",
+          "title": "Is Bitcoin Mining Legal? Regions in the World Where Mining Is Legally Permissible",
+          "domain": "u.today",
+          "url": "https://u.today/press-releases/is-bitcoin-mining-legal-regions-in-the-world-where-mining-is-legally-permissible?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Wikipedia",
+          "title": "Virtual currency law in Iran",
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Virtual_currency_law_in_Iran?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "ICIJ",
+          "title": "How crypto is regulated (or not) around the world",
+          "domain": "www.icij.org",
+          "url": "https://www.icij.org/investigations/coin-laundry/cryptocurrency-regulations-global-explainer/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Greenpeace",
+          "title": "Countries Say No to Energy Guzzling Bitcoin Mines - Greenpeace - Greenpeace",
+          "domain": "www.greenpeace.org",
+          "url": "https://www.greenpeace.org/usa/countries-say-no-to-bitcoin-mines/?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Wikipedia",
+          "title": "Legality of cryptocurrency by country or territory",
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Legality_of_cryptocurrency_by_country_or_territory?utm_source=chatgpt.com"
+        },
+        {
+          "source_name": "Reddit",
+          "title": "Is crypto banned in Middle East?",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/cryptoQandA/comments/1cksidb?utm_source=chatgpt.com"
+        }
+      ],
+      "search_results": [
+        {
+          "description": "United States: The majority of states make mining legal to happen, where Texas and Wyoming are hub destinations because of cheap electricity and crypto-friendly legislation. There have been a few sta...",
+          "breadcrumb": "outlookindia.com",
+          "title": "How Legal Is Crypto Mining? Here Is A Global Overview | Outlook India",
+          "domain": "www.outlookindia.com",
+          "url": "https://www.outlookindia.com/xhub/blockchain-insights/how-legal-is-crypto-mining-here-is-a-global-overview?utm_source=chatgpt.com"
+        },
+        {
+          "description": "* Monetary Control: Central banks fear crypto could undermine national currencies and monetary policies. * Financial Crime Risks: Concerns about money laundering, tax evasion, and terrorist financing...",
+          "breadcrumb": "cryptolab.it.com",
+          "title": "Countries Where Cryptocurrency is Illegal: A 2024 Global Guide",
+          "domain": "cryptolab.it.com",
+          "url": "https://cryptolab.it.com/countries-where-cryptocurrency-is-illegal-a-2024-global-guide.html?utm_source=chatgpt.com"
+        },
+        {
+          "description": "Table of Contents  * Key Takeaway * 8 Countries With Bitcoin Mining Bans * How Can Countries Enforce Bitcoin Mining Bans? * Closing Thoughts  Learn 11 min read  8 COUNTRIES WITH BITCOIN MINING BANS  L...",
+          "breadcrumb": "webopedia.com",
+          "title": "8 Countries With Bitcoin Mining Bans | Webopedia",
+          "domain": "www.webopedia.com",
+          "url": "https://www.webopedia.com/crypto/learn/countries-with-bitcoin-mining-bans/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "LEGAL STATUS BY COUNTRY  It’s easiest to name the countries where crypto is outright illegal. According to the U.S. Library of Congress, as of November 2021, a total of nine countries have banned cryp...",
+          "breadcrumb": "money.com",
+          "title": "Countries Where Crypto is Legal (and Illegal) | Money.com",
+          "domain": "money.com",
+          "url": "https://money.com/cryptocurrency-legal-status-by-country/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "CHINA  China has cracked down on cryptocurrencies with increasing intensity throughout 2021. Chinese officials have repeatedly issued warnings to its people to stay clear of the digital asset market a...",
+          "breadcrumb": "euronews.com",
+          "title": "Bitcoin ban: These are the countries where crypto is restricted or illegal | Euronews",
+          "domain": "www.euronews.com",
+          "url": "https://www.euronews.com/next/2022/08/25/bitcoin-ban-these-are-the-countries-where-crypto-is-restricted-or-illegal2?utm_source=chatgpt.com"
+        },
+        {
+          "description": "The Canadian government has also taken steps to combat illicit activities associated with Bitcoin.  By joining forces with organisations like the Financial Action Task Force (FATF) and other global re...",
+          "breadcrumb": "minerset.com",
+          "title": "Bitcoin Mining Regulation: A Global Overview",
+          "domain": "minerset.com",
+          "url": "https://minerset.com/bitcoin-mining-regulation-a-global-overview/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "In this blog, I’ll highlight the countries that have banned Bitcoin mining and offer insights into why these bans were put in place.  Countries that deal with virtual currency not only face economic o...",
+          "breadcrumb": "coinroop.com",
+          "title": "10 Countries With Bitcoin Mining Bans - CoinRoop",
+          "domain": "coinroop.com",
+          "url": "https://coinroop.com/countries-with-bitcoin-mining-bans/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "GLOBAL BITCOIN MINING LEGAL STATUS  Bitcoin Mining Legal frameworks vary significantly across the globe, with some countries embracing the practice as an economic opportunity while others impose restr...",
+          "breadcrumb": "coinoswap.com",
+          "title": "Is Bitcoin Mining Legal? | CoinoSwap",
+          "domain": "coinoswap.com",
+          "url": "https://coinoswap.com/blogs/is-bitcoin-mining-legal/?utm_source=chatgpt.com"
+        },
+        {
+          "description": "KEY TAKEAWAYS  A full breakdown of the places around the world where cryptocurrency is banned outright, as well as a look at regulations around the world.  As a digital form of currency that operates...",
+          "breadcrumb": "techopedia.com",
+          "title": "Which Countries Have Banned Crypto, and Why?",
+          "domain": "www.techopedia.com",
+          "url": "https://www.techopedia.com/cryptocurrency-bans-explained-which-countries-have-restricted-crypto?utm_source=chatgpt.com"
+        }
+      ],
+      "ai_search_volume": 1,
+      "monthly_searches": {
+        "2026-06": 1,
+        "2026-05": 1,
+        "2026-04": 6,
+        "2026-03": 6,
+        "2026-02": 6,
+        "2026-01": 8,
+        "2025-12": 9,
+        "2025-11": 14,
+        "2025-10": 32,
+        "2025-09": 34,
+        "2025-08": 28,
+        "2025-07": 2
+      },
+      "first_response_at": "2026-01-15 14:11:43 +00:00",
+      "last_response_at": "2026-01-15 14:11:43 +00:00",
+      "fan_out_queries": [
+        "Is cryptocurrency mining illegal? legality of crypto mining by country",
+        "crypto mining legality what countries allow or ban cryptocurrency mining"
+      ]
+    }
+  ]
+}

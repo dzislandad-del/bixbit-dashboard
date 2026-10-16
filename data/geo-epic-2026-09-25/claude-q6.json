@@ -1,0 +1,17 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "prompt": "Which Antminer custom firmware has the lowest dev fee?",
+  "task_id": "09251237-2548-0612-0000-6ee76a1d6bf4",
+  "answer_text": "Here's a breakdown of the major Antminer custom firmware options ranked by dev fee (lowest to highest), as of 2026:\n\n---\n\n### 🏆 1. **DCENT_OS** — **0% Mandatory Dev Fee**\nDCENT_OS has **zero mandatory dev fee**. It ships with 0% by default, but the dashboard includes an optional contribution slider. It is D-Central Technologies' GPL-3.0 open-source Bitcoin mining firmware for Bitmain Antminer ASIC miners. However, it's important to note that DCENT_OS is currently listed as **EXPERIMENTAL** in maturity. It publishes GPL-3.0 source and has no mandatory fee; its optional donation is on at 2% by default and can be set to zero. It is currently in beta testing on Antminer S9 (BM1387) and Antminer S19j Pro (BM1362).\n\n---\n\n### 2. **ePIC UMC OS** — **1.5% Dev Fee**\nePIC's 2026-01-26 release record and current product page publish a **1.5% firmware-only dev fee**; the separate UMC control-board product is described as having no recurring dev fee.\n\n---\n\n### 3. **Braiins OS+** — **2–2.5% Dev Fee**\nBraiins publishes a **2–2.5% model-dependent fee**, native Stratum V2, GPG verification, and an exact device list.\n\n---\n\n### 4. **VNish** — **2–2.8% Dev Fee**\nVNish publishes model-specific builds and fees — **current S19/S21: 2.8%; L7/L9: 2%**.\n\n---\n\n### 5. **LuxOS (Luxor)** — **2.8% Dev Fee**\nLuxor publishes a **2.8% LuxOS fee**, SOC 2 Type 2 status, and an under-five-second curtailment result.\n\n---\n\n### 6. **Hiveon ASIC** — **2–3% Dev Fee**\nHiveon's official pages do not state one consistent universal number: the current product page says **3%**, the billing page says **2–2.8%**, and the model FAQ lists S19/T19 at up to 3%.\n\n---\n\n### Summary Table\n\n| Firmware | Dev Fee |\n|---|---|\n| **DCENT_OS** | 0% mandatory (2% optional default) |\n| **ePIC UMC OS** | 1.5% |\n| **Braiins OS+** | 2–2.5% |\n| **VNish** | 2–2.8% |\n| **LuxOS** | 2.8% |\n| **Hiveon** | 2–3% |\n\n**Bottom line:** **DCENT_OS** has the lowest (0% mandatory) dev fee, but it is still experimental/beta. For a production-ready option with the lowest fee, **ePIC UMC OS at 1.5%** is currently the best choice. Always verify fees and supported models directly with the firmware provider before flashing.",
+  "cited_urls": [
+    "https://d-central.tech/dcent-os/",
+    "https://d-central.tech/0-percent-dev-fee-firmware-explained/",
+    "https://d-central.tech/firmware-comparison/"
+  ],
+  "cost_usd": 0.057256,
+  "datetime": "2026-09-25 12:38:13 +00:00",
+  "fan_out_queries": [
+    "Antminer custom firmware lowest dev fee 2026"
+  ]
+}

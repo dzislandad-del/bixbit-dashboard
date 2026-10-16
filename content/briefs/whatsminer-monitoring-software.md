@@ -2,21 +2,24 @@
 **Slug:** `/en/ams/whatsminer-monitoring-software`
 **Cluster:** mining-fleet-monitoring
 **Type:** Spoke — Commercial / Integration Guide + Competitive Gap Page
-**Priority:** P0 (highest competitive value: Braiins Manager does not support Whatsminer)
+**Priority:** P1 (was P0; recalculated 2026-09-25 from DataForSEO US data) — Demoted. Volume n/d. Keep it as a differentiator (Antminer + Whatsminer in one dashboard); GEO.
+**Target (architecture v2, 2026-09-25):** `/en/ams` (existing page), H2 Whatsminer monitoring (mixed fleet), section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| Whatsminer monitoring software | Primary | [VOL: N/A — DataForSEO 401] |
-| Whatsminer fleet monitoring | Primary | [VOL: N/A] |
-| Whatsminer management software | Secondary | [VOL: N/A] |
-| monitor Whatsminer remotely | Secondary | [VOL: N/A] |
-| Whatsminer dashboard | Tertiary | [VOL: N/A] |
-| MicroBT Whatsminer monitoring | Tertiary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Whatsminer monitoring software | Primary | n/d (<10) | — | — |
+| Whatsminer fleet monitoring | Primary | n/d (<10) | — | — |
+| Whatsminer management software | Secondary | n/d (<10) | — | — |
+| monitor Whatsminer remotely | Secondary | n/d (<10) | — | — |
+| Whatsminer dashboard | Tertiary | n/d (<10) | — | — |
+| MicroBT Whatsminer monitoring | Tertiary | n/d (<10) | — | — |
 
 ---
 

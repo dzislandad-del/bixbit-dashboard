@@ -1,8 +1,9 @@
 # Content Brief: Whatsminer Autotuning
 **URL:** /en/whatsminer-firmware/autotuning
 **File:** content/briefs/whatsminer-autotuning.md
-**Last updated:** 2026-06-19
-**Priority:** P2
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P2 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Keep P2. Volume n/d.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/whatsminer-all-series` (existing page), H2 Tuning modes → autotuning, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer — requires technical description of BiXBiT's autotuning implementation on MicroBT hardware]
 
 ---
@@ -25,14 +26,16 @@ No competitor publishes a technical explanation of autotuning on the MicroBT chi
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| whatsminer autotuning | Primary | — | — |
-| whatsminer auto tuning firmware | Secondary | — | — |
-| MicroBT autotuning | Broader | — | — |
-| whatsminer per chip tuning | Technical | — | — |
-| whatsminer efficiency autotuning | Long-tail | — | — |
-| asic autotuning whatsminer | Long-tail | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| whatsminer autotuning | Primary | n/d (<10) | — | — |
+| whatsminer auto tuning firmware | Secondary | n/d (<10) | — | — |
+| MicroBT autotuning | Broader | n/d (<10) | — | — |
+| whatsminer per chip tuning | Technical | n/d (<10) | — | — |
+| whatsminer efficiency autotuning | Long-tail | n/d (<10) | — | — |
+| asic autotuning whatsminer | Long-tail | n/d (<10) | — | — |
 
 ---
 

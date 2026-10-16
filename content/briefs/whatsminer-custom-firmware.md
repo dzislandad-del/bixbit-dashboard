@@ -1,8 +1,9 @@
 # Content Brief: Whatsminer Custom Firmware
 **URL:** /en/whatsminer-firmware/custom
 **File:** content/briefs/whatsminer-custom-firmware.md
-**Last updated:** 2026-06-19
-**Priority:** P1
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. 10/mo, KD 50. Fold into the pillar.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/whatsminer-all-series` (existing page), H2 Why third-party Whatsminer firmware, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Technical writer with firmware/MicroBT background]
 
 ---
@@ -25,14 +26,16 @@ No competitor publishes a neutral educational page specifically about custom fir
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| whatsminer custom firmware | Primary | — | — |
-| custom firmware whatsminer m30s | Model-specific | — | — |
-| whatsminer third party firmware | Secondary | — | — |
-| MicroBT firmware alternative | Broader | — | — |
-| whatsminer firmware mod | Long-tail | — | — |
-| is whatsminer custom firmware safe | Concern-driven | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| whatsminer custom firmware | Primary | 10 | 50 | — |
+| custom firmware whatsminer m30s | Model-specific | n/d (<10) | — | — |
+| whatsminer third party firmware | Secondary | n/d (<10) | — | — |
+| MicroBT firmware alternative | Broader | n/d (<10) | — | — |
+| whatsminer firmware mod | Long-tail | n/d (<10) | — | — |
+| is whatsminer custom firmware safe | Concern-driven | n/d (<10) | — | — |
 
 ---
 

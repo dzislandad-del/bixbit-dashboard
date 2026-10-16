@@ -1,8 +1,9 @@
 # Content Brief: Antminer Firmware Update
 **URL:** /en/antminer-firmware/update
 **File:** content/briefs/antminer-firmware-update.md
-**Last updated:** 2026-06-18
-**Priority:** P1
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. 20/mo (update 10 + upgrade 10, KD 55). Make it a section of the install page, not a standalone URL.
+**Target (architecture v2, 2026-09-25):** `/en/documentation/antminer-firmware-install` (NEW page), H2 Update and rollback, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Technical writer + firmware engineer reviewer]
 
 ---
@@ -23,13 +24,15 @@ Capture operators searching for how to update their Antminer firmware — both t
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer firmware update | Primary | — | — |
-| how to update antminer firmware | Long-tail primary | — | — |
-| antminer firmware upgrade | Secondary | — | — |
-| antminer firmware flash | Secondary | — | — |
-| update antminer s19 firmware | Model-specific | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer firmware update | Primary | 10 | — | — |
+| how to update antminer firmware | Long-tail primary | n/d (<10) | — | — |
+| antminer firmware upgrade | Secondary | 10 | 55 | — |
+| antminer firmware flash | Secondary | n/d (<10) | — | — |
+| update antminer s19 firmware | Model-specific | n/d (<10) | — | — |
 
 ---
 

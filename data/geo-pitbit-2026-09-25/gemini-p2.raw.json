@@ -1,0 +1,792 @@
+{
+  "id": "09251427-2548-0612-0000-02ffaf91392b",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "message",
+      "sections": [
+        {
+          "type": "text",
+          "text": "Для эффективного майнинга на асиках (ASIC) сторонние прошивки — это стандарт индустрии. Они позволяют не только разогнать или даунвольтить (снизить потребление) оборудование, но и осуществлять **удаленный мониторинг и пакетное управление** всей фермой. \n\nНиже представлены лучшие прошивки на рынке, разделенные по разработчикам, с детальным разбором их экосистем мониторинга.\n\n---\n\n### 1. VNISH (разработчик: VNISH Team)\n**VNISH** — одна из самых популярных, стабильных и функциональных коммерческих прошивок в мире. \n* **Поддерживаемые устройства:** Практически вся линейка Bitmain Antminer (от S9/L3+ до S19, S21, T21, L7, L9) и Whatsminer.\n* **Возможности разгона:** Почиповый автотюнер (каждый чип настраивается на свою частоту и вольтаж), автонастройка кулеров, функция умного прогрева зимой.\n* **Мониторинг:** \n  * **Vnish Cloud / Vnish AMS:** Позволяет абсолютно бесплатно отслеживать состояние всех ваших асиков из любой точки мира.\n  * Предоставляет данные по хешрейту, температуре плат/чипов, ошибкам, потреблению энергии.\n  * Позволяет массово менять пулы, перезагружать асики, обновлять прошивки в один клик и настраивать триггеры оповещений в Telegram.\n* **Плата (DevFee):** ~1.8% – 2.8% от добычи (майнится параллельно, без остановки основного процесса).\n\n### 2. Braiins OS (разработчик: Braiins)\n**Braiins** — чешская компания, создатели старейшего пула Slush Pool (теперь Braiins Pool) и первопроходцы в создании открытого ПО для асиков.\n* **Поддерживаемые устройства:** Antminer S19, S19j, S19 Pro и другие популярные модели SHA-256.\n* **Возможности разгона:** Алгоритмы автоматического тюнинга, динамическое масштабирование энергоэффективности.\n* **Мониторинг:**\n  * **Braiins Manager:** Профессиональная облачная платформа для мониторинга ферм любого масштаба. \n  * Включает интерактивную карту дата-центра, систему автоматических триггеров (например, выключение при перегреве помещения или снижении хешрейта) и детальные графики энергопотребления.\n  * Идеальная интеграция с **Braiins Pool** (при использовании прошивки и пула комиссия пула составляет 0%).\n* **Плата (DevFee):** Около 2–2.5%.\n\n### 3. Hiveon (разработчик: Hive OS / Hiveon)\n**Hive OS** — крупнейшая экосистема для управления майнингом, изначально известная по GPU-фермам, но имеющая мощнейшее решение для ASIC.\n* **Поддерживаемые устройства:** Огромный перечень Antminer и Whatsminer.\n* **Мониторинг через ASIC Hub:**\n  * У Hive OS есть два пути: установка их кастомной прошивки **Hiveon Firmware** или использование утилиты **ASIC Hub**. \n  * **ASIC Hub** — это революционное решение: программа устанавливается на локальный ПК/сервер в сети (например, на Raspberry Pi) и объединяет все ваши асики (даже на родных заводских прошивках) в один дашборд Hive OS.\n  * Вы получаете доступ к легендарному дашборду Hive OS: тепловые карты, массовые полетные листы (смена монет/пулов за секунды), уведомления в Telegram/Discord, детальная статистика по шарам и хешрейту.\n* **Плата (DevFee):** Зависит от тарифа и использования пула Hiveon.\n\n### 4. MSKMINERS (разработчик: команда MSKMINER)\nПопулярная русскоязычная команда разработчиков, создающая оптимизированный софт для коммерческого майнинга.\n* **Поддерживаемые устройства:** Antminer серий 19, 21, L7, L9 (на платах контроля Amlogic, Xilinx, CVTEK).\n* **Особенности:** Очень высокая энергоэффективность (снижение потребления до 25%), поддержка иммерсионного охлаждения.\n* **Мониторинг (Miner Tools):**\n  * Разработчики предлагают бесплатную утилиту **MSK Miner Tools** для Windows, macOS и Linux.\n  * Это локальный центр управления, который позволяет сканировать сеть, массово прошивать устройства, менять пароли, а главное — выводит подробную интерактивную карту чипов с вольтажом и температурой прямо в реальном времени.\n* **Плата (DevFee):** Около 2%.\n\n### 5. BiXBiT AMS (разработчик: BiXBiT)\nКомпания известна своими решениями для иммерсионного (жидкостного) охлаждения, а также качественным ПО",
+          "annotations": [
+            {
+              "title": "chilkoot.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHI_KaN8tjP7eCTPaipjtH2vsqEUiLmMjPZ3aXYT_Pw2ndhFHb3WkjRGe-uwOR5n4ep6cuTwGyacRJ5-RZBKdyZ2mWS0UT8ErXG_ulrWFJFffdm0VBq2ClEkdx2uG6MpeMQ_f_NqcbRsr9Rvt4Y",
+              "direct_url": "https://chilkoot.ru/news/statyi/razgon-proshivka-asika/",
+              "start_index": 158,
+              "end_index": 458,
+              "text": "Они позволяют не только разогнать или даунвольтить (снизить потребление) оборудование, но и осуществлять **удаленный мониторинг и пакетное управление** всей фермой"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwGz9gb9QjX8ZYWbWeJgv3JbhIi1xbFpt3wS78-9paNZmTey7bE_8YlPJsz79hW2D6K6AQkHKX6On0P7CLphWjnDLC8eVCRUlBNA==",
+              "direct_url": "https://vnish.ru/ru/",
+              "start_index": 699,
+              "end_index": 909,
+              "text": "VNISH (разработчик: VNISH Team)\n**VNISH** — одна из самых популярных, стабильных и функциональных коммерческих прошивок в мире"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFj4sYK_7piPSKshDQ5q2_sqT3Yk4a7wwD615e4PohqyOjY7EBx69sKUt3bMiYImTME7ScV8Lfd4naHdjdgzwezc6N7f7wUaUwgzTivUQvvUTQMjzd4yIUQd2JpRAPBgHCps4es7h2QnNkgQ==",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 699,
+              "end_index": 909,
+              "text": "VNISH (разработчик: VNISH Team)\n**VNISH** — одна из самых популярных, стабильных и функциональных коммерческих прошивок в мире"
+            },
+            {
+              "title": "soleniy.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHl7b3vZWJyS5rqyinmScc2LfxF1VtIX3feTlZN4pfXQqZWdxijVgS_om2QY9v5qS-NfiljokExcZDQQ_FfbA0gOzC7vyCbAXsAJc-FztYaAjsNdWmAKuhtZVQxneRjBANlXI=",
+              "direct_url": "https://www.soleniy.com/proshivki-dlya-asikov",
+              "start_index": 912,
+              "end_index": 1085,
+              "text": "* **Поддерживаемые устройства:** Практически вся линейка Bitmain Antminer (от S9/L3+ до S19, S21, T21, L7, L9) и Whatsminer"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFj4sYK_7piPSKshDQ5q2_sqT3Yk4a7wwD615e4PohqyOjY7EBx69sKUt3bMiYImTME7ScV8Lfd4naHdjdgzwezc6N7f7wUaUwgzTivUQvvUTQMjzd4yIUQd2JpRAPBgHCps4es7h2QnNkgQ==",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 912,
+              "end_index": 1085,
+              "text": "* **Поддерживаемые устройства:** Практически вся линейка Bitmain Antminer (от S9/L3+ до S19, S21, T21, L7, L9) и Whatsminer"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwGz9gb9QjX8ZYWbWeJgv3JbhIi1xbFpt3wS78-9paNZmTey7bE_8YlPJsz79hW2D6K6AQkHKX6On0P7CLphWjnDLC8eVCRUlBNA==",
+              "direct_url": "https://vnish.ru/ru/",
+              "start_index": 1087,
+              "end_index": 1365,
+              "text": "* **Возможности разгона:** Почиповый автотюнер (каждый чип настраивается на свою частоту и вольтаж), автонастройка кулеров, функция умного прогрева зимой"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFj4sYK_7piPSKshDQ5q2_sqT3Yk4a7wwD615e4PohqyOjY7EBx69sKUt3bMiYImTME7ScV8Lfd4naHdjdgzwezc6N7f7wUaUwgzTivUQvvUTQMjzd4yIUQd2JpRAPBgHCps4es7h2QnNkgQ==",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 1087,
+              "end_index": 1365,
+              "text": "* **Возможности разгона:** Почиповый автотюнер (каждый чип настраивается на свою частоту и вольтаж), автонастройка кулеров, функция умного прогрева зимой"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 1087,
+              "end_index": 1365,
+              "text": "* **Возможности разгона:** Почиповый автотюнер (каждый чип настраивается на свою частоту и вольтаж), автонастройка кулеров, функция умного прогрева зимой"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvyN7fp-ISDxPX-CaA0tu7ELPBspblaUFdgPhlgHVxPf-ELTzTkNNq2-2K28ZFRFtj9pO4yrPJi9bU3xdRn3NvKeFrwVQQ300mrNszhuKP2DcwVVQmC1WFYfjNuIWKi_L_",
+              "direct_url": "https://www.youtube.com/watch?v=B9uSkrOQxI0",
+              "start_index": 1367,
+              "end_index": 1596,
+              "text": "* **Мониторинг:** \n  * **Vnish Cloud / Vnish AMS:** Позволяет абсолютно бесплатно отслеживать состояние всех ваших асиков из любой точки мира"
+            },
+            {
+              "title": "bixbit.io",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOBH8n3BFB7H_Tkvwx90asqJlLvOGC-BRp0ZNw6JFEwH2PU7uKu8ERkDmv9jqf2s1ecUtBHR1rUuUsV4VbET2dTBgq0lOVYg8OAQvADQhLoC5dH10=",
+              "direct_url": "https://bixbit.io/ru/firmwares",
+              "start_index": 1367,
+              "end_index": 1596,
+              "text": "* **Мониторинг:** \n  * **Vnish Cloud / Vnish AMS:** Позволяет абсолютно бесплатно отслеживать состояние всех ваших асиков из любой точки мира"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwGz9gb9QjX8ZYWbWeJgv3JbhIi1xbFpt3wS78-9paNZmTey7bE_8YlPJsz79hW2D6K6AQkHKX6On0P7CLphWjnDLC8eVCRUlBNA==",
+              "direct_url": "https://vnish.ru/ru/",
+              "start_index": 1600,
+              "end_index": 1762,
+              "text": "* Предоставляет данные по хешрейту, температуре плат/чипов, ошибкам, потреблению энергии"
+            },
+            {
+              "title": "bixbit.io",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOBH8n3BFB7H_Tkvwx90asqJlLvOGC-BRp0ZNw6JFEwH2PU7uKu8ERkDmv9jqf2s1ecUtBHR1rUuUsV4VbET2dTBgq0lOVYg8OAQvADQhLoC5dH10=",
+              "direct_url": "https://bixbit.io/ru/firmwares",
+              "start_index": 1600,
+              "end_index": 1762,
+              "text": "* Предоставляет данные по хешрейту, температуре плат/чипов, ошибкам, потреблению энергии"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwGz9gb9QjX8ZYWbWeJgv3JbhIi1xbFpt3wS78-9paNZmTey7bE_8YlPJsz79hW2D6K6AQkHKX6On0P7CLphWjnDLC8eVCRUlBNA==",
+              "direct_url": "https://vnish.ru/ru/",
+              "start_index": 1766,
+              "end_index": 1996,
+              "text": "* Позволяет массово менять пулы, перезагружать асики, обновлять прошивки в один клик и настраивать триггеры оповещений в Telegram"
+            },
+            {
+              "title": "bixbit.io",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOBH8n3BFB7H_Tkvwx90asqJlLvOGC-BRp0ZNw6JFEwH2PU7uKu8ERkDmv9jqf2s1ecUtBHR1rUuUsV4VbET2dTBgq0lOVYg8OAQvADQhLoC5dH10=",
+              "direct_url": "https://bixbit.io/ru/firmwares",
+              "start_index": 1766,
+              "end_index": 1996,
+              "text": "* Позволяет массово менять пулы, перезагружать асики, обновлять прошивки в один клик и настраивать триггеры оповещений в Telegram"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFj4sYK_7piPSKshDQ5q2_sqT3Yk4a7wwD615e4PohqyOjY7EBx69sKUt3bMiYImTME7ScV8Lfd4naHdjdgzwezc6N7f7wUaUwgzTivUQvvUTQMjzd4yIUQd2JpRAPBgHCps4es7h2QnNkgQ==",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 1998,
+              "end_index": 2162,
+              "text": "* **Плата (DevFee):** ~1.8% – 2.8% от добычи (майнится параллельно, без остановки основного процесса)"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 1998,
+              "end_index": 2162,
+              "text": "* **Плата (DevFee):** ~1.8% – 2.8% от добычи (майнится параллельно, без остановки основного процесса)"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC_kq6mMU6RIScmMVRxnMorKdYweClnM76lT4EHjdCdCKNVR05nK_qHcxe8FJPnT2R51I3hxD1kvKwreZuTvpw7MMTLw28An795mut6w==",
+              "direct_url": "https://braiins.com/pool",
+              "start_index": 2172,
+              "end_index": 2447,
+              "text": "Braiins OS (разработчик: Braiins)\n**Braiins** — чешская компания, создатели старейшего пула Slush Pool (теперь Braiins Pool) и первопроходцы в создании открытого ПО для асиков"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN3tSi0HzsUY5CXbAHS0DWRH_cwsNdMOiRggTpOcO3SsMa_MJc3Lxhi6_gFvapoDfGq9lOEiUMqQihqoSLOqo6fRsWiF2TVfgfSrR4oTu2zcneWP1MfFZCAkQXEqtlc21iyPw=",
+              "direct_url": "https://academy.braiins.com/braiins-pool/about",
+              "start_index": 2172,
+              "end_index": 2447,
+              "text": "Braiins OS (разработчик: Braiins)\n**Braiins** — чешская компания, создатели старейшего пула Slush Pool (теперь Braiins Pool) и первопроходцы в создании открытого ПО для асиков"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFj4sYK_7piPSKshDQ5q2_sqT3Yk4a7wwD615e4PohqyOjY7EBx69sKUt3bMiYImTME7ScV8Lfd4naHdjdgzwezc6N7f7wUaUwgzTivUQvvUTQMjzd4yIUQd2JpRAPBgHCps4es7h2QnNkgQ==",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 2449,
+              "end_index": 2591,
+              "text": "* **Поддерживаемые устройства:** Antminer S19, S19j, S19 Pro и другие популярные модели SHA-256"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTc0B6L25ZB5xnLRT7TB3wduoR-sPrNHP7hZk2HFTzRj-r3NHyjoh2Q2tdUmMrFtgHN4cXLON7P1lmBD01PhdOI62U7uhjYk_T3uwGOUKRViT7QHtd-7FBoPAkT9pDLcQc",
+              "direct_url": "https://academy.braiins.com/braiins-os/about",
+              "start_index": 2449,
+              "end_index": 2591,
+              "text": "* **Поддерживаемые устройства:** Antminer S19, S19j, S19 Pro и другие популярные модели SHA-256"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGir5ruYYkSi02vVScMEdEMkJMlkxJ_yr_sJ3PBpGY58QbvNWqxJ-xlpZuP_Ci0RxUPeQT5TdgDKJS0yBgtqSnm2iEKoeHH0nfpDmM_XrZMoeXUlbwvl7VTevcvoymKiqH5y1pe9NzvSWUdckbe_p1WeWKxiEHz1eHxHmmrD99gq-jGcevq-0lUUFKQ-VyvHQQ=",
+              "direct_url": "https://d-central.tech/how-to-setup-antminer-the-ultimate-guide-for-bitmain-bitcoin-mining/",
+              "start_index": 2593,
+              "end_index": 2798,
+              "text": "* **Возможности разгона:** Алгоритмы автоматического тюнинга, динамическое масштабирование энергоэффективности"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTc0B6L25ZB5xnLRT7TB3wduoR-sPrNHP7hZk2HFTzRj-r3NHyjoh2Q2tdUmMrFtgHN4cXLON7P1lmBD01PhdOI62U7uhjYk_T3uwGOUKRViT7QHtd-7FBoPAkT9pDLcQc",
+              "direct_url": "https://academy.braiins.com/braiins-os/about",
+              "start_index": 2593,
+              "end_index": 2798,
+              "text": "* **Возможности разгона:** Алгоритмы автоматического тюнинга, динамическое масштабирование энергоэффективности"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkEd1XvxsGzQxUuH_eZUwfWkkvbbgJ5SrjKLcX71swTn0VCYGaZN5fkQW0AN-8IWDxJgfZfdANhnh7BIegXuj4uvcwUypCzbiu",
+              "direct_url": "https://braiins.com/",
+              "start_index": 2800,
+              "end_index": 2990,
+              "text": "* **Мониторинг:**\n  * **Braiins Manager:** Профессиональная облачная платформа для мониторинга ферм любого масштаба"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP6OUDK-ArL4sbwTVZ_Uo1vubZrMKe1PjnsxcnQKOrGjYxtTF9uOJeKdGW2B77MCQe-QFdwwXkUDnedvJQ7U8yOFUzf8ne1XDFwYGwB3J9oA==",
+              "direct_url": "https://braiins.com/manager",
+              "start_index": 2800,
+              "end_index": 2990,
+              "text": "* **Мониторинг:**\n  * **Braiins Manager:** Профессиональная облачная платформа для мониторинга ферм любого масштаба"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP6OUDK-ArL4sbwTVZ_Uo1vubZrMKe1PjnsxcnQKOrGjYxtTF9uOJeKdGW2B77MCQe-QFdwwXkUDnedvJQ7U8yOFUzf8ne1XDFwYGwB3J9oA==",
+              "direct_url": "https://braiins.com/manager",
+              "start_index": 2995,
+              "end_index": 3336,
+              "text": "* Включает интерактивную карту дата-центра, систему автоматических триггеров (например, выключение при перегреве помещения или снижении хешрейта) и детальные графики энергопотребления"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC_kq6mMU6RIScmMVRxnMorKdYweClnM76lT4EHjdCdCKNVR05nK_qHcxe8FJPnT2R51I3hxD1kvKwreZuTvpw7MMTLw28An795mut6w==",
+              "direct_url": "https://braiins.com/pool",
+              "start_index": 3340,
+              "end_index": 3516,
+              "text": "* Идеальная интеграция с **Braiins Pool** (при использовании прошивки и пула комиссия пула составляет 0%)"
+            },
+            {
+              "title": "mim.farm",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7B9cqRHCPJuCDCyCmpPm9MxAAUQXSHEalCLQwHkClaaVTxXmXosKqI_vC6SggJ4E1Q5GVpv1qXVQEac6Dpdds_fmgvxon1zX_TXQwle7agbyVbuO57rRiUqisETg9",
+              "direct_url": "https://mim.farm/bitcoin-mining-software/",
+              "start_index": 3574,
+              "end_index": 3858,
+              "text": "Hiveon (разработчик: Hive OS / Hiveon)\n**Hive OS** — крупнейшая экосистема для управления майнингом, изначально известная по GPU-фермам, но имеющая мощнейшее решение для ASIC"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyBx4Pnh8CdGJxYpPpKesIBd6a3SFPLO7kItJqNSYluex00SvMCSa5_W_ReFO-K9PL4t9EPOSqjfM4hFe0U-XyRWp-IUitXC1OZyCTepnDl5dg8cNZeC0Jo8SZPuqr5q8=",
+              "direct_url": "https://www.youtube.com/watch?v=gxtQKQmVpe4",
+              "start_index": 3574,
+              "end_index": 3858,
+              "text": "Hiveon (разработчик: Hive OS / Hiveon)\n**Hive OS** — крупнейшая экосистема для управления майнингом, изначально известная по GPU-фермам, но имеющая мощнейшее решение для ASIC"
+            },
+            {
+              "title": "hiveon.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsu_CP06EnuLpGjHZO-16oGWeSula2tbk1-xzCoIgyPShoopc1ev18bbu9DxS841Qv6QXbxJij0wMt0pLzmEwg72QO6UIQNO8XcgE4qkkBt7M=",
+              "direct_url": "https://hiveon.com/features/",
+              "start_index": 3860,
+              "end_index": 3973,
+              "text": "* **Поддерживаемые устройства:** Огромный перечень Antminer и Whatsminer"
+            },
+            {
+              "title": "minerstat.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYf9XN0P7iaf1389vW0lRfE87TAcFDDLu8yaMj-XNT_y4fYi8Q1bbY2IT4WrNhvgDRW6Gs7y_FZMVH1_VgzRv301qy8HlvVcDqLRRGKNi1M1HMKoQEQzRB3QjVpg==",
+              "direct_url": "https://minerstat.com/software/asic-old",
+              "start_index": 3860,
+              "end_index": 3973,
+              "text": "* **Поддерживаемые устройства:** Огромный перечень Antminer и Whatsminer"
+            },
+            {
+              "title": "mim.farm",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7B9cqRHCPJuCDCyCmpPm9MxAAUQXSHEalCLQwHkClaaVTxXmXosKqI_vC6SggJ4E1Q5GVpv1qXVQEac6Dpdds_fmgvxon1zX_TXQwle7agbyVbuO57rRiUqisETg9",
+              "direct_url": "https://mim.farm/bitcoin-mining-software/",
+              "start_index": 3975,
+              "end_index": 4205,
+              "text": "* **Мониторинг через ASIC Hub:**\n  * У Hive OS есть два пути: установка их кастомной прошивки **Hiveon Firmware** или использование утилиты **ASIC Hub**"
+            },
+            {
+              "title": "hiveon.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsu_CP06EnuLpGjHZO-16oGWeSula2tbk1-xzCoIgyPShoopc1ev18bbu9DxS841Qv6QXbxJij0wMt0pLzmEwg72QO6UIQNO8XcgE4qkkBt7M=",
+              "direct_url": "https://hiveon.com/features/",
+              "start_index": 3975,
+              "end_index": 4205,
+              "text": "* **Мониторинг через ASIC Hub:**\n  * У Hive OS есть два пути: установка их кастомной прошивки **Hiveon Firmware** или использование утилиты **ASIC Hub**"
+            },
+            {
+              "title": "mim.farm",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7B9cqRHCPJuCDCyCmpPm9MxAAUQXSHEalCLQwHkClaaVTxXmXosKqI_vC6SggJ4E1Q5GVpv1qXVQEac6Dpdds_fmgvxon1zX_TXQwle7agbyVbuO57rRiUqisETg9",
+              "direct_url": "https://mim.farm/bitcoin-mining-software/",
+              "start_index": 4210,
+              "end_index": 4573,
+              "text": "* **ASIC Hub** — это революционное решение: программа устанавливается на локальный ПК/сервер в сети (например, на Raspberry Pi) и объединяет все ваши асики (даже на родных заводских прошивках) в один дашборд Hive OS"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGir5ruYYkSi02vVScMEdEMkJMlkxJ_yr_sJ3PBpGY58QbvNWqxJ-xlpZuP_Ci0RxUPeQT5TdgDKJS0yBgtqSnm2iEKoeHH0nfpDmM_XrZMoeXUlbwvl7VTevcvoymKiqH5y1pe9NzvSWUdckbe_p1WeWKxiEHz1eHxHmmrD99gq-jGcevq-0lUUFKQ-VyvHQQ=",
+              "direct_url": "https://d-central.tech/how-to-setup-antminer-the-ultimate-guide-for-bitmain-bitcoin-mining/",
+              "start_index": 4210,
+              "end_index": 4573,
+              "text": "* **ASIC Hub** — это революционное решение: программа устанавливается на локальный ПК/сервер в сети (например, на Raspberry Pi) и объединяет все ваши асики (даже на родных заводских прошивках) в один дашборд Hive OS"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx2i91TpVca9ZUBONe25KAZ67DL6o6CWa6AduQwgEB_gpikPCrqlP4Cc2dFnSzQSJly-IcCo_TufFKkzg77KWtBL4OoHbDy9-zHvx2T6DdzLSHmcNdJojM8H9-H8vUJFzlbeZnfYpUPXUYGmbBd0Jn9SEqOWGrCt1sRYjkN25KagFd85XH--uUepY0JKJVoWelNMnprRk4qktL89cc7Q4T5Q==",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-setup-hiveos-asic-hub-a-step-by-step-guide-for-miners",
+              "start_index": 4210,
+              "end_index": 4573,
+              "text": "* **ASIC Hub** — это революционное решение: программа устанавливается на локальный ПК/сервер в сети (например, на Raspberry Pi) и объединяет все ваши асики (даже на родных заводских прошивках) в один дашборд Hive OS"
+            },
+            {
+              "title": "hiveon.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsu_CP06EnuLpGjHZO-16oGWeSula2tbk1-xzCoIgyPShoopc1ev18bbu9DxS841Qv6QXbxJij0wMt0pLzmEwg72QO6UIQNO8XcgE4qkkBt7M=",
+              "direct_url": "https://hiveon.com/features/",
+              "start_index": 4577,
+              "end_index": 4919,
+              "text": "* Вы получаете доступ к легендарному дашборду Hive OS: тепловые карты, массовые полетные листы (смена монет/пулов за секунды), уведомления в Telegram/Discord, детальная статистика по шарам и хешрейту"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyBx4Pnh8CdGJxYpPpKesIBd6a3SFPLO7kItJqNSYluex00SvMCSa5_W_ReFO-K9PL4t9EPOSqjfM4hFe0U-XyRWp-IUitXC1OZyCTepnDl5dg8cNZeC0Jo8SZPuqr5q8=",
+              "direct_url": "https://www.youtube.com/watch?v=gxtQKQmVpe4",
+              "start_index": 4577,
+              "end_index": 4919,
+              "text": "* Вы получаете доступ к легендарному дашборду Hive OS: тепловые карты, массовые полетные листы (смена монет/пулов за секунды), уведомления в Telegram/Discord, детальная статистика по шарам и хешрейту"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYqHSCh0_n9XwOsWiOJAAW2VIT0kPNCN1llFzqx4Y8B5ulmm0SBAuJaipZB2dEnjOtVRIl_ADKzr8riorTW3xcBmkgoQXR8jkIgYc=",
+              "direct_url": "https://mskminer.com/",
+              "start_index": 5036,
+              "end_index": 5298,
+              "text": "MSKMINERS (разработчик: команда MSKMINER)\nПопулярная русскоязычная команда разработчиков, создающая оптимизированный софт для коммерческого майнинга"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 5036,
+              "end_index": 5298,
+              "text": "MSKMINERS (разработчик: команда MSKMINER)\nПопулярная русскоязычная команда разработчиков, создающая оптимизированный софт для коммерческого майнинга"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4HyHU3x8Yc7IaCGZUnPCXlekmR4tiJW0eFPI7n2Ku74HZ4Y1XRReobLJD04uCDpkH88XPYHjkZMEyBhxoLLSCHgnKc2fUNeP8WAlqyg==",
+              "direct_url": "https://mskminer.com/de/",
+              "start_index": 5300,
+              "end_index": 5451,
+              "text": "* **Поддерживаемые устройства:** Antminer серий 19, 21, L7, L9 (на платах контроля Amlogic, Xilinx, CVTEK)"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 5300,
+              "end_index": 5451,
+              "text": "* **Поддерживаемые устройства:** Antminer серий 19, 21, L7, L9 (на платах контроля Amlogic, Xilinx, CVTEK)"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4HyHU3x8Yc7IaCGZUnPCXlekmR4tiJW0eFPI7n2Ku74HZ4Y1XRReobLJD04uCDpkH88XPYHjkZMEyBhxoLLSCHgnKc2fUNeP8WAlqyg==",
+              "direct_url": "https://mskminer.com/de/",
+              "start_index": 5453,
+              "end_index": 5666,
+              "text": "* **Особенности:** Очень высокая энергоэффективность (снижение потребления до 25%), поддержка иммерсионного охлаждения"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 5453,
+              "end_index": 5666,
+              "text": "* **Особенности:** Очень высокая энергоэффективность (снижение потребления до 25%), поддержка иммерсионного охлаждения"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4HyHU3x8Yc7IaCGZUnPCXlekmR4tiJW0eFPI7n2Ku74HZ4Y1XRReobLJD04uCDpkH88XPYHjkZMEyBhxoLLSCHgnKc2fUNeP8WAlqyg==",
+              "direct_url": "https://mskminer.com/de/",
+              "start_index": 5668,
+              "end_index": 5846,
+              "text": "* **Мониторинг (Miner Tools):**\n  * Разработчики предлагают бесплатную утилиту **MSK Miner Tools** для Windows, macOS и Linux"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 5668,
+              "end_index": 5846,
+              "text": "* **Мониторинг (Miner Tools):**\n  * Разработчики предлагают бесплатную утилиту **MSK Miner Tools** для Windows, macOS и Linux"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVWOoq2qNDc70oYshsWKj7LpT__exDrExIOkrdi7UCa_tEn5iqbI3oos8xJhv7W74u9Mt38z1HrvNxHnVqT2QFiiHRVig8th2UJbiPgLnwZaJlggMR3kreLOhQ_bzPYy0=",
+              "direct_url": "https://www.youtube.com/watch?v=wBL-8M2L38w",
+              "start_index": 5850,
+              "end_index": 6261,
+              "text": "* Это локальный центр управления, который позволяет сканировать сеть, массово прошивать устройства, менять пароли, а главное — выводит подробную интерактивную карту чипов с вольтажом и температурой прямо в реальном времени"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4Tn0xJE3i5S3uohE2tsgKK1rHnA9AEnwk0K_ZlrBxHeTvrm8bd_yRAVYUuRrL-VpEqlT6xP7444JToN4s58LntlShuGtXQvYBYSbc81lso2P3GSzU5X5T2LSH_RXnKT8=",
+              "direct_url": "https://www.youtube.com/watch?v=YK770zzhlYE",
+              "start_index": 5850,
+              "end_index": 6261,
+              "text": "* Это локальный центр управления, который позволяет сканировать сеть, массово прошивать устройства, менять пароли, а главное — выводит подробную интерактивную карту чипов с вольтажом и температурой прямо в реальном времени"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 6263,
+              "end_index": 6303,
+              "text": "* **Плата (DevFee):** Около 2%"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " [1.2.6,",
+          "annotations": [
+            {
+              "title": "chilkoot.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHI_KaN8tjP7eCTPaipjtH2vsqEUiLmMjPZ3aXYT_Pw2ndhFHb3WkjRGe-uwOR5n4ep6cuTwGyacRJ5-RZBKdyZ2mWS0UT8ErXG_ulrWFJFffdm0VBq2ClEkdx2uG6MpeMQ_f_NqcbRsr9Rvt4Y",
+              "direct_url": "https://chilkoot.ru/news/statyi/razgon-proshivka-asika/",
+              "start_index": 158,
+              "end_index": 458,
+              "text": "Они позволяют не только разогнать или даунвольтить (снизить потребление) оборудование, но и осуществлять **удаленный мониторинг и пакетное управление** всей фермой"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwGz9gb9QjX8ZYWbWeJgv3JbhIi1xbFpt3wS78-9paNZmTey7bE_8YlPJsz79hW2D6K6AQkHKX6On0P7CLphWjnDLC8eVCRUlBNA==",
+              "direct_url": "https://vnish.ru/ru/",
+              "start_index": 699,
+              "end_index": 909,
+              "text": "VNISH (разработчик: VNISH Team)\n**VNISH** — одна из самых популярных, стабильных и функциональных коммерческих прошивок в мире"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFj4sYK_7piPSKshDQ5q2_sqT3Yk4a7wwD615e4PohqyOjY7EBx69sKUt3bMiYImTME7ScV8Lfd4naHdjdgzwezc6N7f7wUaUwgzTivUQvvUTQMjzd4yIUQd2JpRAPBgHCps4es7h2QnNkgQ==",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 699,
+              "end_index": 909,
+              "text": "VNISH (разработчик: VNISH Team)\n**VNISH** — одна из самых популярных, стабильных и функциональных коммерческих прошивок в мире"
+            },
+            {
+              "title": "soleniy.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHl7b3vZWJyS5rqyinmScc2LfxF1VtIX3feTlZN4pfXQqZWdxijVgS_om2QY9v5qS-NfiljokExcZDQQ_FfbA0gOzC7vyCbAXsAJc-FztYaAjsNdWmAKuhtZVQxneRjBANlXI=",
+              "direct_url": "https://www.soleniy.com/proshivki-dlya-asikov",
+              "start_index": 912,
+              "end_index": 1085,
+              "text": "* **Поддерживаемые устройства:** Практически вся линейка Bitmain Antminer (от S9/L3+ до S19, S21, T21, L7, L9) и Whatsminer"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFj4sYK_7piPSKshDQ5q2_sqT3Yk4a7wwD615e4PohqyOjY7EBx69sKUt3bMiYImTME7ScV8Lfd4naHdjdgzwezc6N7f7wUaUwgzTivUQvvUTQMjzd4yIUQd2JpRAPBgHCps4es7h2QnNkgQ==",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 912,
+              "end_index": 1085,
+              "text": "* **Поддерживаемые устройства:** Практически вся линейка Bitmain Antminer (от S9/L3+ до S19, S21, T21, L7, L9) и Whatsminer"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwGz9gb9QjX8ZYWbWeJgv3JbhIi1xbFpt3wS78-9paNZmTey7bE_8YlPJsz79hW2D6K6AQkHKX6On0P7CLphWjnDLC8eVCRUlBNA==",
+              "direct_url": "https://vnish.ru/ru/",
+              "start_index": 1087,
+              "end_index": 1365,
+              "text": "* **Возможности разгона:** Почиповый автотюнер (каждый чип настраивается на свою частоту и вольтаж), автонастройка кулеров, функция умного прогрева зимой"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFj4sYK_7piPSKshDQ5q2_sqT3Yk4a7wwD615e4PohqyOjY7EBx69sKUt3bMiYImTME7ScV8Lfd4naHdjdgzwezc6N7f7wUaUwgzTivUQvvUTQMjzd4yIUQd2JpRAPBgHCps4es7h2QnNkgQ==",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 1087,
+              "end_index": 1365,
+              "text": "* **Возможности разгона:** Почиповый автотюнер (каждый чип настраивается на свою частоту и вольтаж), автонастройка кулеров, функция умного прогрева зимой"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 1087,
+              "end_index": 1365,
+              "text": "* **Возможности разгона:** Почиповый автотюнер (каждый чип настраивается на свою частоту и вольтаж), автонастройка кулеров, функция умного прогрева зимой"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvyN7fp-ISDxPX-CaA0tu7ELPBspblaUFdgPhlgHVxPf-ELTzTkNNq2-2K28ZFRFtj9pO4yrPJi9bU3xdRn3NvKeFrwVQQ300mrNszhuKP2DcwVVQmC1WFYfjNuIWKi_L_",
+              "direct_url": "https://www.youtube.com/watch?v=B9uSkrOQxI0",
+              "start_index": 1367,
+              "end_index": 1596,
+              "text": "* **Мониторинг:** \n  * **Vnish Cloud / Vnish AMS:** Позволяет абсолютно бесплатно отслеживать состояние всех ваших асиков из любой точки мира"
+            },
+            {
+              "title": "bixbit.io",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOBH8n3BFB7H_Tkvwx90asqJlLvOGC-BRp0ZNw6JFEwH2PU7uKu8ERkDmv9jqf2s1ecUtBHR1rUuUsV4VbET2dTBgq0lOVYg8OAQvADQhLoC5dH10=",
+              "direct_url": "https://bixbit.io/ru/firmwares",
+              "start_index": 1367,
+              "end_index": 1596,
+              "text": "* **Мониторинг:** \n  * **Vnish Cloud / Vnish AMS:** Позволяет абсолютно бесплатно отслеживать состояние всех ваших асиков из любой точки мира"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwGz9gb9QjX8ZYWbWeJgv3JbhIi1xbFpt3wS78-9paNZmTey7bE_8YlPJsz79hW2D6K6AQkHKX6On0P7CLphWjnDLC8eVCRUlBNA==",
+              "direct_url": "https://vnish.ru/ru/",
+              "start_index": 1600,
+              "end_index": 1762,
+              "text": "* Предоставляет данные по хешрейту, температуре плат/чипов, ошибкам, потреблению энергии"
+            },
+            {
+              "title": "bixbit.io",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOBH8n3BFB7H_Tkvwx90asqJlLvOGC-BRp0ZNw6JFEwH2PU7uKu8ERkDmv9jqf2s1ecUtBHR1rUuUsV4VbET2dTBgq0lOVYg8OAQvADQhLoC5dH10=",
+              "direct_url": "https://bixbit.io/ru/firmwares",
+              "start_index": 1600,
+              "end_index": 1762,
+              "text": "* Предоставляет данные по хешрейту, температуре плат/чипов, ошибкам, потреблению энергии"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwGz9gb9QjX8ZYWbWeJgv3JbhIi1xbFpt3wS78-9paNZmTey7bE_8YlPJsz79hW2D6K6AQkHKX6On0P7CLphWjnDLC8eVCRUlBNA==",
+              "direct_url": "https://vnish.ru/ru/",
+              "start_index": 1766,
+              "end_index": 1996,
+              "text": "* Позволяет массово менять пулы, перезагружать асики, обновлять прошивки в один клик и настраивать триггеры оповещений в Telegram"
+            },
+            {
+              "title": "bixbit.io",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOBH8n3BFB7H_Tkvwx90asqJlLvOGC-BRp0ZNw6JFEwH2PU7uKu8ERkDmv9jqf2s1ecUtBHR1rUuUsV4VbET2dTBgq0lOVYg8OAQvADQhLoC5dH10=",
+              "direct_url": "https://bixbit.io/ru/firmwares",
+              "start_index": 1766,
+              "end_index": 1996,
+              "text": "* Позволяет массово менять пулы, перезагружать асики, обновлять прошивки в один клик и настраивать триггеры оповещений в Telegram"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFj4sYK_7piPSKshDQ5q2_sqT3Yk4a7wwD615e4PohqyOjY7EBx69sKUt3bMiYImTME7ScV8Lfd4naHdjdgzwezc6N7f7wUaUwgzTivUQvvUTQMjzd4yIUQd2JpRAPBgHCps4es7h2QnNkgQ==",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 1998,
+              "end_index": 2162,
+              "text": "* **Плата (DevFee):** ~1.8% – 2.8% от добычи (майнится параллельно, без остановки основного процесса)"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 1998,
+              "end_index": 2162,
+              "text": "* **Плата (DevFee):** ~1.8% – 2.8% от добычи (майнится параллельно, без остановки основного процесса)"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC_kq6mMU6RIScmMVRxnMorKdYweClnM76lT4EHjdCdCKNVR05nK_qHcxe8FJPnT2R51I3hxD1kvKwreZuTvpw7MMTLw28An795mut6w==",
+              "direct_url": "https://braiins.com/pool",
+              "start_index": 2172,
+              "end_index": 2447,
+              "text": "Braiins OS (разработчик: Braiins)\n**Braiins** — чешская компания, создатели старейшего пула Slush Pool (теперь Braiins Pool) и первопроходцы в создании открытого ПО для асиков"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN3tSi0HzsUY5CXbAHS0DWRH_cwsNdMOiRggTpOcO3SsMa_MJc3Lxhi6_gFvapoDfGq9lOEiUMqQihqoSLOqo6fRsWiF2TVfgfSrR4oTu2zcneWP1MfFZCAkQXEqtlc21iyPw=",
+              "direct_url": "https://academy.braiins.com/braiins-pool/about",
+              "start_index": 2172,
+              "end_index": 2447,
+              "text": "Braiins OS (разработчик: Braiins)\n**Braiins** — чешская компания, создатели старейшего пула Slush Pool (теперь Braiins Pool) и первопроходцы в создании открытого ПО для асиков"
+            },
+            {
+              "title": "bitcoinmining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFj4sYK_7piPSKshDQ5q2_sqT3Yk4a7wwD615e4PohqyOjY7EBx69sKUt3bMiYImTME7ScV8Lfd4naHdjdgzwezc6N7f7wUaUwgzTivUQvvUTQMjzd4yIUQd2JpRAPBgHCps4es7h2QnNkgQ==",
+              "direct_url": "https://www.bitcoinmining.com/bitcoin-mining-software/",
+              "start_index": 2449,
+              "end_index": 2591,
+              "text": "* **Поддерживаемые устройства:** Antminer S19, S19j, S19 Pro и другие популярные модели SHA-256"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTc0B6L25ZB5xnLRT7TB3wduoR-sPrNHP7hZk2HFTzRj-r3NHyjoh2Q2tdUmMrFtgHN4cXLON7P1lmBD01PhdOI62U7uhjYk_T3uwGOUKRViT7QHtd-7FBoPAkT9pDLcQc",
+              "direct_url": "https://academy.braiins.com/braiins-os/about",
+              "start_index": 2449,
+              "end_index": 2591,
+              "text": "* **Поддерживаемые устройства:** Antminer S19, S19j, S19 Pro и другие популярные модели SHA-256"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGir5ruYYkSi02vVScMEdEMkJMlkxJ_yr_sJ3PBpGY58QbvNWqxJ-xlpZuP_Ci0RxUPeQT5TdgDKJS0yBgtqSnm2iEKoeHH0nfpDmM_XrZMoeXUlbwvl7VTevcvoymKiqH5y1pe9NzvSWUdckbe_p1WeWKxiEHz1eHxHmmrD99gq-jGcevq-0lUUFKQ-VyvHQQ=",
+              "direct_url": "https://d-central.tech/how-to-setup-antminer-the-ultimate-guide-for-bitmain-bitcoin-mining/",
+              "start_index": 2593,
+              "end_index": 2798,
+              "text": "* **Возможности разгона:** Алгоритмы автоматического тюнинга, динамическое масштабирование энергоэффективности"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTc0B6L25ZB5xnLRT7TB3wduoR-sPrNHP7hZk2HFTzRj-r3NHyjoh2Q2tdUmMrFtgHN4cXLON7P1lmBD01PhdOI62U7uhjYk_T3uwGOUKRViT7QHtd-7FBoPAkT9pDLcQc",
+              "direct_url": "https://academy.braiins.com/braiins-os/about",
+              "start_index": 2593,
+              "end_index": 2798,
+              "text": "* **Возможности разгона:** Алгоритмы автоматического тюнинга, динамическое масштабирование энергоэффективности"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkEd1XvxsGzQxUuH_eZUwfWkkvbbgJ5SrjKLcX71swTn0VCYGaZN5fkQW0AN-8IWDxJgfZfdANhnh7BIegXuj4uvcwUypCzbiu",
+              "direct_url": "https://braiins.com/",
+              "start_index": 2800,
+              "end_index": 2990,
+              "text": "* **Мониторинг:**\n  * **Braiins Manager:** Профессиональная облачная платформа для мониторинга ферм любого масштаба"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP6OUDK-ArL4sbwTVZ_Uo1vubZrMKe1PjnsxcnQKOrGjYxtTF9uOJeKdGW2B77MCQe-QFdwwXkUDnedvJQ7U8yOFUzf8ne1XDFwYGwB3J9oA==",
+              "direct_url": "https://braiins.com/manager",
+              "start_index": 2800,
+              "end_index": 2990,
+              "text": "* **Мониторинг:**\n  * **Braiins Manager:** Профессиональная облачная платформа для мониторинга ферм любого масштаба"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP6OUDK-ArL4sbwTVZ_Uo1vubZrMKe1PjnsxcnQKOrGjYxtTF9uOJeKdGW2B77MCQe-QFdwwXkUDnedvJQ7U8yOFUzf8ne1XDFwYGwB3J9oA==",
+              "direct_url": "https://braiins.com/manager",
+              "start_index": 2995,
+              "end_index": 3336,
+              "text": "* Включает интерактивную карту дата-центра, систему автоматических триггеров (например, выключение при перегреве помещения или снижении хешрейта) и детальные графики энергопотребления"
+            },
+            {
+              "title": "braiins.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC_kq6mMU6RIScmMVRxnMorKdYweClnM76lT4EHjdCdCKNVR05nK_qHcxe8FJPnT2R51I3hxD1kvKwreZuTvpw7MMTLw28An795mut6w==",
+              "direct_url": "https://braiins.com/pool",
+              "start_index": 3340,
+              "end_index": 3516,
+              "text": "* Идеальная интеграция с **Braiins Pool** (при использовании прошивки и пула комиссия пула составляет 0%)"
+            },
+            {
+              "title": "mim.farm",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7B9cqRHCPJuCDCyCmpPm9MxAAUQXSHEalCLQwHkClaaVTxXmXosKqI_vC6SggJ4E1Q5GVpv1qXVQEac6Dpdds_fmgvxon1zX_TXQwle7agbyVbuO57rRiUqisETg9",
+              "direct_url": "https://mim.farm/bitcoin-mining-software/",
+              "start_index": 3574,
+              "end_index": 3858,
+              "text": "Hiveon (разработчик: Hive OS / Hiveon)\n**Hive OS** — крупнейшая экосистема для управления майнингом, изначально известная по GPU-фермам, но имеющая мощнейшее решение для ASIC"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyBx4Pnh8CdGJxYpPpKesIBd6a3SFPLO7kItJqNSYluex00SvMCSa5_W_ReFO-K9PL4t9EPOSqjfM4hFe0U-XyRWp-IUitXC1OZyCTepnDl5dg8cNZeC0Jo8SZPuqr5q8=",
+              "direct_url": "https://www.youtube.com/watch?v=gxtQKQmVpe4",
+              "start_index": 3574,
+              "end_index": 3858,
+              "text": "Hiveon (разработчик: Hive OS / Hiveon)\n**Hive OS** — крупнейшая экосистема для управления майнингом, изначально известная по GPU-фермам, но имеющая мощнейшее решение для ASIC"
+            },
+            {
+              "title": "hiveon.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsu_CP06EnuLpGjHZO-16oGWeSula2tbk1-xzCoIgyPShoopc1ev18bbu9DxS841Qv6QXbxJij0wMt0pLzmEwg72QO6UIQNO8XcgE4qkkBt7M=",
+              "direct_url": "https://hiveon.com/features/",
+              "start_index": 3860,
+              "end_index": 3973,
+              "text": "* **Поддерживаемые устройства:** Огромный перечень Antminer и Whatsminer"
+            },
+            {
+              "title": "minerstat.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYf9XN0P7iaf1389vW0lRfE87TAcFDDLu8yaMj-XNT_y4fYi8Q1bbY2IT4WrNhvgDRW6Gs7y_FZMVH1_VgzRv301qy8HlvVcDqLRRGKNi1M1HMKoQEQzRB3QjVpg==",
+              "direct_url": "https://minerstat.com/software/asic-old",
+              "start_index": 3860,
+              "end_index": 3973,
+              "text": "* **Поддерживаемые устройства:** Огромный перечень Antminer и Whatsminer"
+            },
+            {
+              "title": "mim.farm",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7B9cqRHCPJuCDCyCmpPm9MxAAUQXSHEalCLQwHkClaaVTxXmXosKqI_vC6SggJ4E1Q5GVpv1qXVQEac6Dpdds_fmgvxon1zX_TXQwle7agbyVbuO57rRiUqisETg9",
+              "direct_url": "https://mim.farm/bitcoin-mining-software/",
+              "start_index": 3975,
+              "end_index": 4205,
+              "text": "* **Мониторинг через ASIC Hub:**\n  * У Hive OS есть два пути: установка их кастомной прошивки **Hiveon Firmware** или использование утилиты **ASIC Hub**"
+            },
+            {
+              "title": "hiveon.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsu_CP06EnuLpGjHZO-16oGWeSula2tbk1-xzCoIgyPShoopc1ev18bbu9DxS841Qv6QXbxJij0wMt0pLzmEwg72QO6UIQNO8XcgE4qkkBt7M=",
+              "direct_url": "https://hiveon.com/features/",
+              "start_index": 3975,
+              "end_index": 4205,
+              "text": "* **Мониторинг через ASIC Hub:**\n  * У Hive OS есть два пути: установка их кастомной прошивки **Hiveon Firmware** или использование утилиты **ASIC Hub**"
+            },
+            {
+              "title": "mim.farm",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7B9cqRHCPJuCDCyCmpPm9MxAAUQXSHEalCLQwHkClaaVTxXmXosKqI_vC6SggJ4E1Q5GVpv1qXVQEac6Dpdds_fmgvxon1zX_TXQwle7agbyVbuO57rRiUqisETg9",
+              "direct_url": "https://mim.farm/bitcoin-mining-software/",
+              "start_index": 4210,
+              "end_index": 4573,
+              "text": "* **ASIC Hub** — это революционное решение: программа устанавливается на локальный ПК/сервер в сети (например, на Raspberry Pi) и объединяет все ваши асики (даже на родных заводских прошивках) в один дашборд Hive OS"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGir5ruYYkSi02vVScMEdEMkJMlkxJ_yr_sJ3PBpGY58QbvNWqxJ-xlpZuP_Ci0RxUPeQT5TdgDKJS0yBgtqSnm2iEKoeHH0nfpDmM_XrZMoeXUlbwvl7VTevcvoymKiqH5y1pe9NzvSWUdckbe_p1WeWKxiEHz1eHxHmmrD99gq-jGcevq-0lUUFKQ-VyvHQQ=",
+              "direct_url": "https://d-central.tech/how-to-setup-antminer-the-ultimate-guide-for-bitmain-bitcoin-mining/",
+              "start_index": 4210,
+              "end_index": 4573,
+              "text": "* **ASIC Hub** — это революционное решение: программа устанавливается на локальный ПК/сервер в сети (например, на Raspberry Pi) и объединяет все ваши асики (даже на родных заводских прошивках) в один дашборд Hive OS"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx2i91TpVca9ZUBONe25KAZ67DL6o6CWa6AduQwgEB_gpikPCrqlP4Cc2dFnSzQSJly-IcCo_TufFKkzg77KWtBL4OoHbDy9-zHvx2T6DdzLSHmcNdJojM8H9-H8vUJFzlbeZnfYpUPXUYGmbBd0Jn9SEqOWGrCt1sRYjkN25KagFd85XH--uUepY0JKJVoWelNMnprRk4qktL89cc7Q4T5Q==",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-setup-hiveos-asic-hub-a-step-by-step-guide-for-miners",
+              "start_index": 4210,
+              "end_index": 4573,
+              "text": "* **ASIC Hub** — это революционное решение: программа устанавливается на локальный ПК/сервер в сети (например, на Raspberry Pi) и объединяет все ваши асики (даже на родных заводских прошивках) в один дашборд Hive OS"
+            },
+            {
+              "title": "hiveon.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsu_CP06EnuLpGjHZO-16oGWeSula2tbk1-xzCoIgyPShoopc1ev18bbu9DxS841Qv6QXbxJij0wMt0pLzmEwg72QO6UIQNO8XcgE4qkkBt7M=",
+              "direct_url": "https://hiveon.com/features/",
+              "start_index": 4577,
+              "end_index": 4919,
+              "text": "* Вы получаете доступ к легендарному дашборду Hive OS: тепловые карты, массовые полетные листы (смена монет/пулов за секунды), уведомления в Telegram/Discord, детальная статистика по шарам и хешрейту"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyBx4Pnh8CdGJxYpPpKesIBd6a3SFPLO7kItJqNSYluex00SvMCSa5_W_ReFO-K9PL4t9EPOSqjfM4hFe0U-XyRWp-IUitXC1OZyCTepnDl5dg8cNZeC0Jo8SZPuqr5q8=",
+              "direct_url": "https://www.youtube.com/watch?v=gxtQKQmVpe4",
+              "start_index": 4577,
+              "end_index": 4919,
+              "text": "* Вы получаете доступ к легендарному дашборду Hive OS: тепловые карты, массовые полетные листы (смена монет/пулов за секунды), уведомления в Telegram/Discord, детальная статистика по шарам и хешрейту"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYqHSCh0_n9XwOsWiOJAAW2VIT0kPNCN1llFzqx4Y8B5ulmm0SBAuJaipZB2dEnjOtVRIl_ADKzr8riorTW3xcBmkgoQXR8jkIgYc=",
+              "direct_url": "https://mskminer.com/",
+              "start_index": 5036,
+              "end_index": 5298,
+              "text": "MSKMINERS (разработчик: команда MSKMINER)\nПопулярная русскоязычная команда разработчиков, создающая оптимизированный софт для коммерческого майнинга"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 5036,
+              "end_index": 5298,
+              "text": "MSKMINERS (разработчик: команда MSKMINER)\nПопулярная русскоязычная команда разработчиков, создающая оптимизированный софт для коммерческого майнинга"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4HyHU3x8Yc7IaCGZUnPCXlekmR4tiJW0eFPI7n2Ku74HZ4Y1XRReobLJD04uCDpkH88XPYHjkZMEyBhxoLLSCHgnKc2fUNeP8WAlqyg==",
+              "direct_url": "https://mskminer.com/de/",
+              "start_index": 5300,
+              "end_index": 5451,
+              "text": "* **Поддерживаемые устройства:** Antminer серий 19, 21, L7, L9 (на платах контроля Amlogic, Xilinx, CVTEK)"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 5300,
+              "end_index": 5451,
+              "text": "* **Поддерживаемые устройства:** Antminer серий 19, 21, L7, L9 (на платах контроля Amlogic, Xilinx, CVTEK)"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4HyHU3x8Yc7IaCGZUnPCXlekmR4tiJW0eFPI7n2Ku74HZ4Y1XRReobLJD04uCDpkH88XPYHjkZMEyBhxoLLSCHgnKc2fUNeP8WAlqyg==",
+              "direct_url": "https://mskminer.com/de/",
+              "start_index": 5453,
+              "end_index": 5666,
+              "text": "* **Особенности:** Очень высокая энергоэффективность (снижение потребления до 25%), поддержка иммерсионного охлаждения"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 5453,
+              "end_index": 5666,
+              "text": "* **Особенности:** Очень высокая энергоэффективность (снижение потребления до 25%), поддержка иммерсионного охлаждения"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4HyHU3x8Yc7IaCGZUnPCXlekmR4tiJW0eFPI7n2Ku74HZ4Y1XRReobLJD04uCDpkH88XPYHjkZMEyBhxoLLSCHgnKc2fUNeP8WAlqyg==",
+              "direct_url": "https://mskminer.com/de/",
+              "start_index": 5668,
+              "end_index": 5846,
+              "text": "* **Мониторинг (Miner Tools):**\n  * Разработчики предлагают бесплатную утилиту **MSK Miner Tools** для Windows, macOS и Linux"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 5668,
+              "end_index": 5846,
+              "text": "* **Мониторинг (Miner Tools):**\n  * Разработчики предлагают бесплатную утилиту **MSK Miner Tools** для Windows, macOS и Linux"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVWOoq2qNDc70oYshsWKj7LpT__exDrExIOkrdi7UCa_tEn5iqbI3oos8xJhv7W74u9Mt38z1HrvNxHnVqT2QFiiHRVig8th2UJbiPgLnwZaJlggMR3kreLOhQ_bzPYy0=",
+              "direct_url": "https://www.youtube.com/watch?v=wBL-8M2L38w",
+              "start_index": 5850,
+              "end_index": 6261,
+              "text": "* Это локальный центр управления, который позволяет сканировать сеть, массово прошивать устройства, менять пароли, а главное — выводит подробную интерактивную карту чипов с вольтажом и температурой прямо в реальном времени"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4Tn0xJE3i5S3uohE2tsgKK1rHnA9AEnwk0K_ZlrBxHeTvrm8bd_yRAVYUuRrL-VpEqlT6xP7444JToN4s58LntlShuGtXQvYBYSbc81lso2P3GSzU5X5T2LSH_RXnKT8=",
+              "direct_url": "https://www.youtube.com/watch?v=YK770zzhlYE",
+              "start_index": 5850,
+              "end_index": 6261,
+              "text": "* Это локальный центр управления, который позволяет сканировать сеть, массово прошивать устройства, менять пароли, а главное — выводит подробную интерактивную карту чипов с вольтажом и температурой прямо в реальном времени"
+            },
+            {
+              "title": "mskminer.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdRXdMQJLbq_4WiwwTGBLuO_nL4X4g5wqjhbUdn1OC0FDth-FGlAXRAxgib7sRWNONR7QQCjnfZK32HytQ75MY7foQzYZMV6scAqw9NQ==",
+              "direct_url": "https://mskminer.com/en/",
+              "start_index": 6263,
+              "end_index": 6303,
+              "text": "* **Плата (DevFee):** Около 2%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

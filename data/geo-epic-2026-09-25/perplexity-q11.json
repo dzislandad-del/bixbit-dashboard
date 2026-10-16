@@ -1,0 +1,24 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "prompt": "What is ePIC UMC OS and how does it compare to other Antminer firmware?",
+  "task_id": "09251236-2548-0612-0000-a780ac94f5f5",
+  "web_search_country_iso_code": "US",
+  "cost_usd": 0.006242,
+  "answer_text": "**ePIC UMC OS** is a custom Bitcoin mining firmware and management platform from ePIC Blockchain Technologies that replaces stock Bitmain firmware on compatible **Antminer S19x/S21/T21** machines, adding chip-level tuning, automated optimization, thermal protection, and fleet-management APIs.[1][2][3]\n\nCompared with other Antminer firmware, its main differences are:\n\n- **Deployment model:** UMC OS can run as **firmware-only** on compatible stock control boards using ePIC’s RigRunner tool, or as a bundled system with ePIC’s **UMC Control Board** preinstalled.[1][2]\n- **Tuning depth:** ePIC says it offers **chip-level tuning** and automated “Perpetual Tune” optimization, which is more granular than the more general overclock/undervolt controls common in many third-party firmware packages.[1][3][4]\n- **Fleet tools:** It emphasizes **API access** and integration with fleet-management systems, aiming at operators running from single miners to very large fleets.[1][3]\n- **Fee structure:** ePIC says the firmware-only model carries a **1.5% development fee** after a January 2026 reduction, and it describes that as the lowest published fee among major Bitcoin mining firmware providers.[1][3][10]\n- **Hardware requirement:** Unlike some competing solutions that require a specific controller board, ePIC markets a firmware-only option for supported stock boards; however, one vendor notes the ePIC firmware also works on the **UMC board** and is not meant for other firmware there.[1][6]\n\nIn practical terms, UMC OS is positioned more as an **institutional/fleet optimization tool** than a simple “set and forget” miner tweak package.[1][3][4] It is especially aimed at operators who want automated efficiency tuning, chip-level control, and management across many machines rather than just manual overclocking.[1][3]\n\nA few caveats matter:\n\n- ePIC’s public materials focus on **supported Antminer families**, especially S19 and S21 variants, so compatibility is narrower than some third-party firmware brands that target a broader mix of ASIC models.[2][3][5]\n- Some sources describe UMC OS as available with a **2.5% trial fee** or earlier pricing, while newer ePIC materials state **1.5%**; the newer fee appears to be the current published rate.[1][3][4][10]\n- Marketing around “UMC” can be confusing because ePIC also sells a **UMC Control Board** hardware product; the firmware and the board are related but not the same thing.[1][6][9]\n\nIf you want, I can also compare **ePIC UMC OS vs Braiins OS, LuxOS, and VNish** in a side-by-side table.",
+  "cited_urls": [
+    "https://epicblockchain.io/product/umc-os/",
+    "https://epicblockchain.io/support/firmware-download/",
+    "https://www.prnewswire.com/news-releases/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets-302669401.html",
+    "https://finance.yahoo.com/news/epic-launches-umc-os-altairos-130000411.html",
+    "https://indodax.com/academy/review-epic-blockchain-antminer-umc-os/",
+    "https://altairtech.io/product/epic-umc-universal-mining-control-board/",
+    "https://pressroom.prlog.org/ePICBlockchain/",
+    "https://www.einpresswire.com/article/904290049/epic-blockchain-upgrades-mining-fleet-with-universal-controller-custom-firmware",
+    "https://d-central.tech/downloads/old-firmwares/",
+    "https://www.linkedin.com/posts/epic-blockchain-technologies_github-epicblockchainrig-runner-rigrunner-activity-7421592073197326336-BlNU",
+    "https://longbridge.com/en/news/273710255",
+    "https://github.com/epicblockchain",
+    "https://x.com/ePICBlockchain"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+ "active": {
+  "link-lost:bitcointalk.org": {
+   "sev": "P2",
+   "title": "Потеряна ссылка с сильного домена: bitcointalk.org",
+   "since": "2026-09-30T21:49"
+  }
+ },
+ "last_run": "2026-10-16T12:05"
+}

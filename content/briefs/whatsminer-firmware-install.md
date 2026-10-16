@@ -1,8 +1,9 @@
 # Content Brief: Whatsminer Firmware Installation Guide
 **URL:** /en/whatsminer-firmware/install
 **File:** content/briefs/whatsminer-firmware-install.md
-**Last updated:** 2026-06-19
-**Priority:** P1
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. Volume n/d. A combined install + update page; documentation already exists in /en/documentation.
+**Target (architecture v2, 2026-09-25):** `/en/documentation/user-guide-for-whatsminer-asic` (existing page), H2 Install custom firmware, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer with hands-on Whatsminer installation experience]
 
 ---
@@ -23,15 +24,17 @@ Provide the definitive step-by-step installation guide for BiXBiT firmware on Wh
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| whatsminer firmware install | Primary | — | — |
-| how to install whatsminer firmware | How-to | — | — |
-| whatsminer firmware flash guide | Technical | — | — |
-| whatsminer firmware sd card | Technical | — | — |
-| whatsminer firmware recovery | Trust / troubleshooting | — | — |
-| install custom firmware whatsminer | Commercial | — | — |
-| whatsminer m30s firmware installation | Model-specific | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| whatsminer firmware install | Primary | n/d (<10) | — | — |
+| how to install whatsminer firmware | How-to | n/d (<10) | — | — |
+| whatsminer firmware flash guide | Technical | n/d (<10) | — | — |
+| whatsminer firmware sd card | Technical | n/d (<10) | — | — |
+| whatsminer firmware recovery | Trust / troubleshooting | n/d (<10) | — | — |
+| install custom firmware whatsminer | Commercial | n/d (<10) | — | — |
+| whatsminer m30s firmware installation | Model-specific | n/d (<10) | — | — |
 
 ---
 

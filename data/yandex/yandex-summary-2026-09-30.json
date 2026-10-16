@@ -1,0 +1,25 @@
+{
+ "pulled_at": "2026-09-30T22:56:03",
+ "host": {
+  "host_id": "https:bixbit.io:443",
+  "verified": true,
+  "main_mirror": null,
+  "ascii_host_url": "https://bixbit.io/",
+  "unicode_host_url": "https://bixbit.io/"
+ },
+ "report": "summary",
+ "window": [
+  "2026-09-02",
+  "2026-09-30"
+ ],
+ "data": {
+  "sqi": 360,
+  "excluded_pages_count": 20,
+  "searchable_pages_count": 6,
+  "site_problems": {
+   "FATAL": 1,
+   "POSSIBLE_PROBLEM": 1,
+   "RECOMMENDATION": 1
+  }
+ }
+}

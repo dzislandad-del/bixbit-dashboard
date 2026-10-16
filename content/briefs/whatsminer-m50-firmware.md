@@ -1,8 +1,9 @@
 # Content Brief: Whatsminer M50/M60 Firmware
 **URL:** /en/whatsminer-firmware/whatsminer-m50
 **File:** content/briefs/whatsminer-m50-firmware.md
-**Last updated:** 2026-06-19
-**Priority:** P1
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P1 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Keep. whatsminer m50 firmware 10/mo. Use the existing /en/firmwares/whatsminer-series-m5x and -m6x.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/whatsminer-series-m5x` (existing page), Page content (M5x); the M60 part goes to /en/firmwares/whatsminer-series-m6x, section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer — requires M50/M60 specific data, current-gen hardware]
 
 ---
@@ -23,15 +24,17 @@ Capture operators of current-generation Whatsminer M50, M50S, M60, and M60S hard
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| whatsminer m50 firmware | Primary | — | — |
-| whatsminer m60 firmware | Primary | — | — |
-| whatsminer m50s firmware | Secondary | — | — |
-| microbt m60s firmware | Secondary | — | — |
-| whatsminer gen6 firmware | Technical | — | — |
-| m50 overclocking firmware | Long-tail | — | — |
-| whatsminer m60 efficiency | Commercial | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| whatsminer m50 firmware | Primary | 10 | — | — |
+| whatsminer m60 firmware | Primary | n/d (<10) | — | — |
+| whatsminer m50s firmware | Secondary | n/d (<10) | — | — |
+| microbt m60s firmware | Secondary | n/d (<10) | — | — |
+| whatsminer gen6 firmware | Technical | n/d (<10) | — | — |
+| m50 overclocking firmware | Long-tail | n/d (<10) | — | — |
+| whatsminer m60 efficiency | Commercial | n/d (<10) | — | — |
 
 ---
 

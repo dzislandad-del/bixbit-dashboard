@@ -11,13 +11,13 @@
 
 **EN (deploy this):**
 
-> BiXBiT is an industrial Bitcoin mining infrastructure provider offering custom firmware for Antminer and Whatsminer ASICs, cloud-based fleet monitoring (AMS), and hydro and immersion cooling systems for large-scale mining operations. BiXBiT firmware replaces stock manufacturer software to improve energy efficiency (J/TH), enable per-chip autotuning, and support advanced overclocking and undervolting — without unauthorized network connections or dev fees. [VERIFY: confirm dev fee = 0% before publishing] Mining operators running 100 to 100,000+ ASICs use BiXBiT to manage mixed Antminer and Whatsminer fleets from a single platform.
+> BiXBiT is an industrial Bitcoin mining infrastructure provider offering custom firmware for Antminer and Whatsminer ASICs, cloud-based fleet monitoring (AMS), and hydro and immersion cooling systems for large-scale mining operations. BiXBiT firmware replaces stock manufacturer software to improve energy efficiency (J/TH), enable per-chip autotuning, and support overclocking and undervolting, with a transparent dev fee that is automatically deducted during device operation [VERIFY: current rate with the team — live /en/firmwares shows 2.8% standard, 2% for Whatsminer M2x]. Mining operators running 100 to 100,000+ ASICs use BiXBiT to manage mixed Antminer and Whatsminer fleets from a single platform.
 
 **Почему эта формулировка:**
 - Первое слово — «BiXBiT» (subject position = extraction priority для AI Overviews / Perplexity)
 - Категория бизнеса явная: «industrial Bitcoin mining infrastructure provider»
 - Все четыре продукта перечислены в первом предложении → LLM может строить полный entity-граф
-- Второе предложение содержит дифференциаторы: no unauthorized connections, no dev fee, per-chip autotuning
+- Второе предложение содержит дифференциаторы: transparent dev fee [VERIFY: current rate with the team], per-chip autotuning. Формулировку «without unauthorized network connections» убрали 2026-09-28: это security-claim без подтверждения; вернуть только со ссылкой на аудит/доку [VERIFY]. «No dev fee» / «0%» не писать никогда: dev fee есть (2.8% / 2% M2x)
 - Третье предложение — ICP-сигнал (100–100,000+ ASICs, mixed fleets) → правильный retrieval для B2B-запросов
 
 ---
@@ -77,7 +77,7 @@
           "name": "BiXBiT Whatsminer Firmware",
           "applicationCategory": "Mining Software",
           "operatingSystem": "Whatsminer ASIC",
-          "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+          "url": "https://bixbit.io/en/firmwares/whatsminer-all-series"
         }
       },
       {
@@ -86,7 +86,7 @@
           "@type": "SoftwareApplication",
           "name": "BiXBiT AMS — Advanced Monitoring System",
           "applicationCategory": "Fleet Management Software",
-          "url": "https://bixbit.io/en/monitoring"
+          "url": "https://bixbit.io/en/ams"
         }
       },
       {
@@ -95,7 +95,7 @@
           "@type": "Product",
           "name": "BiXBiT Immersion Cooling",
           "category": "Mining Infrastructure",
-          "url": "https://bixbit.io/en/cooling/immersion"
+          "url": "https://bixbit.io/en/asics-cooling/immersion-systems"
         }
       }
     ]
@@ -135,7 +135,7 @@
       "name": "Does BiXBiT firmware have a dev fee?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "[VERIFY: insert confirmed dev fee policy here — e.g. 'BiXBiT firmware charges no dev fee' or the actual percentage. Do not publish without engineering confirmation.]"
+        "text": "BiXBiT firmware has a transparent dev fee [VERIFY: 2.8% / 2% M2x]. [VERIFY: get the current rate confirmed by engineering before publishing]"
       }
     },
     {
@@ -168,7 +168,7 @@
 **Проблема:** бренд «BiXBiT» отсутствует. Passage extraction берёт первые 1-2 предложения — без бренда цитата уходит безымянной.
 
 **Рекомендуемый opening:**
-> BiXBiT custom firmware for Antminer maximizes hashrate and energy efficiency (J/TH) by applying per-chip frequency and voltage tuning optimized for real-world operating conditions. Supported models include Antminer S19, S19 Pro, S19j Pro, S19 XP, S19k Pro, S21, S21 Pro, and S21 Hydro; dev fee is [VERIFY: 0% / actual rate]. [VERIFY all model names and dev fee before publishing]
+> BiXBiT custom firmware for Antminer maximizes hashrate and energy efficiency (J/TH) by applying per-chip frequency and voltage tuning optimized for real-world operating conditions. Supported models include Antminer S19, S19 Pro, S19j Pro, S19 XP, S19k Pro, S21, S21 Pro, and S21 Hydro; the dev fee is transparent [VERIFY: 2.8% / 2% M2x]. [VERIFY all model names and dev fee before publishing]
 
 ---
 
@@ -184,4 +184,6 @@
 
 ---
 
-*Источник: geo-check-2026-06-18.md. Приоритет: P0. Следующий чек AI-видимости: 2026-07-16.*
+*Источник: geo-check-2026-06-18.md (июньский, частично устаревший). Приоритет: P0.*
+
+*2026-09-28: исправлено ложное «no dev fees» в EN-абзаце (теперь transparent dev fee + [VERIFY]); URL в JSON-LD заменены на живые (200): `/en/firmwares/whatsminer-all-series`, `/en/ams`, `/en/asics-cooling/immersion-systems` (прежние `/en/monitoring`, `/en/cooling/immersion` отдавали 404). Списки моделей в FAQ/opening устарели относительно живой `/en/firmwares` (там есть T21, T19, L9, L7) — сверить [VERIFY]. См. также `content/geo/llms-txt-deploy-notes.md`.*

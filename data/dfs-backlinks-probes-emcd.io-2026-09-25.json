@@ -1,0 +1,212 @@
+{
+ "date": "2026-09-25",
+ "source": "DataForSEO /v3/backlinks/*/live (target emcd.io, include_subdomains, live)",
+ "summary_emcd": {
+  "rank": 442,
+  "backlinks": 63997,
+  "backlinks_spam_score": 35,
+  "target_spam_score": 2,
+  "referring_domains": 3819,
+  "referring_domains_nofollow": 2426,
+  "referring_main_domains": 2649,
+  "referring_main_domains_nofollow": 1376,
+  "referring_ips": 2035,
+  "referring_subnets": 1172,
+  "broken_backlinks": 763,
+  "first_seen": "2019-01-23",
+  "tld_links": {
+   "com": 15863,
+   "ru": 6894,
+   "online": 5800,
+   "website": 5532,
+   "space": 5225,
+   "site": 5022,
+   "xyz": 1244,
+   "org": 1171,
+   "name": 764,
+   "stream": 729
+  },
+  "link_attrs": {
+   "nofollow": 30080,
+   "sponsored": 129,
+   "ugc": 330
+  },
+  "countries_links": {
+   "RU": 7016,
+   "US": 4266,
+   "WW": 3535,
+   "UA": 2080,
+   "NL": 646
+  }
+ },
+ "probe_epic_gap_domains_linking_emcd": {
+  "yesmining.io": [
+   3,
+   "nf"
+  ],
+  "ziven.io": [
+   1,
+   "df"
+  ],
+  "cryptorank.io": [
+   1,
+   "nf"
+  ],
+  "bitcoinminingstock.io": [
+   1,
+   "df"
+  ],
+  "medium.com": [
+   4,
+   "nf/ugc"
+  ],
+  "bitcoinlinux.com": [
+   5,
+   "nf"
+  ],
+  "crunchbase.com": [
+   1,
+   "nf"
+  ],
+  "zoominfo.com": [
+   1,
+   "nf"
+  ],
+  "toppodcast.com": [
+   7,
+   "df"
+  ],
+  "digitalcurrencyresearch.io": [
+   5,
+   "mostly df (1 nf page of 4)"
+  ],
+  "blocktrainer.de": [
+   1,
+   "nf/ugc forum"
+  ]
+ },
+ "probe_media_linking_emcd": {
+  "forklog.com": [
+   67,
+   "df",
+   "also links bixbit"
+  ],
+  "bits.media": [
+   104,
+   "45/82 pages nf",
+   "also bixbit"
+  ],
+  "criptonoticias.com": [
+   9,
+   "df"
+  ],
+  "asicmarketplace.com": [
+   4,
+   "nf"
+  ],
+  "decrypt.co": [
+   6,
+   "nf"
+  ],
+  "d-central.tech": [
+   4,
+   "df",
+   "also bixbit"
+  ],
+  "zycrypto.com": [
+   2,
+   "nf sponsored",
+   "also bixbit"
+  ],
+  "cryptoslate.com": [
+   8,
+   "nf"
+  ],
+  "cryptonews.com": [
+   2,
+   "sponsored"
+  ],
+  "rbc.ru": [
+   3,
+   "df"
+  ],
+  "newsbtc.com": [
+   31,
+   "nf",
+   "also bixbit"
+  ],
+  "cointelegraph.com": [
+   20,
+   "nf, 4 sponsored"
+  ],
+  "crypto.news": [
+   3,
+   "nf"
+  ],
+  "u.today": [
+   20,
+   "6 sponsored, 5 nf",
+   "also bixbit"
+  ],
+  "miningclub.info": [
+   38,
+   "nf ugc",
+   "also bixbit"
+  ],
+  "habr.com": [
+   2,
+   "nf",
+   "also bixbit"
+  ],
+  "minerstat.com": [
+   22,
+   "nf, 10 sponsored"
+  ],
+  "bitcoinist.com": [
+   5,
+   "nf"
+  ],
+  "bitcointalk.org": [
+   22,
+   "df",
+   "also bixbit"
+  ],
+  "ambcrypto.com": [
+   2,
+   "nf"
+  ]
+ },
+ "probe_not_linking_emcd": [
+  "hashrateindex.com",
+  "altairtech.io",
+  "lightspeedhosting.com",
+  "coinbureau.com",
+  "bitdegree.org",
+  "obm.io",
+  "g2.com",
+  "coindesk.com",
+  "reddit.com",
+  "vc.ru",
+  "theminermag.com",
+  "bitcoinmagazine.com"
+ ],
+ "probe_bixbit_unique_confirmed_also_on_emcd": [
+  "telegramads.com",
+  "hyperbulle.fr",
+  "alibaba.com",
+  "energymgmt.us",
+  "cryptoindustry.com",
+  "block.cc",
+  "irlbtc.com",
+  "cryptonews.net",
+  "bdc.consulting",
+  "ultramining.com"
+ ],
+ "emcd_outbound_to_vendors": {
+  "braiins.com": 0,
+  "luxor.tech": 0,
+  "epicblockchain.io": 0,
+  "bixbit.io": 0,
+  "note": "backlinks/live with domain_from like %emcd.io"
+ }
+}

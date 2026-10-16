@@ -1,0 +1,152 @@
+name: SEO data collection
+
+# Детерминированный сбор данных (без LLM): скрипты из scripts/ пишут снимки в data/,
+# workflow коммитит их обратно. Анализ и отчёты — вручную командами /weekly-drift, /rank-check.
+#
+# Нужные секреты (Settings → Secrets and variables → Actions):
+#   GOOGLE_SA_JSON          — содержимое JSON service account (read-only: webmasters + analytics)
+#   GSC_SITE_URL            — https://bixbit.io/
+#   GA4_PROPERTY_ID         — 320129421
+#   BING_WEBMASTER_API_KEY
+#   DATAFORSEO_LOGIN, DATAFORSEO_PASSWORD   — только для ежемесячного rank-check (~$0.5–1.1 за прогон)
+#   PAGESPEED_API_KEY       — опционально (check-connectors)
+#   YANDEX_WEBMASTER_TOKEN  — Яндекс.Вебмастер (OAuth, webmaster:hostinfo)
+#   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID — алерты в Telegram (scripts/alerts.py)
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # ежедневно 04:00 UTC: индексация (URL Inspection) — бесплатно
+    - cron: "0 5 * * 1"   # еженедельно, пн 05:00 UTC: GSC, GA4, Bing, page-snapshot, каннибализация, AIO/FS (~$0.1)
+    - cron: "0 6 1 * *"   # ежемесячно, 1-го 06:00 UTC: + краул, позиции (~$1), ссылки (~$0.3)
+  workflow_dispatch:
+    inputs:
+      rank_check:
+        description: "Снять позиции DataForSEO (платно, ~$1)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: seo-data
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Write .env and service account from secrets
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+          DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
+          DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+          PAGESPEED_API_KEY: ${{ secrets.PAGESPEED_API_KEY }}
+          YANDEX_WEBMASTER_TOKEN: ${{ secrets.YANDEX_WEBMASTER_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          umask 077
+          printf '%s' "$GOOGLE_SA_JSON" > "$RUNNER_TEMP/sa.json"
+          {
+            echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/sa.json"
+            echo "GSC_SITE_URL=$GSC_SITE_URL"
+            echo "GA4_PROPERTY_ID=$GA4_PROPERTY_ID"
+            echo "BING_WEBMASTER_API_KEY=$BING_WEBMASTER_API_KEY"
+            echo "DATAFORSEO_LOGIN=$DATAFORSEO_LOGIN"
+            echo "DATAFORSEO_PASSWORD=$DATAFORSEO_PASSWORD"
+            echo "PAGESPEED_API_KEY=$PAGESPEED_API_KEY"
+            echo "YANDEX_WEBMASTER_TOKEN=$YANDEX_WEBMASTER_TOKEN"
+            echo "TELEGRAM_BOT_TOKEN=$TELEGRAM_BOT_TOKEN"
+            echo "TELEGRAM_CHAT_ID=$TELEGRAM_CHAT_ID"
+          } > .env
+
+      - name: Daily index check
+        run: |
+          echo "D=$(date -u +%F)" >> "$GITHUB_ENV"
+          ./scripts/index-check.py --out data/index-check/index-$(date -u +%F).json | tail -15 | tee -a "$GITHUB_STEP_SUMMARY"
+          ./scripts/yandex-query.py --report diagnostics --out data/yandex/yandex-diagnostics-$(date -u +%F).json | tee -a "$GITHUB_STEP_SUMMARY" || true
+          ./scripts/yandex-query.py --report insearch --days 14 --out data/yandex/yandex-insearch-$(date -u +%F).json | tee -a "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Connectors
+        if: github.event.schedule != '0 4 * * *'
+        run: ./scripts/check-connectors.sh | tee -a "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Weekly pulls (GSC, GA4, Bing, page snapshot, cannibalization, AIO)
+        if: github.event.schedule != '0 4 * * *'
+        run: |
+          ./scripts/gsc-query.py --days 28 --dimensions query,page --country usa --out data/gsc-queries-pages-us-$D.json
+          ./scripts/gsc-query.py --days 28 --dimensions query --out data/gsc-queries-all-$D.json
+          ./scripts/gsc-query.py --days 28 --dimensions country --out data/gsc-countries-$D.json
+          ./scripts/gsc-query.py --days 28 --dimensions page --out data/gsc-pages-$D.json
+          ./scripts/ga4-query.py --preset channels --days 28 --out data/ga4-channels-$D.json
+          ./scripts/ga4-query.py --preset organic-landing --days 28 --out data/ga4-organic-landing-$D.json
+          ./scripts/bing-query.py --report queries --out data/bing-queries-$D.json
+          ./scripts/bing-query.py --report crawl --out data/bing-crawl-$D.json
+          ./scripts/yandex-query.py --report summary --out data/yandex/yandex-summary-$D.json || true
+          ./scripts/yandex-query.py --report queries --days 28 --out data/yandex/yandex-queries-$D.json || true
+          ./scripts/yandex-query.py --report indexing --days 28 --out data/yandex/yandex-indexing-$D.json || true
+          ./scripts/page-snapshot.py --out data/page-snapshot-$D.json | tee page-snapshot.log
+          ./scripts/cannibalization.py --out data/cannibalization/cannibal-$D.json | head -15 | tee -a "$GITHUB_STEP_SUMMARY"
+          ./scripts/serp-features.py --out data/serp-features/serp-features-$D.json | tail -3 | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Monthly crawl
+        if: github.event.schedule == '0 6 1 * *' || inputs.rank_check
+        run: ./scripts/crawl.py --check-external | tail -40 | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Monthly rank check (DataForSEO, paid)
+        if: github.event.schedule == '0 6 1 * *' || inputs.rank_check
+        run: ./scripts/serp-rank.py --out data/rank-tracking/rank-$D.json | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Monthly backlinks (DataForSEO, paid)
+        if: github.event.schedule == '0 6 1 * *' || inputs.rank_check
+        run: ./scripts/backlinks-monitor.py --out data/backlinks/backlinks-$D.json | tail -25 | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Summary and alerts
+        if: github.event.schedule != '0 4 * * *'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'EOF' > alert.md
+          import json, os
+          ix = json.load(open(f"data/index-check/index-{os.environ['D']}.json"))
+          bad = [u for u in ix["urls"] if u.get("verdict") not in ("PASS", None) or u.get("canonical_mismatch")]
+          if bad or ix.get("changes"):
+              print(f"## Индексация: {len(bad)} URL не PASS/canonical≠, изменений {len(ix.get('changes', []))}\n")
+              for u in bad:
+                  print(f"- {u['url']}: {u.get('verdict')} · {u.get('coverage_state')} · google canonical {u.get('google_canonical')}")
+          d = json.load(open(f"data/page-snapshot-{os.environ['D']}.json"))
+          crit = {"status", "final_url", "robots", "x_robots_tag", "canonical", "jsonld_errors"}
+          ch = [c for c in d.get("changes", []) if c["field"] in crit]
+          if ch:
+              print(f"## P0/P1 drift: {len(ch)} критичных изменений (vs {d['meta'].get('compared_to')})\n")
+              print("| URL | Поле | Было | Стало |\n|---|---|---|---|")
+              for c in ch:
+                  print(f"| {c['url']} | {c['field']} | {str(c['was'])[:80]} | {str(c['now'])[:80]} |")
+          EOF
+          cat page-snapshot.log >> "$GITHUB_STEP_SUMMARY"
+          if [ -s alert.md ]; then
+            cat alert.md >> "$GITHUB_STEP_SUMMARY"
+            gh issue create --title "SEO drift alert $D" --body-file alert.md || true
+          fi
+
+      - name: Telegram alerts
+        if: always()
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 5 * * 1" ]; then ./scripts/alerts.py --digest || true; else ./scripts/alerts.py || true; fi
+
+      - name: Commit snapshots
+        run: |
+          rm -f .env "$RUNNER_TEMP/sa.json" alert.md page-snapshot.log
+          git config user.name "seo-data-bot"
+          git config user.email "seo-data-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: SEO snapshots $D"
+          git push

@@ -1,0 +1,93 @@
+{
+ "_note": "Compact snapshot transcribed from inline DataForSEO MCP response (response was small, no tool-results file produced). US 2840 / en. Pulled 2026-09-25.",
+ "endpoint": "/v3/dataforseo_labs/google/ranked_keywords/live",
+ "target": "epicblockchain.io",
+ "total_count": 10,
+ "domain_rank_overview": {
+  "pos_1": 1,
+  "pos_2_3": 1,
+  "pos_4_10": 3,
+  "pos_11_20": 1,
+  "pos_21_30": 2,
+  "pos_31_40": 1,
+  "pos_41_50": 1,
+  "etv": 14.571,
+  "count": 10,
+  "is_new": 6,
+  "is_up": 1,
+  "is_down": 1,
+  "is_lost": 2
+ },
+ "items": [
+  {
+   "keyword": "epic blockchain",
+   "search_volume": 30,
+   "rank_group": 1,
+   "relative_url": "/",
+   "main_intent": "informational"
+  },
+  {
+   "keyword": "epic miner",
+   "search_volume": 90,
+   "rank_group": 2,
+   "relative_url": "/product/",
+   "main_intent": "informational"
+  },
+  {
+   "keyword": "epic-miner",
+   "search_volume": 90,
+   "rank_group": 4,
+   "relative_url": "/product/",
+   "main_intent": "informational"
+  },
+  {
+   "keyword": "epic mining",
+   "search_volume": 90,
+   "rank_group": 9,
+   "relative_url": "/",
+   "main_intent": "informational"
+  },
+  {
+   "keyword": "epic block",
+   "search_volume": 40,
+   "rank_group": 10,
+   "relative_url": "/product/",
+   "main_intent": "informational"
+  },
+  {
+   "keyword": "epic chain crypto news",
+   "search_volume": 30,
+   "rank_group": 18,
+   "relative_url": "/blog/",
+   "main_intent": "commercial"
+  },
+  {
+   "keyword": "blockminer",
+   "search_volume": 210,
+   "rank_group": 23,
+   "relative_url": "/",
+   "main_intent": "commercial"
+  },
+  {
+   "keyword": "immersion cooling mining",
+   "search_volume": 20,
+   "rank_group": 30,
+   "relative_url": "/https-medium-com-epic-blockchain-technologies-why-crypto-miners-should-use-immersion-cooling-a100f9b85adf/",
+   "main_intent": "commercial"
+  },
+  {
+   "keyword": "epic chip",
+   "search_volume": 50,
+   "rank_group": 31,
+   "relative_url": "/product/",
+   "main_intent": "informational"
+  },
+  {
+   "keyword": "epic microsystems",
+   "search_volume": 140,
+   "rank_group": 41,
+   "relative_url": "/",
+   "main_intent": "navigational"
+  }
+ ]
+}

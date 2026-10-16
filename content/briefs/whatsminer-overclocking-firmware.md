@@ -1,8 +1,9 @@
 # Content Brief: Whatsminer Overclocking Firmware
 **URL:** /en/whatsminer-firmware/overclocking
 **File:** content/briefs/whatsminer-overclocking-firmware.md
-**Last updated:** 2026-06-19
-**Priority:** P1
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. 10/mo. Merge into a tuning-modes page.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/whatsminer-all-series` (existing page), H2 Tuning modes → overclocking, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer — requires Whatsminer overclock benchmark data]
 
 ---
@@ -23,15 +24,17 @@ Capture performance-oriented Whatsminer operators searching for overclocking opt
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| whatsminer overclocking | Primary | — | — |
-| whatsminer overclock firmware | Primary secondary | — | — |
-| how to overclock whatsminer | How-to | — | — |
-| whatsminer hashrate boost | Commercial | — | — |
-| MicroBT overclocking | Broader | — | — |
-| whatsminer m30s overclocking | Model-specific | — | — |
-| whatsminer m60 overclock | Model-specific | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| whatsminer overclocking | Primary | n/d (<10) | — | — |
+| whatsminer overclock firmware | Primary secondary | 10 | — | — |
+| how to overclock whatsminer | How-to | n/d (<10) | — | — |
+| whatsminer hashrate boost | Commercial | n/d (<10) | — | — |
+| MicroBT overclocking | Broader | n/d (<10) | — | — |
+| whatsminer m30s overclocking | Model-specific | n/d (<10) | — | — |
+| whatsminer m60 overclock | Model-specific | n/d (<10) | — | — |
 
 ---
 

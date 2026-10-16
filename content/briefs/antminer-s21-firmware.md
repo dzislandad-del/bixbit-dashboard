@@ -1,8 +1,9 @@
 # Content Brief: Antminer S21 Firmware
 **URL:** /en/antminer-firmware/antminer-s21
 **File:** content/briefs/antminer-s21-firmware.md
-**Last updated:** 2026-06-18
-**Priority:** P1 (current-generation hardware; opportunity for early SERP ownership)
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P1 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Keep. 30/mo; antminer s21 firmware CPC $16.46 (commercial). Plus antminer s21 hydro 90/mo, KD 3, as an adjacent query.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/antminer` (existing page), H2 Antminer S21 / S21 Hydro, section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer + technical writer]
 
 ---
@@ -23,14 +24,16 @@ Own the "antminer s21 firmware" SERP early. The S21 is current-generation hardwa
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer s21 firmware | Primary | — | — |
-| antminer s21 pro firmware | Secondary | — | — |
-| antminer s21 custom firmware | Commercial | — | — |
-| antminer s21 overclocking | Long-tail | — | — |
-| antminer s21 efficiency tuning | Long-tail | — | — |
-| s21 firmware update | Transactional | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer s21 firmware | Primary | 10 | — | — |
+| antminer s21 pro firmware | Secondary | 10 | — | — |
+| antminer s21 custom firmware | Commercial | n/d (<10) | — | — |
+| antminer s21 overclocking | Long-tail | n/d (<10) | — | — |
+| antminer s21 efficiency tuning | Long-tail | n/d (<10) | — | — |
+| s21 firmware update | Transactional | 10 | 50 | — |
 
 ---
 

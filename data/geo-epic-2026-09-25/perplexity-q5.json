@@ -1,0 +1,24 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "prompt": "Compare the main ASIC mining firmware providers: dev fees, supported models, key features.",
+  "task_id": "09251235-2548-0612-0000-2bc57f0dbda8",
+  "web_search_country_iso_code": "US",
+  "cost_usd": 0.006186,
+  "answer_text": "The main ASIC mining firmware providers most often compared today are **Braiins OS+**, **VNish**, and **LuxOS**. Their biggest differences are **dev fee**, **hardware support**, and whether they emphasize *auto-tuning, pool integration, or fleet management*.[1][2][9]\n\n| Provider | Dev fee | Supported models | Key features |\n|---|---:|---|---|\n| **Braiins OS+** | **2–2.5%** | Primarily **Bitmain Antminer** models from **S9 through S21**, including S19/S19 Pro/S19j Pro/S19k Pro/S19 XP/S21/S21 XP variants; not listed for Whatsminer in the comparison result.[1][9] | **Per-chip, continuous auto-tuning**, **native Stratum V2** support, pool-agnostic operation, strong download verification with published hashes/GPG.[1][2][9] |\n| **VNish** | **2–2.8%** | Broad **Antminer S9 through S21** support; also **Whatsminer M30, M50, M60** series per the comparison result.[1][2] | **Per-chip, profile-based auto-tuning**, broad compatibility, monitoring tied to official builds, no Stratum V2 support listed in the comparison result.[1][2] |\n| **LuxOS** | **2.8%** | **Antminer S19 and S21 only** in the comparison result.[1][7] | **Per-chip, continuous auto-tuning**, designed for larger operations and commonly positioned around Luxor’s mining ecosystem; no Stratum V2 support listed in the comparison result.[1][3][7] |\n\nA few practical takeaways:\n- **Lowest listed dev fee among these three:** **Braiins OS+** at **2–2.5%**.[1][9]\n- **Broadest model coverage:** **VNish**, because it spans both Bitmain Antminers and some MicroBT Whatsminer series.[1][2][7]\n- **Best-known protocol feature:** **Braiins OS+** because it has **native Stratum V2** support.[1][9]\n- **Most limited compatibility in the comparison:** **LuxOS**, which is shown as focused on **S19/S21** hardware.[1][7]\n\nIf you want, I can also add a second table comparing **NiceHash Firmware, BiXBiT, Kryptex/GMiner, and stock firmware** against these three.",
+  "cited_urls": [
+    "https://www.spark.money/tools/bitcoin-mining-firmware-comparison",
+    "https://d-central.tech/downloads/old-firmwares/",
+    "https://d-central.tech/mining-firmware-for-beginners/",
+    "https://hashrateindex.com/blog/asic-custom-firmware-guide/",
+    "https://bixbit.io/en/firmwares",
+    "https://zipdo.co/best/asic-miner-software/",
+    "https://emcd.io/articles/mining/best-custom-asic-firmware-vnish-vs-braiins-os-vs-luxos/",
+    "https://www.nicehash.com/firmware",
+    "https://braiins.com/os-firmware",
+    "https://arxiv.org/html/2605.03770v1",
+    "https://www.kryptex.com/en/asic-firmware",
+    "https://worldmetrics.org/best/miner-software/",
+    "https://gitnux.org/best/asic-miner-software/"
+  ]
+}

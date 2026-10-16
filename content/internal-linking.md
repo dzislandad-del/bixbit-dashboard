@@ -1,8 +1,139 @@
-# Internal Linking Matrix — Firmware + Immersion Cooling + Fleet Monitoring Clusters
+# Internal Linking Matrix — Firmware + Immersion Cooling + Fleet Monitoring + Hardware Clusters
 **Site:** https://bixbit.io/en
-**Last updated:** 2026-06-19
-**Clusters:** antminer-firmware, whatsminer-firmware, immersion-cooling-mining, mining-fleet-monitoring
-**Scope:** All four clusters, cross-cluster links, and links to AMS, PDU, and homepage
+**Last updated:** 2026-09-28 (Hardware section added to Architecture v2); 2026-09-25 (Architecture v2 added; older matrices superseded)
+**Clusters:** antminer-firmware, whatsminer-firmware, immersion-cooling-mining, mining-fleet-monitoring, hardware
+**Scope:** All five clusters, cross-cluster links, and links to AMS, PDU, and homepage
+
+---
+
+## Architecture v2 — Linking Matrix (2026-09-25): authoritative
+
+> **This section replaces the matrices below.** Architecture v2 has 17 URLs: 13 existing live pages extended with new H2 sections, plus 4 new pages for standalone intents. The old spokes (`/en/antminer-firmware/*`, `/en/whatsminer-firmware/*`, `/en/immersion-cooling-mining/*`, `/en/ams/<spoke>`) **are not being created**, so links to them must not go live. The sections below this one are kept only as anchor-text ideas. Plan and rationale: `reports/content-architecture-2026-09-25.md`.
+
+### Rules for v2
+- Links to a **section** of a long page use a fragment such as `/en/firmwares/antminer#s21`. Fragment ids are fixed when the page is built [VERIFY with dev].
+- Each new page (comparison, dev-fee, the Antminer install guide, AMS comparison) gets **at least 3 incoming links** from existing pages at launch.
+- Anchors must be descriptive, and the same exact anchor may appear on at most 2 pages. No "click here" or "learn more".
+- The legacy noindex model pages (`/en/firmwares/asic-s19` and similar) link to the matching section of `/en/firmwares/antminer`, e.g. `#s19`.
+
+### Firmware
+
+| # | From | To | Anchor (example) | Placement | P |
+|---|---|---|---|---|---|
+| F1 | `/en` (homepage) | `/en/firmwares` | custom firmware for Antminer and Whatsminer | hero / product block | P0 |
+| F2 | `/en/firmwares` | `/en/firmwares/antminer` | Antminer firmware | platforms block | P0 |
+| F3 | `/en/firmwares` | `/en/firmwares/whatsminer-all-series` | Whatsminer firmware | platforms block | P0 |
+| F4 | `/en/firmwares` | `/en/firmwares/comparison` | compare BiXBiT with Braiins OS+, Vnish, LuxOS and ePIC | after the opening passage | P0 |
+| F5 | `/en/firmwares` | `/en/firmwares/dev-fee` | how the BiXBiT dev fee works | dev fee summary block | P0 |
+| F6 | `/en/firmwares/antminer` | `/en/firmwares/comparison` | Antminer firmware comparison | "Why BiXBiT" section | P0 |
+| F7 | `/en/firmwares/antminer` | `/en/firmwares/dev-fee` | dev fee and firmware security | FAQ / trust block | P0 |
+| F8 | `/en/firmwares/antminer` | `/en/documentation/antminer-firmware-install` | step-by-step Antminer firmware installation | Install & update section | P1 |
+| F9 | `/en/firmwares/antminer` | `/en/ams` | monitor your Antminer fleet in AMS | after the tuning modes section | P1 |
+| F10 | `/en/firmwares/antminer#tuning` | `/en/asics-cooling/immersion-systems` | immersion cooling for sustained overclocking | tuning modes → overclocking | P1 |
+| F11 | `/en/firmwares/antminer` | `/en/firmwares/whatsminer-all-series` | firmware for Whatsminer in mixed fleets | platforms / FAQ | P1 |
+| F12 | `/en/firmwares/whatsminer-all-series` | `-m2x`, `-m3x`, `-m5x`, `-m6x` | Whatsminer M20 / M30 / M50 / M60 series firmware | series overview | P0 |
+| F13 | `-m2x`, `-m3x`, `-m5x`, `-m6x` | `/en/firmwares/whatsminer-all-series` | BiXBiT firmware for all Whatsminer series | breadcrumbs + intro | P0 |
+| F14 | `/en/firmwares/whatsminer-all-series` | `/en/firmwares/comparison` | Whatsminer firmware options compared | "Why BiXBiT" | P0 |
+| F15 | `/en/firmwares/whatsminer-all-series` | `/en/firmwares/dev-fee` | Whatsminer firmware dev fee by series | trust block | P0 |
+| F16 | `/en/firmwares/whatsminer-all-series` | `/en/ams` | one dashboard for Antminer and Whatsminer | mixed fleet section | P1 |
+| F17 | `/en/firmwares/whatsminer-all-series` | `/en/documentation/user-guide-for-whatsminer-asic` | how to install firmware on Whatsminer | Install section | P2 |
+| F18 | `-m5x`, `-m6x` | `/en/asics-cooling/immersion-systems` | immersion and hydro profiles for Whatsminer M50/M60 | modes section | P1 |
+| F19 | `/en/firmwares/comparison` | `/en/firmwares/antminer`, `/en/firmwares/whatsminer-all-series` | BiXBiT firmware for Antminer / for Whatsminer | table CTA | P0 |
+| F20 | `/en/firmwares/comparison` | `/en/firmwares/dev-fee` | how dev fees compare in practice | fee row / FAQ | P0 |
+| F21 | `/en/firmwares/comparison` | `/en/ams/comparison` | monitoring software compared | "Beyond firmware" block | P1 |
+| F22 | `/en/firmwares/dev-fee` | `/en/firmwares/comparison`, `/en/firmwares/antminer`, `/en/firmwares/whatsminer-all-series` | full firmware comparison; Antminer firmware; Whatsminer firmware | TCO section / CTA | P0 |
+| F23 | `/en/documentation/antminer-firmware-install` | `/en/firmwares/antminer`, `/en/ams` | BiXBiT Antminer firmware; connect units to AMS | intro + final step | P1 |
+| F24 | `/en/faq` | `/en/firmwares/dev-fee`, `/en/firmwares/comparison` | dev fee question; firmware comparison | answers | P1 |
+
+### Cooling
+
+| # | From | To | Anchor (example) | Placement | P |
+|---|---|---|---|---|---|
+| C1 | `/en` (homepage) | `/en/asics-cooling/immersion-systems` | immersion cooling systems for ASIC fleets | product block | P0 |
+| C2 | `/en/asics-cooling` | `/en/asics-cooling/immersion-systems`, `/en/asics-cooling/hydro-systems` | immersion cooling; hydro cooling | comparison block | P0 |
+| C3 | `/en/asics-cooling/immersion-systems` | `/en/firmwares/antminer#tuning`, `/en/firmwares/whatsminer-series-m6x` | firmware profiles for immersion; Whatsminer M60 in immersion | Antminer & Whatsminer section | P0 |
+| C4 | `/en/asics-cooling/immersion-systems` | `/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining` | choosing a dielectric fluid (mineral oil vs synthetic) | tanks & components | P1 |
+| C5 | `/en/asics-cooling/immersion-systems` | `/en/calc` | calculate payback for your fleet | ROI / TCO section | P1 |
+| C6 | `/en/asics-cooling/immersion-systems` | `/en/ams` | monitor temperature and hashrate per unit | deployment steps | P1 |
+| C7 | `/en/asics-cooling/immersion-systems` | `/en/asics-cooling/immersion-systems/ict-100`, `/en/asics-cooling/immersion-systems/ic-1000`, `/en/products/cell`, `/en/products/rack`, `/en/products/container`, `/en/products/container-1k`, `/en/products/coolant` (immersion products per `/en/products` catalog and model pages, 2026-09-28; legacy vs current line [VERIFY]) | product names | tanks & components | P1 |
+| C8 | `/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining` | `/en/asics-cooling/immersion-systems` | industrial immersion cooling systems | intro + conclusion | P1 |
+| C9 | `/en/blog/post/how-does-immersion-cooling-work` | `/en/asics-cooling/immersion-systems`, the mineral oil post | immersion cooling for bitcoin mining; which fluid to choose | after the definition + conclusion | P1 |
+| C10 | `/en/asics-cooling/hydro-systems` | `/en/asics-cooling/immersion-systems` | hydro vs immersion | comparison block | P2 |
+
+### AMS
+
+| # | From | To | Anchor (example) | Placement | P |
+|---|---|---|---|---|---|
+| A1 | `/en` (homepage) | `/en/ams` | ASIC fleet monitoring (AMS) | product block | P0 |
+| A2 | `/en/ams` | `/en/ams/comparison` | how AMS compares with Minerstat, Braiins Manager and Luxor Commander | after the features section | P1 |
+| A3 | `/en/ams` | `/en/firmwares/antminer`, `/en/firmwares/whatsminer-all-series` | BiXBiT firmware for Antminer / Whatsminer | mixed fleet section | P0 |
+| A4 | `/en/ams#alerts` | `/en/asics-cooling/immersion-systems` | temperature alerts in immersion deployments | alerts section | P2 |
+| A5 | `/en/ams/comparison` | `/en/ams` | try BiXBiT AMS | table CTA | P1 |
+| A6 | `/en/ams/comparison` | `/en/firmwares/comparison` | firmware comparison | "Firmware + monitoring" block | P1 |
+
+### Incoming links to the new pages at launch (check)
+
+| New page | Incoming links (minimum 3) |
+|---|---|
+| `/en/firmwares/comparison` | F4, F6, F14, F22, F24, A6 |
+| `/en/firmwares/dev-fee` | F5, F7, F15, F20, F24 |
+| `/en/documentation/antminer-firmware-install` | F8 + legacy noindex pages (`asic-s19`, …) + `/en/documentation` index [VERIFY] |
+| `/en/ams/comparison` | A2, F21 + `/en/faq` [VERIFY] |
+
+### Hardware (added 2026-09-28)
+
+> Cluster: `content/clusters/hardware.md`; briefs `content/briefs/hardware-*.md`. Existing URLs only. Why this matters (crawl 2026-09-28): the 8 model pages under `/en/asics-cooling/{hydro,immersion}-systems/*` have **2 internal links each**, `/en/products/pdu` has 14 and 0 from the blog, while `/en/products/rack` has 618 and `/en/products/server` 607 (menu). Cooling rows C1–C10 above stay valid; H-rows add the product layer.
+> Anchor split to avoid cannibalization: "hydro cooling system(s)" / "mining water cooling" → hydro sub-hub only; "hydro container" → `container-hydro`; "hydro rack" → `rack-hydro`; "mining container" → `container`; "immersion container" → `container-1k` or IC-1000; "immersion cooling fluid" / "dielectric coolant" → `coolant`; "immersion cooling tank" → `cell` (ICT-100 gets its model name).
+> Product cards on sub-hubs must be plain crawlable `<a href>` links (template brief).
+
+**Hub and sub-hubs → products**
+
+| # | From | To | Anchor (example) | Placement | P |
+|---|---|---|---|---|---|
+| H1 | `/en/asics-cooling` | `/en/asics-cooling/hydro-systems`, `/en/asics-cooling/immersion-systems` | covered by C2 | comparison block | P0 |
+| H2 | `/en/asics-cooling` | `/en/products/container`, `/en/products/container-1k`, `/en/products/container-hydro` | immersion mining containers; single-loop immersion container; hydro mining container | "Choose a cooling system" cards | P1 |
+| H3 | `/en/asics-cooling` | `/en/products/rack`, `/en/products/rack-hydro`, `/en/products/cell`, `/en/products/coolant`, `/en/products/server`, `/en/products/pdu` | ASIC mining racks; water-cooled hydro racks; Cell immersion tank; dielectric immersion coolant; prefab data center cooling; smart PDUs for mining racks | "Choose a cooling system" cards | P1 |
+| H4 | `/en/asics-cooling` | all 8 model pages | model names (e.g. "AHC-2.4 hydro container") | "All models" table | P1 |
+| H5 | `/en/asics-cooling/hydro-systems` | 6 hydro model pages | model + type (e.g. "WHR-200-2U hydro rack for Whatsminer") | product line cards (exist; make crawlable) | P0 |
+| H6 | `/en/asics-cooling/hydro-systems` | `/en/products/container-hydro`, `/en/products/rack-hydro` | hydro container for Whatsminer; hydro rack | product line sections | P0 |
+| H7 | `/en/asics-cooling/hydro-systems` | `/en/products/pdu`, `/en/ams`, `/en/firmwares/antminer` (S21 Hydro section, fragment [VERIFY]), `/en/firmwares/whatsminer-series-m6x` | power distribution for hydro racks; monitor loop temperatures in AMS; firmware for Antminer S21 Hydro; Whatsminer M60-series hydro firmware | site requirements / AMS / supported miners | P1 |
+| H8 | `/en/asics-cooling/immersion-systems` | `ict-100`, `ic-1000` | covered by C7 | tanks & components | P1 |
+| H9 | `/en/products` (catalog) | `/en/products/cell`, `/en/products/rack`, `/en/products/container`, `/en/products/coolant`, `/en/products/container-1k` | product names (Cell, Rack, Container, Coolant, Container-1K) | product sections (exist; confirm each section links to its product page with a descriptive anchor) | P0 |
+| H10 | `/en/products` (catalog) | `/en/asics-cooling/immersion-systems` | industrial immersion cooling systems | intro | P1 |
+
+**Product ↔ product**
+
+| # | From | To | Anchor (example) | Placement | P |
+|---|---|---|---|---|---|
+| H11 | each hydro model page | `/en/asics-cooling/hydro-systems`; sibling model in the same line (WHR-200-2U ↔ AHR-200; WHC-1.2-2U ↔ WHC-2.4-2U ↔ AHC-2.4 ↔ HW-Cluster-2.4); `/en/ams` | all hydro cooling systems; sibling model name; "Integration with BiXBiT AMS" heading becomes a link | breadcrumb + "Compare with" + AMS block | P1 |
+| H12 | `ict-100`, `ic-1000` | `/en/asics-cooling/immersion-systems`, `/en/products/coolant`, each other | immersion cooling systems; BiXBiT dielectric coolant; model name | breadcrumb + specs | P1 |
+| H13 | `/en/products/container` | `/en/products/container-1k`, `/en/products/container-hydro`, `/en/asics-cooling/hydro-systems/ahc-2.4`, `/en/asics-cooling/immersion-systems/ic-1000`, `/en/products/coolant`, `/en/products/pdu`, `/en/ams`, `/en/calc` | single-loop version for moderate climates; hydro container alternative; AHC-2.4 40 ft hydro container; IC-1000 all-in-one immersion container; coolant for the first fill; in-container power distribution; container monitoring; estimate fleet economics | "Other containers", site requirements, cost, monitoring | P0 |
+| H14 | `/en/products/rack` | `/en/products/cell`, `/en/products/coolant`, `/en/products/container`, `/en/products/rack-hydro`, `/en/products/pdu` | small-site immersion tank; immersion fluid for racks; scale racks into a container; hydro rack for hydro miners; rack power distribution | format comparison, scaling, coolant | P0 |
+| H15 | `/en/products/rack-hydro`, `/en/products/container-hydro` | `/en/asics-cooling/hydro-systems`, WHR-200-2U / AHR-200 (rack-hydro), WHC-2.4-2U / AHC-2.4 (container-hydro) | hydro cooling systems for ASIC mining; model names | compare block | P1 |
+| H16 | `/en/products/coolant` | `/en/products/cell`, `/en/products/rack`, `/en/products/container`, `/en/asics-cooling/immersion-systems` | fill volume for Cell; for Rack; for Container; immersion cooling for mining farms | compatibility / fill-volume table | P1 |
+| H17 | `/en/products/cell` | `/en/products/coolant`, `/en/products/rack`, `ict-100` | coolant for the Cell; scale up to a rack; industrial modular immersion unit | kit / scaling | P1 |
+| H18 | `/en/products/server` | `/en/asics-cooling/immersion-systems`, `/en/asics-cooling/hydro-systems`, `/en/products/pdu`, blog `how-to-calculate-the-pue-of-a-datacenter` | immersion cooling systems; direct liquid cooling for mining; power distribution; how to calculate PUE | sections | P1 |
+| H19 | `/en/products/pdu` (PDU cluster) | `/en/products/rack`, `/en/products/container`, `/en/asics-cooling/hydro-systems` | PDU in BiXBiT racks; containers; hydro systems | "Where it's used" | P1 [confirm with PDU cluster owner] |
+
+**Blog → products (existing posts; RU mirrors follow the same pattern for `/ru/products/*` except `server` and `pdu`, which 404 in RU)**
+
+| # | From (blog post) | To | Anchor (example) | Placement | P |
+|---|---|---|---|---|---|
+| H-B1 | `how-shipping-containers-change-the-cryptocurrency-mining-industry` | `/en/products/container`, `/en/asics-cooling/hydro-systems` | BiXBiT immersion mining containers; hydro-cooled containers | after the intro + conclusion (with EN-FEB-4 refresh; K4 de-cannibalization) | P0 |
+| H-B2 | `immersion-liquid-choosing-the-right-one-for-mining` | `/en/products/coolant` | BiXBiT dielectric immersion fluid | fluid comparison section (C4 already links to immersion-systems) | P1 |
+| H-B3 | `novec-and-coolant-liquids-comparison-why-we-stick-to-our-own-formula` (GSC 469 impr, pos 8.5) | `/en/products/coolant` | our immersion cooling fluid | conclusion | P1 |
+| H-B4 | `how-does-immersion-cooling-work` | `/en/products/cell` | immersion cooling tank for ASIC miners | "system components" paragraph (C9 covers the pillar link) | P2 |
+| H-B5 | `immersion-cooling-or-how-to-stop-wasting-money-on-air` | `/en/products` | immersion cooling equipment | conclusion (EN-DEC-3 refresh) | P2 |
+| H-B6 | `how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling`, `review-of-miners-2021-new-models-vs-old-ones-with-immersion-cooling` | `/en/products/container`, `/en/products/rack` | immersion containers; immersion racks | body | P2 |
+| H-B7 | `hydro-asic-2026-ranking-models-for-largescale-mining-farms` (117 inlinks), `bitmain-releases-t19-hydro-btc-miner-with-a-performance-of-145-th-s` | `/en/asics-cooling/hydro-systems`, `/en/asics-cooling/hydro-systems/ahr-200` | hydro cooling racks and containers; AHR-200 rack for Antminer hydro miners | model sections | P1 |
+| H-B8 | `full-review-of-microbt-whatsminer-m50-m50s-and-m53-asics-features-profit-payback` (GSC 850 impr) | `/en/asics-cooling/hydro-systems/whr-200-2u` | WHR-200-2U hydro rack for Whatsminer | M53 Hydro section (EN-MAY-2) | P1 |
+| H-B9 | `killers-of-the-mining-equipment-getting-rid-of-noise-and-dust` (GSC 400 impr) | `/en/asics-cooling/hydro-systems` | liquid cooling removes fan noise and dust | solutions section (EN-FEB-3) | P2 |
+| H-B10 | `how-to-calculate-the-pue-of-a-datacenter`, `datacenter-cooling-methods-everything-you-need-to-know`, `data-centre-cooling-trends-2026` | `/en/products/server`, `/en/asics-cooling` | prefab data center cooling; cooling systems for ASIC mining | methods / conclusion (EN-OCT-3, EN-JUN-2) | P1 |
+| H-B11 | `asic-cooling-trends-2026` | `/en/asics-cooling`, `/en/asics-cooling/hydro-systems` | BiXBiT cooling systems; hydro cooling for ASIC mining | trends list | P2 |
+| H-B12 | `creating-a-mining-farm-setting-priorities` | `/en/products/container`, `/en/products/pdu` | containerized mining farm; power distribution for the farm | infrastructure section | P2 |
+| H-B13 | planned posts: EN-JAN-1 (hydro vs immersion), EN-NOV-1 (S21 series), EN-NOV-2 (Whatsminer lineup), EN-MAR-2 (fluid maintenance) | hydro-systems + AHR-200; hydro-systems + WHR-200-2U; `/en/products/coolant` | per `content/blog-plan.md` | at publication | P1 |
+
+**Incoming links check (hardware, after rollout):** each model page ≥ 4 incoming (sub-hub card, hub table, sibling, one blog or product page); `/en/products/pdu` gains H3, H7, H13, H14, H18, H-B12 (+ PDU cluster rows); `/en/products/coolant` gains C7, H3, H12, H13, H14, H17, H-B2, H-B3.
 
 ---
 
@@ -16,7 +147,7 @@
 
 ---
 
-## Full Linking Matrix
+## Full Linking Matrix *(v1, 2026-06-19; superseded by Architecture v2)*
 
 | Source Page | Target Page | Anchor Text | Context / Placement | Priority |
 |---|---|---|---|---|
@@ -85,7 +216,7 @@
 
 ---
 
-## Cross-Cluster Links (Firmware → Other BiXBiT Products)
+## Cross-Cluster Links (Firmware → Other BiXBiT Products) *(v1, superseded)*
 
 | Source Page | Target Page | Anchor Text | Rationale |
 |---|---|---|---|
@@ -99,7 +230,7 @@
 
 ---
 
-## Links TO Cluster FROM Existing Site Pages
+## Links TO Cluster FROM Existing Site Pages *(v1, superseded)*
 
 These links should be added or verified on existing bixbit.io/en pages to support cluster indexing:
 
@@ -122,7 +253,7 @@ These links should be added or verified on existing bixbit.io/en pages to suppor
 
 ---
 
-## Whatsminer Firmware Cluster — Full Linking Matrix
+## Whatsminer Firmware Cluster — Full Linking Matrix *(v1, superseded)*
 
 | Source Page | Target Page | Anchor Text | Context / Placement | Priority |
 |---|---|---|---|---|
@@ -192,7 +323,7 @@ These links should be added or verified on existing bixbit.io/en pages to suppor
 
 ---
 
-## Cross-Cluster Links (Whatsminer ↔ Antminer Firmware)
+## Cross-Cluster Links (Whatsminer ↔ Antminer Firmware) *(v1, superseded)*
 
 These links connect the two firmware clusters at points of genuine semantic overlap. They serve mixed-fleet operators and reinforce BiXBiT's authority across both ASIC platforms.
 
@@ -213,7 +344,7 @@ These links connect the two firmware clusters at points of genuine semantic over
 
 ---
 
-## Cross-Cluster Links (Whatsminer Firmware → Other BiXBiT Products)
+## Cross-Cluster Links (Whatsminer Firmware → Other BiXBiT Products) *(v1, superseded)*
 
 | Source Page | Target Page | Anchor Text | Rationale |
 |---|---|---|---|
@@ -227,7 +358,7 @@ These links connect the two firmware clusters at points of genuine semantic over
 
 ---
 
-## Links TO Whatsminer Cluster FROM Existing Site Pages
+## Links TO Whatsminer Cluster FROM Existing Site Pages *(v1, superseded)*
 
 | Existing Page | Add Link To | Anchor Text | Notes |
 |---|---|---|---|
@@ -238,7 +369,7 @@ These links connect the two firmware clusters at points of genuine semantic over
 
 ---
 
-## Immersion Cooling Cluster — Full Linking Matrix
+## Immersion Cooling Cluster — Full Linking Matrix *(v1, superseded)*
 
 ### Pillar to Spokes
 
@@ -312,7 +443,7 @@ These links connect the two firmware clusters at points of genuine semantic over
 
 ---
 
-## Cross-Cluster Links: Immersion Cooling ↔ Antminer Firmware
+## Cross-Cluster Links: Immersion Cooling ↔ Antminer Firmware *(v1, superseded)*
 
 | Source Page | Target Page | Anchor Text | Context / Rationale | Priority |
 |---|---|---|---|---|
@@ -369,7 +500,7 @@ These links connect the two firmware clusters at points of genuine semantic over
 
 ---
 
-## Fleet Monitoring / AMS Cluster — Full Linking Matrix
+## Fleet Monitoring / AMS Cluster — Full Linking Matrix *(v1, superseded)*
 
 ### Pillar to Spokes
 
@@ -447,7 +578,7 @@ These links connect the two firmware clusters at points of genuine semantic over
 
 ---
 
-## Cross-Cluster Links: AMS (Fleet Monitoring) ↔ Antminer Firmware
+## Cross-Cluster Links: AMS (Fleet Monitoring) ↔ Antminer Firmware *(v1, superseded)*
 
 | Source Page | Target Page | Anchor Text | Context / Rationale | Priority |
 |---|---|---|---|---|
@@ -488,7 +619,7 @@ Key confirmed cross-links (firmware → AMS):
 
 ---
 
-## Cross-Cluster Links: AMS ↔ Immersion Cooling
+## Cross-Cluster Links: AMS ↔ Immersion Cooling *(v1, superseded)*
 
 | Source Page | Target Page | Anchor Text | Context / Rationale | Priority |
 |---|---|---|---|---|
@@ -501,7 +632,7 @@ Key confirmed cross-links (firmware → AMS):
 
 ---
 
-## Links TO AMS Cluster FROM Existing Site Pages
+## Links TO AMS Cluster FROM Existing Site Pages *(v1, superseded)*
 
 | Existing Page | Add Link To | Anchor Text | Notes |
 |---|---|---|---|

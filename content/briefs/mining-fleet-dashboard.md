@@ -2,20 +2,23 @@
 **Slug:** `/en/ams/mining-fleet-dashboard`
 **Cluster:** mining-fleet-monitoring
 **Type:** Spoke — Informational / Feature Education
-**Priority:** P2
+**Priority:** P2 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Keep P2. Volume n/d. Merge with antminer-monitoring-software (antminer dashboard 30/mo).
+**Target (architecture v2, 2026-09-25):** `/en/ams` (existing page), H2 Antminer monitoring and dashboard (dashboard part), section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| ASIC monitoring dashboard | Primary | [VOL: N/A — DataForSEO 401] |
-| mining fleet dashboard | Primary | [VOL: N/A] |
-| bitcoin mining farm dashboard | Secondary | [VOL: N/A] |
-| ASIC farm dashboard | Secondary | [VOL: N/A] |
-| mining operations dashboard | Tertiary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| ASIC monitoring dashboard | Primary | n/d (<10) | — | — |
+| mining fleet dashboard | Primary | n/d (<10) | — | — |
+| bitcoin mining farm dashboard | Secondary | n/d (<10) | — | — |
+| ASIC farm dashboard | Secondary | n/d (<10) | — | — |
+| mining operations dashboard | Tertiary | n/d (<10) | — | — |
 
 ---
 

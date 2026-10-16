@@ -1,0 +1,330 @@
+<title>BiXBiT SEO — сентябрь 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  color-scheme: dark;
+  --bg:#151216; --surface:#1e1a20; --surface-2:#272229; --line:#3a333d;
+  --text:#f4f1f5; --muted:#b3a9b6; --faint:#857b88;
+  --accent:#d1127d; --accent-soft:rgba(209,18,125,.14); --accent-text:#ff5fb1;
+  --ok:#3fbf7f; --ok-soft:rgba(63,191,127,.14);
+  --warn:#e0a53a; --warn-soft:rgba(224,165,58,.15);
+  --bad:#ef5a5a; --bad-soft:rgba(239,90,90,.14);
+  --head:"Onest",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    color-scheme: light;
+    --bg:#f7f4f7; --surface:#ffffff; --surface-2:#f0ebf0; --line:#ddd4dd;
+    --text:#1c171d; --muted:#5d5360; --faint:#8a808c;
+    --accent:#b30f6b; --accent-soft:rgba(179,15,107,.09); --accent-text:#a30d61;
+    --ok:#1f8a55; --ok-soft:rgba(31,138,85,.1);
+    --warn:#a36a06; --warn-soft:rgba(163,106,6,.1);
+    --bad:#c23333; --bad-soft:rgba(194,51,51,.09);
+  }
+}
+:root[data-theme="light"]{
+  color-scheme: light;
+  --bg:#f7f4f7; --surface:#ffffff; --surface-2:#f0ebf0; --line:#ddd4dd;
+  --text:#1c171d; --muted:#5d5360; --faint:#8a808c;
+  --accent:#b30f6b; --accent-soft:rgba(179,15,107,.09); --accent-text:#a30d61;
+  --ok:#1f8a55; --ok-soft:rgba(31,138,85,.1);
+  --warn:#a36a06; --warn-soft:rgba(163,106,6,.1);
+  --bad:#c23333; --bad-soft:rgba(194,51,51,.09);
+}
+:root[data-theme="dark"]{ color-scheme: dark; }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font:15px/1.6 var(--body);padding-inline:16px;padding-block:0 64px}
+.wrap{max-width:920px;margin:0 auto}
+header.top{padding-block:40px 28px;border-bottom:1px solid var(--line)}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text)}
+h1{font:700 clamp(28px,5vw,40px)/1.15 var(--head);margin:.35em 0 .3em;text-wrap:balance;letter-spacing:-.01em}
+h2{font:700 24px/1.25 var(--head);margin:56px 0 14px;text-wrap:balance;scroll-margin-top:16px}
+h3{font:600 17px/1.35 var(--head);margin:28px 0 8px;text-wrap:balance}
+p{margin:0 0 12px;max-width:68ch}
+.lede{font-size:17px;color:var(--muted);max-width:66ch}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:16px;font:13px/1.4 var(--mono);color:var(--faint)}
+a{color:var(--accent-text);text-underline-offset:2px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+code,.path{font:13px/1.4 var(--mono);color:var(--text);background:var(--surface-2);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+
+nav.toc{margin:24px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+nav.toc a{font:500 13px/1 var(--body);color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:7px 12px}
+nav.toc a:hover{color:var(--text);border-color:var(--accent)}
+
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:20px 0 8px}
+.kpi{background:var(--surface);padding:16px 16px 14px}
+.kpi .v{font:700 26px/1.1 var(--head);font-variant-numeric:tabular-nums}
+.kpi .l{font-size:13px;color:var(--muted);margin-top:4px;line-height:1.4}
+.kpi .v small{font:500 14px var(--body);color:var(--faint);margin-left:4px}
+
+.callout{border-left:3px solid var(--accent);background:var(--accent-soft);padding:14px 16px;border-radius:0 8px 8px 0;margin:16px 0}
+.callout p{margin:0 0 6px}.callout p:last-child{margin:0}
+
+.tbl{overflow-x:auto;margin:10px 0 6px;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14px}
+th,td{text-align:left;vertical-align:top;padding:9px 12px;border-bottom:1px solid var(--line)}
+th{font:600 12px/1.3 var(--body);letter-spacing:.04em;text-transform:uppercase;color:var(--faint);background:var(--surface-2)}
+tr:last-child td{border-bottom:0}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+td b{font-weight:600}
+
+.pill{display:inline-block;font:600 11px/1 var(--body);letter-spacing:.04em;padding:5px 8px;border-radius:999px;white-space:nowrap;text-transform:uppercase}
+.p-ok{background:var(--ok-soft);color:var(--ok)}
+.p-part{background:var(--warn-soft);color:var(--warn)}
+.p-no{background:var(--bad-soft);color:var(--bad)}
+.p0{background:var(--bad-soft);color:var(--bad)}
+.p1{background:var(--warn-soft);color:var(--warn)}
+.p2{background:var(--surface-2);color:var(--muted)}
+
+.bar{display:flex;height:10px;border-radius:999px;overflow:hidden;background:var(--surface-2);margin:8px 0 4px}
+.bar span{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:12px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.card h3{margin-top:0}
+ul,ol{padding-left:20px;margin:0 0 12px}
+li{margin:4px 0;max-width:68ch}
+.small{font-size:13px;color:var(--muted)}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);font-size:13px;color:var(--faint)}
+@media (max-width:520px){ h2{font-size:21px} .kpi .v{font-size:22px} }
+@media (prefers-reduced-motion: reduce){ *{scroll-behavior:auto} }
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">bixbit.io · SEO-автоматизация</div>
+  <h1>Отчёт о внедрении и состоянии SEO, сентябрь 2026</h1>
+  <p class="lede">Что работает в системе после внедрения, что показали данные по сайту, задачи в порядке приоритета и решения, которые нужны от команды. Все цифры получены из реальных источников 25–28 сентября 2026. Технические факты о прошивках помечены [VERIFY].</p>
+  <div class="meta"><span>Дата: 28.09.2026 · обновлено 29.09: IndexNow, безопасность</span><span>Окно данных: 29.08–25.09 (28 дней)</span><span>Источники: GSC · GA4 · Bing · PSI/CrUX · DataForSEO</span></div>
+  <nav class="toc" aria-label="Разделы">
+    <a href="#summary">Главное</a><a href="#system">Что внедрено</a><a href="#coverage">Покрытие задач</a><a href="#findings">Находки</a><a href="#plan">План</a><a href="#decisions">Решения</a><a href="#files">Файлы</a>
+  </nav>
+</header>
+
+<section id="summary">
+<h2>Главное</h2>
+<div class="kpis">
+  <div class="kpi"><div class="v">2 263</div><div class="l">кликов из Google за 28 дней (все страны)</div></div>
+  <div class="kpi"><div class="v">0.32%<small>CTR</small></div><div class="l">США: 23 697 показов → 76 кликов</div></div>
+  <div class="kpi"><div class="v">52%</div><div class="l">кликов приходит из СНГ, 40% — из России</div></div>
+  <div class="kpi"><div class="v">2.7%</div><div class="l">доля органики в сессиях GA4 (2 877 из 108 346)</div></div>
+  <div class="kpi"><div class="v">5<small>/ 28</small></div><div class="l">AI Overview, где цитируется bixbit.io (из 30 ключей)</div></div>
+  <div class="kpi"><div class="v">10<small>/ 30</small></div><div class="l">отслеживаемых ключей в топ-10 Google US</div></div>
+</div>
+<div class="callout">
+  <p><b>1. Главная проблема — клики, а не позиции.</b> Страницы прошивок уже на местах 2–8, но клики по ним почти нулевые: CTR в США 0.32% против 2.3% в России. Первый рычаг — переписать title и description страниц, которые уже в топ-10.</p>
+  <p><b>2. Меню и шаблоны ломают сайт массово.</b> Ссылка в RU-меню ведёт на 404 с каждой из 1 461 страницы. Переключатель языка в документации даёт около 90 URL с 404. Пустой FAQPage стоит на 52 страницах. Хаб Whatsminer-прошивок — сирота, на него не ссылается ни одна страница. Все эти задачи собраны в одно задание разработчику.</p>
+  <p><b>3. Рынок по факту — СНГ, а не США.</b> RU-страницы дают 1 272 клика, EN — 1 100, ES — 32. hreflang почти не работает, поэтому RU-страницы показываются пользователям в США и Бразилии. Переезд <code>/ru</code> на bixbit.tech затрагивает больше половины трафика, поэтому к нему нужно готовиться отдельно.</p>
+  <p><b>4. Сайт сам путается в dev fee.</b> Сейчас на разных страницах указано 1.8–2.8%, 2.8% и 2%, а LLM вдобавок приписывают BiXBiT ставку PiTBiT 2.75%. Сначала команда утверждает одну ставку, потом правим контент и GEO.</p>
+</div>
+</section>
+
+<section id="system">
+<h2>Что внедрено</h2>
+<p>Система работает на скриптах: секреты они читают из <code>.env</code> сами, контекст не расходуют. Сверху работают 6 агентов, 12 команд и расписание автосбора. Общая база фактов для всех агентов — <span class="path">docs/agent-knowledge.md</span>.</p>
+
+<h3>Источники данных</h3>
+<div class="tbl"><table>
+<thead><tr><th>Источник</th><th>Статус</th><th>Как используется</th></tr></thead>
+<tbody>
+<tr><td>Google Search Console</td><td><span class="pill p-ok">работает</span></td><td>Запросы, страницы, страны, CTR; проверка индексации URL (2 000 в день)</td></tr>
+<tr><td>GA4</td><td><span class="pill p-ok">работает</span></td><td>Каналы, органические посадочные, канал AI Assistant</td></tr>
+<tr><td>Bing Webmaster</td><td><span class="pill p-ok">работает</span></td><td>Запросы, краул, индекс; переобход (10 000 URL в день)</td></tr>
+<tr><td>PageSpeed / CrUX</td><td><span class="pill p-ok">работает</span></td><td>Core Web Vitals из лаборатории и из поля</td></tr>
+<tr><td>DataForSEO</td><td><span class="pill p-ok">работает</span></td><td>Позиции, AI Overview и сниппеты, ссылки, объёмы, ответы LLM</td></tr>
+<tr><td>Web Risk / Safe Browsing (проверка на malware и phishing)</td><td><span class="pill p2">не используется</span></td><td>Оплата в Google Cloud недоступна: Google блокирует привязку платёжного аккаунта, а без неё Web Risk не работает. Замена — уведомления GSC о проблемах безопасности (письмо владельцу и отчёт «Проблемы безопасности»). Косвенно взлом заметят ежедневная проверка индексации, еженедельный снимок страниц и ежемесячный краул. В скрипте поддержка осталась: заработает, если оплата станет доступна</td></tr>
+<tr><td>IndexNow</td><td><span class="pill p-part">ждёт деплой</span></td><td>Ключ сгенерирован и добавлен в <code>.env</code>. Файл <code>da09a0c0…666a.txt</code> передан разработчику (P1-8), сейчас сайт отдаёт по этому адресу 404. После деплоя изменения сразу получают Bing, Яндекс, Seznam, Naver и Yep</td></tr>
+<tr><td>Яндекс.Вебмастер</td><td><span class="pill p-no">нет</span></td><td>Нужен OAuth-токен</td></tr>
+<tr><td>Ahrefs / SE Ranking</td><td><span class="pill p-no">нет</span></td><td>Ahrefs — авторизовать коннектор; по SE Ranking нужно решение команды</td></tr>
+<tr><td>Moz</td><td><span class="pill p2">не используем</span></td><td>Бесплатного тарифа не хватает; ссылки берём из DataForSEO</td></tr>
+</tbody></table></div>
+
+<h3>Скрипты и расписание</h3>
+<div class="tbl"><table>
+<thead><tr><th>Задача</th><th>Скрипт</th><th>Частота</th><th>Стоимость</th></tr></thead>
+<tbody>
+<tr><td>Индексация ключевых URL</td><td><code>index-check.py</code></td><td>ежедневно</td><td class="num">0</td></tr>
+<tr><td>Выгрузки GSC / GA4 / Bing</td><td><code>gsc-query.py</code> · <code>ga4-query.py</code> · <code>bing-query.py</code></td><td>еженедельно</td><td class="num">0</td></tr>
+<tr><td>Снимок head и JSON-LD 27 ключевых URL + сравнение</td><td><code>page-snapshot.py</code></td><td>еженедельно</td><td class="num">0</td></tr>
+<tr><td>Каннибализация (запрос → несколько страниц)</td><td><code>cannibalization.py</code></td><td>еженедельно</td><td class="num">0</td></tr>
+<tr><td>AI Overview / Featured Snippet / PAA</td><td><code>serp-features.py</code></td><td>еженедельно</td><td class="num">≈ $0.10</td></tr>
+<tr><td>Полный краул (замена Screaming Frog)</td><td><code>crawl.py</code></td><td>ежемесячно</td><td class="num">0</td></tr>
+<tr><td>Позиции по 30 ключам</td><td><code>serp-rank.py</code></td><td>ежемесячно</td><td class="num">≈ $0.5–1.1</td></tr>
+<tr><td>Ссылки: мы и 8 конкурентов, новые и потерянные домены</td><td><code>backlinks-monitor.py</code></td><td>ежемесячно</td><td class="num">≈ $0.27</td></tr>
+<tr><td>Переобход после изменений (Bing, IndexNow)</td><td><code>index-submit.py</code></td><td>по событию</td><td class="num">0</td></tr>
+<tr><td>Проверка hreflang</td><td><code>hreflang-check.py</code></td><td>после деплоя</td><td class="num">0</td></tr>
+</tbody></table></div>
+<p class="small">Расписание задаёт <span class="path">.github/workflows/seo-data.yml</span>: снимки коммитятся в <code>data/</code>, при критичных изменениях открывается issue. Workflow запустится после push и добавления секретов в GitHub.</p>
+
+<h3>Команды</h3>
+<p><code>/full-audit</code> · <code>/weekly-drift</code> · <code>/rank-check</code> · <code>/page-optimize</code> · <code>/new-cluster</code> · <code>/competitor-gap</code> · <code>/geo-check</code> · <code>/monthly-report</code> · <code>/strategy-report</code> · <code>/text-review</code> · <code>/mockup-review</code> · <code>/blog-plan</code></p>
+</section>
+
+<section id="coverage">
+<h2>Покрытие задач SEO-специалиста</h2>
+<p>Список задач разбит на 48 рабочих пунктов. Полностью закрыто 27, частично 15, не начато 6. Всё незакрытое упирается в доступы или решения команды, а не в инструменты.</p>
+<div class="bar" role="img" aria-label="27 закрыто, 15 частично, 6 не закрыто из 48">
+  <span style="width:56.25%;background:var(--ok)"></span><span style="width:31.25%;background:var(--warn)"></span><span style="width:12.5%;background:var(--bad)"></span>
+</div>
+<div class="legend"><span><i style="background:var(--ok)"></i>Закрыто 27</span><span><i style="background:var(--warn)"></i>Частично 15</span><span><i style="background:var(--bad)"></i>Нет 6</span></div>
+
+<div class="tbl"><table>
+<thead><tr><th>Раздел</th><th>Закрыто</th><th>Частично</th><th>Нет</th><th>Что осталось</th></tr></thead>
+<tbody>
+<tr><td><b>Техническое SEO</b></td><td class="num">6</td><td class="num">3</td><td class="num">2</td><td>Яндекс.Вебмастер; план переезда на bixbit.tech; hreflang внедряет разработчик; безопасность — через уведомления GSC (Web Risk недоступен); IndexNow ждёт файл на сайте. Переобход через Bing уже работает, 10 000 URL в день</td></tr>
+<tr><td><b>Семантическое ядро</b></td><td class="num">3</td><td class="num">2</td><td class="num">1</td><td>Решение по SE Ranking; Ahrefs для позиций конкурентов; LSI пока не по всем разделам</td></tr>
+<tr><td><b>On-page</b></td><td class="num">8</td><td class="num">3</td><td class="num">0</td><td>Мета для коммерческих EN-страниц (по плану недели W1–W2); ALT вне документации; Featured Snippets в нише вытеснены AI Overview</td></tr>
+<tr><td><b>Блог</b></td><td class="num">4</td><td class="num">3</td><td class="num">1</td><td>Публикация — нужен доступ к CMS; перелинковка из блога заложена в план</td></tr>
+<tr><td><b>Линкбилдинг</b></td><td class="num">2</td><td class="num">3</td><td class="num">1</td><td>Правило по платным ссылкам; регистрация профилей на площадках делает человек; Ahrefs</td></tr>
+<tr><td><b>Стратегия и отчёты</b></td><td class="num">4</td><td class="num">1</td><td class="num">1</td><td>Ежедневные позиции — вопрос бюджета; автоанализ заработает после запуска workflow</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="findings">
+<h2>Что показали данные</h2>
+
+<h3>Трафик и спрос</h3>
+<div class="tbl"><table>
+<thead><tr><th>Показатель</th><th>Значение</th><th>Вывод</th></tr></thead>
+<tbody>
+<tr><td>Клики Google по странам (28 дней)</td><td>Россия 907 · Иран 150 · Венесуэла 140 · Бразилия 132 · Беларусь 105 · <b>США 76</b></td><td>Приоритет в CLAUDE.md (США) расходится с фактом; решение за командой</td></tr>
+<tr><td>Клики по локалям</td><td>ru 1 272 · en 1 100 · es 32</td><td>Больше половины трафика — RU, и эта часть под риском при переезде</td></tr>
+<tr><td>Каналы GA4 (сессии)</td><td>Cross-network 57 638 · Paid Search 31 441 · Organic 2 877 · AI Assistant 68</td><td>Ключевые события в Cross-network срабатывают почти на каждую сессию [VERIFY настройку]</td></tr>
+<tr><td>Bing (28 дней)</td><td>2 656 показов · 140 кликов</td><td>Показы −51% к октябрю 2025; индекс с марта сократился с 4 188 до 3 108 страниц</td></tr>
+<tr><td>Core Web Vitals</td><td>LCP p75 на мобильных 3.7 с · PSI 27–46</td><td>Выше нормы 2.5 с. Причины: вес страниц прошивок и base64-картинки в документации</td></tr>
+</tbody></table></div>
+
+<h3>Позиции, AI Overview и конкуренты</h3>
+<div class="grid2">
+  <div class="card"><h3>Позиции (30 ключей, Google US)</h3>
+    <ul>
+      <li>Найдены по 17 ключам, в топ-10 — 10, в топ-3 — 2.</li>
+      <li><code>antminer firmware</code> — #8 (CPC $70.51), <code>whatsminer firmware</code> — #4, <code>whatsminer custom firmware</code> и <code>microbt firmware</code> — #2.</li>
+      <li>AMS: в живой выдаче не найден, но по GSC <code>asic monitoring software</code> на позиции 3.0. Разрыв — по <code>mining software</code>.</li>
+    </ul></div>
+  <div class="card"><h3>AI Overview</h3>
+    <ul>
+      <li>AI Overview есть по 28 ключам из 30. Featured Snippet — ни по одному, его вытеснил AIO.</li>
+      <li>bixbit цитируется в 5 AIO, все по прошивкам. По охлаждению и мониторингу — ни одного.</li>
+      <li>Чаще всего AIO цитирует YouTube, Reddit, NiceHash, mineshop.eu, zeusbtc и Braiins.</li>
+    </ul></div>
+  <div class="card"><h3>Ссылки (DataForSEO rank 0–100)</h3>
+    <ul>
+      <li>bixbit — 39, 891 ссылающийся домен. Braiins 53, Luxor 50, Awesome Miner 70, Minerstat 74, ePIC 29.</li>
+      <li>За месяц +25 и −9 доменов. Среди новых — спам-сеть <code>link-legion-*.xyz</code> (spam 75): нужно проверить, не негативное ли это SEO.</li>
+    </ul></div>
+  <div class="card"><h3>Каннибализация (GSC)</h3>
+    <ul>
+      <li>222 конфликта внутри одной локали и 53 между локалями.</li>
+      <li><code>whatsminer firmware</code>: хаб против <code>-m3x</code>. <code>antminer firmware</code>: <code>/antminer</code> против хаба и против noindex-страницы <code>asic-T9-plus</code>, которая всё ещё собирает 15% показов.</li>
+    </ul></div>
+</div>
+
+<h3>Технические находки (краул 1 873 URL, проверка индексации)</h3>
+<div class="tbl"><table>
+<thead><tr><th>Проблема</th><th>Масштаб</th><th>Приоритет</th></tr></thead>
+<tbody>
+<tr><td>В RU-меню ссылка «Серверное охлаждение» ведёт на 404 (<code>/ru/products/server</code>)</td><td class="num">1 477 ссылок</td><td><span class="pill p0">P0</span></td></tr>
+<tr><td>hreflang: на новом шаблоне его нет, на старом нет ссылки страницы на саму себя, ES не указан; переключатель языка даёт 404</td><td class="num">~90 URL с 404</td><td><span class="pill p0">P0</span></td></tr>
+<tr><td>Хаб <code>whatsminer-all-series</code> — сирота</td><td class="num">0 входящих ссылок</td><td><span class="pill p0">P0</span></td></tr>
+<tr><td><code>Organization.description</code> на всём сайте — рекламный текст про охлаждение</td><td class="num">весь сайт</td><td><span class="pill p0">P0</span></td></tr>
+<tr><td>Пустой FAQPage в шаблоне документации</td><td class="num">52 страницы</td><td><span class="pill p0">P0</span></td></tr>
+<tr><td>Противоречивая ставка dev fee на страницах сайта</td><td class="num">3 версии</td><td><span class="pill p0">P0</span></td></tr>
+<tr><td>AggregateRating без источника отзывов на товарных страницах</td><td class="num">старые товары</td><td><span class="pill p1">P1</span></td></tr>
+<tr><td>Документация: картинки встроены как base64, 28 старых подстраниц без ссылок, но с трафиком</td><td class="num">до 11.7 MB</td><td><span class="pill p1">P1</span></td></tr>
+<tr><td>Пустой alt у контентных изображений</td><td class="num">3 149 из 15 429</td><td><span class="pill p1">P1</span></td></tr>
+<tr><td>Битый JSON-LD в постах; 302 вместо 301; одинаковый title у 9 товаров</td><td class="num">9 / 2 / 9+9</td><td><span class="pill p1">P1</span></td></tr>
+<tr><td>Sitemap: сироты, <code>/es/</code> отсутствует, дубли, URL с пробелом, застывший lastmod</td><td class="num">317 страниц вне sitemap</td><td><span class="pill p1">P1</span></td></tr>
+<tr><td><code>llms.txt</code> отдаёт 404 (файл готов)</td><td class="num">—</td><td><span class="pill p1">P1</span></td></tr>
+<tr><td>Глубина блога до 22 кликов из-за линейной пагинации</td><td class="num">888 глубоких страниц</td><td><span class="pill p2">P2</span></td></tr>
+</tbody></table></div>
+<p class="small">Индексация в норме: все 25 ключевых URL проиндексированы, Google выбирает тот же canonical, что указан на странице.</p>
+
+<h3>Контент</h3>
+<ul>
+  <li><b>Блог работает мимо ЦА.</b> 30.7% EN-показов и 43% RU-показов приходятся на темы вне ICP: ERC-20, ETC, Ravencoin. Из текстов постов нет ни одной ссылки на Antminer, хаб Whatsminer и PDU, зато 30 ссылок ведут на noindex-страницы.</li>
+  <li><b>Hardware.</b> Самый большой коммерческий спрос — контейнеры: 390 запросов в месяц, CPC около $4.2, сезонный пик в сентябре–декабре. Стойки дают быстрый результат: <code>mining rack</code> уже на #6.</li>
+  <li><b>ES.</b> Спрос на уровне порога Google Ads, а пользователи из LatAm ищут на английском и попадают на EN-страницы. Первое по приоритету — перевести страницы Whatsminer.</li>
+  <li><b>Документация.</b> RU-страница кодов ошибок Whatsminer — №1 по кликам на сайте (271). По запросам с номером кода она стоит на позиции 1.8–3.5, но почти без кликов.</li>
+</ul>
+</section>
+
+<section id="plan">
+<h2>План по приоритетам</h2>
+<h3>Разработка — <span class="path">content/dev-task-p0-2026-09-28.md</span></h3>
+<div class="tbl"><table>
+<thead><tr><th></th><th>Задача</th><th>Проверка</th></tr></thead>
+<tbody>
+<tr><td><span class="pill p0">P0</span></td><td>Меню RU (server, pdu); хаб all-series в меню и на страницах серий</td><td><code>crawl.py</code>: 0 ошибок меню</td></tr>
+<tr><td><span class="pill p0">P0</span></td><td>hreflang из связки переводов в CMS; переключатель языка — по карте EN↔RU</td><td><code>hreflang-check.py</code>: 0 ошибок</td></tr>
+<tr><td><span class="pill p0">P0</span></td><td>Новый Organization.description; FAQPage выводить только при наличии вопросов</td><td><code>page-snapshot.py</code> diff</td></tr>
+<tr><td><span class="pill p0">P0</span></td><td>Одна ставка dev fee из одного источника [VERIFY ставку]</td><td>ручная проверка 3 страниц</td></tr>
+<tr><td><span class="pill p1">P1</span></td><td>Sitemap; llms.txt; JSON-LD через сериализатор; 301 вместо 302; убрать AggregateRating; шаблон title для товаров</td><td><code>crawl.py</code>, Rich Results Test</td></tr>
+<tr><td><span class="pill p1">P1</span></td><td>Файл ключа IndexNow в корне сайта (<span class="path">content/dev-handoff/indexnow/</span>)</td><td><code>index-submit.py</code>: «ключ-файл OK»</td></tr>
+<tr><td><span class="pill p1">P1</span></td><td>Документация: картинки файлами + lazy; 301 для 28 старых страниц; мета и ALT из CSV</td><td>PSI, <code>crawl.py</code></td></tr>
+<tr><td><span class="pill p2">P2</span></td><td>docs.bixbit.io (canonical или перенос); вес страниц прошивок; пагинация блога</td><td>PSI, <code>crawl.py</code></td></tr>
+</tbody></table></div>
+
+<h3>Контент и SEO, октябрь</h3>
+<ol>
+  <li>Title и description для страниц в топ-10 с нулевым CTR: <code>/en/firmwares</code>, <code>-m3x</code>, <code>/en/ams</code>, <code>-m2x</code>, <code>/ru/firmwares/antminer</code>. Там сейчас английская мета на RU-странице.</li>
+  <li>CTA и перелинковка на страницах кодов ошибок Whatsminer (EN и RU).</li>
+  <li>Страница про dev fee (после утверждения ставки) и перелинковка блога на продвигаемые страницы по <span class="path">content/internal-linking.md</span>.</li>
+  <li>Блог: обновить пост о серии S19, объединить посты о прошивке Whatsminer, обновить пост о PUE, а для RU — пост «Охлаждение майнинг-фермы» как главный пост группы.</li>
+  <li>Hardware: шаблон для 19 товаров, контейнер к сезону, стойки.</li>
+</ol>
+<p class="small">Подробности: <span class="path">content/content-plan.md</span> (Q4), <span class="path">content/blog-plan.md</span> (до июня 2027), <span class="path">content/es/content-plan-es.md</span>, <span class="path">content/localization-plan.md</span>.</p>
+</section>
+
+<section id="decisions">
+<h2>Что нужно от команды</h2>
+<div class="grid2">
+  <div class="card"><h3>Решения</h3>
+    <ol>
+      <li>Текущая ставка dev fee — без неё стоят GEO, страница dev fee и llms.txt.</li>
+      <li>Переезд <code>/ru</code> на bixbit.tech: сроки, переезжает ли блог. Это больше половины кликов.</li>
+      <li>Приоритет рынков: США по CLAUDE.md или СНГ по факту трафика.</li>
+      <li>Статус <code>/es/</code>: публичная ли версия, есть ли поддержка и продажи на испанском.</li>
+      <li>Платные ссылки: разрешить с <code>rel="sponsored"</code> или нет.</li>
+      <li>Блог: noindex или объединение нерелевантных постов (список в <span class="path">data/blog-audit-2026-09-28.csv</span>).</li>
+      <li>docs.bixbit.io: основная документация или дубль.</li>
+      <li>Какие старые товары ещё продаются; SE Ranking — используем или нет; ротация около 15 ключей в rank tracking.</li>
+    </ol></div>
+  <div class="card"><h3>Доступы и настройка</h3>
+    <ol>
+      <li>Push и секреты в GitHub, чтобы запустить автосбор. Ключ сервисного аккаунта окажется в GitHub, но права у него только на чтение.</li>
+      <li>Токен Яндекс.Вебмастера.</li>
+      <li>Проверить, что уведомления GSC о проблемах безопасности приходят на актуальную почту (GSC → Настройки → Пользователи и разрешения). Неиспользуемый ключ Web Risk удалить в Google Cloud и из <code>.env</code>.</li>
+      <li>IndexNow: ключ уже в <code>.env</code>. Осталось передать разработчику файл ключа для корня сайта.</li>
+      <li>Авторизовать коннектор Ahrefs.</li>
+      <li>Доступ к CMS для публикации: каждое действие — только по подтверждению.</li>
+      <li>Проверить настройку ключевых событий в GA4.</li>
+    </ol></div>
+</div>
+<p class="small">Расходы DataForSEO на подготовку отчёта — около $3. Регулярная работа после запуска: примерно $1.5–2 в месяц (AIO каждую неделю, позиции и ссылки раз в месяц).</p>
+</section>
+
+<section id="files">
+<h2>Файлы</h2>
+<div class="tbl"><table>
+<thead><tr><th>Что</th><th>Где</th></tr></thead>
+<tbody>
+<tr><td>Задание разработчику</td><td><span class="path">content/dev-task-p0-2026-09-28.md</span></td></tr>
+<tr><td>Краул, позиции, Bing</td><td><span class="path">reports/crawl-2026-09-28.md</span> · <span class="path">reports/rank-tracking-baseline-2026-09-25.md</span> · <span class="path">reports/bing-webmaster-baseline-2026-09-28.md</span></td></tr>
+<tr><td>Планы</td><td><span class="path">content/content-plan.md</span> · <span class="path">content/blog-plan.md</span> · <span class="path">content/localization-plan.md</span> · <span class="path">content/hreflang-spec.md</span></td></tr>
+<tr><td>Контент</td><td><span class="path">content/briefs/</span> (EN, <span class="path">ru/</span>, <span class="path">blog/</span>, <span class="path">hardware-*</span>) · <span class="path">content/es/</span> · <span class="path">content/documentation/</span> · <span class="path">content/clusters/hardware.md</span></td></tr>
+<tr><td>GEO и ссылки</td><td><span class="path">content/geo/llms.txt</span> · <span class="path">content/outreach/</span></td></tr>
+<tr><td>Данные и снимки</td><td><span class="path">data/</span> (crawl, index-check, serp-features, backlinks, cannibalization, rank-tracking, gsc/ga4/bing)</td></tr>
+<tr><td>Факты и правила для агентов</td><td><span class="path">docs/agent-knowledge.md</span></td></tr>
+</tbody></table></div>
+</section>
+
+<footer>Подготовлено 28.09.2026 в репозитории bixbit-seo. Все цифры — из GSC, GA4, Bing Webmaster, PSI/CrUX и DataForSEO за указанные даты. Технические данные о прошивках и ставку dev fee перед публикацией проверяет команда.</footer>
+</div>

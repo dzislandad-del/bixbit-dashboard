@@ -1,0 +1,2759 @@
+{
+ "meta": {
+  "property": "320129421",
+  "start": "2026-08-31",
+  "end": "2026-09-27",
+  "preset": "organic-landing",
+  "dimensions": [
+   "landingPagePlusQueryString"
+  ],
+  "metrics": [
+   "sessions",
+   "engagedSessions",
+   "engagementRate",
+   "keyEvents",
+   "totalUsers"
+  ],
+  "filter": {
+   "filter": {
+    "fieldName": "sessionDefaultChannelGroup",
+    "stringFilter": {
+     "value": "Organic Search"
+    }
+   }
+  },
+  "rows": 341,
+  "row_count_total": 341,
+  "pulled_at": "2026-09-28T15:30:57"
+ },
+ "rows": [
+  {
+   "landingPagePlusQueryString": "/en",
+   "sessions": 325,
+   "engagedSessions": 259,
+   "engagementRate": 0.796923076923077,
+   "keyEvents": 152,
+   "totalUsers": 266
+  },
+  {
+   "landingPagePlusQueryString": "(not set)",
+   "sessions": 229,
+   "engagedSessions": 11,
+   "engagementRate": 0.048034934497816595,
+   "keyEvents": 6,
+   "totalUsers": 199
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "sessions": 221,
+   "engagedSessions": 104,
+   "engagementRate": 0.47058823529411764,
+   "keyEvents": 2,
+   "totalUsers": 134
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "sessions": 198,
+   "engagedSessions": 66,
+   "engagementRate": 0.3333333333333333,
+   "keyEvents": 13,
+   "totalUsers": 122
+  },
+  {
+   "landingPagePlusQueryString": "/ru",
+   "sessions": 193,
+   "engagedSessions": 156,
+   "engagementRate": 0.8082901554404145,
+   "keyEvents": 53,
+   "totalUsers": 153
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares",
+   "sessions": 173,
+   "engagedSessions": 126,
+   "engagementRate": 0.7283236994219653,
+   "keyEvents": 80,
+   "totalUsers": 146
+  },
+  {
+   "landingPagePlusQueryString": "/en/ams",
+   "sessions": 103,
+   "engagedSessions": 73,
+   "engagementRate": 0.7087378640776699,
+   "keyEvents": 87,
+   "totalUsers": 81
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/whatsminer-series-m3x",
+   "sessions": 100,
+   "engagedSessions": 60,
+   "engagementRate": 0.6,
+   "keyEvents": 44,
+   "totalUsers": 78
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares",
+   "sessions": 80,
+   "engagedSessions": 59,
+   "engagementRate": 0.7375,
+   "keyEvents": 11,
+   "totalUsers": 65
+  },
+  {
+   "landingPagePlusQueryString": "/ru/ams",
+   "sessions": 43,
+   "engagedSessions": 23,
+   "engagementRate": 0.5348837209302325,
+   "keyEvents": 42,
+   "totalUsers": 31
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/antminer",
+   "sessions": 40,
+   "engagedSessions": 28,
+   "engagementRate": 0.7,
+   "keyEvents": 10,
+   "totalUsers": 36
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "sessions": 40,
+   "engagedSessions": 19,
+   "engagementRate": 0.475,
+   "keyEvents": 1,
+   "totalUsers": 31
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/antminer",
+   "sessions": 32,
+   "engagedSessions": 11,
+   "engagementRate": 0.34375,
+   "keyEvents": 0,
+   "totalUsers": 17
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/whatsminer-series-m2x",
+   "sessions": 29,
+   "engagedSessions": 23,
+   "engagementRate": 0.7931034482758621,
+   "keyEvents": 18,
+   "totalUsers": 27
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/whatsminer-series-m3x",
+   "sessions": 24,
+   "engagedSessions": 16,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 6,
+   "totalUsers": 21
+  },
+  {
+   "landingPagePlusQueryString": "/ru/about",
+   "sessions": 22,
+   "engagedSessions": 3,
+   "engagementRate": 0.13636363636363635,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "sessions": 21,
+   "engagedSessions": 15,
+   "engagementRate": 0.7142857142857143,
+   "keyEvents": 0,
+   "totalUsers": 20
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/google-site",
+   "sessions": 19,
+   "engagedSessions": 19,
+   "engagementRate": 1,
+   "keyEvents": 20,
+   "totalUsers": 19
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "sessions": 19,
+   "engagedSessions": 13,
+   "engagementRate": 0.6842105263157895,
+   "keyEvents": 0,
+   "totalUsers": 18
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/whatsminer-series-m5x",
+   "sessions": 19,
+   "engagedSessions": 11,
+   "engagementRate": 0.5789473684210527,
+   "keyEvents": 8,
+   "totalUsers": 15
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/whatsminer-series-m6x",
+   "sessions": 17,
+   "engagedSessions": 13,
+   "engagementRate": 0.7647058823529411,
+   "keyEvents": 10,
+   "totalUsers": 15
+  },
+  {
+   "landingPagePlusQueryString": "/es",
+   "sessions": 17,
+   "engagedSessions": 15,
+   "engagementRate": 0.8823529411764706,
+   "keyEvents": 13,
+   "totalUsers": 16
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera",
+   "sessions": 17,
+   "engagedSessions": 7,
+   "engagementRate": 0.4117647058823529,
+   "keyEvents": 0,
+   "totalUsers": 13
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "sessions": 16,
+   "engagedSessions": 11,
+   "engagementRate": 0.6875,
+   "keyEvents": 0,
+   "totalUsers": 9
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/sistema-otopleniya-v-chastnom-dome-vybor-oborudovaniya-i-podklyuchenie",
+   "sessions": 15,
+   "engagedSessions": 7,
+   "engagementRate": 0.4666666666666667,
+   "keyEvents": 0,
+   "totalUsers": 15
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "sessions": 15,
+   "engagedSessions": 9,
+   "engagementRate": 0.6,
+   "keyEvents": 0,
+   "totalUsers": 12
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+   "sessions": 14,
+   "engagedSessions": 8,
+   "engagementRate": 0.5714285714285714,
+   "keyEvents": 0,
+   "totalUsers": 13
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "sessions": 14,
+   "engagedSessions": 4,
+   "engagementRate": 0.2857142857142857,
+   "keyEvents": 0,
+   "totalUsers": 6
+  },
+  {
+   "landingPagePlusQueryString": "/en/asics-cooling/hydro-systems",
+   "sessions": 13,
+   "engagedSessions": 11,
+   "engagementRate": 0.8461538461538461,
+   "keyEvents": 0,
+   "totalUsers": 12
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/whatsminer-series-m5x",
+   "sessions": 13,
+   "engagedSessions": 7,
+   "engagementRate": 0.5384615384615384,
+   "keyEvents": 2,
+   "totalUsers": 8
+  },
+  {
+   "landingPagePlusQueryString": "/en/ams/connect",
+   "sessions": 12,
+   "engagedSessions": 8,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 8,
+   "totalUsers": 11
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-immersionnoe-okhlazhdenie",
+   "sessions": 12,
+   "engagedSessions": 10,
+   "engagementRate": 0.8333333333333334,
+   "keyEvents": 0,
+   "totalUsers": 12
+  },
+  {
+   "landingPagePlusQueryString": "/en/ams?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc",
+   "sessions": 11,
+   "engagedSessions": 8,
+   "engagementRate": 0.7272727272727273,
+   "keyEvents": 0,
+   "totalUsers": 9
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/igrokov-v-bitcoin-miner-voznagrazhdayut-realnoy-kriptovalyutoy",
+   "sessions": 11,
+   "engagedSessions": 3,
+   "engagementRate": 0.2727272727272727,
+   "keyEvents": 0,
+   "totalUsers": 8
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/immersionnaya-zhidkost-kakuyu-vybrat-dlya-mayninga-i-pochemu",
+   "sessions": 11,
+   "engagedSessions": 5,
+   "engagementRate": 0.45454545454545453,
+   "keyEvents": 0,
+   "totalUsers": 8
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/antminer-19-series-profitability-and-price-guide",
+   "sessions": 10,
+   "engagedSessions": 3,
+   "engagementRate": 0.3,
+   "keyEvents": 0,
+   "totalUsers": 9
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/cmp-170hx-graphic-card-specifications-profit-and-roi",
+   "sessions": 10,
+   "engagedSessions": 6,
+   "engagementRate": 0.6,
+   "keyEvents": 0,
+   "totalUsers": 9
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/mining-trading-or-holding-what-to-choose-for-capital-growth",
+   "sessions": 10,
+   "engagedSessions": 5,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 10
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "sessions": 10,
+   "engagedSessions": 6,
+   "engagementRate": 0.6,
+   "keyEvents": 1,
+   "totalUsers": 10
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/417.7486",
+   "sessions": 10,
+   "engagedSessions": 1,
+   "engagementRate": 0.1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/products/container-hydro",
+   "sessions": 10,
+   "engagedSessions": 6,
+   "engagementRate": 0.6,
+   "keyEvents": 1,
+   "totalUsers": 9
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "sessions": 10,
+   "engagedSessions": 8,
+   "engagementRate": 0.8,
+   "keyEvents": 3,
+   "totalUsers": 6
+  },
+  {
+   "landingPagePlusQueryString": "/en/products/rack",
+   "sessions": 9,
+   "engagedSessions": 7,
+   "engagementRate": 0.7777777777777778,
+   "keyEvents": 0,
+   "totalUsers": 9
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/8-kriptodebetovyh-kart-kotorye-mozhno-ispolzovat-vo-vsem-mire-pryamo-seychas",
+   "sessions": 9,
+   "engagedSessions": 7,
+   "engagementRate": 0.7777777777777778,
+   "keyEvents": 0,
+   "totalUsers": 9
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/anons-proshivki-dlya-whatsminer",
+   "sessions": 9,
+   "engagedSessions": 9,
+   "engagementRate": 1,
+   "keyEvents": 1,
+   "totalUsers": 9
+  },
+  {
+   "landingPagePlusQueryString": "/ru/calc",
+   "sessions": 9,
+   "engagedSessions": 9,
+   "engagementRate": 1,
+   "keyEvents": 10,
+   "totalUsers": 9
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=muf7c9oufy632698137",
+   "sessions": 9,
+   "engagedSessions": 4,
+   "engagementRate": 0.4444444444444444,
+   "keyEvents": 2,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "sessions": 8,
+   "engagedSessions": 7,
+   "engagementRate": 0.875,
+   "keyEvents": 5,
+   "totalUsers": 7
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/407.1322",
+   "sessions": 8,
+   "engagedSessions": 7,
+   "engagementRate": 0.875,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/products/rack-hydro",
+   "sessions": 8,
+   "engagedSessions": 5,
+   "engagementRate": 0.625,
+   "keyEvents": 0,
+   "totalUsers": 6
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "sessions": 8,
+   "engagedSessions": 5,
+   "engagementRate": 0.625,
+   "keyEvents": 0,
+   "totalUsers": 6
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/antminer-s19-pro-vs-whatsminer-m30-unveiling-the-power-of-cryptocurrency-mining",
+   "sessions": 7,
+   "engagedSessions": 4,
+   "engagementRate": 0.5714285714285714,
+   "keyEvents": 0,
+   "totalUsers": 7
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/360.4329",
+   "sessions": 7,
+   "engagedSessions": 3,
+   "engagementRate": 0.42857142857142855,
+   "keyEvents": 1,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/360.4329ant5",
+   "sessions": 7,
+   "engagedSessions": 4,
+   "engagementRate": 0.5714285714285714,
+   "keyEvents": 0,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/39.4835",
+   "sessions": 7,
+   "engagedSessions": 3,
+   "engagementRate": 0.42857142857142855,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/products",
+   "sessions": 7,
+   "engagedSessions": 6,
+   "engagementRate": 0.8571428571428571,
+   "keyEvents": 4,
+   "totalUsers": 6
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/bitkoin-osobenno-rastet-po-vyhodnym-mif-ili-pravda",
+   "sessions": 7,
+   "engagedSessions": 3,
+   "engagementRate": 0.42857142857142855,
+   "keyEvents": 0,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-3-vspomogatelnye-instruktsii",
+   "sessions": 7,
+   "engagedSessions": 6,
+   "engagementRate": 0.8571428571428571,
+   "keyEvents": 0,
+   "totalUsers": 6
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/popular-erc-20-compatible-wallets",
+   "sessions": 6,
+   "engagedSessions": 3,
+   "engagementRate": 0.5,
+   "keyEvents": 1,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/4-firmware-installation-and-update",
+   "sessions": 6,
+   "engagedSessions": 2,
+   "engagementRate": 0.3333333333333333,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/success/request-antiminer",
+   "sessions": 6,
+   "engagedSessions": 6,
+   "engagementRate": 1,
+   "keyEvents": 7,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "sessions": 6,
+   "engagedSessions": 5,
+   "engagementRate": 0.8333333333333334,
+   "keyEvents": 0,
+   "totalUsers": 6
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/whatsminer-all-series",
+   "sessions": 6,
+   "engagedSessions": 4,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 6
+  },
+  {
+   "landingPagePlusQueryString": "",
+   "sessions": 5,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/en/calc",
+   "sessions": 5,
+   "engagedSessions": 5,
+   "engagementRate": 1,
+   "keyEvents": 5,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/products/container",
+   "sessions": 5,
+   "engagedSessions": 4,
+   "engagementRate": 0.8,
+   "keyEvents": 1,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/malenkiy-sekret-bolshogo-mayninga-nedorogie-fpga-kak-vyhod-iz-krizisa",
+   "sessions": 5,
+   "engagedSessions": 5,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/novye-asic-antminer-z11-razobrali-za-20-minut-po-predzakazu",
+   "sessions": 5,
+   "engagedSessions": 1,
+   "engagementRate": 0.2,
+   "keyEvents": 0,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/top-5-luchshih-smartfonov-dlya-fanatov-kriptovalyuty",
+   "sessions": 5,
+   "engagedSessions": 4,
+   "engagementRate": 0.8,
+   "keyEvents": 0,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/videokarta-cmp-170hx-harakteristiki-pribyl-i-okupaemost",
+   "sessions": 5,
+   "engagedSessions": 3,
+   "engagementRate": 0.6,
+   "keyEvents": 0,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mrd5e14ryj287420518",
+   "sessions": 5,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-dopolnitelnye-operatsii",
+   "sessions": 5,
+   "engagedSessions": 2,
+   "engagementRate": 0.4,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/whatsminer-series-m2x",
+   "sessions": 5,
+   "engagedSessions": 5,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/whatsminer-series-m6x",
+   "sessions": 5,
+   "engagedSessions": 3,
+   "engagementRate": 0.6,
+   "keyEvents": 0,
+   "totalUsers": 5
+  },
+  {
+   "landingPagePlusQueryString": "/ru/products/cell",
+   "sessions": 5,
+   "engagedSessions": 3,
+   "engagementRate": 0.6,
+   "keyEvents": 1,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/about",
+   "sessions": 4,
+   "engagedSessions": 1,
+   "engagementRate": 0.25,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/how-to-overclock-whatsminer-asics-over-50",
+   "sessions": 4,
+   "engagedSessions": 2,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/installing-the-updated-version-of-whatsminer-firmware",
+   "sessions": 4,
+   "engagedSessions": 4,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/results-of-the-bixbit-bug-bounty-program",
+   "sessions": 4,
+   "engagedSessions": 2,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/small-secret-of-big-mining-inexpensive-fpga-for-getting-out-the-crisis",
+   "sessions": 4,
+   "engagedSessions": 4,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic",
+   "sessions": 4,
+   "engagedSessions": 2,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/3-initial-device-setup-1",
+   "sessions": 4,
+   "engagedSessions": 3,
+   "engagementRate": 0.75,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware",
+   "sessions": 4,
+   "engagedSessions": 4,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/7-3-reset-miner-settings-to-factory-values",
+   "sessions": 4,
+   "engagedSessions": 1,
+   "engagementRate": 0.25,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/249.7067",
+   "sessions": 4,
+   "engagedSessions": 3,
+   "engagementRate": 0.75,
+   "keyEvents": 1,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/Quantum",
+   "sessions": 4,
+   "engagedSessions": 4,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/products/coolant",
+   "sessions": 4,
+   "engagedSessions": 2,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/en/products/server",
+   "sessions": 4,
+   "engagedSessions": 2,
+   "engagementRate": 0.5,
+   "keyEvents": 1,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/es/asics-cooling",
+   "sessions": 4,
+   "engagedSessions": 2,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/10-samyh-bystryh-superkompyuterov-v-mire",
+   "sessions": 4,
+   "engagedSessions": 3,
+   "engagementRate": 0.75,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/izrailskaya-specsluzhba-ishchet-specialista-po-kriptovalyutam-i-fintehu",
+   "sessions": 4,
+   "engagedSessions": 2,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/kak-sozdat-svoy-kriptoobmennik-za-10-shagov",
+   "sessions": 4,
+   "engagedSessions": 1,
+   "engagementRate": 0.25,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/kakuyu-kriptovalyutu-pokupat-10-mnogoobeshchayushchih-variantov-do-desyati-dollarov",
+   "sessions": 4,
+   "engagedSessions": 2,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/mining-ai-infrastructure-diversification",
+   "sessions": 4,
+   "engagedSessions": 2,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/razocharovavshiy-asik-innosilicon-a11-pro-obzor-harakteristiki-okupaemost",
+   "sessions": 4,
+   "engagedSessions": 3,
+   "engagementRate": 0.75,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/ustanovka-obnovlennoy-versii-proshivki-whatsminer",
+   "sessions": 4,
+   "engagedSessions": 4,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/contacts",
+   "sessions": 4,
+   "engagedSessions": 4,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?_ym_debug=1",
+   "sessions": 4,
+   "engagedSessions": 1,
+   "engagementRate": 0.25,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mudo7m45r5908907150",
+   "sessions": 4,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/podkliuchenie-dopolnitelnogo-bloka-pitaniia/rekomendatsii",
+   "sessions": 4,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/5-obshchie-rekomendatsii-po-razgonu-i-urovniu-napriazheniia-na-dopolnitelnom-bloke-pitaniia",
+   "sessions": 4,
+   "engagedSessions": 1,
+   "engagementRate": 0.25,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-dopolnitelnyi-funktsional",
+   "sessions": 4,
+   "engagedSessions": 4,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 4
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/310.5900",
+   "sessions": 4,
+   "engagedSessions": 3,
+   "engagementRate": 0.75,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/bixbit-releases-new-firmware-for-the-s17-s17-pro-bitmain-antminer-series-with-overclocking-potential-of-up-to-60",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/greenhouse-business-and-cryptocurrency-mining-how-to-become-a-successful-farmer-miner",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/killers-of-the-mining-equipment-getting-rid-of-noise-and-dust",
+   "sessions": 3,
+   "engagedSessions": 1,
+   "engagementRate": 0.3333333333333333,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/novec-and-coolant-liquids-comparison-why-we-stick-to-our-own-formula",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation",
+   "sessions": 3,
+   "engagedSessions": 1,
+   "engagementRate": 0.3333333333333333,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/connecting-an-additional-variable-power-supply-unit/5-general-recommendations-for-overclocking-and-voltage-levels-on-an-additional-power-supply",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/connecting-an-additional-variable-power-supply-unit/6-example-of-m30s-v70-miner-25-overclocking",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 1,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/appendix-3-sd-card-formatting-and-writing-an-image-to-the-sd-card",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network",
+   "sessions": 3,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/416.5950",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/chroot",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/whatsminer-all-series",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 3,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/whatsminer-series-m7x",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 2,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/en/products/cell",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/es/ams/connect",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 2,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+   "sessions": 3,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/besplatnyy-mayning-i-istochniki-vozobnovlyaemoy-energii-kak-eto-rabotaet",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/dobycha-bitkoinov-snova-dostupna-v-minecraft",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 1,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/kak-obnovit-proshivku-whatsminer",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+   "sessions": 3,
+   "engagedSessions": 1,
+   "engagementRate": 0.3333333333333333,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/populyarnye-koshelki-sovmestimye-s-er-20",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/proshivka-asic-antminer-l3-uluchshenie-effektivnosti-i-proizvoditelnosti",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/smart-kotel-dlya-umnogo-doma-kak-vybrat-i-sekonomit",
+   "sessions": 3,
+   "engagedSessions": 1,
+   "engagementRate": 0.3333333333333333,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/top-10-kriptoproektov-ot-tehnicheskih-razrabotchikov",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mufgpcoueb600861760",
+   "sessions": 3,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2b-otkliuchenie-proverki-ventiliatorov-bloka-pitaniia-dlia-mainerov-serii-m3x-m5x",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/cf",
+   "sessions": 3,
+   "engagedSessions": 3,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/products/coolant",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 3
+  },
+  {
+   "landingPagePlusQueryString": "/ru/products/rack",
+   "sessions": 3,
+   "engagedSessions": 2,
+   "engagementRate": 0.6666666666666666,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/ams/connect?email=ceo%40simplifi.com.br&name=fnettelecom&password=vagina22&repeatPassword=vagina22&agree=on",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 4,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/asics-cooling",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/asics-cooling/hydro-systems/whc-2.4-2u",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/antminer-19-series-profitability-and-price-guide?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=sge",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/bitmain-antminer-l7-review-specifications-price-payback",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/full-review-of-microbt-whatsminer-m50-m50s-and-m53-asics-features-profit-payback",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/the-effects-of-data-centers-on-the-environment",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/contacts",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 4,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/4-1-preparation-for-installing-bixbit-firmware",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/4-2-procedure-for-control-boards-h3-h6-or-h6os",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/appendix-2-determining-the-permissible-operating-temperature-limit-of-miners-chips-1",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/3-3-pool-and-worker-setup",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 1,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/5-immersion-cooling",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/169.2135",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/266.6021",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/asic-T17-plus",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/asic-s19",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 1,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/chort",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/mrwu",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/es/ams",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/es/firmwares/antminer",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/es/firmwares/google-site",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/ams/connect",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/asics-cooling/hydro-systems",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/besplatnoe-otoplenie-za-schet-mayninga-pribyl-v-pervyy-zhe-sezon",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/biznes-na-teplichnom-hozyaystve-i-dobyche-kriptovalyut-kak-stat-uspeshnym-fermerom-maynerom",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/cenovoy-grafik-bitkoina-narisoval-zolotoy-krest-vozmozhen-rost",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/kak-vosstanovit-bitkoin-koshelek-na-raznyh-os",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/kriptovalyuty-na-proof-of-stake-shest-interesnyh-variantov",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/legalnyy-mayning-kriptovalyut-vozobnovilsya-v-irane-no-s-usloviyami",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/mayning-na-videokartah-s-vodoblokami-zanimatsya-ili-net",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/obzor-fpga-ot-squirrel-budushchee-mayninga-na-2019-god",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/skolko-v-srednem-zanimaet-vzlom-bitkoin-koshelka",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/statuyu-satoshi-nakamoto-torzhestvenno-otkryli-v-budapeshte",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/v-kakih-stranah-bolshe-vsego-treyderov-kriptovalyut",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mktwrfln9k990132009",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mnc9k828kd226278075",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mueybfjohs685591373",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mujynr6chn432744656",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/3-montazh-i-podkliuchenie-dopolnitelnogo-bloka-pitaniia",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva?ysclid=mue311vp6q245804903",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "sessions": 2,
+   "engagedSessions": 1,
+   "engagementRate": 0.5,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/faq",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/asic-s9-s9j-s9i",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/whatsminer-series-m7x",
+   "sessions": 2,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares?ysclid=mugrenj7zi251121479",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/whatsminer/Whatsminer_m3x-m5x-m6x_2,8_normal-hotel_180RUant_AMS_249.7067_1.8.2_1psu.zip.",
+   "sessions": 2,
+   "engagedSessions": 2,
+   "engagementRate": 1,
+   "keyEvents": 1,
+   "totalUsers": 2
+  },
+  {
+   "landingPagePlusQueryString": "/antminer/Antminer_s21-t21-s19-t19-l7__normal_QuantumLOCAL1",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/ams?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc&google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3De377938d0bb753e6:TM%3D1789996010:C%3Dr:IP%3D2a09:bac3:9a:791::c1:8c-:S%3DBRScCuMa3Asrccc_htTN_E0%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DMon,+21-Sep-2026+16:06:50+GMT",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/asics-cooling/hydro-systems/hw-cluster-2.4",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/asics-cooling/hydro-systems/whr-200-2u",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/antminer-19-series-profitability-and-price-guide?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/bixbit-2025-year-in-numbers",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/bixbit-makes-mining-decentralized-and-accessible-to-everyone",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/firmware-update-log-for-whatsminer",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/how-does-immersion-cooling-work",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/how-to-calculate-the-pue-of-a-datacenter",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/how-to-mine-ravencoin",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/save-unprofitable-asic-equipment",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/blog/post/what-cryptocurrency-to-mine-in-2019-and-what-equipment-is-relevant",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/error-codes-for-whatsminer-asic",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/1-technical-requirements-1",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/3-2-data-display-setup-1",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/6-3-general-overclocking-strategy",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/6-4-overclocking-recommendations",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-1-boards-tab",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-additional-functionality-of-bixbit-firmware",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/new-user-guide-for-whatsminer-asic/appendix-3-2-writing-an-image-to-the-sd-card",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/6-1-overclocking-settings-page",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/6-5-overclocking-recommendations",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/appendix-1-2-hotel-fee",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/documentation/user-guide-for-whatsminer-asic/appendix-1-3-ams",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/faq",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/242.9391",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/273.2161",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/289.2359",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/377.6021",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/377.6021ant",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/383.1184",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/385.7004antminer",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/392.9771",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/393.7831",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/401.5205",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/408.5852",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/411.1975SergeyETH",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/425.6206",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 1,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/427.6242",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/ENSMM",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/asic-S17-S17Pro",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/asic-T9-plus",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares/whatsminer-series-m3x?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/firmwares?hl=es-US",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/products/container-1k",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en/products/pdu",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/en?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/es/asics-cooling/hydro-systems",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/es/asics-cooling/immersion-systems",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/es/firmwares",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/es/firmwares/whatsminer-series-m7x",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/<a href=",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/ams/connect?email=vovan4ikkosolapov%40mail.ru&password=Kindor-1",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 1,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/antminer-t17-harakteristiki-pribylnost-i-okupaemost",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/binance-menyaet-nazvanie-blokcheyna-i-tokena-tiker-bnb-ostalsya-prezhnim",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/bitkoin-logotip-istoriya-poyavleniya-i-razvitiya",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/bitkoin-maynery-uvereny-chto-ispolzovanie-solnechnoy-energii-snizhaet-rashody-na-75",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/chetyre-prichiny-beshenogo-rosta-ethereum-classic-na-etoy-nedele",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/chto-proizoshlo-s-ethereum-classic-set-vzbesilas-i-nachislyala-ogromnye-nagrady-za-blok",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/chto-proizoydet-kogda-dobudut-vse-bitkoiny-na-planete",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/evolyuciya-asic-chto-budet-s-vychislitelnymi-ustroystvami-dlya-mayninga",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/friendly-fork-v-seti-zcash-kak-poluchit-novye-tokeny-ycash-yec",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/gde-obitayut-samye-bogatye-kriptoinvestory-ssha-i-skolko-u-nih-sredstv",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/gde-seychas-vygodnee-vsego-dobyvat-kriptovalyutu-i-na-chto-obratit-vnimanie",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/heshreyt-seti-bitkoin-dostig-kosmicheskih-znacheniy-v-248-11-eh-s",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/iskusstvennyy-intellekt-i-kriptovalyuta-ozhidanie-vs-realnost",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/islandiya-ray-dlya-maynerov-kotorym-dovolny-ne-vse",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/kak-obnaruzhit-skam-ico-proekty-7-sovetov",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/kakaya-skorost-interneta-nuzhna-dlya-mayninga-na-asikah-i-fermah",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/kompaniya-ebay-zapustila-cifrovoy-koshelek-no-ne-dlya-kriptovalyut",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/likvidirovan-krupnyy-mayning-park-vo-vnutrenney-mongolii",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/luchshie-citaty-ilona-maska-pro-bitkoin-i-kriptovalyuty-v-hode-efira-20-fevralya",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/mayning-na-dache-seychas-vygodnee-vsego-istoriya-iz-orenburga",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/mayning-na-poputnom-neftyanom-gaze-kak-izbezhat-shtrafov-i-problem-s-ekologiey",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/mobilnyy-mayning-preimushchestva-i-nedostatki",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/obnaruzhennyy-v-monero-bag-postavil-pod-ugrozu-anonimnost-tranzakciy",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/ohlazhdenie-asikov-trendy-2026",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/ohlazhdenie-mayning-fermy",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/pervaya-kriptobirzha-zarabotala-v-belarusi",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/razgon-antminer-l7",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/s-gonshchikom-nascar-vpervye-v-istorii-rasschitayutsya-v-kriptovalyute",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/samyy-vygodnyy-mayner-x11-algoritma-chto-est-na-rynke",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/svezhiy-kitayskiy-reyting-kriptovalyut-tron-vtoraya-bitcoin-13-ya",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/tainstvenno-skonchalsya-odin-iz-samyh-yaryh-bitkoin-maksimalistov-m-popesku",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/ubiycy-oborudovaniya-dlya-mayninga-izbavlyaemsya-ot-shuma-i-pyli",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/ukrainskaya-novaya-pochta-ocenila-sgorevshiy-asic-v-7-dollarov",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/uyazvimost-windows-pytalis-ispolzovat-dlya-mayninga-monero",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/v-kriptokoshelke-metamask-nayden-novyy-sposob-moshennichestva",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/v-ukraine-obnaruzhili-rekordnuyu-mayning-fermu-na-5-tys-ustroystv",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/blog/post/zachem-nuzhna-anonimnost-v-kriptovalyutah-i-nadolgo-li-ee-hvatit",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mucsai4cql375670297",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=muelz7x6ae467125197",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=muenlagv4440981267",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mueqz7i9f7181835262",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=muerult2j322543877",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mueskvswe1882146335",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mueuuaqib5611118321",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=muewh04wjr221562776",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=muffjadvdm565261350",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mujhhdyfiz318756296",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=mujk9w0orh731105927",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia?ysclid=muku65ypw5480355492",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/podkliuchenie-dopolnitelnogo-bloka-pitaniia",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-antminer-asic",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva?ysclid=mufmv2xav0275408175",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-1-podgotovka-k-ustanovke-proshivki-bixbit",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-2-algoritm-deistvii-na-kpu-h3-h6-ili-h6os",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-3-algoritmy-deistvii-na-kpu-h616",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera?ysclid=mucofjq6w198012696",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera?ysclid=mudw5qn6r7464754841",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 1,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera?ysclid=mudytn66u1634710508",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera?ysclid=mue0vz8mfl325228105",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera?ysclid=muigkl116141110888",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2-obnovlenie-proshivki-bloka-pitaniia",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2-otkliuchenie-proverki-osnovnykh-ventiliatorov-na-ustroistve",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-1-stranitsa-s-nastroikami-razgona",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona?ysclid=mujdb16y4511134380",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-4-ustanovka-zavodskoi-proshivki",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-dopolnitelnye-operatsii?ysclid=muf5171g8804274281",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-2-hotel-fee",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera?ysclid=mucwbwysc0671889057",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera?ysclid=mudon15nlr776118076",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/en",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/182.1772antminer",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/324.2490NEW",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/66.3565",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/Quantum",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/Yandex-site?amp;utm_medium=cpc&amp;utm_campaign=search_RSJA_proshivka_RF_download&amp;yclid=5033092009908240383&amp;ybaip=1",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/asic-s19",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/whatsminer-series-m3x?ysclid=mugxdzr8oe449950045",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares/whatsminer-series-m3x?ysclid=muilmphhix158894231",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares?ysclid=mucw0yub2721021374",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares?ysclid=mue8rvbatv73030824",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares?ysclid=muf6slkktt166195259",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares?ysclid=muj961puoj227109901",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/firmwares?ysclid=mukp12fg4k589495452",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/products/container",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/products/container-hydro",
+   "sessions": 1,
+   "engagedSessions": 0,
+   "engagementRate": 0,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru/products/rack-hydro",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru?ysclid=mucovclkip284565200",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 3,
+   "totalUsers": 1
+  },
+  {
+   "landingPagePlusQueryString": "/ru?ysclid=mudvslhfsi152265912",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "engagementRate": 1,
+   "keyEvents": 0,
+   "totalUsers": 1
+  }
+ ]
+}

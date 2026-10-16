@@ -1,0 +1,448 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "38.9023 sec.",
+ "cost": 0.070117,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09251234-2548-0612-0000-eb76df080487",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "38.8847 sec.",
+   "cost": 0.070117,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "ai_optimization",
+    "claude",
+    "llm_responses",
+    "live"
+   ],
+   "data": {
+    "api": "ai_optimization",
+    "function": "llm_responses",
+    "se": "claude",
+    "user_prompt": "What is the best custom firmware for Antminer miners in 2026? Name specific vendors.",
+    "model_name": "claude-sonnet-4-6",
+    "web_search": true,
+    "web_search_country_iso_code": "US",
+    "max_output_tokens": 2000,
+    "tag": "q1"
+   },
+   "result": [
+    {
+     "model_name": "claude-sonnet-4-6",
+     "input_tokens": 10824,
+     "output_tokens": 1803,
+     "reasoning_tokens": 0,
+     "web_search": true,
+     "money_spent": 0.069517,
+     "datetime": "2026-09-25 12:34:55 +00:00",
+     "items": [
+      {
+       "type": "message",
+       "sections": [
+        {
+         "type": "text",
+         "text": "Here is a breakdown of the **best custom firmware options for Antminer miners in 2026**, with specific vendors:\n\n---\n\n## 🏆 Top Custom Firmware for Antminer Miners in 2026\n\n---\n\n### 1. 🥇 **Braiins OS** (by Braiins)\n**Website:** braiins.com\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Braiins OS lets you mine more Bitcoin at any power limit, optimize chip performance, and increase ASIC lifespan. It's designed for large-scale operations and supports all major Bitmain Antminer models.",
+         "annotations": [
+          {
+           "title": "Braiins OS | Mining Firmware",
+           "url": "https://braiins.com/os-firmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\nKey highlights:\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "**Autotuning:** Profiles each chip individually and adjusts voltage/frequency for optimal efficiency at any power target you set — you tell it your wattage ceiling and it figures out the best hashrate within that envelope.",
+         "annotations": [
+          {
+           "title": "Custom Firmware for Antminer S19: The Complete Guide to Unlocking Your Miner - D-Central",
+           "url": "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "**Stratum V2 support:** It is the only major Antminer firmware with native support for the next-generation mining protocol, which lets miners construct their own block templates instead of blindly hashing whatever the pool dictates — a genuine step toward mining decentralization.",
+         "annotations": [
+          {
+           "title": "Custom Firmware for Antminer S19: The Complete Guide to Unlocking Your Miner - D-Central",
+           "url": "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "**Demand response:** Can automatically curtail mining during peak electricity pricing periods and ramp back up during off-peak hours.",
+         "annotations": [
+          {
+           "title": "Custom Firmware for Antminer S19: The Complete Guide to Unlocking Your Miner - D-Central",
+           "url": "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "**Cold-weather pre-heating:** Ramps chips gradually in sub-zero temperatures to prevent thermal shock — essential for miners running in unheated spaces.",
+         "annotations": [
+          {
+           "title": "Custom Firmware for Antminer S19: The Complete Guide to Unlocking Your Miner - D-Central",
+           "url": "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Proven and reliable since 2018, Braiins OS has operated on hundreds of thousands of miners.",
+         "annotations": [
+          {
+           "title": "Braiins OS | Mining Firmware",
+           "url": "https://braiins.com/os-firmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "It carries a **2–2.5% dev fee** in standalone use but is the autotuning gold standard.",
+         "annotations": [
+          {
+           "title": "Best Open-Source Firmware for the Antminer S9 (2026)",
+           "url": "https://d-central.tech/best-open-source-firmware-antminer-s9-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n---\n\n### 2. 🥈 **LuxOS** (by Luxor Technology)\n**Website:** luxor.tech\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "LuxOS is an Antminer-native firmware built to operate at the intersection of hardware performance, energy economics, and site-level constraints. It is designed as part of Luxor's full-stack mining platform, emphasizing reliability and real-time optimization.",
+         "annotations": [
+          {
+           "title": "Top 5 Bitcoin Mining Firmware for 2026",
+           "url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\nKey highlights:\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "**System-level intelligence:** It continuously adapts machine behavior based on power prices, thermal conditions, and operational objectives, making it particularly effective in volatile energy markets like ERCOT.",
+         "annotations": [
+          {
+           "title": "Top 5 Bitcoin Mining Firmware for 2026",
+           "url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "**AutoTuner** automatically finds optimal hashpower and efficiency settings without manual intervention.",
+         "annotations": [
+          {
+           "title": "Top 5 Bitcoin Mining Firmware for 2026",
+           "url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "**Advanced Thermal Management (ATM)** actively manages heat to reduce hardware degradation and downtime.",
+         "annotations": [
+          {
+           "title": "Top 5 Bitcoin Mining Firmware for 2026",
+           "url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "**Power Targeting** enables precise control over site-level power consumption to align with energy economics and grid conditions.",
+         "annotations": [
+          {
+           "title": "Top 5 Bitcoin Mining Firmware for 2026",
+           "url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n---\n\n### 3. 🥉 **VNish Firmware** (by VNish)\n**Website:** vnish.net\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "VNish made aftermarket Antminer firmware mainstream.",
+         "annotations": [
+          {
+           "title": "Best Open-Source Firmware for the Antminer S9 (2026)",
+           "url": "https://d-central.tech/best-open-source-firmware-antminer-s9-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": " It is widely regarded as one of the most field-proven and accessible options, especially for the S19 and S21 series.\n\nKey highlights:\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Custom Antminer firmware that replaces stock firmware and unlocks features like autotuning, overclocking, and undervolting to increase hashrate by 10–25% while reducing power consumption.",
+         "annotations": [
+          {
+           "title": "Antminer Firmware Download | S21, S19, T21",
+           "url": "https://www.hashrate.farm/mining-hub/firmwares",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- Known for its ease of use, active community support, and broad model compatibility.\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Best suited for miners who want **maturity and field-proven stability**.",
+         "annotations": [
+          {
+           "title": "Best Open-Source Firmware for the Antminer S9 (2026)",
+           "url": "https://d-central.tech/best-open-source-firmware-antminer-s9-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n---\n\n### 4. **Awesome Miner Firmware** (by Awesome Miner)\n**Website:** awesomeminer.com\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Offers easy-to-use presets for overclocking and underclocking, a sleep mode to pause mining and consume very little power, and flexible manual tuning with many configuration settings.",
+         "annotations": [
+          {
+           "title": "Awesome Miner Firmware for Antminer",
+           "url": "https://www.awesomeminer.com/antminerfirmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "The mining fee is based on a **parallel mining concept** to avoid interruptions to normal mining; the firmware with a **2.8% mining fee** includes an Awesome Miner license.",
+         "annotations": [
+          {
+           "title": "Awesome Miner Firmware for Antminer",
+           "url": "https://www.awesomeminer.com/antminerfirmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          },
+          {
+           "title": "Awesome Miner Firmware for Antminer",
+           "url": "https://www.awesomeminer.com/antminerfirmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n---\n\n### 5. **BiXBiT Firmware** (by BiXBiT)\n**Website:** bixbit.io\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "For Antminer S19 models, BiXBiT offers a **Profile Switcher** to define a range of profiles and set switching conditions, such as temperature thresholds.",
+         "annotations": [
+          {
+           "title": "Antminer Firmware by BiXBiT – Your Custom Firmware",
+           "url": "https://bixbit.io/en/firmwares/antminer",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": " It is a solid choice for miners wanting granular thermal and performance profile management.\n\n---\n\n### 6. **DCENT_OS** (by D-Central) *(Emerging — Beta)*\n**Website:** d-central.tech\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "DCENT_OS is D-Central's from-scratch, GPL-3.0 firmware running its active closed beta on the S9. It is the only one targeting **100% open source** with a **0% mandatory dev fee**, but it is beta software that can brick your miner, and there is no public download yet.",
+         "annotations": [
+          {
+           "title": "Best Open-Source Firmware for the Antminer S9 (2026)",
+           "url": "https://d-central.tech/best-open-source-firmware-antminer-s9-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "The public beta and downloadable source are planned for **summer 2026**.",
+         "annotations": [
+          {
+           "title": "Best Open-Source Firmware for the Antminer S9 (2026)",
+           "url": "https://d-central.tech/best-open-source-firmware-antminer-s9-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n---\n\n## 📊 Quick Comparison\n\n| Firmware | Vendor | Best For | Dev Fee |\n|---|---|---|---|\n| **Braiins OS** | Braiins | Large fleets, SV2, autotuning | ~2–2.5% |\n| **LuxOS** | Luxor Technology | Energy market optimization | Varies |\n| **VNish** | VNish | Broad compatibility, ease of use | Low |\n| **Awesome Miner** | Awesome Miner | Integrated management | ~2.8% |\n| **BiXBiT** | BiXBiT | Profile/thermal management | Varies |\n| **DCENT_OS** | D-Central | Open-source, 0% fee (beta) | 0% |\n\n---\n\n## Key Takeaway\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "In 2026, firmware is a major lever for taking your mining operations ahead of the curve. Custom firmware adoption is now a prerequisite for remaining competitive as energy economics and hardware efficiency floors define outcomes throughout this mining epoch.",
+         "annotations": [
+          {
+           "title": "Top 5 Bitcoin Mining Firmware for 2026",
+           "url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Braiins OS** and **LuxOS** are the top enterprise-grade choices, **VNish** is the most popular for individual and mid-scale miners, and **DCENT_OS** is one to watch for the open-source community.",
+         "annotations": null
+        }
+       ]
+      }
+     ],
+     "fan_out_queries": [
+      "best custom firmware Antminer 2026"
+     ]
+    }
+   ]
+  }
+ ]
+}

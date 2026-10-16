@@ -3,7 +3,8 @@
 **Cluster:** immersion-cooling-mining
 **Brief type:** Spoke — commercial investigation / buyer's guide
 **Created:** 2026-06-19
-**Priority:** P1
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. asic immersion cooling tank 10/mo; the rest n/d.
+**Target (architecture v2, 2026-09-25):** `/en/asics-cooling/immersion-systems` (existing page), H2 Tanks and system components, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 
 ---
 
@@ -22,14 +23,16 @@ Capture buyers researching immersion cooling tanks as the physical product. Oper
 
 ## Target Keywords
 
-| Type | Keyword | Volume |
-|---|---|---|
-| Primary | `mining immersion tank` | N/A |
-| Secondary | `bitcoin miner immersion tank` | N/A |
-| Secondary | `ASIC immersion cooling tank` | N/A |
-| Secondary | `immersion cooling tank mining` | N/A |
-| Long-tail | `immersion cooling tank specifications mining` | N/A |
-| Long-tail | `how many miners in an immersion tank` | N/A |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Type | Keyword | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Primary | `mining immersion tank` | n/d (<10) | — | — |
+| Secondary | `bitcoin miner immersion tank` | n/d (<10) | — | — |
+| Secondary | `ASIC immersion cooling tank` | 10 | — | — |
+| Secondary | `immersion cooling tank mining` | n/d (<10) | — | — |
+| Long-tail | `immersion cooling tank specifications mining` | n/d (<10) | — | — |
+| Long-tail | `how many miners in an immersion tank` | n/d (<10) | — | — |
 
 ---
 

@@ -1,8 +1,9 @@
 # Content Brief: Antminer Firmware Comparison
 **URL:** /en/antminer-firmware/comparison
 **File:** content/briefs/antminer-firmware-comparison.md
-**Last updated:** 2026-06-18
-**Priority:** P1 (highest commercial intent after the pillar)
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P0 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Promoted. Ads volume for the comparison queries is n/d (<10), but the competitor brand terms are real (braiins os 210, vnish firmware 140, luxos firmware 10) and in the 2026-09-25 GEO measurement LLMs answer comparison prompts from third-party pages without BiXBiT. The priority comes from GEO and competitive gap evidence, not volume.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/comparison` (NEW page), Main page content (new page), Antminer part, section priority P0. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Technical writer + firmware engineer + marketing review for accuracy]
 
 ---
@@ -22,14 +23,16 @@ Capture operators at the final evaluation stage who are comparing firmware optio
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer firmware comparison | Primary | — | — |
-| braiins os vs vnish | Competitor comparison | — | — |
-| best antminer custom firmware | Commercial | — | — |
-| antminer firmware alternatives | Commercial | — | — |
-| braiins vs luxos vs epic | Competitor comparison | — | — |
-| bixbit vs braiins | Brand comparison | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer firmware comparison | Primary | n/d (<10) | — | — |
+| braiins os vs vnish | Competitor comparison | n/d (<10) | — | — |
+| best antminer custom firmware | Commercial | n/d (<10) | — | — |
+| antminer firmware alternatives | Commercial | n/d (<10) | — | — |
+| braiins vs luxos vs epic | Competitor comparison | n/d (<10) | — | — |
+| bixbit vs braiins | Brand comparison | n/d (<10) | — | — |
 
 ---
 
@@ -119,7 +122,7 @@ If independent benchmark data is not available, clearly state: "The efficiency f
 Practical cost comparison for fleet operators — this is a differentiator section:
 - Explain: dev fee is a perpetual ongoing cost, not a one-time purchase
 - Framework: Annual dev fee cost = (fleet hashrate × dev fee %) × (Bitcoin network earnings per TH/s) [Note: do not insert profitability projections — use a framework only]
-- At fleet scale, dev fee differences compound significantly: [VERIFY: if BiXBiT has 0% dev fee, the framework clearly shows the cost advantage without making profitability claims]
+- At fleet scale, dev fee differences compound significantly: [VERIFY: 2.8% / 2% M2x]. BiXBiT's fee is not the lowest (ePIC advertises 1.5% [VERIFY]), so compare total cost of ownership (efficiency gain minus fee) without making profitability claims
 - Alternative framing: "A 2% dev fee on 1,000 units is the equivalent of 20 units producing zero output for the fleet operator"
 
 ### H2: Fleet Management Comparison

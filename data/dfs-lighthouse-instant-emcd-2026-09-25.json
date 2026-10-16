@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-25",
+  "source": "DataForSEO on_page lighthouse/live/json (mobile, LH 13.4.0, simulated, 1 run), instant_pages (JS on), task_post crawl 40 pages + raw_html (JS off, Googlebot UA)",
+  "task_ids": {"crawl_home": "09251246-2548-0216-0000-cac299306b6e", "crawl_articles": "09251246-2548-0216-0000-b76e907a08fa"},
+  "lighthouse": {
+    "https://emcd.io/": {"perf": 0.31, "bp": 0.77, "seo": 0.85, "a11y": 0.83, "lcp_ms": 16252, "cls": 0.096, "tbt_ms": 4987, "ttfb_ms": 301, "bytes": 10892105, "tti_ms": 25590},
+    "https://emcd.io/fw/": {"perf": 0.34, "bp": 0.77, "seo": 0.92, "a11y": 0.85, "lcp_ms": 13233, "cls": 0.005, "tbt_ms": 8504, "ttfb_ms": 406, "bytes": 6860119, "tti_ms": 23136}
+  },
+  "article_lighthouse": "not run (single article checked via raw_html only)",
+  "instant_pages": {
+    "https://emcd.io/": {"onpage_score": 97.07, "og_image": "https://emcd.io/og-en.png 1024x512", "twitter_tags": 5, "og_locale_alternate": "ru_RU", "server": "cloudflare", "encoding": "gzip", "html_errors": 0},
+    "https://emcd.io/fw/": {"onpage_score": 86.36, "og_image": "EMPTY", "twitter_card": "content='summary_large_image' (malformed)", "twitter_image": "EMPTY", "og_site_name": "= page title (wrong)", "html_errors": 0}
+  },
+  "hreflang": {
+    "home_and_fw": "x-default(dup) + en + en-US + ru/ru-RU + pt/pt-BR + es/es-ES + zh/zh-CN; subfolders /ru/ /pt/ /es/ /zh/",
+    "article": "en/en-US/x-default + ru/ru-RU + pt/pt-BR + es/es-ES with localized slugs",
+    "untranslated_locale_pages": ["/de/articles/", "/fr/articles/", "/id/articles/ (English title, self-canonical, not in hreflang cluster)"],
+    "wrong_language": "/security/ title in Spanish on EN URL"
+  },
+  "schema": {
+    "home": "no JSON-LD; microdata Organization (footer)",
+    "fw": "no JSON-LD; microdata Organization only",
+    "article": "Article JSON-LD: author Person 'Mikael Abgaryan' (no url), datePublished '9/2/2026' (not ISO 8601), no dateModified, publisher logo relative '/logo.svg', mainEntityOfPage @id relative; microdata BreadcrumbList"
+  },
+  "robots": "200, Disallow app areas + /_nuxt/ + *.pdf, Sitemap: https://emcd.io/sitemap.xml",
+  "sitemap": "200, 233517 bytes, contents not parsed (no raw access)",
+  "llms_txt": 404,
+  "domain_checks": {"http2": true, "ssl": true, "https_redirect": true, "page_not_found_status_code": 301},
+  "no_access": ["curl (denied)", "response headers/HSTS", "PageSpeed API 500", "CrUX 403"]
+}

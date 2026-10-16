@@ -1,0 +1,15 @@
+{
+ "engine": "chat_gpt",
+ "model": "gpt-4.1-mini-2025-04-14",
+ "prompt": "Who are the leading immersion cooling solution providers for industrial bitcoin mining?",
+ "datetime_or_task_id": "2026-09-25 12:35:34 +00:00 / 09251235-2548-0612-0000-46931f56a45a",
+ "answer_text": "Several companies are at the forefront of providing immersion cooling solutions tailored for industrial Bitcoin mining operations. Here are some leading providers:\n\n**[E3NV](https://www.google.com/maps/search/E3NV%2C+United+States?utm_source=openai)**\n_United States_\nAn American-owned company specializing in Gen-2 Dual-Phase Immersion Cooling, offering comprehensive Data Center 2.0 solutions with over a decade of innovation in immersion cooling.\n\n**[AsicShield](https://www.google.com/maps/search/AsicShield%2C+China?utm_source=openai)**\n_China_\nProvides advanced immersion and hydro cooling solutions for crypto mining, including complete systems for Antminer S19 and Whatsminer models, focusing on efficiency and scalability.\n\n**[CryptoTherm](https://www.google.com/maps/search/CryptoTherm%2C+Canada?utm_source=openai)**\n_Canada_\nSpecializes in high-performance mining systems that convert stranded natural gas or grid energy into profit, offering scalable air-cooled and immersion systems for operations of all sizes.\n\n**[MinerWinner](https://www.google.com/maps/search/MinerWinner%2C+China?utm_source=openai)**\n_China_\nDelivers advanced liquid-cooling solutions, including hydro and immersion (oil) cooling, designed to enhance mining efficiency and extend hardware lifespan.\n\n**[BiXBiT](https://www.google.com/maps/search/BiXBiT%2C+Europe?utm_source=openai)**\n_Europe_\nOffers immersion cooling systems that improve energy efficiency, increase hashrate, and extend equipment lifespan, suitable for various mining devices.\n\n**[Midas Immersion Cooling](https://www.google.com/maps/search/Midas+Immersion+Cooling%2C+United+States?utm_source=openai)**\n_United States_\nProvides state-of-the-art immersion cooling equipment solutions that reduce power consumption, capital expenses, and space requirements compared to traditional air cooling.\n\nThese companies are recognized for their innovative approaches to immersion cooling, addressing the unique challenges of industrial Bitcoin mining by enhancing efficiency, reducing noise, and extending equipment lifespan. ",
+ "cited_urls": [
+  "https://www.google.com/maps/search/E3NV%2C+United+States",
+  "https://www.google.com/maps/search/AsicShield%2C+China",
+  "https://www.google.com/maps/search/CryptoTherm%2C+Canada",
+  "https://www.google.com/maps/search/MinerWinner%2C+China",
+  "https://www.google.com/maps/search/BiXBiT%2C+Europe",
+  "https://www.google.com/maps/search/Midas+Immersion+Cooling%2C+United+States"
+ ]
+}

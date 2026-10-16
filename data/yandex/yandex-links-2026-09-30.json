@@ -1,0 +1,752 @@
+{
+ "pulled_at": "2026-09-30T13:30:45",
+ "host": {
+  "host_id": "https:bixbit.io:443",
+  "verified": true,
+  "main_mirror": null,
+  "ascii_host_url": "https://bixbit.io/",
+  "unicode_host_url": "https://bixbit.io/"
+ },
+ "report": "links",
+ "window": [
+  "2026-09-02",
+  "2026-09-30"
+ ],
+ "data": {
+  "samples": {
+   "count": 1803,
+   "links": [
+    {
+     "source_url": "https://golos.id/bixbit/@bixbit.official/kak-neiroseti-uchatsya-za-vas-i-gde-ikh-ispolzuyut",
+     "destination_url": "https://bixbit.io/ru",
+     "discovery_date": "2026-09-11",
+     "source_last_access_date": "2026-09-11"
+    },
+    {
+     "source_url": "https://minecool.ru/catalog/tproduct/2026456321-407856729121-proshivka-dlya-whatsminer-m20-m30-m50",
+     "destination_url": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "discovery_date": "2026-09-10",
+     "source_last_access_date": "2026-09-15"
+    },
+    {
+     "source_url": "https://minecool.ru/catalog/tproduct/2026456321-407856729121-proshivka-dlya-whatsminer-m20-m30-m50",
+     "destination_url": "https://bixbit.io/ru/firmwares/66.3565",
+     "discovery_date": "2026-09-10",
+     "source_last_access_date": "2026-09-15"
+    },
+    {
+     "source_url": "https://nkenergo.su/stroitelstvo/maslo-provodit-tok-ili-net",
+     "destination_url": "https://bixbit.io/uploads/posts/M7bT3e7MMG.jpeg",
+     "discovery_date": "2026-09-06",
+     "source_last_access_date": "2026-09-06"
+    },
+    {
+     "source_url": "https://nkenergo.su/stroitelstvo/maslo-provodit-tok-ili-net",
+     "destination_url": "https://bixbit.io/uploads/posts/x0FJrd_NOVEC.jpg.pagespeed.ic.K-V49--yaj.jpg",
+     "discovery_date": "2026-09-06",
+     "source_last_access_date": "2026-09-06"
+    },
+    {
+     "source_url": "https://ap-pro.ru/forums/topic/3099-krah-bitkoina/page/4/",
+     "destination_url": "https://bixbit.io/ru/blog/post/besplatnyy-mayning-i-istochniki-vozobnovlyaemoy-energii-kak-eto-rabotaet",
+     "discovery_date": "2026-09-05",
+     "source_last_access_date": "2026-09-05"
+    },
+    {
+     "source_url": "https://stupen.com/investicii-i-prognozy/oborudovanie-dlya-majninga-bitkoina-2026-chto-vybrat-chtoby-ne-progoret/",
+     "destination_url": "https://bixbit.io/en/blog/post/hydro-asic-2026-ranking-models-for-largescale-mining-farms",
+     "discovery_date": "2026-09-05",
+     "source_last_access_date": "2026-09-05"
+    },
+    {
+     "source_url": "https://77thhub.asia/v/etBUsGNUfLA",
+     "destination_url": "https://bixbit.io/ru",
+     "discovery_date": "2026-08-31",
+     "source_last_access_date": "2026-08-31"
+    },
+    {
+     "source_url": "https://promining.net/ru/proshivka-dlya-asic-whatsminer-serii-m3x/",
+     "destination_url": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "discovery_date": "2026-08-30",
+     "source_last_access_date": "2026-08-30"
+    },
+    {
+     "source_url": "https://miningclub.info/threads/whatsminer-m30-m50-m50s-m61-m60s-proshivki.104826/page-26",
+     "destination_url": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-2-obnovlenie-proshivki-s-pomoshchiu-sd-karty",
+     "discovery_date": "2026-08-30",
+     "source_last_access_date": "2026-08-30"
+    },
+    {
+     "source_url": "https://bixbit.tech/en/firmwares/asic-T17-plus",
+     "destination_url": "https://bixbit.io/assets/docs/en/privacy_policy.pdf",
+     "discovery_date": "2026-08-30",
+     "source_last_access_date": "2026-09-16"
+    },
+    {
+     "source_url": "https://bixbit.tech/en/firmwares/asic-T17-plus",
+     "destination_url": "https://bixbit.io/assets/docs/en/terms_of_use.pdf",
+     "discovery_date": "2026-08-30",
+     "source_last_access_date": "2026-09-16"
+    },
+    {
+     "source_url": "https://stupen.com/zarabotok-na-kripte/majningovaya-ferma-asic-kak-zarabotat-na-kriptovalyute-v-2026-godu-i-ne-progoret/",
+     "destination_url": "https://bixbit.io/ru/blog/post/hydro-asic-2026-rejting-modelej-dlya-krupnyh-ferm",
+     "discovery_date": "2026-08-30",
+     "source_last_access_date": "2026-08-30"
+    },
+    {
+     "source_url": "https://itisgood.ru/2023/09/21/%D1%84%D0%B8%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-asic-%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2/",
+     "destination_url": "https://bixbit.io/ru/firmwares/asic-s19",
+     "discovery_date": "2026-08-28",
+     "source_last_access_date": "2026-08-28"
+    },
+    {
+     "source_url": "https://pro-investing.ru/kak-zarabatyvat-na-ton/",
+     "destination_url": "https://bixbit.io/ru/blog/post/kak-maynit-v-ton-mozhno-li-zarabotat-na-blokcheyne-pavla-durova",
+     "discovery_date": "2026-08-27",
+     "source_last_access_date": "2026-08-27"
+    },
+    {
+     "source_url": "https://pc-4you.ru/periferiya/bixbit-coolant-immersionnaya-zhidkost",
+     "destination_url": "https://bixbit.io/ru/products/coolant",
+     "discovery_date": "2026-08-27",
+     "source_last_access_date": "2026-08-27"
+    },
+    {
+     "source_url": "https://by.tgstat.com/channel/@BiXBiT_Dev_News_ru/13",
+     "destination_url": "https://bixbit.io/ru/bug-bounty",
+     "discovery_date": "2026-08-26",
+     "source_last_access_date": "2026-08-26"
+    },
+    {
+     "source_url": "https://mena.b.tc/",
+     "destination_url": "https://bixbit.io/en",
+     "discovery_date": "2026-08-25",
+     "source_last_access_date": "2026-09-11"
+    },
+    {
+     "source_url": "https://budetdom.com/dizayn/shema-obvyazki-elektrokotla-otopleniya-v-chastnom-dome-s-radiatorami",
+     "destination_url": "https://bixbit.io/uploads/posts/StgHY_1-image0053.png",
+     "discovery_date": "2026-08-22",
+     "source_last_access_date": "2026-08-22"
+    },
+    {
+     "source_url": "https://budetdom.com/dizayn/shema-obvyazki-elektrokotla-otopleniya-v-chastnom-dome-s-radiatorami",
+     "destination_url": "https://bixbit.io/uploads/posts/StgHY_1-image0053.png",
+     "discovery_date": "2026-08-22",
+     "source_last_access_date": "2026-08-22"
+    },
+    {
+     "source_url": "https://www.scam-detector.com/validator/bixbit-io-review/",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-08-22",
+     "source_last_access_date": "2026-08-22"
+    },
+    {
+     "source_url": "https://askai.glarity.app/ru/search/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-WhatsMinerTool-%D0%B8-%D0%BA%D0%B0%D0%BA-%D0%BE%D0%BD-%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D0%B5%D1%82-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%BC",
+     "destination_url": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-1-obnovlenie-proshivki-s-pomoshchiu-utility-whatsminertool",
+     "discovery_date": "2026-08-18",
+     "source_last_access_date": "2026-08-18"
+    },
+    {
+     "source_url": "https://forpes.ru/post/83422",
+     "destination_url": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+     "discovery_date": "2026-08-17",
+     "source_last_access_date": "2026-08-17"
+    },
+    {
+     "source_url": "https://prohoster.info/et/blog/administrirovanie/asic-majner-second-hand-riski-proverka-i-perekleennyj-heshrejt",
+     "destination_url": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+     "discovery_date": "2026-08-16",
+     "source_last_access_date": "2026-08-16"
+    },
+    {
+     "source_url": "https://prohoster.info/kk/blog/administrirovanie/asic-majner-second-hand-riski-proverka-i-perekleennyj-heshrejt",
+     "destination_url": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+     "discovery_date": "2026-08-16",
+     "source_last_access_date": "2026-08-16"
+    },
+    {
+     "source_url": "https://nkenergo.su/stroitelstvo/maslo-provodit-tok-ili-net",
+     "destination_url": "https://bixbit.io/uploads/posts/M7bT3e7MMG.jpeg",
+     "discovery_date": "2026-08-16",
+     "source_last_access_date": "2026-08-16"
+    },
+    {
+     "source_url": "https://nkenergo.su/stroitelstvo/maslo-provodit-tok-ili-net",
+     "destination_url": "https://bixbit.io/uploads/posts/x0FJrd_NOVEC.jpg.pagespeed.ic.K-V49--yaj.jpg",
+     "discovery_date": "2026-08-16",
+     "source_last_access_date": "2026-08-16"
+    },
+    {
+     "source_url": "https://daisye.pages.dev/08/BJobXfFCcI",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-08-11",
+     "source_last_access_date": "2026-08-11"
+    },
+    {
+     "source_url": "https://stupen.com/zarabotok-na-kripte/majning-kripty-v-2026-kak-zarabatyvat-poka-drugie-teryayut-dengi/",
+     "destination_url": "https://bixbit.io/ru/blog/post/hydro-asic-2026-rejting-modelej-dlya-krupnyh-ferm",
+     "discovery_date": "2026-08-11",
+     "source_last_access_date": "2026-09-05"
+    },
+    {
+     "source_url": "https://prohoster.info/be/et/blog/administrirovanie/asic-majner-second-hand-riski-proverka-i-perekleennyj-heshrejt",
+     "destination_url": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+     "discovery_date": "2026-08-09",
+     "source_last_access_date": "2026-08-09"
+    },
+    {
+     "source_url": "https://www.saashub.com/minetheasic-status",
+     "destination_url": "https://bixbit.io/en/firmwares",
+     "discovery_date": "2026-08-08",
+     "source_last_access_date": "2026-08-08"
+    },
+    {
+     "source_url": "https://miningclub.info/threads/whatsminer-m30-m50-m50s-m61-m60s-proshivki.104826/page-25",
+     "destination_url": "https://bixbit.io/en/firmwares",
+     "discovery_date": "2026-08-04",
+     "source_last_access_date": "2026-08-04"
+    },
+    {
+     "source_url": "http://www.windowssearch-exp.com/images/search?q=Avalon+ASIC+Mining+Rig&first=85&count=28&FORM=IBASEP",
+     "destination_url": "https://bixbit.io/ru/blog/post/obzor-asika-canaan-avalon-made-a1266-harakteristiki-pribylnost-i-okupaemost",
+     "discovery_date": "2026-08-03",
+     "source_last_access_date": "2026-08-03"
+    },
+    {
+     "source_url": "https://arenadoseduardoehijo.com.ar/2026/03/30/tg-links-dealer-black-hat-seo-services-mass-links-38-2/",
+     "destination_url": "https://bixbit.io/ru/blog/post/kak-sozdat-svoy-kriptoobmennik-za-10-shagov",
+     "discovery_date": "2026-08-03",
+     "source_last_access_date": "2026-08-03"
+    },
+    {
+     "source_url": "https://arenadoseduardoehijo.com.ar/2026/03/30/tg-links-dealer-black-hat-seo-services-mass-links-38-2/",
+     "destination_url": "https://bixbit.io/ru/blog/post/matematicheskoe-chudo-tak-opisal-bitkoin-stiv-voznyak",
+     "discovery_date": "2026-08-03",
+     "source_last_access_date": "2026-08-03"
+    },
+    {
+     "source_url": "https://arenadoseduardoehijo.com.ar/2026/03/30/tg-links-dealer-black-hat-seo-services-mass-links-38-2/",
+     "destination_url": "https://bixbit.io/ru/blog/post/stiv-voznyak-v-ocherednoy-raz-pohvalil-bitkoin-no-i-vyskazal-opaseniya",
+     "discovery_date": "2026-08-03",
+     "source_last_access_date": "2026-08-03"
+    },
+    {
+     "source_url": "https://prohoster.info/be/it/blog/administrirovanie/asic-majner-second-hand-riski-proverka-i-perekleennyj-heshrejt",
+     "destination_url": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+     "discovery_date": "2026-08-02",
+     "source_last_access_date": "2026-08-02"
+    },
+    {
+     "source_url": "https://zycrypto.com/bixbit-announces-bug-bounty-program-to-test-ams-its-new-release-for-miners/",
+     "destination_url": "https://bixbit.io/en",
+     "discovery_date": "2026-08-02",
+     "source_last_access_date": "2026-08-02"
+    },
+    {
+     "source_url": "https://zycrypto.com/bixbit-announces-bug-bounty-program-to-test-ams-its-new-release-for-miners/",
+     "destination_url": "https://bixbit.io/en",
+     "discovery_date": "2026-08-02",
+     "source_last_access_date": "2026-08-02"
+    },
+    {
+     "source_url": "https://misterfix.net/",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-07-31",
+     "source_last_access_date": "2026-07-31"
+    },
+    {
+     "source_url": "https://miningclub.info/threads/asik-s11.85555/",
+     "destination_url": "https://bixbit.io/ru/blog/post/virus-na-asike-kak-obnaruzhit-i-vylechit",
+     "discovery_date": "2026-07-29",
+     "source_last_access_date": "2026-07-29"
+    },
+    {
+     "source_url": "https://www.if24.ru/rynok-tsod-segodnya-kratkij-obzor-i-perspektivy/",
+     "destination_url": "https://bixbit.io/ru/blog/post/mayning-v-ssha-proshloe-i-budushchee-dobychi-kriptovalyut",
+     "discovery_date": "2026-07-28",
+     "source_last_access_date": "2026-07-28"
+    },
+    {
+     "source_url": "https://forum.bits.media/index.php?/topic/198152-whatsminer-m31s/",
+     "destination_url": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "discovery_date": "2026-07-27",
+     "source_last_access_date": "2026-07-27"
+    },
+    {
+     "source_url": "https://pool.kryptex.com/de/asic-firmware/bixbit",
+     "destination_url": "https://bixbit.io/en",
+     "discovery_date": "2026-07-27",
+     "source_last_access_date": "2026-07-27"
+    },
+    {
+     "source_url": "https://moiton.ru/moda/v-kakih-sluchayah-neobhodima-proshivka-dlya-immersionnogo-ohlazhdeniya",
+     "destination_url": "https://bixbit.io/ru/firmwares",
+     "discovery_date": "2026-07-27",
+     "source_last_access_date": "2026-07-27"
+    },
+    {
+     "source_url": "https://zarabotat-vsem.ru/oborudovanie/chto-daet-asikam-firmennaya-proshivka-ot-izvestnogo-v-strane-razrabotchika-sovety",
+     "destination_url": "https://bixbit.io/ru/firmwares",
+     "discovery_date": "2026-07-27",
+     "source_last_access_date": "2026-09-02"
+    },
+    {
+     "source_url": "https://telegra.ph/Materinskaya-Plata-12-Pci-E-11-12",
+     "destination_url": "https://bixbit.io/uploads/posts/ZE0Ax__vyr_551DQmSgxyWBM5BmdQDvmPo4kVyjJ1LurjAAt6gnewd2Etxdde.jpg",
+     "discovery_date": "2026-07-27",
+     "source_last_access_date": "2026-07-27"
+    },
+    {
+     "source_url": "https://www.startus-insights.com/innovators-guide/discover-5-top-blockchain-startups-reducing-energy-requirements/",
+     "destination_url": "https://bixbit.io/en/products",
+     "discovery_date": "2026-07-26",
+     "source_last_access_date": "2026-07-26"
+    },
+    {
+     "source_url": "https://praca.by/organization/111027/",
+     "destination_url": "https://bixbit.io/ru",
+     "discovery_date": "2026-07-26",
+     "source_last_access_date": "2026-07-26"
+    },
+    {
+     "source_url": "https://altcoinlog.com/prochivka-asic/",
+     "destination_url": "https://bixbit.io/ru/firmwares",
+     "discovery_date": "2026-07-25",
+     "source_last_access_date": "2026-07-25"
+    },
+    {
+     "source_url": "https://prohoster.info/et/blog/administrirovanie/asic-majner-second-hand-riski-proverka-i-perekleennyj-heshrejt",
+     "destination_url": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+     "discovery_date": "2026-07-23",
+     "source_last_access_date": "2026-07-23"
+    },
+    {
+     "source_url": "https://prohoster.info/it/blog/administrirovanie/asic-majner-second-hand-riski-proverka-i-perekleennyj-heshrejt",
+     "destination_url": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+     "discovery_date": "2026-07-23",
+     "source_last_access_date": "2026-08-10"
+    },
+    {
+     "source_url": "https://prohoster.info/uz/blog/administrirovanie/asic-majner-second-hand-riski-proverka-i-perekleennyj-heshrejt",
+     "destination_url": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+     "discovery_date": "2026-07-23",
+     "source_last_access_date": "2026-07-23"
+    },
+    {
+     "source_url": "https://cryptohamster.org/dlya-chego-ispolzuyut-kastomnyye-proshiv/",
+     "destination_url": "https://bixbit.io/ru/firmwares",
+     "discovery_date": "2026-07-21",
+     "source_last_access_date": "2026-07-21"
+    },
+    {
+     "source_url": "https://keyhunters.ru/crypto-dust-attack-in-cryptocurrencies-mechanisms-link-to-address-poisoning-and-technical-analysis-via-scriptsig-isomorphism-how-small-transactions-threaten-the-privacy-of-crypto-wallet-owners/",
+     "destination_url": "https://bixbit.io/ru/blog/post/pylevaya-ataka-chto-eto-i-kak-zashchititsya",
+     "discovery_date": "2026-07-20",
+     "source_last_access_date": "2026-07-20"
+    },
+    {
+     "source_url": "https://keyhunters.ru/crypto-dust-attack-in-cryptocurrencies-mechanisms-link-to-address-poisoning-and-technical-analysis-via-scriptsig-isomorphism-how-small-transactions-threaten-the-privacy-of-crypto-wallet-owners/",
+     "destination_url": "https://bixbit.io/ru/blog/post/pylevaya-ataka-chto-eto-i-kak-zashchititsya",
+     "discovery_date": "2026-07-20",
+     "source_last_access_date": "2026-07-20"
+    },
+    {
+     "source_url": "https://iql.finance/soft",
+     "destination_url": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "discovery_date": "2026-07-20",
+     "source_last_access_date": "2026-08-13"
+    },
+    {
+     "source_url": "https://megavtogal.com/foto/ventilyaciya-dlya-asikov-v-garazhe-96-foto.html",
+     "destination_url": "https://bixbit.io/uploads/posts/OInxY_IMG_8999.jpg",
+     "discovery_date": "2026-07-19",
+     "source_last_access_date": "2026-07-19"
+    },
+    {
+     "source_url": "https://megavtogal.com/foto/ventilyaciya-dlya-asikov-v-garazhe-96-foto.html",
+     "destination_url": "https://bixbit.io/uploads/posts/xNg9s_jw9ftws6bbezee2lqz87.jpg",
+     "discovery_date": "2026-07-19",
+     "source_last_access_date": "2026-07-19"
+    },
+    {
+     "source_url": "https://megavtogal.com/foto/ventilyaciya-dlya-asikov-v-garazhe-96-foto.html",
+     "destination_url": "https://bixbit.io/uploads/posts/xNg9s_jw9ftws6bbezee2lqz87.jpg",
+     "discovery_date": "2026-07-19",
+     "source_last_access_date": "2026-07-19"
+    },
+    {
+     "source_url": "https://prohoster.info/de/blog/administrirovanie/asic-majner-second-hand-riski-proverka-i-perekleennyj-heshrejt",
+     "destination_url": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+     "discovery_date": "2026-07-17",
+     "source_last_access_date": "2026-09-07"
+    },
+    {
+     "source_url": "https://dut.biz/news/blockchain/bixbit-announced-a-new-bug-bounty-program-as-a-part-of-testing-their-products/",
+     "destination_url": "https://bixbit.io/en/bug-bounty",
+     "discovery_date": "2026-07-17",
+     "source_last_access_date": "2026-07-17"
+    },
+    {
+     "source_url": "https://lenta.ru/articles/2021/11/25/ecomining/",
+     "destination_url": "https://bixbit.io/ru/blog/post/besplatnoe-otoplenie-za-schet-mayninga-pribyl-v-pervyy-zhe-sezon",
+     "discovery_date": "2026-07-16",
+     "source_last_access_date": "2026-07-21"
+    },
+    {
+     "source_url": "https://miningclub.info/threads/whatsminer-m30-m50-m50s-m61-m60s-proshivki.104826/page-6",
+     "destination_url": "https://bixbit.io/ru/firmwares",
+     "discovery_date": "2026-07-12",
+     "source_last_access_date": "2026-07-30"
+    },
+    {
+     "source_url": "https://bitcointalk.org/index.php?topic=5484933.0",
+     "destination_url": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/3-setting-and-connecting-an-additional-power-supply-unit",
+     "discovery_date": "2026-07-12",
+     "source_last_access_date": "2026-07-12"
+    },
+    {
+     "source_url": "https://blocknavi.net/blog/antminer-l7-profitability-specs-investment-guide-2025/",
+     "destination_url": "https://bixbit.io/en/blog/post/bitmain-antminer-l7-review-specifications-price-payback",
+     "discovery_date": "2026-07-12",
+     "source_last_access_date": "2026-07-12"
+    },
+    {
+     "source_url": "https://nreach.io/web3-database-companies/bixbit/",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-07-11",
+     "source_last_access_date": "2026-07-11"
+    },
+    {
+     "source_url": "https://nreach.io/web3-database-companies/bixbit/",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-07-11",
+     "source_last_access_date": "2026-07-11"
+    },
+    {
+     "source_url": "https://bearbricks.ru/tsentralizovanniye/i/detsentralizovanniye/otnosheniya/32",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-07-10",
+     "source_last_access_date": "2026-07-10"
+    },
+    {
+     "source_url": "https://oshibku.top/oshibka-e011-whatsminer-m21s/",
+     "destination_url": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+     "discovery_date": "2026-07-09",
+     "source_last_access_date": "2026-07-11"
+    },
+    {
+     "source_url": "https://fmcgbrand.globalforums.ru/tpost/usvf4te321-top-30-perspektivnih-kriptovalyut-v-2022",
+     "destination_url": "https://bixbit.io/ru/blog/post/token-squid-po-igre-v-kalmara-podorozhal-pochti-na-3400",
+     "discovery_date": "2026-07-09",
+     "source_last_access_date": "2026-07-23"
+    },
+    {
+     "source_url": "https://cryptonews.net/editorial/technology/whatsminer-firmware-updates-explained-why-they-matter-and-how-to-perform-them/",
+     "destination_url": "https://bixbit.io/en/firmwares",
+     "discovery_date": "2026-07-08",
+     "source_last_access_date": "2026-08-13"
+    },
+    {
+     "source_url": "https://newscrypto.net/2023/01/30/bixbit-announced-a-new-bug-bounty-program-as-a-part-of-testing-their-products/",
+     "destination_url": "https://bixbit.io/en",
+     "discovery_date": "2026-07-04",
+     "source_last_access_date": "2026-07-04"
+    },
+    {
+     "source_url": "https://newscrypto.net/2023/01/30/bixbit-announced-a-new-bug-bounty-program-as-a-part-of-testing-their-products/",
+     "destination_url": "https://bixbit.io/en",
+     "discovery_date": "2026-07-04",
+     "source_last_access_date": "2026-07-04"
+    },
+    {
+     "source_url": "https://newscrypto.net/2023/01/30/bixbit-announced-a-new-bug-bounty-program-as-a-part-of-testing-their-products/",
+     "destination_url": "https://bixbit.io/en/bug-bounty",
+     "discovery_date": "2026-07-04",
+     "source_last_access_date": "2026-07-04"
+    },
+    {
+     "source_url": "https://neftegaz.ru/analisis/oil_gas/705826-mayning-na-neftyanykh-mestorozhdeniyakh-budushchee-dobychi-kriptovalyut/?clear_cache=Y",
+     "destination_url": "https://bixbit.io/ru",
+     "discovery_date": "2026-07-03",
+     "source_last_access_date": "2026-08-08"
+    },
+    {
+     "source_url": "https://neftegaz.ru/analisis/oil_gas/705826-mayning-na-neftyanykh-mestorozhdeniyakh-budushchee-dobychi-kriptovalyut/?clear_cache=Y",
+     "destination_url": "https://bixbit.io/ru",
+     "discovery_date": "2026-07-03",
+     "source_last_access_date": "2026-08-08"
+    },
+    {
+     "source_url": "https://neftegaz.ru/analisis/oil_gas/705826-mayning-na-neftyanykh-mestorozhdeniyakh-budushchee-dobychi-kriptovalyut/?clear_cache=Y",
+     "destination_url": "https://bixbit.io/ru",
+     "discovery_date": "2026-07-03",
+     "source_last_access_date": "2026-08-08"
+    },
+    {
+     "source_url": "https://ok.ru/video/search?st.gsq=otoplenie-sovremennogo-doma&st.m=SEARCH&st.ft=search",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-07-01",
+     "source_last_access_date": "2026-07-01"
+    },
+    {
+     "source_url": "https://cmsmagazine.ru/agencies/webernetic-by/portfolio/?cms=121",
+     "destination_url": "https://bixbit.io/en",
+     "discovery_date": "2026-06-27",
+     "source_last_access_date": "2026-06-27"
+    },
+    {
+     "source_url": "https://all-aged-domains.com/page-900b0925cd3f440f1b02bc10cbe6bde9.html",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-06-27",
+     "source_last_access_date": "2026-06-27"
+    },
+    {
+     "source_url": "https://pro-investing.ru/kak-zarabatyvat-scash-v-bitkoin-mayner/",
+     "destination_url": "https://bixbit.io/ru/blog/post/igrokov-v-bitcoin-miner-voznagrazhdayut-realnoy-kriptovalyutoy",
+     "discovery_date": "2026-06-24",
+     "source_last_access_date": "2026-06-24"
+    },
+    {
+     "source_url": "https://t.me/BiXBiT_Dev_News_ru/8",
+     "destination_url": "https://bixbit.io/ru/blog/post/kak-razognat-asiki-whatsminer-vyshe-50",
+     "discovery_date": "2026-06-24",
+     "source_last_access_date": "2026-06-24"
+    },
+    {
+     "source_url": "https://shtampik.com/photo/bixbit/",
+     "destination_url": "https://bixbit.io/uploads/posts/YZqWj_photo_2019-10-09_14-12-53.jpg",
+     "discovery_date": "2026-06-22",
+     "source_last_access_date": "2026-06-22"
+    },
+    {
+     "source_url": "https://shtampik.com/photo/bixbit/",
+     "destination_url": "https://bixbit.io/uploads/posts/YZqWj_photo_2019-10-09_14-12-53.jpg",
+     "discovery_date": "2026-06-22",
+     "source_last_access_date": "2026-06-22"
+    },
+    {
+     "source_url": "https://magiya-vokrug.ru/telegram-viral-azizah",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-06-21",
+     "source_last_access_date": "2026-06-21"
+    },
+    {
+     "source_url": "https://www.nur.kz/nurfin/stock/1952593-chto-sluchitsya-s-tsenoy-bitkoina-kogda-vsya-kriptovalyuta-zakonchitsya/",
+     "destination_url": "https://bixbit.io/ru/blog/post/maynery-dobyli-90-bitkoinov-na-poluchenie-ostatka-eshche-120-let",
+     "discovery_date": "2026-06-21",
+     "source_last_access_date": "2026-06-23"
+    },
+    {
+     "source_url": "https://bitcointalk.org/index.php?topic=5433471.msg63516824",
+     "destination_url": "https://bixbit.io/ru/blog/post/immersionnaya-zhidkost-kakuyu-vybrat-dlya-mayninga-i-pochemu",
+     "discovery_date": "2026-06-20",
+     "source_last_access_date": "2026-06-20"
+    },
+    {
+     "source_url": "https://t.me/s/BiXBiT_Dev_News_ru",
+     "destination_url": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "discovery_date": "2026-06-19",
+     "source_last_access_date": "2026-07-20"
+    },
+    {
+     "source_url": "https://www.accio.com/business/trend-of-cmp-170hx",
+     "destination_url": "https://bixbit.io/en/blog/post/cmp-170hx-graphic-card-specifications-profit-and-roi",
+     "discovery_date": "2026-06-18",
+     "source_last_access_date": "2026-06-18"
+    },
+    {
+     "source_url": "https://shtampik.com/photo/skolko-vesit-blok-pitaniya/",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-06-18",
+     "source_last_access_date": "2026-08-09"
+    },
+    {
+     "source_url": "https://www.pressreleasecc.com/2023/01/26/bixbit-announced-a-new-bug-bounty-program-as-a-part-of-testing-their-products/",
+     "destination_url": "https://bixbit.io/en",
+     "discovery_date": "2026-06-17",
+     "source_last_access_date": "2026-06-17"
+    },
+    {
+     "source_url": "https://www.cryptalin.com/mineral-oil/",
+     "destination_url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+     "discovery_date": "2026-06-17",
+     "source_last_access_date": "2026-06-17"
+    },
+    {
+     "source_url": "https://prohoster.info/be/blog/administrirovanie/asic-majner-second-hand-riski-proverka-i-perekleennyj-heshrejt",
+     "destination_url": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+     "discovery_date": "2026-06-17",
+     "source_last_access_date": "2026-08-09"
+    },
+    {
+     "source_url": "https://oshibok.top/diagnostika-asika-kak-najti-oshibki/",
+     "destination_url": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+     "discovery_date": "2026-06-17",
+     "source_last_access_date": "2026-09-14"
+    },
+    {
+     "source_url": "https://zecripto.com/bixbit-takes-lead-as-title-sponsor-for-mining-disrupt-2023/",
+     "destination_url": "https://bixbit.io/",
+     "discovery_date": "2026-06-14",
+     "source_last_access_date": "2026-06-14"
+    },
+    {
+     "source_url": "https://epilstart.ru/s19-hydro-198th",
+     "destination_url": "https://bixbit.io/uploads/posts/TLvOf_photo_2021-11-19_11-49-47.jpg",
+     "discovery_date": "2026-06-13",
+     "source_last_access_date": "2026-06-13"
+    },
+    {
+     "source_url": "https://epilstart.ru/s19-hydro-198th",
+     "destination_url": "https://bixbit.io/uploads/posts/TLvOf_photo_2021-11-19_11-49-47.jpg",
+     "discovery_date": "2026-06-13",
+     "source_last_access_date": "2026-06-13"
+    },
+    {
+     "source_url": "https://megavtogal.com/blyuda/pirog-teplyj-pol-vodyanoj-ot-gazovogo-kotla-v-dome-88-foto.html",
+     "destination_url": "https://bixbit.io/uploads/posts/2w1m4_kotel.jpg",
+     "discovery_date": "2026-06-12",
+     "source_last_access_date": "2026-06-12"
+    },
+    {
+     "source_url": "https://www.buywhatsminer.com/firmware/bixbit-firmware-for-whatsminer-m5x/",
+     "destination_url": "https://bixbit.io/en/firmwares/whatsminer-series-m5x/download",
+     "discovery_date": "2026-06-12",
+     "source_last_access_date": "2026-06-12"
+    }
+   ]
+  },
+  "history": {
+   "indicators": {
+    "LINKS_TOTAL_COUNT": [
+     {
+      "date": "2025-10-09T00:00:00.000+03:00",
+      "value": 18776
+     },
+     {
+      "date": "2025-11-04T00:00:00.000+03:00",
+      "value": 16607
+     },
+     {
+      "date": "2025-11-14T00:00:00.000+03:00",
+      "value": 13270
+     },
+     {
+      "date": "2025-11-25T00:00:00.000+03:00",
+      "value": 11823
+     },
+     {
+      "date": "2025-12-04T00:00:00.000+03:00",
+      "value": 11448
+     },
+     {
+      "date": "2025-12-14T00:00:00.000+03:00",
+      "value": 11880
+     },
+     {
+      "date": "2025-12-24T00:00:00.000+03:00",
+      "value": 13636
+     },
+     {
+      "date": "2026-01-04T00:00:00.000+03:00",
+      "value": 11227
+     },
+     {
+      "date": "2026-01-14T00:00:00.000+03:00",
+      "value": 10815
+     },
+     {
+      "date": "2026-01-23T00:00:00.000+03:00",
+      "value": 13536
+     },
+     {
+      "date": "2026-02-04T00:00:00.000+03:00",
+      "value": 15843
+     },
+     {
+      "date": "2026-02-15T00:00:00.000+03:00",
+      "value": 15245
+     },
+     {
+      "date": "2026-03-02T00:00:00.000+03:00",
+      "value": 16237
+     },
+     {
+      "date": "2026-03-14T00:00:00.000+03:00",
+      "value": 11912
+     },
+     {
+      "date": "2026-03-25T00:00:00.000+03:00",
+      "value": 9960
+     },
+     {
+      "date": "2026-04-03T00:00:00.000+03:00",
+      "value": 8803
+     },
+     {
+      "date": "2026-04-12T00:00:00.000+03:00",
+      "value": 8488
+     },
+     {
+      "date": "2026-04-22T00:00:00.000+03:00",
+      "value": 7827
+     },
+     {
+      "date": "2026-05-01T00:00:00.000+03:00",
+      "value": 7519
+     },
+     {
+      "date": "2026-05-24T00:00:00.000+03:00",
+      "value": 4577
+     },
+     {
+      "date": "2026-06-05T00:00:00.000+03:00",
+      "value": 4317
+     },
+     {
+      "date": "2026-06-15T00:00:00.000+03:00",
+      "value": 3799
+     },
+     {
+      "date": "2026-06-26T00:00:00.000+03:00",
+      "value": 3570
+     },
+     {
+      "date": "2026-07-05T00:00:00.000+03:00",
+      "value": 3292
+     },
+     {
+      "date": "2026-07-14T00:00:00.000+03:00",
+      "value": 3069
+     },
+     {
+      "date": "2026-07-24T00:00:00.000+03:00",
+      "value": 2798
+     },
+     {
+      "date": "2026-08-04T00:00:00.000+03:00",
+      "value": 2690
+     },
+     {
+      "date": "2026-08-14T00:00:00.000+03:00",
+      "value": 2495
+     },
+     {
+      "date": "2026-08-25T00:00:00.000+03:00",
+      "value": 2155
+     },
+     {
+      "date": "2026-09-06T00:00:00.000+03:00",
+      "value": 1970
+     },
+     {
+      "date": "2026-09-15T00:00:00.000+03:00",
+      "value": 1803
+     }
+    ]
+   }
+  }
+ }
+}

@@ -58,8 +58,10 @@ dev fee), масштабируемость, мониторинг парка ус
 ### Главные конкуренты (для gap-анализа)
 - **Braiins (Braiins OS+)** — лидер по open-source прошивкам, сильный контент.
 - **Vnish** — популярные кастомные прошивки.
-- **LuxOS (Luxor)**.
-- **ePIC firmware**.
+- **ePIC firmware** — выигрывает нарратив dev fee в LLM.
+- **EMCD**, **Awesome Miner** — реально в топе SERP по firmware (данные 2026-09).
+- **LuxOS (Luxor)** — в выдаче US почти не встречается.
+- По мониторингу: Awesome Miner, Minerstat, Hiveon.
 - По охлаждению: LiquidStack, Engineered Fluids, Immersion-провайдеры.
 
 ---
@@ -91,15 +93,27 @@ dev fee), масштабируемость, мониторинг парка ус
 
 ## 6. Источники данных (MCP / API)
 
-Перед анализом проверь доступность подключений:
-- **Google Search Console API** — индексация, запросы, позиции, CTR.
-- **GA4 Data API** — поведение, конверсии.
-- **DataForSEO MCP** — живой SERP, объёмы, бэклинки (skill `seo-dataforseo`).
-- **Google PageSpeed / CrUX** — Core Web Vitals (поле).
-- **Bing Webmaster + Moz** — бэклинки (skill `seo-backlinks`).
+Статус всех источников: `./scripts/check-connectors.sh`. Актуальные факты и
+особенности каждого источника — `docs/agent-knowledge.md` (**читать перед работой**).
+- **Google Search Console** — `./scripts/gsc-query.py` (service account; MCP для GSC нет).
+- **GA4 Data API** — `./scripts/ga4-query.py` (service account).
+- **DataForSEO MCP** — объёмы, бэклинки, AI Optimization. Для SERP через MCP — `noAiMode: true`.
+  Массовый съём позиций — `./scripts/serp-rank.py` (команда `/rank-check`).
+- **PageSpeed / CrUX** — работают (`check-connectors.sh`).
+- **Тех-элементы страниц** — `./scripts/page-snapshot.py` (сырой HTML; WebFetch не видит `<head>`).
+- **Индексация / переобход** — `./scripts/index-check.py`, `./scripts/index-submit.py` (Bing, IndexNow).
+- **Каннибализация, AIO/FS, ссылки** — `cannibalization.py`, `serp-features.py`, `backlinks-monitor.py`.
+- **Автосбор** — `.github/workflows/seo-data.yml` (ежедневно / еженедельно / ежемесячно, снимки в `data/`).
+- **Bing Webmaster** — `./scripts/bing-query.py` (бесплатно; сигнал для ChatGPT search).
+- **Яндекс.Вебмастер** — `./scripts/yandex-query.py` (диагностика, запросы, индекс, переобход).
+- **Moz** — не используем (бесплатный тир бесполезен), бэклинки из DataForSEO.
 
-Ключи — в `.env` (НЕ коммитить). Если источник недоступен — сообщи об этом и
-работай с тем, что есть, не выдумывая данные.
+Ключи — в `.env` (НЕ коммитить, Claude его не читает — только скрипты). Если источник
+недоступен — сообщи об этом и работай с тем, что есть, не выдумывая данные.
+
+**Вне работы:** `bixbitusa.io` — домен партнёров (не наш сайт, не конкурент).
+
+**Россия:** `bixbit.io` заблокирован в РФ решением суда (РКН) — `CONNECT_FAILED` в Яндексе ожидаем. Российская аудитория ходит на `bixbit.tech`: Яндекс-SEO делается на нём. Блокировку не обходить, 301 `bixbit.tech → bixbit.io` не рекомендовать.
 
 ---
 
@@ -114,6 +128,10 @@ dev fee), масштабируемость, мониторинг парка ус
 6. **Тех-факты о прошивках** всегда помечай `[VERIFY]` для человека.
 
 ---
+
+## 7a. SEO Workspace (веб-приложение)
+
+`python3 app/server.py` → http://127.0.0.1:8765 (или двойной клик по `SEO Workspace.command`). Обзор-KPI и алерты, документы из `reports/`, `content/`, `docs/`, `data/`, запуск скриптов из белого списка с подтверждением платных, заметки → `content/notes/`. После каждого запуска — отчёт понятным языком в `reports/runs/<дата>-<команда>.md` (`scripts/run_report.py`); из очереди онлайн-хаба команды запускаются через `scripts/run-command.py`.
 
 ## 8. Карта субагентов
 
@@ -136,3 +154,9 @@ dev fee), масштабируемость, мониторинг парка ус
 | `/weekly-drift` | `.claude/commands/weekly-drift.md` | Сравнение с baseline, алерты |
 | `/competitor-gap` | `.claude/commands/competitor-gap.md` | Gap против конкурента |
 | `/geo-check` | `.claude/commands/geo-check.md` | Проверка AI-видимости бренда |
+| `/rank-check` | `.claude/commands/rank-check.md` | Съём позиций (SERP + GSC) против baseline |
+| `/monthly-report` | `.claude/commands/monthly-report.md` | Ежемесячный отчёт к звонку |
+| `/strategy-report` | `.claude/commands/strategy-report.md` | Полугодовой стратегический отчёт |
+| `/text-review` | `.claude/commands/text-review.md` | Проверка текста копирайтера |
+| `/mockup-review` | `.claude/commands/mockup-review.md` | SEO-рекомендации по макету (Figma) |
+| `/blog-plan` | `.claude/commands/blog-plan.md` | Контент-план блога EN/RU |

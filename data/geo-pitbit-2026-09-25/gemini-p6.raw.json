@@ -1,0 +1,626 @@
+{
+  "id": "09251433-2548-0612-0000-b10ea825e915",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "message",
+      "sections": [
+        {
+          "type": "text",
+          "text": "**PiTBiT firmware** has emerged as a popular aftermarket firmware option for Bitmain Antminers (including the S19, T21, and S21 series). It is particularly prominent in Eastern European and Central Asian mining hubs (such as Russia and Kazakhstan) where the company is based. \n\nHere is an objective review of its reliability, performance, and features, followed by the best alternative firmwares on the market.\n\n---\n\n### Part 1: PiTBiT Firmware Review\n\n#### **Is it reliable?**\n**Yes, PiTBiT is generally considered reliable and safe.** \n* **Thermal Protection:** Unlike some low-tier, \"free\" custom firmwares that push chips to their physical limits at the cost of hardware life, PiTBiT places a heavy emphasis on safety. It features automated protection mechanisms that prevent the miner from overheating by dynamically underclocking or shutting down when temperatures spike.\n* **Stability:** Large-scale commercial mining operators have successfully deployed PiTBiT across thousands of ASICs in industrial data centers, indicating that the firmware is stable over long-term operations.\n* **Support:** Reviews often praise their customer support, which is highly active on Telegram and other forums, helping users troubleshoot and walk through the flashing process.\n\n#### **Key Features of PiTBiT**\n* **Massive Overclocking Capabilities:** PiTBiT is widely known for squeezing immense performance out of next-gen hardware. For example, it can push an Antminer S21 Pro (234 TH) up to a massive 300 TH using automated preset profiles.\n* **Underclocking for Efficiency:** If you have high electricity costs, it offers \"eco-modes\" that lower the wattage and optimize the Joules-per-Terahash (J/TH) ratio.\n* **Comprehensive Monitoring App:** PiTBiT provides an intuitive ecosystem, including a web interface and a mobile monitoring app, making it easy to track individual chip health and hashrates remotely.\n* **Business Model (DevFee):** Like most custom firmware, PiTBiT uses a developer fee (DevFee) structure, taking a small percentage of your hashpower (usually between 1% to 3%) to fund development.\n\n---\n\n### Part 2: The Best Alternatives to PiTBiT\n\nIf you are looking for alternatives—either because you prefer open-source software, want to use specific mining pools, or need a brand with a longer global track record—there are three top-tier competitors:\n\n#### **1. Braiins OS+ (The Gold Standard)**\nDeveloped by the team behind the legendary Slush Pool (now Braiins Pool), Braiins OS+ is the most trusted and widely used aftermarket firmware in the world.\n* **Why choose it:** \n  * **Per-Chip Autotuning:** Braiins OS+ scans each individual ASIC chip and optimizes its voltage separately. Since no two chips are identical due to manufacturing variances, this extracts the absolute highest efficiency (J/TH) possible.\n  * **Open-Source Roots:** It is built on a highly transparent Linux-based platform.\n  * **DevFee Discount:** While they charge a 2.5% DevFee, they wave or heavily discount this fee if you point your hashrate to **Braiins Pool**.\n* **Best for:** Home miners and enterprise operations looking for maximum efficiency, maximum transparency, and a flawless global reputation.\n\n#### **2. VNISH (The Customization King)**\nVNISH is one of the oldest and most popular firmware ecosystems globally, running since 2017.\n* **Why choose it:**\n  * **Incredible Preset Library:** VNISH supports almost every variation of the Antminer S19, S21, T21, and L-series. They are extremely quick to release firmware updates for newly launched Bitmain models.\n  * **Granular Control:** It offers arguably the deepest customization for manual tuning (voltage, frequency, and fan speeds per hashboard).\n  * **DevFee:** Typically around 1.8% to 2.8%, deducted directly as hashrate.\n* **Best for:** Miners who love tweaking specific technical parameters and need compatibility with a highly specific or obscure Antminer control board sub-model.\n\n#### **3. LuxOS (By Luxor Technologies)**\nDeveloped by US-based Luxor, LuxOS is an enterprise-grade firmware designed for North American institutional miners and large fleet operators",
+          "annotations": [
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJeuduBq0KtVHQlvanpadiY0X_s8zS8VOSeyWCovO9y68boNoM1A9bxF02pcrv7MQtXIVVWKS523YEAazkBFoBrLtWiG0w98jWkp1MPePEIwI5itlJbzxFZKnlwP0WDII=",
+              "direct_url": "https://www.youtube.com/watch?v=a3YllTMvcJM",
+              "end_index": 135,
+              "text": "**PiTBiT firmware** has emerged as a popular aftermarket firmware option for Bitmain Antminers (including the S19, T21, and S21 series)"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEbSrXW3BpVbjpl9EyHQ4x5Ek9res9FfPUkeR24HtkJ2uLNvE0Cg2xGo4vsBSwRNS3iQQlG4Z0qj6eLyJ2_7ylI9dc_2u_dafvXvhx_SeQHNvee5QOWxBExZyvXmt1Xfk=",
+              "direct_url": "https://www.youtube.com/watch?v=0T_M4tdFr5k",
+              "end_index": 135,
+              "text": "**PiTBiT firmware** has emerged as a popular aftermarket firmware option for Bitmain Antminers (including the S19, T21, and S21 series)"
+            },
+            {
+              "title": "ultramining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvmEuD2DcE725t2srPBQN6oY0Y8GeLgiGXPqWAD41NYHpn3ChfUUoVPcZY0VaDQfFColX49QxRSo6OASRnY-zox2QGB8PtZJg0_s2-60oUOLxD4kDExAsG6DWVhRIr2hYMElzMRFLA2Lz_GWv7ZoEoc-PGlbYJWNvFyHfoc_pdCKhh",
+              "direct_url": "https://ultramining.com/news/en/introducing-pitbit-a-brand-trusted-by-miners/",
+              "end_index": 135,
+              "text": "**PiTBiT firmware** has emerged as a popular aftermarket firmware option for Bitmain Antminers (including the S19, T21, and S21 series)"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 137,
+              "end_index": 274,
+              "text": "It is particularly prominent in Eastern European and Central Asian mining hubs (such as Russia and Kazakhstan) where the company is based"
+            },
+            {
+              "title": "ultramining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvmEuD2DcE725t2srPBQN6oY0Y8GeLgiGXPqWAD41NYHpn3ChfUUoVPcZY0VaDQfFColX49QxRSo6OASRnY-zox2QGB8PtZJg0_s2-60oUOLxD4kDExAsG6DWVhRIr2hYMElzMRFLA2Lz_GWv7ZoEoc-PGlbYJWNvFyHfoc_pdCKhh",
+              "direct_url": "https://ultramining.com/news/en/introducing-pitbit-a-brand-trusted-by-miners/",
+              "start_index": 137,
+              "end_index": 274,
+              "text": "It is particularly prominent in Eastern European and Central Asian mining hubs (such as Russia and Kazakhstan) where the company is based"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2U_VCTfnjk-ANF3T4dm33HcNP1wAdbL30a4KM8Y_Km2UvayMuk-YgfE8x6HRDeo5m6kWWOMMnxbugYmNaOTUqY-R0d5SDLCWQktW3FaUlAx8ZBa4_vELI4Ne9oGY=",
+              "direct_url": "https://m.youtube.com/shorts/JIC5kMHxXSk",
+              "start_index": 475,
+              "end_index": 533,
+              "text": "**\n**Yes, PiTBiT is generally considered reliable and safe"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 475,
+              "end_index": 533,
+              "text": "**\n**Yes, PiTBiT is generally considered reliable and safe"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2U_VCTfnjk-ANF3T4dm33HcNP1wAdbL30a4KM8Y_Km2UvayMuk-YgfE8x6HRDeo5m6kWWOMMnxbugYmNaOTUqY-R0d5SDLCWQktW3FaUlAx8ZBa4_vELI4Ne9oGY=",
+              "direct_url": "https://m.youtube.com/shorts/JIC5kMHxXSk",
+              "start_index": 534,
+              "end_index": 721,
+              "text": "** \n* **Thermal Protection:** Unlike some low-tier, \"free\" custom firmwares that push chips to their physical limits at the cost of hardware life, PiTBiT places a heavy emphasis on safety"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2U_VCTfnjk-ANF3T4dm33HcNP1wAdbL30a4KM8Y_Km2UvayMuk-YgfE8x6HRDeo5m6kWWOMMnxbugYmNaOTUqY-R0d5SDLCWQktW3FaUlAx8ZBa4_vELI4Ne9oGY=",
+              "direct_url": "https://m.youtube.com/shorts/JIC5kMHxXSk",
+              "start_index": 723,
+              "end_index": 876,
+              "text": "It features automated protection mechanisms that prevent the miner from overheating by dynamically underclocking or shutting down when temperatures spike"
+            },
+            {
+              "title": "ultramining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvmEuD2DcE725t2srPBQN6oY0Y8GeLgiGXPqWAD41NYHpn3ChfUUoVPcZY0VaDQfFColX49QxRSo6OASRnY-zox2QGB8PtZJg0_s2-60oUOLxD4kDExAsG6DWVhRIr2hYMElzMRFLA2Lz_GWv7ZoEoc-PGlbYJWNvFyHfoc_pdCKhh",
+              "direct_url": "https://ultramining.com/news/en/introducing-pitbit-a-brand-trusted-by-miners/",
+              "start_index": 878,
+              "end_index": 1087,
+              "text": "* **Stability:** Large-scale commercial mining operators have successfully deployed PiTBiT across thousands of ASICs in industrial data centers, indicating that the firmware is stable over long-term operations"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 1089,
+              "end_index": 1266,
+              "text": "* **Support:** Reviews often praise their customer support, which is highly active on Telegram and other forums, helping users troubleshoot and walk through the flashing process"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 1089,
+              "end_index": 1266,
+              "text": "* **Support:** Reviews often praise their customer support, which is highly active on Telegram and other forums, helping users troubleshoot and walk through the flashing process"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJeuduBq0KtVHQlvanpadiY0X_s8zS8VOSeyWCovO9y68boNoM1A9bxF02pcrv7MQtXIVVWKS523YEAazkBFoBrLtWiG0w98jWkp1MPePEIwI5itlJbzxFZKnlwP0WDII=",
+              "direct_url": "https://www.youtube.com/watch?v=a3YllTMvcJM",
+              "start_index": 1425,
+              "end_index": 1533,
+              "text": "For example, it can push an Antminer S21 Pro (234 TH) up to a massive 300 TH using automated preset profiles"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8xWBNGkbCK0Ykwz7m4SfRla0VMwIwj0_yu7KibC0SCMTloBU-_8RZJxIFhiC6A37y7e7L7loNqa3QAPRKhiaQwBK6cN_pID8T9oXnrw7F6tx8QhtieI38LkQeHWFzmGQ=",
+              "direct_url": "https://www.youtube.com/watch?v=kLTQWYxZ7Vk",
+              "start_index": 1535,
+              "end_index": 1701,
+              "text": "* **Underclocking for Efficiency:** If you have high electricity costs, it offers \"eco-modes\" that lower the wattage and optimize the Joules-per-Terahash (J/TH) ratio"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2U_VCTfnjk-ANF3T4dm33HcNP1wAdbL30a4KM8Y_Km2UvayMuk-YgfE8x6HRDeo5m6kWWOMMnxbugYmNaOTUqY-R0d5SDLCWQktW3FaUlAx8ZBa4_vELI4Ne9oGY=",
+              "direct_url": "https://m.youtube.com/shorts/JIC5kMHxXSk",
+              "start_index": 1535,
+              "end_index": 1701,
+              "text": "* **Underclocking for Efficiency:** If you have high electricity costs, it offers \"eco-modes\" that lower the wattage and optimize the Joules-per-Terahash (J/TH) ratio"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 1703,
+              "end_index": 1903,
+              "text": "* **Comprehensive Monitoring App:** PiTBiT provides an intuitive ecosystem, including a web interface and a mobile monitoring app, making it easy to track individual chip health and hashrates remotely"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 1703,
+              "end_index": 1903,
+              "text": "* **Comprehensive Monitoring App:** PiTBiT provides an intuitive ecosystem, including a web interface and a mobile monitoring app, making it easy to track individual chip health and hashrates remotely"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJeuduBq0KtVHQlvanpadiY0X_s8zS8VOSeyWCovO9y68boNoM1A9bxF02pcrv7MQtXIVVWKS523YEAazkBFoBrLtWiG0w98jWkp1MPePEIwI5itlJbzxFZKnlwP0WDII=",
+              "direct_url": "https://www.youtube.com/watch?v=a3YllTMvcJM",
+              "start_index": 1905,
+              "end_index": 2101,
+              "text": "* **Business Model (DevFee):** Like most custom firmware, PiTBiT uses a developer fee (DevFee) structure, taking a small percentage of your hashpower (usually between 1% to 3%) to fund development"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVFXPdRPv_uat7aMBoSCr0bndU8Bhenn0N_e9b7eNr361CoaIeUYtGYFnJeXSH34ircfcZIcZ15nlo22B83ylrUG6vtdiIBsRb_5oxEGirKOKoGFhVeY7AsTbYFTW1OoqW2RDXCJQoEJAeHwFkSgitSXgsAw6GNuDwa7XG7mTDW51nC05bItIgKWc3-rTbdQ0o36zpQ==",
+              "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+              "start_index": 1905,
+              "end_index": 2101,
+              "text": "* **Business Model (DevFee):** Like most custom firmware, PiTBiT uses a developer fee (DevFee) structure, taking a small percentage of your hashpower (usually between 1% to 3%) to fund development"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVFXPdRPv_uat7aMBoSCr0bndU8Bhenn0N_e9b7eNr361CoaIeUYtGYFnJeXSH34ircfcZIcZ15nlo22B83ylrUG6vtdiIBsRb_5oxEGirKOKoGFhVeY7AsTbYFTW1OoqW2RDXCJQoEJAeHwFkSgitSXgsAw6GNuDwa7XG7mTDW51nC05bItIgKWc3-rTbdQ0o36zpQ==",
+              "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+              "start_index": 2376,
+              "end_index": 2565,
+              "text": "Braiins OS+ (The Gold Standard)**\nDeveloped by the team behind the legendary Slush Pool (now Braiins Pool), Braiins OS+ is the most trusted and widely used aftermarket firmware in the world"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KkNBHHsKESYGuCZjaqPmAkIZEDBPf7ktVrZB-WAHcm3jLhozd_mfC_8iPjieO-hY5ZLx5ivnZr3tpgEEYAfzzRrTTi3qfxiG3zoeRlUeTqZ72xSJWh6U1eGQEiinvkVW41yzhffR_To--mwMUaqojazLyAtDYZIMZdUJEsr2KjuBjIQEQ39hrNpgteg=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 2376,
+              "end_index": 2565,
+              "text": "Braiins OS+ (The Gold Standard)**\nDeveloped by the team behind the legendary Slush Pool (now Braiins Pool), Braiins OS+ is the most trusted and widely used aftermarket firmware in the world"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcX8kZ_qS1qtGeQBcBsBeW8I83re1EQRHT_WMWpP5dg9ekoElg4mE1r4040x40nTMA2_k6RCLclWMrFIcySVssnUeN-iFPtJBy2f-hhNvpVRokwf4e3gGr07Ud2o75p9LRas0Xdzs04vrbkyWXrkHDnHR_6FSHAy5DW8yDWhkPWNdp-gUCD_dJFFJ7wGSqeDvRDA==",
+              "direct_url": "https://d-central.tech/braiinsos-unlocking-the-power-of-advanced-autotuning-for-asic-miners/",
+              "start_index": 2376,
+              "end_index": 2565,
+              "text": "Braiins OS+ (The Gold Standard)**\nDeveloped by the team behind the legendary Slush Pool (now Braiins Pool), Braiins OS+ is the most trusted and widely used aftermarket firmware in the world"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KkNBHHsKESYGuCZjaqPmAkIZEDBPf7ktVrZB-WAHcm3jLhozd_mfC_8iPjieO-hY5ZLx5ivnZr3tpgEEYAfzzRrTTi3qfxiG3zoeRlUeTqZ72xSJWh6U1eGQEiinvkVW41yzhffR_To--mwMUaqojazLyAtDYZIMZdUJEsr2KjuBjIQEQ39hrNpgteg=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 2567,
+              "end_index": 2698,
+              "text": "* **Why choose it:** \n  * **Per-Chip Autotuning:** Braiins OS+ scans each individual ASIC chip and optimizes its voltage separately"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KkNBHHsKESYGuCZjaqPmAkIZEDBPf7ktVrZB-WAHcm3jLhozd_mfC_8iPjieO-hY5ZLx5ivnZr3tpgEEYAfzzRrTTi3qfxiG3zoeRlUeTqZ72xSJWh6U1eGQEiinvkVW41yzhffR_To--mwMUaqojazLyAtDYZIMZdUJEsr2KjuBjIQEQ39hrNpgteg=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 2700,
+              "end_index": 2826,
+              "text": "Since no two chips are identical due to manufacturing variances, this extracts the absolute highest efficiency (J/TH) possible"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KkNBHHsKESYGuCZjaqPmAkIZEDBPf7ktVrZB-WAHcm3jLhozd_mfC_8iPjieO-hY5ZLx5ivnZr3tpgEEYAfzzRrTTi3qfxiG3zoeRlUeTqZ72xSJWh6U1eGQEiinvkVW41yzhffR_To--mwMUaqojazLyAtDYZIMZdUJEsr2KjuBjIQEQ39hrNpgteg=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 2830,
+              "end_index": 2911,
+              "text": "* **Open-Source Roots:** It is built on a highly transparent Linux-based platform"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcX8kZ_qS1qtGeQBcBsBeW8I83re1EQRHT_WMWpP5dg9ekoElg4mE1r4040x40nTMA2_k6RCLclWMrFIcySVssnUeN-iFPtJBy2f-hhNvpVRokwf4e3gGr07Ud2o75p9LRas0Xdzs04vrbkyWXrkHDnHR_6FSHAy5DW8yDWhkPWNdp-gUCD_dJFFJ7wGSqeDvRDA==",
+              "direct_url": "https://d-central.tech/braiinsos-unlocking-the-power-of-advanced-autotuning-for-asic-miners/",
+              "start_index": 2830,
+              "end_index": 2911,
+              "text": "* **Open-Source Roots:** It is built on a highly transparent Linux-based platform"
+            },
+            {
+              "title": "reddit.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-gEO11mSKjZPpLC3Ae51QJ5cSrp30Yd8lo_JsIXuZvp_5_08jT4l_auj4lxhOUGbqDrax-hvnYjCfWSzQg-w-NuE8dlCJWRWzlH2B_9HWcCH9hBFsnOCijeYpAKDvcAjqjRBG3GXKFtG-t2u3t4rvj5lBfIG9ncyjIGI2C_vckvY2JbDgawcf35GE6nU9kxeG7W3PTUyRNU0o0IY=",
+              "direct_url": "https://www.reddit.com/r/BitcoinMining/comments/1oehxq4/what_firmware_are_you_running_on_your_antminer/",
+              "start_index": 2915,
+              "end_index": 3056,
+              "text": "* **DevFee Discount:** While they charge a 2.5% DevFee, they wave or heavily discount this fee if you point your hashrate to **Braiins Pool**"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVFXPdRPv_uat7aMBoSCr0bndU8Bhenn0N_e9b7eNr361CoaIeUYtGYFnJeXSH34ircfcZIcZ15nlo22B83ylrUG6vtdiIBsRb_5oxEGirKOKoGFhVeY7AsTbYFTW1OoqW2RDXCJQoEJAeHwFkSgitSXgsAw6GNuDwa7XG7mTDW51nC05bItIgKWc3-rTbdQ0o36zpQ==",
+              "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+              "start_index": 2915,
+              "end_index": 3056,
+              "text": "* **DevFee Discount:** While they charge a 2.5% DevFee, they wave or heavily discount this fee if you point your hashrate to **Braiins Pool**"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVFXPdRPv_uat7aMBoSCr0bndU8Bhenn0N_e9b7eNr361CoaIeUYtGYFnJeXSH34ircfcZIcZ15nlo22B83ylrUG6vtdiIBsRb_5oxEGirKOKoGFhVeY7AsTbYFTW1OoqW2RDXCJQoEJAeHwFkSgitSXgsAw6GNuDwa7XG7mTDW51nC05bItIgKWc3-rTbdQ0o36zpQ==",
+              "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+              "start_index": 3058,
+              "end_index": 3198,
+              "text": "* **Best for:** Home miners and enterprise operations looking for maximum efficiency, maximum transparency, and a flawless global reputation"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KkNBHHsKESYGuCZjaqPmAkIZEDBPf7ktVrZB-WAHcm3jLhozd_mfC_8iPjieO-hY5ZLx5ivnZr3tpgEEYAfzzRrTTi3qfxiG3zoeRlUeTqZ72xSJWh6U1eGQEiinvkVW41yzhffR_To--mwMUaqojazLyAtDYZIMZdUJEsr2KjuBjIQEQ39hrNpgteg=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 3058,
+              "end_index": 3198,
+              "text": "* **Best for:** Home miners and enterprise operations looking for maximum efficiency, maximum transparency, and a flawless global reputation"
+            },
+            {
+              "title": "vnish.ninja",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQIsklmRtbWl24B4zaHjOq_0nHV_pAssYcwMOBGOsIkdE3ju9E3G0HL5C7DgNCcwlOS4DWc_wG2cVnAC0TdL2i_jARFZnwb3KSAw==",
+              "direct_url": "https://vnish.ninja/",
+              "start_index": 3211,
+              "end_index": 3336,
+              "text": "VNISH (The Customization King)**\nVNISH is one of the oldest and most popular firmware ecosystems globally, running since 2017"
+            },
+            {
+              "title": "vnish-firmware.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt_YRYJheHlb4Pl3UwTYUBdMUv5yqePTCu0Lc5FOr8kR2i6sW-Bag9Y-vkK-Hp9heY0wxSW5foKL-LbwdBRMo78KWWB8qZUOYt5pfgWcwC93w=",
+              "direct_url": "https://vnish-firmware.com/",
+              "start_index": 3338,
+              "end_index": 3475,
+              "text": "* **Why choose it:**\n  * **Incredible Preset Library:** VNISH supports almost every variation of the Antminer S19, S21, T21, and L-series"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4bLZRdobr3O8xbCyzb8QYqowmCbYPzU3dMO9NMn2LUbuitckWNFhEVIWYdr_d3kb7SdlVrnMy9tleSGZ3Os3jrPh9IdBNJvhnDe6fqPaxg==",
+              "direct_url": "https://vnish.ru/firmware/",
+              "start_index": 3338,
+              "end_index": 3475,
+              "text": "* **Why choose it:**\n  * **Incredible Preset Library:** VNISH supports almost every variation of the Antminer S19, S21, T21, and L-series"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4bLZRdobr3O8xbCyzb8QYqowmCbYPzU3dMO9NMn2LUbuitckWNFhEVIWYdr_d3kb7SdlVrnMy9tleSGZ3Os3jrPh9IdBNJvhnDe6fqPaxg==",
+              "direct_url": "https://vnish.ru/firmware/",
+              "start_index": 3477,
+              "end_index": 3563,
+              "text": "They are extremely quick to release firmware updates for newly launched Bitmain models"
+            },
+            {
+              "title": "vnish.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZU87Xk0wFlQ-p2_HuoTIPOz0Lsw62XkT7rpL2W6aNCxjU1xsn9C7AAb6JGYS42dNycUF4e4u5KntSQhBIBvwVSSyOE0a96Ao=",
+              "direct_url": "https://vnish.com/",
+              "start_index": 3567,
+              "end_index": 3704,
+              "text": "* **Granular Control:** It offers arguably the deepest customization for manual tuning (voltage, frequency, and fan speeds per hashboard)"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVFXPdRPv_uat7aMBoSCr0bndU8Bhenn0N_e9b7eNr361CoaIeUYtGYFnJeXSH34ircfcZIcZ15nlo22B83ylrUG6vtdiIBsRb_5oxEGirKOKoGFhVeY7AsTbYFTW1OoqW2RDXCJQoEJAeHwFkSgitSXgsAw6GNuDwa7XG7mTDW51nC05bItIgKWc3-rTbdQ0o36zpQ==",
+              "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+              "start_index": 3708,
+              "end_index": 3782,
+              "text": "* **DevFee:** Typically around 1.8% to 2.8%, deducted directly as hashrate"
+            },
+            {
+              "title": "vnish.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZU87Xk0wFlQ-p2_HuoTIPOz0Lsw62XkT7rpL2W6aNCxjU1xsn9C7AAb6JGYS42dNycUF4e4u5KntSQhBIBvwVSSyOE0a96Ao=",
+              "direct_url": "https://vnish.com/",
+              "start_index": 3784,
+              "end_index": 3944,
+              "text": "* **Best for:** Miners who love tweaking specific technical parameters and need compatibility with a highly specific or obscure Antminer control board sub-model"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4bLZRdobr3O8xbCyzb8QYqowmCbYPzU3dMO9NMn2LUbuitckWNFhEVIWYdr_d3kb7SdlVrnMy9tleSGZ3Os3jrPh9IdBNJvhnDe6fqPaxg==",
+              "direct_url": "https://vnish.ru/firmware/",
+              "start_index": 3784,
+              "end_index": 3944,
+              "text": "* **Best for:** Miners who love tweaking specific technical parameters and need compatibility with a highly specific or obscure Antminer control board sub-model"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " [",
+          "annotations": [
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJeuduBq0KtVHQlvanpadiY0X_s8zS8VOSeyWCovO9y68boNoM1A9bxF02pcrv7MQtXIVVWKS523YEAazkBFoBrLtWiG0w98jWkp1MPePEIwI5itlJbzxFZKnlwP0WDII=",
+              "direct_url": "https://www.youtube.com/watch?v=a3YllTMvcJM",
+              "end_index": 135,
+              "text": "**PiTBiT firmware** has emerged as a popular aftermarket firmware option for Bitmain Antminers (including the S19, T21, and S21 series)"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEbSrXW3BpVbjpl9EyHQ4x5Ek9res9FfPUkeR24HtkJ2uLNvE0Cg2xGo4vsBSwRNS3iQQlG4Z0qj6eLyJ2_7ylI9dc_2u_dafvXvhx_SeQHNvee5QOWxBExZyvXmt1Xfk=",
+              "direct_url": "https://www.youtube.com/watch?v=0T_M4tdFr5k",
+              "end_index": 135,
+              "text": "**PiTBiT firmware** has emerged as a popular aftermarket firmware option for Bitmain Antminers (including the S19, T21, and S21 series)"
+            },
+            {
+              "title": "ultramining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvmEuD2DcE725t2srPBQN6oY0Y8GeLgiGXPqWAD41NYHpn3ChfUUoVPcZY0VaDQfFColX49QxRSo6OASRnY-zox2QGB8PtZJg0_s2-60oUOLxD4kDExAsG6DWVhRIr2hYMElzMRFLA2Lz_GWv7ZoEoc-PGlbYJWNvFyHfoc_pdCKhh",
+              "direct_url": "https://ultramining.com/news/en/introducing-pitbit-a-brand-trusted-by-miners/",
+              "end_index": 135,
+              "text": "**PiTBiT firmware** has emerged as a popular aftermarket firmware option for Bitmain Antminers (including the S19, T21, and S21 series)"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 137,
+              "end_index": 274,
+              "text": "It is particularly prominent in Eastern European and Central Asian mining hubs (such as Russia and Kazakhstan) where the company is based"
+            },
+            {
+              "title": "ultramining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvmEuD2DcE725t2srPBQN6oY0Y8GeLgiGXPqWAD41NYHpn3ChfUUoVPcZY0VaDQfFColX49QxRSo6OASRnY-zox2QGB8PtZJg0_s2-60oUOLxD4kDExAsG6DWVhRIr2hYMElzMRFLA2Lz_GWv7ZoEoc-PGlbYJWNvFyHfoc_pdCKhh",
+              "direct_url": "https://ultramining.com/news/en/introducing-pitbit-a-brand-trusted-by-miners/",
+              "start_index": 137,
+              "end_index": 274,
+              "text": "It is particularly prominent in Eastern European and Central Asian mining hubs (such as Russia and Kazakhstan) where the company is based"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2U_VCTfnjk-ANF3T4dm33HcNP1wAdbL30a4KM8Y_Km2UvayMuk-YgfE8x6HRDeo5m6kWWOMMnxbugYmNaOTUqY-R0d5SDLCWQktW3FaUlAx8ZBa4_vELI4Ne9oGY=",
+              "direct_url": "https://m.youtube.com/shorts/JIC5kMHxXSk",
+              "start_index": 475,
+              "end_index": 533,
+              "text": "**\n**Yes, PiTBiT is generally considered reliable and safe"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 475,
+              "end_index": 533,
+              "text": "**\n**Yes, PiTBiT is generally considered reliable and safe"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2U_VCTfnjk-ANF3T4dm33HcNP1wAdbL30a4KM8Y_Km2UvayMuk-YgfE8x6HRDeo5m6kWWOMMnxbugYmNaOTUqY-R0d5SDLCWQktW3FaUlAx8ZBa4_vELI4Ne9oGY=",
+              "direct_url": "https://m.youtube.com/shorts/JIC5kMHxXSk",
+              "start_index": 534,
+              "end_index": 721,
+              "text": "** \n* **Thermal Protection:** Unlike some low-tier, \"free\" custom firmwares that push chips to their physical limits at the cost of hardware life, PiTBiT places a heavy emphasis on safety"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2U_VCTfnjk-ANF3T4dm33HcNP1wAdbL30a4KM8Y_Km2UvayMuk-YgfE8x6HRDeo5m6kWWOMMnxbugYmNaOTUqY-R0d5SDLCWQktW3FaUlAx8ZBa4_vELI4Ne9oGY=",
+              "direct_url": "https://m.youtube.com/shorts/JIC5kMHxXSk",
+              "start_index": 723,
+              "end_index": 876,
+              "text": "It features automated protection mechanisms that prevent the miner from overheating by dynamically underclocking or shutting down when temperatures spike"
+            },
+            {
+              "title": "ultramining.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvmEuD2DcE725t2srPBQN6oY0Y8GeLgiGXPqWAD41NYHpn3ChfUUoVPcZY0VaDQfFColX49QxRSo6OASRnY-zox2QGB8PtZJg0_s2-60oUOLxD4kDExAsG6DWVhRIr2hYMElzMRFLA2Lz_GWv7ZoEoc-PGlbYJWNvFyHfoc_pdCKhh",
+              "direct_url": "https://ultramining.com/news/en/introducing-pitbit-a-brand-trusted-by-miners/",
+              "start_index": 878,
+              "end_index": 1087,
+              "text": "* **Stability:** Large-scale commercial mining operators have successfully deployed PiTBiT across thousands of ASICs in industrial data centers, indicating that the firmware is stable over long-term operations"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 1089,
+              "end_index": 1266,
+              "text": "* **Support:** Reviews often praise their customer support, which is highly active on Telegram and other forums, helping users troubleshoot and walk through the flashing process"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 1089,
+              "end_index": 1266,
+              "text": "* **Support:** Reviews often praise their customer support, which is highly active on Telegram and other forums, helping users troubleshoot and walk through the flashing process"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJeuduBq0KtVHQlvanpadiY0X_s8zS8VOSeyWCovO9y68boNoM1A9bxF02pcrv7MQtXIVVWKS523YEAazkBFoBrLtWiG0w98jWkp1MPePEIwI5itlJbzxFZKnlwP0WDII=",
+              "direct_url": "https://www.youtube.com/watch?v=a3YllTMvcJM",
+              "start_index": 1425,
+              "end_index": 1533,
+              "text": "For example, it can push an Antminer S21 Pro (234 TH) up to a massive 300 TH using automated preset profiles"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8xWBNGkbCK0Ykwz7m4SfRla0VMwIwj0_yu7KibC0SCMTloBU-_8RZJxIFhiC6A37y7e7L7loNqa3QAPRKhiaQwBK6cN_pID8T9oXnrw7F6tx8QhtieI38LkQeHWFzmGQ=",
+              "direct_url": "https://www.youtube.com/watch?v=kLTQWYxZ7Vk",
+              "start_index": 1535,
+              "end_index": 1701,
+              "text": "* **Underclocking for Efficiency:** If you have high electricity costs, it offers \"eco-modes\" that lower the wattage and optimize the Joules-per-Terahash (J/TH) ratio"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2U_VCTfnjk-ANF3T4dm33HcNP1wAdbL30a4KM8Y_Km2UvayMuk-YgfE8x6HRDeo5m6kWWOMMnxbugYmNaOTUqY-R0d5SDLCWQktW3FaUlAx8ZBa4_vELI4Ne9oGY=",
+              "direct_url": "https://m.youtube.com/shorts/JIC5kMHxXSk",
+              "start_index": 1535,
+              "end_index": 1701,
+              "text": "* **Underclocking for Efficiency:** If you have high electricity costs, it offers \"eco-modes\" that lower the wattage and optimize the Joules-per-Terahash (J/TH) ratio"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 1703,
+              "end_index": 1903,
+              "text": "* **Comprehensive Monitoring App:** PiTBiT provides an intuitive ecosystem, including a web interface and a mobile monitoring app, making it easy to track individual chip health and hashrates remotely"
+            },
+            {
+              "title": "pitbitecosystem.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_5lAox-XFiyPq_rxEkNPi89ozS1Rq6RvbHHk2qo95OrSqsKtxdoD720zfOerOwmtmZibwNSgFBRQIDzlOWgDZL-FYb7yesa4o2IKBiSSZaNXXXylj_7qAxvwCg==",
+              "direct_url": "https://pitbitecosystem.com/en/reviews/",
+              "start_index": 1703,
+              "end_index": 1903,
+              "text": "* **Comprehensive Monitoring App:** PiTBiT provides an intuitive ecosystem, including a web interface and a mobile monitoring app, making it easy to track individual chip health and hashrates remotely"
+            },
+            {
+              "title": "youtube.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJeuduBq0KtVHQlvanpadiY0X_s8zS8VOSeyWCovO9y68boNoM1A9bxF02pcrv7MQtXIVVWKS523YEAazkBFoBrLtWiG0w98jWkp1MPePEIwI5itlJbzxFZKnlwP0WDII=",
+              "direct_url": "https://www.youtube.com/watch?v=a3YllTMvcJM",
+              "start_index": 1905,
+              "end_index": 2101,
+              "text": "* **Business Model (DevFee):** Like most custom firmware, PiTBiT uses a developer fee (DevFee) structure, taking a small percentage of your hashpower (usually between 1% to 3%) to fund development"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVFXPdRPv_uat7aMBoSCr0bndU8Bhenn0N_e9b7eNr361CoaIeUYtGYFnJeXSH34ircfcZIcZ15nlo22B83ylrUG6vtdiIBsRb_5oxEGirKOKoGFhVeY7AsTbYFTW1OoqW2RDXCJQoEJAeHwFkSgitSXgsAw6GNuDwa7XG7mTDW51nC05bItIgKWc3-rTbdQ0o36zpQ==",
+              "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+              "start_index": 1905,
+              "end_index": 2101,
+              "text": "* **Business Model (DevFee):** Like most custom firmware, PiTBiT uses a developer fee (DevFee) structure, taking a small percentage of your hashpower (usually between 1% to 3%) to fund development"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVFXPdRPv_uat7aMBoSCr0bndU8Bhenn0N_e9b7eNr361CoaIeUYtGYFnJeXSH34ircfcZIcZ15nlo22B83ylrUG6vtdiIBsRb_5oxEGirKOKoGFhVeY7AsTbYFTW1OoqW2RDXCJQoEJAeHwFkSgitSXgsAw6GNuDwa7XG7mTDW51nC05bItIgKWc3-rTbdQ0o36zpQ==",
+              "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+              "start_index": 2376,
+              "end_index": 2565,
+              "text": "Braiins OS+ (The Gold Standard)**\nDeveloped by the team behind the legendary Slush Pool (now Braiins Pool), Braiins OS+ is the most trusted and widely used aftermarket firmware in the world"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KkNBHHsKESYGuCZjaqPmAkIZEDBPf7ktVrZB-WAHcm3jLhozd_mfC_8iPjieO-hY5ZLx5ivnZr3tpgEEYAfzzRrTTi3qfxiG3zoeRlUeTqZ72xSJWh6U1eGQEiinvkVW41yzhffR_To--mwMUaqojazLyAtDYZIMZdUJEsr2KjuBjIQEQ39hrNpgteg=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 2376,
+              "end_index": 2565,
+              "text": "Braiins OS+ (The Gold Standard)**\nDeveloped by the team behind the legendary Slush Pool (now Braiins Pool), Braiins OS+ is the most trusted and widely used aftermarket firmware in the world"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcX8kZ_qS1qtGeQBcBsBeW8I83re1EQRHT_WMWpP5dg9ekoElg4mE1r4040x40nTMA2_k6RCLclWMrFIcySVssnUeN-iFPtJBy2f-hhNvpVRokwf4e3gGr07Ud2o75p9LRas0Xdzs04vrbkyWXrkHDnHR_6FSHAy5DW8yDWhkPWNdp-gUCD_dJFFJ7wGSqeDvRDA==",
+              "direct_url": "https://d-central.tech/braiinsos-unlocking-the-power-of-advanced-autotuning-for-asic-miners/",
+              "start_index": 2376,
+              "end_index": 2565,
+              "text": "Braiins OS+ (The Gold Standard)**\nDeveloped by the team behind the legendary Slush Pool (now Braiins Pool), Braiins OS+ is the most trusted and widely used aftermarket firmware in the world"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KkNBHHsKESYGuCZjaqPmAkIZEDBPf7ktVrZB-WAHcm3jLhozd_mfC_8iPjieO-hY5ZLx5ivnZr3tpgEEYAfzzRrTTi3qfxiG3zoeRlUeTqZ72xSJWh6U1eGQEiinvkVW41yzhffR_To--mwMUaqojazLyAtDYZIMZdUJEsr2KjuBjIQEQ39hrNpgteg=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 2567,
+              "end_index": 2698,
+              "text": "* **Why choose it:** \n  * **Per-Chip Autotuning:** Braiins OS+ scans each individual ASIC chip and optimizes its voltage separately"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KkNBHHsKESYGuCZjaqPmAkIZEDBPf7ktVrZB-WAHcm3jLhozd_mfC_8iPjieO-hY5ZLx5ivnZr3tpgEEYAfzzRrTTi3qfxiG3zoeRlUeTqZ72xSJWh6U1eGQEiinvkVW41yzhffR_To--mwMUaqojazLyAtDYZIMZdUJEsr2KjuBjIQEQ39hrNpgteg=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 2700,
+              "end_index": 2826,
+              "text": "Since no two chips are identical due to manufacturing variances, this extracts the absolute highest efficiency (J/TH) possible"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KkNBHHsKESYGuCZjaqPmAkIZEDBPf7ktVrZB-WAHcm3jLhozd_mfC_8iPjieO-hY5ZLx5ivnZr3tpgEEYAfzzRrTTi3qfxiG3zoeRlUeTqZ72xSJWh6U1eGQEiinvkVW41yzhffR_To--mwMUaqojazLyAtDYZIMZdUJEsr2KjuBjIQEQ39hrNpgteg=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 2830,
+              "end_index": 2911,
+              "text": "* **Open-Source Roots:** It is built on a highly transparent Linux-based platform"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcX8kZ_qS1qtGeQBcBsBeW8I83re1EQRHT_WMWpP5dg9ekoElg4mE1r4040x40nTMA2_k6RCLclWMrFIcySVssnUeN-iFPtJBy2f-hhNvpVRokwf4e3gGr07Ud2o75p9LRas0Xdzs04vrbkyWXrkHDnHR_6FSHAy5DW8yDWhkPWNdp-gUCD_dJFFJ7wGSqeDvRDA==",
+              "direct_url": "https://d-central.tech/braiinsos-unlocking-the-power-of-advanced-autotuning-for-asic-miners/",
+              "start_index": 2830,
+              "end_index": 2911,
+              "text": "* **Open-Source Roots:** It is built on a highly transparent Linux-based platform"
+            },
+            {
+              "title": "reddit.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-gEO11mSKjZPpLC3Ae51QJ5cSrp30Yd8lo_JsIXuZvp_5_08jT4l_auj4lxhOUGbqDrax-hvnYjCfWSzQg-w-NuE8dlCJWRWzlH2B_9HWcCH9hBFsnOCijeYpAKDvcAjqjRBG3GXKFtG-t2u3t4rvj5lBfIG9ncyjIGI2C_vckvY2JbDgawcf35GE6nU9kxeG7W3PTUyRNU0o0IY=",
+              "direct_url": "https://www.reddit.com/r/BitcoinMining/comments/1oehxq4/what_firmware_are_you_running_on_your_antminer/",
+              "start_index": 2915,
+              "end_index": 3056,
+              "text": "* **DevFee Discount:** While they charge a 2.5% DevFee, they wave or heavily discount this fee if you point your hashrate to **Braiins Pool**"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVFXPdRPv_uat7aMBoSCr0bndU8Bhenn0N_e9b7eNr361CoaIeUYtGYFnJeXSH34ircfcZIcZ15nlo22B83ylrUG6vtdiIBsRb_5oxEGirKOKoGFhVeY7AsTbYFTW1OoqW2RDXCJQoEJAeHwFkSgitSXgsAw6GNuDwa7XG7mTDW51nC05bItIgKWc3-rTbdQ0o36zpQ==",
+              "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+              "start_index": 2915,
+              "end_index": 3056,
+              "text": "* **DevFee Discount:** While they charge a 2.5% DevFee, they wave or heavily discount this fee if you point your hashrate to **Braiins Pool**"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVFXPdRPv_uat7aMBoSCr0bndU8Bhenn0N_e9b7eNr361CoaIeUYtGYFnJeXSH34ircfcZIcZ15nlo22B83ylrUG6vtdiIBsRb_5oxEGirKOKoGFhVeY7AsTbYFTW1OoqW2RDXCJQoEJAeHwFkSgitSXgsAw6GNuDwa7XG7mTDW51nC05bItIgKWc3-rTbdQ0o36zpQ==",
+              "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+              "start_index": 3058,
+              "end_index": 3198,
+              "text": "* **Best for:** Home miners and enterprise operations looking for maximum efficiency, maximum transparency, and a flawless global reputation"
+            },
+            {
+              "title": "mineshop.eu",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KkNBHHsKESYGuCZjaqPmAkIZEDBPf7ktVrZB-WAHcm3jLhozd_mfC_8iPjieO-hY5ZLx5ivnZr3tpgEEYAfzzRrTTi3qfxiG3zoeRlUeTqZ72xSJWh6U1eGQEiinvkVW41yzhffR_To--mwMUaqojazLyAtDYZIMZdUJEsr2KjuBjIQEQ39hrNpgteg=",
+              "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+              "start_index": 3058,
+              "end_index": 3198,
+              "text": "* **Best for:** Home miners and enterprise operations looking for maximum efficiency, maximum transparency, and a flawless global reputation"
+            },
+            {
+              "title": "vnish.ninja",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQIsklmRtbWl24B4zaHjOq_0nHV_pAssYcwMOBGOsIkdE3ju9E3G0HL5C7DgNCcwlOS4DWc_wG2cVnAC0TdL2i_jARFZnwb3KSAw==",
+              "direct_url": "https://vnish.ninja/",
+              "start_index": 3211,
+              "end_index": 3336,
+              "text": "VNISH (The Customization King)**\nVNISH is one of the oldest and most popular firmware ecosystems globally, running since 2017"
+            },
+            {
+              "title": "vnish-firmware.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt_YRYJheHlb4Pl3UwTYUBdMUv5yqePTCu0Lc5FOr8kR2i6sW-Bag9Y-vkK-Hp9heY0wxSW5foKL-LbwdBRMo78KWWB8qZUOYt5pfgWcwC93w=",
+              "direct_url": "https://vnish-firmware.com/",
+              "start_index": 3338,
+              "end_index": 3475,
+              "text": "* **Why choose it:**\n  * **Incredible Preset Library:** VNISH supports almost every variation of the Antminer S19, S21, T21, and L-series"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4bLZRdobr3O8xbCyzb8QYqowmCbYPzU3dMO9NMn2LUbuitckWNFhEVIWYdr_d3kb7SdlVrnMy9tleSGZ3Os3jrPh9IdBNJvhnDe6fqPaxg==",
+              "direct_url": "https://vnish.ru/firmware/",
+              "start_index": 3338,
+              "end_index": 3475,
+              "text": "* **Why choose it:**\n  * **Incredible Preset Library:** VNISH supports almost every variation of the Antminer S19, S21, T21, and L-series"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4bLZRdobr3O8xbCyzb8QYqowmCbYPzU3dMO9NMn2LUbuitckWNFhEVIWYdr_d3kb7SdlVrnMy9tleSGZ3Os3jrPh9IdBNJvhnDe6fqPaxg==",
+              "direct_url": "https://vnish.ru/firmware/",
+              "start_index": 3477,
+              "end_index": 3563,
+              "text": "They are extremely quick to release firmware updates for newly launched Bitmain models"
+            },
+            {
+              "title": "vnish.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZU87Xk0wFlQ-p2_HuoTIPOz0Lsw62XkT7rpL2W6aNCxjU1xsn9C7AAb6JGYS42dNycUF4e4u5KntSQhBIBvwVSSyOE0a96Ao=",
+              "direct_url": "https://vnish.com/",
+              "start_index": 3567,
+              "end_index": 3704,
+              "text": "* **Granular Control:** It offers arguably the deepest customization for manual tuning (voltage, frequency, and fan speeds per hashboard)"
+            },
+            {
+              "title": "d-central.tech",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwVFXPdRPv_uat7aMBoSCr0bndU8Bhenn0N_e9b7eNr361CoaIeUYtGYFnJeXSH34ircfcZIcZ15nlo22B83ylrUG6vtdiIBsRb_5oxEGirKOKoGFhVeY7AsTbYFTW1OoqW2RDXCJQoEJAeHwFkSgitSXgsAw6GNuDwa7XG7mTDW51nC05bItIgKWc3-rTbdQ0o36zpQ==",
+              "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+              "start_index": 3708,
+              "end_index": 3782,
+              "text": "* **DevFee:** Typically around 1.8% to 2.8%, deducted directly as hashrate"
+            },
+            {
+              "title": "vnish.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZU87Xk0wFlQ-p2_HuoTIPOz0Lsw62XkT7rpL2W6aNCxjU1xsn9C7AAb6JGYS42dNycUF4e4u5KntSQhBIBvwVSSyOE0a96Ao=",
+              "direct_url": "https://vnish.com/",
+              "start_index": 3784,
+              "end_index": 3944,
+              "text": "* **Best for:** Miners who love tweaking specific technical parameters and need compatibility with a highly specific or obscure Antminer control board sub-model"
+            },
+            {
+              "title": "vnish.ru",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4bLZRdobr3O8xbCyzb8QYqowmCbYPzU3dMO9NMn2LUbuitckWNFhEVIWYdr_d3kb7SdlVrnMy9tleSGZ3Os3jrPh9IdBNJvhnDe6fqPaxg==",
+              "direct_url": "https://vnish.ru/firmware/",
+              "start_index": 3784,
+              "end_index": 3944,
+              "text": "* **Best for:** Miners who love tweaking specific technical parameters and need compatibility with a highly specific or obscure Antminer control board sub-model"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

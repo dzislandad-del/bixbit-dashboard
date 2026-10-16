@@ -1,8 +1,9 @@
 # Content Brief: Antminer Autotuning
 **URL:** /en/antminer-firmware/autotuning
 **File:** content/briefs/antminer-autotuning.md
-**Last updated:** 2026-06-18
-**Priority:** P2
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P2 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Keep P2. Volume n/d. Merge into the tuning-modes page.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/antminer` (existing page), H2 Tuning modes → autotuning, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer — this is a highly technical page requiring engineering authorship]
 
 ---
@@ -23,13 +24,15 @@ Own the "antminer autotuning" topic with a vendor-neutral technical explanation 
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer autotuning | Primary | — | — |
-| asic autotuning | Category term | — | — |
-| per chip tuning antminer | Technical long-tail | — | — |
-| antminer efficiency autotuning | Long-tail | — | — |
-| antminer auto tune firmware | Variant | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer autotuning | Primary | n/d (<10) | — | — |
+| asic autotuning | Category term | n/d (<10) | — | — |
+| per chip tuning antminer | Technical long-tail | n/d (<10) | — | — |
+| antminer efficiency autotuning | Long-tail | n/d (<10) | — | — |
+| antminer auto tune firmware | Variant | n/d (<10) | — | — |
 
 ---
 

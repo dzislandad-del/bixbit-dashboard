@@ -1,8 +1,9 @@
 # Content Brief: Antminer Undervolting
 **URL:** /en/antminer-firmware/undervolting
 **File:** content/briefs/antminer-undervolting.md
-**Last updated:** 2026-06-18
-**Priority:** P2
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P2 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Keep P2. Volume n/d. Merge into the tuning-modes page.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/antminer` (existing page), H2 Tuning modes → undervolting, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer + technical writer]
 
 ---
@@ -23,14 +24,16 @@ Capture the large segment of mining operators whose primary constraint is electr
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer undervolting | Primary | — | — |
-| antminer undervolt firmware | Secondary | — | — |
-| underclock antminer s19 | Related | — | — |
-| antminer power reduction firmware | Long-tail | — | — |
-| antminer efficiency mode | Long-tail | — | — |
-| reduce antminer power draw | Informational | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer undervolting | Primary | n/d (<10) | — | — |
+| antminer undervolt firmware | Secondary | n/d (<10) | — | — |
+| underclock antminer s19 | Related | n/d (<10) | — | — |
+| antminer power reduction firmware | Long-tail | n/d (<10) | — | — |
+| antminer efficiency mode | Long-tail | n/d (<10) | — | — |
+| reduce antminer power draw | Informational | n/d (<10) | — | — |
 
 ---
 

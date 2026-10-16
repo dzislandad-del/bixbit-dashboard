@@ -1,0 +1,13 @@
+{
+ "engine": "chat_gpt",
+ "model": "gpt-4.1-mini-2025-04-14",
+ "prompt": "What is ePIC UMC OS and how does it compare to other Antminer firmware?",
+ "datetime_or_task_id": "2026-09-25 12:35:48 +00:00 / 09251235-2548-0612-0000-a5abbb79216f",
+ "answer_text": "ePIC UMC OS is a custom firmware developed by ePIC Blockchain Technologies for Antminer S19x and S21 series miners. It replaces the stock Bitmain firmware, offering features such as automated hashrate optimization, chip-level tuning, thermal protection, and comprehensive fleet management APIs. These enhancements aim to maximize the return on investment (ROI) of existing hardware without necessitating hardware replacements. ([epicblockchain.io](https://epicblockchain.io/product/umc-os/?utm_source=openai))\n\nIn comparison to other Antminer firmware options, ePIC UMC OS stands out due to its low development fee of 1.5%, which is among the lowest in the market. This fee reduction, implemented in January 2026, makes it an attractive choice for mining operators seeking cost-effective solutions. ([prnewswire.com](https://www.prnewswire.com/news-releases/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets-302669401.html?utm_source=openai))\n\nWhen compared to other third-party firmware solutions, ePIC UMC OS offers a competitive development fee of 1.5%, which is lower than some alternatives. However, it does not support Stratum V2, a feature available in some other firmware options. ([spark.money](https://www.spark.money/tools/bitcoin-mining-os-comparison?utm_source=openai))\n\nFor a visual demonstration of the ePIC UMC Control Board installation on an Antminer S19K Pro, you can refer to the following video:\n\n[S19K Pro ePIC UMC Control Board Install](https://www.youtube.com/watch?v=1ddLXYABc68&utm_source=openai)\n ",
+ "cited_urls": [
+  "https://epicblockchain.io/product/umc-os/",
+  "https://www.prnewswire.com/news-releases/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets-302669401.html",
+  "https://www.spark.money/tools/bitcoin-mining-os-comparison",
+  "https://www.youtube.com/watch?v=1ddLXYABc68"
+ ]
+}

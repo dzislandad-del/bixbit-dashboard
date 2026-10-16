@@ -20,7 +20,14 @@
       "mcp__dataforseo__dataforseo_labs_google_keyword_overview",
       "mcp__dataforseo__ai_opt_llm_ment_search",
       "mcp__dataforseo__dataforseo_labs_google_domain_rank_overview",
-      "Artifact"
+      "Artifact",
+      "Bash(cd *)",
+      "Bash(git push*)",
+      "Skill(update-config)",
+      "Bash(gh run *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(gh workflow *)"
     ]
   },
   "enabledMcpjsonServers": [

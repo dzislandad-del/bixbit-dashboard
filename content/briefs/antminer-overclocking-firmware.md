@@ -1,8 +1,9 @@
 # Content Brief: Antminer Overclocking Firmware
 **URL:** /en/antminer-firmware/overclocking
 **File:** content/briefs/antminer-overclocking-firmware.md
-**Last updated:** 2026-06-18
-**Priority:** P1 (performance-focused operators; high purchase intent)
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. 20/mo (10+10). Merge with undervolting/autotuning into one tuning-modes page.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/antminer` (existing page), H2 Tuning modes → overclocking, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer + technical writer]
 
 ---
@@ -23,14 +24,16 @@ Serve ASIC operators who want to push hashrate above stock spec using custom fir
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer overclocking | Primary | — | — |
-| overclock antminer firmware | Secondary | — | — |
-| antminer s19 overclocking | Model-specific | — | — |
-| antminer s21 overclocking | Model-specific | — | — |
-| how to overclock antminer | How-to | — | — |
-| antminer hashrate boost firmware | Long-tail | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer overclocking | Primary | 10 | — | — |
+| overclock antminer firmware | Secondary | n/d (<10) | — | — |
+| antminer s19 overclocking | Model-specific | n/d (<10) | — | — |
+| antminer s21 overclocking | Model-specific | n/d (<10) | — | — |
+| how to overclock antminer | How-to | 10 | — | — |
+| antminer hashrate boost firmware | Long-tail | n/d (<10) | — | — |
 
 ---
 

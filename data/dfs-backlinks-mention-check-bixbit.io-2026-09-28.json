@@ -1,0 +1,107 @@
+{
+ "date": "2026-09-28",
+ "source": "DataForSEO /v3/backlinks/backlinks/live (task 09281302-2548-0269-0000-5e31b9a97089)",
+ "params": {
+  "target": "bixbit.io",
+  "mode": "as_is",
+  "backlinks_status_type": "all",
+  "filter": "domain_from in [cryptonews.net, d-central.tech, operativa.ru, saashub.com, minerfirmware.online, altcoinlog.com, en.altcoinlog.com, kryptex.com, pool.kryptex.com]"
+ },
+ "total_count": 22,
+ "note": "Compact rewrite of the inline response (pool.kryptex.com locale pages collapsed into one row). saashub.com, kryptex.com, en.altcoinlog.com returned 0 rows for exact domain_from (saashub is in RD file with 7 backlinks, probably under www.saashub.com).",
+ "items": [
+  {
+   "domain_from": "operativa.ru",
+   "url_from": "https://operativa.ru/new-technologies/proshivka-asika-s9k-zachem-ona-nuzhna.html",
+   "url_to": "https://bixbit.io/ru/firmwares/asic-s9-s9j-s9i",
+   "dofollow": true,
+   "anchor": "прошивка асика s9k",
+   "domain_from_rank": 181,
+   "first_seen": "2025-12-31",
+   "last_seen": "2026-09-18"
+  },
+  {
+   "domain_from": "cryptonews.net",
+   "url_from": "https://cryptonews.net/editorial/technology/whatsminer-firmware-updates-explained-why-they-matter-and-how-to-perform-them/",
+   "url_to": "https://bixbit.io/en/firmwares",
+   "dofollow": true,
+   "anchor": "here",
+   "domain_from_rank": 446,
+   "first_seen": "2026-06-11",
+   "last_seen": "2026-06-11",
+   "is_new": true
+  },
+  {
+   "domain_from": "cryptonews.net",
+   "url_from": "https://cryptonews.net/editorial/guides/what-is-bitcoin-hashrate-an-in-depth-guide-to-mining-mastery/",
+   "url_to": "https://bixbit.io/en/ams",
+   "dofollow": true,
+   "anchor": "monitored",
+   "domain_from_rank": 476,
+   "first_seen": "2025-07-31",
+   "last_seen": "2025-12-02"
+  },
+  {
+   "domain_from": "d-central.tech",
+   "url_from": "https://d-central.tech/asic-troubleshooting/whatsminer-psu-firmware-upgrade-fail/",
+   "url_to": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware",
+   "dofollow": true,
+   "anchor": "BiXBiT M2x PSU firmware update guide (BTMiner UI path + fan-simulator recovery)",
+   "semantic_location": "aside",
+   "domain_from_rank": 290,
+   "first_seen": "2026-06-20",
+   "last_seen": "2026-08-31"
+  },
+  {
+   "domain_from": "d-central.tech",
+   "url_from": "https://d-central.tech/asic-troubleshooting/whatsminer-error-268-psu-current-imbalance/",
+   "url_to": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "dofollow": true,
+   "anchor": "bixbit.io Whatsminer error code reference",
+   "semantic_location": "aside",
+   "domain_from_rank": 290,
+   "first_seen": "2026-06-08",
+   "last_seen": "2026-08-31"
+  },
+  {
+   "domain_from": "minerfirmware.online",
+   "url_from": "https://minerfirmware.online/firmware/bixbit.html",
+   "url_to": "https://bixbit.io/en/firmwares",
+   "dofollow": false,
+   "anchor": "Get it at the official site",
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25"
+  },
+  {
+   "domain_from": "minerfirmware.online",
+   "url_from": "https://minerfirmware.online/",
+   "url_to": "https://bixbit.io/en/firmwares",
+   "dofollow": false,
+   "anchor": "Get it at bixbit.io",
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25"
+  },
+  {
+   "domain_from": "pool.kryptex.com",
+   "url_from": "https://pool.kryptex.com/asic-firmware/bixbit (+14 locale copies: ru, uk, de, fr, es, it, pl, tr, ar, zh-cn, ko, fa, id)",
+   "url_to": "https://bixbit.io/en",
+   "dofollow": false,
+   "anchor": "Official site (localized)",
+   "domain_from_rank": 473,
+   "first_seen": "2026-07-22",
+   "last_seen": "2026-09-21",
+   "pages": 15
+  },
+  {
+   "domain_from": "altcoinlog.com",
+   "url_from": "https://altcoinlog.com/prochivka-asic/",
+   "url_to": "https://bixbit.io/ru/firmwares",
+   "dofollow": false,
+   "anchor": "https://bixbit.io/ru/firmwares",
+   "page_from_rank": 69,
+   "domain_from_rank": 342,
+   "first_seen": "2023-11-20",
+   "last_seen": "2026-08-08"
+  }
+ ]
+}

@@ -9,6 +9,21 @@
 
 ---
 
+
+> **Статус внедрения на 2026-09-28**
+> - Источники: GSC, GA4, PageSpeed, CrUX, Bing, DataForSEO — ✅ (`scripts/check-connectors.sh`); Moz — сознательно не используем.
+> - Агенты/команды: 6 + 6 обновлены под данные 2026-09, добавлена `/rank-check`; общие факты — `docs/agent-knowledge.md`.
+> - Скрипты данных: `gsc-query.py`, `ga4-query.py`, `bing-query.py`, `serp-rank.py`, `page-snapshot.py`.
+> - Фаза 7: `.github/workflows/seo-data.yml` написан (сбор данных); **ждёт push и секретов в GitHub**.
+>   PR-регрессии мета/schema — относятся к репозиторию сайта, здесь не применимы.
+> - Результаты агентов (2026-09-28): `content/content-plan.md` (Q4), `content/hreflang-spec.md`, `content/localization-plan.md`,
+>   `content/outreach/` (36 доменов, исправления фактов, шаблоны), `content/geo/llms.txt` (готов, ждёт V1–V3).
+> - Задание разработчику: `content/dev-task-p0-2026-09-28.md` (старое `dev-task-p0.md` помечено как устаревшее).
+> - Добавлено позже 2026-09-28:
+>   - скрипты: краулер `crawl.py`; индексация `index-check.py` / `index-submit.py`; `cannibalization.py`; AIO и сниппеты `serp-features.py`; ссылки `backlinks-monitor.py`;
+>   - команды: `/monthly-report`, `/strategy-report`, `/text-review`, `/mockup-review`, `/blog-plan`;
+>   - контент: ES-ядро, кластер Hardware, план блога, мета и ALT документации, RU-брифы.
+
 ## 0. Карта фаз и время
 
 | Фаза | Что делаем | Кто | Оценка | Можно ли отложить |

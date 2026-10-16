@@ -6,9 +6,30 @@
 
 ---
 
+## Architecture v2 (2026-09-25): authoritative
+
+> This section **replaces** the Hub/Spoke lists and the production order below. Spokes are no longer separate URLs: they become H2 sections on existing live pages. A new URL is created only for a standalone search intent. Rationale and the full table for all clusters: `reports/content-architecture-2026-09-25.md`. Links: `content/internal-linking.md` → «Architecture v2 — Linking Matrix». The old sections are kept below as **reference material for writers** (keywords, outlines, FAQs); their URLs no longer apply.
+
+| URL | Type | Page priority | Sections from briefs (section priority) | What gets added |
+|---|---|---|---|---|
+| `/en/ams` | existing | **P0** | `mining-fleet-monitoring-pillar` → Main page content (pillar) (P0)<br>`antminer-monitoring-software` → H2 Antminer monitoring and dashboard (P1)<br>`mining-fleet-dashboard` → H2 Antminer monitoring and dashboard (dashboard part) (P2)<br>`whatsminer-monitoring-software` → H2 Whatsminer monitoring (mixed fleet) (P1)<br>`mining-farm-alerts-automation` → H2 Alerts and automation (P2)<br>`mining-farm-power-monitoring` → H2 Per-unit power monitoring (P2)<br>`mining-hosting-monitoring` → H2 Multi-client for hosting providers (P2)<br>`asic-fleet-management` → H2 Fleet management at scale (P2) | H2 sections: Antminer + Whatsminer in one dashboard (a mixed fleet); Antminer monitoring and dashboard; Whatsminer monitoring; alerts and automation (remote reboot [VERIFY]); per-unit power monitoring [VERIFY]; multi-client for hosting providers [VERIFY]; fleet management at scale; the firmware link; SoftwareApplication schema + the existing FAQ. Secondary keyword: mining software (260) |
+| `/en/ams/comparison` | **new** | **P1** | `mining-farm-monitoring-software` → H2 How to choose monitoring software (P1)<br>`ams-vs-minerstat` → H2 AMS vs Minerstat (P1)<br>`ams-vs-braiins-manager` → H2 AMS vs Braiins Manager (P2)<br>`ams-vs-luxor-commander` → H2 AMS vs Luxor Commander (P2) | A new page: how to choose monitoring software (criteria); a comparison table with every competitor figure [VERIFY]; an 'alternatives' section (minerstat alternative 10, minerstat vs 10). Standalone intent: choosing and comparing vendors, GEO best-of-list queries |
+
+**Production order:** `/en/ams` (P0) → `/en/ams/comparison` (P1)
+
+---
 ## DataForSEO Status
 
-DataForSEO API returned 401 (unauthorized) during this build. All keyword volumes and competition scores in this document are marked `[VOL: N/A — DataForSEO 401]`. Do not publish volume claims until data is verified. Intent classifications are based on keyword structure and SERP pattern analysis without live data.
+**Updated 2026-09-25.**
+- **Sources:** volumes from DataForSEO Google Ads search_volume, KD from DataForSEO Labs, BiXBiT positions from Labs ranked_keywords (United States / en). `n/d` = fewer than ~10/mo. Before/after table: `reports/cluster-repriorization-2026-09-25.md`.
+- **Demand is minimal.** Of 26 seed keywords, 4 have measurable volume (10/mo each); the rest are n/d.
+- **Real demand sits in adjacent queries:**
+  - `asic monitor`: 70/mo, KD 0, **BiXBiT #7** (`/en/ams`)
+  - `mining software`: 260/mo, CPC $39.51, KD 30. Broad, but commercial.
+  - `antminer dashboard`: 30/mo, KD 12
+  - `minerstat alternative`: 10, KD 24
+- **Strategy:** the pillar `/en/ams` is P0 (a quick win from #7 into the top 3). Most spokes drop to P1/P2. The cluster's value is in GEO: AI answers about monitoring software (see `reports/sub/competitor-gap-*-geo-2026-09-25.md`), not organic volume.
+- **The status line above is out of date:** BiXBiT does rank for `asic monitor`, and the real URL is `/en/ams`, not `/en/monitoring`.
 
 ---
 
@@ -33,40 +54,40 @@ The cluster creates topical authority around AMS, drives organic traffic from op
 
 ---
 
-## Seed Keywords (Unverified Volumes)
+## Seed Keywords (volumes: DataForSEO Google Ads, US/en, 2026-09-25)
 
-| Keyword | Est. Intent | Vol. | Notes |
+| Keyword | Est. Intent | Vol (US, 2026-09) | Notes |
 |---|---|---|---|
-| mining fleet monitoring | Commercial | [VOL: N/A] | Primary seed |
-| ASIC fleet management software | Commercial | [VOL: N/A] | High commercial intent |
-| bitcoin miner monitoring software | Commercial | [VOL: N/A] | Broad, competitive |
-| mining farm management software | Commercial | [VOL: N/A] | Core cluster keyword |
-| ASIC monitoring dashboard | Commercial | [VOL: N/A] | Feature-level intent |
-| mining farm remote monitoring | Informational/Commercial | [VOL: N/A] | Use-case intent |
-| antminer monitoring software | Commercial | [VOL: N/A] | Spoke keyword |
-| whatsminer monitoring software | Commercial | [VOL: N/A] | Spoke keyword — Braiins gap |
-| mining fleet management platform | Commercial | [VOL: N/A] | Platform comparison intent |
-| bitcoin mining management system | Commercial | [VOL: N/A] | Enterprise framing |
-| mining hardware monitoring | Informational | [VOL: N/A] | Top-of-funnel |
-| ASIC farm dashboard | Informational/Commercial | [VOL: N/A] | Feature-level |
-| mining farm alerts | Informational | [VOL: N/A] | Spoke keyword |
-| remote ASIC reboot | Informational/Commercial | [VOL: N/A] | Feature-specific |
-| mining farm uptime monitoring | Commercial | [VOL: N/A] | SLA-focused intent |
-| bitcoin mining fleet management | Commercial | [VOL: N/A] | Enterprise intent |
-| ASIC fleet monitoring software | Commercial | [VOL: N/A] | Primary target |
-| mining pool monitoring | Informational | [VOL: N/A] | Adjacent — different intent |
-| Braiins Manager alternative | Commercial | [VOL: N/A] | High-value comparison intent |
-| Luxor Commander alternative | Commercial | [VOL: N/A] | High-value comparison intent |
-| Minerstat alternative | Commercial | [VOL: N/A] | High-value comparison intent |
-| mining monitoring software | Commercial | [VOL: N/A] | Pillar keyword |
-| ASIC fleet control | Commercial | [VOL: N/A] | Secondary |
-| mining farm power monitoring | Informational/Commercial | [VOL: N/A] | Spoke: power telemetry |
-| per unit ASIC telemetry | Informational | [VOL: N/A] | Long-tail, specific |
-| bitcoin miner hashrate monitoring | Informational | [VOL: N/A] | Feature-level |
+| mining fleet monitoring | Commercial | n/d (<10) | Primary seed |
+| ASIC fleet management software | Commercial | n/d (<10) | High commercial intent |
+| bitcoin miner monitoring software | Commercial | n/d (<10) | Broad, competitive |
+| mining farm management software | Commercial | 10 | Core cluster keyword |
+| ASIC monitoring dashboard | Commercial | n/d (<10) | Feature-level intent |
+| mining farm remote monitoring | Informational/Commercial | n/d (<10) | Use-case intent |
+| antminer monitoring software | Commercial | 10 | Spoke keyword |
+| whatsminer monitoring software | Commercial | n/d (<10) | Spoke keyword — Braiins gap |
+| mining fleet management platform | Commercial | n/d (<10) | Platform comparison intent |
+| bitcoin mining management system | Commercial | n/d (<10) | Enterprise framing |
+| mining hardware monitoring | Informational | n/d (<10) | Top-of-funnel |
+| ASIC farm dashboard | Informational/Commercial | n/d (<10) | Feature-level |
+| mining farm alerts | Informational | n/d (<10) | Spoke keyword |
+| remote ASIC reboot | Informational/Commercial | n/d (<10) | Feature-specific |
+| mining farm uptime monitoring | Commercial | n/d (<10) | SLA-focused intent |
+| bitcoin mining fleet management | Commercial | n/d (<10) | Enterprise intent |
+| ASIC fleet monitoring software | Commercial | n/d (<10) | Primary target |
+| mining pool monitoring | Informational | 10 | Adjacent — different intent |
+| Braiins Manager alternative | Commercial | n/d (<10) | High-value comparison intent |
+| Luxor Commander alternative | Commercial | n/d (<10) | High-value comparison intent |
+| Minerstat alternative | Commercial | 10, KD 24 | High-value comparison intent |
+| mining monitoring software | Commercial | 10, KD 38 | Pillar keyword |
+| ASIC fleet control | Commercial | n/d (<10) | Secondary |
+| mining farm power monitoring | Informational/Commercial | n/d (<10) | Spoke: power telemetry |
+| per unit ASIC telemetry | Informational | n/d (<10) | Long-tail, specific |
+| bitcoin miner hashrate monitoring | Informational | n/d (<10) | Feature-level |
 
 ---
 
-## Hub-and-Spoke Architecture
+## Hub-and-Spoke Architecture *(superseded by Architecture v2; reference material)*
 
 ### Hub (Pillar Page)
 
@@ -77,22 +98,22 @@ The cluster creates topical authority around AMS, drives organic traffic from op
 | Primary keyword | "mining fleet monitoring software" |
 | Intent | Commercial / navigational |
 | Schema | SoftwareApplication + FAQPage |
-| Priority | P0 — must exist before spokes index |
+| Priority | **P0** (was P0). `asic monitor` 70/mo, KD 0, BiXBiT #7; test `mining software` 260/mo (CPC $39.51) as a secondary keyword |
 | Word count | 2,000–2,500 |
 
 ### Spoke Pages
 
 | # | Slug | Title (working) | Primary Keyword | Intent | Priority | Competitor Gap |
 |---|---|---|---|---|---|---|
-| S1 | `/en/ams/vs-braiins-manager` | AMS vs Braiins Manager: ASIC Fleet Monitoring Compared | "AMS vs Braiins Manager" / "Braiins Manager alternative" | Commercial | P0 | Braiins supports Antminer only |
-| S2 | `/en/ams/vs-luxor-commander` | AMS vs Luxor Commander: Mining Fleet Management Compared | "Luxor Commander alternative" / "LuxOS monitoring" | Commercial | P1 | Luxor = LuxOS-only ecosystem |
+| S1 | `/en/ams/vs-braiins-manager` | AMS vs Braiins Manager: ASIC Fleet Monitoring Compared | "AMS vs Braiins Manager" / "Braiins Manager alternative" | Commercial | P2 (was P0) | Braiins supports Antminer only |
+| S2 | `/en/ams/vs-luxor-commander` | AMS vs Luxor Commander: Mining Fleet Management Compared | "Luxor Commander alternative" / "LuxOS monitoring" | Commercial | P2 (was P1) | Luxor = LuxOS-only ecosystem |
 | S3 | `/en/ams/vs-minerstat` | AMS vs Minerstat: Which ASIC Monitoring Platform is Right for You? | "Minerstat alternative" / "Minerstat vs" | Commercial | P1 | Minerstat = no firmware integration |
-| S4 | `/en/ams/mining-farm-monitoring-software` | Mining Farm Monitoring Software: How to Choose (2025 Guide) | "mining farm monitoring software" / "bitcoin miner monitoring software" | Informational | P0 | Generic educational — all competitors thin here |
-| S5 | `/en/ams/asic-fleet-management` | ASIC Fleet Management: A Technical Guide for Farm Operators | "ASIC fleet management" / "ASIC fleet management software" | Informational | P0 | Deep technical content missing from all competitors |
-| S6 | `/en/ams/antminer-monitoring-software` | Antminer Monitoring Software: AMS Integration Guide | "Antminer monitoring software" / "Antminer dashboard" | Commercial | P0 | Ties to existing Antminer firmware cluster |
-| S7 | `/en/ams/whatsminer-monitoring-software` | Whatsminer Monitoring Software: What to Use When Braiins Won't | "Whatsminer monitoring software" / "Whatsminer management software" | Commercial | P0 | Braiins Manager does not support Whatsminer — direct gap |
-| S8 | `/en/ams/mining-farm-alerts-automation` | Mining Farm Alerts and Automation: Reducing Downtime at Scale | "mining farm alerts" / "ASIC alert automation" / "remote ASIC reboot" | Informational/Commercial | P1 | Feature depth missing from Minerstat/Braiins content |
-| S9 | `/en/ams/mining-hosting-monitoring` | ASIC Monitoring for Mining Hosting Operators: Multi-Client Fleet Management | "mining hosting monitoring" / "colocation ASIC management" | Commercial | P1 | No competitor targets hosting operators specifically |
+| S4 | `/en/ams/mining-farm-monitoring-software` | Mining Farm Monitoring Software: How to Choose (2025 Guide) | "mining farm monitoring software" / "bitcoin miner monitoring software" | Informational | P1 (was P0) | Generic educational — all competitors thin here |
+| S5 | `/en/ams/asic-fleet-management` | ASIC Fleet Management: A Technical Guide for Farm Operators | "ASIC fleet management" / "ASIC fleet management software" | Informational | P2 (was P0) | Deep technical content missing from all competitors |
+| S6 | `/en/ams/antminer-monitoring-software` | Antminer Monitoring Software: AMS Integration Guide | "Antminer monitoring software" / "Antminer dashboard" | Commercial | P1 (was P0) | Ties to existing Antminer firmware cluster |
+| S7 | `/en/ams/whatsminer-monitoring-software` | Whatsminer Monitoring Software: What to Use When Braiins Won't | "Whatsminer monitoring software" / "Whatsminer management software" | Commercial | P1 (was P0) | Braiins Manager does not support Whatsminer — direct gap |
+| S8 | `/en/ams/mining-farm-alerts-automation` | Mining Farm Alerts and Automation: Reducing Downtime at Scale | "mining farm alerts" / "ASIC alert automation" / "remote ASIC reboot" | Informational/Commercial | P2 (was P1) | Feature depth missing from Minerstat/Braiins content |
+| S9 | `/en/ams/mining-hosting-monitoring` | ASIC Monitoring for Mining Hosting Operators: Multi-Client Fleet Management | "mining hosting monitoring" / "colocation ASIC management" | Commercial | P2 (was P1) | No competitor targets hosting operators specifically |
 | S10 | `/en/ams/mining-farm-power-monitoring` | Mining Farm Power Monitoring: Per-Unit Consumption Tracking | "mining farm power monitoring" / "ASIC power consumption monitoring" | Informational/Commercial | P2 | Underserved across all competitors |
 | S11 | `/en/ams/mining-fleet-dashboard` | ASIC Fleet Dashboard: What Enterprise Mining Operators Need | "ASIC monitoring dashboard" / "mining fleet dashboard" | Informational | P2 | Feature-education content gap |
 
@@ -108,7 +129,7 @@ The cluster creates topical authority around AMS, drives organic traffic from op
 
 ---
 
-## Cross-Cluster Links (AMS ↔ Firmware Clusters)
+## Cross-Cluster Links (AMS ↔ Firmware Clusters) *(superseded by `content/internal-linking.md` → Architecture v2)*
 
 | AMS Page | Links To | Rationale |
 |---|---|---|
@@ -138,13 +159,30 @@ The cluster creates topical authority around AMS, drives organic traffic from op
 
 ---
 
-## Production Priority
+## Production Priority *(superseded by Architecture v2; reference material)*
 
-| Wave | Pages | Rationale |
-|---|---|---|
-| Wave 1 (immediate) | Hub, S1, S4, S5, S6, S7 | Establish topical authority + capture comparison intent + close Braiins gap |
-| Wave 2 (4–6 weeks) | S2, S3, S8, S9 | Expand comparison coverage + feature depth |
-| Wave 3 (8–12 weeks) | S10, S11 | Long-tail / power users |
+*Recalculated 2026-09-25 from DataForSEO US data. The previous waves are kept in git history.*
+
+| Page | Was | Now | Vol (US, 2026-09) |
+|---|---|---|---|
+| Hub `/en/ams` | P0 | **P0** | `asic monitor` 70 (#7), `mining software` 260, `mining monitoring software` 10 |
+| S6 Antminer monitoring (+ S11 dashboard as a section) | P0 | **P1** | 50 (`antminer dashboard` 30, KD 12) |
+| S4 mining farm monitoring software | P0 | **P1** | 20 |
+| S7 Whatsminer monitoring | P0 | **P1** | n/d, but it's the differentiator (Antminer + Whatsminer) and matters for GEO |
+| S3 AMS vs Minerstat | P1 | **P1** | 20 (`minerstat alternative` 10, KD 24; `minerstat vs` 10) |
+| S1 AMS vs Braiins Manager | P0 | **P2** | n/d |
+| S5 ASIC fleet management | P0 | **P2** | n/d |
+| S2 AMS vs Luxor Commander | P1 | **P2** | n/d |
+| S8 Alerts & automation | P1 | **P2** | n/d |
+| S9 Hosting monitoring | P1 | **P2** | n/d; a sales/BD asset rather than SEO |
+| S10 Power monitoring | P2 | **P2** | n/d |
+| S11 Fleet dashboard | P2 | **P2** | n/d; section of S6 |
+
+| Wave | Pages |
+|---|---|
+| Wave 1 (immediate) | Hub `/en/ams` (quick win #7 → top 3) |
+| Wave 2 (4–6 weeks) | S6 (+S11), S4, S7, S3 |
+| Wave 3 (8–12 weeks) | S1, S5, S2, S8, S9, S10, only if GSC shows impressions |
 
 ---
 

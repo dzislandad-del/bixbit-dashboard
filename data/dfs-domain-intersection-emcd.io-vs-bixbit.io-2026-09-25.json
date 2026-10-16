@@ -1,0 +1,1640 @@
+{
+ "id": "09251246-2548-0389-0000-6fa0fb6fdcb5",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "total_count": 14,
+ "items": [
+  {
+   "keyword_data": {
+    "keyword": "asic crypto mining",
+    "keyword_info": {
+     "last_updated_time": "2026-09-14 05:18:16 +00:00",
+     "competition": 0.55,
+     "competition_level": "MEDIUM",
+     "cpc": 0.52,
+     "search_volume": 590,
+     "low_top_of_page_bid": 0.52,
+     "high_top_of_page_bid": 3.92,
+     "categories": [
+      10004,
+      10273,
+      13732
+     ],
+     "monthly_searches": {
+      "2026-08": 480,
+      "2026-07": 170,
+      "2026-06": 720,
+      "2026-05": 390,
+      "2026-04": 390,
+      "2026-03": 480,
+      "2026-02": 590,
+      "2026-01": 880,
+      "2025-12": 590,
+      "2025-11": 480,
+      "2025-10": 880,
+      "2025-09": 880
+     },
+     "search_volume_trend": {
+      "monthly": 182,
+      "quarterly": -33,
+      "yearly": -19
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "crypto mining asic",
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 35,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 4827.4,
+     "dofollow": 4083.7,
+     "referring_pages": 4439.9,
+     "referring_domains": 292.1,
+     "referring_main_domains": 268.3,
+     "rank": 181.1,
+     "main_domain_rank": 566,
+     "last_updated_time": "2026-08-02 19:08:23 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "commercial",
+     "last_updated_time": "2026-04-29 03:26:29 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 18,
+    "rank_absolute": 24,
+    "domain": "emcd.io",
+    "title": "ASIC Miners Profitability and ROI",
+    "url": "https://emcd.io/articles/mining/asic-miners-profitability-and-roi/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a ASIC Miners Profitability and ROI",
+    "website_name": "EMCD",
+    "description": "On average, mining with ASICs can bring you between $ 500 and $1 000 per month. Last Updated1 year ago. CategoryMining. Read more",
+    "highlighted": [
+     "mining with ASICs can bring you between $ 500 and $1 000 per month"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/asic-miners-profitability-and-roi/",
+    "etv": 0.295,
+    "estimated_paid_traffic_cost": 0.153,
+    "rank_changes": {
+     "is_new": true
+    },
+    "backlinks_info": {
+     "referring_domains": 202,
+     "referring_main_domains": 118,
+     "referring_pages": 238,
+     "dofollow": 35,
+     "backlinks": 261,
+     "time_update": "2026-09-12 12:42:35 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 124,
+     "main_domain_rank": 460
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 36,
+    "rank_absolute": 43,
+    "domain": "bixbit.io",
+    "title": "ASIC miner explained: key features, cooling and future trends",
+    "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "An ASIC mining rig is the setup of hardware made specifically for mining cryptocurrencies. It contains the special ASIC chips, the cooling parts to handle heat,\u00a0... Read more",
+    "highlighted": [
+     "hardware made specifically for mining cryptocurrencies"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "etv": 0.075,
+    "estimated_paid_traffic_cost": 0.039,
+    "rank_changes": {
+     "previous_rank_absolute": 53,
+     "is_up": true
+    },
+    "rank_info": {
+     "main_domain_rank": 256
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "bitmain firmware",
+    "keyword_info": {
+     "last_updated_time": "2026-09-14 04:41:20 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 140,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      12207
+     ],
+     "monthly_searches": {
+      "2026-08": 140,
+      "2026-07": 110,
+      "2026-06": 110,
+      "2026-05": 140,
+      "2026-04": 140,
+      "2026-03": 110,
+      "2026-02": 90,
+      "2026-01": 110,
+      "2025-12": 110,
+      "2025-11": 170,
+      "2025-10": 140,
+      "2025-09": 140
+     },
+     "search_volume_trend": {
+      "monthly": 27,
+      "quarterly": 27
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 12,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 324.4,
+     "dofollow": 132.2,
+     "referring_pages": 144.6,
+     "referring_domains": 9.8,
+     "referring_main_domains": 8.6,
+     "rank": 110.8,
+     "main_domain_rank": 503.4,
+     "last_updated_time": "2026-07-11 21:37:57 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "navigational",
+     "last_updated_time": "2026-04-29 03:53:49 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 36,
+    "rank_absolute": 41,
+    "domain": "emcd.io",
+    "title": "Firmwares for Antminer S19, S19+ ...",
+    "url": "https://emcd.io/fw/",
+    "breadcrumb": "https://emcd.io \u203a ...",
+    "website_name": "EMCD",
+    "description": "Free distribution. The firmware is free to use \u2014 with just a 3% DevFee on Antminer S17/T17 models. Ongoing updates are maintained by developers Read more",
+    "highlighted": [
+     "Free distribution"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/fw/",
+    "etv": 0.141,
+    "rank_changes": {
+     "previous_rank_absolute": 22,
+     "is_down": true
+    },
+    "backlinks_info": {
+     "referring_domains": 2,
+     "referring_main_domains": 1,
+     "referring_pages": 3,
+     "dofollow": 3,
+     "backlinks": 4,
+     "time_update": "2026-09-12 11:30:58 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 73,
+     "main_domain_rank": 459
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 45,
+    "rank_absolute": 51,
+    "domain": "bixbit.io",
+    "title": "BiXBiT Custom ASIC Mining Firmware",
+    "url": "https://bixbit.io/en/firmwares",
+    "breadcrumb": "https://bixbit.io \u203a firmwares",
+    "website_name": "BiXBiT",
+    "description": "Boost mining up to 80 Th/s and reduce the miner energy consumption by 10-20% with a custom ASIC firmware from BiXBiT. Remote control and free download.",
+    "highlighted": [
+     "firmware"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/firmwares",
+    "etv": 0.089,
+    "rank_changes": {
+     "is_new": true
+    },
+    "backlinks_info": {
+     "referring_domains": 17,
+     "referring_main_domains": 17,
+     "referring_pages": 27,
+     "dofollow": 18,
+     "backlinks": 33,
+     "time_update": "2026-09-12 12:22:26 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 156,
+     "main_domain_rank": 258
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "what is an asic miner",
+    "keyword_info": {
+     "last_updated_time": "2026-09-17 10:06:48 +00:00",
+     "competition": 0.06,
+     "competition_level": "LOW",
+     "search_volume": 140,
+     "categories": [
+      10004,
+      10273,
+      13732
+     ],
+     "monthly_searches": {
+      "2026-08": 70,
+      "2026-07": 70,
+      "2026-06": 90,
+      "2026-05": 90,
+      "2026-04": 90,
+      "2026-03": 110,
+      "2026-02": 110,
+      "2026-01": 170,
+      "2025-12": 140,
+      "2025-11": 260,
+      "2025-10": 210,
+      "2025-09": 210
+     },
+     "search_volume_trend": {
+      "quarterly": -22,
+      "yearly": -50
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 7,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 152,
+     "dofollow": 92.9,
+     "referring_pages": 149.1,
+     "referring_domains": 86.4,
+     "referring_main_domains": 80,
+     "rank": 88,
+     "main_domain_rank": 496.1,
+     "last_updated_time": "2026-09-14 09:17:14 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 15:04:12 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 26,
+    "rank_absolute": 31,
+    "domain": "emcd.io",
+    "title": "ASIC Miners Profitability and ROI",
+    "url": "https://emcd.io/articles/mining/asic-miners-profitability-and-roi/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a ASIC Miners Profitability and ROI",
+    "website_name": "EMCD",
+    "description": "6 days ago \u2014 The ROI of an ASIC miner refers to the time it takes for the equipment to generate enough income to cover its purchase and maintenance costs\u00a0...",
+    "pre_snippet": "6 days ago",
+    "highlighted": [
+     "ASIC miner"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/asic-miners-profitability-and-roi/",
+    "etv": 0.169,
+    "rank_changes": {
+     "previous_rank_absolute": 63,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 202,
+     "referring_main_domains": 118,
+     "referring_pages": 238,
+     "dofollow": 35,
+     "backlinks": 261,
+     "time_update": "2026-09-12 12:42:35 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 120,
+     "main_domain_rank": 441
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 21,
+    "rank_absolute": 26,
+    "domain": "bixbit.io",
+    "title": "ASIC miner explained: key features, cooling and future trends",
+    "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "An ASIC mining rig is the setup of hardware made specifically for mining cryptocurrencies. It contains the special ASIC chips, the cooling parts to handle heat,\u00a0... Read more",
+    "highlighted": [
+     "setup of hardware made specifically for mining cryptocurrencies"
+    ],
+    "links": [
+     {
+      "type": "link_element",
+      "title": "Read more",
+      "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining#:~:text=An%20ASIC%20mining%20rig%20is,and%20connects%20to%20the%20Internet."
+     }
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "etv": 0.257,
+    "rank_changes": {
+     "previous_rank_absolute": 27,
+     "is_up": true
+    },
+    "rank_info": {
+     "main_domain_rank": 254
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "what is asic mining",
+    "keyword_info": {
+     "last_updated_time": "2026-09-16 15:18:19 +00:00",
+     "competition": 0.06,
+     "competition_level": "LOW",
+     "search_volume": 140,
+     "categories": [
+      10004,
+      10273,
+      13732
+     ],
+     "monthly_searches": {
+      "2026-08": 70,
+      "2026-07": 70,
+      "2026-06": 90,
+      "2026-05": 90,
+      "2026-04": 90,
+      "2026-03": 110,
+      "2026-02": 110,
+      "2026-01": 170,
+      "2025-12": 140,
+      "2025-11": 260,
+      "2025-10": 210,
+      "2025-09": 210
+     },
+     "search_volume_trend": {
+      "quarterly": -22,
+      "yearly": -50
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "what is asics mining",
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 39,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 3917.9,
+     "dofollow": 3508.6,
+     "referring_pages": 3852.6,
+     "referring_domains": 255.5,
+     "referring_main_domains": 234.4,
+     "rank": 193.2,
+     "main_domain_rank": 441.9,
+     "last_updated_time": "2026-09-14 09:15:50 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 05:54:00 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 28,
+    "rank_absolute": 33,
+    "domain": "emcd.io",
+    "title": "ASIC Miners Profitability and ROI",
+    "url": "https://emcd.io/articles/mining/asic-miners-profitability-and-roi/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a ASIC Miners Profitability and ROI",
+    "website_name": "EMCD",
+    "description": "6 days ago \u2014 An ASIC is the right tool for mining a specific Proof-of-Work coin \u2014 such as Bitcoin (SHA-256) or Litecoin (Scrypt) \u2014 but not Ethereum, which\u00a0... Read more",
+    "pre_snippet": "6 days ago",
+    "highlighted": [
+     "An ASIC is the right tool for mining a specific Proof-of-Work coin"
+    ],
+    "links": [
+     {
+      "type": "link_element",
+      "title": "Read more",
+      "url": "https://emcd.io/articles/mining/asic-miners-profitability-and-roi/#:~:text=An%20ASIC%20is%20the%20right,%E2%80%94%20but%20not%20Ethereum%2C%20which"
+     }
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/asic-miners-profitability-and-roi/",
+    "etv": 0.077,
+    "rank_changes": {
+     "previous_rank_absolute": 58,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 202,
+     "referring_main_domains": 118,
+     "referring_pages": 238,
+     "dofollow": 35,
+     "backlinks": 261,
+     "time_update": "2026-09-12 12:42:35 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 120,
+     "main_domain_rank": 441
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 23,
+    "rank_absolute": 28,
+    "domain": "bixbit.io",
+    "title": "ASIC miner explained: key features, cooling and future trends",
+    "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "What is an ASIC mining rig? An ASIC mining rig is the setup of hardware made specifically for mining cryptocurrencies. It contains the special ASIC chips, the\u00a0... Read more",
+    "highlighted": [
+     "the setup of hardware made specifically for mining cryptocurrencies"
+    ],
+    "links": [
+     {
+      "type": "link_element",
+      "title": "Read more",
+      "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining#:~:text=What%20is%20an%20ASIC%20mining,the%20special%20ASIC%20chips%2C%20the"
+     }
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "etv": 0.117,
+    "rank_changes": {
+     "previous_rank_absolute": 26,
+     "is_down": true
+    },
+    "rank_info": {
+     "main_domain_rank": 254
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "mine with asic",
+    "keyword_info": {
+     "last_updated_time": "2026-09-15 04:16:27 +00:00",
+     "competition": 0.76,
+     "competition_level": "HIGH",
+     "cpc": 1.23,
+     "search_volume": 110,
+     "low_top_of_page_bid": 0.31,
+     "high_top_of_page_bid": 3.27,
+     "categories": [
+      10008
+     ],
+     "monthly_searches": {
+      "2026-08": 70,
+      "2026-07": 70,
+      "2026-06": 70,
+      "2026-05": 140,
+      "2026-04": 90,
+      "2026-03": 140,
+      "2026-02": 70,
+      "2026-01": 110,
+      "2025-12": 110,
+      "2025-11": 140,
+      "2025-10": 170,
+      "2025-09": 110
+     },
+     "search_volume_trend": {
+      "yearly": -36
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "asic for mining",
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 48,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 5146.3,
+     "dofollow": 4387.9,
+     "referring_pages": 4758.1,
+     "referring_domains": 310.1,
+     "referring_main_domains": 288.7,
+     "rank": 257.1,
+     "main_domain_rank": 453.4,
+     "last_updated_time": "2026-08-11 15:48:58 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "foreign_intent": [
+      "navigational"
+     ],
+     "last_updated_time": "2026-04-29 15:44:01 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 20,
+    "rank_absolute": 26,
+    "domain": "emcd.io",
+    "title": "ASIC Miners Profitability and ROI",
+    "url": "https://emcd.io/articles/mining/asic-miners-profitability-and-roi/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a ASIC Miners Profitability and ROI",
+    "website_name": "EMCD",
+    "description": "Your earnings depend on the device's specific model and the chosen cryptocurrency. On average, mining with ASICs can bring you between $ 500 and $1 000 per\u00a0... Read more",
+    "highlighted": [
+     "mining with ASICs"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/asic-miners-profitability-and-roi/",
+    "etv": 0.001,
+    "estimated_paid_traffic_cost": 0.001,
+    "rank_changes": {
+     "is_new": true
+    },
+    "backlinks_info": {
+     "referring_domains": 202,
+     "referring_main_domains": 118,
+     "referring_pages": 238,
+     "dofollow": 35,
+     "backlinks": 261,
+     "time_update": "2026-09-12 12:42:35 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 124,
+     "main_domain_rank": 460
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 41,
+    "rank_absolute": 49,
+    "domain": "bixbit.io",
+    "title": "ASIC miner explained: key features, cooling and future trends",
+    "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "An ASIC mining rig is the setup of hardware made specifically for mining cryptocurrencies. It contains the special ASIC chips, the cooling parts to handle heat,\u00a0... Read more",
+    "highlighted": [
+     "ASIC mining",
+     "mining",
+     "ASIC"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "etv": 0,
+    "estimated_paid_traffic_cost": 0,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 257
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "etc miner",
+    "keyword_info": {
+     "last_updated_time": "2026-08-29 13:37:04 +00:00",
+     "competition": 0.87,
+     "competition_level": "HIGH",
+     "cpc": 1.82,
+     "search_volume": 90,
+     "low_top_of_page_bid": 0.42,
+     "high_top_of_page_bid": 5.27,
+     "categories": [
+      10004,
+      10273,
+      13732
+     ],
+     "monthly_searches": {
+      "2026-07": 50,
+      "2026-06": 40,
+      "2026-05": 70,
+      "2026-04": 70,
+      "2026-03": 70,
+      "2026-02": 50,
+      "2026-01": 110,
+      "2025-12": 170,
+      "2025-11": 170,
+      "2025-10": 140,
+      "2025-09": 90,
+      "2025-08": 170
+     },
+     "search_volume_trend": {
+      "monthly": 25,
+      "quarterly": -29,
+      "yearly": -55
+     }
+    },
+    "keyword_properties": {
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 8,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 2510.9,
+     "dofollow": 813,
+     "referring_pages": 1979.2,
+     "referring_domains": 453.9,
+     "referring_main_domains": 248.5,
+     "rank": 87.7,
+     "main_domain_rank": 555.1,
+     "last_updated_time": "2026-07-13 23:50:22 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "foreign_intent": [
+      "transactional",
+      "navigational"
+     ],
+     "last_updated_time": "2026-04-29 07:52:19 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 40,
+    "rank_absolute": 47,
+    "domain": "emcd.io",
+    "title": "How to mine Ethereum Classic: ETC mining",
+    "url": "https://emcd.io/articles/mining/how-to-mine-ethereum-classic/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a How to Mine Ethereum Classic",
+    "website_name": "EMCD",
+    "description": "To begin mining ETC, you'll need to configure your miner software by choosing a program, setting up a pool, and adding your wallet address. Step-by-step guide. Read more",
+    "highlighted": [
+     "ETC",
+     "miner"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/how-to-mine-ethereum-classic/",
+    "etv": 0.028,
+    "estimated_paid_traffic_cost": 0.05,
+    "rank_changes": {
+     "previous_rank_absolute": 28,
+     "is_down": true
+    },
+    "backlinks_info": {
+     "referring_domains": 18,
+     "referring_main_domains": 18,
+     "referring_pages": 21,
+     "backlinks": 21,
+     "time_update": "2026-09-12 12:41:28 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 113,
+     "main_domain_rank": 459
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 17,
+    "rank_absolute": 21,
+    "domain": "bixbit.io",
+    "title": "How to Start Mining Ethereum Classic in 2024 - Useful Guide",
+    "url": "https://bixbit.io/en/blog/post/how-to-start-mining-ethereum-classic",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "You need a video card (GPU) with at least 4 GB of RAM to mine Ethereum Classic (ETC). A CPU is not strong enough. Recommended GPUs are from Nvidia or AMD. You\u00a0... Read more",
+    "highlighted": [
+     "You need a video card (GPU) with at least 4 GB of RAM"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/how-to-start-mining-ethereum-classic",
+    "etv": 0.144,
+    "estimated_paid_traffic_cost": 0.263,
+    "rank_changes": {
+     "previous_rank_absolute": 34,
+     "is_up": true
+    },
+    "rank_info": {
+     "main_domain_rank": 258
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "most profitable miner",
+    "keyword_info": {
+     "last_updated_time": "2026-09-13 20:30:50 +00:00",
+     "competition": 0.84,
+     "competition_level": "HIGH",
+     "cpc": 5.29,
+     "search_volume": 50,
+     "categories": [
+      10004,
+      10273,
+      13732
+     ],
+     "monthly_searches": {
+      "2026-08": 30,
+      "2026-07": 20,
+      "2026-06": 20,
+      "2026-05": 40,
+      "2026-04": 40,
+      "2026-03": 50,
+      "2026-02": 40,
+      "2026-01": 70,
+      "2025-12": 70,
+      "2025-11": 70,
+      "2025-10": 70,
+      "2025-09": 40
+     },
+     "search_volume_trend": {
+      "monthly": 50,
+      "quarterly": 50,
+      "yearly": -57
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "most profitable miners",
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 42,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 5093.9,
+     "dofollow": 4276.2,
+     "referring_pages": 4672.4,
+     "referring_domains": 339.4,
+     "referring_main_domains": 309.3,
+     "rank": 236.4,
+     "main_domain_rank": 496,
+     "last_updated_time": "2026-07-27 15:57:05 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-29 18:40:21 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 31,
+    "rank_absolute": 37,
+    "domain": "emcd.io",
+    "title": "ASIC Miners Profitability and ROI",
+    "url": "https://emcd.io/articles/mining/asic-miners-profitability-and-roi/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a ASIC Miners Profitability and ROI",
+    "website_name": "EMCD",
+    "description": "Your earnings depend on the device's specific model and the chosen cryptocurrency. On average, mining with ASICs can bring you between $ 500 and $1 000 per\u00a0... Read more",
+    "highlighted": [
+     "mining"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/asic-miners-profitability-and-roi/",
+    "etv": 0.049,
+    "estimated_paid_traffic_cost": 0.261,
+    "rank_changes": {
+     "previous_rank_absolute": 40,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 202,
+     "referring_main_domains": 118,
+     "referring_pages": 238,
+     "dofollow": 35,
+     "backlinks": 261,
+     "time_update": "2026-09-12 12:42:35 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 124,
+     "main_domain_rank": 460
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 29,
+    "rank_absolute": 35,
+    "domain": "bixbit.io",
+    "title": "Most Profitable ASIC Miners in 2025 \u2013 Best Mining Machines",
+    "url": "https://bixbit.io/en/blog/post/whats-the-most-profitable-miner-in-2025",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "Overview of the most profitable ASIC miners in 2025: Antminer S21e XP Hydro and WhatsMiner M66S++. Efficiency, hashrate, and immersion cooling influence.",
+    "highlighted": [
+     "Antminer S21e XP Hydro"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/whats-the-most-profitable-miner-in-2025",
+    "etv": 0.056,
+    "estimated_paid_traffic_cost": 0.296,
+    "rank_changes": {
+     "previous_rank_absolute": 21,
+     "is_down": true
+    },
+    "rank_info": {
+     "main_domain_rank": 258
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "antminer firmware",
+    "keyword_info": {
+     "last_updated_time": "2026-08-22 12:43:23 +00:00",
+     "competition": 0.04,
+     "competition_level": "LOW",
+     "search_volume": 50,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      13114
+     ],
+     "monthly_searches": {
+      "2026-07": 20,
+      "2026-06": 50,
+      "2026-05": 50,
+      "2026-04": 30,
+      "2026-03": 40,
+      "2026-02": 50,
+      "2026-01": 70,
+      "2025-12": 50,
+      "2025-11": 70,
+      "2025-10": 50,
+      "2025-09": 50,
+      "2025-08": 50
+     },
+     "search_volume_trend": {
+      "monthly": -60,
+      "quarterly": -60,
+      "yearly": -50
+     }
+    },
+    "keyword_properties": {
+     "keyword_difficulty": 6,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 341.9,
+     "dofollow": 147.4,
+     "referring_pages": 163.3,
+     "referring_domains": 16.1,
+     "referring_main_domains": 14,
+     "rank": 84.3,
+     "main_domain_rank": 501.9,
+     "last_updated_time": "2026-08-13 14:31:22 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "transactional",
+     "foreign_intent": [
+      "informational"
+     ],
+     "last_updated_time": "2026-04-29 07:38:08 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 34,
+    "rank_absolute": 37,
+    "domain": "emcd.io",
+    "title": "Firmwares for Antminer S19, S19+ ...",
+    "url": "https://emcd.io/fw/",
+    "breadcrumb": "https://emcd.io \u203a ...",
+    "website_name": "EMCD",
+    "description": "Free distribution. The firmware is free to use \u2014 with just a 3% DevFee on Antminer S17/T17 models. Ongoing updates are maintained by developers Read more",
+    "highlighted": [
+     "Free distribution"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/fw/",
+    "etv": 0.119,
+    "rank_changes": {
+     "previous_rank_absolute": 27,
+     "is_down": true
+    },
+    "backlinks_info": {
+     "referring_domains": 2,
+     "referring_main_domains": 1,
+     "referring_pages": 3,
+     "dofollow": 3,
+     "backlinks": 4,
+     "time_update": "2026-09-12 11:30:58 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 73,
+     "main_domain_rank": 460
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 15,
+    "rank_absolute": 16,
+    "domain": "bixbit.io",
+    "title": "Custom firmware BiXBiT for Antminer",
+    "url": "https://bixbit.io/en/firmwares/antminer",
+    "breadcrumb": "https://bixbit.io \u203a firmwares \u203a antminer",
+    "website_name": "BiXBiT",
+    "description": "Boost hashrates, cut energy costs, and optimize ASIC performance with Antminer custom firmware by BiXBiT. Easy download and 24/7 support.",
+    "highlighted": [
+     "Antminer custom firmware"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/firmwares/antminer",
+    "etv": 0.542,
+    "rank_changes": {
+     "is_new": true
+    },
+    "backlinks_info": {
+     "referring_domains": 2,
+     "referring_main_domains": 2,
+     "referring_pages": 2,
+     "dofollow": 2,
+     "backlinks": 2,
+     "time_update": "2026-09-12 12:46:21 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 13,
+     "main_domain_rank": 257
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "mining asic",
+    "keyword_info": {
+     "last_updated_time": "2026-09-13 04:35:43 +00:00",
+     "competition": 0.92,
+     "competition_level": "HIGH",
+     "cpc": 3.12,
+     "search_volume": 50,
+     "low_top_of_page_bid": 0.29,
+     "high_top_of_page_bid": 3.64,
+     "categories": [
+      10004,
+      10273,
+      13732
+     ],
+     "monthly_searches": {
+      "2026-08": 30,
+      "2026-07": 30,
+      "2026-06": 20,
+      "2026-05": 30,
+      "2026-04": 40,
+      "2026-03": 30,
+      "2026-02": 70,
+      "2026-01": 90,
+      "2025-12": 90,
+      "2025-11": 90,
+      "2025-10": 70,
+      "2025-09": 90
+     },
+     "search_volume_trend": {
+      "quarterly": 50,
+      "yearly": -57
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "asic for mining",
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 27,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 622.3,
+     "dofollow": 435.9,
+     "referring_pages": 558,
+     "referring_domains": 165,
+     "referring_main_domains": 150.1,
+     "rank": 172,
+     "main_domain_rank": 502.7,
+     "last_updated_time": "2026-07-18 22:08:08 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "foreign_intent": [
+      "commercial"
+     ],
+     "last_updated_time": "2026-04-29 17:14:54 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 44,
+    "rank_absolute": 51,
+    "domain": "emcd.io",
+    "title": "ASIC Miners Profitability and ROI",
+    "url": "https://emcd.io/articles/mining/asic-miners-profitability-and-roi/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a ASIC Miners Profitability and ROI",
+    "website_name": "EMCD",
+    "description": "Your earnings depend on the device's specific model and the chosen cryptocurrency. On average, mining with ASICs can bring you between $ 500 and $1 000 per\u00a0... Read more",
+    "highlighted": [
+     "mining",
+     "ASICs"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/asic-miners-profitability-and-roi/",
+    "etv": 0.015,
+    "estimated_paid_traffic_cost": 0.046,
+    "rank_changes": {
+     "previous_rank_absolute": 40,
+     "is_down": true
+    },
+    "backlinks_info": {
+     "referring_domains": 202,
+     "referring_main_domains": 118,
+     "referring_pages": 238,
+     "dofollow": 35,
+     "backlinks": 261,
+     "time_update": "2026-09-12 12:42:35 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 124,
+     "main_domain_rank": 459
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 35,
+    "rank_absolute": 41,
+    "domain": "bixbit.io",
+    "title": "ASIC miner explained: key features, cooling and future trends",
+    "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "An ASIC miner is a mid-sized device packed in a metal casing that includes a power supply unit and a powerful cooling system. Read more",
+    "highlighted": [
+     "An ASIC miner is a mid-sized device packed in a metal casing"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "etv": 0.018,
+    "estimated_paid_traffic_cost": 0.057,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 258
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "asics miners",
+    "keyword_info": {
+     "last_updated_time": "2026-09-13 16:07:48 +00:00",
+     "competition": 0.31,
+     "competition_level": "LOW",
+     "cpc": 0.1,
+     "search_volume": 40,
+     "low_top_of_page_bid": 0.17,
+     "high_top_of_page_bid": 2.58,
+     "categories": [
+      10021,
+      10177,
+      10619
+     ],
+     "monthly_searches": {
+      "2026-08": 30,
+      "2026-07": 30,
+      "2026-06": 30,
+      "2026-05": 30,
+      "2026-04": 20,
+      "2026-03": 30,
+      "2026-02": 30,
+      "2026-01": 30,
+      "2025-12": 30,
+      "2025-11": 50,
+      "2025-10": 70,
+      "2025-09": 50
+     },
+     "search_volume_trend": {
+      "yearly": -25
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "asic miner",
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 35,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 4860.9,
+     "dofollow": 4093.7,
+     "referring_pages": 4472,
+     "referring_domains": 304.7,
+     "referring_main_domains": 280.1,
+     "rank": 209.5,
+     "main_domain_rank": 499.6,
+     "last_updated_time": "2026-08-17 19:04:32 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "transactional",
+     "foreign_intent": [
+      "navigational"
+     ],
+     "last_updated_time": "2026-04-25 17:31:48 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 33,
+    "rank_absolute": 38,
+    "domain": "emcd.io",
+    "title": "ASIC Miners Profitability and ROI",
+    "url": "https://emcd.io/articles/mining/asic-miners-profitability-and-roi/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a ASIC Miners Profitability and ROI",
+    "website_name": "EMCD",
+    "description": "Your earnings depend on the device's specific model and the chosen cryptocurrency. On average, mining with ASICs can bring you between $ 500 and $1 000 per\u00a0... Read more",
+    "highlighted": [
+     "mining",
+     "ASICs"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/asic-miners-profitability-and-roi/",
+    "etv": 0.03,
+    "estimated_paid_traffic_cost": 0.003,
+    "rank_changes": {
+     "previous_rank_absolute": 52,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 202,
+     "referring_main_domains": 118,
+     "referring_pages": 238,
+     "dofollow": 35,
+     "backlinks": 261,
+     "time_update": "2026-09-12 12:42:35 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 124,
+     "main_domain_rank": 460
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 28,
+    "rank_absolute": 32,
+    "domain": "bixbit.io",
+    "title": "ASIC miner explained: key features, cooling and future trends",
+    "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "An ASIC miner is a mid-sized device packed in a metal casing that includes a power supply unit and a powerful cooling system. The variations in the design of\u00a0... Read more",
+    "highlighted": [
+     "a mid-sized device packed in a metal casing"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "etv": 0.042,
+    "estimated_paid_traffic_cost": 0.004,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 257
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "mine etc",
+    "keyword_info": {
+     "last_updated_time": "2026-08-29 20:13:46 +00:00",
+     "competition": 0.03,
+     "competition_level": "LOW",
+     "search_volume": 30,
+     "categories": [
+      10008
+     ],
+     "monthly_searches": {
+      "2026-07": 10,
+      "2026-06": 10,
+      "2026-05": 10,
+      "2026-04": 10,
+      "2026-03": 10,
+      "2026-02": 30,
+      "2026-01": 30,
+      "2025-12": 40,
+      "2025-11": 40,
+      "2025-10": 50,
+      "2025-09": 30,
+      "2025-08": 40
+     },
+     "search_volume_trend": {
+      "yearly": -67
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "etc mining",
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 18,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 2353.7,
+     "dofollow": 853.4,
+     "referring_pages": 1997.9,
+     "referring_domains": 464.1,
+     "referring_main_domains": 256.5,
+     "rank": 140.8,
+     "main_domain_rank": 464.2,
+     "last_updated_time": "2026-08-28 06:27:12 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "navigational",
+     "foreign_intent": [
+      "informational"
+     ],
+     "last_updated_time": "2026-04-29 16:56:46 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 8,
+    "rank_absolute": 11,
+    "domain": "emcd.io",
+    "title": "How to mine Ethereum Classic: ETC mining",
+    "url": "https://emcd.io/articles/mining/how-to-mine-ethereum-classic/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a How to Mine Ethereum Classic",
+    "website_name": "EMCD",
+    "description": "To begin mining ETC, you'll need to configure your miner software by choosing a program, setting up a pool, and adding your wallet address. Read more",
+    "highlighted": [
+     "configure your miner software"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/how-to-mine-ethereum-classic/",
+    "rank_changes": {
+     "previous_rank_absolute": 15,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 18,
+     "referring_main_domains": 18,
+     "referring_pages": 21,
+     "backlinks": 21,
+     "time_update": "2026-09-12 12:41:28 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 113,
+     "main_domain_rank": 459
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 44,
+    "rank_absolute": 52,
+    "domain": "bixbit.io",
+    "title": "How to Start Mining Ethereum Classic in 2024 - Useful Guide",
+    "url": "https://bixbit.io/en/blog/post/how-to-start-mining-ethereum-classic",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "Get started with ETC Classic mining today! From choosing powerful GPUs and mining software to finding the most profitable mining pools & exploring cloud\u00a0...",
+    "highlighted": [
+     "ETC",
+     "mining"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/how-to-start-mining-ethereum-classic",
+    "rank_changes": {
+     "previous_rank_absolute": 19,
+     "is_down": true
+    },
+    "rank_info": {
+     "main_domain_rank": 257
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "antminer uses",
+    "keyword_info": {
+     "last_updated_time": "2026-09-12 17:32:40 +00:00",
+     "competition": 1,
+     "competition_level": "HIGH",
+     "cpc": 0.94,
+     "search_volume": 30,
+     "categories": [
+      10019,
+      10168,
+      10885,
+      13114
+     ],
+     "monthly_searches": {
+      "2026-08": 10,
+      "2026-07": 20,
+      "2026-06": 10,
+      "2026-05": 30,
+      "2026-04": 30,
+      "2026-03": 10,
+      "2026-02": 20,
+      "2026-01": 50,
+      "2025-12": 20,
+      "2025-11": 30,
+      "2025-10": 50,
+      "2025-09": 20
+     },
+     "search_volume_trend": {
+      "monthly": -50,
+      "yearly": -50
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "antminer used",
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 7,
+     "detected_language": "nb",
+     "is_another_language": true
+    },
+    "avg_backlinks_info": {
+     "backlinks": 4082.8,
+     "dofollow": 3350.2,
+     "referring_pages": 3889.4,
+     "referring_domains": 307.9,
+     "referring_main_domains": 283.9,
+     "rank": 88.9,
+     "main_domain_rank": 493.6,
+     "last_updated_time": "2026-09-01 02:42:05 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "foreign_intent": [
+      "commercial"
+     ],
+     "last_updated_time": "2026-04-28 23:53:19 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 17,
+    "rank_absolute": 22,
+    "domain": "emcd.io",
+    "title": "Mining with Antminer S9 ASIC in 2026: Is It Still Profitable?",
+    "url": "https://emcd.io/articles/mining/mining-with-antminer-s9-asic-is-it-still-profitable/",
+    "breadcrumb": "https://emcd.io \u203a articles \u203a mining-with-antminer-s9-asic-...",
+    "website_name": "EMCD",
+    "description": "The Antminer S9 ASIC is not only suitable for mining BTC but also for a variety of other cryptocurrencies that use the SHA-256 algorithm. Some of the most\u00a0... Read more",
+    "highlighted": [
+     "suitable for mining BTC"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/mining-with-antminer-s9-asic-is-it-still-profitable/",
+    "etv": 0.007,
+    "estimated_paid_traffic_cost": 0.006,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 460
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 21,
+    "rank_absolute": 27,
+    "domain": "bixbit.io",
+    "title": "ASIC miner explained: key features, cooling and future trends",
+    "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "A common example of an ASIC miner is the Bitmain Antminer S19. This is a powerful machine built with ASIC chips for mining cryptocurrencies like Bitcoin using\u00a0... Read more",
+    "highlighted": [
+     "mining cryptocurrencies like Bitcoin"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "etv": 0.006,
+    "estimated_paid_traffic_cost": 0.005,
+    "rank_changes": {
+     "is_new": true
+    },
+    "rank_info": {
+     "main_domain_rank": 257
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "what is asic miners",
+    "keyword_info": {
+     "last_updated_time": "2026-09-14 07:00:57 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 20,
+     "categories": [
+      10004,
+      10281,
+      11122,
+      12408,
+      13464
+     ],
+     "monthly_searches": {
+      "2026-08": 10,
+      "2026-07": 20,
+      "2026-06": 20,
+      "2026-05": 20,
+      "2026-04": 30,
+      "2026-03": 20,
+      "2026-02": 10,
+      "2026-01": 30,
+      "2025-12": 20,
+      "2025-11": 20,
+      "2025-10": 40,
+      "2025-09": 20
+     },
+     "search_volume_trend": {
+      "monthly": -50,
+      "quarterly": -50,
+      "yearly": -67
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "what is an asic miner",
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 18,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 386.6,
+     "dofollow": 270.3,
+     "referring_pages": 359.6,
+     "referring_domains": 133.8,
+     "referring_main_domains": 126.1,
+     "rank": 134.2,
+     "main_domain_rank": 542.4,
+     "last_updated_time": "2026-06-16 17:32:48 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 15:53:25 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 46,
+    "rank_absolute": 54,
+    "domain": "emcd.io",
+    "title": "ASIC Miners Profitability and ROI",
+    "url": "https://emcd.io/articles/mining/asic-miners-profitability-and-roi/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a ASIC Miners Profitability and ROI",
+    "website_name": "EMCD",
+    "description": "Your earnings depend on the device's specific model and the chosen cryptocurrency. On average, mining with ASICs can bring you between $ 500 and $1 000 per\u00a0... Read more",
+    "highlighted": [
+     "mining",
+     "ASICs"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/asic-miners-profitability-and-roi/",
+    "rank_changes": {
+     "previous_rank_absolute": 63,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 202,
+     "referring_main_domains": 118,
+     "referring_pages": 238,
+     "dofollow": 35,
+     "backlinks": 261,
+     "time_update": "2026-09-12 12:42:35 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 126,
+     "main_domain_rank": 464
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 24,
+    "rank_absolute": 30,
+    "domain": "bixbit.io",
+    "title": "ASIC miner explained: key features, cooling and future trends",
+    "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "An ASIC miner is a mid-sized device packed in a metal casing that includes a power supply unit and a powerful cooling system. Read more",
+    "highlighted": [
+     "a mid-sized device packed in a metal casing"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "rank_changes": {
+     "previous_rank_absolute": 71,
+     "is_up": true
+    },
+    "rank_info": {
+     "main_domain_rank": 260
+    }
+   }
+  },
+  {
+   "keyword_data": {
+    "keyword": "what is asic miner",
+    "keyword_info": {
+     "last_updated_time": "2026-09-12 11:54:57 +00:00",
+     "competition": 0,
+     "competition_level": "LOW",
+     "search_volume": 20,
+     "categories": [
+      10004,
+      10273,
+      13732
+     ],
+     "monthly_searches": {
+      "2026-08": 10,
+      "2026-07": 20,
+      "2026-06": 20,
+      "2026-05": 20,
+      "2026-04": 30,
+      "2026-03": 20,
+      "2026-02": 10,
+      "2026-01": 30,
+      "2025-12": 20,
+      "2025-11": 20,
+      "2025-10": 40,
+      "2025-09": 20
+     },
+     "search_volume_trend": {
+      "monthly": -50,
+      "quarterly": -50,
+      "yearly": -67
+     }
+    },
+    "keyword_properties": {
+     "core_keyword": "what is an asic miner",
+     "synonym_clustering_algorithm": "text_processing",
+     "keyword_difficulty": 17,
+     "detected_language": "en"
+    },
+    "avg_backlinks_info": {
+     "backlinks": 370.8,
+     "dofollow": 270.9,
+     "referring_pages": 343.8,
+     "referring_domains": 118.1,
+     "referring_main_domains": 110.1,
+     "rank": 131.8,
+     "main_domain_rank": 513,
+     "last_updated_time": "2026-06-16 17:21:38 +00:00"
+    },
+    "search_intent_info": {
+     "main_intent": "informational",
+     "last_updated_time": "2026-04-30 02:13:43 +00:00"
+    }
+   },
+   "first_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 49,
+    "rank_absolute": 58,
+    "domain": "emcd.io",
+    "title": "ASIC Miners Profitability and ROI",
+    "url": "https://emcd.io/articles/mining/asic-miners-profitability-and-roi/",
+    "breadcrumb": "https://emcd.io \u203a ... \u203a ASIC Miners Profitability and ROI",
+    "website_name": "EMCD",
+    "description": "Your earnings depend on the device's specific model and the chosen cryptocurrency. On average, mining with ASICs can bring you between $ 500 and $1 000 per\u00a0... Read more",
+    "highlighted": [
+     "mining",
+     "ASICs"
+    ],
+    "main_domain": "emcd.io",
+    "relative_url": "/articles/mining/asic-miners-profitability-and-roi/",
+    "etv": 0.006,
+    "rank_changes": {
+     "previous_rank_absolute": 60,
+     "is_up": true
+    },
+    "backlinks_info": {
+     "referring_domains": 202,
+     "referring_main_domains": 118,
+     "referring_pages": 238,
+     "dofollow": 35,
+     "backlinks": 261,
+     "time_update": "2026-09-12 12:42:35 +00:00"
+    },
+    "rank_info": {
+     "page_rank": 126,
+     "main_domain_rank": 464
+    }
+   },
+   "second_domain_serp_element": {
+    "type": "organic",
+    "rank_group": 16,
+    "rank_absolute": 20,
+    "domain": "bixbit.io",
+    "title": "ASIC miner explained: key features, cooling and future trends",
+    "url": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "breadcrumb": "https://bixbit.io \u203a Home \u203a Blog",
+    "website_name": "BiXBiT",
+    "description": "An ASIC miner is a mid-sized device packed in a metal casing that includes a power supply unit and a powerful cooling system. Read more",
+    "highlighted": [
+     "a mid-sized device packed in a metal casing"
+    ],
+    "main_domain": "bixbit.io",
+    "relative_url": "/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+    "etv": 0.048,
+    "rank_changes": {
+     "previous_rank_absolute": 77,
+     "is_up": true
+    },
+    "rank_info": {
+     "main_domain_rank": 260
+    }
+   }
+  }
+ ]
+}

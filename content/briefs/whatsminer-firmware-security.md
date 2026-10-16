@@ -1,8 +1,9 @@
 # Content Brief: Whatsminer Firmware Security
 **URL:** /en/whatsminer-firmware/security
 **File:** content/briefs/whatsminer-firmware-security.md
-**Last updated:** 2026-06-19
-**Priority:** P2
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P1 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Promoted. Merge into the shared dev-fee + security page (see antminer-firmware-security). GEO priority.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/dev-fee` (NEW page), Whatsminer section of the dev-fee page, section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Firmware engineer + security reviewer — this page requires accurate security claims. Every statement about BiXBiT's security posture must be verified before publication]
 
 ---
@@ -25,14 +26,16 @@ This page is intentionally similar in structure to /en/antminer-firmware/securit
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| whatsminer firmware security | Primary | — | — |
-| whatsminer firmware backdoor | High-intent trust | — | — |
-| microbt firmware dev fee | Commercial concern | — | — |
-| safe whatsminer custom firmware | Long-tail | — | — |
-| whatsminer firmware audit | Trust signal | — | — |
-| whatsminer firmware dev fee | Direct concern | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| whatsminer firmware security | Primary | n/d (<10) | — | — |
+| whatsminer firmware backdoor | High-intent trust | n/d (<10) | — | — |
+| microbt firmware dev fee | Commercial concern | n/d (<10) | — | — |
+| safe whatsminer custom firmware | Long-tail | n/d (<10) | — | — |
+| whatsminer firmware audit | Trust signal | n/d (<10) | — | — |
+| whatsminer firmware dev fee | Direct concern | n/d (<10) | — | — |
 
 ---
 
@@ -72,7 +75,7 @@ This page is intentionally similar in structure to /en/antminer-firmware/securit
   2. Network traffic capture: `tcpdump -i eth0 -nn` [VERIFY: confirm this command applies to Whatsminer's Linux stack — or provide the correct command for the Whatsminer network interface]
   3. [VERIFY: is there a specific Whatsminer monitoring tool or API endpoint that reports current pool connection in real-time, making dev fee detection easier?]
   4. AMS telemetry: track pool connection time per unit — a dev fee appears as periodic disconnects from your pool [VERIFY: confirm AMS can detect this for Whatsminer units]
-- BiXBiT dev fee on Whatsminer firmware: [VERIFY: explicit statement — 0% dev fee, confirm this is accurate and applies to Whatsminer firmware specifically]
+- BiXBiT dev fee on Whatsminer firmware: transparent dev fee [VERIFY: 2.8% / 2% M2x]; confirm the rate for each Whatsminer series
 
 ### H2: Backdoors — Types and Whatsminer-Specific Considerations
 Technical section requiring engineering review:

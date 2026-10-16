@@ -1,0 +1,3145 @@
+{
+ "pages": [
+  {
+   "url": "https://docs.bixbit.io/additional_instructions/asic_overclock.html",
+   "locale": "en",
+   "title": "ASIC Miner Overclocking and Other Related Functions | Documentation",
+   "description": "Documentation",
+   "h1": "ASIC Miner Overclocking and Other Related Functions",
+   "h2h3": [
+    "Whatsminer ASIC",
+    "General Overclocking Strategy",
+    "Recommendations for Manual Overclocking"
+   ],
+   "words": 599,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-74.png",
+     "alt": "image.png",
+     "section": "Recommendations for Manual Overclocking",
+     "before": "+ 100) / 100 ~= 3755 Target Voltage = 1380 * ( 4,3 / 5.0 + 100) / 100 ~= 1392 Minimum Voltage = 1392 - 100 ~= 1300 Maximum Voltage = 1392 + 100 ~= 1500 PSU Power Max = 3755 + 100 ~= 3850",
+     "after": ""
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/additional_instructions/asic_overclock.html",
+   "locale": "ru",
+   "title": "Разгон ASIC-майнера и другие функции связанные с разгоном | Документация",
+   "description": "Документация",
+   "h1": "Разгон ASIC-майнера и другие функции связанные с разгоном",
+   "h2h3": [
+    "Whatsminer ASIC",
+    "Общая стратегия разгона",
+    "Рекомендации по ручному разгону"
+   ],
+   "words": 534,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-74.png",
+     "alt": "image.png",
+     "section": "Рекомендации по ручному разгону",
+     "before": "+ 100) / 100 ~= 3755 Target Voltage = 1380 * ( 4,3 / 5.0 + 100) / 100 ~= 1392 Minimum Voltage = 1392 - 100 ~= 1300 Maximum Voltage = 1392 + 100 ~= 1500 PSU Power Max = 3755 + 100 ~= 3850",
+     "after": ""
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/additional_instructions/configuring_dns.html",
+   "locale": "en",
+   "title": "Configuring DNS | Documentation",
+   "description": "Documentation",
+   "h1": "Configuring DNS in Case of Connection Issues with AMS",
+   "h2h3": [
+    "Antminer",
+    "Whatsminer"
+   ],
+   "words": 111,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/additional_instructions/configuring_dns.html",
+   "locale": "ru",
+   "title": "Настройка DNS | Документация",
+   "description": "Документация",
+   "h1": "Настройка DNS в случае проблем с подключением к AMS",
+   "h2h3": [
+    "Antminer",
+    "Whatsminer"
+   ],
+   "words": 94,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/additional_instructions/factory_firmware_installation_and_rollback.html",
+   "locale": "en",
+   "title": "Factory Firmware Installation and Rollback | Documentation",
+   "description": "Documentation",
+   "h1": "Factory Firmware Installation and Rollback",
+   "h2h3": [
+    "Antminer",
+    "Required Equipment and Files for Flashing:",
+    "Preparing the Storage Device and Loading the Firmware Image:",
+    "Installing the Firmware on the Device:",
+    "Whatsminer",
+    "Installing Factory Firmware via WhatsMinerTool",
+    "Installing Factory Firmware via SD Card"
+   ],
+   "words": 858,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-37.png",
+     "alt": "image.png",
+     "section": "Preparing the Storage Device and Loading the Firmware Image:",
+     "before": "automatically and the device will be able to mine. Preparing the Storage Device and Loading the Firmware Image: ​ Connect the flash drive to your computer or laptop and format it (using the FAT32 file system).",
+     "after": "Copy the contents of the downloaded firmware archive to the root of the flash drive. Installing the Firmware on the Device"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-38.png",
+     "alt": "image.png",
+     "section": "Preparing the Storage Device and Loading the Firmware Image:",
+     "before": "evice and Loading the Firmware Image: ​ Connect the flash drive to your computer or laptop and format it (using the FAT32 file system). Copy the contents of the downloaded firmware archive to the root of the flash drive.",
+     "after": "Installing the Firmware on the Device: ​<"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-76.png",
+     "alt": "image.png",
+     "section": "Preparation",
+     "before": "xxxxx.xx.bin\"). Step 2. Install the latest version of WhatsMinerTool . Using old versions of the program may cause the firmware installation to fail. You can download the latest version of WhatsMinerTool from this link .",
+     "after": "Installing the Firmware ​ Run WhatsMinerTool and set a scan ra"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-75.png",
+     "alt": "image.png",
+     "section": "Installing the Firmware",
+     "before": "noreferrer\">this link . Installing the Firmware ​ Run WhatsMinerTool and set a scan range that includes the IP address of the device for firmware installation. Start the scan and make sure the device appears in the list.",
+     "after": "Step 1: Click [Upgrade] . Step 2: Click [Select File] . Step 3: In the pop-up window, select the “.bin“ file you downloade"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-77.png",
+     "alt": "image.png",
+     "section": "Installing Factory Firmware via SD Card",
+     "before": "iner website , in the \"SD-card flashing program\" section, select the section corresponding to the control board model installed on your device and download the firmware archive. Extract its contents to a separate folder.",
+     "after": "Step 2. Prepare the SD card : It is recommended to use SD cards with a capacity from 2 GB to 16 GB inclusive. Fully format the SD card using Disk Mana"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/additional_instructions/factory_firmware_installation_and_rollback.html",
+   "locale": "ru",
+   "title": "Установка и откат заводской прошивки | Документация",
+   "description": "Документация",
+   "h1": "Установка и откат заводской прошивки",
+   "h2h3": [
+    "Antminer",
+    "Необходимые оборудование и файлы для прошивки:",
+    "Подготовка накопителя и загрузка образа прошивки на него:",
+    "Установка прошивки на устройство:",
+    "Whatsminer",
+    "Установка заводской прошивки через WhatsMinerTool",
+    "Установка заводской прошивки SD-картой"
+   ],
+   "words": 683,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-37.png",
+     "alt": "image.png",
+     "section": "Подготовка накопителя и загрузка образа прошивки на него:",
+     "before": "ройства определится автоматически и устройство сможет майнить. Подготовка накопителя и загрузка образа прошивки на него: ​ Подключите флешку к компьютеру или ноутбуку, отформатируйте её (формат файловой системы FAT32).",
+     "after": "Скопируйте содержимое скачанного архива с прошивкой, в корень флешки. Установка прошивки на устройство: <a class=\"header-anchor"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-38.png",
+     "alt": "image.png",
+     "section": "Подготовка накопителя и загрузка образа прошивки на него:",
+     "before": "товка накопителя и загрузка образа прошивки на него: ​ Подключите флешку к компьютеру или ноутбуку, отформатируйте её (формат файловой системы FAT32). Скопируйте содержимое скачанного архива с прошивкой, в корень флешки.",
+     "after": "Установка прошивки на устройство: ​ Откл"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-76.png",
+     "alt": "image.png",
+     "section": "Подготовка",
+     "before": "x.xx.bin\"). Шаг 2. Установите последнюю версию WhatsMinerTool, использование старых версий программы может стать причиной неудачной установки прошивки. Скачать последнюю версию WhatsMinerTool вы можете по данной ссылке .",
+     "after": "Установка прошивки ​ Запустите WhatsMinerTool и задайте диапазон сканирования"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-75.png",
+     "alt": "image.png",
+     "section": "Установка прошивки",
+     "before": "ной ссылке . Установка прошивки ​ Запустите WhatsMinerTool и задайте диапазон сканирования, включающий IP-адрес устройства для установки прошивки. Запустите сканирование и убедитесь, что устройство отображается в списке.",
+     "after": "Шаг 1: Нажмите [Upgrade] . Шаг 2: Нажмите [Select File] . Шаг 3: Во всплывающем окне выберите скачанный вами ранее “.bin“"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-77.png",
+     "alt": "image.png",
+     "section": "Установка заводской прошивки SD-картой",
+     "before": "йдите на сайт Whatminer , в разделе \"SD-card flashing program\" , выберите раздел соответствующий модели КПУ установленной на вашем устройстве и скачайте архив с прошивкой, разархивируйте его содержимое в отдельную папку.",
+     "after": "Шаг 2 . Подготовьте SD-карту : Рекомендуется использовать SD-карты объемом от 2 до 16 ГБ включительно. Полностью отформатируйте SD-карту с помощью «Уп"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/additional_instructions/",
+   "locale": "en",
+   "title": "Additional Instructions | Documentation",
+   "description": "Documentation",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/additional_instructions/",
+   "locale": "ru",
+   "title": "Дополнительные инструкции | Документация",
+   "description": "Документация",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/additional_instructions/log_export.html",
+   "locale": "en",
+   "title": "Log Export | Documentation",
+   "description": "Documentation",
+   "h1": "Log Export",
+   "h2h3": [
+    "Antminer",
+    "Via the Device's Web Interface on BiXBiT Firmware",
+    "Whatsminer",
+    "Using WhatsminerTool",
+    "Via the Device's Web Interface on BiXBiT Firmware"
+   ],
+   "words": 245,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-79.png",
+     "alt": "image.png",
+     "section": "Using WhatsminerTool",
+     "before": "ad tab. Select the dates for which you want to download logs. Choose a folder on your computer to save the logs. Whatsminer ​ Using WhatsminerTool ​",
+     "after": "Step 1: Select the IP address of the device whose operation logs you want to export. You can select multiple devices. Step 2: Go to [Remote Ctrl] . St"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-80.png",
+     "alt": "image.png",
+     "section": "Using WhatsminerTool",
+     "before": "ote Ctrl] . Step 3: Select [Export Log] . Step 4: Confirm by clicking [OK] . Step 5: In the dialog box that opens, select the directory where you want to save the logs. Step 6: Click [OK] to start the log export process.",
+     "after": "During the export, the [Remote Ctrl] button will be renamed to [Stop] . You can click it if you want to interrupt the log export process. After a whil"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/additional_instructions/log_export.html",
+   "locale": "ru",
+   "title": "Экспорт логов | Документация",
+   "description": "Документация",
+   "h1": "Экспорт логов",
+   "h2h3": [
+    "Antminer",
+    "Через web-интерфейс устройства на прошивке BiXBiT",
+    "Whatsminer",
+    "С помощью WhatsminerTool",
+    "Через web-интерфейс устройства на прошивке BiXBiT"
+   ],
+   "words": 197,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-79.png",
+     "alt": "image.png",
+     "section": "С помощью WhatsminerTool",
+     "before": "d Выберите даты за которые хотите скачать логи Выберите папку для сохранения логов на компьютере Whatsminer ​ С помощью WhatsminerTool ​",
+     "after": "Шаг 1: Выберите IP-адрес устройства, логи работы которого вы хотите экспортировать. Можно выбрать несколько устройств. Шаг 2: Перейдите в [Remote Ctrl"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-80.png",
+     "alt": "image.png",
+     "section": "С помощью WhatsminerTool",
+     "before": "ите в [Remote Ctrl] . Шаг 3: Выберите [Export Log] . Шаг 4: Подтвердите нажатием [OK] . Шаг 5: В открывшемся диалоговом окне выберите директорию сохранения лого. Шаг 6: Нажмите [OK] , чтобы начать процесс экспорта логов.",
+     "after": "При этом кнопка [Remote Ctrl] на время экспорта переименуется в [Stop] . Её можно нажать, если вы хотите прервать процесс экспорта логов. Через некото"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/additional_instructions/preparation_for_immersion_cooling.html",
+   "locale": "en",
+   "title": "Preparing an ASIC Miner for Immersion Cooling | Documentation",
+   "description": "Documentation",
+   "h1": "Preparing for Immersion Cooling",
+   "h2h3": [
+    "Whatsminer ASIC",
+    "Preparing the Device for Immersion",
+    "Disabling Main Fan Checks on the Device",
+    "Disabling Power Supply Fan Checks"
+   ],
+   "words": 676,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-39.png",
+     "alt": "image.png",
+     "section": "Preparing the Device for Immersion",
+     "before": "​ Preparing the Device for Immersion ​ Flash your device with BiXBiT firmware corresponding to your device model. Disconnect and remove the main fans from the device ①,②. Open the power supply cover and remove its fan ③.",
+     "after": "Clean the device casing and boards from dust and dirt. Submerge the device in the immersion fluid. Disabling Main Fan Checks on the Device <a class=\"h"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-40.png",
+     "alt": "image.png",
+     "section": "Disabling Main Fan Checks on the Device",
+     "before": " the device itself, navigate to Configuration > Miner Configuration in the web interface, and select the Overclock tab. Activate the [Liquid Cooling] ① checkbox. Save and apply the settings by clicking [Save & Apply] ② .",
+     "after": "Disabling Power Supply Fan Checks ​ <h4 id=\"di"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-41.png",
+     "alt": "image.png",
+     "section": "Disabling PSU Fan Checks for M3X, M5X, M6X, and M7X Series Devices",
+     "before": "ne exclusively for immersion cooling purposes. Open the device's web interface. Go to Configuration > Miner Configuration . Select the PSU Firmware tab. To disable the PSU fan check, click the [Disable Power Fan] button.",
+     "after": "WARNING The device should restart automatically. If it does not, perform a Reboot of the device. <h4 id=\"disabling-ps"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-42.png",
+     "alt": "image.png",
+     "section": "Disabling PSU Fan Checks for M2X Series Miners",
+     "before": "erface ​ Open the device's web interface. Go to Configuration > CGMiner Configuration . Select the PSU Control tab. To automatically update the PSU firmware, click the [Upgrade PSU Firmware] button.",
+     "after": "Option 2: Updating PSU Firmware Using the Air To Liquid Tool Utility <a class=\"header-anchor\" href=\"#option-2-updating-psu-firmware-using-the-air-to-"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-43.png",
+     "alt": "image.png",
+     "section": "Disabling PSU Fan Checks for M2X Series Miners",
+     "before": "Tool Utility ​ Go to BiXBiT . In the page header, select the \"Firmware\" section, and in the \"WhatsPower Firmware\" subsection, click on the corresponding power supply model for your miner.",
+     "after": "The archive download will begin. Once the download is complete, extract the internal file with the .bin extension from the archive. PSU Flashing Proce"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-44.png",
+     "alt": "image.png",
+     "section": "Disabling PSU Fan Checks for M2X Series Miners",
+     "before": "r. The archive download will begin. Once the download is complete, extract the internal file with the .bin extension from the archive. PSU Flashing Process: Step 1. Run the AirToLiquidTool and click the [Setting] button.",
+     "after": "Step 2. In the Fw Upgrade manual/auto setting, select Manual . (If a file for your PSU model is not available, use auto mode.) <img src=\"/images/image"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-45.png",
+     "alt": "image.png",
+     "section": "Disabling PSU Fan Checks for M2X Series Miners",
+     "before": "rchive. PSU Flashing Process: Step 1. Run the AirToLiquidTool and click the [Setting] button. Step 2. In the Fw Upgrade manual/auto setting, select Manual . (If a file for your PSU model is not available, use auto mode.)",
+     "after": "Step 3. Click [Miner IP] . In the dialog that appears, add a scan range that includes the IP address of the device whose PSU you plan to flash. Select"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-46.png",
+     "alt": "image.png",
+     "section": "Disabling PSU Fan Checks for M2X Series Miners",
+     "before": " not available, use auto mode.) Step 3. Click [Miner IP] . In the dialog that appears, add a scan range that includes the IP address of the device whose PSU you plan to flash. Select the added scan range and click [OK] .",
+     "after": "Step 4. Start the scan by clicking the [Start] button. Step 5. Perform the following actions in order: ① Click [Upgrad"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-47.png",
+     "alt": "image.png",
+     "section": "Disabling PSU Fan Checks for M2X Series Miners",
+     "before": " that includes the IP address of the device whose PSU you plan to flash. Select the added scan range and click [OK] . Step 4. Start the scan by clicking the [Start] button. Step 5. Perform the following actions in order:",
+     "after": "① Click [UpgradePower] . ② In the menu that appears, click [Select File] (If Fw Upgrade is set to auto, file selection is not required). ③ Select the "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-50.png",
+     "alt": "image.png",
+     "section": "Disabling PSU Fan Checks for M2X Series Miners",
+     "before": "le and click [Open] . ④ Check the checkbox for the device whose PSU you plan to flash. ⑤ Click the [StartUpgrade] button. Step 6. Confirm the start of the flashing process in the dialog box that appears by clicking [OK].",
+     "after": "During the PSU flashing process, the Status column will display the current stage: Transfering , Upgrading . If the PSU flashin"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-52.png",
+     "alt": "image.png",
+     "section": "Disabling PSU Fan Checks for M2X Series Miners",
+     "before": "ade] button. Step 6. Confirm the start of the flashing process in the dialog box that appears by clicking [OK]. During the PSU flashing process, the Status column will display the current stage: Transfering , Upgrading .",
+     "after": "If the PSU flashing process completes successfully, the Status column will display Success . <p class=\"custom-block-title"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-53.png",
+     "alt": "image.png",
+     "section": "Disabling PSU Fan Checks for M2X Series Miners",
+     "before": " by clicking [OK]. During the PSU flashing process, the Status column will display the current stage: Transfering , Upgrading . If the PSU flashing process completes successfully, the Status column will display Success .",
+     "after": "INFO If it is not possible to flash the PSU or disable the fan presence check function at the previous stages, you must install a fan emulator (dummy "
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/additional_instructions/preparation_for_immersion_cooling.html",
+   "locale": "ru",
+   "title": "Подготовка ASIC-майнера к иммерсионному охлаждению | Документация",
+   "description": "Документация",
+   "h1": "Подготовка к иммерсионному охлаждению",
+   "h2h3": [
+    "Whatsminer ASIC",
+    "Подготовка устройства к погружению",
+    "Отключение проверки основных вентиляторов на устройстве",
+    "Отключение проверки вентиляторов блока питания"
+   ],
+   "words": 599,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-39.png",
+     "alt": "image.png",
+     "section": "Подготовка устройства к погружению",
+     "before": "​ Подготовка устройства к погружению ​ Прошейте устройство прошивкой BiXBiT, соответствующей вашему устройству. Отключите и снимите основные вентиляторы устройства ①,② Вскройте крышку блока питания и снимите вентилятор ③",
+     "after": "Очистите элементы корпуса и платы устройства от пыли и грязи Погрузите устройство в иммерсионную жидкость Отключение проверки основных вентилятор"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-40.png",
+     "alt": "image.png",
+     "section": "Отключение проверки основных вентиляторов на устройстве",
+     "before": "ов на самом устройстве, пройдите в web-интерфейсе в раздел Configuration > Miner Configuration, выберите вкладку Overclock. Активируйте чекбокс [Liquid Cooling] ① Сохраните и примените настройки нажатием [Save & Apply] ②",
+     "after": "Отключение проверки вентиляторов блока питания <a class=\"header-anchor\" href=\"#отключение-проверки-вентиляторов-блока-питания\" aria-label=\"Permalink t"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-41.png",
+     "alt": "image.png",
+     "section": "Отключение проверки вентиляторов блока питания для устройств серии M3X, M5X, M6X и M7X",
+     "before": "о погружения. Откройте web-интерфейс устройства Пройдите в‍‍‍ раздел Configuration > Miner Configuration Выберите вкладку PSU Firmware Для отключения проверки вентиляторов блока питания нажмите кнопку [Disable Power Fan]",
+     "after": "WARNING После чего устройство должно автоматически перезагрузиться, если этого не произошло выполните Reboot устройства. </"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-42.png",
+     "alt": "image.png",
+     "section": "Отключение проверки вентиляторов блока питания для майнеров серии M2X",
+     "before": "йства”\">​ Откройте веб-интерфейс устройства Пройдите в раздел Configuration > CGMiner Configuration Выберите вкладку PSU Control Для автоматического обновление прошивки блока питания нажмите кнопку [Upgrade PSU Firmware]",
+     "after": "Вариант 2: Обновление прошивки блока питания с помощью утилиты Air To Liquid Tool <a class=\"header-anchor\" href=\"#вариант-2-обновление-п"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-43.png",
+     "alt": "image.png",
+     "section": "Отключение проверки вентиляторов блока питания для майнеров серии M2X",
+     "before": "id Tool ​ Пройдите по ссылке BiXBiT В шапке страницы, выберите раздел “Прошивки” и в подразделе “Прошивки WhatsPower” кликните по соответствующей модели блока питания вашего майнера",
+     "after": "Начнется скачивание архива. После завершения скачивания разархивируйте внутренний файл с расширением .bin из данного архива. Процесс прошивки блока пи"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-44.png",
+     "alt": "image.png",
+     "section": "Отключение проверки вентиляторов блока питания для майнеров серии M2X",
+     "before": "скачивание архива. После завершения скачивания разархивируйте внутренний файл с расширением .bin из данного архива. Процесс прошивки блока питания: Шаг 1. Запустите программу AirToLiquidTool и нажмите на кнопку [Setting]",
+     "after": "Шаг 2. В настройке Fw Upgrade manual/auto выберите Manual . (В случае отсутствия файла для вашей модели блока питания используйте режим auto ) <img sr"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-45.png",
+     "alt": "image.png",
+     "section": "Отключение проверки вентиляторов блока питания для майнеров серии M2X",
+     "before": "ния: Шаг 1. Запустите программу AirToLiquidTool и нажмите на кнопку [Setting] Шаг 2. В настройке Fw Upgrade manual/auto выберите Manual . (В случае отсутствия файла для вашей модели блока питания используйте режим auto )",
+     "after": "Шаг 3. Нажмите на [Miner IP] ,в появившемся диалоговом окне добавьте диапазон сканирования, в который входит IP-адрес устройства, на котором планирует"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-46.png",
+     "alt": "image.png",
+     "section": "Отключение проверки вентиляторов блока питания для майнеров серии M2X",
+     "before": "Miner IP] ,в появившемся диалоговом окне добавьте диапазон сканирования, в который входит IP-адрес устройства, на котором планируется прошить блок питания. Выберите добавленный диапазон сканирования и нажмите кнопку [OK]",
+     "after": "Шаг 4. Запустите сканирование нажав кнопку [Start] Шаг 5. Выполните следующие действия по порядку: ① Нажмите [ UpgradeP"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-47.png",
+     "alt": "image.png",
+     "section": "Отключение проверки вентиляторов блока питания для майнеров серии M2X",
+     "before": "устройства, на котором планируется прошить блок питания. Выберите добавленный диапазон сканирования и нажмите кнопку [OK] Шаг 4. Запустите сканирование нажав кнопку [Start] Шаг 5. Выполните следующие действия по порядку:",
+     "after": "① Нажмите [ UpgradePower] ② В появившемся меню нажмите [Select File] (В случае использования настройки в режиме Fw Upgrade - auto выбор файла не потре"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-50.png",
+     "alt": "image.png",
+     "section": "Отключение проверки вентиляторов блока питания для майнеров серии M2X",
+     "before": " питания и нажмите кнопку [Открыть] ④ Отметьте чекбокс устройства , на котором планируется прошить блок питания ⑤ Нажмите кнопку [ StartUpgrade] Шаг 6. Подтвердите начало прошивки в появившемся диалоговом окне нажав [OK]",
+     "after": "В процессе прошивки блока питания в столбце Status отобразится текущий этап прошивки Transfering , Upgrading . В случае успешно"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-52.png",
+     "alt": "image.png",
+     "section": "Отключение проверки вентиляторов блока питания для майнеров серии M2X",
+     "before": " ⑤ Нажмите кнопку [ StartUpgrade] Шаг 6. Подтвердите начало прошивки в появившемся диалоговом окне нажав [OK] В процессе прошивки блока питания в столбце Status отобразится текущий этап прошивки Transfering , Upgrading .",
+     "after": "В случае успешного заверения процесса прошивки блока питания в столбце Status отобразится Success . <p class=\"custom-bloc"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-53.png",
+     "alt": "image.png",
+     "section": "Отключение проверки вентиляторов блока питания для майнеров серии M2X",
+     "before": "ажав [OK] В процессе прошивки блока питания в столбце Status отобразится текущий этап прошивки Transfering , Upgrading . В случае успешного заверения процесса прошивки блока питания в столбце Status отобразится Success .",
+     "after": "INFO В случае невозможности прошивки блока питания или отключения функции проверки наличия вентилятора на предыдущих этапах, необходимо установить эму"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/additional_instructions/sd-card_flashing.html",
+   "locale": "en",
+   "title": "Writing an image to the SD card | Documentation",
+   "description": "Documentation",
+   "h1": "Writing an image to the SD card",
+   "h2h3": [
+    "Antminer",
+    "Whatsminer"
+   ],
+   "words": 429,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-109.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "er ASIC can be found in the section: Factory Firmware Installation and Rollback Whatsminer ​ Step 1. Run the \"PhoenixCard\" program (the folder with the \"PhoenixCard\" program is located in the archive with the firmware ).",
+     "after": "Step 2. In the main window, select the drive whose letter corresponds to your SD card. Step 3. Click on the [Image] button - a file"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-110.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "ner ​ Step 1. Run the \"PhoenixCard\" program (the folder with the \"PhoenixCard\" program is located in the archive with the firmware ). Step 2. In the main window, select the drive whose letter corresponds to your SD card.",
+     "after": "Step 3. Click on the [Image] button - a file selection dialog box will appear. Step 4. Find and select the file with the \".img&"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-111.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "program is located in the archive with the firmware ). Step 2. In the main window, select the drive whose letter corresponds to your SD card. Step 3. Click on the [Image] button - a file selection dialog box will appear.",
+     "after": "Step 4. Find and select the file with the \".img\" extension from the folder where you extracted the contents of the firmware archive. <div class=\"info "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-112.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "SD card. Step 3. Click on the [Image] button - a file selection dialog box will appear. Step 4. Find and select the file with the \".img\" extension from the folder where you extracted the contents of the firmware archive.",
+     "after": "INFO The file selection depends on the firmware version you plan to write to the SD card. This can be either the original factory firmware or a cu"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-113.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "the \".bin\" extension are intended solely for installation via the WhatsMinerTool program and are not suitable for loading via an SD card. INFO Step 5. Make sure the Product parameter is selected. Click the [Burn] button.",
+     "after": "Then, the process of flashing the SD card will begin. If, after the process is complete, the SD card status bar lights up green for a moment, the firm"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/additional_instructions/sd-card_flashing.html",
+   "locale": "ru",
+   "title": "Запись образа прошивки на SD-карту | Документация",
+   "description": "Документация",
+   "h1": "Запись образа прошивки на SD-карту",
+   "h2h3": [
+    "Antminer",
+    "Whatsminer"
+   ],
+   "words": 415,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-102.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "образа прошивки для Antminer ASIC находится в разделе: Установка и откат заводской прошивки Whatsminer ​ Шаг 1. Запустите программу « PhoenixCard » (папка с программой «PhoenixCard» находится в архиве с прошивкой).",
+     "after": "Шаг 2. В основном окне выберите диск, буква которого соответствует вашей SD-карте. <p class=\"custom-block-title custom-block-title-def"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-103.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "дской прошивки Whatsminer ​ Шаг 1. Запустите программу « PhoenixCard » (папка с программой «PhoenixCard» находится в архиве с прошивкой). Шаг 2. В основном окне выберите диск, буква которого соответствует вашей SD-карте.",
+     "after": "INFO Если в PhoenixCard не отображается текст на кнопках — не переживайте. Это связано с тем, что версия программы, включённая в архивы с прошивка"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-104.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "ский, либо воспользоваться альтернативной русифицированной версией PhoenixCard, созданной сторонними разработчиками и доступной в интернете. INFO Шаг 3. Нажмите на кнопку [Image] - появится диалоговое окно выбора файла .",
+     "after": "Шаг 4. Найдите и выберите файл с расширением “ .img ” из папки, в которую вы разархивировали содержимое архива с прошивкой. <div class=\"info custom-b"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-105.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "ной в интернете. INFO Шаг 3. Нажмите на кнопку [Image] - появится диалоговое окно выбора файла . Шаг 4. Найдите и выберите файл с расширением “ .img ” из папки, в которую вы разархивировали содержимое архива с прошивкой.",
+     "after": "INFO Примечание: Выбор файла зависит от версии прошивки, которую вы планируете записать на SD-карту. Это может быть как оригинальная заводская про"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-106.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "амму WhatsMinerTool и не подходят для загрузки через SD-карту. Шаг 5. Убедитесь в том, что выбран параметр Product (крайний левый, в случае если надписи не отображаются). Нажмите на кнопку [Burn] (крайняя левая из трёх).",
+     "after": "Далее, начнётся процесс прошивки SD-карты. Если по окончанию процесса строка состояния SD-карты загорелась на некоторое время зелёным цветом — прошивк"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-107.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "зки через SD-карту. Шаг 5. Убедитесь в том, что выбран параметр Product (крайний левый, в случае если надписи не отображаются). Нажмите на кнопку [Burn] (крайняя левая из трёх). Далее, начнётся процесс прошивки SD-карты.",
+     "after": "Если по окончанию процесса строка состояния SD-карты загорелась на некоторое время зелёным цветом — прошивка успешно записана. Также об успешности зав"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-108.png",
+     "alt": "image.png",
+     "section": "Whatsminer",
+     "before": "крестик в правом верхнем углу. В проводнике Windows карта памяти покажется пустой, однако данные образа прошивки для установки её на ASIC, на SD-карте присутствуют и находится в нераспределенной области таблицы разделов.",
+     "after": "WARNING В случае провала операции, вам потребуется отформатировать SD-карту заново (провалом считается красная индикация строки SD-карты, либо если п"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/additional_instructions/sd-card_formatting.html",
+   "locale": "en",
+   "title": "SD Card Formatting | Documentation",
+   "description": "Documentation",
+   "h1": "SD Card Formatting",
+   "h2h3": [
+    "Before you start",
+    "Step 1: Opening \"Disk Management\"",
+    "Step 2: Deleting Existing Partitions/Volumes",
+    "Step 3: Creating a New Partition/Volume",
+    "Result"
+   ],
+   "words": 251,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-114.png",
+     "alt": "image.png",
+     "section": "Before you start",
+     "before": "he SD card to your computer and ensure it is detected by the system. Back up all important data — formatting will erase all contents. If you are using a microSD adapter, make sure the write-protection switch is unlocked.",
+     "after": "Step 1: Opening \"Disk Management\" ​ <"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-115.png",
+     "alt": "image.png",
+     "section": "Step 1: Opening \"Disk Management\"",
+     "before": ". If you are using a microSD adapter, make sure the write-protection switch is unlocked. Step 1: Opening \"Disk Management\" ​ Right-click on the Start button (Windows logo). Select \"Disk Management\".",
+     "after": "Step 2: Deleting Existing Partitions/Volumes <a class=\"header-anchor\" href=\"#step-2-deleting-existing-partitions-volumes\" aria-label=\"Permalink to “St"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-116.png",
+     "alt": "image.png",
+     "section": "Step 2: Deleting Existing Partitions/Volumes",
+     "before": "Start button (Windows logo). Select \"Disk Management\". Step 2: Deleting Existing Partitions/Volumes ​ Locate your SD card in the list of disks (typically labeled as \"Removable\").",
+     "after": "If the card has any existing partitions: Right-click on each allocated partition/volume. Select \"Delete Volume...\" . Confirm the volume dele"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-117.png",
+     "alt": "image.png",
+     "section": "Step 2: Deleting Existing Partitions/Volumes",
+     "before": "sting Partitions/Volumes ​ Locate your SD card in the list of disks (typically labeled as \"Removable\"). If the card has any existing partitions: Right-click on each allocated partition/volume. Select \"Delete Volume...\" .",
+     "after": "Confirm the volume deletion. If the SD card has multiple volumes, repeat for all volumes until the entire card space shows the status \"Unallocated\". <"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-118.png",
+     "alt": "image.png",
+     "section": "Step 2: Deleting Existing Partitions/Volumes",
+     "before": "cate your SD card in the list of disks (typically labeled as \"Removable\"). If the card has any existing partitions: Right-click on each allocated partition/volume. Select \"Delete Volume...\" . Confirm the volume deletion.",
+     "after": "If the SD card has multiple volumes, repeat for all volumes until the entire card space shows the status \"Unallocated\". <h3 id=\"step-3-creating-a-new-"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-119.png",
+     "alt": "image.png",
+     "section": "Step 2: Deleting Existing Partitions/Volumes",
+     "before": "t-click on each allocated partition/volume. Select \"Delete Volume...\" . Confirm the volume deletion. If the SD card has multiple volumes, repeat for all volumes until the entire card space shows the status \"Unallocated\".",
+     "after": "Step 3: Creating a New Partition/Volume <a class=\"header-anchor\" href=\"#step-3-creating-a-new-partition-volume\" aria-label=\"Permalink to “Step 3: Crea"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-120.png",
+     "alt": "image.png",
+     "section": "Step 3: Creating a New Partition/Volume",
+     "before": "e entire card space shows the status \"Unallocated\". Step 3: Creating a New Partition/Volume ​ Right-click on the unallocated space of the SD card. Select \"New Simple Volume...\" .",
+     "after": "In the volume wizard that opens: Click \"Next >\" on each step. Specify the maximum volume size. <"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-121.png",
+     "alt": "image.png",
+     "section": "Step 3: Creating a New Partition/Volume",
+     "before": "on-volume\" tabindex=\"-1\">Step 3: Creating a New Partition/Volume ​ Right-click on the unallocated space of the SD card. Select \"New Simple Volume...\" . In the volume wizard that opens: Click \"Next >\" on each step.",
+     "after": "Specify the maximum volume size. Assign a drive letter (e.g., F). Select the FAT32 file system and enable <s"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-122.png",
+     "alt": "image.png",
+     "section": "Step 3: Creating a New Partition/Volume",
+     "before": "p 3: Creating a New Partition/Volume”\">​ Right-click on the unallocated space of the SD card. Select \"New Simple Volume...\" . In the volume wizard that opens: Click \"Next >\" on each step. Specify the maximum volume size.",
+     "after": "Assign a drive letter (e.g., F). Select the FAT32 file system and enable \"Perform a quick format \". <img src=\"/images/image-124.png\" alt=\"im"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-123.png",
+     "alt": "image.png",
+     "section": "Step 3: Creating a New Partition/Volume",
+     "before": "ume”\">​ Right-click on the unallocated space of the SD card. Select \"New Simple Volume...\" . In the volume wizard that opens: Click \"Next >\" on each step. Specify the maximum volume size. Assign a drive letter (e.g., F).",
+     "after": "Select the FAT32 file system and enable \"Perform a quick format \". Click \"Finish\" to complete. <img src=\"/images/image-125.png\" al"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-124.png",
+     "alt": "image.png",
+     "section": "Step 3: Creating a New Partition/Volume",
+     "before": "120.png\" alt=\"image.png\"> In the volume wizard that opens: Click \"Next >\" on each step. Specify the maximum volume size. Assign a drive letter (e.g., F). Select the FAT32 file system and enable \"Perform a quick format \".",
+     "after": "Click \"Finish\" to complete. Result ​ After for"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-125.png",
+     "alt": "image.png",
+     "section": "Step 3: Creating a New Partition/Volume",
+     "before": "\"Next >\" on each step. Specify the maximum volume size. Assign a drive letter (e.g., F). Select the FAT32 file system and enable \"Perform a quick format \". Click \"Finish\" to complete.",
+     "after": "Result ​ After formatting is complete, the SD card should appear as a single partition with the FAT32 file system"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-126.png",
+     "alt": "image.png",
+     "section": "Result",
+     "before": "inish\" to complete. Result ​ After formatting is complete, the SD card should appear as a single partition with the FAT32 file system and have the status \"Healthy (Basic Data Partition)\" . The disk should look like this:",
+     "after": "SD card formatting is complete."
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/additional_instructions/sd-card_formatting.html",
+   "locale": "ru",
+   "title": "Полное форматирование SD-карты перед установкой прошивки | Документация",
+   "description": "Документация",
+   "h1": "Полное форматирование SD-карты перед установкой прошивки",
+   "h2h3": [
+    "Перед началом:",
+    "Шаг 1: Открытие “Управления дисками”:",
+    "Шаг 2: Удаление существующих разделов/томов:",
+    "Шаг 3: Создание нового раздела/тома:",
+    "Результат",
+    "Возможные проблемы и их решение:",
+    "SD-карта не отображается в системе",
+    "SD-карта отображается как «Только для чтения»",
+    "При создании тома поле выбора файловой системы пустое",
+    "Форматирование прошло, но карта всё ещё отображается как RAW"
+   ],
+   "words": 430,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-94.png",
+     "alt": "image.png",
+     "section": "Перед началом:",
+     "before": "SD-карту к компьютеру, убедитесь что она отображается в системе . Сохраните все важные данные — форматирование удалит содержимое. Если используете TF-адаптер, убедитесь, что разблокирован переключатель защиты от записи .",
+     "after": "Шаг 1: Открытие “Управления дисками”: ​ <u"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-82.png",
+     "alt": "image.png",
+     "section": "Шаг 1: Открытие “Управления дисками”:",
+     "before": "еключатель защиты от записи . Шаг 1: Открытие “Управления дисками”: ​ Нажмите правой кнопкой мыши на кнопку Пуск (логотип Windows). Выберите пункт “ Управление дисками ”.",
+     "after": "Шаг 2: Удаление существующих разделов/томов: <a class=\"header-anchor\" href=\"#шаг-2-удаление-существующих-разделов-томов\" aria-label=\"Permalink to “Шаг"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-83.png",
+     "alt": "image.png",
+     "section": "Шаг 2: Удаление существующих разделов/томов:",
+     "before": ".png\" alt=\"image.png\"> Шаг 2: Удаление существующих разделов/томов: ​ Найдите вашу SD-карту в списке дисков (обычно обозначена как « Съемное устройство »). Если на карте есть разделы, то их необходимо удалить :",
+     "after": "Нажмите правой кнопкой мыши по каждому распределенному разделу/тому . Выберите « Удалить том... ». Подтвердите удаление тома. <img src=\"/image"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-95.png",
+     "alt": "image.png",
+     "section": "Шаг 2: Удаление существующих разделов/томов:",
+     "before": "ту в списке дисков (обычно обозначена как « Съемное устройство »). Если на карте есть разделы, то их необходимо удалить : Нажмите правой кнопкой мыши по каждому распределенному разделу/тому . Выберите « Удалить том... ».",
+     "after": "Подтвердите удаление тома. Повторите для всех томов , пока всё пространство карты не получит статус «Не распределена». <"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-97.png",
+     "alt": "image.png",
+     "section": "Шаг 2: Удаление существующих разделов/томов:",
+     "before": "обозначена как « Съемное устройство »). Если на карте есть разделы, то их необходимо удалить : Нажмите правой кнопкой мыши по каждому распределенному разделу/тому . Выберите « Удалить том... ». Подтвердите удаление тома.",
+     "after": "Повторите для всех томов , пока всё пространство карты не получит статус «Не распределена». Шаг 3: Создание н"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-96.png",
+     "alt": "image.png",
+     "section": "Шаг 2: Удаление существующих разделов/томов:",
+     "before": " : Нажмите правой кнопкой мыши по каждому распределенному разделу/тому . Выберите « Удалить том... ». Подтвердите удаление тома. Повторите для всех томов , пока всё пространство карты не получит статус «Не распределена».",
+     "after": "Шаг 3: Создание нового раздела/тома: ​ <u"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-98.png",
+     "alt": "image.png",
+     "section": "Шаг 3: Создание нового раздела/тома:",
+     "before": "тво карты не получит статус «Не распределена». Шаг 3: Создание нового раздела/тома: ​ Нажмите правой кнопкой мыши по нераспределенному пространству SD-карты . Выберите « Создать простой том... ».",
+     "after": "В открывшемся мастере нажимайте « Далее » на каждом этапе: Укажите максимальный размер тома. Назначьте букву ди"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-100.png",
+     "alt": "image.png",
+     "section": "Шаг 3: Создание нового раздела/тома:",
+     "before": "abindex=\"-1\">Шаг 3: Создание нового раздела/тома: ​ Нажмите правой кнопкой мыши по нераспределенному пространству SD-карты . Выберите « Создать простой том... ». В открывшемся мастере нажимайте « Далее » на каждом этапе:",
+     "after": "Укажите максимальный размер тома. Назначьте букву диска (например, F) Выберите файловую систему FAT32 и включи"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-89.png",
+     "alt": "image.png",
+     "section": "Шаг 3: Создание нового раздела/тома:",
+     "before": "раздела/тома:”\">​ Нажмите правой кнопкой мыши по нераспределенному пространству SD-карты . Выберите « Создать простой том... ». В открывшемся мастере нажимайте « Далее » на каждом этапе: Укажите максимальный размер тома.",
+     "after": "Назначьте букву диска (например, F) Выберите файловую систему FAT32 и включите « Быстрое форматирование » <img src=\"/images/image-101.png\" alt=\"image."
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-90.png",
+     "alt": "image.png",
+     "section": "Шаг 3: Создание нового раздела/тома:",
+     "before": "пкой мыши по нераспределенному пространству SD-карты . Выберите « Создать простой том... ». В открывшемся мастере нажимайте « Далее » на каждом этапе: Укажите максимальный размер тома. Назначьте букву диска (например, F)",
+     "after": "Выберите файловую систему FAT32 и включите « Быстрое форматирование » Нажмите «Готово» для завершения <"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-101.png",
+     "alt": "image.png",
+     "section": "Шаг 3: Создание нового раздела/тома:",
+     "before": "ростой том... ». В открывшемся мастере нажимайте « Далее » на каждом этапе: Укажите максимальный размер тома. Назначьте букву диска (например, F) Выберите файловую систему FAT32 и включите « Быстрое форматирование »",
+     "after": "Нажмите «Готово» для завершения Результат ​ После завершен"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-92.png",
+     "alt": "image.png",
+     "section": "Шаг 3: Создание нового раздела/тома:",
+     "before": "мся мастере нажимайте « Далее » на каждом этапе: Укажите максимальный размер тома. Назначьте букву диска (например, F) Выберите файловую систему FAT32 и включите « Быстрое форматирование » Нажмите «Готово» для завершения",
+     "after": "Результат ​ После завершения форматирования SD-карта должна отображаться как один раздел с файловой системой FAT32"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-93.png",
+     "alt": "image.png",
+     "section": "Результат",
+     "before": "для завершения Результат ​ После завершения форматирования SD-карта должна отображаться как один раздел с файловой системой FAT32 и иметь статус «Исправен (Базовый раздел диска)». Диск должен выглядеть следующим образом:",
+     "after": "Форматирование SD-карты завершено. Возможные проблемы и их решение: <a class=\"header-anchor\" href=\"#возможные-проблемы-и-их-решение\" aria-label=\"Perma"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/additional_instructions/whatsminer_error_codes.html",
+   "locale": "en",
+   "title": "Error codes for Whatsminer ASIC | Documentation",
+   "description": "Documentation",
+   "h1": "Error codes for Whatsminer ASIC. List of errors and solutions",
+   "h2h3": [],
+   "words": 2084,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/additional_instructions/whatsminer_error_codes.html",
+   "locale": "ru",
+   "title": "Коды ошибок Whatsminer ASIC | Документация",
+   "description": "Документация",
+   "h1": "Коды ошибок Whatsminer ASIC. Список ошибок и их решение",
+   "h2h3": [],
+   "words": 1959,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ams/connecting_a_device.html",
+   "locale": "en",
+   "title": "Connecting Devices to AMS | Documentation",
+   "description": "Documentation",
+   "h1": "Connecting an ASIC Miner to AMS",
+   "h2h3": [
+    "Antminer ASIC",
+    "On BiXBiT Firmware",
+    "On Stock or Third-Party Firmware",
+    "Whatsminer ASIC",
+    "On BiXBiT Firmware",
+    "On Stock or Third-Party Firmware",
+    "Other ASIC Miners and Devices"
+   ],
+   "words": 226,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-71.png",
+     "alt": "image.png",
+     "section": "Connecting an ASIC Miner to AMS",
+     "before": "steps: Register an account on the website ams.bixbit.io Create a Workspace in your AMS personal account In the created space, go to the \" Workspace \" tab Copy the API key . This key will be used to connect devices later.",
+     "after": "Antminer ASIC ​ On BiXBiT Firmware <a class=\"header-anchor\" href"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-72.png",
+     "alt": "image.png",
+     "section": "On BiXBiT Firmware",
+     "before": "label=\"Permalink to “Antminer ASIC”\">​ On BiXBiT Firmware ​ In the device's web interface , go to the \" AMS \" tab. Enter the previously copied AMS Workspace key into the \" API key \" field. Click the Install button.",
+     "after": "Wait until the Install button is replaced by the Uninstall button. After that, the device will appear in the \" Miners \" tab. </ol"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-73.png",
+     "alt": "image.png",
+     "section": "On BiXBiT Firmware",
+     "before": "r the previously copied AMS Workspace key into the \" API key \" field. Click the Install button. Wait until the Install button is replaced by the Uninstall button. After that, the device will appear in the \" Miners \" tab.",
+     "after": "On Stock or Third-Party Firmware ​ To be added"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-66.png",
+     "alt": "image.png",
+     "section": "On BiXBiT Firmware",
+     "before": "chor\" href=\"#on-stock-or-third-party-firmware\" aria-label=\"Permalink to “On Stock or Third-Party Firmware”\">​ To be added with the release of AMS Hub. Whatsminer ASIC ​ On BiXBiT Firmware ​",
+     "after": "In the device's web interface , go to the \" AMS (control & monitoring) \" tab. Enter the previously copied AMS space key into the \" API Key \""
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/ams/connecting_a_device.html",
+   "locale": "ru",
+   "title": "Подключение устройств к AMS | Документация",
+   "description": "Документация",
+   "h1": "Подключение ASIC-майнера к AMS",
+   "h2h3": [
+    "Antminer ASIC",
+    "На прошивке BiXBiT",
+    "На заводской или сторонней прошивке",
+    "Whatsminer ASIC",
+    "На прошивке BiXBiT",
+    "На заводской или сторонней прошивке",
+    "Прочие ASIC-майнеры и устройства"
+   ],
+   "words": 179,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-67.png",
+     "alt": "image.png",
+     "section": "Подключение ASIC-майнера к AMS",
+     "before": "пись на сайте ams.bixbit.io Создать пространство в личном кабинете AMS В созданном пространстве перейти на вкладку \" Пространство \" Скопировать API ключ. В дальнейшем с помощью данного ключа будут подключаться устройства",
+     "after": "Antminer ASIC ​ На прошивке BiXBiT <a class=\"header-anchor\" href"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-69.png",
+     "alt": "image.png",
+     "section": "На прошивке BiXBiT",
+     "before": "анство \" Скопировать API ключ. В дальнейшем с помощью данного ключа будут подключаться устройства Antminer ASIC ​ На прошивке BiXBiT ​",
+     "after": "В web-интерфейсе устройства перейдите на вкладку \" AMS \" Введите ранее скопированный ключ пространства AMS в поле \" API ключ \" Нажмите кно"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-70.png",
+     "alt": "image.png",
+     "section": "На прошивке BiXBiT",
+     "before": "AMS \" Введите ранее скопированный ключ пространства AMS в поле \" API ключ \" Нажмите кнопку Подключить Дождитесь когда кнопка Подключить заменится кнопкой Отключить . После этого устройство появится во вкладке \" Майнеры \"",
+     "after": "На заводской или сторонней прошивке ​ <p"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-66.png",
+     "alt": "image.png",
+     "section": "На прошивке BiXBiT",
+     "before": "nchor\" href=\"#на-заводскои-или-стороннеи-прошивке\" aria-label=\"Permalink to “На заводской или сторонней прошивке”\">​ Будет дополнено с релизом AMS Hub Whatsminer ASIC ​ На прошивке BiXBiT ​",
+     "after": "В web-интерфейсе устройства перейдите на вкладку \" AMS (control & monitoring) \" Введите ранее скопированный ключ пространства AMS в поле \" API Key"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ams/",
+   "locale": "en",
+   "title": "AMS - Monitoring System | Documentation",
+   "description": "Documentation",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/ams/",
+   "locale": "ru",
+   "title": "AMS - система мониторинга | Документация",
+   "description": "Документация",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/basic_asic_miner_configuration.html",
+   "locale": "en",
+   "title": "Basic ASIC Miner Configuration | Documentation",
+   "description": "Documentation",
+   "h1": "Basic ASIC Miner Configuration",
+   "h2h3": [
+    "Required Hardware",
+    "Required Software",
+    "For Whatsminer Devices:",
+    "For Antminer Devices:",
+    "Connecting the Device",
+    "Determining the ASIC Miner's IP Address on the Network",
+    "For Whatsminer Devices:",
+    "For Antminer Devices:",
+    "Configuring Pools and Workers",
+    "For Whatsminer Devices:",
+    "For Antminer Devices:"
+   ],
+   "words": 1808,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-13.png",
+     "alt": "image.png",
+     "section": "For Whatsminer Devices:",
+     "before": "g the ASIC Miner's IP Address on the Network”\">​ For Whatsminer Devices: ​ Run the WhatsMinerTool utility. Click the [ IP Monitor ] button ①. In the \" Detect and Bind IP \" window that opens, click the [ Start ] button ②.",
+     "after": "On the device's control panel, press and hold the IP found button until the green and red LEDs blink together several times. A line with your miner sh"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-14.png",
+     "alt": "image.png",
+     "section": "For Whatsminer Devices:",
+     "before": "itor ] button ①. In the \" Detect and Bind IP \" window that opens, click the [ Start ] button ②. On the device's control panel, press and hold the IP found button until the green and red LEDs blink together several times.",
+     "after": "A line with your miner should appear in the Detect and Bind IP window. Pay attention to the Source IP column (e.g., 192.168.10.142) — remember this ad"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-15.png",
+     "alt": "image.png",
+     "section": "For Whatsminer Devices:",
+     "before": "tton until the green and red LEDs blink together several times. A line with your miner should appear in the Detect and Bind IP window. Pay attention to the Source IP column (e.g., 192.168.10.142) — remember this address.",
+     "after": "Close this window and confirm closing (click [OK] in the pop-up window). Now you need to add the network scan range for the WhatsMinerTool utility: <i"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-16.png",
+     "alt": "image.png",
+     "section": "For Whatsminer Devices:",
+     "before": " to the Source IP column (e.g., 192.168.10.142) — remember this address. Close this window and confirm closing (click [OK] in the pop-up window). Now you need to add the network scan range for the WhatsMinerTool utility:",
+     "after": "Click [Miner IP] to open the Miner IP Management window ①. If there are already any entries in this window, you can delete them, modify them, or simpl"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-17.png",
+     "alt": "image.png",
+     "section": "For Whatsminer Devices:",
+     "before": " the [ Add ] button ④. The entered range will appear in the list ⑤. Select the checkbox for the range you want to scan, and click [OK] ⑥. Now you can start the network scan: In the main utility window, click [ Start ] ①.",
+     "after": "The button will change its name to \" Monitoring \", the scan will start, and after a while, the found devices will be displayed in the list. <h3 id=\"fo"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-18.png",
+     "alt": "image.png",
+     "section": "For Whatsminer Devices:",
+     "before": "w you can start the network scan: In the main utility window, click [ Start ] ①. The button will change its name to \" Monitoring \", the scan will start, and after a while, the found devices will be displayed in the list.",
+     "after": "For Antminer Devices: ​ To get started, you need to determine the IP addres"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-19.png",
+     "alt": "image.png",
+     "section": "For Antminer Devices:",
+     "before": "IC miner assigned by the router/modem. To do this: Go to the link ​ BITMAIN Shop , in the two dropdown lists select Others ① and IP-reporter ②. Then download the IP Reporter.zip archive by clicking the Download button ③.",
+     "after": "Run the IPReporter.exe utility. Click the [Start] button ①. On the control panel, press and hold the IP Report button until i"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-20.png",
+     "alt": "image.png",
+     "section": "For Antminer Devices:",
+     "before": "his: Go to the link ​ BITMAIN Shop , in the two dropdown lists select Others ① and IP-reporter ②. Then download the IP Reporter.zip archive by clicking the Download button ③. Run the IPReporter.exe utility.",
+     "after": "Click the [Start] button ①. On the control panel, press and hold the IP Report button until it beeps (about 5 seconds). The IP address will be"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-21.png",
+     "alt": "image.png",
+     "section": "For Antminer Devices:",
+     "before": "nload the IP Reporter.zip archive by clicking the Download button ③. Run the IPReporter.exe utility. Click the [Start] button ①. On the control panel, press and hold the IP Report button until it beeps (about 5 seconds).",
+     "after": "The IP address will be displayed on your screen. Enter the obtained IP address into your browser's address bar. Log in to the device's web interface u"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/ip-reporter-1.png",
+     "alt": "IP-Reporter.png",
+     "section": "For Antminer Devices:",
+     "before": " Download button ③. Run the IPReporter.exe utility. Click the [Start] button ①. On the control panel, press and hold the IP Report button until it beeps (about 5 seconds). The IP address will be displayed on your screen.",
+     "after": "Enter the obtained IP address into your browser's address bar. Log in to the device's web interface using the default credentials - root/root. <p clas"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-23.png",
+     "alt": "image.png",
+     "section": "Configuration via WhatsminerTool:",
+     "before": "ct the IP addresses of the devices on which you want to apply the entered pool settings. You can select multiple devices ③. Click [Start Upgrade] ④. After the dialog box appears, click [OK] to complete the configuration.",
+     "after": "To hide the pool configuration form, click the [ Pools ] button ① again. INFO Click [Fixed Pools Input]</str"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-24.png",
+     "alt": "image.png",
+     "section": "Configuration via the Device's WEB Interface:",
+     "before": "b Pool . To set up the pool, in the dropdown menu for Pool 1 ②, select --custom-- . An input field will appear instead of the dropdown menu. Fill in the newly appeared field, as well as Pool1 worker and Pool1 password ③.",
+     "after": "If necessary, set up Pool 2 and Pool 3 in the same way. Click [ Save & Apply ] to save the settings. <p class=\"custom-block-title custom-b"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-25.png",
+     "alt": "image.png",
+     "section": "Configuration via BTC Tools:",
+     "before": "a BTC Tools: ​ Download the latest version of BTC Tools: https://btc-tools.org/ . After downloading the archive, extract its contents into a separate folder. Launch BTC Tools by double-clicking on “BTCTools-vx.x.x.exe” .",
+     "after": "In the IP Ranges section, set the IP address range for scanning that includes your device's IP address. To do this, click the [+] button, which will o"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-26.png",
+     "alt": "image.png",
+     "section": "Configuration via BTC Tools:",
+     "before": "ddress range for scanning that includes your device's IP address. To do this, click the [+] button, which will open the IP Range Editor dialog window. Set the starting and ending IP addresses, then click the [OK] button.",
+     "after": "After setting up, saving, and selecting the IP range using the IP Ranges function, click [Scan] or [Monitor] to start scanning: [Scan] – starts a scan"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-28.png",
+     "alt": "image.png",
+     "section": "Configuration via BTC Tools:",
+     "before": "cted IP ranges at the specified Monitor Interval . Wait for your device to be detected and for the network scan to finish. Then you can proceed to configure the pools. Enter the required data in the corresponding fields:",
+     "after": "Pool 1/2/3 - pool address/stratum. SubAccount - worker. PWD - password (optional). Worker Suffix - suffix configuration options: <st"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-29.png",
+     "alt": "image.png",
+     "section": "Configuration via the Device's WEB Interface on Stock Firmware:",
+     "before": "ong>[Empty] – without a suffix. Configuration via the Device's WEB Interface on Stock Firmware: ​ Click on [Settings] on the left side of the web interface.",
+     "after": "Enter the mining pool data in the corresponding fields: Mining Address - pool address/stratum, Miner Name - worker, Password - password (optional). Cl"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-30.png",
+     "alt": "image.png",
+     "section": "Configuration via the Device's WEB Interface on BiXBiT Firmware:",
+     "before": "strong> - worker, Password - password (optional). Click [Save] to apply the settings. Configuration via the Device's WEB Interface on BiXBiT Firmware: ​",
+     "after": "Click on [Settings] on the left side of the web interface. On the [Setup] settings tab, in the POOLS section, enter the mining pool data in the corres"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/basic_asic_miner_configuration.html",
+   "locale": "ru",
+   "title": "Базовая настройка ASIC-майнера | Документация",
+   "description": "Документация",
+   "h1": "Базовая настройка ASIC-майнера",
+   "h2h3": [
+    "Необходимое аппаратное обеспечение",
+    "Необходимое программное обеспечение",
+    "Для устройств Whatsminer:",
+    "Для устройств Antminer:",
+    "Подключение устройства",
+    "Определение IP-адреса ASIC-майнера в сети",
+    "Для устройств Whatsminer:",
+    "Для устройств Antminer:",
+    "Настройка пулов и воркеров",
+    "Для устройств Whatsminer:",
+    "Для устройств Antminer:"
+   ],
+   "words": 1484,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-13.png",
+     "alt": "image.png",
+     "section": "Для устройств Whatsminer:",
+     "before": "ermalink to “Определение IP-адреса ASIC-майнера в сети”\">​ Для устройств Whatsminer: ​ Запустите утилиту WhatsMinerTool Нажмите кнопку [ IP Monitor ] ① В открывшемся окне “ Detect and Bind IP ” нажмите кнопку [ Start ] ②",
+     "after": "На панели устройства нажмите кнопку IP found и удерживайте её, пока зеленый и красный светодиод не моргнут вместе несколько раз. В окне Detect and Bin"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-14.png",
+     "alt": "image.png",
+     "section": "Для устройств Whatsminer:",
+     "before": "нопку [ IP Monitor ] ① В открывшемся окне “ Detect and Bind IP ” нажмите кнопку [ Start ] ② На панели устройства нажмите кнопку IP found и удерживайте её, пока зеленый и красный светодиод не моргнут вместе несколько раз.",
+     "after": "В окне Detect and Bind IP при этом должна появиться строка с нашим майнером. Обратите внимание на колонку Source IP (например, 192.168.10.142) - этот "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-15.png",
+     "alt": "image.png",
+     "section": "Для устройств Whatsminer:",
+     "before": "светодиод не моргнут вместе несколько раз. В окне Detect and Bind IP при этом должна появиться строка с нашим майнером. Обратите внимание на колонку Source IP (например, 192.168.10.142) - этот адрес необходимо запомнить.",
+     "after": "Закройте данное окно и подтвердите закрытие (нажмите [OK] во всплывающем окне). Теперь необходимо добавить диапазон сканирования сети утилиты WhatsMin"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-16.png",
+     "alt": "image.png",
+     "section": "Для устройств Whatsminer:",
+     "before": "(например, 192.168.10.142) - этот адрес необходимо запомнить. Закройте данное окно и подтвердите закрытие (нажмите [OK] во всплывающем окне). Теперь необходимо добавить диапазон сканирования сети утилиты WhatsMinerTool :",
+     "after": "Нажмите [Miner IP] , чтобы открыть окно Miner IP Management ① Если в данном окне уже присутствуют какие-либо записи — их можно удалить, изменить или п"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-17.png",
+     "alt": "image.png",
+     "section": "Для устройств Whatsminer:",
+     "before": "Add ] ④. Введенный диапазон отобразится в списке ⑤. Отметьте чекбокс необходимого для сканирования диапазона, и нажмите кнопку [ОК] ⑥. Теперь можно запустить сканирование сети: В основном окне утилиты нажмите [ Start ] ①",
+     "after": "При этом кнопка изменит название на “ Monitoring ”, начнется сканирование и через некоторое время найденные устройства отобразятся в списке. <h3 id=\"д"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-18.png",
+     "alt": "image.png",
+     "section": "Для устройств Whatsminer:",
+     "before": " можно запустить сканирование сети: В основном окне утилиты нажмите [ Start ] ① При этом кнопка изменит название на “ Monitoring ”, начнется сканирование и через некоторое время найденные устройства отобразятся в списке.",
+     "after": "Для устройств Antminer: ​ Для начала работы вам потребуется определить <stron"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-19.png",
+     "alt": "image.png",
+     "section": "Для устройств Antminer:",
+     "before": "-адрес ASIC-майнера, полученный от роутера/модема. Для этого: Перейдите по ссылке ​ BITMAIN Shop в двух впадающих списках выберите Others ① и IP-reporter ②. Затем скачайте архив IP Reporter.zip нажав на кнопку Download ③",
+     "after": "Запустите утилиту IPReporter.exe. Нажмите кнопку [Start] ① На контрольной панели, зажмите кнопку IP Report пока она не издаст"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-20.png",
+     "alt": "image.png",
+     "section": "Для устройств Antminer:",
+     "before": "а. Для этого: Перейдите по ссылке ​ BITMAIN Shop в двух впадающих списках выберите Others ① и IP-reporter ②. Затем скачайте архив IP Reporter.zip нажав на кнопку Download ③ Запустите утилиту IPReporter.exe.",
+     "after": "Нажмите кнопку [Start] ① На контрольной панели, зажмите кнопку IP Report пока она не издаст звук (около 5 секунд) IP-адрес отобразится на ваше"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-21.png",
+     "alt": "image.png",
+     "section": "Для устройств Antminer:",
+     "before": "orter ②. Затем скачайте архив IP Reporter.zip нажав на кнопку Download ③ Запустите утилиту IPReporter.exe. Нажмите кнопку [Start] ① На контрольной панели, зажмите кнопку IP Report пока она не издаст звук (около 5 секунд)",
+     "after": "IP-адрес отобразится на вашем экране. Введите полученный IP-адрес в поисковой строке браузера Войдите в веб-интерфейс устройства, используя данные по "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/ip-reporter.png",
+     "alt": "IP-Reporter.png",
+     "section": "Для устройств Antminer:",
+     "before": "ter.zip нажав на кнопку Download ③ Запустите утилиту IPReporter.exe. Нажмите кнопку [Start] ① На контрольной панели, зажмите кнопку IP Report пока она не издаст звук (около 5 секунд) IP-адрес отобразится на вашем экране.",
+     "after": "Введите полученный IP-адрес в поисковой строке браузера Войдите в веб-интерфейс устройства, используя данные по умолчанию - root\\root. I"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-23.png",
+     "alt": "image.png",
+     "section": "Настройка с помощью WhatminerTool:",
+     "before": " IP-адреса устройств, на которых необходимо установить введенные параметры пулов. Можно выбрать несколько устройств ③. Нажмите [Start Upgrade] ④. После появления диалогового окна нажмите [ОК] , чтобы завершить настройку.",
+     "after": "Чтобы скрыть форму настройки пулов - нажмите кнопку [ Pools ] ① еще раз INFO Нажмите на [Fixed Po"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-24.png",
+     "alt": "image.png",
+     "section": "Настройка через WEB-интерфейс устройства:",
+     "before": " > Miner Configuration , вкладка Pool Для установки пула в выпадающем меню Pool 1 ②**** выберите --custom-- Вместо выпадающего меню появится поле ввода. Заполните появившееся поле, а также Pool1 worker и Pool1 password ③",
+     "after": "При необходимости аналогичным образом установите Pool 2 и Pool 3 Нажмите [ Save & Apply ] , чтобы сохранить настройки. <p class=\"custom-blo"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-25.png",
+     "alt": "image.png",
+     "section": "Настройка с помощью BTC Tools:",
+     "before": "ка с помощью BTC Tools: ​ Скачайте последнюю версию BTC Tools: https://btc-tools.org/ . После загрузки архива разархивируйте его содержимое в отдельную папку. Запустите BTC Tools дважды щелкнув по “BTCTools-vx.x.x.exe” .",
+     "after": "В разделе IP Ranges задайте диапазон IP-адресов для сканирования в который входит IP-адрес вашего устройства. Для этого нажмите на кнопку [+] после че"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-26.png",
+     "alt": "image.png",
+     "section": "Настройка с помощью BTC Tools:",
+     "before": " в который входит IP-адрес вашего устройства. Для этого нажмите на кнопку [+] после чего откроется диалоговое окно IP Range Editor в котором необходимо задать начальный и конечный IP-адрес, после чего нажмите кнопку [OK]",
+     "after": "После настройки, сохранения и выбора IP-диапазона с помощью функции IP Ranges нажмите [Scan] или [Monitor] для начала сканирования: [Scan] – начать ск"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-28.png",
+     "alt": "image.png",
+     "section": "Настройка с помощью BTC Tools:",
+     "before": "й периодичностью Monitor Interval ; Дождитесь обнаружения вашего устройства и окончания сканирования сети. После чего можно приступать к самой настройке пулов. Для этого в соответствующее поля введите необходимые данные:",
+     "after": "Pool 1/2/3 - адрес/стратум пула; SubAccount - воркер; PWD - пароль (опционально); Worker Suffix - варианты конфигурации суффиксов: <"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-29.png",
+     "alt": "image.png",
+     "section": "Настройка через WEB-интерфейс устройства на заводской прошивке:",
+     "before": "li> [Empty] – без суффикса. Настройка через WEB-интерфейс устройства на заводской прошивке: ​ Нажмите на [Settings] , в левой части веб-интерфейса устройства.",
+     "after": "Введите данные майнинг пула в соответствующие поля Mining Address - адрес/стратум пула, Miner Name - воркер, Password - пароль (опционально) Нажмите ["
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-30.png",
+     "alt": "image.png",
+     "section": "Настройка через WEB-интерфейс устройства на прошивке BiXBiT:",
+     "before": "Miner Name - воркер, Password - пароль (опционально) Нажмите [Save] для применения настроек. Настройка через WEB-интерфейс устройства на прошивке BiXBiT: ​",
+     "after": "Нажмите на [Settings] , в левой части веб-интерфейса устройства. На вкладке настроек [Setup] , в разделе POOLS введите данные майнинг пула в соответст"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/docs.html",
+   "locale": "en",
+   "title": "Docs | Documentation",
+   "description": "Documentation",
+   "h1": "Docs",
+   "h2h3": [
+    "Редактирование страниц через PageCMS",
+    "Сначала всегда по порядку",
+    "Три поля в форме (что куда писать)",
+    "Когда нужна папка с разделом, а когда одна страница без папки",
+    "Когда уже всё сохранено: почему на общем сайте текст «ещё старый»",
+    "Frontmatter",
+    "SEO",
+    "Alt-текст изображений",
+    "Кастомные компоненты Vue в Markdown",
+    "Кастомный компонент без пропсов",
+    "Кастомный компонент с другим текстом",
+    "Оглавление",
+    "Заголовки и якоря",
+    "Раздел второго уровня",
+    "Раздел третьего уровня",
+    "Кастомный якорь",
+    "Параграфы",
+    "Выделение текста и inline code",
+    "Внешняя ссылка",
+    "Внутренняя ссылка",
+    "Изображение",
+    "GIF",
+    "Видео",
+    "Видео с YouTube",
+    "Маркированный список"
+   ],
+   "words": 3176,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/logo.svg",
+     "alt": "Логотип AMS",
+     "section": "Изображение",
+     "before": "e=\"--shiki-light:#032F62;--shiki-light-text-decoration:underline;--shiki-dark:#DBEDFF;--shiki-dark-text-decoration:underline;\">Логотип AMS ]( /images/logo.svg ) Результат",
+     "after": "GIF ​ GIF вставляется так же, как обычное изображение. Markdown <button title=\"Copy Code"
+    },
+    {
+     "src": "https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif",
+     "alt": "Пример GIF",
+     "section": "GIF",
+     "before": "le=\"--shiki-light:#032F62;--shiki-light-text-decoration:underline;--shiki-dark:#DBEDFF;--shiki-dark-text-decoration:underline;\">Пример GIF ]( /images/demo.gif ) Результат",
+     "after": "Видео ​ Для видео в Markdown-странице используй HTML-тег <video> . Обычно файл кладут в docs/public/video"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/docs.html",
+   "locale": "ru",
+   "title": "Docs | Документация",
+   "description": "Документация",
+   "h1": "Docs",
+   "h2h3": [
+    "Редактирование страниц через PageCMS",
+    "Сначала всегда по порядку",
+    "Три поля в форме (что куда писать)",
+    "Когда нужна папка с разделом, а когда одна страница без папки",
+    "Когда уже всё сохранено: почему на общем сайте текст «ещё старый»",
+    "Frontmatter",
+    "SEO",
+    "Alt-текст изображений",
+    "Кастомные компоненты Vue в Markdown",
+    "Кастомный компонент без пропсов",
+    "Кастомный компонент с другим текстом",
+    "Оглавление",
+    "Заголовки и якоря",
+    "Раздел второго уровня",
+    "Раздел третьего уровня",
+    "Кастомный якорь",
+    "Параграфы",
+    "Выделение текста и inline code",
+    "Внешняя ссылка",
+    "Внутренняя ссылка",
+    "Изображение",
+    "GIF",
+    "Видео",
+    "Видео с YouTube",
+    "Маркированный список"
+   ],
+   "words": 3176,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/logo.svg",
+     "alt": "Логотип AMS",
+     "section": "Изображение",
+     "before": "e=\"--shiki-light:#032F62;--shiki-light-text-decoration:underline;--shiki-dark:#DBEDFF;--shiki-dark-text-decoration:underline;\">Логотип AMS ]( /images/logo.svg ) Результат",
+     "after": "GIF ​ GIF вставляется так же, как обычное изображение. Markdown <button title=\"Copy Code"
+    },
+    {
+     "src": "https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif",
+     "alt": "Пример GIF",
+     "section": "GIF",
+     "before": "le=\"--shiki-light:#032F62;--shiki-light-text-decoration:underline;--shiki-dark:#DBEDFF;--shiki-dark-text-decoration:underline;\">Пример GIF ]( /images/demo.gif ) Результат",
+     "after": "Видео ​ Для видео в Markdown-странице используй HTML-тег <video> . Обычно файл кладут в docs/public/video"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_dashboard.html",
+   "locale": "en",
+   "title": "Dashboard Section | Documentation",
+   "description": "Documentation",
+   "h1": "Dashboard Section",
+   "h2h3": [],
+   "words": 196,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-34.png",
+     "alt": "image.png",
+     "section": "Dashboard Section",
+     "before": "Dashboard Section ​",
+     "after": "This section contains general information about the current operation of the device: Miner Running Time — the device uptime since the last reboot. RT "
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_dashboard.html",
+   "locale": "ru",
+   "title": "Раздел Dashboard | Документация",
+   "description": "Документация",
+   "h1": "Раздел Dashboard",
+   "h2h3": [],
+   "words": 167,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-34.png",
+     "alt": "image.png",
+     "section": "Раздел Dashboard",
+     "before": "Раздел Dashboard ​",
+     "after": "Данный раздел содержит общую информацию по текущей работе устройства: Miner Running Time - время работы устройства с момента последней перезагрузки RT"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_header.html",
+   "locale": "en",
+   "title": "Device Top Control Panel | Documentation",
+   "description": "Documentation",
+   "h1": "Device Top Control Panel",
+   "h2h3": [],
+   "words": 119,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-33.png",
+     "alt": "image.png",
+     "section": "Device Top Control Panel",
+     "before": "Device Top Control Panel ​",
+     "after": "This panel allows you to view the current device status and perform basic device management: Current device status. Device model. Control board model."
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_header.html",
+   "locale": "ru",
+   "title": "Верхняя панель управления устройством | Документация",
+   "description": "Документация",
+   "h1": "Верхняя панель управления устройством",
+   "h2h3": [],
+   "words": 96,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-33.png",
+     "alt": "image.png",
+     "section": "Верхняя панель управления устройством",
+     "before": "Верхняя панель управления устройством ​",
+     "after": "Данная панель позволяет выполнять просмотреть текущий статус устройства и выполнять базовое управление устройством: Текущий статус устройства Модель у"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_ip_settings.html",
+   "locale": "en",
+   "title": "IP Settings Section | Documentation",
+   "description": "Documentation",
+   "h1": "IP Settings Section",
+   "h2h3": [],
+   "words": 159,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/ip-settings.png",
+     "alt": "IP Settings.png",
+     "section": "IP Settings Section",
+     "before": "IP Settings Section ​ In this section, you can configure automatic IP address assignment for the device, or set a static IP address.",
+     "after": "Network information — information about the current connection (device MAC address, device IP address, subnet mask). Hostname — the device's name on t"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_ip_settings.html",
+   "locale": "ru",
+   "title": "Раздел IP Settings | Документация",
+   "description": "Документация",
+   "h1": "Раздел IP Settings",
+   "h2h3": [],
+   "words": 124,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/ip-settings.png",
+     "alt": "IP Settings.png",
+     "section": "Раздел IP Settings",
+     "before": "Раздел IP Settings ​ В данном разделе можно настроить автоматическое получение IP-адреса для устройства, или настроить статический IP-адрес.",
+     "after": "Network information - информация о текущем подключении (MAC-адрес устройства, IP-адрес устройства, маска подсети) Hostname - имя устройства в сети. По"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_logs.html",
+   "locale": "en",
+   "title": "Miner Log Section | Documentation",
+   "description": "Documentation",
+   "h1": "Miner Log Section",
+   "h2h3": [],
+   "words": 27,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_logs.html",
+   "locale": "ru",
+   "title": "Раздел Miner Log | Документация",
+   "description": "Документация",
+   "h1": "Раздел Miner Log",
+   "h2h3": [],
+   "words": 25,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_settings.html",
+   "locale": "en",
+   "title": "Settings Section | Documentation",
+   "description": "Documentation",
+   "h1": "Settings Section",
+   "h2h3": [
+    "Setup Tab",
+    "Pool Configuration:",
+    "Autotune Tab",
+    "Profile Switcher Tab",
+    "Proxy Tab",
+    "Hotel Fee Tab"
+   ],
+   "words": 1192,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-35.png",
+     "alt": "image.png",
+     "section": "Setup Tab",
+     "before": "tings Section ​ Setup Tab ​ On this tab, you can perform detailed firmware configuration based on the current state of the device. Also, below the Setup subsection is the Pools section, where you can set up mining pools.",
+     "after": "Mode — selection of the device operating mode. Normal — normal device operation; Sleep — sleep mode. Liquid Cooling — a function that disables fan che"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-36.png",
+     "alt": "image.png",
+     "section": "Pool Configuration:",
+     "before": "lows the device to continue operating with a specified percentage of faulty chips. This function is unsafe, as operating hashboards with non-working chips can be unstable and lead to further damage. Pool Configuration: ​",
+     "after": "Click on [Settings] on the left side of the web interface. On the [Setup] settings tab, in the POOLS section, enter the mining pool data in the corres"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/setting-autotune-marked.png",
+     "alt": "Setting - Autotune marked.png",
+     "section": "Autotune Tab",
+     "before": " the POOLS section, enter the mining pool data in the corresponding fields: MINING ADDRESS — pool address/stratum, MINING USER — worker, PASSWORDS — password (optional). Click [Save] to apply the settings. Autotune Tab ​",
+     "after": "Autotune profile — the boot profile and the profile for which autotuning will be performed, if necessary. Used for overclocking or undervolting the de"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/setting-profile-switcher-marked.png",
+     "alt": "Setting - Profile Switcher marked.png",
+     "section": "Profile Switcher Tab",
+     "before": "during autotune will be zero). This function is not available for all devices. Profile Switcher Tab ​ The Profile Switcher function allows changing the overclocking profile depending on changes in the device temperature.",
+     "after": "Enable switcher — enables the Profile Switcher function. Maximum profile — the maximum profile to which switching is possible. Lower profile if chip t"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/setting-proxy-marked.png",
+     "alt": "Setting - Proxy marked.png",
+     "section": "Proxy Tab",
+     "before": "r than 90% of the maximum. If the option is disabled, the profile will not be raised under such conditions. Proxy Tab ​ This function allows using an intermediate proxy server through which mining traffic will be routed.",
+     "after": "Proxy type — selects the proxy server type. Host — proxy server address and port. User — username for authorization on the proxy server. Password — pa"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/setting-hotelfee-marked.png",
+     "alt": "Setting - HotelFee marked.png",
+     "section": "Hotel Fee Tab",
+     "before": "ion percentage is 25%. This means that the device's hashrate will be split between two pools as follows: 25% will go to the Hotel Fee pool, and 75% (100% - 25%) will go to the main pools specified in the Setup-Pools tab.",
+     "after": "Enabled — enables the function. Pool address — the pool address for deductions. Pool user — the worker name on this pool for deductions. Password — wo"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_settings.html",
+   "locale": "ru",
+   "title": "Раздел Settings | Документация",
+   "description": "Документация",
+   "h1": "Раздел Settings",
+   "h2h3": [
+    "Вкладка Setup",
+    "Настройка пулов:",
+    "Вкладка Autotune",
+    "Вкладка Profile Switcher",
+    "Вкладка Proxy",
+    "Вкладка Hotel Fee"
+   ],
+   "words": 1049,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-35.png",
+     "alt": "image.png",
+     "section": "Вкладка Setup",
+     "before": "ttings ​ Вкладка Setup ​ На данной вкладке можно произвести детальную настройку прошивки опираясь на текущее состояние устройства. Так же, ниже подраздела Setup находится раздел Pools, в котором можно задать майнинг-пулы",
+     "after": "Mode - выбор режима работы устройства. Normal - обычная работа устройства; Sleep - спящий режим Liquid Cooling - функция, отключающая проверку вентиля"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-36.png",
+     "alt": "image.png",
+     "section": "Настройка пулов:",
+     "before": "оту устройства с заданным процентом неисправных чипов. Данная функция является небезопасной, так как работа хешплат с неработающими чипами может быть нестабильной и привести к еще большим повреждениями Настройка пулов: ​",
+     "after": "Нажмите на [Settings] , в левой части веб-интерфейса устройства. На вкладке настроек [Setup] , в разделе POOLS введите данные майнинг пула в соответст"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/setting-autotune-marked.png",
+     "alt": "Setting - Autotune marked.png",
+     "section": "Вкладка Autotune",
+     "before": ", в разделе POOLS введите данные майнинг пула в соответствующие поля: MINING ADDRESS - адрес/стратум пула, MINING USER - воркер, PASSWORDS - пароль (опционально) Нажмите [Save] для применения настроек. Вкладка Autotune ​",
+     "after": "Autotune profile - загрузочный профиль и профиль для которого, при необходимости, будет выполнен автотюн. Используется для разгона или даунвольта устр"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/setting-profile-switcher-marked.png",
+     "alt": "Setting - Profile Switcher marked.png",
+     "section": "Вкладка Profile Switcher",
+     "before": "рейт во время автотюна будет нулевой). Данная функция доступна не для всех устройств Вкладка Profile Switcher ​ Функция Profile Switcher позволяет изменять профиль разгона в зависимости от изменения температур устройства",
+     "after": "Enable switcher - включить функцию Profile Switcher Maximum profile - максимальный профиль, - на который возможно переключение Lower profile if chip t"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/setting-proxy-marked.png",
+     "alt": "Setting - Proxy marked.png",
+     "section": "Вкладка Proxy",
+     "before": " максимальной. Если опция выключена, то повышение профиля в таких условиях не произойдет Вкладка Proxy ​ Данная функция позволяет использовать промежуточный прокси-сервер, через который будет направляться трафик майнинга",
+     "after": "Proxy type - выбор типа прокси сервера Host - адрес прокси-сервера и порт User - имя учетной запись для авторизации на прокси-сервере Password - парол"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/setting-hotelfee-marked.png",
+     "alt": "Setting - HotelFee marked.png",
+     "section": "Вкладка Hotel Fee",
+     "before": "чения к пулу и процент отчислений (25%). Значит, что хешрейт устройства поделится на два пула в следующем соотношении: 25% уйдет на пул Hotel Fee, 75% (100%-25%) - уйдет на основные пулы, указанные на вкладке Setup-Pools",
+     "after": "Enabled - включить функцию Pool address - адрес пула для отчислений Pool user - имя воркера на данном пуле для отчислений Password - пароль от воркера"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/antminer_system.html",
+   "locale": "en",
+   "title": "System Section | Documentation",
+   "description": "Documentation",
+   "h1": "System Section",
+   "h2h3": [],
+   "words": 88,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/antminer_system.html",
+   "locale": "ru",
+   "title": "Раздел System | Документация",
+   "description": "Документация",
+   "h1": "Раздел System",
+   "h2h3": [],
+   "words": 75,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/antminer/",
+   "locale": "en",
+   "title": "Antminer | Documentation",
+   "description": "Documentation",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/antminer/",
+   "locale": "ru",
+   "title": "Antminer | Документация",
+   "description": "Документация",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/",
+   "locale": "en",
+   "title": "Additional Features of BiXBiT Firmware | Documentation",
+   "description": "Documentation",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/",
+   "locale": "ru",
+   "title": "Дополнительный функционал прошивки BiXBiT | Документация",
+   "description": "Документация",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/",
+   "locale": "en",
+   "title": "Whatsminer | Documentation",
+   "description": "Documentation",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/",
+   "locale": "ru",
+   "title": "Whatsminer | Документация",
+   "description": "Документация",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_configuration.html",
+   "locale": "en",
+   "title": "Configuration Section | Documentation",
+   "description": "Documentation",
+   "h1": "Configuration Section",
+   "h2h3": [
+    "Interfaces",
+    "Statistics",
+    "Network Settings",
+    "Miner Configuration",
+    "Pool Tab",
+    "Overclock Tab",
+    "Profile Switcher Tab",
+    "Hotel Fee Tab",
+    "PSU Control Tab",
+    "Boards Tab",
+    "Env Temp Limits Tab",
+    "Cool Temp Tab",
+    "Proxy Tab"
+   ],
+   "words": 2015,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/fda74569-4e91-440d-b193-8303e932648a.png",
+     "alt": "{FDA74569-4E91-440D-B193-8303E932648A}.png",
+     "section": "Statistics",
+     "before": "on ​ Interfaces ​ In this section, you can view network statistics and change the network settings for the device. Statistics ​",
+     "after": "Uptime — the uptime of the current connection to the router. MAC-Address — the device's MAC address. RX — the amount of data received from the network"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/7612826c-c6c6-429b-9a32-0b25f224eeba.png",
+     "alt": "{7612826C-C6C6-429B-9A32-0B25F224EEBA}.png",
+     "section": "Network Settings",
+     "before": "dit button next to the LAN interface. On the page that opens, select Static Address in the Protocol field. Click the Switch Protocol button. Next, you need to specify the settings for the static IP address in the fields:",
+     "after": "IPv4 address — the IP address of your ASIC miner on the local network. IPv4 netmask — the subnet mask in which the IP address specified above should r"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-57.png",
+     "alt": "image.png",
+     "section": "Pool Tab",
+     "before": "rver IP addresses. Miner Configuration ​ This subsection contains all the mining settings for the device. Pool Tab ​ On this tab, you can specify connection details for pools. Up to 3 pools are supported.",
+     "after": "Coin Type — any supported by your pool based on the SHA-256 algorithm. Pool 1/2/3 — the pool address. To specify your own pool, select the --custom-- "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-58.png",
+     "alt": "image.png",
+     "section": "Overclock Tab",
+     "before": "r — the worker name for this pool. Pool 1/2/3 password — the password for the worker on this pool (optional, depending on the pool). Overclock Tab ​ This tab contains various options intended for overclocking the device.",
+     "after": "Liquid Cooling ​ This checkbox is designed to switch the device to immersion cooling mode"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-59.png",
+     "alt": "image.png",
+     "section": "Advanced Options",
+     "before": "tor the chip temperature (not to be confused with the board temperature, which is displayed in the web interface in the ChipTemp column). This temperature can be seen in the ChipTemp column of the WhatsMinerTool utility:",
+     "after": "In the utility settings, you must first set the List Column Display Mode parameter to \" Complete Mode \"; otherwise, the ChipTemp column will not be di"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-61.png",
+     "alt": "image.png",
+     "section": "Profile Switcher Tab",
+     "before": "or down. In Maximum Profile , you specify the maximum profile above which the device will not raise the overclocking profile. Each time the profile is switched, the device will reboot and run Autotune on the new profile.",
+     "after": "Enable Profile Switcher — checkbox to enable/disable the Profile Switcher option. Maximum Profile — the maximum profile to which the device can switch"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-124016.png",
+     "alt": "Скриншот сделанный 2026-08-12 в 12.40.16.png",
+     "section": "Hotel Fee Tab",
+     "before": "o even at high fan speeds. Hotel Fee Tab ​ This function allows specifying a pool and percentage for additional deductions. When enabled, the specified percentage of hashrate will go to the address specified on this tab.",
+     "after": "Example: in the screenshot above, the function is enabled, the pool connection details are set, and the deduction percentage is 45%. This means that t"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-62.png",
+     "alt": "image.png",
+     "section": "PSU Control Tab",
+     "before": "l). Fee — the percentage of deductions to this pool. Can be from 0.1% to 50%. PSU Control Tab ​ On this tab, you can flash the power supply firmware and disable the power supply fan checks for immersion cooling purposes.",
+     "after": "More details can be found <a href=\"https://bixbit-dev.github.io/bixbit.docs/ru/Additional%20instructions/Preparation%20for%20immersion%20cooling.html#"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-130037.png",
+     "alt": "Скриншот сделанный 2026-08-12 в 13.00.37.png",
+     "section": "Boards Tab",
+     "before": "noreferrer\">here . Boards Tab ​ On this tab, you can disable hashboard slots on the device. It displays the number of slots, the reason for their disablement if any, as well as auto-shutdown options for boards on errors.",
+     "after": "Auto Disable Slots on Errors — intended for automatically disabling boards. If a board fails to start after exceeding the startup attempt limit (the d"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-132845.png",
+     "alt": "Скриншот сделанный 2026-08-12 в 13.28.45.png",
+     "section": "Env Temp Limits Tab",
+     "before": "ard will be software-disabled. Limit Boards Power — disables the use of power from disabled/non-working boards. Env Temp Limits Tab ​ This function is used to manage device operation depending on the ambient temperature.",
+     "after": "Mining Resume Env Temp — this field indicates the ambient temperature at which the device will exit the \" Suspended: High Env. Temp \" mode. Mining Sus"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-65.png",
+     "alt": "image.png",
+     "section": "Cool Temp Tab",
+     "before": "​ The Cool Temp setting determines to what temperature the boards will be cooled during miner startup. All temperatures are in degrees Celsius. The specific value depends on the mode selected in the Cool Temp Mode field.",
+     "after": "Default — uses the default temperature value (similar to the stock firmware). Manual — the temperature value is set manually. Env Temp — uses the temp"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-133852.png",
+     "alt": "Скриншот сделанный 2026-08-12 в 13.38.52.png",
+     "section": "Proxy Tab",
+     "before": "mperature value is set manually. Env Temp — uses the temperature value from the ambient temperature sensor. Proxy Tab ​ This function allows using an intermediate proxy server through which mining traffic will be routed.",
+     "after": "Type — selects the proxy server type. Currently, only SOCKS5 is supported. Host — proxy server address and port. User — username for authorization on "
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_configuration.html",
+   "locale": "ru",
+   "title": "Раздел Configuration | Документация",
+   "description": "Документация",
+   "h1": "Раздел Configuration",
+   "h2h3": [
+    "Interfaces",
+    "Статистика",
+    "Настройки сети",
+    "Miner Configuration",
+    "Вкладка Pool",
+    "Вкладка Overclock",
+    "Вкладка Profile Switcher",
+    "Вкладка Hotel Fee",
+    "Вкладка PSU Control",
+    "Вкладка Boards",
+    "Вкладка Env Temp Limits",
+    "Вкладка Cool Temp",
+    "Вкладка Proxy"
+   ],
+   "words": 1686,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/fda74569-4e91-440d-b193-8303e932648a.png",
+     "alt": "{FDA74569-4E91-440D-B193-8303E932648A}.png",
+     "section": "Статистика",
+     "before": "uration ​ Interfaces ​ В данном разделе можно посмотреть сетевую статистику и изменить настройки сети для устройства Статистика ​",
+     "after": "Uptime - время \"жизни\" текущего соединения с маршрутизатором MAC-Address - MAC-адрес устройства RX - количество полученных из сети данных (в скобочках"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/7612826c-c6c6-429b-9a32-0b25f224eeba.png",
+     "alt": "{7612826C-C6C6-429B-9A32-0B25F224EEBA}.png",
+     "section": "Настройки сети",
+     "before": "ия: Нажмите кнопку Edit напротив LAN-интерфейса На открывшейся странице в поле Protocol выберите Static Address Нажмите кнопку Switch Protocol Далее необходимо указать в полях настройки для работы статического IP-адреса:",
+     "after": "IPv4 address - IP-адрес вашего ASIC-майнера в локальной сети IPv4 netmask - маска подсети, в которой должен находиться заданный выше IP-адрес IPv4 gat"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-57.png",
+     "alt": "image.png",
+     "section": "Вкладка Pool",
+     "before": "Miner Configuration ​ В этом подразделе собраны все настройки майнинга на устройстве Вкладка Pool ​ На этой вкладке вы можете указать данные для подключения к пулам. Поддерживается до 3 пулов",
+     "after": "Coin Type - любой поддерживаемый вашим пулом на основе алгоритма SHA-256 Pool 1/2/3 - адрес пула. Для указания собственного пула необходимо выбрать пу"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-58.png",
+     "alt": "image.png",
+     "section": "Вкладка Overclock",
+     "before": "я воркера для данного пула Pool 1/2/3 password - пароль для воркера данного пула (опционально, в зависимости от пула) Вкладка Overclock ​ На данной вкладке находятся различные опции предназначенные для разгона устройства",
+     "after": "Liquid Cooling ​ Данный чекбокс предназначен для перевода устройства на иммерсионный режим охлажде"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-59.png",
+     "alt": "image.png",
+     "section": "Advanced Options",
+     "before": "роцессе разгона необходимо следить за температурой чипов (не путать с температурой плат, которая отображается в веб-интерфейсе в колонке ChipTemp ) Эту температуру можно увидеть в столбце ChipTemp утилиты WhatsMinerTool:",
+     "after": "В настройках утилиты предварительно необходимо параметр List Column Display Mode установить в “ Complete Mode ”, в противном случае колонка ChipTemp о"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-61.png",
+     "alt": "image.png",
+     "section": "Вкладка Profile Switcher",
+     "before": "з. В Maximum Profile - указывается максимальный профиль выше которого устройство не будет поднимать профиль разгона. При каждом переключении профиля, устройство будет перезагружаться и запускать Autotune на новом профиле",
+     "after": "Enable Profile Switcher – чекбокс включения / отключения опции Profile Switcher. Maximum Profile – максимальный профиль на который может переключиться"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-124016.png",
+     "alt": "Скриншот сделанный 2026-08-12 в 12.40.16.png",
+     "section": "Вкладка Hotel Fee",
+     "before": "же при высоких оборотах кулеров. Вкладка Hotel Fee ​ Функция позволяет указать пул и процент для дополнительных отчислений. При включенной функции указанный процент хешрейта будет уходить на указанный в этой вкладе адрес",
+     "after": "Пример: на представленном выше скриншоте функция включена, заданы данные для подключения к пулу и процент отчислений (45%). Значит, что хешрейт устрой"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-62.png",
+     "alt": "image.png",
+     "section": "Вкладка PSU Control",
+     "before": "нт отчислений на данный пул. Может быть от 0.1% до 50% Вкладка PSU Control ​ На данной вкладке можно установить прошивку блока питания, отключить проверку кулеров блока питания в целях иммерсионного погружения устройства",
+     "after": "Подробнее написано <a href=\"https://bixbit-dev.github.io/bixbit.docs/ru/Additional%20instructions/Preparation%20for%20immersion%20cooling.html#%D0%BE%"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-130037.png",
+     "alt": "Скриншот сделанный 2026-08-12 в 13.00.37.png",
+     "section": "Вкладка Boards",
+     "before": "el=\"noreferrer\">здесь Вкладка Boards ​ На данной вкладке можно отключить слоты хэшплат устройства. Отображает количество слотов, причину их отключения, если таковая имеется, а также опции автовыключения плат при ошибках.",
+     "after": "Auto Disable Slots on Errors – предназначена для автоматического отключения плат. В случае если плата не начала работу после превышения лимита попыток"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-132845.png",
+     "alt": "Скриншот сделанный 2026-08-12 в 13.28.45.png",
+     "section": "Вкладка Env Temp Limits",
+     "before": "тключена; Limit Boards Power – отключает использования мощности с выключенных / неработающих плат. Вкладка Env Temp Limits ​ Функция служит для управления работой устройством в зависимости от температуры окружающей среды",
+     "after": "Mining Resume Env Temp - это поле обозначает температуру окружающей среды при котором устройство выйдет из режима \" Suspended: High Env. Temp \" Mining"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-65.png",
+     "alt": "image.png",
+     "section": "Вкладка Cool Temp",
+     "before": "ка Cool Temp определяет до какого значения температуры будут охлаждаться платы по время запуска майнера. Все температуры указаны в градусах Цельсия. Конкретное значение зависит от режима выбранного в поле Cool Temp Mode.",
+     "after": "Default - используется значение температуры по умолчанию (аналогично заводской прошивке) Manual - значение температуры задается вручную Env Temp - исп"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-133852.png",
+     "alt": "Скриншот сделанный 2026-08-12 в 13.38.52.png",
+     "section": "Вкладка Proxy",
+     "before": "я вручную Env Temp - используется значение температуры из датчика окружающей температуры Вкладка Proxy ​ Данная функция позволяет использовать промежуточный прокси-сервер, через который будет направляться трафик майнинга",
+     "after": "Type - выбор типа прокси сервера. На текущий момент поддерживается только SOCKS5 Host - адрес прокси-сервера и порт User - имя учетной запись для авто"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_status.html",
+   "locale": "en",
+   "title": "Status Section | Documentation",
+   "description": "Documentation",
+   "h1": "Status Section",
+   "h2h3": [
+    "Miner Status Subsection",
+    "Summary",
+    "Devices",
+    "Pools",
+    "Errors",
+    "Events",
+    "Miner API Log, System Log, Miner Log, Processes Subsections",
+    "Overview Subsection",
+    "System",
+    "Memory",
+    "Network"
+   ],
+   "words": 205,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-54.png",
+     "alt": "image.png",
+     "section": "Miner Status Subsection",
+     "before": "status\" data-v-7011f0d8> Status Section ​ Miner Status Subsection ​ This subsection contains current information about the device's operation. The following are also available here:",
+     "after": "Restart Miner button — restarts the mining process without rebooting the device itself. Download Logs button — downloads logs from the device (similar"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151135.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.11.35.png",
+     "section": "Summary",
+     "before": "n — downloads logs from the device (similar to the Export log function in Whatsminer Tool ). Toggle Led button — turns on the LEDs on the device's control board. Useful for locating a specific device in a farm. Summary ​",
+     "after": "Devices ​ </p"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151227.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.12.27.png",
+     "section": "Devices",
+     "before": "ng> button — turns on the LEDs on the device's control board. Useful for locating a specific device in a farm. Summary ​ Devices ​",
+     "after": "Pools ​ <img"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151407.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.14.07.png",
+     "section": "Devices",
+     "before": "ul> Summary ​ Devices ​",
+     "after": "Pools ​ <h3 id="
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151454.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.14.54.png",
+     "section": "Pools",
+     "before": "5.png\"> Devices ​ Pools ​",
+     "after": "Errors ​ Events <a class=\"header-anchor\" href=\"#"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-56.png",
+     "alt": "image.png",
+     "section": "Errors",
+     "before": "12.27.png\"> Pools ​ Errors ​",
+     "after": "Events ​ <h2"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-152120.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.21.20.png",
+     "section": "Events",
+     "before": "ss=\"header-anchor\" href=\"#pools\" aria-label=\"Permalink to “Pools”\">​ Errors ​ Events ​",
+     "after": "Miner API Log, System Log, Miner Log, Processes Subsections <a class=\"header-anchor\" href=\"#miner-api-log-system-log-miner-log-processes-subsections\" "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-153254.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.32.54.png",
+     "section": "System",
+     "before": "e Log). Processes — allows you to monitor the processes running on the device and their parameters, as well as the current CPU load and memory usage for each process. Overview Subsection ​ System ​",
+     "after": "Memory ​ <h3"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-153313.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.33.13.png",
+     "section": "Memory",
+     "before": ">Overview Subsection ​ System ​ Memory ​",
+     "after": "Network ​ </p"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-153341.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.33.41.png",
+     "section": "Network",
+     "before": "a> Memory ​ Network ​",
+     "after": ""
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_status.html",
+   "locale": "ru",
+   "title": "Раздел Status | Документация",
+   "description": "Документация",
+   "h1": "Раздел Status",
+   "h2h3": [
+    "Подраздел Miner status",
+    "Summary",
+    "Devices",
+    "Pools",
+    "Errors",
+    "Events",
+    "Подразделы Miner API Log, System Log, Miner Log, Processes",
+    "Подраздел Overview",
+    "System",
+    "Memory",
+    "Network"
+   ],
+   "words": 179,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-54.png",
+     "alt": "image.png",
+     "section": "Подраздел Miner status",
+     "before": "it_firmware_whatsminer_whatsminer_status\" data-v-7011f0d8> Раздел Status ​ Подраздел Miner status ​ В данном подразделе собрана текущая информация о работе устройства. Так же, здесь доступны:",
+     "after": "Кнопка Restart Miner - перезапуск процесса майнинга без перезагрузки самого устройства Кнопка Download Logs - скачать логи с устройства (аналог функци"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151135.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.11.35.png",
+     "section": "Summary",
+     "before": "wnload Logs - скачать логи с устройства (аналог функции Export log в Whatsminer Tool ) Кнопка Toggle Led - включить светодиоды на контрольной плате устройства. Полезно при поиске конкретного устройства на ферме Summary ​",
+     "after": "Devices ​ </p"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151227.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.12.27.png",
+     "section": "Devices",
+     "before": "/strong> - включить светодиоды на контрольной плате устройства. Полезно при поиске конкретного устройства на ферме Summary ​ Devices ​",
+     "after": "Pools ​ <img"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151407.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.14.07.png",
+     "section": "Devices",
+     "before": "ul> Summary ​ Devices ​",
+     "after": "Pools ​ <h3 id="
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151454.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.14.54.png",
+     "section": "Pools",
+     "before": "5.png\"> Devices ​ Pools ​",
+     "after": "Errors ​ Events <a class=\"header-anchor\" href=\"#"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-56.png",
+     "alt": "image.png",
+     "section": "Errors",
+     "before": "12.27.png\"> Pools ​ Errors ​",
+     "after": "Events ​ <h2"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-152120.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.21.20.png",
+     "section": "Events",
+     "before": "ss=\"header-anchor\" href=\"#pools\" aria-label=\"Permalink to “Pools”\">​ Errors ​ Events ​",
+     "after": "Подразделы Miner API Log, System Log, Miner Log, Processes <a class=\"header-anchor\" href=\"#подразделы-miner-api-log-system-log-miner-log-processes\" ar"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-153254.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.32.54.png",
+     "section": "System",
+     "before": "трезкам (Miner State Log) Processes - позволяет отследить запущенные на устройстве процессы и их параметры, а так же текущую нагрузку на CPU и память для каждого процесса Подраздел Overview ​ System ​",
+     "after": "Memory ​ <h3"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-153313.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.33.13.png",
+     "section": "Memory",
+     "before": "-1\">Подраздел Overview ​ System ​ Memory ​",
+     "after": "Network ​ </p"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-153341.png",
+     "alt": "Скриншот сделанный 2026-08-10 в 15.33.41.png",
+     "section": "Network",
+     "before": "a> Memory ​ Network ​",
+     "after": ""
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_system.html",
+   "locale": "en",
+   "title": "System Section | Documentation",
+   "description": "Documentation",
+   "h1": "System Section",
+   "h2h3": [],
+   "words": 58,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/functionality_of_the_bixbit_firmware/whatsminer/whatsminer_system.html",
+   "locale": "ru",
+   "title": "Раздел System | Документация",
+   "description": "Документация",
+   "h1": "Раздел System",
+   "h2h3": [],
+   "words": 53,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/",
+   "locale": "en",
+   "title": "Home | Documentation",
+   "description": "Documentation",
+   "h1": "Home",
+   "h2h3": [],
+   "words": 5,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/",
+   "locale": "ru",
+   "title": "Главная | Документация",
+   "description": "Документация",
+   "h1": "Главная",
+   "h2h3": [],
+   "words": 7,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/installing_and_updating_bixbit_firmware/antminer.html",
+   "locale": "en",
+   "title": "Antminer | Documentation",
+   "description": "Documentation",
+   "h1": "Installing and Updating BiXBiT Firmware on Antminer Devices",
+   "h2h3": [
+    "List of Compatible Models",
+    "Known Issues",
+    "Running and Initial Configuration of the Installer",
+    "Installing BiXBiT Firmware on Devices"
+   ],
+   "words": 1052,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image1.png",
+     "alt": "image1.png",
+     "section": "Running and Initial Configuration of the Installer",
+     "before": "icking the Download button – the firmware downloaded this way will be used for installation. Click the Cancel button – the installer will then use the files that were originally in the same archive with it (local files).",
+     "after": "The main program window will then open: Click the IP List button to set the network scan range for finding the devices you want to flash. In"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-8.png",
+     "alt": "image.png",
+     "section": "Running and Initial Configuration of the Installer",
+     "before": "e downloaded this way will be used for installation. Click the Cancel button – the installer will then use the files that were originally in the same archive with it (local files). The main program window will then open:",
+     "after": "Click the IP List button to set the network scan range for finding the devices you want to flash. In the Info window that appears: If you click Yes , "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-10.png",
+     "alt": "image.png",
+     "section": "Running and Initial Configuration of the Installer",
+     "before": "ge. INFO When adding multiple ranges, be careful that the IP addresses in them do not overlap, as the program will not allow saving a new range in that case. Select the required ranges using the checkboxes and click OK .",
+     "after": "After that, in the main program window, click the Scan button and wait for the network scan to complete. Installing BiXBiT Firmware on Devices <a clas"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-11.png",
+     "alt": "image.png",
+     "section": "Installing BiXBiT Firmware on Devices",
+     "before": "can to complete. Installing BiXBiT Firmware on Devices ​ Use the checkboxes to select the devices you want to flash. In the Installation Settings block, you can additionally specify the following options before flashing:",
+     "after": "Parallel Installs – specify the number of devices to flash simultaneously (from 1 to 10). The Force install on new firmware version checkbox allows yo"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image8.png",
+     "alt": "image8.png",
+     "section": "Installing BiXBiT Firmware on Devices",
+     "before": "ton, a field will appear for entering the AMS key (AMS API key) – if you enter it, the devices will appear in AMS almost immediately after the firmware installation, and you will not need to set the API key additionally.",
+     "after": "Click the Install button. If the device is flashed successfully, a message with the content “Done. Code: Success: OK!” or “Done. Code: CV: Installed” "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-12.png",
+     "alt": "image.png",
+     "section": "Installing BiXBiT Firmware on Devices",
+     "before": "ck the Install button. If the device is flashed successfully, a message with the content “Done. Code: Success: OK!” or “Done. Code: CV: Installed” will appear in the Progress field. After that, you can close the program.",
+     "after": "WARNING Important: after installing the firmware on devices with CVtek boards, it is recommended to use the “CV Monitoring” button – this will"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/installing_and_updating_bixbit_firmware/antminer.html",
+   "locale": "ru",
+   "title": "Antminer | Документация",
+   "description": "Документация",
+   "h1": "Установка и обновление прошивки BiXBiT на устройствах Antminer",
+   "h2h3": [
+    "Список совместимых моделей",
+    "Известные проблемы",
+    "Запуск и первичная настройка установщика",
+    "Установка прошивки BiXBiT на устройства"
+   ],
+   "words": 904,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image1.png",
+     "alt": "image1.png",
+     "section": "Запуск и первичная настройка установщика",
+     "before": "nload – загруженная таким образом прошивка будет в дальнейшем использоваться для установки Нажать кнопку Cancel – так установщик будет использовать те файлы, которые были изначально в одном архиве с ним (локальные файлы)",
+     "after": "После откроется основное окно программы: Нажмите на кнопку IP List , чтобы задать диапазон сканирования сети для поиска устройств, которые желаете про"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-8.png",
+     "alt": "image.png",
+     "section": "Запуск и первичная настройка установщика",
+     "before": "а будет в дальнейшем использоваться для установки Нажать кнопку Cancel – так установщик будет использовать те файлы, которые были изначально в одном архиве с ним (локальные файлы) После откроется основное окно программы:",
+     "after": "Нажмите на кнопку IP List , чтобы задать диапазон сканирования сети для поиска устройств, которые желаете прошить. В появившемся окне Info : при нажат"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-10.png",
+     "alt": "image.png",
+     "section": "Запуск и первичная настройка установщика",
+     "before": "в необходимо обращать внимание на то, что IP-адреса в них не должны пересекаться, так как в таком случае программа не даст сохранить новый диапазон Выделите с помощью чекбоксов необходимые диапазоны и нажмите кнопку OK .",
+     "after": "После этого, в основном окне программы нажмите кнопку Scan и дождитесь завершения сканирования сети Установка прошивки BiXBiT на устройства <a class=\""
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-11.png",
+     "alt": "image.png",
+     "section": "Установка прошивки BiXBiT на устройства",
+     "before": "я сканирования сети Установка прошивки BiXBiT на устройства ​ С помощью чекбоксов выберите те устройства, которые желаете прошить В блоке Installation Settings перед прошивкой можно дополнительно указать следующие опции:",
+     "after": "Parallel Installs – укажите количество одновременно прошиваемых устройств (от 1 до 10). Чекбокс Force install on new firmware version позволяет устано"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image8.png",
+     "alt": "image8.png",
+     "section": "Установка прошивки BiXBiT на устройства",
+     "before": "кнопки Firmware Install Options появится поле для ввода AMS key (API-ключ AMS) - если его ввести, то устройства появятся в AMS практически сразу после установки прошивки, дополнительно API-ключ устанавливать не придется.",
+     "after": "Нажмите кнопку Install. При успешной прошивке устройства в поле Progress появится сообщение с содержанием “Done. Code: Success: OK!” или “Done. Code: "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-12.png",
+     "alt": "image.png",
+     "section": "Установка прошивки BiXBiT на устройства",
+     "before": "вать не придется. Нажмите кнопку Install. При успешной прошивке устройства в поле Progress появится сообщение с содержанием “Done. Code: Success: OK!” или “Done. Code: CV: Installed“ . После этого программу можно закрыть",
+     "after": "WARNING Важно: после установки прошивки на устройства с платами CVtek рекомендуется использовать кнопку “CV Monitoring” - это позволит автомати"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/installing_and_updating_bixbit_firmware/",
+   "locale": "en",
+   "title": "Installing and Updating BiXBiT Firmware | Documentation",
+   "description": "Documentation",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/installing_and_updating_bixbit_firmware/",
+   "locale": "ru",
+   "title": "Установка и обновление прошивки BiXBiT | Документация",
+   "description": "Документация",
+   "h1": null,
+   "h2h3": [],
+   "words": 0,
+   "images": []
+  },
+  {
+   "url": "https://docs.bixbit.io/installing_and_updating_bixbit_firmware/whatsminer.html",
+   "locale": "en",
+   "title": "Whatsminer | Documentation",
+   "description": "Documentation",
+   "h1": "Installing and Updating BiXBiT Firmware on Whatsminer Devices",
+   "h2h3": [
+    "If Your Device Has an H3, H6, or H6os Control Board",
+    "If Your Device Has an H616 Control Board",
+    "Installing BiXBiT Firmware Over a Stock Firmware Version",
+    "Updating BiXBiT Firmware Over Version 1.7.X.X and Older",
+    "Updating BiXBiT Firmware Over Version 1.8.0.X"
+   ],
+   "words": 963,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image-127.png",
+     "alt": "image.png",
+     "section": "Installing and Updating BiXBiT Firmware on Whatsminer Devices",
+     "before": "1f0d8> Installing and Updating BiXBiT Firmware on Whatsminer Devices ​ Before choosing a flashing method, check the model of the installed control board. You can do this using WhatsminerTool :",
+     "after": "or view it in the Status -> Overview tab in the ASIC's web interface: If Your Device Has an H3, H6, or H"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-128.png",
+     "alt": "image.png",
+     "section": "Installing and Updating BiXBiT Firmware on Whatsminer Devices",
+     "before": "Whatsminer Devices ​ Before choosing a flashing method, check the model of the installed control board. You can do this using WhatsminerTool : or view it in the Status -> Overview tab in the ASIC's web interface:",
+     "after": "If Your Device Has an H3, H6, or H6os Control Board <a class=\"header-anchor\" href=\"#if-your-device-has-an-h3-h6-or-h6os-control-board\" aria-label=\"Per"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-2.png",
+     "alt": "image.png",
+     "section": "If Your Device Has an H3, H6, or H6os Control Board",
+     "before": "our Device Has an H3, H6, or H6os Control Board ​ Run WhatsMinerTool and set a scan range that includes the IP address of the device for firmware installation. Start the scan and make sure the device appears in the list.",
+     "after": "Step 1: Click [Upgrade] ①. Step 2: Click [Select File] ②. Step 3: In the pop-up window, select the file \"Whatsminer-ALL-Mode"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-3.png",
+     "alt": "image.png",
+     "section": "Stage 1. Installing the Intermediate Firmware Version:",
+     "before": "rTool and set a scan range that includes the IP address of the device for firmware installation. Start the scan and make sure the device appears in the list. Stage 1. Installing the Intermediate Firmware Version: ​",
+     "after": "Step 1: Click [Upgrade] ①. Step 2: Click [Select File] ②. Step 3: In the pop-up window, select the file \"bixbit_before_1.8.bin\" ③ from the archive you"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-5.png",
+     "alt": "image.png",
+     "section": "Stage 1. Installing the Intermediate Firmware Version:",
+     "before": "e installation process completed successfully. The device will then automatically restart. After successfully installing the intermediate file, the firmware version will be displayed with the suffix \"CustomNeedUpgrade\" .",
+     "after": "Stage 2. Installing the Main Firmware Version: <a class=\"header-anchor\" href=\"#stage-2-installing-the-main-firmware-version\" aria-label=\"Permalink to "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-4.png",
+     "alt": "image.png",
+     "section": "Stage 2. Installing the Main Firmware Version:",
+     "before": "y installing the intermediate file, the firmware version will be displayed with the suffix \"CustomNeedUpgrade\" . Stage 2. Installing the Main Firmware Version: ​",
+     "after": "Step 1: Click [Upgrade] ①. Step 2: Click [Select File] ②. Step 3: In the pop-up window, select the file \"Whatsminer-ALL-Mode"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-6.png",
+     "alt": "image.png",
+     "section": "Updating BiXBiT Firmware Over Version 1.8.0.X",
+     "before": ". Updating BiXBiT Firmware Over Version 1.8.0.X ​ Run WhatsMinerTool and set a scan range that includes the IP address of the device for firmware installation. Start the scan and make sure the device appears in the list.",
+     "after": "Step 1: Click [Upgrade] ①. Step 2: Click [Select File] ②. Step 3: In the pop-up window, select the file \"Whatsminer-ALL-Mode"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.bixbit.io/ru/installing_and_updating_bixbit_firmware/whatsminer.html",
+   "locale": "ru",
+   "title": "Whatsminer | Документация",
+   "description": "Документация",
+   "h1": "Установка и обновление прошивки BiXBiT на устройствах Whatsminer",
+   "h2h3": [
+    "Если на Вашем устройстве контрольная плата H3, H6, H6os",
+    "Если на Вашем устройстве контрольная плата H616",
+    "Установка прошивки BiXBiT поверх заводской версии прошивки",
+    "Обновление прошивки BiXBiT поверх версии прошивки BiXBiT 1.7.X.X и старее",
+    "Обновление прошивки BiXBiT поверх версии прошивки BiXBiT 1.8.0.X"
+   ],
+   "words": 778,
+   "images": [
+    {
+     "src": "https://docs.bixbit.io/images/image.png",
+     "alt": "image.png",
+     "section": "Установка и обновление прошивки BiXBiT на устройствах Whatsminer",
+     "before": "х-whatsminer\" tabindex=\"-1\">Установка и обновление прошивки BiXBiT на устройствах Whatsminer ​ Перед выбором способа прошивки проверьте модель установленной контрольной платы. Это можно сделать с помощью WhatsminerTool :",
+     "after": "или посмотреть во вкладке Status -> Overview в веб-интерфейсе ASIC'а: Если на Вашем устройстве контрол"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-1.png",
+     "alt": "image.png",
+     "section": "Установка и обновление прошивки BiXBiT на устройствах Whatsminer",
+     "before": "х Whatsminer ​ Перед выбором способа прошивки проверьте модель установленной контрольной платы. Это можно сделать с помощью WhatsminerTool : или посмотреть во вкладке Status -> Overview в веб-интерфейсе ASIC'а:",
+     "after": "Если на Вашем устройстве контрольная плата H3, H6, H6os <a class=\"header-anchor\" href=\"#если-на-вашем-устроистве-контрольная-плата-h3-h6-h6os\" aria-la"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-2.png",
+     "alt": "image.png",
+     "section": "Если на Вашем устройстве контрольная плата H3, H6, H6os",
+     "before": " контрольная плата H3, H6, H6os ​ Запустите WhatsMinerTool и задайте диапазон сканирования, включающий IP-адрес устройства для установки прошивки. Запустите сканирование и убедитесь, что устройство отображается в списке.",
+     "after": "Шаг 1: Нажмите [Upgrade] ①. Шаг 2: Нажмите [Select File] ②. Шаг 3: Во всплывающем окне выберите файл \"Whatsminer-ALL-Models_"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-3.png",
+     "alt": "image.png",
+     "section": "Этап 1. Установка промежуточной версии прошивки:",
+     "before": "nerTool и задайте диапазон сканирования, включающий IP-адрес устройства для установки прошивки. Запустите сканирование и убедитесь, что устройство отображается в списке. Этап 1. Установка промежуточной версии прошивки: ​",
+     "after": "Шаг 1: Нажмите [Upgrade] ①. Шаг 2: Нажмите [Select File] ②. Шаг 3: Во всплывающем окне выберите файл “bixbit_before_1.8.bin” ③ из скачанного и разархи"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-5.png",
+     "alt": "image.png",
+     "section": "Этап 1. Установка промежуточной версии прошивки:",
+     "before": "а свидетельствует об успешном завершении процесса установки. Далее устройство автоматически перезапустится. После успешной установки промежуточного файла версия прошивки будет отображаться с припиской “CustomNeedUpgrade”",
+     "after": "Этап 2. Установка основной версии прошивки: <a class=\"header-anchor\" href=\"#этап-2-установка-основнои-версии-прошивки\" aria-label=\"Permalink to “Этап "
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-4.png",
+     "alt": "image.png",
+     "section": "Этап 2. Установка основной версии прошивки:",
+     "before": "ески перезапустится. После успешной установки промежуточного файла версия прошивки будет отображаться с припиской “CustomNeedUpgrade” Этап 2. Установка основной версии прошивки: ​",
+     "after": "Шаг 1: Нажмите [Upgrade] ①. Шаг 2: Нажмите [Select File] ②. Шаг 3: Во всплывающем окне выберите файл \"Whatsminer-ALL-Models_"
+    },
+    {
+     "src": "https://docs.bixbit.io/images/image-6.png",
+     "alt": "image.png",
+     "section": "Обновление прошивки BiXBiT поверх версии прошивки BiXBiT 1.8.0.X",
+     "before": " версии прошивки BiXBiT 1.8.0.X ​ Запустите WhatsMinerTool и задайте диапазон сканирования, включающий IP-адрес устройства для установки прошивки. Запустите сканирование и убедитесь, что устройство отображается в списке.",
+     "after": "Шаг 1: Нажмите [Upgrade] ①. Шаг 2: Нажмите [Select File] ②. Шаг 3: Во всплывающем окне выберите файл \"Whatsminer-ALL-Models_"
+    }
+   ]
+  }
+ ],
+ "images": {
+  "https://docs.bixbit.io/images/image-74.png": {
+   "file": "image-74.png",
+   "md5": "c7293d8c8d78c6367d0a9d2f425377d3",
+   "bytes": 65960,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-74.png"
+  },
+  "https://docs.bixbit.io/images/image-37.png": {
+   "file": "image-37.png",
+   "md5": "08851d17fda74d15a35b0bcc9802275b",
+   "bytes": 13253,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-37.png"
+  },
+  "https://docs.bixbit.io/images/image-38.png": {
+   "file": "image-38.png",
+   "md5": "fd5eecfddd132d3b531dccf231048516",
+   "bytes": 93939,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-38.png"
+  },
+  "https://docs.bixbit.io/images/image-76.png": {
+   "file": "image-76.png",
+   "md5": "eaa89e38db45f6b31f2f49b650406eb2",
+   "bytes": 222292,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-76.png"
+  },
+  "https://docs.bixbit.io/images/image-75.png": {
+   "file": "image-75.png",
+   "md5": "f7cf43862b9aa5ebefb3615402657cca",
+   "bytes": 493514,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-75.png"
+  },
+  "https://docs.bixbit.io/images/image-77.png": {
+   "file": "image-77.png",
+   "md5": "dc3dacb05ea8c825b4d193563900d9f6",
+   "bytes": 550618,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-77.png"
+  },
+  "https://docs.bixbit.io/images/image-79.png": {
+   "file": "image-79.png",
+   "md5": "487394609babb58b034d2aba5835e375",
+   "bytes": 388802,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-79.png"
+  },
+  "https://docs.bixbit.io/images/image-80.png": {
+   "file": "image-80.png",
+   "md5": "5e5680083996199f855fa18d86f33732",
+   "bytes": 62573,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-80.png"
+  },
+  "https://docs.bixbit.io/images/image-39.png": {
+   "file": "image-39.png",
+   "md5": "98c6b51616cd7e60f7f40385bade4fff",
+   "bytes": 160769,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-39.png"
+  },
+  "https://docs.bixbit.io/images/image-40.png": {
+   "file": "image-40.png",
+   "md5": "c111abe2484bd6894f6974e084747802",
+   "bytes": 123508,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-40.png"
+  },
+  "https://docs.bixbit.io/images/image-41.png": {
+   "file": "image-41.png",
+   "md5": "ee103d8ba96882765e0d4324dfd5a755",
+   "bytes": 135847,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-41.png"
+  },
+  "https://docs.bixbit.io/images/image-42.png": {
+   "file": "image-42.png",
+   "md5": "db4043ea085357a742cfb0190cbc0326",
+   "bytes": 150797,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-42.png"
+  },
+  "https://docs.bixbit.io/images/image-43.png": {
+   "file": "image-43.png",
+   "md5": "da8168092ba5f363470898aa5b7ccec5",
+   "bytes": 434704,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-43.png"
+  },
+  "https://docs.bixbit.io/images/image-44.png": {
+   "file": "image-44.png",
+   "md5": "d7d08882cbae3d4b4d5e756d86b600bd",
+   "bytes": 213316,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-44.png"
+  },
+  "https://docs.bixbit.io/images/image-45.png": {
+   "file": "image-45.png",
+   "md5": "5b8602f19be64d28051eda036bf070b4",
+   "bytes": 75709,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-45.png"
+  },
+  "https://docs.bixbit.io/images/image-46.png": {
+   "file": "image-46.png",
+   "md5": "c7055f9a235116759f0f195f21155c12",
+   "bytes": 173322,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-46.png"
+  },
+  "https://docs.bixbit.io/images/image-47.png": {
+   "file": "image-47.png",
+   "md5": "51af27c53e4f22421207bf349b9c8286",
+   "bytes": 168324,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-47.png"
+  },
+  "https://docs.bixbit.io/images/image-50.png": {
+   "file": "image-50.png",
+   "md5": "5c95d66043b3d633c0757b62ab2592e4",
+   "bytes": 19211,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-50.png"
+  },
+  "https://docs.bixbit.io/images/image-52.png": {
+   "file": "image-52.png",
+   "md5": "1ed21b67cc47d31f42466164074bea66",
+   "bytes": 9569,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-52.png"
+  },
+  "https://docs.bixbit.io/images/image-53.png": {
+   "file": "image-53.png",
+   "md5": "133b1941471a062e6ac1ca7b2f002059",
+   "bytes": 9321,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-53.png"
+  },
+  "https://docs.bixbit.io/images/image-109.png": {
+   "file": "image-109.png",
+   "md5": "cfc6e50a6d748660b2b25ac27231c582",
+   "bytes": 359367,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-109.png"
+  },
+  "https://docs.bixbit.io/images/image-110.png": {
+   "file": "image-110.png",
+   "md5": "b155df3c6babd8e637764b5835b2edab",
+   "bytes": 188853,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-110.png"
+  },
+  "https://docs.bixbit.io/images/image-111.png": {
+   "file": "image-111.png",
+   "md5": "ceaee34ff53cf5bac07c19ac46b2817e",
+   "bytes": 188833,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-111.png"
+  },
+  "https://docs.bixbit.io/images/image-112.png": {
+   "file": "image-112.png",
+   "md5": "952079330ee5a63c6ff7a262107db1b0",
+   "bytes": 195012,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-112.png"
+  },
+  "https://docs.bixbit.io/images/image-113.png": {
+   "file": "image-113.png",
+   "md5": "b5bde5846e6d7f534360a6c7647c37f1",
+   "bytes": 196156,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-113.png"
+  },
+  "https://docs.bixbit.io/images/image-102.png": {
+   "file": "image-102.png",
+   "md5": "d2e9b1487e3c30e3c2f64cb58edceaaf",
+   "bytes": 374914,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-102.png"
+  },
+  "https://docs.bixbit.io/images/image-103.png": {
+   "file": "image-103.png",
+   "md5": "b155df3c6babd8e637764b5835b2edab",
+   "bytes": 188853,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-103.png"
+  },
+  "https://docs.bixbit.io/images/image-104.png": {
+   "file": "image-104.png",
+   "md5": "ceaee34ff53cf5bac07c19ac46b2817e",
+   "bytes": 188833,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-104.png"
+  },
+  "https://docs.bixbit.io/images/image-105.png": {
+   "file": "image-105.png",
+   "md5": "952079330ee5a63c6ff7a262107db1b0",
+   "bytes": 195012,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-105.png"
+  },
+  "https://docs.bixbit.io/images/image-106.png": {
+   "file": "image-106.png",
+   "md5": "b5bde5846e6d7f534360a6c7647c37f1",
+   "bytes": 196156,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-106.png"
+  },
+  "https://docs.bixbit.io/images/image-107.png": {
+   "file": "image-107.png",
+   "md5": "b3e8b332fed15d2a327f4abba59fd3d9",
+   "bytes": 202381,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-107.png"
+  },
+  "https://docs.bixbit.io/images/image-108.png": {
+   "file": "image-108.png",
+   "md5": "9b8da75cfaabd2eeea5b1059d4e0058c",
+   "bytes": 320470,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-108.png"
+  },
+  "https://docs.bixbit.io/images/image-114.png": {
+   "file": "image-114.png",
+   "md5": "7f4d2eb81212708494a1d18c9ed367d2",
+   "bytes": 3026641,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-114.png"
+  },
+  "https://docs.bixbit.io/images/image-115.png": {
+   "file": "image-115.png",
+   "md5": "0a336c1009b3bc84a939455bc39b50d3",
+   "bytes": 1281948,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-115.png"
+  },
+  "https://docs.bixbit.io/images/image-116.png": {
+   "file": "image-116.png",
+   "md5": "9a6964217c50e74236afe0296269f066",
+   "bytes": 269433,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-116.png"
+  },
+  "https://docs.bixbit.io/images/image-117.png": {
+   "file": "image-117.png",
+   "md5": "c9bc87c1e61b04c1dcbd710a4c6fc218",
+   "bytes": 294707,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-117.png"
+  },
+  "https://docs.bixbit.io/images/image-118.png": {
+   "file": "image-118.png",
+   "md5": "8e6e92d7c95d07f7d6c68a6ace7d4353",
+   "bytes": 52205,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-118.png"
+  },
+  "https://docs.bixbit.io/images/image-119.png": {
+   "file": "image-119.png",
+   "md5": "f3cb1b91fde7ca3368b63826f0d94664",
+   "bytes": 265154,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-119.png"
+  },
+  "https://docs.bixbit.io/images/image-120.png": {
+   "file": "image-120.png",
+   "md5": "62de4943eefb6829e7f906ad1cc24946",
+   "bytes": 290201,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-120.png"
+  },
+  "https://docs.bixbit.io/images/image-121.png": {
+   "file": "image-121.png",
+   "md5": "3c9b781bedb72f3bdb9968338064362f",
+   "bytes": 156086,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-121.png"
+  },
+  "https://docs.bixbit.io/images/image-122.png": {
+   "file": "image-122.png",
+   "md5": "c0e40416eef671192903fa4e6f3a5b3f",
+   "bytes": 81356,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-122.png"
+  },
+  "https://docs.bixbit.io/images/image-123.png": {
+   "file": "image-123.png",
+   "md5": "761f83e36871b6c77cfb73b266b3ddd3",
+   "bytes": 85477,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-123.png"
+  },
+  "https://docs.bixbit.io/images/image-124.png": {
+   "file": "image-124.png",
+   "md5": "cc3dc724789b3984726751f232e1635e",
+   "bytes": 95916,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-124.png"
+  },
+  "https://docs.bixbit.io/images/image-125.png": {
+   "file": "image-125.png",
+   "md5": "b285db6899b15529adb07489ac1f5a2a",
+   "bytes": 171159,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-125.png"
+  },
+  "https://docs.bixbit.io/images/image-126.png": {
+   "file": "image-126.png",
+   "md5": "1a3836a8c3fa6edfd8a96196239f791c",
+   "bytes": 356542,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-126.png"
+  },
+  "https://docs.bixbit.io/images/image-94.png": {
+   "file": "image-94.png",
+   "md5": "7f4d2eb81212708494a1d18c9ed367d2",
+   "bytes": 3026641,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-94.png"
+  },
+  "https://docs.bixbit.io/images/image-82.png": {
+   "file": "image-82.png",
+   "md5": "15a81767da2705f59e6c31de0db732b8",
+   "bytes": 2136531,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-82.png"
+  },
+  "https://docs.bixbit.io/images/image-83.png": {
+   "file": "image-83.png",
+   "md5": "fd975340fe2251c134eb5070c53ab45a",
+   "bytes": 605028,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-83.png"
+  },
+  "https://docs.bixbit.io/images/image-95.png": {
+   "file": "image-95.png",
+   "md5": "6db369125091e9b4c8138018922874f2",
+   "bytes": 660555,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-95.png"
+  },
+  "https://docs.bixbit.io/images/image-97.png": {
+   "file": "image-97.png",
+   "md5": "46f9e11adbac06c103f743ed5f8719b3",
+   "bytes": 99072,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-97.png"
+  },
+  "https://docs.bixbit.io/images/image-96.png": {
+   "file": "image-96.png",
+   "md5": "2f420fef4bc1f5b46cce62218cc44328",
+   "bytes": 223469,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-96.png"
+  },
+  "https://docs.bixbit.io/images/image-98.png": {
+   "file": "image-98.png",
+   "md5": "d2c64d4a98d0f79a011c8c1b9568d795",
+   "bytes": 112046,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-98.png"
+  },
+  "https://docs.bixbit.io/images/image-100.png": {
+   "file": "image-100.png",
+   "md5": "9934b6f9f0ad1d729a80b419d3800e48",
+   "bytes": 252926,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-100.png"
+  },
+  "https://docs.bixbit.io/images/image-89.png": {
+   "file": "image-89.png",
+   "md5": "3b5d0b9bd7c82d9258585de154d20b18",
+   "bytes": 153416,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-89.png"
+  },
+  "https://docs.bixbit.io/images/image-90.png": {
+   "file": "image-90.png",
+   "md5": "aca333a52d1c84f7040fa415c382606f",
+   "bytes": 159065,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-90.png"
+  },
+  "https://docs.bixbit.io/images/image-101.png": {
+   "file": "image-101.png",
+   "md5": "9d5d59b3009d99b5caabf56557b91838",
+   "bytes": 183079,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-101.png"
+  },
+  "https://docs.bixbit.io/images/image-92.png": {
+   "file": "image-92.png",
+   "md5": "4c9aa9fed6578300c07c79ea245bfbac",
+   "bytes": 282734,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-92.png"
+  },
+  "https://docs.bixbit.io/images/image-93.png": {
+   "file": "image-93.png",
+   "md5": "19aa1f88ae65ff7c037e2307e53ed98d",
+   "bytes": 248882,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-93.png"
+  },
+  "https://docs.bixbit.io/images/image-71.png": {
+   "file": "image-71.png",
+   "md5": "218d9da7f4a5572923a5bc395cc46106",
+   "bytes": 27641,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-71.png"
+  },
+  "https://docs.bixbit.io/images/image-72.png": {
+   "file": "image-72.png",
+   "md5": "14814fea3fd669e5c68b4c9626c97e54",
+   "bytes": 30358,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-72.png"
+  },
+  "https://docs.bixbit.io/images/image-73.png": {
+   "file": "image-73.png",
+   "md5": "387b49dca4edd9bada65722c890fe6d9",
+   "bytes": 15410,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-73.png"
+  },
+  "https://docs.bixbit.io/images/image-66.png": {
+   "file": "image-66.png",
+   "md5": "f2e1ba8c1cd565e0aac392f1e857b085",
+   "bytes": 108495,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-66.png"
+  },
+  "https://docs.bixbit.io/images/image-67.png": {
+   "file": "image-67.png",
+   "md5": "937e4cb09367eae72c890431754e79fa",
+   "bytes": 28222,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-67.png"
+  },
+  "https://docs.bixbit.io/images/image-69.png": {
+   "file": "image-69.png",
+   "md5": "beb25f499a2530518ec4f897c001f16a",
+   "bytes": 32574,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-69.png"
+  },
+  "https://docs.bixbit.io/images/image-70.png": {
+   "file": "image-70.png",
+   "md5": "1c3f0791f75fc28afb77974fe0118a51",
+   "bytes": 14817,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-70.png"
+  },
+  "https://docs.bixbit.io/images/image-13.png": {
+   "file": "image-13.png",
+   "md5": "06872586e1f616428a342ef5fad7e2e5",
+   "bytes": 276379,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-13.png"
+  },
+  "https://docs.bixbit.io/images/image-14.png": {
+   "file": "image-14.png",
+   "md5": "accb59f0f7ca50c5a3793ea57f0c073d",
+   "bytes": 158478,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-14.png"
+  },
+  "https://docs.bixbit.io/images/image-15.png": {
+   "file": "image-15.png",
+   "md5": "39b23114d55b4977f4035b5dbd53726a",
+   "bytes": 111003,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-15.png"
+  },
+  "https://docs.bixbit.io/images/image-16.png": {
+   "file": "image-16.png",
+   "md5": "432b585a5439cd3d378c8eeb9606cf73",
+   "bytes": 380989,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-16.png"
+  },
+  "https://docs.bixbit.io/images/image-17.png": {
+   "file": "image-17.png",
+   "md5": "38bd8f37c01f54441d33eaa97218e46f",
+   "bytes": 96348,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-17.png"
+  },
+  "https://docs.bixbit.io/images/image-18.png": {
+   "file": "image-18.png",
+   "md5": "1af5019e9743a8496df2c2f7426cd6cc",
+   "bytes": 306763,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-18.png"
+  },
+  "https://docs.bixbit.io/images/image-19.png": {
+   "file": "image-19.png",
+   "md5": "e11cd6181879784b55cb116246afa876",
+   "bytes": 35930,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-19.png"
+  },
+  "https://docs.bixbit.io/images/image-20.png": {
+   "file": "image-20.png",
+   "md5": "392f013e77e2663b20039621401a6022",
+   "bytes": 16303,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-20.png"
+  },
+  "https://docs.bixbit.io/images/image-21.png": {
+   "file": "image-21.png",
+   "md5": "571fbadf380e07bb2c6451796eabee10",
+   "bytes": 676266,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-21.png"
+  },
+  "https://docs.bixbit.io/images/ip-reporter-1.png": {
+   "file": "ip-reporter-1.png",
+   "md5": "43e0fa4ebd6870da0ebab5dea11a1f3d",
+   "bytes": 14818,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/ip-reporter-1.png"
+  },
+  "https://docs.bixbit.io/images/image-23.png": {
+   "file": "image-23.png",
+   "md5": "389def8f12ed4a08680221a71a1bc00c",
+   "bytes": 294125,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-23.png"
+  },
+  "https://docs.bixbit.io/images/image-24.png": {
+   "file": "image-24.png",
+   "md5": "b8423fd0b10c0f29aa38aba5f94b9dcc",
+   "bytes": 424868,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-24.png"
+  },
+  "https://docs.bixbit.io/images/image-25.png": {
+   "file": "image-25.png",
+   "md5": "a93b4747d7d084e07ab0fa088e44d62b",
+   "bytes": 239684,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-25.png"
+  },
+  "https://docs.bixbit.io/images/image-26.png": {
+   "file": "image-26.png",
+   "md5": "5cd48feef22bfd1c079249030c0adab9",
+   "bytes": 22663,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-26.png"
+  },
+  "https://docs.bixbit.io/images/image-28.png": {
+   "file": "image-28.png",
+   "md5": "88310494586c241e13b0a70b132c8e86",
+   "bytes": 136579,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-28.png"
+  },
+  "https://docs.bixbit.io/images/image-29.png": {
+   "file": "image-29.png",
+   "md5": "35f7d099abccbb6b9ba95dd8d883c693",
+   "bytes": 305616,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-29.png"
+  },
+  "https://docs.bixbit.io/images/image-30.png": {
+   "file": "image-30.png",
+   "md5": "2fae46a8505098a0497b7384d9d18f36",
+   "bytes": 28362,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-30.png"
+  },
+  "https://docs.bixbit.io/images/ip-reporter.png": {
+   "file": "ip-reporter.png",
+   "md5": "43e0fa4ebd6870da0ebab5dea11a1f3d",
+   "bytes": 14818,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/ip-reporter.png"
+  },
+  "https://docs.bixbit.io/images/logo.svg": {
+   "file": "logo.svg",
+   "md5": "40722cf493885eedf3fd136759b35bab",
+   "bytes": 3134,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/logo.svg"
+  },
+  "https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif": {
+   "file": "giphy.gif",
+   "error": "HTTP Error 404: Not Found",
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/giphy.gif"
+  },
+  "https://docs.bixbit.io/images/image-34.png": {
+   "file": "image-34.png",
+   "md5": "8931f8a64bf4d50be013e26a68a86096",
+   "bytes": 878065,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-34.png"
+  },
+  "https://docs.bixbit.io/images/image-33.png": {
+   "file": "image-33.png",
+   "md5": "76f7a5a98dc1c4e01f1c42d631833e3e",
+   "bytes": 141855,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-33.png"
+  },
+  "https://docs.bixbit.io/images/ip-settings.png": {
+   "file": "ip-settings.png",
+   "md5": "0859a95af3366989252d3d88884b88fe",
+   "bytes": 40422,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/ip-settings.png"
+  },
+  "https://docs.bixbit.io/images/image-35.png": {
+   "file": "image-35.png",
+   "md5": "19963b0ef7d3d9023746e655bcff4ef2",
+   "bytes": 141050,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-35.png"
+  },
+  "https://docs.bixbit.io/images/image-36.png": {
+   "file": "image-36.png",
+   "md5": "2fae46a8505098a0497b7384d9d18f36",
+   "bytes": 28362,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-36.png"
+  },
+  "https://docs.bixbit.io/images/setting-autotune-marked.png": {
+   "file": "setting-autotune-marked.png",
+   "md5": "a7858e0f0d0633d711e1913984d8bc0f",
+   "bytes": 69601,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/setting-autotune-marked.png"
+  },
+  "https://docs.bixbit.io/images/setting-profile-switcher-marked.png": {
+   "file": "setting-profile-switcher-marked.png",
+   "md5": "8e8f92bb84ae14166a73767a80c1a2d3",
+   "bytes": 50723,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/setting-profile-switcher-marked.png"
+  },
+  "https://docs.bixbit.io/images/setting-proxy-marked.png": {
+   "file": "setting-proxy-marked.png",
+   "md5": "fba27770b701dbf389e1029da3ea0e55",
+   "bytes": 34890,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/setting-proxy-marked.png"
+  },
+  "https://docs.bixbit.io/images/setting-hotelfee-marked.png": {
+   "file": "setting-hotelfee-marked.png",
+   "md5": "99fe8a50577f4cfbb76c4fa6ceb4a1ff",
+   "bytes": 37624,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/setting-hotelfee-marked.png"
+  },
+  "https://docs.bixbit.io/images/fda74569-4e91-440d-b193-8303e932648a.png": {
+   "file": "fda74569-4e91-440d-b193-8303e932648a.png",
+   "md5": "ce2c6138695ff0b565df23da2fcd60dc",
+   "bytes": 21653,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/fda74569-4e91-440d-b193-8303e932648a.png"
+  },
+  "https://docs.bixbit.io/images/7612826c-c6c6-429b-9a32-0b25f224eeba.png": {
+   "file": "7612826c-c6c6-429b-9a32-0b25f224eeba.png",
+   "md5": "b4247a174645ed680d9414e093da59aa",
+   "bytes": 31179,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/7612826c-c6c6-429b-9a32-0b25f224eeba.png"
+  },
+  "https://docs.bixbit.io/images/image-57.png": {
+   "file": "image-57.png",
+   "md5": "88bde624437f9f92c61decc3001ae081",
+   "bytes": 36384,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-57.png"
+  },
+  "https://docs.bixbit.io/images/image-58.png": {
+   "file": "image-58.png",
+   "md5": "be555810ea79ffe65b5cf321f5a7dd15",
+   "bytes": 42616,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-58.png"
+  },
+  "https://docs.bixbit.io/images/image-59.png": {
+   "file": "image-59.png",
+   "md5": "133884ea46d5379f15383869852620f2",
+   "bytes": 24671,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-59.png"
+  },
+  "https://docs.bixbit.io/images/image-61.png": {
+   "file": "image-61.png",
+   "md5": "2d76c2776e6c7beb471b938045b3e9af",
+   "bytes": 183781,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-61.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-124016.png": {
+   "file": "skrinshot-sdelannyj-2026-08-12-v-124016.png",
+   "md5": "dc7e3d5a3d690041915b170331f767a3",
+   "bytes": 13181,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-12-v-124016.png"
+  },
+  "https://docs.bixbit.io/images/image-62.png": {
+   "file": "image-62.png",
+   "md5": "5f3b5c12c0b7da5dcfee04e52a66fefb",
+   "bytes": 58544,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-62.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-130037.png": {
+   "file": "skrinshot-sdelannyj-2026-08-12-v-130037.png",
+   "md5": "a7bc994071d84c28072091aa3e88750d",
+   "bytes": 26597,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-12-v-130037.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-132845.png": {
+   "file": "skrinshot-sdelannyj-2026-08-12-v-132845.png",
+   "md5": "fdd879dff057868aa08c1d7fb5d50c58",
+   "bytes": 14597,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-12-v-132845.png"
+  },
+  "https://docs.bixbit.io/images/image-65.png": {
+   "file": "image-65.png",
+   "md5": "b5e95196ce602f0faf53324f006012e0",
+   "bytes": 86427,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-65.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-12-v-133852.png": {
+   "file": "skrinshot-sdelannyj-2026-08-12-v-133852.png",
+   "md5": "7ec817728170d6deb37467e8dced291b",
+   "bytes": 13367,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-12-v-133852.png"
+  },
+  "https://docs.bixbit.io/images/image-54.png": {
+   "file": "image-54.png",
+   "md5": "82bf6dc3cebf0dd072f88491f3f3cc7d",
+   "bytes": 8448,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-54.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151135.png": {
+   "file": "skrinshot-sdelannyj-2026-08-10-v-151135.png",
+   "md5": "94f3f19c8da8cfbe3246a0ab998d87ce",
+   "bytes": 7370,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-10-v-151135.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151227.png": {
+   "file": "skrinshot-sdelannyj-2026-08-10-v-151227.png",
+   "md5": "075a4a51153894ad325f50150cb312f4",
+   "bytes": 9769,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-10-v-151227.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151407.png": {
+   "file": "skrinshot-sdelannyj-2026-08-10-v-151407.png",
+   "md5": "8cd1edde8158a3dc2e6cbdfe72dc9c96",
+   "bytes": 7717,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-10-v-151407.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-151454.png": {
+   "file": "skrinshot-sdelannyj-2026-08-10-v-151454.png",
+   "md5": "28405008ff643b09553eccfd7a3f5f8f",
+   "bytes": 9254,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-10-v-151454.png"
+  },
+  "https://docs.bixbit.io/images/image-56.png": {
+   "file": "image-56.png",
+   "md5": "b430e2e9ded493975fadfff3a897b190",
+   "bytes": 18223,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-56.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-152120.png": {
+   "file": "skrinshot-sdelannyj-2026-08-10-v-152120.png",
+   "md5": "bf3ce6e539532ce7ca7a7a71667d5338",
+   "bytes": 9587,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-10-v-152120.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-153254.png": {
+   "file": "skrinshot-sdelannyj-2026-08-10-v-153254.png",
+   "md5": "d32c298bb3f5cb9e98282427d674a3f4",
+   "bytes": 14700,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-10-v-153254.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-153313.png": {
+   "file": "skrinshot-sdelannyj-2026-08-10-v-153313.png",
+   "md5": "be552b5552f0fc89d3c474628e050012",
+   "bytes": 6636,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-10-v-153313.png"
+  },
+  "https://docs.bixbit.io/images/skrinshot-sdelannyj-2026-08-10-v-153341.png": {
+   "file": "skrinshot-sdelannyj-2026-08-10-v-153341.png",
+   "md5": "2edd267289f16b640126e20eefee901c",
+   "bytes": 13360,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/skrinshot-sdelannyj-2026-08-10-v-153341.png"
+  },
+  "https://docs.bixbit.io/images/image1.png": {
+   "file": "image1.png",
+   "md5": "8ae3ac1149b2590bc99200dbf5f0ac64",
+   "bytes": 11044,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image1.png"
+  },
+  "https://docs.bixbit.io/images/image-8.png": {
+   "file": "image-8.png",
+   "md5": "fc2727c03dde9f4613fcc0bba30ba6ab",
+   "bytes": 31197,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-8.png"
+  },
+  "https://docs.bixbit.io/images/image-10.png": {
+   "file": "image-10.png",
+   "md5": "ae6f31bf1e3f3759727587bbfb8a4b72",
+   "bytes": 24592,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-10.png"
+  },
+  "https://docs.bixbit.io/images/image-11.png": {
+   "file": "image-11.png",
+   "md5": "f1ea1a1ca06cf693fe8eddcb29741bf9",
+   "bytes": 4898,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-11.png"
+  },
+  "https://docs.bixbit.io/images/image8.png": {
+   "file": "image8.png",
+   "md5": "0e966c66b6b129b1ab1dd6dab5db2612",
+   "bytes": 6322,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image8.png"
+  },
+  "https://docs.bixbit.io/images/image-12.png": {
+   "file": "image-12.png",
+   "md5": "56afa3a0dba12ee80406bfcb09da76a2",
+   "bytes": 18222,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-12.png"
+  },
+  "https://docs.bixbit.io/images/image-127.png": {
+   "file": "image-127.png",
+   "md5": "155ad84c9c14dc6bfa15a9b7af523578",
+   "bytes": 185547,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-127.png"
+  },
+  "https://docs.bixbit.io/images/image-128.png": {
+   "file": "image-128.png",
+   "md5": "e7f4a1c6d2622c11ade2eb7451fe3d68",
+   "bytes": 286768,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-128.png"
+  },
+  "https://docs.bixbit.io/images/image-2.png": {
+   "file": "image-2.png",
+   "md5": "98e2f277bf5c9d7499034cffc66a2932",
+   "bytes": 1114326,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-2.png"
+  },
+  "https://docs.bixbit.io/images/image-3.png": {
+   "file": "image-3.png",
+   "md5": "a8cd61454389c85fe791ea9e80b0736c",
+   "bytes": 1126524,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-3.png"
+  },
+  "https://docs.bixbit.io/images/image-5.png": {
+   "file": "image-5.png",
+   "md5": "62c9598e7492facf91fd6fab1ccc7953",
+   "bytes": 43014,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-5.png"
+  },
+  "https://docs.bixbit.io/images/image-4.png": {
+   "file": "image-4.png",
+   "md5": "98e2f277bf5c9d7499034cffc66a2932",
+   "bytes": 1114326,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-4.png"
+  },
+  "https://docs.bixbit.io/images/image-6.png": {
+   "file": "image-6.png",
+   "md5": "98e2f277bf5c9d7499034cffc66a2932",
+   "bytes": 1114326,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-6.png"
+  },
+  "https://docs.bixbit.io/images/image.png": {
+   "file": "image.png",
+   "md5": "e18945da4af3864e0de731ce4ee0cd78",
+   "bytes": 318608,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image.png"
+  },
+  "https://docs.bixbit.io/images/image-1.png": {
+   "file": "image-1.png",
+   "md5": "c3971836fd30fa143e5b6bc111fdc7fa",
+   "bytes": 424263,
+   "local": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img/image-1.png"
+  }
+ },
+ "images_local_dir": "/private/tmp/claude-501/-Users-dmitrytchirkov-bixbit-seo/0141f7d7-9172-4797-af82-10f6bc628555/scratchpad/docs-img"
+}

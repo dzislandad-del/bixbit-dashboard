@@ -2,22 +2,25 @@
 **Slug:** `/en/ams` (update existing product page) or `/en/monitoring`
 **Cluster:** mining-fleet-monitoring
 **Type:** Hub / Pillar
-**Priority:** P0
+**Priority:** P0 (was P0; recalculated 2026-09-25 from DataForSEO US data) — Keep. asic monitor 70/mo, KD 0, BiXBiT #7 (/en/ams) — the biggest monitoring keyword. mining software 260/mo, CPC $39.51, KD 30, is broad but commercial; test it as a secondary keyword. mining monitoring software 10, KD 38.
+**Target (architecture v2, 2026-09-25):** `/en/ams` (existing page), Main page content (pillar), section priority P0. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| mining fleet monitoring software | Primary | [VOL: N/A — DataForSEO 401] |
-| ASIC fleet management software | Primary secondary | [VOL: N/A] |
-| bitcoin miner monitoring software | Secondary | [VOL: N/A] |
-| mining farm management software | Secondary | [VOL: N/A] |
-| mining monitoring software | Secondary | [VOL: N/A] |
-| ASIC monitoring dashboard | Tertiary | [VOL: N/A] |
-| bitcoin mining fleet management | Tertiary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| mining fleet monitoring software | Primary | n/d (<10) | — | — |
+| ASIC fleet management software | Primary secondary | n/d (<10) | — | — |
+| bitcoin miner monitoring software | Secondary | n/d (<10) | — | — |
+| mining farm management software | Secondary | 10 | — | — |
+| mining monitoring software | Secondary | 10 | 38 | — |
+| ASIC monitoring dashboard | Tertiary | n/d (<10) | — | — |
+| bitcoin mining fleet management | Tertiary | n/d (<10) | — | — |
 
 ---
 

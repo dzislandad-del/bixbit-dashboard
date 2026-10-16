@@ -1,0 +1,1133 @@
+{
+  "date": "2026-09-25",
+  "endpoint": "/v3/serp/google/organic/live/advanced",
+  "params": {
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 20,
+    "load_async_ai_overview": true,
+    "people_also_ask_click_depth": 1,
+    "note": "expand_ai_overview is not a documented request param; omitted"
+  },
+  "total_cost_usd": 0.07335,
+  "results": [
+    {
+      "q": 1,
+      "keyword": "best antminer firmware",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.00615,
+      "failed_attempts": [],
+      "pages_count": 2,
+      "aio_present": true,
+      "aio_text_file": "aio-q1.aio-text.md",
+      "aio_text_chars": 2142,
+      "aio_references": [
+        {
+          "domain": "d-central.tech",
+          "url": "https://d-central.tech/the-benefits-of-updating-your-antminer-firmware/",
+          "title": "The Complete Guide to Updating Your Antminer Firmware in ..."
+        },
+        {
+          "domain": "mineshop.eu",
+          "url": "https://mineshop.eu/blog/asic-miner/how-to-update-antminer-firmware-step-by-step-guide-for-l9-s21-models",
+          "title": "How to Update Antminer Firmware 2025 â€“ S21, L9, T19 Guide"
+        },
+        {
+          "domain": "www.nicehash.com",
+          "url": "https://www.nicehash.com/firmware",
+          "title": "NiceHash Custom ASIC Firmware"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=31OVGKyKrmQ&t=9",
+          "title": "Braiins OS can make the Antminer S9 more efficient"
+        },
+        {
+          "domain": "www.nicehash.com",
+          "url": "https://www.nicehash.com/blog/post/nicehash-firmware-antminer-l9-and-l7-now-supported",
+          "title": "NiceHash Firmware"
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/BitcoinMining/comments/1oehxq4/what_firmware_are_you_running_on_your_antminer/",
+          "title": "What firmware are you running on your Antminer ... - Reddit"
+        }
+      ],
+      "aio_ref_domains": [
+        "d-central.tech",
+        "mineshop.eu",
+        "www.nicehash.com",
+        "www.reddit.com",
+        "www.youtube.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": null,
+      "epic_refs": [],
+      "bixbit_refs": [],
+      "other_brands_in_text": [
+        "Braiins",
+        "VNish",
+        "LuxOS/Luxor",
+        "NiceHash",
+        "Bitmain"
+      ],
+      "organic": {
+        "bixbit.io": [
+          {
+            "rank_absolute": 13,
+            "rank_group": 9,
+            "url": "https://bixbit.io/en/firmwares/antminer"
+          }
+        ],
+        "epicblockchain.io": []
+      },
+      "paa_questions": 6,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": 2,
+      "keyword": "custom firmware whatsminer",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.006,
+      "failed_attempts": [],
+      "pages_count": 2,
+      "aio_present": true,
+      "aio_text_file": "aio-q2.aio-text.md",
+      "aio_text_chars": 2824,
+      "aio_references": [
+        {
+          "domain": "bixbit.io",
+          "url": "https://bixbit.io/en/firmwares",
+          "title": "BiXBiT Custom ASIC Mining Firmware"
+        },
+        {
+          "domain": "bixbit.io",
+          "url": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+          "title": "BiXBiT firmware for ASIC Whatsminer M6x series"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=PWQBLhRSgeA&t=9",
+          "title": "How to Flash WhatsMiner M30S+ ASIC Firmware for Immersion ..."
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=4X2OzROz8-A&t=49",
+          "title": "Installing the Updated Firmware Version for Whatsminer"
+        },
+        {
+          "domain": "www.nicehash.com",
+          "url": "https://www.nicehash.com/blog/post/how-to-upgrade-whatsminer-firmware",
+          "title": "How to upgrade WhatsMiner firmware?"
+        },
+        {
+          "domain": "blockspace.media",
+          "url": "https://blockspace.media/insight/luxor-announces-firmware-compatibility-for-microbt-mining-hardware/",
+          "title": "Luxor Launches First Third Party Firmware for MicroBT's Whatsminer ..."
+        },
+        {
+          "domain": "bixbit.io",
+          "url": "https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware",
+          "title": "How to install the updated Whatsminer firmware"
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/BitcoinMining/comments/vt49j6/whatsminer_custom_firmware_vaporware/",
+          "title": "whatsminer custom firmware.... vaporware? : r/BitcoinMining"
+        }
+      ],
+      "aio_ref_domains": [
+        "bixbit.io",
+        "blockspace.media",
+        "www.nicehash.com",
+        "www.reddit.com",
+        "www.youtube.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": "compared to Bitmain AntMiner, but options like [ BiXBiT](https://bixbit.io/en/firmwares) and recent third-party releases by Luxor provide performance",
+      "epic_refs": [],
+      "bixbit_refs": [
+        "https://bixbit.io/en/firmwares",
+        "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+        "https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware"
+      ],
+      "other_brands_in_text": [
+        "LuxOS/Luxor",
+        "Bitmain",
+        "MicroBT"
+      ],
+      "organic": {
+        "bixbit.io": [
+          {
+            "rank_absolute": 1,
+            "rank_group": 1,
+            "url": "https://bixbit.io/en/firmwares"
+          },
+          {
+            "rank_absolute": 7,
+            "rank_group": 5,
+            "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+          },
+          {
+            "rank_absolute": 15,
+            "rank_group": 12,
+            "url": "https://bixbit.io/en/firmwares/whatsminer-series-m6x"
+          }
+        ],
+        "epicblockchain.io": []
+      },
+      "paa_questions": 0,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": 3,
+      "keyword": "antminer autotuning firmware",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.006,
+      "failed_attempts": [],
+      "pages_count": 2,
+      "aio_present": true,
+      "aio_text_file": "aio-q3.aio-text.md",
+      "aio_text_chars": 1743,
+      "aio_references": [
+        {
+          "domain": "altairtech.io",
+          "url": "https://altairtech.io/product/intallvnish/",
+          "title": "Vnish firmware installation - Altair Technology"
+        },
+        {
+          "domain": "vni.sh",
+          "url": "https://vni.sh/guide/roll-back-to-stock-firmware",
+          "title": "Roll Back to Stock Antminer Firmware"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=KVhwsF1gWNU&t=4",
+          "title": "LuxOS: How To Increase Hashrate With Custom Antminer ..."
+        },
+        {
+          "domain": "x.com",
+          "url": "https://x.com/NiceHashMining/status/1973359823996506586",
+          "title": "NiceHash on X"
+        },
+        {
+          "domain": "vni.sh",
+          "url": "https://vni.sh/blog/vnish-firmware-antminer-s21",
+          "title": "VNISH Firmware for Antminer S21 & S21 Pro"
+        },
+        {
+          "domain": "www.miners1688.com",
+          "url": "https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/?srsltid=AU7gw4Xo7C8KWs-mnuUf2g6GeBCNoxGuKCxUHJ5jJP-Cyngtgy6gtR5F",
+          "title": "ASIC Firmware Tuning and Undervolting for Peak Efficiency"
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/litecoinmining/comments/nskrmt/antminer_asicfwio_what_is_your_aftermarket/",
+          "title": "Antminer ASICFW.IO - what is your aftermarket firmware?"
+        },
+        {
+          "domain": "bitcointalk.org",
+          "url": "https://bitcointalk.org/index.php?topic=5036844.640",
+          "title": "Braiins OS & Braiins OS+ custom ASIC firmware"
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/Braiins/comments/1udjwio/six_years_ago_braiins_brought_autotuning_to/",
+          "title": "Six years ago, Braiins brought autotuning to bitcoin mining at scale. ..."
+        },
+        {
+          "domain": "pool.kryptex.com",
+          "url": "https://pool.kryptex.com/asic-firmware/vnish",
+          "title": "VNISH firmware for Antminer | Kryptex Pool"
+        },
+        {
+          "domain": "www.ebay.com",
+          "url": "https://www.ebay.com/itm/237071648872",
+          "title": "BITMAIN ANTMINER Z15 Z15j OVERCLOCKING AUTO TUNING ..."
+        }
+      ],
+      "aio_ref_domains": [
+        "altairtech.io",
+        "bitcointalk.org",
+        "pool.kryptex.com",
+        "vni.sh",
+        "www.ebay.com",
+        "www.miners1688.com",
+        "www.reddit.com",
+        "www.youtube.com",
+        "x.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": null,
+      "epic_refs": [],
+      "bixbit_refs": [],
+      "other_brands_in_text": [
+        "Braiins",
+        "VNish",
+        "NiceHash",
+        "Bitmain"
+      ],
+      "organic": {
+        "bixbit.io": [],
+        "epicblockchain.io": [
+          {
+            "rank_absolute": 3,
+            "rank_group": 2,
+            "url": "https://epicblockchain.io/what-is-perpetual-tune-auto-tuning-mining-firmware/"
+          }
+        ]
+      },
+      "paa_questions": 0,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": 4,
+      "keyword": "braiins os alternative",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.00615,
+      "failed_attempts": [],
+      "pages_count": 2,
+      "aio_present": true,
+      "aio_text_file": "aio-q4.aio-text.md",
+      "aio_text_chars": 2410,
+      "aio_references": [
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=T-el0JbG-M8&t=4",
+          "title": "Vnish Is Better than Braiins or Bitmain - Features, Performance, ..."
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=qmi1eDTvyD4&t=220",
+          "title": "Figured out why LuxOS and Braiins OS wouldn't..."
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=iaBUkFiieVc&t=189",
+          "title": "Increase Efficiency with VNISH / Braiins - S19J Pro Better then ..."
+        },
+        {
+          "domain": "mineshop.eu",
+          "url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+          "title": "Install Braiins OS on Your Antminer: 2026 Step-by"
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/BitcoinMining/comments/1eg1vcw/braiins_ospool_vs_luxor_ospool/",
+          "title": "Braiins OS/pool vs Luxor OS/pool? : r/BitcoinMining"
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/BitcoinMining/comments/1j94pc6/braiins_vs_hiveon_firmware_and_remote_management/",
+          "title": "Braiins vs Hiveon firmware and remote management : r/BitcoinMining"
+        }
+      ],
+      "aio_ref_domains": [
+        "mineshop.eu",
+        "www.reddit.com",
+        "www.youtube.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": null,
+      "epic_refs": [],
+      "bixbit_refs": [],
+      "other_brands_in_text": [
+        "Braiins",
+        "VNish",
+        "LuxOS/Luxor",
+        "NiceHash",
+        "Hiveon",
+        "Bitmain",
+        "Hive OS"
+      ],
+      "organic": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      },
+      "paa_questions": 6,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": 5,
+      "keyword": "asic firmware comparison",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.00615,
+      "failed_attempts": [
+        {
+          "status_code": 40101,
+          "status_message": "Internal SE Server Error.",
+          "cost": 0.002
+        }
+      ],
+      "pages_count": 2,
+      "aio_present": true,
+      "aio_text_file": "aio-q5.aio-text.md",
+      "aio_text_chars": 2988,
+      "aio_references": [
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=ev5w1fROEnU&t=42",
+          "title": "Antminer S9 Asic Firmware comparison"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=HpIUmND5xOo",
+          "title": "Comparing BTC Mining Pools with S17 Hiveon ASIC Firmware"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=CWPgoPMV130&t=172",
+          "title": "New HiveOS ASIC Firmware for your Bitcoin S19J Pro's!"
+        },
+        {
+          "domain": "vnish-firmware.com",
+          "url": "https://vnish-firmware.com/stock-firmware-vnish-custom-firmware-which-one-delivers-more-profit/",
+          "title": "Which One Delivers More Profit?"
+        },
+        {
+          "domain": "hashrateindex.com",
+          "url": "https://hashrateindex.com/blog/firmware-fundamentals-what-is-asic-firmware/",
+          "title": "Firmware Fundamentals – What is ASIC Firmware?"
+        },
+        {
+          "domain": "medium.com",
+          "url": "https://medium.com/@hodsmat/hiveon-asic-the-game-changing-firmware-5eb640094402",
+          "title": "Hiveon ASIC — The Game Changing Firmware - Medium"
+        },
+        {
+          "domain": "hiveon.com",
+          "url": "https://hiveon.com/asic/",
+          "title": "Hiveon ASIC firmware for L7, S19, S19j Pro, S19 Pro, S21 ..."
+        },
+        {
+          "domain": "bixbit.io",
+          "url": "https://bixbit.io/en/blog/post/review-of-miners-2021-new-models-vs-old-ones-with-immersion-cooling",
+          "title": "2025 Review of ASIC Miners: New vs Old Models Compared"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=iaBUkFiieVc&t=189",
+          "title": "Increase Efficiency with VNISH / Braiins - S19J Pro Better then ..."
+        },
+        {
+          "domain": "digitalminingsolutions.tech",
+          "url": "https://digitalminingsolutions.tech/the-case-for-custom-asic-firmware/",
+          "title": "The Case for Custom ASIC Firmware"
+        },
+        {
+          "domain": "vnish.ae",
+          "url": "https://vnish.ae/what-is-firmware",
+          "title": "What is ASIC mining firmware? A miner's guide"
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/BitcoinMining/comments/1oehxq4/what_firmware_are_you_running_on_your_antminer/",
+          "title": "What firmware are you running on your Antminer ... - Reddit"
+        }
+      ],
+      "aio_ref_domains": [
+        "bixbit.io",
+        "digitalminingsolutions.tech",
+        "hashrateindex.com",
+        "hiveon.com",
+        "medium.com",
+        "vnish-firmware.com",
+        "vnish.ae",
+        "www.reddit.com",
+        "www.youtube.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": "LuxOS | 📈 Hiveon ASIC Firmware | 📉 Bixbit Firmware | |---|---|---|---|---|---| | **Efficiency Gain** | None",
+      "epic_refs": [],
+      "bixbit_refs": [
+        "https://bixbit.io/en/blog/post/review-of-miners-2021-new-models-vs-old-ones-with-immersion-cooling"
+      ],
+      "other_brands_in_text": [
+        "Braiins",
+        "VNish",
+        "LuxOS/Luxor",
+        "Hiveon",
+        "Hive OS"
+      ],
+      "organic": {
+        "bixbit.io": [
+          {
+            "rank_absolute": 8,
+            "rank_group": 6,
+            "url": "https://bixbit.io/en/blog/post/review-of-miners-2021-new-models-vs-old-ones-with-immersion-cooling"
+          }
+        ],
+        "epicblockchain.io": []
+      },
+      "paa_questions": 6,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": 6,
+      "keyword": "antminer firmware dev fee",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.00615,
+      "failed_attempts": [
+        {
+          "status_code": 40101,
+          "status_message": "Internal SE Server Error.",
+          "cost": 0.002
+        }
+      ],
+      "pages_count": 2,
+      "aio_present": true,
+      "aio_text_file": "aio-q6.aio-text.md",
+      "aio_text_chars": 1607,
+      "aio_references": [
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=egf9_0iR1eA",
+          "title": "Increase Bitcoin Mining Profitability with NO DEV FEE - YouTube"
+        },
+        {
+          "domain": "braiins.com",
+          "url": "https://braiins.com/os-firmware",
+          "title": "Braiins OS | Mining Firmware"
+        },
+        {
+          "domain": "www.awesomeminer.com",
+          "url": "https://www.awesomeminer.com/antminerfirmware",
+          "title": "Awesome Miner Firmware for Antminer"
+        },
+        {
+          "domain": "vni.sh",
+          "url": "https://vni.sh/mining-roi",
+          "title": "Mining ROI: how firmware changes your payback"
+        },
+        {
+          "domain": "www.nicehash.com",
+          "url": "https://www.nicehash.com/firmware",
+          "title": "NiceHash Custom ASIC Firmware"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=35TN7f2DzxQ&t=397",
+          "title": "Change Hashrate On-The-Fly Based On Temperature. Bitcoin ..."
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/BitcoinMining/comments/1oehxq4/what_firmware_are_you_running_on_your_antminer/",
+          "title": "What firmware are you running on your Antminer ... - Reddit"
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/litecoinmining/comments/rmqdug/unofficial_asicfw_for_l3_100_free_no_fees/",
+          "title": "Unofficial AsicFw for L3+ 100% FREE, NO FEES : r/litecoinmining"
+        },
+        {
+          "domain": "bitcointalk.org",
+          "url": "https://bitcointalk.org/index.php?topic=5312770.0",
+          "title": "How do custom firmware collect their fees."
+        },
+        {
+          "domain": "d-central.tech",
+          "url": "https://d-central.tech/mining-glossary/firmware-dev-fee/",
+          "title": "Firmware Dev Fee Meaning | Bitcoin Mining Glossary"
+        }
+      ],
+      "aio_ref_domains": [
+        "bitcointalk.org",
+        "braiins.com",
+        "d-central.tech",
+        "vni.sh",
+        "www.awesomeminer.com",
+        "www.nicehash.com",
+        "www.reddit.com",
+        "www.youtube.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": null,
+      "epic_refs": [],
+      "bixbit_refs": [],
+      "other_brands_in_text": [
+        "Braiins",
+        "VNish",
+        "NiceHash"
+      ],
+      "organic": {
+        "bixbit.io": [],
+        "epicblockchain.io": [
+          {
+            "rank_absolute": 7,
+            "rank_group": 6,
+            "url": "https://epicblockchain.io/tag/bitcoin-miner/"
+          }
+        ]
+      },
+      "paa_questions": 6,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": 7,
+      "keyword": "mining farm monitoring software",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.00615,
+      "failed_attempts": [],
+      "pages_count": 2,
+      "aio_present": true,
+      "aio_text_file": "aio-q7.aio-text.md",
+      "aio_text_chars": 1452,
+      "aio_references": [
+        {
+          "domain": "www.bitdeer.com",
+          "url": "https://www.bitdeer.com/minerplus/users",
+          "title": "Mining Software - Farm Management | Minerplus - Bitdeer"
+        },
+        {
+          "domain": "www.awesomeminer.com",
+          "url": "https://www.awesomeminer.com/",
+          "title": "Awesome Miner - Manage and monitor mining operations"
+        },
+        {
+          "domain": "braiins.com",
+          "url": "https://braiins.com/manager",
+          "title": "Braiins Manager | Mining Management Dashboard for Miners & Hosting Providers"
+        },
+        {
+          "domain": "www.itsminer.com",
+          "url": "https://www.itsminer.com/",
+          "title": "ItsMiner | Bitcoin Mining Management Software"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=QHQpGjnYnFQ&t=140",
+          "title": "5 Best Bitcoin Mining Software in 2025"
+        }
+      ],
+      "aio_ref_domains": [
+        "braiins.com",
+        "www.awesomeminer.com",
+        "www.bitdeer.com",
+        "www.itsminer.com",
+        "www.youtube.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": null,
+      "epic_refs": [],
+      "bixbit_refs": [],
+      "other_brands_in_text": [
+        "Braiins",
+        "Awesome Miner",
+        "Hive OS",
+        "Bitdeer"
+      ],
+      "organic": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      },
+      "paa_questions": 6,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": 8,
+      "keyword": "immersion cooling bitcoin mining",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.00415,
+      "failed_attempts": [],
+      "pages_count": 2,
+      "aio_present": true,
+      "aio_text_file": "aio-q8.aio-text.md",
+      "aio_text_chars": 2307,
+      "aio_references": [
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=tEbBvd2gnaE&t=36",
+          "title": "When Should YOU Use Liquid Cooling for Bitcoin Miners? Immersion ..."
+        },
+        {
+          "domain": "cryptominerbros.com",
+          "url": "https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/",
+          "title": "A Beginner's Guide to Immersion Cooling Your ASIC Miner"
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/",
+          "title": "is immersion cooling for mining crypto worth it , and what the best system ..."
+        },
+        {
+          "domain": "miners.de",
+          "url": "https://miners.de/en/collections/immersion-cooling",
+          "title": "Immersion Cooling - Miners.de"
+        },
+        {
+          "domain": "www.quotecolo.com",
+          "url": "https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/",
+          "title": "Immersion Cooling for Bitcoin Mining"
+        },
+        {
+          "domain": "asicmarketplace.com",
+          "url": "https://asicmarketplace.com/blog/immersion-cooling-setup-for-asic-miner/",
+          "title": "How to Setup Immersion Cooling for Your ASIC Miner?"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/shorts/flNMTLEIIR8",
+          "title": "Hydromining vs Immersion Mining: Bitcoin Mining Explained #shorts"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/shorts/bO4YDhA-G9k",
+          "title": "Bitcoin and Dogecoin Miners in Liquid… why?"
+        },
+        {
+          "domain": "www.google.com",
+          "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:11581355676620256027&ibp=oshop",
+          "title": "FogHashing C2 Immersion Cooling Kit"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=wuusJIhqGuQ",
+          "title": "Best Beginner Bitcoin Immersion Mining System - Fog Hashing C2 1 ..."
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=O3CGYqBRG5k",
+          "title": "Do I REGRET Liquid Cooling My Bitcoin Miners? 2 Year Immersion ..."
+        }
+      ],
+      "aio_ref_domains": [
+        "asicmarketplace.com",
+        "cryptominerbros.com",
+        "miners.de",
+        "www.google.com",
+        "www.quotecolo.com",
+        "www.reddit.com",
+        "www.youtube.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": null,
+      "epic_refs": [],
+      "bixbit_refs": [],
+      "other_brands_in_text": [
+        "Submer"
+      ],
+      "organic": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      },
+      "paa_questions": 6,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": 9,
+      "keyword": "is custom asic firmware safe",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.00615,
+      "failed_attempts": [],
+      "pages_count": 2,
+      "aio_present": true,
+      "aio_text_file": "aio-q9.aio-text.md",
+      "aio_text_chars": 1843,
+      "aio_references": [
+        {
+          "domain": "vni.sh",
+          "url": "https://vni.sh/what-is-firmware",
+          "title": "What is ASIC mining firmware? A miner's guide"
+        },
+        {
+          "domain": "www.theminingshop.co.uk",
+          "url": "https://www.theminingshop.co.uk/asic-firmware-customisation/",
+          "title": "ASIC Firmware Customisation: 8 Essential Safety Checks"
+        },
+        {
+          "domain": "www.nicehash.com",
+          "url": "https://www.nicehash.com/firmware",
+          "title": "NiceHash Custom ASIC Firmware"
+        },
+        {
+          "domain": "github.com",
+          "url": "https://github.com/minershive/hiveon-kb/blob/master/hiveon-asic-firmware/general/asic_faq.md",
+          "title": "hiveon-kb/hiveon-asic-firmware/general/asic_faq.md at master"
+        },
+        {
+          "domain": "vnish-firmware.com",
+          "url": "https://vnish-firmware.com/stock-firmware-vnish-custom-firmware-which-one-delivers-more-profit/",
+          "title": "Which One Delivers More Profit?"
+        },
+        {
+          "domain": "www.viabtc.com",
+          "url": "https://www.viabtc.com/en/blog/custom-firmware-for-asic-miners-boost-efficiency-462",
+          "title": "Custom Firmware for ASIC Miners: Boost Efficiency"
+        },
+        {
+          "domain": "braiins.com",
+          "url": "https://braiins.com/blog/why-custom-mining-firmware-matters",
+          "title": "Why Custom Mining Firmware Matters"
+        },
+        {
+          "domain": "vni.sh",
+          "url": "https://vni.sh/asic-miners",
+          "title": "ASIC miners and custom firmware"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=cnTm3CSsFP0&t=260",
+          "title": "Bitmain S19 Autotuning Firmware Available Now! Asic.to Update"
+        },
+        {
+          "domain": "bixbit.io",
+          "url": "https://bixbit.io/en/firmwares",
+          "title": "BiXBiT Custom ASIC Mining Firmware"
+        }
+      ],
+      "aio_ref_domains": [
+        "bixbit.io",
+        "braiins.com",
+        "github.com",
+        "vni.sh",
+        "vnish-firmware.com",
+        "www.nicehash.com",
+        "www.theminingshop.co.uk",
+        "www.viabtc.com",
+        "www.youtube.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": null,
+      "epic_refs": [],
+      "bixbit_refs": [
+        "https://bixbit.io/en/firmwares"
+      ],
+      "other_brands_in_text": [
+        "Braiins",
+        "VNish",
+        "NiceHash",
+        "Hiveon",
+        "Bitmain"
+      ],
+      "organic": {
+        "bixbit.io": [
+          {
+            "rank_absolute": 9,
+            "rank_group": 7,
+            "url": "https://bixbit.io/en/firmwares"
+          }
+        ],
+        "epicblockchain.io": []
+      },
+      "paa_questions": 6,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": 10,
+      "keyword": "antminer firmware reduce power consumption",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "cost": 0.00615,
+      "failed_attempts": [],
+      "pages_count": 2,
+      "aio_present": true,
+      "aio_text_file": "aio-q10.aio-text.md",
+      "aio_text_chars": 3007,
+      "aio_references": [
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=vhowOxUSfhA",
+          "title": "Bitmain Antminer S19 Pro firmware Christmas 2022"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=TiQ5VWlK8cM&t=196",
+          "title": "THANKS BITMAIN... for the low power mode!"
+        },
+        {
+          "domain": "hashrateindex.com",
+          "url": "https://hashrateindex.com/blog/how-luxos-can-maximize-your-asic-miners-power-consumption-and-revenue/",
+          "title": "How LuxOS Can Maximize Your ASIC Miner's Power ..."
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=XWUAizSnvZM",
+          "title": "BITMAIN L7 LOW POWER MODE."
+        },
+        {
+          "domain": "www.miners1688.com",
+          "url": "https://www.miners1688.com/asic-firmware-tuning-and-undervolting-for-peak-efficiency/",
+          "title": "ASIC Firmware Tuning and Undervolting for Peak Efficiency"
+        },
+        {
+          "domain": "braiins.com",
+          "url": "https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste",
+          "title": "Smarter Clock Speed Management for Bitcoin Miners"
+        },
+        {
+          "domain": "vnish.pro",
+          "url": "https://vnish.pro/en/firmware-antminer-s19-hydro.html",
+          "title": "Vnish Firmware for Antminer S19 (hydro)"
+        },
+        {
+          "domain": "bitcoin.stackexchange.com",
+          "url": "https://bitcoin.stackexchange.com/questions/122121/how-to-remotely-configure-antminer-s19-pro-hash-rate-or-ideally-power-limit-in",
+          "title": "How to remotely configure Antminer S19 Pro+ hash rate or ideally power limit in Watts (wattage)"
+        }
+      ],
+      "aio_ref_domains": [
+        "bitcoin.stackexchange.com",
+        "braiins.com",
+        "hashrateindex.com",
+        "vnish.pro",
+        "www.miners1688.com",
+        "www.youtube.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": null,
+      "epic_refs": [],
+      "bixbit_refs": [],
+      "other_brands_in_text": [
+        "Braiins",
+        "VNish",
+        "LuxOS/Luxor",
+        "Bitmain"
+      ],
+      "organic": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      },
+      "paa_questions": 5,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": 11,
+      "keyword": "epic umc os firmware",
+      "status_code": 40106,
+      "status_message": "Task completed with partial results. Some pages could not be retrieved after several retry attempts. You have not been charged for the pages that were not returned.",
+      "cost": 0.004,
+      "failed_attempts": [
+        {
+          "status_code": 40101,
+          "status_message": "Internal SE Server Error.",
+          "cost": 0.002
+        }
+      ],
+      "pages_count": 1,
+      "aio_present": true,
+      "aio_text_file": "aio-q11.aio-text.md",
+      "aio_text_chars": 1418,
+      "aio_references": [
+        {
+          "domain": "epicblockchain.io",
+          "url": "https://epicblockchain.io/product/umc-os/",
+          "title": "Mining Fleet Enhancement | ePIC Blockchain Technologies"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=eb30yInbBn0",
+          "title": "ePIC UMC improves hashrate with no Dev fee"
+        },
+        {
+          "domain": "epicblockchain.io",
+          "url": "https://epicblockchain.io/product/",
+          "title": "Fleet Enhancement Products for Bitcoin Mining"
+        },
+        {
+          "domain": "epicblockchain.io",
+          "url": "https://epicblockchain.io/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/",
+          "title": "Custom Antminer Firmware Guide: UMC OS Bitcoin Mining ..."
+        },
+        {
+          "domain": "epicblockchain.io",
+          "url": "https://epicblockchain.io/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets/",
+          "title": "ePIC Blockchain Reduces UMC OS Development Fee to 1.5%"
+        }
+      ],
+      "aio_ref_domains": [
+        "epicblockchain.io",
+        "www.youtube.com"
+      ],
+      "epic_in_text": "ePIC UMC OS is a custom third-party Bitcoin mining firmware",
+      "bixbit_in_text": null,
+      "epic_refs": [
+        "https://epicblockchain.io/product/umc-os/",
+        "https://epicblockchain.io/product/",
+        "https://epicblockchain.io/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/",
+        "https://epicblockchain.io/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets/"
+      ],
+      "bixbit_refs": [],
+      "other_brands_in_text": [
+        "Bitmain"
+      ],
+      "organic": {
+        "bixbit.io": [],
+        "epicblockchain.io": [
+          {
+            "rank_absolute": 1,
+            "rank_group": 1,
+            "url": "https://epicblockchain.io/support/firmware-download/"
+          },
+          {
+            "rank_absolute": 2,
+            "rank_group": 2,
+            "url": "https://epicblockchain.io/"
+          },
+          {
+            "rank_absolute": 8,
+            "rank_group": 7,
+            "url": "https://epicblockchain.io/product/umc-os/"
+          }
+        ]
+      },
+      "paa_questions": 0,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    },
+    {
+      "q": "10a",
+      "keyword": "antminer firmware reduce power consumption (1st attempt, 40106 partial)",
+      "status_code": 40106,
+      "status_message": "Task completed with partial results. Some pages could not be retrieved after several retry attempts. You have not been charged for the pages that were not returned.",
+      "cost": 0.00415,
+      "failed_attempts": [],
+      "pages_count": 1,
+      "aio_present": true,
+      "aio_text_file": "aio-q10a.aio-text.md",
+      "aio_text_chars": 1897,
+      "aio_references": [
+        {
+          "domain": "www.zeusbtc.com",
+          "url": "https://www.zeusbtc.com/articles/asic-miner-troubleshooting/1171-instructions-of-new-multi-option-firmware",
+          "title": "Instructions of new Multi-Option Firmware"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=bnNBAwVwE04",
+          "title": "Hiveon ASIC Firmware for Antminer L3+ and L3++ - YouTube"
+        },
+        {
+          "domain": "www.asicclub.com.ua",
+          "url": "https://www.asicclub.com.ua/en/firmware-antminer-s19-pro-plus-hydro/",
+          "title": "Firmware AntMiner s19 pro plus hydro - AsicBoost"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=D6Fg69J2s4M",
+          "title": "Efficiency is KEY!"
+        },
+        {
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=QQHSnPaNn_c",
+          "title": "How to optimize ASICs using NiceHash Firmware"
+        },
+        {
+          "domain": "obm.io",
+          "url": "https://obm.io/blog/miners-guide-to-firmware/",
+          "title": "The Miners Guide to Firmware"
+        },
+        {
+          "domain": "bixbit.io",
+          "url": "https://bixbit.io/en/blog/post/save-unprofitable-asic-equipment",
+          "title": "How to Save Unprofitable ASIC Miners"
+        },
+        {
+          "domain": "www.ydminer.com",
+          "url": "https://www.ydminer.com/news/bitmain-antminer-s21-profitability-2/",
+          "title": "Antminer S21 Low Power Mode: How to Save Energy"
+        },
+        {
+          "domain": "bitcointalk.org",
+          "url": "https://bitcointalk.org/index.php?topic=4942283.0",
+          "title": "Antminer S9/S9i firmware - HAS HIDDEN DEV FEE - Bitcoin Talk"
+        },
+        {
+          "domain": "voskcointalk.com",
+          "url": "https://voskcointalk.com/t/tuning-l3-asic-miner-for-best-performance-or-power-savings-hw-errors-etc/28316",
+          "title": "Tuning L3+ asic miner for best performance or power savings ..."
+        },
+        {
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/NiceHash/comments/1n5mcsk/with_our_custom_asic_firmware_you_can_boost/",
+          "title": "With our custom ASIC firmware, you can boost hashrate, lower ..."
+        }
+      ],
+      "aio_ref_domains": [
+        "bitcointalk.org",
+        "bixbit.io",
+        "obm.io",
+        "voskcointalk.com",
+        "www.asicclub.com.ua",
+        "www.reddit.com",
+        "www.ydminer.com",
+        "www.youtube.com",
+        "www.zeusbtc.com"
+      ],
+      "epic_in_text": null,
+      "bixbit_in_text": null,
+      "epic_refs": [],
+      "bixbit_refs": [
+        "https://bixbit.io/en/blog/post/save-unprofitable-asic-equipment"
+      ],
+      "other_brands_in_text": [
+        "LuxOS/Luxor",
+        "NiceHash",
+        "Hiveon",
+        "Bitmain"
+      ],
+      "organic": {
+        "bixbit.io": [
+          {
+            "rank_absolute": 2,
+            "rank_group": 1,
+            "url": "https://bixbit.io/en/blog/post/save-unprofitable-asic-equipment"
+          }
+        ],
+        "epicblockchain.io": [
+          {
+            "rank_absolute": 4,
+            "rank_group": 2,
+            "url": "https://epicblockchain.io/what-is-perpetual-tune-auto-tuning-mining-firmware/"
+          }
+        ]
+      },
+      "paa_questions": 6,
+      "paa_sources": {
+        "bixbit.io": [],
+        "epicblockchain.io": []
+      }
+    }
+  ]
+}

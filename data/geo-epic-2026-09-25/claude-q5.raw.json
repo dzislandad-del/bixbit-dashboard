@@ -1,0 +1,426 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "65.4447 sec.",
+ "cost": 0.300769,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09251236-2548-0612-0000-1e24550cd6b6",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "65.3737 sec.",
+   "cost": 0.300769,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "ai_optimization",
+    "claude",
+    "llm_responses",
+    "live"
+   ],
+   "data": {
+    "api": "ai_optimization",
+    "function": "llm_responses",
+    "se": "claude",
+    "user_prompt": "Compare the main ASIC mining firmware providers: dev fees, supported models, key features.",
+    "model_name": "claude-sonnet-4-6",
+    "web_search": true,
+    "web_search_country_iso_code": "US",
+    "max_output_tokens": 2000,
+    "tag": "q5"
+   },
+   "result": [
+    {
+     "model_name": "claude-sonnet-4-6",
+     "input_tokens": 82793,
+     "output_tokens": 2786,
+     "reasoning_tokens": 0,
+     "web_search": true,
+     "money_spent": 0.300169,
+     "datetime": "2026-09-25 12:37:51 +00:00",
+     "items": [
+      {
+       "type": "message",
+       "sections": [
+        {
+         "type": "text",
+         "text": "Let me search for the remaining details in my next turn.",
+         "annotations": null
+        }
+       ]
+      },
+      {
+       "type": "message",
+       "sections": [
+        {
+         "type": "text",
+         "text": "I've gathered enough from the first round of searches to provide a solid comparison. Let me compile the answer using what was retrieved, and supplement with well-established knowledge about these providers.\n\n---\n\nHere is a comprehensive comparison of the **main ASIC mining firmware providers** — covering dev fees, supported hardware, and key features:\n\n---\n\n## ⚙️ ASIC Mining Firmware Providers: Full Comparison\n\n---\n\n### 1. 🟠 Braiins OS+\n**Developer:** Braiins (Prague, Czech Republic)\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Braiins is based in Prague, Czech Republic, and is the pioneering force behind Braiins Pool, the world's first Bitcoin mining pool. The company offers Braiins OS and Braiins OS+, an open-source firmware that grants miners full control over their ASIC devices.",
+         "annotations": [
+          {
+           "title": "The Miners Guide to Firmware - OBM, Inc.",
+           "url": "https://obm.io/blog/miners-guide-to-firmware/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Dev Fee:**\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "The base Braiins OS is open-source and free. Braiins OS+ (with auto-tuning and advanced features) is also free if you mine on Braiins Pool. If you mine elsewhere, there is a small hashrate-based fee",
+         "annotations": [
+          {
+           "title": "Mining Firmware for Beginners: What It Is & How to Update | D-Central",
+           "url": "https://d-central.tech/mining-firmware-for-beginners/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": " (typically ~2%).\n\n**Supported Models:** Primarily Bitmain Antminer S9, S17, S19, S19 Pro, S19j Pro, S21 series, and select MicroBT Whatsminer models.\n\n**Key Features:**\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Auto-tuning that just works — set a power target, click a button, and the firmware optimizes every chip on your hashboards. No manual tweaking required.",
+         "annotations": [
+          {
+           "title": "Mining Firmware for Beginners: What It Is & How to Update | D-Central",
+           "url": "https://d-central.tech/mining-firmware-for-beginners/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Stratum V2 support — the only major firmware that natively supports the next-generation mining protocol, which improves efficiency and decentralization.",
+         "annotations": [
+          {
+           "title": "Mining Firmware for Beginners: What It Is & How to Update | D-Central",
+           "url": "https://d-central.tech/mining-firmware-for-beginners/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "For Antminer machines, Braiins OS+ is the most popular choice for its autotuning capabilities and Stratum V2 support.",
+         "annotations": [
+          {
+           "title": "Bitcoin Mining Software Comparison 2026: Firmware, Tools & Apps | D-Central",
+           "url": "https://d-central.tech/bitcoin-mining-software-comparison/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n---\n\n### 2. 🔵 VNish\n**Developer:** VNish Team (global reach)\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "VNish has gained recognition for its custom firmware solutions designed for an array of ASIC miners. Their offerings have a global reach, providing features such as overclocking and underclocking that allow miners to tailor their hardware's performance to their specific needs.",
+         "annotations": [
+          {
+           "title": "The Miners Guide to Firmware - OBM, Inc.",
+           "url": "https://obm.io/blog/miners-guide-to-firmware/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Dev Fee:** ~2% (paid in hashrate); some models/versions are free.\n\n**Supported Models:** Primarily Bitmain Antminer series — S9, S17, S19, S19 Pro, S19j, S19j Pro, S19 XP, S21, and T-series variants.\n\n**Key Features:**\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "VNish offers the best manual control for advanced users.",
+         "annotations": [
+          {
+           "title": "Bitcoin Mining Software Comparison 2026: Firmware, Tools & Apps | D-Central",
+           "url": "https://d-central.tech/bitcoin-mining-software-comparison/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "VNish's firmware is known for its focus on security and user-friendly interfaces, helping miners to not only optimize their operations but also to do so with ease and peace of mind.",
+         "annotations": [
+          {
+           "title": "The Miners Guide to Firmware - OBM, Inc.",
+           "url": "https://obm.io/blog/miners-guide-to-firmware/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- Fine-grained per-chip frequency and voltage tuning, fan control, and detailed hashboard diagnostics.\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Provides advanced security options and virus protection.",
+         "annotations": [
+          {
+           "title": "VNISH Official Firmware Developer for Antminer ASICs",
+           "url": "https://vnish.com/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Independent research groups, industry events, and miner communities consistently rank VNish as the most influential firmware project in the ASIC ecosystem (Cambridge Research 2025).",
+         "annotations": [
+          {
+           "title": "VNISH Official Firmware Developer for Antminer ASICs",
+           "url": "https://vnish.com/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n---\n\n### 3. 🟣 LuxOS (by Luxor Technology)\n**Developer:** Luxor Technology (USA)\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "LuxOS is the first ASIC Firmware to achieve SOC 2 Type 2 certification, and the only ASIC Firmware developed, owned, and maintained by a US-based company.",
+         "annotations": [
+          {
+           "title": "Luxor Technology | LuxOS ASIC Firmware",
+           "url": "https://luxor.tech/firmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Dev Fee:**\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Enjoy 0% pool fees when mining on Luxor Bitcoin Pool — plus exclusive volume discounts for large-scale miners.",
+         "annotations": [
+          {
+           "title": "Luxor Technology | LuxOS ASIC Firmware",
+           "url": "https://luxor.tech/firmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": " A dev fee applies (~0.3–1%) when mining on third-party pools.\n\n**Supported Models:** Bitmain Antminer S19, S19 Pro, S19j Pro, S19 XP, S21, and S21 Pro series.\n\n**Key Features:**\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "LuxOS dynamically adjusts operations — shifting to ultra-efficient mode when hashprice falls and enabling overclocking when it rises to optimize margins.",
+         "annotations": [
+          {
+           "title": "Luxor Technology | LuxOS ASIC Firmware",
+           "url": "https://luxor.tech/firmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "LuxOS monitors and controls hardware temperatures to prevent overheating, ensure safe operation in extreme conditions, and extend miners' lifespan.",
+         "annotations": [
+          {
+           "title": "Luxor Technology | LuxOS ASIC Firmware",
+           "url": "https://luxor.tech/firmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "LuxOS cuts power to ~25 W in under 5 seconds, restores full power in under 60 seconds, and provides customizable wake-up sequences to protect hardware and manage thermal stress.",
+         "annotations": [
+          {
+           "title": "Luxor Technology | LuxOS ASIC Firmware",
+           "url": "https://luxor.tech/firmware",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "LuxOS provides a good balance of features and ease of use.",
+         "annotations": [
+          {
+           "title": "Bitcoin Mining Software Comparison 2026: Firmware, Tools & Apps | D-Central",
+           "url": "https://d-central.tech/bitcoin-mining-software-comparison/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n---\n\n### 4. 🟢 ePIC Blockchain (UMC OS / AltairOS)\n**Developer:** ePIC Blockchain (Toronto, Canada)\n\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "ePIC Blockchain, a leading developer of mining firmware and systems, announced two third-party firmware solutions: UMC OS and AltairOS. Built on the same robust technology behind ePIC's Universal Mining Controller (UMC), both are available for S19J and newer air-cooled Bitcoin mining machines, including immersion models converted from air-cooled units.",
+         "annotations": [
+          {
+           "title": "ASIC Mining Archives - ePIC Blockchain",
+           "url": "https://epicblockchain.io/tag/asic-mining/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Dev Fee:**\n",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "AltairOS — tailored for home miners and Bitcoin enthusiasts — delivers the full power of ePIC's firmware suite with an accessible 2.2% developer fee.",
+         "annotations": [
+          {
+           "title": "ASIC Mining Archives - ePIC Blockchain",
+           "url": "https://epicblockchain.io/tag/asic-mining/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n\n**Supported Models:** Antminer S19J and newer air-cooled models; AMLogic-based machines (with expanded compatibility planned).\n\n**Key Features:**\n- ",
+         "annotations": null
+        },
+        {
+         "type": "text",
+         "text": "Available through altairtech.io and supports USB port installation for AMLogic-based machines.",
+         "annotations": [
+          {
+           "title": "ASIC Mining Archives - ePIC Blockchain",
+           "url": "https://epicblockchain.io/tag/asic-mining/",
+           "start_index": null,
+           "end_index": null,
+           "text": null
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\n- Enterprise-grade UMC OS for large-scale operations; AltairOS for home/enthusiast miners.\n- Advanced power management and chip-level tuning inherited from ePIC's industrial controller platform.\n\n---\n\n## 📊 Quick Comparison Table\n\n| Firmware | Dev Fee | Primary Hardware | Stratum V2 | Auto-Tune | Best For |\n|---|---|---|---|---|---|\n| **Braiins OS+** | 0% on Braiins Pool; ~2% elsewhere | Antminer S9–S21, some Whatsminer | ✅ Yes | ✅ Yes | Decentralization-focused miners |\n| **VNish** | ~2% (hashrate) | Antminer S9–S21 series | ❌ No | ⚠️ Limited | Advanced/manual tuners |\n| **LuxOS** | 0% on Luxor Pool; low % elsewhere | Antminer S19–S21 series | ❌ No | ✅ Yes | Enterprise & efficiency-focused |\n| **ePIC AltairOS** | 2.2% | Antminer S19J+ | ❌ No | ✅ Yes | Home miners & enthusiasts |\n\n---\n\n## 🔑 Key Takeaways\n\n- **Braiins OS+** is the go-to for those who value open-source principles, Stratum V2 protocol support, and seamless auto-tuning.\n- **VNish** is favored by power users who want deep manual control and robust security features.\n- **LuxOS** stands out for enterprise miners, especially with its SOC 2 certification, advanced thermal management, and rapid power curtailment.\n- **",
+         "annotations": null
+        }
+       ]
+      }
+     ],
+     "fan_out_queries": [
+      "ASIC mining firmware providers comparison 2025",
+      "Braiins OS+ dev fee features 2025",
+      "LuxOS Lux firmware ASIC dev fee supported models 2025",
+      "Braiins OS+ VNish LuxOS dev fee supported models features comparison 2025 2026",
+      "VNish firmware dev fee supported Antminer models features 2025",
+      "Braiins OS+ dev fee supported hardware models 2025",
+      "Braiins OS plus VNish LuxOS ePIC firmware dev fee models features detailed comparison",
+      "Braiins OS VNish LuxOS ePIC firmware comparison dev fee models 2026",
+      "Braiins OS VNish LuxOS firmware dev fee models 2026",
+      "Braiins OS plus dev fee supported hardware 2026",
+      "VNish LuxOS Braiins firmware fee models 2026",
+      "asic firmware VNish LuxOS Braiins fee comparison"
+     ]
+    }
+   ]
+  }
+ ]
+}

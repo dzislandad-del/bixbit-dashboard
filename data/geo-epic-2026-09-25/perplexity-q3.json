@@ -1,0 +1,31 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "prompt": "Which Antminer firmware has the best autotuning for efficiency (J/TH)? Compare vendors.",
+  "task_id": "09251234-2548-0612-0000-7fabad567498",
+  "web_search_country_iso_code": "US",
+  "cost_usd": 0.006315,
+  "answer_text": "For **efficiency-focused autotuning**, **Braiins OS+** is the strongest overall choice for most Antminer models, especially when the goal is the lowest **J/TH** rather than maximum raw hashrate.[4][12][15] **VNISH** is also very strong and can match or exceed Braiins on some units or setups, but the sources here more consistently position Braiins as the benchmark for efficiency tuning.[3][5][14]\n\n| Firmware | Efficiency autotuning strength | Typical J/TH outcome cited | Notes |\n|---|---|---:|---|\n| **Braiins OS+** | Best overall for efficiency | ~26–28 J/TH on S19 Pro; ~23.5 J/TH on S19j Pro; ~15.4 J/TH on S21 | Per-chip autotuning, open-source, repeatedly described as the “gold standard” or best-in-class for efficiency.[4][12][14][15] |\n| **VNISH** | Very strong, sometimes competitive | ~27–29 J/TH on S19-class units; 16.4 J/TH on S21 in one example | Per-chip tuning and strong performance, but less consistently rated above Braiins for pure efficiency.[1][2][3][7] |\n| **LuxOS** | Good, often competitive on certain models | ~25–27 J/TH in one comparison | Can be very efficient, but the provided sources do not describe it as consistently best-in-class across Antminer models.[5] |\n| **Stock Bitmain firmware** | Weakest for efficiency | Example stock S19 Pro around 29.5 J/TH; S21 around 17.5 J/TH | Baseline, but lacks the same level of autotuning sophistication.[4][14][19] |\n\n**Vendor-by-vendor comparison**\n\n- **Braiins**: Best documented reputation for *efficiency autotuning*, with repeated claims of per-chip calibration and the best results for reducing J/TH on Antminer S-series hardware.[4][12][14][16]\n- **VNISH**: Strong autotuning, per-chip optimization, and good real-world gains; on some models it performs very well, but the sources here still frame it as slightly behind Braiins in overall efficiency leadership.[1][2][3][7]\n- **Luxor/LuxOS**: Competitive efficiency numbers in some comparisons, but fewer supporting details in the results provided, so it is harder to call it the best across the board.[5]\n- **Bitmain stock firmware**: Stable and simple, but not in the same class for autotuning efficiency.[19]\n\nIf you want a practical rule: **choose Braiins OS+ for the best odds of lowest J/TH**, and **consider VNISH if you want a strong alternative with competitive tuning on specific Antminer models**.[3][4][5][12][14]\n\nIf you want, I can also give you a **model-by-model recommendation** for S19, S21, S21 Pro, and L7/L9.",
+  "cited_urls": [
+    "https://vni.sh/antminer",
+    "https://vnish-software.com/",
+    "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+    "https://d-central.tech/antminer-s19-power-efficiency-tips-for-cost-effective-bitcoin-mining/",
+    "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+    "https://millionminer.com/news/whatsminer-m60s-vs-antminer-s21-pro-2026",
+    "https://vni.sh/blog/vnish-firmware-antminer-s21",
+    "https://mineshop.eu/blog/asic-miner/how-to-update-antminer-firmware-step-by-step-guide-for-l9-s21-models",
+    "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+    "https://www.nicehash.com/firmware",
+    "https://www.awesomeminer.com/firmware/antminer-s19jpp",
+    "https://d-central.tech/the-ultimate-guide-to-safe-and-effective-antminer-overclocking/",
+    "https://vnish.ru/antminer-s19-t19/",
+    "https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste",
+    "https://d-central.tech/the-complete-antminer-undervolting-guide-reduce-power-lower-heat-maximize-efficiency/",
+    "https://braiins.com/blog/why-custom-mining-firmware-matters",
+    "https://hashrateindex.com/blog/the-ultimate-hardware-review-bitmain-antminer-s19j-pro/",
+    "https://d-central.tech/antminer-s21-review/",
+    "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+    "https://d-central.tech/firmware-comparison/"
+  ]
+}

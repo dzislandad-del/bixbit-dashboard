@@ -3,12 +3,14 @@ description: On-page оптимизация одной страницы bixbit.i
 argument-hint: "[url] [target keyword]"
 ---
 
-Оптимизируй страницу **$1** под целевой запрос **$2**. Действуй по `RUNBOOK.md`/`CLAUDE.md`.
+Оптимизируй страницу **$1** под целевой запрос **$2**. Действуй по `RUNBOOK.md`/`CLAUDE.md` и `docs/agent-knowledge.md` (актуальные факты и особенности данных).
 
 ## Шаги
 1. Сверь URL с `data/site-structure.md`. Если файла/записи нет — пометь и продолжай аккуратно.
-2. Сними текущее состояние (мета, H1–Hn, контент, schema, внутренние ссылки) и
-   реальные данные по запросу: объём/интент (DataForSEO), текущие позиции/CTR (GSC).
+2. Сними текущее состояние (мета, H1–Hn, контент, schema, внутренние ссылки) **по сырому HTML**
+   (WebFetch не видит `<head>`/JSON-LD) и реальные данные по запросу: объём/интент (DataForSEO),
+   позиции/показы/CTR по странице — `./scripts/gsc-query.py --dimensions query,page --page-contains <путь>`.
+   Если страница уже в топ-10 с нулевым CTR — главный фокус на title/description.
    Нет доступа → скажи, не выдумывай.
 3. SERP-анализ интента под «$2» + проверка соответствия типа страницы (SXO).
 4. Делегируй:
@@ -28,3 +30,9 @@ argument-hint: "[url] [target keyword]"
 `content/page-optimize/<slug>.md` — было/стало по каждому элементу + готовые
 сниппеты (мета, JSON-LD) + список `[VERIFY]`-пунктов. Правки кода — диффом для PR,
 не в прод. В чат — краткое резюме изменений.
+
+## Не повторять
+- Прошлые `content/page-optimize/{homepage,ams,firmwares}.md` предлагали JSON-LD «с нуля», а schema на сайте уже была.
+  Предлагай **diff к живой разметке**.
+- Dev fee: «transparent dev fee» + `[VERIFY: current rate]`, никогда «no dev fee».
+- Целевой URL — по архитектуре v2 (`reports/content-architecture-2026-09-25.md`), не создавай дубль существующей страницы.

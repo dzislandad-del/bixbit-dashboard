@@ -1,3 +1,5 @@
+> ⛔ **УСТАРЕЛО (2026-09-28).** Построено на ложных данных WebFetch (не видит `<head>`): canonical, meta description и JSON-LD на сайте ЕСТЬ. Не выполнять. Актуальное задание — `content/dev-task-p0-2026-09-28.md`.
+
 # Developer Task: SEO P0 Fixes — bixbit.io/en
 **Дата:** 2026-06-17
 **Приоритет:** P0 — критично, деплой на этой неделе

@@ -1,0 +1,29 @@
+# Ключевые URL для scripts/page-snapshot.py (drift тех-элементов).
+# Источник: data/site-structure.md, целевые URL rank-tracking, топ-посадочные GA4/GSC. Одна строка — один URL.
+https://bixbit.io/en
+https://bixbit.io/ru
+https://bixbit.io/en/firmwares
+https://bixbit.io/en/firmwares/antminer
+https://bixbit.io/en/firmwares/whatsminer-series-m3x
+https://bixbit.io/en/firmwares/whatsminer-series-m2x
+https://bixbit.io/en/firmwares/whatsminer-series-m5x
+https://bixbit.io/en/ams
+https://bixbit.io/en/asics-cooling
+https://bixbit.io/en/asics-cooling/immersion-systems
+https://bixbit.io/en/asics-cooling/hydro-systems
+https://bixbit.io/en/products
+https://bixbit.io/en/products/pdu
+https://bixbit.io/en/products/container
+https://bixbit.io/en/documentation
+https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1
+https://bixbit.io/en/faq
+https://bixbit.io/en/calc
+https://bixbit.io/en/blog
+https://bixbit.io/en/blog/post/how-does-immersion-cooling-work
+https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining
+https://bixbit.io/ru/firmwares
+https://bixbit.io/es/firmwares
+https://bixbit.io/llms.txt
+https://bixbit.io/robots.txt
+https://bixbit.io/en/firmwares/whatsminer-all-series
+https://bixbit.io/en/firmwares/whatsminer-series-m6x

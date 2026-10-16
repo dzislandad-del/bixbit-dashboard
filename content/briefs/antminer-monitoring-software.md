@@ -2,21 +2,24 @@
 **Slug:** `/en/ams/antminer-monitoring-software`
 **Cluster:** mining-fleet-monitoring
 **Type:** Spoke — Commercial / Integration Guide
-**Priority:** P0
+**Priority:** P1 (was P0; recalculated 2026-09-25 from DataForSEO US data) — Demoted. 50/mo total (antminer dashboard 30 KD 12, monitoring software 10, monitor remotely 10). The most-searched spoke in the cluster, but still small.
+**Target (architecture v2, 2026-09-25):** `/en/ams` (existing page), H2 Antminer monitoring and dashboard, section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| Antminer monitoring software | Primary | [VOL: N/A — DataForSEO 401] |
-| Antminer fleet monitoring | Primary | [VOL: N/A] |
-| Antminer dashboard | Secondary | [VOL: N/A] |
-| Antminer farm management software | Secondary | [VOL: N/A] |
-| monitor Antminer remotely | Tertiary | [VOL: N/A] |
-| Antminer ASIC monitoring | Tertiary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Antminer monitoring software | Primary | 10 | — | — |
+| Antminer fleet monitoring | Primary | n/d (<10) | — | — |
+| Antminer dashboard | Secondary | 30 | 12 | — |
+| Antminer farm management software | Secondary | n/d (<10) | — | — |
+| monitor Antminer remotely | Tertiary | 10 | — | — |
+| Antminer ASIC monitoring | Tertiary | n/d (<10) | — | — |
 
 ---
 

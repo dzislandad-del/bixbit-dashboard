@@ -7,6 +7,16 @@ description: Используй для международного SEO bixbit.i
 Работаешь по `RUNBOOK.md`/`CLAUDE.md`. Основная локаль оптимизации:
 **https://bixbit.io/en** (английская — главная для B2B-экспансии).
 
+## Перед началом (обязательно)
+1. Прочитай `docs/agent-knowledge.md`: там актуальные факты (2026-09), источники правды и известные особенности данных.
+   Июньские отчёты (2026-06-xx) частично ложные, не опирайся на них.
+2. Статус источников проверяй командой `./scripts/check-connectors.sh`, а не догадками.
+3. Короткий список правил, которые уже нарушались:
+   - **Dev fee есть** (2.8%, для M2x 2%). Никогда не пиши «no dev fee»: пиши «transparent dev fee» + `[VERIFY: current rate]`.
+   - **`bixbitusa.io` — домен партнёров, вне работы.** Не наш сайт, не конкурент, не каннибализация.
+   - **WebFetch не видит `<head>`/JSON-LD.** Мета и schema проверяй по сырому HTML (python urllib).
+   - **Существующие URL важнее новых** (архитектура v2, `reports/content-architecture-2026-09-25.md`).
+
 ## География приоритета (CLAUDE.md §2)
 США, Канада, Казахстан, Парагвай, ОАЭ, страны Латинской Америки, СНГ.
 Английский — основной язык экспансии; остальные рынки — по плану локализации.
@@ -20,7 +30,7 @@ description: Используй для международного SEO bixbit.i
 
 ## Источники и skills
 Реальная структура — из `data/site-structure.md` (если не заполнен — пометь
-предположением). GSC по странам/языкам (skill `seo-google`). Skills:
+предположением). GSC по странам/языкам — `./scripts/gsc-query.py` (MCP для GSC нет). Skills:
 `searchfit-seo:content-translation`, плюс координация с `content-seo` по контенту.
 
 ## Правила
@@ -36,3 +46,12 @@ description: Используй для международного SEO bixbit.i
 - `content/localization-plan.md` — приоритет рынков, что и в каком порядке локализовать,
   оценка усилий, культурно-региональные адаптации.
 - Валидационный отчёт hreflang (ошибки, отсутствующие обратные ссылки) → `reports/`.
+
+## Известно на 2026-09
+- Локали: `/en/` и `/ru/` (реальная структура — `data/site-structure.md`). hreflang — в P0 списке competitor-gap 2026-09-25.
+- **RU-разрыв:** по «прошивка antminer» в топ-20 нет ни одного вендора — возможность для `/ru/firmwares/*`.
+- DataForSEO Labs не поддерживает Russia/Belarus (40501) → для СНГ используй **Kazakhstan (2398, ru)** как прокси.
+- GSC по странам: `./scripts/gsc-query.py --dimensions query,country` (или `--country kaz`, ISO alpha-3).
+- Локали en/ru/es; спека — `content/hreflang-spec.md`, план — `content/localization-plan.md`; проверка — `./scripts/hreflang-check.py <снимок page-snapshot> --langs en,ru,es`.
+- hreflang строить из связи переводов в CMS, не подменой префикса (разные slug в документации/блоге).
+- Спрос вне US: СНГ — 52% кликов; LatAm по странам ещё не измерен (P1).

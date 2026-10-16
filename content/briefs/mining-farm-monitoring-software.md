@@ -2,21 +2,24 @@
 **Slug:** `/en/ams/mining-farm-monitoring-software`
 **Cluster:** mining-fleet-monitoring
 **Type:** Spoke — Informational / Top-of-Funnel
-**Priority:** P0
+**Priority:** P1 (was P0; recalculated 2026-09-25 from DataForSEO US data) — Demoted. 20/mo (mining farm monitoring software 10, asic monitoring software 10). Needed for GEO listicle queries.
+**Target (architecture v2, 2026-09-25):** `/en/ams/comparison` (NEW page), H2 How to choose monitoring software, section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| mining farm monitoring software | Primary | [VOL: N/A — DataForSEO 401] |
-| bitcoin miner monitoring software | Primary | [VOL: N/A] |
-| ASIC monitoring software | Secondary | [VOL: N/A] |
-| mining hardware monitoring | Secondary | [VOL: N/A] |
-| best mining monitoring software | Secondary | [VOL: N/A] |
-| how to monitor bitcoin mining farm | Tertiary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| mining farm monitoring software | Primary | 10 | — | — |
+| bitcoin miner monitoring software | Primary | n/d (<10) | — | — |
+| ASIC monitoring software | Secondary | 10 | — | — |
+| mining hardware monitoring | Secondary | n/d (<10) | — | — |
+| best mining monitoring software | Secondary | n/d (<10) | — | — |
+| how to monitor bitcoin mining farm | Tertiary | n/d (<10) | — | — |
 
 ---
 

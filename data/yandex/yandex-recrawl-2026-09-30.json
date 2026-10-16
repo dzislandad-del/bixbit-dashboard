@@ -1,0 +1,22 @@
+{
+ "pulled_at": "2026-09-30T13:30:50",
+ "host": {
+  "host_id": "https:bixbit.io:443",
+  "verified": true,
+  "main_mirror": null,
+  "ascii_host_url": "https://bixbit.io/",
+  "unicode_host_url": "https://bixbit.io/"
+ },
+ "report": "recrawl",
+ "window": [
+  "2026-09-02",
+  "2026-09-30"
+ ],
+ "data": {
+  "quota": {
+   "daily_quota": 1020,
+   "quota_remainder": 1020
+  },
+  "submitted": []
+ }
+}

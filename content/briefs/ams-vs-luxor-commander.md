@@ -2,20 +2,23 @@
 **Slug:** `/en/ams/vs-luxor-commander`
 **Cluster:** mining-fleet-monitoring
 **Type:** Spoke — Comparison / Commercial
-**Priority:** P1
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. Volume n/d.
+**Target (architecture v2, 2026-09-25):** `/en/ams/comparison` (NEW page), H2 AMS vs Luxor Commander, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| Luxor Commander alternative | Primary | [VOL: N/A — DataForSEO 401] |
-| AMS vs Luxor Commander | Primary | [VOL: N/A] |
-| LuxOS monitoring software | Secondary | [VOL: N/A] |
-| mining fleet management comparison | Secondary | [VOL: N/A] |
-| Luxor Commander vs | Tertiary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Luxor Commander alternative | Primary | n/d (<10) | — | — |
+| AMS vs Luxor Commander | Primary | n/d (<10) | — | — |
+| LuxOS monitoring software | Secondary | n/d (<10) | — | — |
+| mining fleet management comparison | Secondary | n/d (<10) | — | — |
+| Luxor Commander vs | Tertiary | n/d (<10) | — | — |
 
 ---
 

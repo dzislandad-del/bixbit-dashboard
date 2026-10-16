@@ -1,0 +1,29 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "prompt": "Which Antminer custom firmware has the lowest dev fee?",
+  "task_id": "09251235-2548-0612-0000-5212fd98879f",
+  "web_search_country_iso_code": "US",
+  "cost_usd": 0.005893,
+  "answer_text": "Among the **major custom Antminer firmware options** in the results, **ePIC UMC OS** has the **lowest published dev fee at 1.5%**.[2][3][6]\n\nFor comparison:\n- **Braiins OS+**: **2–2.5%** dev fee.[1][4][14][18]\n- **VNish**: **1.8–2.8%** depending on model/package; one source lists **2.8%** for the main public offering.[1][3][4][5][7]\n- **LuxOS**: **2.8%** dev fee.[1][4][7][11]\n- **DCENT_OS**: **no mandatory fee**, but it uses a **2% optional donation by default** that can be set to zero.[1]\n- **Stock Bitmain firmware**: **0% third-party dev fee**.[1]\n\nSo if you mean **third-party custom firmware**, the answer is **ePIC UMC OS at 1.5%**.[2][3][6] If you include **stock firmware**, then **Bitmain stock firmware** has the lowest fee at **0%**.[1]",
+  "cited_urls": [
+    "https://d-central.tech/firmware-comparison/",
+    "https://epicblockchain.io/product/umc-os/",
+    "https://d-central.tech/0-percent-dev-fee-firmware-explained/",
+    "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+    "https://vnish.group/en/",
+    "https://epicblockchain.io/",
+    "https://d-central.tech/custom-bitmain-firmware-explained-2026/",
+    "https://minerstat.com/mining-software",
+    "https://github.com/KatranVir/Antminer-L3-AsicFw-Custom-Firmware",
+    "https://d-central.tech/nicehash-and-marathon-digital-unveil-promising-bitcoin-mining-firmware/",
+    "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+    "https://www.ebay.ie/sch/Miners-/179171/i.html?_nkw=custom+firmware",
+    "https://bitcointalk.org/index.php?topic=5132758.400",
+    "https://braiins.com/os-firmware",
+    "https://id.scribd.com/document/438594197/ant",
+    "https://www.reddit.com/r/BitcoinMining/comments/d3orq2/custom_firmware/",
+    "https://bitcointalk.org/index.php?topic=5175681.0",
+    "https://braiins.com/os-firmware/download"
+  ]
+}

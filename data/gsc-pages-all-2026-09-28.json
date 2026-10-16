@@ -1,0 +1,5833 @@
+{
+ "meta": {
+  "site": "https://bixbit.io/",
+  "start": "2026-08-29",
+  "end": "2026-09-25",
+  "dimensions": [
+   "page"
+  ],
+  "filters": [],
+  "search_type": "web",
+  "rows": 831,
+  "pulled_at": "2026-09-28T16:01:19"
+ },
+ "rows": [
+  {
+   "page": "https://bixbit.io/en",
+   "clicks": 278,
+   "impressions": 2448,
+   "ctr": 0.1136,
+   "position": 4.5
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 271,
+   "impressions": 4783,
+   "ctr": 0.0567,
+   "position": 3.5
+  },
+  {
+   "page": "https://bixbit.io/ru",
+   "clicks": 145,
+   "impressions": 835,
+   "ctr": 0.1737,
+   "position": 11.0
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "clicks": 143,
+   "impressions": 4703,
+   "ctr": 0.0304,
+   "position": 4.6
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares",
+   "clicks": 135,
+   "impressions": 4095,
+   "ctr": 0.033,
+   "position": 15.8
+  },
+  {
+   "page": "https://bixbit.io/en/ams",
+   "clicks": 113,
+   "impressions": 1813,
+   "ctr": 0.0623,
+   "position": 6.3
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares",
+   "clicks": 90,
+   "impressions": 1376,
+   "ctr": 0.0654,
+   "position": 10.2
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+   "clicks": 85,
+   "impressions": 3549,
+   "ctr": 0.024,
+   "position": 8.2
+  },
+  {
+   "page": "https://bixbit.io/ru/ams",
+   "clicks": 61,
+   "impressions": 1054,
+   "ctr": 0.0579,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+   "clicks": 49,
+   "impressions": 905,
+   "ctr": 0.0541,
+   "position": 12.5
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+   "clicks": 36,
+   "impressions": 1447,
+   "ctr": 0.0249,
+   "position": 18.5
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii",
+   "clicks": 36,
+   "impressions": 812,
+   "ctr": 0.0443,
+   "position": 7.2
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/antminer",
+   "clicks": 29,
+   "impressions": 2178,
+   "ctr": 0.0133,
+   "position": 15.5
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+   "clicks": 27,
+   "impressions": 1432,
+   "ctr": 0.0189,
+   "position": 14.8
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti",
+   "clicks": 24,
+   "impressions": 626,
+   "ctr": 0.0383,
+   "position": 5.3
+  },
+  {
+   "page": "https://bixbit.io/es",
+   "clicks": 20,
+   "impressions": 380,
+   "ctr": 0.0526,
+   "position": 9.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/immersionnaya-zhidkost-kakuyu-vybrat-dlya-mayninga-i-pochemu",
+   "clicks": 19,
+   "impressions": 950,
+   "ctr": 0.02,
+   "position": 8.7
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/antminer",
+   "clicks": 19,
+   "impressions": 935,
+   "ctr": 0.0203,
+   "position": 8.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer",
+   "clicks": 18,
+   "impressions": 421,
+   "ctr": 0.0428,
+   "position": 10.2
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+   "clicks": 18,
+   "impressions": 484,
+   "ctr": 0.0372,
+   "position": 11.8
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-na-sd-kartu",
+   "clicks": 18,
+   "impressions": 551,
+   "ctr": 0.0327,
+   "position": 6.2
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+   "clicks": 18,
+   "impressions": 570,
+   "ctr": 0.0316,
+   "position": 17.7
+  },
+  {
+   "page": "https://bixbit.io/ru/calc",
+   "clicks": 15,
+   "impressions": 1280,
+   "ctr": 0.0117,
+   "position": 15.3
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-immersionnoe-okhlazhdenie",
+   "clicks": 15,
+   "impressions": 227,
+   "ctr": 0.0661,
+   "position": 8.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+   "clicks": 14,
+   "impressions": 851,
+   "ctr": 0.0165,
+   "position": 11.6
+  },
+  {
+   "page": "https://bixbit.io/en/ams/connect",
+   "clicks": 13,
+   "impressions": 309,
+   "ctr": 0.0421,
+   "position": 9.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-2-updating-the-firmware-using-the-sd-card",
+   "clicks": 13,
+   "impressions": 338,
+   "ctr": 0.0385,
+   "position": 14.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/igrokov-v-bitcoin-miner-voznagrazhdayut-realnoy-kriptovalyutoy",
+   "clicks": 13,
+   "impressions": 329,
+   "ctr": 0.0395,
+   "position": 12.4
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network-1",
+   "clicks": 12,
+   "impressions": 353,
+   "ctr": 0.034,
+   "position": 8.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/10-samyh-bystryh-superkompyuterov-v-mire",
+   "clicks": 12,
+   "impressions": 1864,
+   "ctr": 0.0064,
+   "position": 8.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/8-kriptodebetovyh-kart-kotorye-mozhno-ispolzovat-vo-vsem-mire-pryamo-seychas",
+   "clicks": 12,
+   "impressions": 1014,
+   "ctr": 0.0118,
+   "position": 14.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-sozdat-svoy-kriptoobmennik-za-10-shagov",
+   "clicks": 12,
+   "impressions": 1470,
+   "ctr": 0.0082,
+   "position": 16.1
+  },
+  {
+   "page": "https://bixbit.io/ru/ams/connect",
+   "clicks": 11,
+   "impressions": 133,
+   "ctr": 0.0827,
+   "position": 13.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ustanovka-obnovlennoy-versii-proshivki-whatsminer",
+   "clicks": 11,
+   "impressions": 207,
+   "ctr": 0.0531,
+   "position": 7.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/videokarta-cmp-170hx-harakteristiki-pribyl-i-okupaemost",
+   "clicks": 11,
+   "impressions": 616,
+   "ctr": 0.0179,
+   "position": 7.8
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera",
+   "clicks": 11,
+   "impressions": 570,
+   "ctr": 0.0193,
+   "position": 7.4
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/whatsminer-all-series",
+   "clicks": 11,
+   "impressions": 315,
+   "ctr": 0.0349,
+   "position": 26.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/mining-trading-or-holding-what-to-choose-for-capital-growth",
+   "clicks": 10,
+   "impressions": 1187,
+   "ctr": 0.0084,
+   "position": 6.3
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+   "clicks": 10,
+   "impressions": 836,
+   "ctr": 0.012,
+   "position": 28.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/proshivka-asic-antminer-l3-uluchshenie-effektivnosti-i-proizvoditelnosti",
+   "clicks": 10,
+   "impressions": 630,
+   "ctr": 0.0159,
+   "position": 9.4
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+   "clicks": 10,
+   "impressions": 164,
+   "ctr": 0.061,
+   "position": 29.3
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+   "clicks": 10,
+   "impressions": 643,
+   "ctr": 0.0156,
+   "position": 44.0
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide",
+   "clicks": 9,
+   "impressions": 2488,
+   "ctr": 0.0036,
+   "position": 10.3
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/popular-erc-20-compatible-wallets",
+   "clicks": 9,
+   "impressions": 4847,
+   "ctr": 0.0019,
+   "position": 12.2
+  },
+  {
+   "page": "https://bixbit.io/ru/products/cell",
+   "clicks": 9,
+   "impressions": 170,
+   "ctr": 0.0529,
+   "position": 6.9
+  },
+  {
+   "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+   "clicks": 8,
+   "impressions": 688,
+   "ctr": 0.0116,
+   "position": 20.4
+  },
+  {
+   "page": "https://bixbit.io/en/products/container-hydro",
+   "clicks": 8,
+   "impressions": 346,
+   "ctr": 0.0231,
+   "position": 18.5
+  },
+  {
+   "page": "https://bixbit.io/en/products/rack",
+   "clicks": 8,
+   "impressions": 532,
+   "ctr": 0.015,
+   "position": 12.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost",
+   "clicks": 8,
+   "impressions": 1961,
+   "ctr": 0.0041,
+   "position": 11.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/malenkiy-sekret-bolshogo-mayninga-nedorogie-fpga-kak-vyhod-iz-krizisa",
+   "clicks": 8,
+   "impressions": 269,
+   "ctr": 0.0297,
+   "position": 5.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/top-5-luchshih-smartfonov-dlya-fanatov-kriptovalyuty",
+   "clicks": 8,
+   "impressions": 393,
+   "ctr": 0.0204,
+   "position": 10.3
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/5-obshchie-rekomendatsii-po-razgonu-i-urovniu-napriazheniia-na-dopolnitelnom-bloke-pitaniia",
+   "clicks": 8,
+   "impressions": 135,
+   "ctr": 0.0593,
+   "position": 6.0
+  },
+  {
+   "page": "https://bixbit.io/es/ams/connect",
+   "clicks": 7,
+   "impressions": 139,
+   "ctr": 0.0504,
+   "position": 10.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/besplatnoe-otoplenie-za-schet-mayninga-pribyl-v-pervyy-zhe-sezon",
+   "clicks": 7,
+   "impressions": 395,
+   "ctr": 0.0177,
+   "position": 9.8
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+   "clicks": 7,
+   "impressions": 315,
+   "ctr": 0.0222,
+   "position": 33.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/antminer-s19-pro-vs-whatsminer-m30-unveiling-the-power-of-cryptocurrency-mining",
+   "clicks": 6,
+   "impressions": 365,
+   "ctr": 0.0164,
+   "position": 5.9
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware",
+   "clicks": 6,
+   "impressions": 505,
+   "ctr": 0.0119,
+   "position": 43.5
+  },
+  {
+   "page": "https://bixbit.io/en/products/container",
+   "clicks": 6,
+   "impressions": 2436,
+   "ctr": 0.0025,
+   "position": 21.9
+  },
+  {
+   "page": "https://bixbit.io/en/products/rack-hydro",
+   "clicks": 6,
+   "impressions": 207,
+   "ctr": 0.029,
+   "position": 20.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/dobycha-bitkoinov-snova-dostupna-v-minecraft",
+   "clicks": 6,
+   "impressions": 307,
+   "ctr": 0.0195,
+   "position": 8.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/novye-asic-antminer-z11-razobrali-za-20-minut-po-predzakazu",
+   "clicks": 6,
+   "impressions": 565,
+   "ctr": 0.0106,
+   "position": 11.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/razocharovavshiy-asik-innosilicon-a11-pro-obzor-harakteristiki-okupaemost",
+   "clicks": 6,
+   "impressions": 444,
+   "ctr": 0.0135,
+   "position": 6.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/top-10-kriptoproektov-ot-tehnicheskih-razrabotchikov",
+   "clicks": 6,
+   "impressions": 140,
+   "ctr": 0.0429,
+   "position": 12.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+   "clicks": 5,
+   "impressions": 1415,
+   "ctr": 0.0035,
+   "position": 20.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/cmp-170hx-graphic-card-specifications-profit-and-roi",
+   "clicks": 5,
+   "impressions": 1212,
+   "ctr": 0.0041,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/how-to-overclock-whatsminer-asics-over-50",
+   "clicks": 5,
+   "impressions": 218,
+   "ctr": 0.0229,
+   "position": 40.6
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-3-pool-and-worker-setup",
+   "clicks": 5,
+   "impressions": 190,
+   "ctr": 0.0263,
+   "position": 10.4
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware",
+   "clicks": 5,
+   "impressions": 187,
+   "ctr": 0.0267,
+   "position": 21.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-immersion-cooling",
+   "clicks": 5,
+   "impressions": 267,
+   "ctr": 0.0187,
+   "position": 15.1
+  },
+  {
+   "page": "https://bixbit.io/en/products",
+   "clicks": 5,
+   "impressions": 1260,
+   "ctr": 0.004,
+   "position": 13.2
+  },
+  {
+   "page": "https://bixbit.io/en/products/coolant",
+   "clicks": 5,
+   "impressions": 140,
+   "ctr": 0.0357,
+   "position": 26.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-osobenno-rastet-po-vyhodnym-mif-ili-pravda",
+   "clicks": 5,
+   "impressions": 338,
+   "ctr": 0.0148,
+   "position": 5.9
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+   "clicks": 5,
+   "impressions": 195,
+   "ctr": 0.0256,
+   "position": 20.3
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-2-formatirovanie-sd-karty",
+   "clicks": 5,
+   "impressions": 608,
+   "ctr": 0.0082,
+   "position": 8.2
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2b-otkliuchenie-proverki-ventiliatorov-bloka-pitaniia-dlia-mainerov-serii-m3x-m5x",
+   "clicks": 5,
+   "impressions": 46,
+   "ctr": 0.1087,
+   "position": 4.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/novec-and-coolant-liquids-comparison-why-we-stick-to-our-own-formula",
+   "clicks": 4,
+   "impressions": 469,
+   "ctr": 0.0085,
+   "position": 8.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/small-secret-of-big-mining-inexpensive-fpga-for-getting-out-the-crisis",
+   "clicks": 4,
+   "impressions": 292,
+   "ctr": 0.0137,
+   "position": 21.8
+  },
+  {
+   "page": "https://bixbit.io/en/contacts",
+   "clicks": 4,
+   "impressions": 73,
+   "ctr": 0.0548,
+   "position": 6.0
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/6-example-of-m30s-v70-miner-25-overclocking",
+   "clicks": 4,
+   "impressions": 132,
+   "ctr": 0.0303,
+   "position": 17.6
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update",
+   "clicks": 4,
+   "impressions": 453,
+   "ctr": 0.0088,
+   "position": 41.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/7-3-reset-miner-settings-to-factory-values",
+   "clicks": 4,
+   "impressions": 151,
+   "ctr": 0.0265,
+   "position": 5.2
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/whatsminer-series-m5x",
+   "clicks": 4,
+   "impressions": 528,
+   "ctr": 0.0076,
+   "position": 52.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/izrailskaya-specsluzhba-ishchet-specialista-po-kriptovalyutam-i-fintehu",
+   "clicks": 4,
+   "impressions": 14,
+   "ctr": 0.2857,
+   "position": 4.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-obnovit-proshivku-whatsminer",
+   "clicks": 4,
+   "impressions": 362,
+   "ctr": 0.011,
+   "position": 53.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/populyarnye-koshelki-sovmestimye-s-er-20",
+   "clicks": 4,
+   "impressions": 557,
+   "ctr": 0.0072,
+   "position": 8.7
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2-otkliuchenie-proverki-osnovnykh-ventiliatorov-na-ustroistve",
+   "clicks": 4,
+   "impressions": 15,
+   "ctr": 0.2667,
+   "position": 2.8
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona",
+   "clicks": 4,
+   "impressions": 97,
+   "ctr": 0.0412,
+   "position": 24.4
+  },
+  {
+   "page": "https://bixbit.io/ru/products",
+   "clicks": 4,
+   "impressions": 393,
+   "ctr": 0.0102,
+   "position": 17.2
+  },
+  {
+   "page": "https://bixbit.io/ru/products/container-hydro",
+   "clicks": 4,
+   "impressions": 66,
+   "ctr": 0.0606,
+   "position": 9.5
+  },
+  {
+   "page": "https://bixbit.io/en/about",
+   "clicks": 3,
+   "impressions": 809,
+   "ctr": 0.0037,
+   "position": 5.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bitmain-antminer-l7-review-specifications-price-payback",
+   "clicks": 3,
+   "impressions": 1980,
+   "ctr": 0.0015,
+   "position": 8.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-releases-new-firmware-for-the-s17-s17-pro-bitmain-antminer-series-with-overclocking-potential-of-up-to-60",
+   "clicks": 3,
+   "impressions": 115,
+   "ctr": 0.0261,
+   "position": 17.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/5-general-recommendations-for-overclocking-and-voltage-levels-on-an-additional-power-supply",
+   "clicks": 3,
+   "impressions": 82,
+   "ctr": 0.0366,
+   "position": 23.4
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+   "clicks": 3,
+   "impressions": 774,
+   "ctr": 0.0039,
+   "position": 37.0
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings",
+   "clicks": 3,
+   "impressions": 145,
+   "ctr": 0.0207,
+   "position": 24.9
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/asic-T17-plus",
+   "clicks": 3,
+   "impressions": 16,
+   "ctr": 0.1875,
+   "position": 35.7
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/whatsminer-all-series",
+   "clicks": 3,
+   "impressions": 75,
+   "ctr": 0.04,
+   "position": 26.9
+  },
+  {
+   "page": "https://bixbit.io/ru/about",
+   "clicks": 3,
+   "impressions": 224,
+   "ctr": 0.0134,
+   "position": 1.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/5-prichin-letom-pereyti-na-immersionnoe-ohlazhdenie-asic",
+   "clicks": 3,
+   "impressions": 69,
+   "ctr": 0.0435,
+   "position": 9.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/antminer-t17-harakteristiki-pribylnost-i-okupaemost",
+   "clicks": 3,
+   "impressions": 721,
+   "ctr": 0.0042,
+   "position": 8.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kakuyu-kriptovalyutu-pokupat-10-mnogoobeshchayushchih-variantov-do-desyati-dollarov",
+   "clicks": 3,
+   "impressions": 3048,
+   "ctr": 0.001,
+   "position": 14.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/legalnyy-mayning-kriptovalyut-vozobnovilsya-v-irane-no-s-usloviyami",
+   "clicks": 3,
+   "impressions": 39,
+   "ctr": 0.0769,
+   "position": 3.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mayning-na-poputnom-neftyanom-gaze-kak-izbezhat-shtrafov-i-problem-s-ekologiey",
+   "clicks": 3,
+   "impressions": 269,
+   "ctr": 0.0112,
+   "position": 13.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mayning-na-videokartah-s-vodoblokami-zanimatsya-ili-net",
+   "clicks": 3,
+   "impressions": 356,
+   "ctr": 0.0084,
+   "position": 26.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+   "clicks": 3,
+   "impressions": 1522,
+   "ctr": 0.002,
+   "position": 44.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/smart-kotel-dlya-umnogo-doma-kak-vybrat-i-sekonomit",
+   "clicks": 3,
+   "impressions": 637,
+   "ctr": 0.0047,
+   "position": 9.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ubiycy-oborudovaniya-dlya-mayninga-izbavlyaemsya-ot-shuma-i-pyli",
+   "clicks": 3,
+   "impressions": 176,
+   "ctr": 0.017,
+   "position": 9.8
+  },
+  {
+   "page": "https://bixbit.io/ru/contacts",
+   "clicks": 3,
+   "impressions": 105,
+   "ctr": 0.0286,
+   "position": 2.5
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia",
+   "clicks": 3,
+   "impressions": 11,
+   "ctr": 0.2727,
+   "position": 4.9
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2-obnovlenie-proshivki-bloka-pitaniia",
+   "clicks": 3,
+   "impressions": 84,
+   "ctr": 0.0357,
+   "position": 41.4
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-2-hotel-fee",
+   "clicks": 3,
+   "impressions": 23,
+   "ctr": 0.1304,
+   "position": 16.8
+  },
+  {
+   "page": "https://bixbit.io/ru/products/coolant",
+   "clicks": 3,
+   "impressions": 55,
+   "ctr": 0.0545,
+   "position": 17.3
+  },
+  {
+   "page": "https://bixbit.io/ru/products/rack-hydro",
+   "clicks": 3,
+   "impressions": 41,
+   "ctr": 0.0732,
+   "position": 7.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-2025-year-in-numbers",
+   "clicks": 2,
+   "impressions": 368,
+   "ctr": 0.0054,
+   "position": 4.1
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+   "clicks": 2,
+   "impressions": 556,
+   "ctr": 0.0036,
+   "position": 34.0
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/killers-of-the-mining-equipment-getting-rid-of-noise-and-dust",
+   "clicks": 2,
+   "impressions": 400,
+   "ctr": 0.005,
+   "position": 14.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/results-of-the-bixbit-bug-bounty-program",
+   "clicks": 2,
+   "impressions": 20,
+   "ctr": 0.1,
+   "position": 15.3
+  },
+  {
+   "page": "https://bixbit.io/en/documentation",
+   "clicks": 2,
+   "impressions": 106,
+   "ctr": 0.0189,
+   "position": 31.3
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-1-preparation-for-installing-bixbit-firmware",
+   "clicks": 2,
+   "impressions": 162,
+   "ctr": 0.0123,
+   "position": 15.6
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-firmware-installation-and-update",
+   "clicks": 2,
+   "impressions": 174,
+   "ctr": 0.0115,
+   "position": 8.8
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-1-overclocking-settings-page",
+   "clicks": 2,
+   "impressions": 50,
+   "ctr": 0.04,
+   "position": 12.4
+  },
+  {
+   "page": "https://bixbit.io/en/faq",
+   "clicks": 2,
+   "impressions": 91,
+   "ctr": 0.022,
+   "position": 34.9
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/asic-s19",
+   "clicks": 2,
+   "impressions": 232,
+   "ctr": 0.0086,
+   "position": 56.3
+  },
+  {
+   "page": "https://bixbit.io/en/products/cell",
+   "clicks": 2,
+   "impressions": 517,
+   "ctr": 0.0039,
+   "position": 50.2
+  },
+  {
+   "page": "https://bixbit.io/es/firmwares/antminer",
+   "clicks": 2,
+   "impressions": 158,
+   "ctr": 0.0127,
+   "position": 12.2
+  },
+  {
+   "page": "https://bixbit.io/ru/asics-cooling/hydro-systems",
+   "clicks": 2,
+   "impressions": 158,
+   "ctr": 0.0127,
+   "position": 27.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/asic-porazil-virus-chto-sdelat-chtoby-on-ne-maynil-na-storonu",
+   "clicks": 2,
+   "impressions": 30,
+   "ctr": 0.0667,
+   "position": 16.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/binance-menyaet-nazvanie-blokcheyna-i-tokena-tiker-bnb-ostalsya-prezhnim",
+   "clicks": 2,
+   "impressions": 52,
+   "ctr": 0.0385,
+   "position": 7.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitmain-vypustil-antminer-s19-pro-hyd-na-vodyanom-ohlazhdenii-obzor-dohodnost-okupaemost",
+   "clicks": 2,
+   "impressions": 76,
+   "ctr": 0.0263,
+   "position": 6.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+   "clicks": 2,
+   "impressions": 349,
+   "ctr": 0.0057,
+   "position": 13.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/cenovoy-grafik-bitkoina-narisoval-zolotoy-krest-vozmozhen-rost",
+   "clicks": 2,
+   "impressions": 100,
+   "ctr": 0.02,
+   "position": 7.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chetyre-prichiny-beshenogo-rosta-ethereum-classic-na-etoy-nedele",
+   "clicks": 2,
+   "impressions": 35,
+   "ctr": 0.0571,
+   "position": 5.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-vosstanovit-bitkoin-koshelek-na-raznyh-os",
+   "clicks": 2,
+   "impressions": 339,
+   "ctr": 0.0059,
+   "position": 9.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-vyrosli-ceny-na-zhestkie-diski-v-rossii-ukraine-belarusi-i-ssha",
+   "clicks": 2,
+   "impressions": 41,
+   "ctr": 0.0488,
+   "position": 6.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kriptovalyuty-na-proof-of-stake-shest-interesnyh-variantov",
+   "clicks": 2,
+   "impressions": 151,
+   "ctr": 0.0132,
+   "position": 13.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/obnaruzhennyy-v-monero-bag-postavil-pod-ugrozu-anonimnost-tranzakciy",
+   "clicks": 2,
+   "impressions": 78,
+   "ctr": 0.0256,
+   "position": 8.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/obsluzhivanie-asic-uhod-i-diagnostika",
+   "clicks": 2,
+   "impressions": 275,
+   "ctr": 0.0073,
+   "position": 21.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/razgon-antminer-l7",
+   "clicks": 2,
+   "impressions": 411,
+   "ctr": 0.0049,
+   "position": 13.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/samyy-vygodnyy-mayner-x11-algoritma-chto-est-na-rynke",
+   "clicks": 2,
+   "impressions": 291,
+   "ctr": 0.0069,
+   "position": 20.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-kakih-stranah-bolshe-vsego-treyderov-kriptovalyut",
+   "clicks": 2,
+   "impressions": 140,
+   "ctr": 0.0143,
+   "position": 7.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-kakih-stranah-bolshe-vsego-vladelcev-bitkoinov-2019",
+   "clicks": 2,
+   "impressions": 87,
+   "ctr": 0.023,
+   "position": 12.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-kriptokoshelke-metamask-nayden-novyy-sposob-moshennichestva",
+   "clicks": 2,
+   "impressions": 22,
+   "ctr": 0.0909,
+   "position": 9.4
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+   "clicks": 2,
+   "impressions": 313,
+   "ctr": 0.0064,
+   "position": 21.3
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-3-otkliuchenie-proverki-ventiliatorov-bloka-pitaniia",
+   "clicks": 2,
+   "impressions": 75,
+   "ctr": 0.0267,
+   "position": 4.0
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-3-vkladka-boards",
+   "clicks": 2,
+   "impressions": 62,
+   "ctr": 0.0323,
+   "position": 3.5
+  },
+  {
+   "page": "https://bixbit.io/ru/faq",
+   "clicks": 2,
+   "impressions": 40,
+   "ctr": 0.05,
+   "position": 4.2
+  },
+  {
+   "page": "https://bixbit.io/ru/products/rack",
+   "clicks": 2,
+   "impressions": 671,
+   "ctr": 0.003,
+   "position": 14.3
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/firmware-update-log-for-whatsminer",
+   "clicks": 1,
+   "impressions": 90,
+   "ctr": 0.0111,
+   "position": 31.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/free-mining-and-renewable-energy-how-it-works",
+   "clicks": 1,
+   "impressions": 297,
+   "ctr": 0.0034,
+   "position": 16.9
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/full-review-of-microbt-whatsminer-m50-m50s-and-m53-asics-features-profit-payback",
+   "clicks": 1,
+   "impressions": 850,
+   "ctr": 0.0012,
+   "position": 13.9
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/greenhouse-business-and-cryptocurrency-mining-how-to-become-a-successful-farmer-miner",
+   "clicks": 1,
+   "impressions": 171,
+   "ctr": 0.0058,
+   "position": 10.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/how-to-calculate-the-pue-of-a-datacenter",
+   "clicks": 1,
+   "impressions": 330,
+   "ctr": 0.003,
+   "position": 36.0
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/how-to-detect-and-cure-an-asic-virus",
+   "clicks": 1,
+   "impressions": 123,
+   "ctr": 0.0081,
+   "position": 49.3
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/save-unprofitable-asic-equipment",
+   "clicks": 1,
+   "impressions": 65,
+   "ctr": 0.0154,
+   "position": 34.0
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/the-effects-of-data-centers-on-the-environment",
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 39
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/3-1-assembling-the-modified-feeding-rail-of-the-miner",
+   "clicks": 1,
+   "impressions": 4,
+   "ctr": 0.25,
+   "position": 24.5
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic",
+   "clicks": 1,
+   "impressions": 33,
+   "ctr": 0.0303,
+   "position": 27.4
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic",
+   "clicks": 1,
+   "impressions": 31,
+   "ctr": 0.0323,
+   "position": 10.9
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-initial-device-setup-1",
+   "clicks": 1,
+   "impressions": 99,
+   "ctr": 0.0101,
+   "position": 8.3
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/5-3-disabling-power-supply-fan-checks",
+   "clicks": 1,
+   "impressions": 3,
+   "ctr": 0.3333,
+   "position": 1.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-1-boards-tab",
+   "clicks": 1,
+   "impressions": 16,
+   "ctr": 0.0625,
+   "position": 11.3
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-3-ams-1",
+   "clicks": 1,
+   "impressions": 72,
+   "ctr": 0.0139,
+   "position": 17.0
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-additional-functionality-of-bixbit-firmware",
+   "clicks": 1,
+   "impressions": 74,
+   "ctr": 0.0135,
+   "position": 21.2
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-2-determining-the-permissible-operating-temperature-limit-of-miners-chips-1",
+   "clicks": 1,
+   "impressions": 33,
+   "ctr": 0.0303,
+   "position": 5.0
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-3-2-writing-an-image-to-the-sd-card",
+   "clicks": 1,
+   "impressions": 10,
+   "ctr": 0.1,
+   "position": 10.9
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic",
+   "clicks": 1,
+   "impressions": 52,
+   "ctr": 0.0192,
+   "position": 28.0
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-1-miner-identification-on-the-network",
+   "clicks": 1,
+   "impressions": 42,
+   "ctr": 0.0238,
+   "position": 12.2
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-3-installing-the-updated-version",
+   "clicks": 1,
+   "impressions": 61,
+   "ctr": 0.0164,
+   "position": 27.0
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-5-overclocking-recommendations",
+   "clicks": 1,
+   "impressions": 79,
+   "ctr": 0.0127,
+   "position": 19.3
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/appendix-1-3-ams",
+   "clicks": 1,
+   "impressions": 46,
+   "ctr": 0.0217,
+   "position": 33.3
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/asic-S17-S17Pro",
+   "clicks": 1,
+   "impressions": 246,
+   "ctr": 0.0041,
+   "position": 19.6
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/asic-T9-plus",
+   "clicks": 1,
+   "impressions": 126,
+   "ctr": 0.0079,
+   "position": 59.6
+  },
+  {
+   "page": "https://bixbit.io/en/products/container-1k",
+   "clicks": 1,
+   "impressions": 97,
+   "ctr": 0.0103,
+   "position": 36.0
+  },
+  {
+   "page": "https://bixbit.io/en/products/pdu",
+   "clicks": 1,
+   "impressions": 5,
+   "ctr": 0.2,
+   "position": 18.2
+  },
+  {
+   "page": "https://bixbit.io/en/products/server",
+   "clicks": 1,
+   "impressions": 38,
+   "ctr": 0.0263,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/en/success/download-hub",
+   "clicks": 1,
+   "impressions": 98,
+   "ctr": 0.0102,
+   "position": 20.4
+  },
+  {
+   "page": "https://bixbit.io/es/ams",
+   "clicks": 1,
+   "impressions": 12,
+   "ctr": 0.0833,
+   "position": 4.2
+  },
+  {
+   "page": "https://bixbit.io/es/asics-cooling",
+   "clicks": 1,
+   "impressions": 49,
+   "ctr": 0.0204,
+   "position": 19.2
+  },
+  {
+   "page": "https://bixbit.io/es/firmwares",
+   "clicks": 1,
+   "impressions": 134,
+   "ctr": 0.0075,
+   "position": 11.4
+  },
+  {
+   "page": "https://bixbit.io/ru/asics-cooling/hydro-systems/whr-200-2u",
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 1.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/10-luchshih-kriptovalyut-2021-na-chto-obratit-vnimanie-i-kakie-vybrat-dlya-vlozheniya",
+   "clicks": 1,
+   "impressions": 49,
+   "ctr": 0.0204,
+   "position": 38.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/10-samyh-yarkih-citat-vitalika-buterina-za-2018-god",
+   "clicks": 1,
+   "impressions": 13,
+   "ctr": 0.0769,
+   "position": 7.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/11-let-nazad-satoshi-ostavil-poslednee-poslanie-est-nad-chem-rabotat",
+   "clicks": 1,
+   "impressions": 25,
+   "ctr": 0.04,
+   "position": 4.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/85-seti-monero-poraboshcheno-asic",
+   "clicks": 1,
+   "impressions": 40,
+   "ctr": 0.025,
+   "position": 11.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ams-bixbit-mining-management-case-study",
+   "clicks": 1,
+   "impressions": 58,
+   "ctr": 0.0172,
+   "position": 21.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-adres-chto-eto-i-zachem-on-nuzhen-vse-chto-vy-hoteli-uznat",
+   "clicks": 1,
+   "impressions": 1631,
+   "ctr": 0.0006,
+   "position": 43.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-maynery-uvereny-chto-ispolzovanie-solnechnoy-energii-snizhaet-rashody-na-75",
+   "clicks": 1,
+   "impressions": 130,
+   "ctr": 0.0077,
+   "position": 10.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/biznes-na-teplichnom-hozyaystve-i-dobyche-kriptovalyut-kak-stat-uspeshnym-fermerom-maynerom",
+   "clicks": 1,
+   "impressions": 40,
+   "ctr": 0.025,
+   "position": 46.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/centralizaciya-mayninga-vozmozhen-li-zahvat-vlasti-v-blokcheyne",
+   "clicks": 1,
+   "impressions": 11,
+   "ctr": 0.0909,
+   "position": 7.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chelyabinec-slishkom-aktivno-maynil-v-kvartire-budto-samolet-vzletaet",
+   "clicks": 1,
+   "impressions": 4,
+   "ctr": 0.25,
+   "position": 2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chto-proizoshlo-s-ethereum-classic-set-vzbesilas-i-nachislyala-ogromnye-nagrady-za-blok",
+   "clicks": 1,
+   "impressions": 31,
+   "ctr": 0.0323,
+   "position": 8.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chto-proizoydet-kogda-dobudut-vse-bitkoiny-na-planete",
+   "clicks": 1,
+   "impressions": 237,
+   "ctr": 0.0042,
+   "position": 4.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/dannye-polzovateley-binance-foto-i-pasporta-slity-v-odin-iz-telegram-chatov",
+   "clicks": 1,
+   "impressions": 21,
+   "ctr": 0.0476,
+   "position": 14.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/dlya-provedeniya-ataki-51-na-litecoin-nuzhno-670-mln-dollarov-ssha",
+   "clicks": 1,
+   "impressions": 4,
+   "ctr": 0.25,
+   "position": 5.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/fizicheskiy-vzlom-koshelka-trezor-zanimaet-pyat-minut",
+   "clicks": 1,
+   "impressions": 18,
+   "ctr": 0.0556,
+   "position": 8.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/friendly-fork-v-seti-zcash-kak-poluchit-novye-tokeny-ycash-yec",
+   "clicks": 1,
+   "impressions": 58,
+   "ctr": 0.0172,
+   "position": 6.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/gde-obitayut-samye-bogatye-kriptoinvestory-ssha-i-skolko-u-nih-sredstv",
+   "clicks": 1,
+   "impressions": 18,
+   "ctr": 0.0556,
+   "position": 5.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/gde-seychas-vygodnee-vsego-dobyvat-kriptovalyutu-i-na-chto-obratit-vnimanie",
+   "clicks": 1,
+   "impressions": 132,
+   "ctr": 0.0076,
+   "position": 15.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/heshreyt-seti-bitkoin-dostig-kosmicheskih-znacheniy-v-248-11-eh-s",
+   "clicks": 1,
+   "impressions": 31,
+   "ctr": 0.0323,
+   "position": 9.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/iskusstvennyy-intellekt-i-kriptovalyuta-ozhidanie-vs-realnost",
+   "clicks": 1,
+   "impressions": 41,
+   "ctr": 0.0244,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/islandiya-ray-dlya-maynerov-kotorym-dovolny-ne-vse",
+   "clicks": 1,
+   "impressions": 29,
+   "ctr": 0.0345,
+   "position": 5.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/itogi-baunti-programmy-bixbit",
+   "clicks": 1,
+   "impressions": 4,
+   "ctr": 0.25,
+   "position": 65.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-maynit-kriptovalyutu-i-pri-etom-vygodno-ispolzovat-teplo",
+   "clicks": 1,
+   "impressions": 44,
+   "ctr": 0.0227,
+   "position": 16.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-nachat-maynit-ethereum-classic",
+   "clicks": 1,
+   "impressions": 557,
+   "ctr": 0.0018,
+   "position": 12.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-obnaruzhit-skam-ico-proekty-7-sovetov",
+   "clicks": 1,
+   "impressions": 72,
+   "ctr": 0.0139,
+   "position": 19.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-razognat-asiki-whatsminer-vyshe-50",
+   "clicks": 1,
+   "impressions": 91,
+   "ctr": 0.011,
+   "position": 7.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-sokratit-uglerodnyy-sled-ot-mayninga-i-uluchshit-ekologiyu",
+   "clicks": 1,
+   "impressions": 9,
+   "ctr": 0.1111,
+   "position": 18.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kakaya-skorost-interneta-nuzhna-dlya-mayninga-na-asikah-i-fermah",
+   "clicks": 1,
+   "impressions": 837,
+   "ctr": 0.0012,
+   "position": 12.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kompaniya-ebay-zapustila-cifrovoy-koshelek-no-ne-dlya-kriptovalyut",
+   "clicks": 1,
+   "impressions": 12,
+   "ctr": 0.0833,
+   "position": 5.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/krupnyh-maynerov-belarusi-zastavyat-platit-za-elektroenergiyu-po-novomu",
+   "clicks": 1,
+   "impressions": 58,
+   "ctr": 0.0172,
+   "position": 6.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/likvidirovan-krupnyy-mayning-park-vo-vnutrenney-mongolii",
+   "clicks": 1,
+   "impressions": 16,
+   "ctr": 0.0625,
+   "position": 5.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/luchshie-citaty-ilona-maska-pro-bitkoin-i-kriptovalyuty-v-hode-efira-20-fevralya",
+   "clicks": 1,
+   "impressions": 5,
+   "ctr": 0.2,
+   "position": 7.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/malenkiy-sekret-bolshogo-maininga-nedorogie-fpga-kak-vyhod-iz-krizisa",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mayning-na-dache-seychas-vygodnee-vsego-istoriya-iz-orenburga",
+   "clicks": 1,
+   "impressions": 103,
+   "ctr": 0.0097,
+   "position": 58.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/microsoft-ispolzuet-mozg-i-telo-cheloveka-dlya-mayninga-kriptovalyut",
+   "clicks": 1,
+   "impressions": 14,
+   "ctr": 0.0714,
+   "position": 4.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/msi-vypustila-cmp-50hx-miner-harakteristiki-i-pribylnost",
+   "clicks": 1,
+   "impressions": 551,
+   "ctr": 0.0018,
+   "position": 6.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/obzor-fpga-ot-squirrel-budushchee-mayninga-na-2019-god",
+   "clicks": 1,
+   "impressions": 31,
+   "ctr": 0.0323,
+   "position": 5.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ohlazhdenie-asikov-trendy-2026",
+   "clicks": 1,
+   "impressions": 36,
+   "ctr": 0.0278,
+   "position": 10.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy",
+   "clicks": 1,
+   "impressions": 527,
+   "ctr": 0.0019,
+   "position": 14.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ostorozhno-virusy-v-kripto-gruppah-telegram",
+   "clicks": 1,
+   "impressions": 8,
+   "ctr": 0.125,
+   "position": 2.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/pervaya-kriptobirzha-zarabotala-v-belarusi",
+   "clicks": 1,
+   "impressions": 5,
+   "ctr": 0.2,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/polnyy-obzor-asikov-microbt-whatsminer-m50-m50s-i-m53-harakteristiki-pribyl-okupaemost",
+   "clicks": 1,
+   "impressions": 208,
+   "ctr": 0.0048,
+   "position": 37.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/prishel-v-dvizhenie-bitkoin-koshelek-s-407-btc-molchavshiy-s-2013-goda",
+   "clicks": 1,
+   "impressions": 3,
+   "ctr": 0.3333,
+   "position": 7.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/s-gonshchikom-nascar-vpervye-v-istorii-rasschitayutsya-v-kriptovalyute",
+   "clicks": 1,
+   "impressions": 40,
+   "ctr": 0.025,
+   "position": 3.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/samye-dohodnye-asic-majnery-zhidkostnoe-ohlazhdenie",
+   "clicks": 1,
+   "impressions": 751,
+   "ctr": 0.0013,
+   "position": 16.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/statuyu-satoshi-nakamoto-torzhestvenno-otkryli-v-budapeshte",
+   "clicks": 1,
+   "impressions": 65,
+   "ctr": 0.0154,
+   "position": 5.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/svezhiy-kitayskiy-reyting-kriptovalyut-tron-vtoraya-bitcoin-13-ya",
+   "clicks": 1,
+   "impressions": 114,
+   "ctr": 0.0088,
+   "position": 9.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/tainstvenno-skonchalsya-odin-iz-samyh-yaryh-bitkoin-maksimalistov-m-popesku",
+   "clicks": 1,
+   "impressions": 6,
+   "ctr": 0.1667,
+   "position": 3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/top-5-asic-kotorye-ostayutsya-aktualnymi-do-halvinga-bitkoina",
+   "clicks": 1,
+   "impressions": 659,
+   "ctr": 0.0015,
+   "position": 15.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/u-zhitelya-krivogo-roga-nashli-kustarnuyu-mayning-fermu",
+   "clicks": 1,
+   "impressions": 85,
+   "ctr": 0.0118,
+   "position": 52.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ukrainskaya-novaya-pochta-ocenila-sgorevshiy-asic-v-7-dollarov",
+   "clicks": 1,
+   "impressions": 2,
+   "ctr": 0.5,
+   "position": 3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/uyazvimost-windows-pytalis-ispolzovat-dlya-mayninga-monero",
+   "clicks": 1,
+   "impressions": 43,
+   "ctr": 0.0233,
+   "position": 5.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-knr-nashli-mayning-fermu-na-200-ustroystv-skolko-ih-eshche-v-strane",
+   "clicks": 1,
+   "impressions": 22,
+   "ctr": 0.0455,
+   "position": 11.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-ukraine-obnaruzhili-rekordnuyu-mayning-fermu-na-5-tys-ustroystv",
+   "clicks": 1,
+   "impressions": 730,
+   "ctr": 0.0014,
+   "position": 26.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/zachem-nuzhna-anonimnost-v-kriptovalyutah-i-nadolgo-li-ee-hvatit",
+   "clicks": 1,
+   "impressions": 152,
+   "ctr": 0.0066,
+   "position": 10.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/zhiteli-krasnoyarska-nashli-v-podvale-zhilogo-doma-mayning-fermu",
+   "clicks": 1,
+   "impressions": 47,
+   "ctr": 0.0213,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation",
+   "clicks": 1,
+   "impressions": 22,
+   "ctr": 0.0455,
+   "position": 9.6
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-dlia-whatsminer-asic",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-bloka-pitaniia",
+   "clicks": 1,
+   "impressions": 9,
+   "ctr": 0.1111,
+   "position": 7.3
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-bloka-pitaniia/poriadok-podkliucheniia",
+   "clicks": 1,
+   "impressions": 51,
+   "ctr": 0.0196,
+   "position": 7.9
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-1-podgotovka-k-ustanovke-proshivki-bixbit",
+   "clicks": 1,
+   "impressions": 101,
+   "ctr": 0.0099,
+   "position": 13.1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-2-algoritm-deistvii-na-kpu-h3-h6-ili-h6os",
+   "clicks": 1,
+   "impressions": 6,
+   "ctr": 0.1667,
+   "position": 3.8
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-3-algoritmy-deistvii-na-kpu-h616",
+   "clicks": 1,
+   "impressions": 17,
+   "ctr": 0.0588,
+   "position": 4.9
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-1-stranitsa-s-nastroikami-razgona",
+   "clicks": 1,
+   "impressions": 38,
+   "ctr": 0.0263,
+   "position": 5.2
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-3-dopolnitelnye-nastroiki-razgona",
+   "clicks": 1,
+   "impressions": 88,
+   "ctr": 0.0114,
+   "position": 36.6
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-2-eksport-logov",
+   "clicks": 1,
+   "impressions": 106,
+   "ctr": 0.0094,
+   "position": 5.5
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-4-ustanovka-zavodskoi-proshivki",
+   "clicks": 1,
+   "impressions": 9,
+   "ctr": 0.1111,
+   "position": 10.9
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-dopolnitelnye-operatsii",
+   "clicks": 1,
+   "impressions": 180,
+   "ctr": 0.0056,
+   "position": 7.5
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-dopolnitelnyi-funktsional",
+   "clicks": 1,
+   "impressions": 42,
+   "ctr": 0.0238,
+   "position": 14.1
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/RUSMM",
+   "clicks": 1,
+   "impressions": 1,
+   "ctr": 1,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/asic-s19",
+   "clicks": 1,
+   "impressions": 79,
+   "ctr": 0.0127,
+   "position": 25.9
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+   "clicks": 1,
+   "impressions": 337,
+   "ctr": 0.003,
+   "position": 44.6
+  },
+  {
+   "page": "https://bixbit.io/ru/parser",
+   "clicks": 1,
+   "impressions": 20,
+   "ctr": 0.05,
+   "position": 9.9
+  },
+  {
+   "page": "https://bixbit.io/ru/products/container",
+   "clicks": 1,
+   "impressions": 152,
+   "ctr": 0.0066,
+   "position": 28.4
+  },
+  {
+   "page": "https://bixbit.io/ru/success/download-whatsminer",
+   "clicks": 1,
+   "impressions": 33,
+   "ctr": 0.0303,
+   "position": 11.6
+  },
+  {
+   "page": "https://bixbit.io/",
+   "clicks": 0,
+   "impressions": 30,
+   "ctr": 0,
+   "position": 3.5
+  },
+  {
+   "page": "https://bixbit.io/assets/docs/en/terms_of_use.pdf",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/en/asics-cooling",
+   "clicks": 0,
+   "impressions": 1216,
+   "ctr": 0,
+   "position": 14.5
+  },
+  {
+   "page": "https://bixbit.io/en/asics-cooling/hydro-systems/ahc-2.4",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 2.9
+  },
+  {
+   "page": "https://bixbit.io/en/asics-cooling/hydro-systems/ahr-200",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "page": "https://bixbit.io/en/asics-cooling/hydro-systems/whc-1.2-2u",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://bixbit.io/en/asics-cooling/hydro-systems/whc-2.4-2u",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 7.3
+  },
+  {
+   "page": "https://bixbit.io/en/asics-cooling/hydro-systems/whr-200-2u",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/en/asics-cooling/immersion-systems",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 12.2
+  },
+  {
+   "page": "https://bixbit.io/en/asics-cooling/immersion-systems/ic-1000",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 44
+  },
+  {
+   "page": "https://bixbit.io/en/blog",
+   "clicks": 0,
+   "impressions": 113,
+   "ctr": 0,
+   "position": 38.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/5-reasons-to-switch-to-asic-immersion-cooling-in-summer",
+   "clicks": 0,
+   "impressions": 23,
+   "ctr": 0,
+   "position": 11.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/ams-bixbit-mining-management-case",
+   "clicks": 0,
+   "impressions": 91,
+   "ctr": 0,
+   "position": 7.3
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/ams-change-log",
+   "clicks": 0,
+   "impressions": 29,
+   "ctr": 0,
+   "position": 33.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/announcement-of-bixbit-review-on-whatsminer-m36s-by-microbt",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 8.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware",
+   "clicks": 0,
+   "impressions": 396,
+   "ctr": 0,
+   "position": 54.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/asic-cooling-trends-2026",
+   "clicks": 0,
+   "impressions": 31,
+   "ctr": 0,
+   "position": 9.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/austin-to-become-new-u-s-crypto-mining-hub-officials-approve",
+   "clicks": 0,
+   "impressions": 34,
+   "ctr": 0,
+   "position": 12.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/best-asics-for-mining-in-2018-2019-advantages-and-disadvantages",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 51
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/beware-of-viruses-in-telegram-crypto-groups",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 13
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bitmain-releases-t19-hydro-btc-miner-with-a-performance-of-145-th-s",
+   "clicks": 0,
+   "impressions": 93,
+   "ctr": 0,
+   "position": 7.8
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bitmain-to-release-a-new-asic-antminer-s19xp-on-5-nm-chip-review",
+   "clicks": 0,
+   "impressions": 30,
+   "ctr": 0,
+   "position": 12.8
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-achieves-irkutsk-local-administration-support-implementing-a-crypto-mining-project-with-smart-heat-utilization",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-and-the-un-sustainable-development-goals-how-we-make-the-world-a-better-place",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-announces-acquisition-of-cryptofarm-now-we-have-all-in-one",
+   "clicks": 0,
+   "impressions": 31,
+   "ctr": 0,
+   "position": 34.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-at-data-centre-world-paris-2025",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 10.2
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-attended-at-terramining-moscow-and-presented-their-product",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 10.2
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-attended-the-blockchain-bitcoin-conference-in-minsk",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-came-out-at-the-blockshow-europe-2018-event-in-berlin",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-company-visited-blockchain-conference-moscow",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-company-visited-the-world-digital-mining-summit-in-tbilisi",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 5.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-gitex-ai-central-asia-caucasus-2026",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 2.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-makes-mining-decentralized-and-accessible-to-everyone",
+   "clicks": 0,
+   "impressions": 24,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-participated-in-a-mining-meet-up-organized-by-f2pool",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 11.3
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-participated-in-bitmain-s-world-digital-mining-summit-2019",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 10.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-participates-in-a-large-fpga-mining-project-in-sweden",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 6.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-the-2022-recap-and-new-year-s-address",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-to-unveil-advanced-mining-solutions-at-blockchain-life-2024-in-dubai",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-went-to-wdef-2018-in-moscow",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/bixbit-will-participate-in-blockchain-life-in-dubai",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/canaan-and-bixbit-teamed-up-to-develop-an-improved-smart-boiler-for-both-crypto-mining-and-house-heating-purposes",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/creating-a-mining-farm-setting-priorities",
+   "clicks": 0,
+   "impressions": 104,
+   "ctr": 0,
+   "position": 18.0
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/data-centre-cooling-trends-2026",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 6.2
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/data-centre-world-paris-2025-key-takeaways-bixbit",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 21.3
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/datacenter-cooling-methods-everything-you-need-to-know",
+   "clicks": 0,
+   "impressions": 41,
+   "ctr": 0,
+   "position": 25.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/diversification-of-mining-infrastructure",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 31.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/exploring-proof-of-stake-pos-an-energy-efficient-and-accessible-consensus-mechanism-for-cryptocurrencies",
+   "clicks": 0,
+   "impressions": 624,
+   "ctr": 0,
+   "position": 9.1
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/hodl-ranch-becomes-the-us-representative-of-bixbit-the-immersion-cooling-market-leader",
+   "clicks": 0,
+   "impressions": 23,
+   "ctr": 0,
+   "position": 8.1
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+   "clicks": 0,
+   "impressions": 1535,
+   "ctr": 0,
+   "position": 24.1
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/how-neural-networks-learn-for-you-and-where-they-are-applied",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+   "clicks": 0,
+   "impressions": 524,
+   "ctr": 0,
+   "position": 42.2
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling",
+   "clicks": 0,
+   "impressions": 101,
+   "ctr": 0,
+   "position": 27.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/how-to-mine-ravencoin",
+   "clicks": 0,
+   "impressions": 412,
+   "ctr": 0,
+   "position": 17.9
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/how-to-start-mining-ethereum-classic",
+   "clicks": 0,
+   "impressions": 541,
+   "ctr": 0,
+   "position": 18.2
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/hydro-asic-2026-ranking-models-for-largescale-mining-farms",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 3.8
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air",
+   "clicks": 0,
+   "impressions": 161,
+   "ctr": 0,
+   "position": 10.2
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining#Novec",
+   "clicks": 0,
+   "impressions": 57,
+   "ctr": 0,
+   "position": 7.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining#Silicone%20oil",
+   "clicks": 0,
+   "impressions": 100,
+   "ctr": 0,
+   "position": 5.8
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining#Synthetic%20oil",
+   "clicks": 0,
+   "impressions": 108,
+   "ctr": 0,
+   "position": 6.1
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/important-announcement-from-bixbit",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 1.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/insiders-revealed-the-specs-of-the-new-intel-gpu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/intel-revealed-specs-of-bonanza-mine-asic-only-40-th-s-of-power",
+   "clicks": 0,
+   "impressions": 27,
+   "ctr": 0,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/introducing-the-bitmain-antminer-s19-xp-is-it-worth-it",
+   "clicks": 0,
+   "impressions": 489,
+   "ctr": 0,
+   "position": 10.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/isc-high-performance-2026-ai-infrastructure-becoming-main-topic",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 2.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/kak-maynit-kriptovalyutu-i-pri-etom-vygodno-ispolzovat-teplo-1",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/kaytus-partner-summit-ai-server-infrastructure-insights",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/killers-of-the-equipment",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/mining-in-oil-fields-the-future-of-cryptocurrency-mining",
+   "clicks": 0,
+   "impressions": 182,
+   "ctr": 0,
+   "position": 64.0
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/new-bitmain-antminer-s19-xp-hyd-asic-specifications-profitability-roi",
+   "clicks": 0,
+   "impressions": 36,
+   "ctr": 0,
+   "position": 41.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/not-just-for-cryptocurrency-what-is-blockchain-used-for-besides-bitcoin",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 9.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/pny-reduces-ssd-lifespan-by-80-due-to-chia-miners",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 6.3
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/review-of-canaan-avalon-made-a1266-asic-specifications-profitability-and-payback",
+   "clicks": 0,
+   "impressions": 180,
+   "ctr": 0,
+   "position": 7.6
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/review-of-miners-2021-new-models-vs-old-ones-with-immersion-cooling",
+   "clicks": 0,
+   "impressions": 556,
+   "ctr": 0,
+   "position": 12.2
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/small-secret-of-big-mining-inexpensive-frontend-for-getting-out-the-crisis",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/summer-s-hottest-crypto-events-in-2022",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 9.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/texas-becoming-a-global-mecca-for-bitcoin-mining",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 30.2
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/the-amd-bc-160-mining-video-card-is-available-for-purchase-on-aliexpress",
+   "clicks": 0,
+   "impressions": 50,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/the-well-known-cryptocurrency-exchange-ftx-plans-to-acquire-brokerage-startups",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 44
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/third-solo-miner-in-a-month-gets-the-entire-btc-reward-for-a-mined-block",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 5.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/tiktok-user-built-a-portable-bitcoin-mining-rig-for-875",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/top-10-major-cryptocurrencies-to-keep-in-mind-in-2020",
+   "clicks": 0,
+   "impressions": 26,
+   "ctr": 0,
+   "position": 24.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/water-blocks-to-use-or-not-to-use",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/what-cryptocurrency-to-mine-in-2019-and-what-equipment-is-relevant",
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 11.9
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/what-will-happen-to-ethereum-mining-after-switching-to-pos",
+   "clicks": 0,
+   "impressions": 1342,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/whats-the-most-profitable-miner-in-2025",
+   "clicks": 0,
+   "impressions": 177,
+   "ctr": 0,
+   "position": 22.0
+  },
+  {
+   "page": "https://bixbit.io/en/blog/post/which-asic-to-buy-in-2019-new-models-vs-old-ones-on-immersion-cooling",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 50
+  },
+  {
+   "page": "https://bixbit.io/en/blog/tags/asic-1",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/en/blog/tags/company",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=10",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 17
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=12",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=17",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=18",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=2",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 10.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=3",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 32.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=4",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=5",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 17.5
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=6",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 9.4
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=7",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 16
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=8",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/en/blog?page=9",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 3.7
+  },
+  {
+   "page": "https://bixbit.io/en/calc",
+   "clicks": 0,
+   "impressions": 382,
+   "ctr": 0,
+   "position": 30.2
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-power-supply-unit",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 9.1
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-power-supply-unit/1-recommendations",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 17.4
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-power-supply-unit/2-the-connection-procedure-of-the-additional-power-supply-unit",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/1-delivery-set-of-an-additional-power-supply",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/2-general-requirements-for-additional-power-supply-and-wiring",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 3.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/3-2-power-supply-installation",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 14.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/3-setting-and-connecting-an-additional-power-supply-unit",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/connecting-an-additional-variable-power-supply-unit/4-adjusting-the-voltage-on-an-additional-power-supply",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 5.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/1-technical-requirements-1",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/2-connecting-a-device-1",
+   "clicks": 0,
+   "impressions": 69,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-2-data-display-setup-1",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 13.8
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/3-3-pool-and-worker-setup-1",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 4.4
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-2-procedure-for-control-boards-h3-h6-or-h6os",
+   "clicks": 0,
+   "impressions": 69,
+   "ctr": 0,
+   "position": 13.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-3-procedure-for-control-board-h616",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 3.2
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/4-4-updating-bixbit-firmware-to-a-newer-version-on-any-control-board-model",
+   "clicks": 0,
+   "impressions": 68,
+   "ctr": 0,
+   "position": 15.5
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/5-1-preparing-the-miner-for-immersion",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 52.1
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/5-2-disabling-main-fan-checks-on-the-device",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 5.5
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/5-immersion-cooling-1",
+   "clicks": 0,
+   "impressions": 23,
+   "ctr": 0,
+   "position": 5.9
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/6-1-options-available-on-the-overclock-tab",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/6-2-profile-switcher",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/6-4-overclocking-recommendations",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 8.1
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/6-miner-overclocking-and-related-functions",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 5.6
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/7-1-export-the-device-list-and-their-information-from-whatsminertool-to-a-csv-file",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/7-2-log-export",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 3.1
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/7-3-resetting-miner-settings-to-factory-defaults",
+   "clicks": 0,
+   "impressions": 93,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/7-4-installing-the-factory-firmware",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 13.8
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/7-additional-operations-1",
+   "clicks": 0,
+   "impressions": 29,
+   "ctr": 0,
+   "position": 34.0
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-2-hotel-fee-1",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 4.3
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-1-3-proxy",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 26.6
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-3-1-sd-card-formatting",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 11.2
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/new-user-guide-for-whatsminer-asic/appendix-3-sd-card-formatting-and-writing-an-image-to-the-sd-card",
+   "clicks": 0,
+   "impressions": 49,
+   "ctr": 0,
+   "position": 21.4
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/1-technical-requirements",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 65.3
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/2-connecting-a-device",
+   "clicks": 0,
+   "impressions": 25,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/3-initial-device-setup",
+   "clicks": 0,
+   "impressions": 158,
+   "ctr": 0,
+   "position": 16.6
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-1-preparing-the-miner-for-the-dive",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 16.3
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2b-disabling-power-supply-fan-check-for-m3x-m5x-series-miners",
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-2-options-available-on-the-overclock-page",
+   "clicks": 0,
+   "impressions": 23,
+   "ctr": 0,
+   "position": 68.7
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-4-general-overclocking-strategy",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 27.4
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+   "clicks": 0,
+   "impressions": 270,
+   "ctr": 0,
+   "position": 11.1
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/7-1-export-of-the-list-of-miners-of-the-main-window-with-table-data-to-csv-file",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/7-2-logs-export",
+   "clicks": 0,
+   "impressions": 26,
+   "ctr": 0,
+   "position": 5.2
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/7-additional-operations",
+   "clicks": 0,
+   "impressions": 25,
+   "ctr": 0,
+   "position": 44.5
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/appendix-1-1-tab-proxy",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/appendix-1-2-hotel-fee",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 5.8
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/appendix-1-additional-functionality",
+   "clicks": 0,
+   "impressions": 20,
+   "ctr": 0,
+   "position": 7.5
+  },
+  {
+   "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/appendix-2-determining-the-permissible-operating-temperature-limit-of-miners-chips",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/en/en",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares#Whatsminer",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/asic-S17-plus",
+   "clicks": 0,
+   "impressions": 36,
+   "ctr": 0,
+   "position": 47.3
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/asic-T17",
+   "clicks": 0,
+   "impressions": 40,
+   "ctr": 0,
+   "position": 20.2
+  },
+  {
+   "page": "https://bixbit.io/en/firmwares/asic-s9-s9j-s9i",
+   "clicks": 0,
+   "impressions": 78,
+   "ctr": 0,
+   "position": 60.8
+  },
+  {
+   "page": "https://bixbit.io/en/parser",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 10.5
+  },
+  {
+   "page": "https://bixbit.io/en/success/products",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "page": "https://bixbit.io/en/success/request-antiminer",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/en/sustainability",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 9.6
+  },
+  {
+   "page": "https://bixbit.io/es/about",
+   "clicks": 0,
+   "impressions": 82,
+   "ctr": 0,
+   "position": 5.7
+  },
+  {
+   "page": "https://bixbit.io/es/asics-cooling/hydro-systems",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 9.6
+  },
+  {
+   "page": "https://bixbit.io/es/contacts",
+   "clicks": 0,
+   "impressions": 34,
+   "ctr": 0,
+   "position": 7.4
+  },
+  {
+   "page": "https://bixbit.io/es/faq",
+   "clicks": 0,
+   "impressions": 27,
+   "ctr": 0,
+   "position": 5.9
+  },
+  {
+   "page": "https://bixbit.io/es/firmwares/whatsminer-series-m3x",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 17
+  },
+  {
+   "page": "https://bixbit.io/ru/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "page": "https://bixbit.io/ru/asics-cooling",
+   "clicks": 0,
+   "impressions": 41,
+   "ctr": 0,
+   "position": 29.0
+  },
+  {
+   "page": "https://bixbit.io/ru/asics-cooling/hydro-systems/ahc-2.4",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 13.8
+  },
+  {
+   "page": "https://bixbit.io/ru/asics-cooling/hydro-systems/ahr-200",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/asics-cooling/hydro-systems/hw-cluster-2.4",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/ru/asics-cooling/hydro-systems/whc-2.4-2u",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/asics-cooling/immersion-systems",
+   "clicks": 0,
+   "impressions": 38,
+   "ctr": 0,
+   "position": 19.5
+  },
+  {
+   "page": "https://bixbit.io/ru/asics-cooling/immersion-systems/ic-1000",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 14
+  },
+  {
+   "page": "https://bixbit.io/ru/asics-cooling/immersion-systems/ict-100",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog",
+   "clicks": 0,
+   "impressions": 55,
+   "ctr": 0,
+   "position": 4.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/10-tipichnyh-oshibok-nachinayushchego-kriptotreydera-i-kak-ih-izbezhat",
+   "clicks": 0,
+   "impressions": 44,
+   "ctr": 0,
+   "position": 13.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/13-let-nazad-uspeshno-zavershilas-pervaya-tranzakciya-v-bitkoinah",
+   "clicks": 0,
+   "impressions": 64,
+   "ctr": 0,
+   "position": 6.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/30-let-nazad-predskazali-edinuyu-mirov%D1%83%D1%8E-valyutu-feniks",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/30-let-nazad-predskazali-edinuyu-mirovuyu-valyutu-feniks",
+   "clicks": 0,
+   "impressions": 100,
+   "ctr": 0,
+   "position": 5.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/5-prichin-rosta-stoimosti-bitkoina-v-2019-godu",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 11.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/9-let-nazad-v-etot-den-heynic-oplatil-dostavku-piccy-10-000-btc",
+   "clicks": 0,
+   "impressions": 247,
+   "ctr": 0,
+   "position": 39.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/9-vernyh-sposobov-poteryat-svoi-bitkoiny",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 3.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/amerikanec-podmeshal-otcu-snotvornoe-chtoby-zavladet-kriptovalyutoy",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 95
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/amerikanskaya-ges-1897-goda-zarabatyvaet-na-bitkoinah-v-3-raza-bolshe-chem-prosto-prodavaya-elektrichestvo",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/anatomiya-pump-and-dump-na-kriptovalyutnom-rynke",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 14.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/anons-bixbit-obzora-na-whatsminer-m36s-ot-microbt",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 21
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bayden-podpisal-istoricheskiy-dokument-o-regulirovanii-kriptovalyut",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/besplatnyy-mayning-i-istochniki-vozobnovlyaemoy-energii-kak-eto-rabotaet",
+   "clicks": 0,
+   "impressions": 83,
+   "ctr": 0,
+   "position": 38.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bezumie-kriptorynka-shiba-inu-protiv-dogecoin",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 4.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/binance-i-coinbase-zanimayut-55-mirovogo-trafika-kriptobirzh",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 13.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/binance-razdaet-kriptovalyutu-na-225-tys-dollarov-kak-ee-poluchit",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/binance-stala-partnerom-muzykalnoy-premii-gremmi",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 36.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitcoin-ustanovil-novyy-ath-i-torguetsya-po-68-500-usd",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-i-altkoiny-teryayut-stoimost-na-fone-konflikta-rf-i-ukrainy",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-i-fiatnye-dengi-kto-volatilnee-na-korotkih-otrezkah",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-logotip-istoriya-poyavleniya-i-razvitiya",
+   "clicks": 0,
+   "impressions": 275,
+   "ctr": 0,
+   "position": 14.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-osobenno-rastet-osobenno-rastet-po-vyhodnym-mif-ili-pravda",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-otygralsya-do-otmetki-10-600-usd-altkoiny-v-nebolshom-plyuse",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-padal-nizhe-30-000-usd-eto-uroven-leta-2021-goda-chto-budet-dalshe",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-potreblyaet-vsego-0-38-pustoy-elektroenergii-otchet",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-probil-psihologicheskuyu-otmetku-v-4-tys-i-prodolzhaet-padenie",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitkoin-skam-v-instagram-stoil-pensionerke-120-tys-funtov-sterlingov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitmain-gotovit-novoe-pokolenie-asikov-na-5-nm-chipah-antminer-s19xp-obzor",
+   "clicks": 0,
+   "impressions": 40,
+   "ctr": 0,
+   "position": 8.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-pribylnost",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bitmex-zakryvaet-dostup-k-uslugam-polzovatelyam-iz-11-stran-i-regionov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 38
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bittorrent-provedet-airdrop-dlya-derzhateley-tron",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 29
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-2025-itogi-goda",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-delaet-mayning-decentralizovannym-i-dostupnym-dlya-vseh",
+   "clicks": 0,
+   "impressions": 30,
+   "ctr": 0,
+   "position": 15.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-i-celi-ustoychivogo-razvitiya-oon-kak-my-delaem-mir-sovershennee",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 11.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-pouchastvovala-v-netvorkinge-real-mining-talks",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-priehal-na-cef-2018-v-moskve",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 60
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-s17-s17-pro-s-razgonom-do-60",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-realizuet-mayning-proekt-s-utilizaciey-tepla-v-irkutske-pri-podderzhke-mestnoy-administracii",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 7.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-uchastvuet-v-cryptoevent-riw-v-moskve",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 66.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-uchastvuet-v-realizacii-krupnogo-mayning-proekta-na-fpga-v-shvecii",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-vistupit-na-blockchain-life-v-dubae",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 16.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bixbit-vystupaet-na-terramining-moscow-i-predstavlyaet-svoyu-produkciyu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 83
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+   "clicks": 0,
+   "impressions": 578,
+   "ctr": 0,
+   "position": 13.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/blokcheyn-smartfon-ot-electroneum-budet-maynit-po-3-dollara-v-mesyac",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 17
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/blokcheyn-solana-vyklyuchalsya-na-dvoe-sutok-i-eto-ne-v-pervyy-raz",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/blokcheyn-transformiruet-ekonomiku-yuzhnoy-evropy",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/botnetom-trickbot-upravlyala-55-letnyaya-urozhenka-rigi",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/brauzer-brave-budet-platit-tokeny-bat-za-prosmotr-reklamy",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 7.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/brazilskie-senatory-rassmatrivayut-zakonoproekt-o-cifrovyh-aktivah",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 39
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/btc-i-eth-poshli-na-snizhenie-ved-inflyaciya-v-ssha-prevysila-prognozy",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/btc-mozhno-budet-poluchit-v-novoy-battlroyal-lightnite",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 29.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bystryy-obzor-bitmain-antminer-s9-se-heshreyt-cena-okupaemost",
+   "clicks": 0,
+   "impressions": 98,
+   "ctr": 0,
+   "position": 10.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/bystryy-obzor-microbt-whatsminer-m30s-harakteristiki-cena-okupaemost",
+   "clicks": 0,
+   "impressions": 132,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/car-legalizovala-bitkoin-chto-eto-znachit-dlya-industrii-kriptovalyut",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 6.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/cardano-pobila-vse-rekordy-ustremivshis-vyshe-3-dollarov-za-monetu",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/cena-bitkoina-nenadolgo-probila-otmetku-9-700-usd",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/centralizaciya-bitkoina-usililas-2-4-koshelkov-derzhat-94-4-vseh-monet",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 6.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/centrobank-zablokiruet-legalizaciyu-oborota-kriptovalyut-v-rossii",
+   "clicks": 0,
+   "impressions": 69,
+   "ctr": 0,
+   "position": 28.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chem-bolshe-devalviruetsya-yuan-tem-luchshe-dlya-btc-uzhe-pochti-12-000-usd",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chto-budet-s-mayningom-ethereum-posle-perehoda-na-pos",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 9.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chto-dorozhe-bitkoina-naprimer-yearn-finance-yfi",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chto-mozhno-kupit-za-bitkoiny-delimsya-saytami-s-podarkami",
+   "clicks": 0,
+   "impressions": 223,
+   "ctr": 0,
+   "position": 54.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chto-proizoydet-kogda-kogda-dobudut-vse-bitkoiny-na-planete",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chto-takoe-coin-burn-i-kak-na-etom-mozhno-zarabotat",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chto-takoe-heshreyt-i-slozhnost-mayninga",
+   "clicks": 0,
+   "impressions": 385,
+   "ctr": 0,
+   "position": 25.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chto-takoe-masternody-i-pochemu-zarabotat-na-nih-mozhet-kazhdyy",
+   "clicks": 0,
+   "impressions": 43,
+   "ctr": 0,
+   "position": 14.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/chto-takoe-web-3-0-i-pravda-li-eto-nashe-budushchee",
+   "clicks": 0,
+   "impressions": 61,
+   "ctr": 0,
+   "position": 60.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/coinmarketcap-sostavil-desyatku-samyh-populyarnyh-u-evropeycev-monet",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/dlya-maynerov-iz-kyrgyzstana-ustanovili-novye-tarify-na-elektroenergiyu",
+   "clicks": 0,
+   "impressions": 28,
+   "ctr": 0,
+   "position": 6.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/dobycha-eth-na-macbook-pro-okupitsya-primerno-cherez-20-let",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 4.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/dual-mayning-vygodno-li-im-zanimatsya-v-2019-godu",
+   "clicks": 0,
+   "impressions": 597,
+   "ctr": 0,
+   "position": 14.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/dzhordzhiya-sobiraetsya-sostavit-konkurenciyu-tehasu-i-nyu-yorku-v-mayninge",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 64.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/estonskiy-it-gigant-burfa-podpisal-kontrakt-s-bitmain-na-26-mln",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/eti-bitkoin-koshelki-spali-s-2009-goda-a-potom-pereveli-svyshe-6-mln-dollarov",
+   "clicks": 0,
+   "impressions": 22,
+   "ctr": 0,
+   "position": 7.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/evolyuciya-asic-chto-budet-s-vychislitelnymi-ustroystvami-dlya-mayninga",
+   "clicks": 0,
+   "impressions": 345,
+   "ctr": 0,
+   "position": 9.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/evroparlament-otklonil-zapret-mayninga-na-algoritme-proof-of-work",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 20.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/evropeyskie-regulyatory-prizyvayut-zapretit-mayning-na-proof-of-work",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 48.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/evrosoyuz-poka-ne-rassmatrivaet-zapret-mayninga-i-kriptovalyut",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/exxonmobil-interesuetsya-mayningom-s-ispolzovaniem-neftyanogo-gaza",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/facebook-mozhet-otkazatsya-ot-libra-diem-v-polzu-inyh-steyblkoinov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/fermy-gigawatt-otklyuchili-za-neuplatu-bankrotstvo-prodolzhaetsya",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 54.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/fondovaya-birzha-filippin-sobiraetsya-dobavit-kriptovalyuty-v-listing",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 8.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/fpga-dlya-mayninga-kakie-trendy-budut-preobladat-v-2019-godu",
+   "clicks": 0,
+   "impressions": 96,
+   "ctr": 0,
+   "position": 16.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/friendly-fork-v-seti-zcash-%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D1%8B-ycash-yec",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/futurocoin-fto-vyros-na-10-000-za-48-chasov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 3.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/gde-kupit-bitkoin-5-bystryh-i-prostyh-sposobov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 47.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/gde-kupit-prodat-altkoin-shest-luchshih-predlozheniy",
+   "clicks": 0,
+   "impressions": 48,
+   "ctr": 0,
+   "position": 12.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/geforce-rtx-3050-ne-podoydet-dlya-mayninga-ethereum-zayavili-v-nvidia",
+   "clicks": 0,
+   "impressions": 681,
+   "ctr": 0,
+   "position": 15.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/github-budet-hranit-kod-bitcoin-i-ethereum-v-arktike",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 8.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/glava-apple-tim-kuk-raskryl-sekret-svoih-investiciy-v-kriptovalyutu",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/goldshell-razrabotal-ustanovki-dlya-aziatskih-hoummaynerov-obzor-i-pribylnost",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 17.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/google-udalil-8-moshennicheskih-prilozheniy-dlya-mayninga-na-ocheredi-eshche-100",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/gossluzhashchie-s-kamchatki-pytalis-maynit-kriptovalyutu-na-rabochem-meste",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 65
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/haker-nashel-uyazvimost-v-saydcheyne-ronin-i-vyvel-625-mln-dollarov-ssha",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 5.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/hakery-vzlomavshie-birzhu-bitfinex-proveli-operacii-s-pohishchennymi-btc",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/hardfork-v-seti-monero-aktivirovan-algoritm-randomx",
+   "clicks": 0,
+   "impressions": 82,
+   "ctr": 0,
+   "position": 10.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/heshreyt-seti-efirium-ustanovil-novyy-rekord-na-urovne-1-14-ph-s",
+   "clicks": 0,
+   "impressions": 63,
+   "ctr": 0,
+   "position": 4.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/heshreyt-seti-litecoin-upal-s-iyulya-v-tri-raza-do-163-th-s",
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 9.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/hydro-asic-2026-rejting-modelej-dlya-krupnyh-ferm",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 2.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ico-v-pervom-kvartale-2019-goda-privlekli-118-mln-dollarov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 86.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/igrokov-v-bitcoin-nagrazhdayut-realnoy-kriptovalyutoy",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ikea-sovershila-pervyy-perevod-ocifrovannoy-valyuty-na-baze-ethereum",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 5.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/immersionnaya-zhidkost-kakuyu-vybrat-dlya-mayning-i-pochemu",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/immersionnoe-ohlazhdenie-eto-vygodno-arifmetika-na-palcah",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 43.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/immersionnoe-ohlazhdenie-ili-kak-ne-pustit-dengi-na-vozduh",
+   "clicks": 0,
+   "impressions": 91,
+   "ctr": 0,
+   "position": 72.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/indoneziya-vvela-nalogi-dlya-kriptovalyutnyh-treyderov-v-razmere-0-1",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 9.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/insayder-utverzhdaet-chto-razdobyl-interfeys-twitter-dlya-kriptoplatezhey",
+   "clicks": 0,
+   "impressions": 470,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/intel-raskryl-podrobnosti-ob-asike-bonanza-mine-vsego-40-th-s-moshchnosti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/iranskie-nalogoviki-prizvali-legalizovat-btc-birzhi",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/islandiya-ogranichivaet-maynerov-kriptovalyuty-iz-za-nehvatki-elektroenergii",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 26.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/italyanskiy-fk-roma-vypustit-svoyu-kriptovalyutu-dlya-fanatov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/iz-za-maynerov-elektropotreblenie-irkutskoy-oblasti-vyroslo-na-400",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 30
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/iz-za-pozhara-na-mayning-ferme-v-tailande-sgoreli-72-asika",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/k-kardashyan-reklamiruet-ethereum-max-v-instagram-zachem",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 3.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/k-koncu-goda-bitmain-obeshchaet-novyy-asic-antminer-e9-dlya-mayninga-efirium",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 22.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-ispolzovat-bitkoin-bez-interneta-insayd-ot-razrabotchika-blockstream",
+   "clicks": 0,
+   "impressions": 52,
+   "ctr": 0,
+   "position": 9.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-jaguar-land-rover-pomozhet-vam-zarabotat-iota",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+   "clicks": 0,
+   "impressions": 386,
+   "ctr": 0,
+   "position": 35.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-kupit-1-000-asikov-i-sdelat-iz-nih-1-500-chudesa-immersionnogo-ohlazhdeniya",
+   "clicks": 0,
+   "impressions": 21,
+   "ctr": 0,
+   "position": 20.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-maynit-ravencoin",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 27.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-maynit-v-ton-mozhno-li-zarabotat-na-blokcheyne-pavla-durova",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-perevodit-mayning-fermu-s-vozdushnogo-ohlazhdeniya-na-immersionnoe-i-obratno",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 18.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-poluchit-tokeny-bittorrent-besplatno-i-chto-nuzhno-uchest",
+   "clicks": 0,
+   "impressions": 65,
+   "ctr": 0,
+   "position": 12.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-spasti-ubytochnoe-asic-oborudovanie",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 4.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-stat-chastyu-cifrovoy-ekonomiki-podklyuchaemsya-k-blokcheyn-proektam",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 28
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-superkompyutery-na-vodyanom-i-immersionnom-ohlazhdenii-obogrevayut-doma",
+   "clicks": 0,
+   "impressions": 69,
+   "ctr": 0,
+   "position": 6.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kak-uberechsya-ot-kriptodzhekinga-na-windows-za-pyat-shagov",
+   "clicks": 0,
+   "impressions": 96,
+   "ctr": 0,
+   "position": 62.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kakaya-skorost-interneta-nuzhna-dlya-mayninga-asikah-fermah",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kakie-ekologicheski-chistye-kriptovalyuty-mogut-zamenit-bitkoin",
+   "clicks": 0,
+   "impressions": 225,
+   "ctr": 0,
+   "position": 23.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kakie-mayning-puly-byli-luchshimi-v-pervom-kvartale-2022-goda-chto-vybrat",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 34
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kakie-programmy-chashche-vsego-ispolzuyut-kriptohakery",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kakoy-koshelek-bitkoin-schitaetsya-luchshim-v-2021-g-po-anonimnosti",
+   "clicks": 0,
+   "impressions": 56,
+   "ctr": 0,
+   "position": 26
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kakoy-kupit-asik-v-2019-godu-novye-modeli-vs-starye-na-immersionnom-ohlazhdenii",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 12.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kakuyu-kriptovalyutu-pokupat-10-mnogoobeshchayushchih-do-desyati-dollarov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kapitalizaciya-steyblkoinov-dostigla-urovnya-vvp-slovakii",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kitay-vernulsya-na-vtoroe-mesto-po-heshreytu-bitkoina-cbeci",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 27
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kitaycy-sozdali-videokarty-dlya-mayninga-eth-na-baze-mobilnyh-processorov",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 29.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kogda-poyavyatsya-asic-na-5-nm-chipah",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 55.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kolichestvo-aktivnyh-bitkoin-koshelkov-dostiglo-rekordnyh-znacheniy",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kolichestvo-polzovateley-s-btc-vozrastom-5-7-let-dostiglo-rekorda",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/komissiya-v-seti-bitkoin-za-god-sokratilas-na-50-v-chem-prichina",
+   "clicks": 0,
+   "impressions": 31,
+   "ctr": 0,
+   "position": 13.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kompaniya-bixbit-posetila-world-digital-mining-summit-v-tbilisi",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 21.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/konsorcium-iz-pyati-amerikanskih-bankov-vypustit-svoy-steyblkoin",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/krazhi-s-birzhi-kriptovalyut-i-ne-tolko-samye-gromkie-sluchai",
+   "clicks": 0,
+   "impressions": 87,
+   "ctr": 0,
+   "position": 10.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kreyga-rayta-ne-priznali-nakamoto-i-obyazali-vyplatit-100-mln-dollarov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kriptobirzha-2019-samye-gromkie-sluchai-vzlomov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kriptoentuziast-sobral-bitkoin-koshelek-za-110-dollarov",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 17
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kriptoinvestor-kak-vyglyadit-tipichnyy-lyubitel-cifrovyh-aktivov",
+   "clicks": 0,
+   "impressions": 20,
+   "ctr": 0,
+   "position": 8.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kriptoploshchadka-bitget-stala-partnerom-futbolnogo-kluba-yuventus",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 4.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kriptovalyuta-efirium-sem-interesnyh-faktov",
+   "clicks": 0,
+   "impressions": 74,
+   "ctr": 0,
+   "position": 16.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/krupnuyu-birzhu-bitmart-vzlomali-pohishcheno-okolo-200-mln-dollarov-ssha",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kto-zhe-vse-taki-maynil-v-vinnice-teper-eto-legalnaya-it-kompaniya",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 20
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kuba-budet-ispolzovat-kriptovalyuty-dlya-obhoda-sankciy",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kurskie-vorishki-pohitili-cherez-balkon-30-videokart-dlya-mayninga",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/kvantovyy-kompyuter-google-ne-neset-ugrozu-bitkoinu-razrabotchik",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/litecoin-obespechit-polnostyu-anonimnye-tranzakcii",
+   "clicks": 0,
+   "impressions": 54,
+   "ctr": 0,
+   "position": 12.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/litecoin-otprazdnoval-desyatiletie-na-fone-postepennogo-rosta",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/luchshie-airdrop-dekabrya-gde-vzyat-dengi-seychas",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk",
+   "clicks": 0,
+   "impressions": 2826,
+   "ctr": 0,
+   "position": 49.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/luchshiy-mayner",
+   "clicks": 0,
+   "impressions": 150,
+   "ctr": 0,
+   "position": 42.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/luna-i-ust-nazvali-osnovnymi-vinovnikami-obvala-rynka-kriptovalyut",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/lyuksovye-shveycarskie-kriptochasy-prodayut-za-60-000-usd",
+   "clicks": 0,
+   "impressions": 20,
+   "ctr": 0,
+   "position": 16.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mask-nameknul-chto-tesla-vladeet-primerno-42-tys-bitkoinov",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/matematicheskoe-chudo-tak-opisal-bitkoin-stiv-voznyak",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/materinskaya-plata-dlya-mayninga-kakuyu-vybrat-v-2019-2020",
+   "clicks": 0,
+   "impressions": 1258,
+   "ctr": 0,
+   "position": 33.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mayner-iz-irkutska-szheg-kvartiru-slishkom-aktivno-dobyvaya-bitkoiny",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/maynery-innosilicon-t3-57t-i-innosilicon-t3-50t-obzor-harakteristiki-cena",
+   "clicks": 0,
+   "impressions": 120,
+   "ctr": 0,
+   "position": 8.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/maynery-podtverzhdayut-zanizhenie-heshreyta-u-rtx-3080-ti",
+   "clicks": 0,
+   "impressions": 32,
+   "ctr": 0,
+   "position": 27.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mayning-kriptovalyuty-na-telefone-v-chem-opasnost",
+   "clicks": 0,
+   "impressions": 182,
+   "ctr": 0,
+   "position": 30.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chno-nuzhno-znat",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mayning-treyding-ili-holding-chto-vybrat-dlya-priumnozheniya-kapitala",
+   "clicks": 0,
+   "impressions": 78,
+   "ctr": 0,
+   "position": 7.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mayning-v-ssha-proshloe-i-budushchee-dobychi-kriptovalyut",
+   "clicks": 0,
+   "impressions": 57,
+   "ctr": 0,
+   "position": 50.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mayningovye-kompanii-pokidayut-kazahstan-strana-utonula-v-proverkah",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 17
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mcdonald-s-poshutil-a-grimacecoin-vzletel-v-cene-na-285-000",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mett-deymon-stal-licom-ploshchadki-po-obmenu-cifry-crypto-com",
+   "clicks": 0,
+   "impressions": 26,
+   "ctr": 0,
+   "position": 6.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/microbt-testiruet-superasik-whatsminer-m30s-s-heshreytom-88-th-s",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 9.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mining-ai-infrastructure-diversification",
+   "clicks": 0,
+   "impressions": 94,
+   "ctr": 0,
+   "position": 10.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mobilnyy-mayning-preimushchestva-i-nedostatki",
+   "clicks": 0,
+   "impressions": 354,
+   "ctr": 0,
+   "position": 16.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/moshenniki-vzlamyvayut-telegram-v-rossii-pri-pomoshchi-sms",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 6.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/mozhno-li-kupit-byvshie-v-upotreblenii-asiki-i-vygodno-maynit",
+   "clicks": 0,
+   "impressions": 26,
+   "ctr": 0,
+   "position": 23.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/na-belorusskoy-kriptobirzhe-dobavili-19-novyh-tokenov",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 6.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/na-bitcointalk-obyavilsya-novyy-satoshi-nakamoto",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 58.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/na-blokcheyne-polygon-aktivizirovali-mehanizm-szhiganiya-kriptovalyuty",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 5.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/na-chem-maynit-v-2021-novye-modeli-asikov-vs-starye-na-immersionnom-ohlazhdenii",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 54.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/na-dolyu-seti-bitkoin-prihoditsya-0-08-mirovyh-vybrosov-co2-issledovanie",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 9.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/na-gibridnyh-processorah-playstation-5-hotyat-maynit-eth-i-ton",
+   "clicks": 0,
+   "impressions": 37,
+   "ctr": 0,
+   "position": 44.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/na-wdms-2019-bitmain-predstavil-dve-novinki-antminer-s17-i-t17",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 13
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/nasdaq-dobavila-kriptoindeks-cx100-na-osnove-sotni-kriptovalyut",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 5.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/nazvany-imena-samyh-bogatyh-lyudey-mira-kriptovalyut",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 6.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ne-stalo-izvestnogo-homyaka-treydera-mistera-goksa",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 7.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ne-tolko-nakamoto-anonimnye-personazhi-mira-kriptovalyuty",
+   "clicks": 0,
+   "impressions": 26,
+   "ctr": 0,
+   "position": 6.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/netflix-vypustil-spornyy-film-ob-osnovatele-birzhi-quadrigacx",
+   "clicks": 0,
+   "impressions": 29,
+   "ctr": 0,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/nicehash-polnostyu-razblokiroval-videokarty-nvidia-dlya-mayninga",
+   "clicks": 0,
+   "impressions": 28,
+   "ctr": 0,
+   "position": 16.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/nigeriya-zapustila-cifrovoy-analog-nacionalnoy-valyuty-enaira",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 7.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/nochyu-bitkoin-pribavlyal-po-1-kazhdyy-chas-i-dostig-8-500-usd",
+   "clicks": 0,
+   "impressions": 189,
+   "ctr": 0,
+   "position": 20.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/novye-antminer-z11-razobrali-za-20-minut-po-predzakazu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/novye-asiki-bitmain-s17-i-t17-kogda-ozhidat-i-chto-delat-so-starymi",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 44.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/novye-oficialnye-proshivki-ot-bitmain-blokiruyut-22-oy-port-i-apgreyd",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 8.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/novyy-asik-bitmain-antminer-s19-xp-hyd-harakteristiki-dohodnost-okupaemost",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 8.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/nvidia-i-hakery-obmenyalis-vzaimnymi-atakami-s-preduprezhdeniyami",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 5.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/oblachnyy-mayning-vs-domashniy-mayning-vybiraem-luchshiy-variant",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 29.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/obogrev-doma-maynerami-opyt-k-hascheka-iz-avstrii-i-kommentarii-bixbit",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 8.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/obogrev-doma-maynerami-opyt-k-hascheka-opyt",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/obzor-antminer-s17e-i-antminer-t17e-kotorye-postupyat-v-prodazhu-9-sentyabrya-cena-okupaemost",
+   "clicks": 0,
+   "impressions": 72,
+   "ctr": 0,
+   "position": 7.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/obzor-asic-antminer-k7",
+   "clicks": 0,
+   "impressions": 124,
+   "ctr": 0,
+   "position": 9.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/obzor-asika-canaan-avalon-made-a1266-harakteristiki-pribylnost-i-okupaemost",
+   "clicks": 0,
+   "impressions": 64,
+   "ctr": 0,
+   "position": 11.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/obzor-bitmain-antminer-l7-harakteristiki-cena-okupaemost",
+   "clicks": 0,
+   "impressions": 67,
+   "ctr": 0,
+   "position": 8.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/obzor-koshelka-bc-vault-apparatnoe-ustroystvo-s-generatorom-sluchaynyh-klyuchey",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/odin-iz-gorodov-gondurasa-priznal-bitkoin-i-inye-kriptovalyuty-sredstvom-raschetov",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 5.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/odin-iz-pulov-ugrozhaet-atakoy-51-na-set-monero-xmr",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 8.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/odinochnyy-mayner-neozhidanno-zarabotal-170-eth-za-verificirovannyy-blok",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/opera-dobavila-pryamye-platezhi-v-kriptovalyute-bitkoin",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 7.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/osnovatel-twitter-mozhet-zanyatsya-vypuskom-bitkoin-maynerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ostin-stanet-novym-centrom-kriptomayninga-v-ssha-chinovniki-odobryayut",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 3.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ostorozhno-kompaniya-numiner-vypustila-moshchneyshiy-asik-v-mire",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 70.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/paypal-uvelichila-limit-pokupok-v-kriptovalyute-do-100k-v-nedelyu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/peregrin-tuk-iz-vlastelina-kolec-prodvigaet-kriptoskam",
+   "clicks": 0,
+   "impressions": 27,
+   "ctr": 0,
+   "position": 10.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/perestala-sushchestvovat-birzha-okex-ona-smenila-nazvanie",
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 7.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/pervyy-hardfork-v-seti-eos-byl-odobren-pochti-edinoglasno",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 23.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/pochemu-emissiya-bitkoina-ogranetok",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/pochemu-emissiya-bitkoina-ogranichena-21-mln-monetok",
+   "clicks": 0,
+   "impressions": 565,
+   "ctr": 0,
+   "position": 7.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/pochemu-luchshe-ispolzovat-kastomnuyu-proshivku-dlya-asic",
+   "clicks": 0,
+   "impressions": 38,
+   "ctr": 0,
+   "position": 8.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/pochemu-zakrylsya-coinhive-skrytyy-mayning-monero-ili-kriptozima",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/podpolnuyu-mayning-fermu-nashli-pryamo-v-podvale-fb-tegerana",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 17
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/polskaya-torgovaya-ploshchadka-bitmarket-obyavila-o-zakrytii",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 6.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/poyavilis-harakteristiki-bitmain-s15-i-t15",
+   "clicks": 0,
+   "impressions": 72,
+   "ctr": 0,
+   "position": 11.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/predvaritelnyy-obzor-bitmain-antminer-s9k-povtorenie-proydennogo",
+   "clicks": 0,
+   "impressions": 69,
+   "ctr": 0,
+   "position": 8.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/prezident-tanzanii-poruchila-centrobanku-izuchit-kriptovalyuty",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 6.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/programmy-maynery-pryachutsya-v-uchebnikah-dlya-vuzov-i-kolledzhey",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 5.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/proizvoditel-elektrokarov-zhiji-vypustit-prilozhenie-mayni-poka-edesh",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/propusknaya-sposobnost-lightning-network-v-seti-bitkoin-prevysila-1-000-btc",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 4.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/proshivka-asic-antminer-l3-uluchshenie-effektivnosti-proizvoditelnosti",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/proshivka-dlya-whatsminer-razgon-dlya-m2x-m3x-m5x-seriy",
+   "clicks": 0,
+   "impressions": 88,
+   "ctr": 0,
+   "position": 13.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/provayder-kriptokoshelkov-blockchain-zapustil-birzhu-pit",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/puly-dlya-mayninga-kakie-vybrat-v-2019-2010",
+   "clicks": 0,
+   "impressions": 435,
+   "ctr": 0,
+   "position": 49.0
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/pyat-luchshih-kriptovalyut-dlya-dolgosrochnyh-investiciy-po-versii-weiss-ratings",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/pylevaya-ataka-chto-eto-i-kak-zashchititsya",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 22.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/razrabotchik-kriptovalyuty-monero-r-spani-arestovan-v-ssha-emu-grozit-do-20-let",
+   "clicks": 0,
+   "impressions": 24,
+   "ctr": 0,
+   "position": 4.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/red-bull-iz-formuly-1-stala-partnerom-blokcheyna-tezos",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 23.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/rekomendacii-po-ustanovke-asic-v-kvartire",
+   "clicks": 0,
+   "impressions": 299,
+   "ctr": 0,
+   "position": 48.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/rekordnaya-inflyaciya-v-ssha-chto-eto-znachit-dlya-rynkov-i-kriptovalyut",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 8.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/resurs-crypto-com-stal-oficialnym-sponsorom-fifa-world-cup-2022",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 7.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/resurs-ssd-ot-pny-sokrashchen-na-80-iz-za-maynerov-chia",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 6.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/roskomnadzor-opublikoval-pravila-izolyacii-runeta-v-sluchae-ugrozy",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/rossiyskiy-sud-vpervye-postanovil-nalozhit-arest-na-24-koshelka-s-eth",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/rycar-naemnik-bronn-prodvigaet-kriptoproekt-dlya-vegetariancev",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/rynok-kriptovalyut-obvalilsya-v-srednem-na-10-vse-v-krasnoy-zone",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/s-2019-goda-polsha-vvodit-nalog-na-sdelki-s-kriptovalyutami",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 18.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/samaya-prodolzhitelnaya-manga-golgo-13-posvyatit-novyy-vypusk-kripte",
+   "clicks": 0,
+   "impressions": 32,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/samye-neobychnye-kriptovalyuty-2021-goda-8-otbornyh-blokcheynov",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 7.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/samye-yarkie-kadry-s-blockshow-asia-2018",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 15.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/saratovskiy-gibddeshnik-maynil-kriptovalyutu-pryamo-v-otdele",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/satoshi-nakamoto-20-yy-v-spiske-samyh-bogatyh-lyudey-v-mire",
+   "clicks": 0,
+   "impressions": 116,
+   "ctr": 0,
+   "position": 8.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/semeystvo-sorosov-investirovalo-v-bitkoin-no-nemnogo-neskolko-monet",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 66
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/serebro-vikingov-s-ostrova-men-kak-analogovaya-versiya-btc-1000-letney-davnosti",
+   "clicks": 0,
+   "impressions": 55,
+   "ctr": 0,
+   "position": 6.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/set-bitcoin-cash-ne-registrirovala-novye-bloki-bolee-5-chasov",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/set-bitcoin-gold-opyat-podverglas-atake-51-vyvedeno-80-tys-dollarov",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 24.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/shkolnik-ukral-u-proekta-340-tys-dollarov-v-eth-no-zatem-vernul",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/shveycarskiy-lugano-priznaet-btc-i-usdt-ravnymi-fiatnoy-valyute",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 5.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/sistema-otopleniya-v-chastnom-dome-vybor-oborudovaniya-i-podklyuchenie",
+   "clicks": 0,
+   "impressions": 75,
+   "ctr": 0,
+   "position": 29.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/skolko-megaheshey-vydaet-nvidia-rtx-a2000-pri-mayninge-ethereum",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/skolko-teraheshey-vydali-noutbuki-1986-i-1989-goda-vypuska-pri-dobyche-bitkoina",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/skolko-v-srednem-zanimaet-vzlom-bitkoin-koshelka",
+   "clicks": 0,
+   "impressions": 168,
+   "ctr": 0,
+   "position": 54.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/skrytyy-mayner-monero-obnaruzhili-v-audiofaylah-formata-wav",
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 7.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/slozhnost-mayninga-bitkoina-vyshla-na-novyy-uroven-uzhe-pochti-29-8-t",
+   "clicks": 0,
+   "impressions": 70,
+   "ctr": 0,
+   "position": 8.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/sluhi-za-prohozhdenie-urovney-v-gta-vi-budut-platit-kriptovalyutoy",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 9.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/smi-soobshchayut-chto-meta-opyat-sobiraetsya-vypustit-cifrovye-tokeny",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/socset-weibo-udalila-akkaunty-populyarnyh-kriptoblogerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/softfork-i-hardfork-v-chem-otlichiya",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 10.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/sok-i-bitkoiny-pozhaluysta-v-walmart-nachali-torgovat-btc",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/solo-mayning-bitkoinov-opyat-stanovitsya-pribylnym",
+   "clicks": 0,
+   "impressions": 366,
+   "ctr": 0,
+   "position": 26.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/soosnovatelyu-bitconnect-predyavili-obvinenie-v-sozdanii-shemy-ponci",
+   "clicks": 0,
+   "impressions": 41,
+   "ctr": 0,
+   "position": 19.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/sostoyalsya-reliz-bitcoin-core-0-18-0-chem-poradovali",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 8.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/sponsorom-fc-internazionale-stal-blokcheyn-socios",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 6.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/sravnenie-zhidkostey-novec-i-coolant-pochemu-my-ostanovilis-na-sobstvennoy-razrabotke",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 20.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+   "clicks": 0,
+   "impressions": 461,
+   "ctr": 0,
+   "position": 12.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/stali-izvestny-srednie-tarify-na-elektroenergiyu-v-rossii-v-2020-godu",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 15
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/strany-briks-dogovarivayutsya-o-kriptovalyute-dlya-sebya",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 6.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/teper-v-twitter-mozhno-oficialno-pooshchryat-polzovateley-btc",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/tether-razreshila-vyvodit-usdt-v-fiat-i-obnovila-verifikaciyu-polzovateley",
+   "clicks": 0,
+   "impressions": 21,
+   "ctr": 0,
+   "position": 10.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/tether-vpervye-publichno-pokazala-svoi-rezervy-dengi-est-no-nado-derzhatsya",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/token-automata-vystrelil-na-12-350-blagodarya-vyhodu-na-binance",
+   "clicks": 0,
+   "impressions": 43,
+   "ctr": 0,
+   "position": 46.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/tolko-10-kriptobirzh-iz-83-proshli-v-aprele-test-na-chestnost",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 25.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/tolko-8-krupnyh-birzh-ne-zavyshayut-obemy-torgov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/top-10-glavnyh-kriptovalyut-o-kotoryh-nuzhno-pomnit-v-2020-godu",
+   "clicks": 0,
+   "impressions": 271,
+   "ctr": 0,
+   "position": 9.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/topovaya-videokarta-nvidia-dlya-mayninga-stoit-4-300-usd-okupaemost",
+   "clicks": 0,
+   "impressions": 26,
+   "ctr": 0,
+   "position": 7.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/tretiy-za-mesyac-solo-mayner-poluchil-vsyu-nagradu-v-btc-za-dobytyy-blok",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/tri-glavnye-prichiny-rosta-rynka-kriptovalyut-v-yanvare",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/u-biostar-vyshla-specializirovannaya-materinskaya-plata-dlya-maynerov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/u-bolgarskogo-pravitelstva-trebuyut-otcheta-o-7-7-mlrd-dollarov-v-bitkoinah",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/u-melkih-investorov-svyshe-776-tys-bitkoinov-iz-21-mln",
+   "clicks": 0,
+   "impressions": 28,
+   "ctr": 0,
+   "position": 59.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/u-zhitelya-tyumenskoy-oblasti-pohitili-asikov-na-1-mln-rubley",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 21.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ubiycy-oborudovaniya-dlya-mayninga-izbavlyaemsya-ot-vsy-pyli",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ugrozy-dlya-vashey-kriptovalyuty-troyany",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 20.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/ukraina-prinyala-zakon-o-virtualnyh-aktivah-i-legalizovala-kriptovalyuty",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/unikalnaya-konstrukciya-ustanovki-bixbit-zapatentovana-v-rossii-i-belarusi",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/utilizaciya-tepla",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 24
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-abhazii-izyali-6-000-asikov-kotorye-ispolzovalis-podpolnymi-maynerami",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-chem-preimushchestvo-maynera-intel-bonanza-mine-po-sravneniyu-s-analogami",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 2.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-gruzii-razrabatyvayut-pravila-dlya-regulirovaniya-rynka-kriptovalyut",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 38.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-intel-nazvali-zakazchikov-svoego-novogo-uskoritelya-dobychi-bitkoinov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-irkutskoy-oblasti-rasskazali-pri-kakih-usloviyah-legalizuyut-mayning",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-koshelke-u-gendirektora-birzhi-binance-vsego-dve-kriptovalyuty",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-kyrgyzstane-zakryli-nelegalnuyu-mayning-fermu-na-2-500-ustroystv",
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 30.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-lihtenshteyne-luchshee-v-mire-nalogooblozhenie-kriptovalyut",
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 48.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-malayzii-prodolzhayut-vyyavlyat-i-otklyuchat-podpolnye-mayning-fermy",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-mire-asik-maynerov-poyavilsya-novyy-proizvoditel-agm-group-holdings",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 7.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-novosibirskoy-oblasti-vyyavili-peredvizhnuyu-mayning-fermu-na-baze-zila",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-novoy-zelandii-uzakonili-oplatu-truda-v-kriptovalyute",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 10.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-oktyabre-maynery-dobyli-bitkoinov-na-summu-1-72-mlrd-dollarov",
+   "clicks": 0,
+   "impressions": 82,
+   "ctr": 0,
+   "position": 54.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-pitere-vskryli-kvartiru-s-maynerami-na-1-7-mln-rubley",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 5.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-rossiyu-perevezli-desyatki-tayvanskih-mikroelektronshchikov",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-seti-ethereum-srabotala-bomba-slozhnosti-emissiya-upala-na-25",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-ssha-proveli-regionalnye-vybory-na-blokcheyne",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-tiktok-bolshe-nelzya-reklamirovat-kriptovalyutnye-produkty",
+   "clicks": 0,
+   "impressions": 24,
+   "ctr": 0,
+   "position": 4.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-twitter-dobavili-vozmozhnost-zadonatit-v-kriptovalyute-ethereum",
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 5.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-urugvae-ustanovili-pervyy-v-strane-bitkoin-bankomat",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-uzbekistane-zakryli-mayning-fermu-rabotavshuyu-s-konca-leta-2020-goda",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 11.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-velikobritanii-rastet-populyarnost-kriptovalyut",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/v-vinnice-rabotala-fabrika-botov-a-vovse-ne-mayning-predpriyatie",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 89
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/vazhnoe-obyavlenie-ot-bixbit",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/virus-na-asike-kak-obnaruzhit-i-vylechit",
+   "clicks": 0,
+   "impressions": 51,
+   "ctr": 0,
+   "position": 54.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/vitalik-buterin-otvetil-na-voprosy-professora-fridmana-samoe-interesnoe",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 37.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/vladelcev-kriptovalyuty-iz-indii-hotyat-oblozhit-30-nym-nalogom",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/vladelec-sauny-v-volgograde-dobyval-kriptovalyutu-i-dolzhen-4-5-mln-rubley",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 4.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/vladimir-zelenskiy-podpisal-zakon-o-virtualnyh-aktivah",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 14
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/vnezapno-ozhil-bitkoin-koshelek-molchavshiy-s-2012-goda",
+   "clicks": 0,
+   "impressions": 160,
+   "ctr": 0,
+   "position": 8.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/volatilnost-kriptovalyut-i-fiata-za-iyun-vremya-shtorma",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 24.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/vozmozhen-li-blokcheyn-bez-tokenov-i-ataki-51",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 15
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/vzlom-birzhi-binance-ukradeno-7-tys-bitkoinov",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 8.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/xilinx-podgotovil-edinuyu-platformu-vitis-dlya-fpga-razrabotchikov",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/yaponskaya-e-commerce-kompaniya-dmm-prekrashchaet-dobychu-kripty",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/za-12-let-bitkoin-pohoronili-414-raz-no-kolichestvo-poiskovyh-zaprosov-lish-rastet",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/za-30-minut-bitkoin-poteryal-600-usd-ot-pervonachalnoy-stoimosti",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/za-dogecoin-v-tesla-mozhno-kupit-pochti-vse-krome-elektromobiley",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 27.9
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/za-poslednie-8-let-zakrylos-ot-700-do-1700-kriptovalyutnyh-proektov",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/zachem-atakuyut-set-bitcoin-sv-kommentarii-razrabotchikov",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 6.1
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/zarabotal-testovyy-koshelek-dlya-blokcheyn-platformy-telegram",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 5.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/zhilcy-mnogokvartirnogo-doma-v-krasnoyarske-vychislili-mayning-fermu",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 8.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/zhiteli-shtata-kolorado-smogut-platit-nalogi-v-btc-i-eth",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 7.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/zhurnal-obnovleniy-ams",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 19.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/zhurnal-obnovleniy-proshivki-dlya-whatsminer",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 16.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/post/znamenitosti-prodolzhayut-vkladyvatsya-v-kriptovalyuty",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 10.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/tags/bitkoin",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 54.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog/tags/mining",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 21.6
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=103",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=106",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 26.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=109",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 14.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=114",
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 32.7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=118",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 24
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=119",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 11.3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=12",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=120",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 14
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=121",
+   "clicks": 0,
+   "impressions": 16,
+   "ctr": 0,
+   "position": 12.4
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=19",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 13.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=27",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 89
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=45",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=53",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 19
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=63",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 44
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=67",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 21.8
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=7",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=75",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 30
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=8",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 30
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=85",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 31.5
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=87",
+   "clicks": 0,
+   "impressions": 18,
+   "ctr": 0,
+   "position": 19.2
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=9",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "page": "https://bixbit.io/ru/blog?page=98",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-dlia-whatsminer-asic/",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-reheniia/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia/",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-bloka-pitaniia/rekomendatsii",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 4.7
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/1-komplektatsiia-postavki-dopolnitelnogo-boka-pitaniia",
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 9.5
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/2-obshchie-trebovaniia-k-dopolnitelnomu-bloku-pitaniia-i-provodam-dlia-podkliucheniia",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5.8
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/3-1-montazh-modifitsirovannoi-shiny-pitaniia-mainera",
+   "clicks": 0,
+   "impressions": 27,
+   "ctr": 0,
+   "position": 4.1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/3-2-ustanovka-bloka-pitaniia",
+   "clicks": 0,
+   "impressions": 65,
+   "ctr": 0,
+   "position": 11.7
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/3-montazh-i-podkliuchenie-dopolnitelnogo-bloka-pitaniia",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 5.7
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/4-nastroika-napriazheniia-na-dopolnitelnom-bloke-pitaniia",
+   "clicks": 0,
+   "impressions": 34,
+   "ctr": 0,
+   "position": 5.2
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/1-tekhnicheskie-trebovaniia",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 7.1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-2-nastroika-otobrazheniia-dannykh",
+   "clicks": 0,
+   "impressions": 36,
+   "ctr": 0,
+   "position": 11.2
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-3-zagruzka-obraza-proshivki-on-sd-kartu",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-4-obnovlenie-proshivki-bixbit-na-bolee-novuiu-versiiu-na-liuboi-modeli-kpu",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 11.1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnov%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-proshivki-mainera",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-1-podgotovka-mainera-k-pogruzheniiu",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 8.2
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-1-podgotovka-mainera-k-pogruzheniiu-1",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5.8
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-2-dostupnye-na-stranitse-overclock-optsii",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 2.6
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-1-eksport-spiska-mainerov-glavnogo-okna-s-dannymi-tablitsy-v-csv-fail",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-1-vkladka-proxy",
+   "clicks": 0,
+   "impressions": 38,
+   "ctr": 0,
+   "position": 9.8
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-1-3-ams-1",
+   "clicks": 0,
+   "impressions": 52,
+   "ctr": 0,
+   "position": 26.4
+  },
+  {
+   "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-3-vspomogatelnye-instruktsii",
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 3.2
+  },
+  {
+   "page": "https://bixbit.io/ru/en",
+   "clicks": 0,
+   "impressions": 191,
+   "ctr": 0,
+   "position": 1.7
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/asic-S17-S17Pro",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 44.7
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/asic-S17-plus",
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 15.7
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/asic-T17-plus",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 21.2
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/asic-s9-s9j-s9i",
+   "clicks": 0,
+   "impressions": 204,
+   "ctr": 0,
+   "position": 41.2
+  },
+  {
+   "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m6x",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "page": "https://bixbit.io/ru/products/container-1k",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 4.6
+  },
+  {
+   "page": "https://bixbit.io/ru/success/download-hub",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://bixbit.io/ru/success/products",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://bixbit.io/ru/success/request-antiminer",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://bixbit.io/ru/sustainability",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 2.8
+  },
+  {
+   "page": "https://bixbit.io/ru?PageSpeed=noscript&yandex-source=desktop-maps",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 2.7
+  }
+ ]
+}

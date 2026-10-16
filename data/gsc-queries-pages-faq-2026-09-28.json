@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "site": "https://bixbit.io/",
+  "start": "2026-08-29",
+  "end": "2026-09-25",
+  "dimensions": [
+   "query",
+   "page"
+  ],
+  "filters": [
+   {
+    "dimension": "page",
+    "operator": "contains",
+    "expression": "/faq"
+   }
+  ],
+  "search_type": "web",
+  "rows": 7,
+  "pulled_at": "2026-09-28T16:59:57"
+ },
+ "rows": [
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/en/faq",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 9.8
+  },
+  {
+   "query": "bixbit",
+   "page": "https://bixbit.io/es/faq",
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 8.2
+  },
+  {
+   "query": "bixbit ams",
+   "page": "https://bixbit.io/en/faq",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 69.9
+  },
+  {
+   "query": "bixbit firmware",
+   "page": "https://bixbit.io/en/faq",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 71.3
+  },
+  {
+   "query": "bixbit immersion cooling",
+   "page": "https://bixbit.io/en/faq",
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 72.9
+  },
+  {
+   "query": "site:bixbit.io",
+   "page": "https://bixbit.io/es/faq",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "query": "whatsminer immersion firmware",
+   "page": "https://bixbit.io/en/faq",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 2
+  }
+ ]
+}

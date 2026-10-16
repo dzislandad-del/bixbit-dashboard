@@ -1,0 +1,1170 @@
+{
+ "meta": {
+  "date": "2026-09-28",
+  "location": "United States (2840)",
+  "language": "en",
+  "sources": [
+   "DataForSEO Labs keyword_suggestions x7 (limit 40, vol>0)",
+   "Google Ads search_volume x2 (96 kw)",
+   "SERP google organic live advanced x3 (depth 30, noAiMode)"
+  ],
+  "cost_usd": {
+   "labs_keyword_suggestions": 0.085,
+   "google_ads_search_volume": 0.18,
+   "serp": 0.018,
+   "total_approx": 0.283
+  },
+  "notes": [
+   "Google Ads call #1 ran in AI mode and returned only the first 10 of 50 keywords; the other 40 of those were re-queried in call #2 (noAiMode) — 6 keywords from call #1 besides the 4 below returned no volume (n/d).",
+   "n/d = Google Ads returned no volume (<~10/mo).",
+   "Off-topic Labs suggestions (dog cooling mats, hats, Corsair PC coolers, games) dropped.",
+   "SERP is volatile; bixbit.io not in the returned top ~26 for any of the 3 queries (DFS ranked_keywords 2026-09-25: mining container #22)."
+  ]
+ },
+ "labs_suggestions": {
+  "mining container": [
+   {
+    "keyword": "crypto mining container",
+    "vol": 390,
+    "cpc": 4.3,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "container for mining",
+    "vol": 390,
+    "cpc": 4.2,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "mining container",
+    "vol": 390,
+    "cpc": 4.2,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "container crypto mining",
+    "vol": 390,
+    "cpc": 4.3,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "crypto mining container for sale",
+    "vol": 170,
+    "cpc": null,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "crypto mining shipping container",
+    "vol": 170,
+    "cpc": null,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "mining container price",
+    "vol": 40,
+    "cpc": null,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "shipping container mining farm",
+    "vol": 10,
+    "cpc": null,
+    "kd": 39,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "cryptocurrency mining container",
+    "vol": 10,
+    "cpc": null,
+    "kd": 42,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "bitmain mining container",
+    "vol": 10,
+    "cpc": null,
+    "kd": 38,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "mining container for sale",
+    "vol": 10,
+    "cpc": null,
+    "kd": 19,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "mobile mining container",
+    "vol": 10,
+    "cpc": null,
+    "kd": 23,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "hydro mining container",
+    "vol": 10,
+    "cpc": 2.69,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "mining container for sale usa",
+    "vol": 10,
+    "cpc": null,
+    "kd": 27,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "antbox mining container",
+    "vol": 10,
+    "cpc": 2.66,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "asic mining container",
+    "vol": 10,
+    "cpc": null,
+    "kd": 27,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "immersion mining container",
+    "vol": 10,
+    "cpc": null,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "shipping container mining",
+    "vol": 10,
+    "cpc": null,
+    "kd": 39,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "mining shipping container",
+    "vol": 10,
+    "cpc": null,
+    "kd": 39,
+    "intent": "informational"
+   }
+  ],
+  "hydro cooling": [
+   {
+    "keyword": "hydro cooling",
+    "vol": 260,
+    "cpc": 0.85,
+    "kd": null,
+    "intent": "transactional (mostly PC/consumer)"
+   },
+   {
+    "keyword": "hydro cooling system",
+    "vol": 40,
+    "cpc": 6.42,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "asic hydro cooling",
+    "vol": 10,
+    "cpc": null,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "bitmain hydro cooling",
+    "vol": 10,
+    "cpc": null,
+    "kd": null,
+    "intent": "transactional"
+   }
+  ],
+  "mining rack": [
+   {
+    "keyword": "gpu mining rack",
+    "vol": 70,
+    "cpc": 0.27,
+    "kd": 27,
+    "intent": "transactional (GPU, off-ICP)"
+   },
+   {
+    "keyword": "mining rack",
+    "vol": 40,
+    "cpc": 0.36,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "rack mining",
+    "vol": 40,
+    "cpc": 0.36,
+    "kd": null,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "crypto mining rack",
+    "vol": 20,
+    "cpc": 3.82,
+    "kd": 1,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "mining rig server rack",
+    "vol": 20,
+    "cpc": 0.81,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "rack mount mining rig",
+    "vol": 20,
+    "cpc": 0.81,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "asic mining rack",
+    "vol": 10,
+    "cpc": null,
+    "kd": 55,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "crypto mining server rack",
+    "vol": 10,
+    "cpc": null,
+    "kd": 23,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "mining server rack",
+    "vol": 10,
+    "cpc": 0.31,
+    "kd": 18,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "mining rack for sale",
+    "vol": 10,
+    "cpc": null,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "best mining rack",
+    "vol": 10,
+    "cpc": null,
+    "kd": 19,
+    "intent": "transactional"
+   }
+  ],
+  "immersion cooling tank": [
+   {
+    "keyword": "immersion cooling tank",
+    "vol": 70,
+    "cpc": 9.54,
+    "kd": 3,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "asic immersion cooling tank",
+    "vol": 10,
+    "cpc": null,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "liquid immersion cooling tank",
+    "vol": 10,
+    "cpc": null,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "immersion cooling tank design",
+    "vol": 10,
+    "cpc": null,
+    "kd": null,
+    "intent": "informational"
+   }
+  ],
+  "server immersion cooling": [
+   {
+    "keyword": "server immersion cooling",
+    "vol": 1600,
+    "cpc": 3.93,
+    "kd": 21,
+    "intent": "informational (DC, wider than ICP)"
+   },
+   {
+    "keyword": "immersion cooling server",
+    "vol": 50,
+    "cpc": 5.49,
+    "kd": 25,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "server immersion cooling system",
+    "vol": 10,
+    "cpc": 10.5,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "immersion cooling server rack",
+    "vol": 10,
+    "cpc": null,
+    "kd": 6,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "immersion server cooling",
+    "vol": 10,
+    "cpc": null,
+    "kd": 16,
+    "intent": "informational"
+   }
+  ],
+  "immersion cooling fluid": [
+   {
+    "keyword": "immersion cooling fluid",
+    "vol": 110,
+    "cpc": 7.11,
+    "kd": 9,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "dielectric fluid for immersion cooling",
+    "vol": 70,
+    "cpc": 7.6,
+    "kd": 2,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "shell immersion cooling fluid",
+    "vol": 30,
+    "cpc": null,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "immersion cooling fluid price",
+    "vol": 20,
+    "cpc": 3.18,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "dielectric fluid immersion cooling",
+    "vol": 10,
+    "cpc": 11.35,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "single phase immersion cooling fluid",
+    "vol": 10,
+    "cpc": null,
+    "kd": null,
+    "intent": "transactional"
+   }
+  ],
+  "asic water cooling": [
+   {
+    "keyword": "water cooling asic miner",
+    "vol": 10,
+    "cpc": null,
+    "kd": 48,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "asic water cooling",
+    "vol": 10,
+    "cpc": null,
+    "kd": 49,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "asic miner water cooling",
+    "vol": 10,
+    "cpc": 0.59,
+    "kd": 48,
+    "intent": "transactional"
+   }
+  ]
+ },
+ "google_ads_volume": [
+  {
+   "keyword": "hydro container",
+   "vol": 20,
+   "cpc": null,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "hydro mining container",
+   "vol": 10,
+   "cpc": 2.69,
+   "comp": "MEDIUM"
+  },
+  {
+   "keyword": "mining water cooling",
+   "vol": 90,
+   "cpc": null,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "hydro miner",
+   "vol": 90,
+   "cpc": 1.53,
+   "comp": "HIGH"
+  },
+  {
+   "keyword": "whatsminer hydro container",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "hydro cooled container",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "hydro cooling asic",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "hydro cooling bitcoin miner",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "hydro cooling mining",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "bitcoin mining water cooling",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "hydro rack",
+   "vol": 40,
+   "cpc": 1.53,
+   "comp": "MEDIUM"
+  },
+  {
+   "keyword": "hydro mining rack",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "antminer hydro",
+   "vol": 20,
+   "cpc": 1.39,
+   "comp": "HIGH"
+  },
+  {
+   "keyword": "whatsminer hydro",
+   "vol": 10,
+   "cpc": 1.42,
+   "comp": "HIGH"
+  },
+  {
+   "keyword": "antminer s21 hydro",
+   "vol": 90,
+   "cpc": 1.65,
+   "comp": "HIGH"
+  },
+  {
+   "keyword": "direct to chip cooling",
+   "vol": 590,
+   "cpc": 11.92,
+   "comp": "MEDIUM"
+  },
+  {
+   "keyword": "dry cooler",
+   "vol": 880,
+   "cpc": 5.97,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "dry cooler mining",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "asic liquid cooling",
+   "vol": 10,
+   "cpc": null,
+   "comp": "MEDIUM"
+  },
+  {
+   "keyword": "liquid cooling asic miner",
+   "vol": 10,
+   "cpc": null,
+   "comp": "HIGH"
+  },
+  {
+   "keyword": "immersion container",
+   "vol": 10,
+   "cpc": null,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "immersion cooling container",
+   "vol": 10,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "immersion cooling kit",
+   "vol": 10,
+   "cpc": null,
+   "comp": "HIGH"
+  },
+  {
+   "keyword": "asic immersion cooling kit",
+   "vol": 10,
+   "cpc": 0.3,
+   "comp": "HIGH"
+  },
+  {
+   "keyword": "immersion cooling mining rig",
+   "vol": 10,
+   "cpc": null,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "mining coolant",
+   "vol": 10,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "mining coolants",
+   "vol": 10,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "immersion cooling oil",
+   "vol": 10,
+   "cpc": 23.57,
+   "comp": "MEDIUM"
+  },
+  {
+   "keyword": "dielectric coolant",
+   "vol": 170,
+   "cpc": 3.38,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "prefab data center",
+   "vol": 140,
+   "cpc": 16.59,
+   "comp": "MEDIUM"
+  },
+  {
+   "keyword": "modular data center",
+   "vol": 1900,
+   "cpc": 12.63,
+   "comp": "MEDIUM"
+  },
+  {
+   "keyword": "data center immersion cooling",
+   "vol": 590,
+   "cpc": 11.23,
+   "comp": "MEDIUM"
+  },
+  {
+   "keyword": "immersion cooling for data centers",
+   "vol": 210,
+   "cpc": 9.32,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "server cooling solutions",
+   "vol": 70,
+   "cpc": 3.72,
+   "comp": "MEDIUM"
+  },
+  {
+   "keyword": "bitcoin mining heat reuse",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "40ft mining container",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "20ft mining container",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "bitcoin mining container cost",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "mining farm cooling",
+   "vol": 10,
+   "cpc": null,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "crypto mining cooling",
+   "vol": 10,
+   "cpc": null,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "asic cooling system",
+   "vol": 10,
+   "cpc": null,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "asic miner cooling system",
+   "vol": 10,
+   "cpc": null,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "crypto mining cooling systems",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "mining cooling solutions",
+   "vol": 10,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "asic cooler",
+   "vol": 40,
+   "cpc": 0.21,
+   "comp": "HIGH"
+  },
+  {
+   "keyword": "bitcoin mining rack",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "asic miner rack",
+   "vol": 10,
+   "cpc": null,
+   "comp": "LOW"
+  },
+  {
+   "keyword": "miner rack",
+   "vol": 40,
+   "cpc": 0.36,
+   "comp": "MEDIUM"
+  },
+  {
+   "keyword": "bitcoin mining container",
+   "vol": null,
+   "cpc": null,
+   "comp": null
+  },
+  {
+   "keyword": "crypto container",
+   "vol": 170,
+   "cpc": null,
+   "comp": "LOW"
+  }
+ ],
+ "serp": {
+  "mining container": {
+   "cost": 0.006,
+   "se_results_count": 106000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "popular_products",
+    "images",
+    "people_also_ask"
+   ],
+   "organic": [
+    {
+     "pos": 1,
+     "domain": "apextomining.com",
+     "title": "189 Slots Air Cooling Mining Box 20TF for Antminer"
+    },
+    {
+     "pos": 2,
+     "domain": "www.lianliwork.com",
+     "title": "LianLI Space Antminer Hydro Bitcion Mining Container"
+    },
+    {
+     "pos": 3,
+     "domain": "www.youtube.com",
+     "title": "FBOX Air Cooling - Smart Crypto Mining Solution"
+    },
+    {
+     "pos": 4,
+     "domain": "www.alibaba.com",
+     "title": "Act 40ft Btc Mining Solution 2000kw 70phs Supports Multi ..."
+    },
+    {
+     "pos": 5,
+     "domain": "www.cma-cgm.com",
+     "title": "Press Release CMA CGM implements T-Mining's Secure ..."
+    },
+    {
+     "pos": 6,
+     "domain": "medium.com",
+     "title": "7 Pitfalls to Avoid When Selecting a Crypto Mining Container"
+    },
+    {
+     "pos": 7,
+     "domain": "www.khomehouse.com",
+     "title": "Customized Flat Pack Container Mining Camp"
+    },
+    {
+     "pos": 8,
+     "domain": "www.researchgate.net",
+     "title": "(PDF) Container technology for transporting rock masses in ..."
+    },
+    {
+     "pos": 9,
+     "domain": "www.youtube.com",
+     "title": "FBOX Hydro Cooling | 40ft Container Solution"
+    },
+    {
+     "pos": 10,
+     "domain": "www.globalsources.com",
+     "title": "Bitmain Brand New Antbox N5 20feet Mobile Container ..."
+    },
+    {
+     "pos": 11,
+     "domain": "www.gatewaycontainersales.com.au",
+     "title": "Modified Shipping Containers in the Mining Industry"
+    },
+    {
+     "pos": 12,
+     "domain": "letine.en.made-in-china.com",
+     "title": "Mining Container and Water-Cooled Cabinet price"
+    },
+    {
+     "pos": 13,
+     "domain": "www.linkedin.com",
+     "title": "Choosing a Crypto Mining Container in Canada | EZ ..."
+    },
+    {
+     "pos": 14,
+     "domain": "www.ebay.com",
+     "title": "Stainless Steel Gold Mining Sleuth Sifter Metal Storage ..."
+    },
+    {
+     "pos": 15,
+     "domain": "www.youtube.com",
+     "title": "ASIC Container vs GPU Rigs: Mining Farm Showdown! #shorts"
+    },
+    {
+     "pos": 16,
+     "domain": "wiki.guildwars2.com",
+     "title": "Mining Rig Operator's Seat (container)"
+    },
+    {
+     "pos": 17,
+     "domain": "www.youtube.com",
+     "title": "364-Slot Antminer Hydro Cooling Container"
+    },
+    {
+     "pos": 18,
+     "domain": "www.wa.gov.au",
+     "title": "New initiative to boost container recycling in WA's mining ..."
+    },
+    {
+     "pos": 19,
+     "domain": "oneminers.com",
+     "title": "Krypto -Bergbaubehälter zum Verkauf"
+    },
+    {
+     "pos": 20,
+     "domain": "absolutecontainers.co.za",
+     "title": "Shipping Container Conversions - Improve Mining Efficiency"
+    },
+    {
+     "pos": 21,
+     "domain": "www.youtube.com",
+     "title": "Digital Shovel - 20Ft - 600 ASIC - 900 KW Capacity Mining ..."
+    },
+    {
+     "pos": 22,
+     "domain": "www.tradecorp-usa.com",
+     "title": "Container Office Buildings and How They Benefit ..."
+    },
+    {
+     "pos": 23,
+     "domain": "de.made-in-china.com",
+     "title": "Bitcoin Mining Container Handels Mining Rig ..."
+    },
+    {
+     "pos": 24,
+     "domain": "www.pinterest.com",
+     "title": "13 Best Soundproof box ideas | bitcoin mining container ..."
+    },
+    {
+     "pos": 25,
+     "domain": "www.alibaba.com",
+     "title": "Act Btc Hydro Mining Container 100ph/s-200ph/s Sha-256 ..."
+    },
+    {
+     "pos": 26,
+     "domain": "www.cnbtcbox.com",
+     "title": "bitmain container - China Factory, Suppliers, Manufacturers"
+    }
+   ],
+   "paa": [
+    "How long does it take to mine $1 of Bitcoin?",
+    "Is it illegal to own a Bitcoin miner?",
+    "How much does a Bitcoin mining container cost?",
+    "Is it still worth it to mine bitcoin in 2026?"
+   ],
+   "aio_ref_domains": [],
+   "bixbit_in_top": false
+  },
+  "immersion cooling tank": {
+   "cost": 0.006,
+   "se_results_count": 142000,
+   "item_types": [
+    "ai_overview",
+    "images",
+    "organic",
+    "popular_products",
+    "people_also_ask"
+   ],
+   "organic": [
+    {
+     "pos": 1,
+     "domain": "www.gigabyte.com",
+     "title": "Single-phase Immersion Cooling with GIGABYTE | Solution"
+    },
+    {
+     "pos": 2,
+     "domain": "iotserver4g.trumeter.com",
+     "title": "Immersion Cooling Server: How the Technology Works and ..."
+    },
+    {
+     "pos": 3,
+     "domain": "medium.com",
+     "title": "Liquid Gold: Immersion Cooling in Data Centers"
+    },
+    {
+     "pos": 4,
+     "domain": "en.dekuma.com",
+     "title": "Spray Immersion Cooling Tank - DEKUMA"
+    },
+    {
+     "pos": 5,
+     "domain": "midasimmersion.com",
+     "title": "Low Maintenance Bitcoin Mining"
+    },
+    {
+     "pos": 6,
+     "domain": "www.techshowmadrid.es",
+     "title": "\"Immersion cooling is the key to future-proof data centers\""
+    },
+    {
+     "pos": 7,
+     "domain": "electronics.alibaba.com",
+     "title": "Immersion Tank Guide: How to Choose the Right Type"
+    },
+    {
+     "pos": 8,
+     "domain": "online.flippingbook.com",
+     "title": "New Depths of Data Center Efficiency with Immersion ..."
+    },
+    {
+     "pos": 9,
+     "domain": "www.reddit.com",
+     "title": "Castrol is developing dielectric fluids for immersion cooling ..."
+    },
+    {
+     "pos": 10,
+     "domain": "www.linkedin.com",
+     "title": "Why immersion cooling didn't take off for AI workloads"
+    },
+    {
+     "pos": 11,
+     "domain": "dl.acm.org",
+     "title": "Dense Server Design for Immersion Cooling"
+    },
+    {
+     "pos": 12,
+     "domain": "peasoup.cloud",
+     "title": "Liquid Immersion Cooling"
+    },
+    {
+     "pos": 13,
+     "domain": "www.mathworks.com",
+     "title": "How to configure rectangular immersion cooling tank with ..."
+    },
+    {
+     "pos": 14,
+     "domain": "eureka.patsnap.com",
+     "title": "Retrofit Strategies For Existing Data Centers To Immersion ..."
+    },
+    {
+     "pos": 15,
+     "domain": "faq.engineeredfluids.com",
+     "title": "How you distribute the fluid in the bottom of the SLIC tank"
+    },
+    {
+     "pos": 16,
+     "domain": "www.quora.com",
+     "title": "How does immersion phase-change cooling with LM-14B ..."
+    },
+    {
+     "pos": 17,
+     "domain": "immersion-cool.com",
+     "title": "Immersion Cooling Deep Dive Report: Insights & Case Studies"
+    },
+    {
+     "pos": 18,
+     "domain": "www.reddit.com",
+     "title": "DIY Immersion Cooling an S19 J Pro Bitcoin Miner With ..."
+    },
+    {
+     "pos": 19,
+     "domain": "www.linkedin.com",
+     "title": "Article 4: Power Distribution for Immersion Cooling Tanks"
+    },
+    {
+     "pos": 20,
+     "domain": "www.gigabyte.com",
+     "title": "GIGABYTE Announces a New Comprehensive Single ..."
+    },
+    {
+     "pos": 21,
+     "domain": "www.servethehome.com",
+     "title": "Submer Immersion Cooling Inside Tank 19 And OCP"
+    },
+    {
+     "pos": 22,
+     "domain": "www.baltimoreaircoil.eu",
+     "title": "Blank off panels | BAC Europe - Baltimore Aircoil Company"
+    },
+    {
+     "pos": 23,
+     "domain": "www.instagram.com",
+     "title": "Immersion Cooling Data Center Server Tank Dielectric Fluid"
+    },
+    {
+     "pos": 24,
+     "domain": "www.datacenterdynamics.com",
+     "title": "GRC to validate alternative immersion cooling fluids - DCD"
+    },
+    {
+     "pos": 25,
+     "domain": "electronics.alibaba.com",
+     "title": "Immersion Tank Buying Guide for Data Centers & Wellness"
+    },
+    {
+     "pos": 26,
+     "domain": "www.reddit.com",
+     "title": "Looking for recommendations for immersion cooling ..."
+    }
+   ],
+   "paa": [
+    "What are the disadvantages of immersion cooling?",
+    "What is an immersion cooling system?",
+    "Is immersion cooling better than air cooling?",
+    "Is immersion cooling more expensive?"
+   ],
+   "aio_ref_domains": [
+    "baltimoreaircoil.com",
+    "www.asperitas.com",
+    "www.gigabyte.com",
+    "www.parkplacetechnologies.com",
+    "www.vertiv.com",
+    "www.youtube.com"
+   ],
+   "bixbit_in_top": false
+  },
+  "hydro cooling asic miner": {
+   "cost": 0.006,
+   "se_results_count": 29300,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "popular_products",
+    "video",
+    "people_also_ask",
+    "discussions_and_forums",
+    "images"
+   ],
+   "organic": [
+    {
+     "pos": 1,
+     "domain": "verde-beach.com",
+     "title": "Bitaxe NerdQaxe++ Water Cooled Hydro ASIC Miner 4.8 ..."
+    },
+    {
+     "pos": 2,
+     "domain": "www.newegg.com",
+     "title": "Bitaxe NerdQaxe++ Hydro Cooling ASIC Miner 4.8TH/s ..."
+    },
+    {
+     "pos": 3,
+     "domain": "www.alibaba.com",
+     "title": "Bitmain Antminer S23 Hyd 3u 1160th/s Hydro Cooling Asic ..."
+    },
+    {
+     "pos": 4,
+     "domain": "electronics.alibaba.com",
+     "title": "Best Water Cooling ASIC Miners for 2026"
+    },
+    {
+     "pos": 5,
+     "domain": "www.amazon.com",
+     "title": "iPollo V1H Hydro Miner 850MH/s 690W ETC Octa ASIC ..."
+    },
+    {
+     "pos": 6,
+     "domain": "news.bitcoin.com",
+     "title": "Shifting Sands of Bitcoin Mining: How Hydro-Cooling Tech ..."
+    },
+    {
+     "pos": 7,
+     "domain": "www.reddit.com",
+     "title": "Bitmain Announces New Liquid Cooled 198TH/s Antminer ..."
+    },
+    {
+     "pos": 8,
+     "domain": "diysolarforum.com",
+     "title": "Bitcoin mining for dummies (like me) | Page 6"
+    },
+    {
+     "pos": 9,
+     "domain": "coingeek.com",
+     "title": "Canaan releases new next-gen ASIC miner"
+    },
+    {
+     "pos": 10,
+     "domain": "www.globalsources.com",
+     "title": "Antminer S21xp Hydro 473t High Efficiency Hydro-cooling ..."
+    },
+    {
+     "pos": 11,
+     "domain": "www.reddit.com",
+     "title": "We built an immersion cooled vat for 36 Antminers. It uses a ..."
+    },
+    {
+     "pos": 12,
+     "domain": "www.facebook.com",
+     "title": "AntSpace HW7 Hydro-Cooled Container  Take your Bitcoin ..."
+    },
+    {
+     "pos": 13,
+     "domain": "news.bitcoin.com",
+     "title": "Shifting Sands of Bitcoin Mining: How Hydro-Cooling Tech ..."
+    },
+    {
+     "pos": 14,
+     "domain": "bitcointalk.org",
+     "title": "Bitmain's new Antminer S19 Pro with cooling technology..."
+    },
+    {
+     "pos": 15,
+     "domain": "www.youtube.com",
+     "title": "MicroBT WhatsMiner M73S Bitcoin Miner Hydro Cooling"
+    },
+    {
+     "pos": 16,
+     "domain": "www.reddit.com",
+     "title": "Immersion cooled mining installation Video. Due to a multitude ..."
+    },
+    {
+     "pos": 17,
+     "domain": "voskcointalk.com",
+     "title": "Cooling options - ASIC Mining"
+    },
+    {
+     "pos": 18,
+     "domain": "www.youtube.com",
+     "title": "How to Hook the Antminer S23 Hydro to a Chiller"
+    },
+    {
+     "pos": 19,
+     "domain": "www.reddit.com",
+     "title": "How many BTUs of cooling per ASIC miner? : r/cryptomining"
+    },
+    {
+     "pos": 20,
+     "domain": "www.reddit.com",
+     "title": "Immersion Cooling RTX 3080 ETH Mining Rig with Dielectric ..."
+    },
+    {
+     "pos": 21,
+     "domain": "bitcoin.stackexchange.com",
+     "title": "How to realistically mitigate miner heat"
+    },
+    {
+     "pos": 22,
+     "domain": "www.aliexpress.com",
+     "title": "ASIC Hydro Style Stickers"
+    },
+    {
+     "pos": 23,
+     "domain": "www.youtube.com",
+     "title": "Bitmain Antminer S19 XP Hydro Shipped Out"
+    },
+    {
+     "pos": 24,
+     "domain": "bitcointalk.org",
+     "title": "Dry Water Submersion for ASIC cooling?"
+    },
+    {
+     "pos": 25,
+     "domain": "www.reddit.com",
+     "title": "DIY Immersion Cooling an S19 J Pro Bitcoin Miner With ..."
+    },
+    {
+     "pos": 26,
+     "domain": "www.youtube.com",
+     "title": "Bitmain Antminer Bitcoin Miner S19 Pro Hyd. 184T 5428W ..."
+    }
+   ],
+   "paa": [
+    "Which ASIC miner is most profitable?",
+    "Is there a water-cooled Bitcoin miner available?",
+    "How much does a Hydro Bitcoin miner cost?",
+    "Is ASIC mining better than GPU?"
+   ],
+   "aio_ref_domains": [],
+   "bixbit_in_top": false
+  }
+ }
+}

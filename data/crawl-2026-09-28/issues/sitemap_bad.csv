@@ -1,0 +1,4 @@
+url,status,problem
+https://bixbit.io/en/products/ container-1k,0,space/invalid
+https://bixbit.io/ru/products/ container-1k,0,space/invalid
+https://bixbit.io/ru/products/server,404,non-200

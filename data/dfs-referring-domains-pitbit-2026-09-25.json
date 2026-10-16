@@ -1,0 +1,815 @@
+{
+ "source": "DataForSEO /v3/backlinks/referring_domains/live + /summary/live",
+ "date": "2026-09-25",
+ "params": {
+  "include_subdomains": true,
+  "limit": 1000,
+  "backlinks_status_type": "live",
+  "order_by": [
+   "rank,desc"
+  ]
+ },
+ "note": "Compact transcription of inline MCP response (response not auto-saved to tool-results).",
+ "summaries": {
+  "pitbitecosystem.com": {
+   "rank": 97,
+   "backlinks": 60,
+   "backlinks_spam_score": 34,
+   "referring_domains": 47,
+   "referring_main_domains": 47,
+   "referring_main_domains_nofollow": 13,
+   "referring_ips": 40,
+   "referring_subnets": 39,
+   "broken_pages": 406,
+   "crawled_pages": 683,
+   "first_seen": "2025-05-07"
+  },
+  "pitbit.online": {
+   "rank": 130,
+   "backlinks": 105,
+   "backlinks_spam_score": 30,
+   "target_spam_score": 25,
+   "referring_domains": 54,
+   "referring_main_domains": 49,
+   "referring_main_domains_nofollow": 11,
+   "referring_ips": 32,
+   "referring_subnets": 31,
+   "crawled_pages": 12,
+   "first_seen": "2023-11-14"
+  }
+ },
+ "referring_domains": {
+  "pitbitecosystem.com": [
+   {
+    "domain": "dc-mining.ru",
+    "rank": 53,
+    "backlinks": 3,
+    "backlinks_spam_score": 15,
+    "first_seen": "2025-11-27",
+    "all_nofollow": false
+   },
+   {
+    "domain": "trustmining.ru",
+    "rank": 30,
+    "backlinks": 3,
+    "backlinks_spam_score": null,
+    "first_seen": "2026-08-27",
+    "all_nofollow": false
+   },
+   {
+    "domain": "hh.ru",
+    "rank": 23,
+    "backlinks": 1,
+    "backlinks_spam_score": 10,
+    "first_seen": "2025-12-07",
+    "all_nofollow": false
+   },
+   {
+    "domain": "tourbc.ru",
+    "rank": 7,
+    "backlinks": 1,
+    "backlinks_spam_score": null,
+    "first_seen": "2025-09-23",
+    "all_nofollow": false
+   },
+   {
+    "domain": "top-mining.ru",
+    "rank": 4,
+    "backlinks": 3,
+    "backlinks_spam_score": null,
+    "first_seen": "2025-11-04",
+    "all_nofollow": false
+   },
+   {
+    "domain": "kernelpanicpodcast.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 70,
+    "first_seen": "2026-09-25",
+    "all_nofollow": false
+   },
+   {
+    "domain": "dacheckerfree.site",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-25",
+    "all_nofollow": false
+   },
+   {
+    "domain": "rankcheckertools.shop",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 55,
+    "first_seen": "2026-09-25",
+    "all_nofollow": false
+   },
+   {
+    "domain": "minerfirmware.online",
+    "rank": null,
+    "backlinks": 3,
+    "backlinks_spam_score": null,
+    "first_seen": "2026-09-25",
+    "all_nofollow": true
+   },
+   {
+    "domain": "seocheckerforfree.online",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 55,
+    "first_seen": "2026-09-25",
+    "all_nofollow": false
+   },
+   {
+    "domain": "onvaxs.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-09-24",
+    "all_nofollow": false
+   },
+   {
+    "domain": "backlinkmaker.link",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-24",
+    "all_nofollow": false
+   },
+   {
+    "domain": "tokoseo.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-24",
+    "all_nofollow": false
+   },
+   {
+    "domain": "goldbacklinks.info",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-24",
+    "all_nofollow": false
+   },
+   {
+    "domain": "boost-traffic.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-23",
+    "all_nofollow": false
+   },
+   {
+    "domain": "cvillico.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-09-23",
+    "all_nofollow": false
+   },
+   {
+    "domain": "wholinkstomysite.store",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 55,
+    "first_seen": "2026-09-23",
+    "all_nofollow": false
+   },
+   {
+    "domain": "freesimpleseo.link",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-22",
+    "all_nofollow": false
+   },
+   {
+    "domain": "backlinkwizards.link",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 55,
+    "first_seen": "2026-09-22",
+    "all_nofollow": false
+   },
+   {
+    "domain": "usaseobiz.info",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-22",
+    "all_nofollow": false
+   },
+   {
+    "domain": "youseotools.link",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-21",
+    "all_nofollow": false
+   },
+   {
+    "domain": "digitseotools.info",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-21",
+    "all_nofollow": false
+   },
+   {
+    "domain": "boost-traffic.info",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-20",
+    "all_nofollow": false
+   },
+   {
+    "domain": "indiabacklink.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-20",
+    "all_nofollow": false
+   },
+   {
+    "domain": "theseobiz.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 45,
+    "first_seen": "2026-09-11",
+    "all_nofollow": false
+   },
+   {
+    "domain": "fashionclothingnews.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 70,
+    "first_seen": "2026-08-31",
+    "all_nofollow": false
+   },
+   {
+    "domain": "drjack.world",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-08-31",
+    "all_nofollow": true
+   },
+   {
+    "domain": "uncledspizza.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-08-27",
+    "all_nofollow": false
+   },
+   {
+    "domain": "quotesblom.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-08-25",
+    "all_nofollow": false
+   },
+   {
+    "domain": "betwinnermirror.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 70,
+    "first_seen": "2026-08-18",
+    "all_nofollow": false
+   },
+   {
+    "domain": "betulcrime.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-08-16",
+    "all_nofollow": false
+   },
+   {
+    "domain": "homesforsaleoldgreenwichct.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 70,
+    "first_seen": "2026-08-10",
+    "all_nofollow": false
+   },
+   {
+    "domain": "screenshots.wiki",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-08-09",
+    "all_nofollow": true
+   },
+   {
+    "domain": "ggmap.us.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-08-04",
+    "all_nofollow": false
+   },
+   {
+    "domain": "quero.party",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-07-28",
+    "all_nofollow": true
+   },
+   {
+    "domain": "ready.pro",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-07-26",
+    "all_nofollow": true
+   },
+   {
+    "domain": "rbc.ru",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": null,
+    "first_seen": "2026-07-23",
+    "all_nofollow": false
+   },
+   {
+    "domain": "anchorurl.cloud",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-07-23",
+    "all_nofollow": true
+   },
+   {
+    "domain": "crypto-emergency.com",
+    "rank": null,
+    "backlinks": 3,
+    "backlinks_spam_score": null,
+    "first_seen": "2026-06-27",
+    "all_nofollow": true
+   },
+   {
+    "domain": "ontivideo.ru",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 15,
+    "first_seen": "2026-06-03",
+    "all_nofollow": true
+   },
+   {
+    "domain": "buzzshrink.website",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-05-21",
+    "all_nofollow": true
+   },
+   {
+    "domain": "rushash.ru",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": null,
+    "first_seen": "2026-04-13",
+    "all_nofollow": false
+   },
+   {
+    "domain": "urls-shortener.eu",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-02-27",
+    "all_nofollow": true
+   },
+   {
+    "domain": "jake.eu",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-02-13",
+    "all_nofollow": true
+   },
+   {
+    "domain": "shortenurls.eu",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-01-20",
+    "all_nofollow": true
+   },
+   {
+    "domain": "cryptodesk.ru",
+    "rank": null,
+    "backlinks": 4,
+    "backlinks_spam_score": null,
+    "first_seen": "2025-08-21",
+    "all_nofollow": false
+   },
+   {
+    "domain": "it-vacancies.ru",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": null,
+    "first_seen": "2025-05-07",
+    "all_nofollow": true
+   }
+  ],
+  "pitbit.online": [
+   {
+    "domain": "pitbitecosystem.com",
+    "rank": 128,
+    "backlinks": 50,
+    "backlinks_spam_score": null,
+    "first_seen": "2025-08-06",
+    "all_nofollow": false
+   },
+   {
+    "domain": "kernelpanicpodcast.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 70,
+    "first_seen": "2026-09-25",
+    "all_nofollow": false
+   },
+   {
+    "domain": "onvaxs.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-09-24",
+    "all_nofollow": false
+   },
+   {
+    "domain": "cvillico.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-09-23",
+    "all_nofollow": false
+   },
+   {
+    "domain": "jobsapp.info",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-09-23",
+    "all_nofollow": false
+   },
+   {
+    "domain": "fashionclothingnews.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 70,
+    "first_seen": "2026-08-31",
+    "all_nofollow": false
+   },
+   {
+    "domain": "uncledspizza.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-08-27",
+    "all_nofollow": false
+   },
+   {
+    "domain": "plurio.shop",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-08-25",
+    "all_nofollow": false
+   },
+   {
+    "domain": "quotesblom.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-08-25",
+    "all_nofollow": false
+   },
+   {
+    "domain": "betwinnermirror.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 70,
+    "first_seen": "2026-08-18",
+    "all_nofollow": false
+   },
+   {
+    "domain": "betulcrime.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-08-16",
+    "all_nofollow": false
+   },
+   {
+    "domain": "homesforsaleoldgreenwichct.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 70,
+    "first_seen": "2026-08-10",
+    "all_nofollow": false
+   },
+   {
+    "domain": "ggmap.us.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-08-04",
+    "all_nofollow": false
+   },
+   {
+    "domain": "prepostlink.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 65,
+    "first_seen": "2026-08-04",
+    "all_nofollow": false
+   },
+   {
+    "domain": "anchorurl.cloud",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-07-25",
+    "all_nofollow": true
+   },
+   {
+    "domain": "buzzshrink.website",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-07-21",
+    "all_nofollow": true
+   },
+   {
+    "domain": "hidix.ru",
+    "rank": null,
+    "backlinks": 3,
+    "backlinks_spam_score": 25,
+    "first_seen": "2026-07-02",
+    "all_nofollow": false
+   },
+   {
+    "domain": "bye.fyi",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-06-02",
+    "all_nofollow": true
+   },
+   {
+    "domain": "quero.party",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-06-01",
+    "all_nofollow": true
+   },
+   {
+    "domain": "ready.pro",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-05-28",
+    "all_nofollow": true
+   },
+   {
+    "domain": "drjack.world",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-05-23",
+    "all_nofollow": true
+   },
+   {
+    "domain": "read.org.in",
+    "rank": null,
+    "backlinks": 2,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-05-03",
+    "all_nofollow": false
+   },
+   {
+    "domain": "pk.by",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": null,
+    "first_seen": "2026-04-14",
+    "all_nofollow": false
+   },
+   {
+    "domain": "websiterace.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-04-13",
+    "all_nofollow": false
+   },
+   {
+    "domain": "ycm.info",
+    "rank": null,
+    "backlinks": 2,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-03-19",
+    "all_nofollow": false
+   },
+   {
+    "domain": "alljobs.info",
+    "rank": null,
+    "backlinks": 2,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-03-03",
+    "all_nofollow": false
+   },
+   {
+    "domain": "urls-shortener.eu",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-02-26",
+    "all_nofollow": true
+   },
+   {
+    "domain": "musweb.org",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-02-13",
+    "all_nofollow": false
+   },
+   {
+    "domain": "booksreadr.org",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-01-31",
+    "all_nofollow": false
+   },
+   {
+    "domain": "screenshots.wiki",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-01-28",
+    "all_nofollow": true
+   },
+   {
+    "domain": "shortenurls.eu",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 50,
+    "first_seen": "2026-01-22",
+    "all_nofollow": true
+   },
+   {
+    "domain": "globalecommerce.org",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2026-01-22",
+    "all_nofollow": false
+   },
+   {
+    "domain": "getwebsiteworth.com",
+    "rank": null,
+    "backlinks": 3,
+    "backlinks_spam_score": 56,
+    "first_seen": "2026-01-02",
+    "all_nofollow": false
+   },
+   {
+    "domain": "wheretobuybest.link",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 80,
+    "first_seen": "2025-12-28",
+    "all_nofollow": true
+   },
+   {
+    "domain": "2x9.co",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 75,
+    "first_seen": "2025-12-02",
+    "all_nofollow": false
+   },
+   {
+    "domain": "virtualsdirectory.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 75,
+    "first_seen": "2025-09-30",
+    "all_nofollow": false
+   },
+   {
+    "domain": "australianwebdirectory.pro",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 70,
+    "first_seen": "2025-08-04",
+    "all_nofollow": false
+   },
+   {
+    "domain": "australianwebdirectory.shop",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 70,
+    "first_seen": "2025-06-02",
+    "all_nofollow": false
+   },
+   {
+    "domain": "sergechel.info",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 60,
+    "first_seen": "2025-02-09",
+    "all_nofollow": false
+   },
+   {
+    "domain": "ranksdirectory.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 65,
+    "first_seen": "2025-02-01",
+    "all_nofollow": false
+   },
+   {
+    "domain": "thearticletime.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 65,
+    "first_seen": "2025-01-13",
+    "all_nofollow": false
+   },
+   {
+    "domain": "bestdirectorysite.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 75,
+    "first_seen": "2024-12-21",
+    "all_nofollow": false
+   },
+   {
+    "domain": "toplinksites.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 65,
+    "first_seen": "2024-12-17",
+    "all_nofollow": false
+   },
+   {
+    "domain": "sbyme.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 65,
+    "first_seen": "2024-12-15",
+    "all_nofollow": false
+   },
+   {
+    "domain": "topupdirectory.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 65,
+    "first_seen": "2024-12-14",
+    "all_nofollow": false
+   },
+   {
+    "domain": "pirdu.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 65,
+    "first_seen": "2024-12-14",
+    "all_nofollow": false
+   },
+   {
+    "domain": "99bestsite.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 80,
+    "first_seen": "2024-12-14",
+    "all_nofollow": false
+   },
+   {
+    "domain": "topacted.com",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 65,
+    "first_seen": "2024-12-12",
+    "all_nofollow": false
+   },
+   {
+    "domain": "global-website.pages.dev",
+    "rank": null,
+    "backlinks": 1,
+    "backlinks_spam_score": 35,
+    "first_seen": "2023-11-14",
+    "all_nofollow": true
+   }
+  ]
+ }
+}

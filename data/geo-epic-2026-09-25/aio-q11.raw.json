@@ -1,0 +1,676 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "22.0372 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09251239-2548-0139-0000-be9ef6ae310e",
+      "status_code": 40106,
+      "status_message": "Task completed with partial results. Some pages could not be retrieved after several retry attempts. You have not been charged for the pages that were not returned.",
+      "time": "21.8926 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "epic umc os firmware",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "depth": 20,
+        "load_async_ai_overview": true,
+        "people_also_ask_click_depth": 1,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "epic umc os firmware",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=epic%20umc%20os%20firmware&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-09-25 12:39:21 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "related_searches"
+          ],
+          "se_results_count": 102,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "epicblockchain.io",
+              "title": "ePIC Firmware Downloads | UMC & Antminer Software ...",
+              "url": "https://epicblockchain.io/support/firmware-download/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://epicblockchain.io › Support",
+              "website_name": "ePIC Blockchain Technologies",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Download the latest Epic Blockchain firmware updates for your mining hardware. Keep your devices optimized and secure with official firmware downloads.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Download the latest Epic Blockchain firmware updates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "epicblockchain.io",
+              "title": "ePIC Blockchain Technologies: Antminer Custom Firmware",
+              "url": "https://epicblockchain.io/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://epicblockchain.io",
+              "website_name": "ePIC Blockchain Technologies",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Enhance Your Bitmain Miner with UMC OS · Antminer Firmware w/o Hardware Replacement | Supports S19J and Newer | 1.5% Dev Fee or Licensing Available · RigRunner is ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Antminer Firmware"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://epicblockchain.io/#:~:text=Enhance%20Your%20Bitmain%20Miner%20with,UMC%20OS&text=Antminer%20Firmware%20w%2Fo%20Hardware%20Replacement,Dev%20Fee%20or%20Licensing%20Available&text=RigRunner%20is%20required%20for%20Installing,UMC%20OS.",
+                  "domain": "epicblockchain.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "ePIC UMC OS is a custom third-party Bitcoin mining firmware designed to replace stock Bitmain firmware on Antminer S19 and S21 series ASICs.[[1]](https://epicblockchain.io/product/umc-os/)\n\n### 📊 Core Overview\n\n- ⚙️ **Function:** Chip-level tuning, automated optimization, and thermal protection.\n- 💰 **Dev Fee:** 1.5% (lowered from 2.5%).\n- 🔌 **Hardware Option:** Use firmware-only on stock control boards or buy the physical ePIC UMC board (zero dev fee).\n- 🛠️ **Deployment:** Pushed remotely using RigRunner mass-deployment tool.\n- 📉 **Supported Models:** Air-cooled Antminer S19j, S19 XP, S19K Pro, T21, and S21 series.[[1]](https://www.youtube.com/watch?v=eb30yInbBn0)[[2]](https://epicblockchain.io/product/umc-os/)[[3]](https://epicblockchain.io/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/)\n\n### 💡 Key Features\n\n- 📈 **Perpetual Tune:** Dynamically targets peak efficiency and maintains hashrates.\n- 🔎 **Granular Controls:** Includes Voltage Optimizer, Board Tune, and Chip Tune.\n- 🗒️ **API Support:** Integrates directly with standard management software and internal systems.[[1]](https://epicblockchain.io/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets/)[[2]](https://epicblockchain.io/product/umc-os/)[[3]](https://epicblockchain.io/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/)[[4]](https://epicblockchain.io/product/)\n\n### 🗓️ Installation Steps\n\n- 📥 Download the software from the ePIC Firmware Downloads page and grab RigRunner from GitHub.\n- 🔎 Scan your local network to find your miner's IP address (`cminer` label).\n- 💻 Run RigRunner, select \"Update Firmware,\" and load the downloaded ZIP file.\n- ⚙️ Enter your pool details, worker configurations, and desired hashrate target.[[1]](https://epicblockchain.io/product/umc-os/)\n\nIf you share your **specific miner model** (e.g., S21 or S19K Pro) and **current setup** (stock board vs. ePIC control board), I can provide exact configuration presets and tuning parameters.",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "ePIC UMC OS is a custom third-party Bitcoin mining firmware designed to replace stock Bitmain firmware on Antminer S19 and S21 series ASICs.",
+                  "markdown": "ePIC UMC OS is a custom third-party Bitcoin mining firmware designed to replace stock Bitmain firmware on Antminer S19 and S21 series ASICs.[[1]](https://epicblockchain.io/product/umc-os/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ePIC Blockchain Technologies",
+                      "domain": "epicblockchain.io",
+                      "url": "https://epicblockchain.io/product/umc-os/",
+                      "title": "Mining Fleet Enhancement | ePIC Blockchain Technologies",
+                      "text": "Custom Antminer Firmware Built for Institutional Scale. Our UMC Series delivers a dedicated control solution built for performance..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "📊 Core Overview",
+                  "text": "⚙️ Function: Chip-level tuning, automated optimization, and thermal protection. 💰 Dev Fee: 1.5% (lowered from 2.5%). 🔌 Hardware Option: Use firmware-only on stock control boards or buy the physical ePIC UMC board (zero dev fee). 🛠️ Deployment: Pushed remotely using RigRunner mass-deployment tool. 📉 Supported Models: Air-cooled Antminer S19j, S19 XP, S19K Pro, T21, and S21 series.",
+                  "markdown": "- ⚙️ **Function:** Chip-level tuning, automated optimization, and thermal protection.\n- 💰 **Dev Fee:** 1.5% (lowered from 2.5%).\n- 🔌 **Hardware Option:** Use firmware-only on stock control boards or buy the physical ePIC UMC board (zero dev fee).\n- 🛠️ **Deployment:** Pushed remotely using RigRunner mass-deployment tool.\n- 📉 **Supported Models:** Air-cooled Antminer S19j, S19 XP, S19K Pro, T21, and S21 series.[[1]](https://www.youtube.com/watch?v=eb30yInbBn0)[[2]](https://epicblockchain.io/product/umc-os/)[[3]](https://epicblockchain.io/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=eb30yInbBn0",
+                      "title": "ePIC UMC improves hashrate with no Dev fee",
+                      "text": "ePIC UMC improves hashrate with no Dev fee hey what's going on everyone vegan here for Surfer next tech and in this video we'll be..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ePIC Blockchain Technologies",
+                      "domain": "epicblockchain.io",
+                      "url": "https://epicblockchain.io/product/umc-os/",
+                      "title": "Mining Fleet Enhancement | ePIC Blockchain Technologies",
+                      "text": "Custom Antminer Firmware Built for Institutional Scale. Our UMC Series delivers a dedicated control solution built for performance..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ePIC Blockchain Technologies",
+                      "domain": "epicblockchain.io",
+                      "url": "https://epicblockchain.io/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/",
+                      "title": "Custom Antminer Firmware Guide: UMC OS Bitcoin Mining ...",
+                      "text": "bitcoin mining firmware Key features include Perpetual Tune (Voltage Optimizer, ChipTune, and Board Tune), overclocking capabiliti..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "💡 Key Features",
+                  "text": "📈 Perpetual Tune: Dynamically targets peak efficiency and maintains hashrates. 🔎 Granular Controls: Includes Voltage Optimizer, Board Tune, and Chip Tune. 🗒️ API Support: Integrates directly with standard management software and internal systems.",
+                  "markdown": "- 📈 **Perpetual Tune:** Dynamically targets peak efficiency and maintains hashrates.\n- 🔎 **Granular Controls:** Includes Voltage Optimizer, Board Tune, and Chip Tune.\n- 🗒️ **API Support:** Integrates directly with standard management software and internal systems.[[1]](https://epicblockchain.io/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets/)[[2]](https://epicblockchain.io/product/umc-os/)[[3]](https://epicblockchain.io/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/)[[4]](https://epicblockchain.io/product/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ePIC Blockchain Technologies",
+                      "domain": "epicblockchain.io",
+                      "url": "https://epicblockchain.io/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets/",
+                      "title": "ePIC Blockchain Reduces UMC OS Development Fee to 1.5%",
+                      "text": "ePIC Blockchain Technologies Reduces UMC OS Development Fee to 1.5%, Extending Institutional-Grade Optimization Across Mining Flee..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ePIC Blockchain Technologies",
+                      "domain": "epicblockchain.io",
+                      "url": "https://epicblockchain.io/product/umc-os/",
+                      "title": "Mining Fleet Enhancement | ePIC Blockchain Technologies",
+                      "text": "Custom Antminer Firmware Built for Institutional Scale. Our UMC Series delivers a dedicated control solution built for performance..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ePIC Blockchain Technologies",
+                      "domain": "epicblockchain.io",
+                      "url": "https://epicblockchain.io/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/",
+                      "title": "Custom Antminer Firmware Guide: UMC OS Bitcoin Mining ...",
+                      "text": "bitcoin mining firmware Key features include Perpetual Tune (Voltage Optimizer, ChipTune, and Board Tune), overclocking capabiliti..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ePIC Blockchain Technologies",
+                      "domain": "epicblockchain.io",
+                      "url": "https://epicblockchain.io/product/",
+                      "title": "Fleet Enhancement Products for Bitcoin Mining",
+                      "text": "Built Around Custom Firmware and Control Optimizing a Bitcoin mining deployment requires more than fleet visibility alone. Operato..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "🗓️ Installation Steps",
+                  "text": "📥 Download the software from the ePIC Firmware Downloads page and grab RigRunner from GitHub. 🔎 Scan your local network to find your miner's IP address ( cminer label). 💻 Run RigRunner, select \"Update Firmware,\" and load the downloaded ZIP file. ⚙️ Enter your pool details, worker configurations, and desired hashrate target.",
+                  "markdown": "- 📥 Download the software from the ePIC Firmware Downloads page and grab RigRunner from GitHub.\n- 🔎 Scan your local network to find your miner's IP address (`cminer` label).\n- 💻 Run RigRunner, select \"Update Firmware,\" and load the downloaded ZIP file.\n- ⚙️ Enter your pool details, worker configurations, and desired hashrate target.[[1]](https://epicblockchain.io/product/umc-os/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ePIC Blockchain Technologies",
+                      "domain": "epicblockchain.io",
+                      "url": "https://epicblockchain.io/product/umc-os/",
+                      "title": "Mining Fleet Enhancement | ePIC Blockchain Technologies",
+                      "text": "Custom Antminer Firmware Built for Institutional Scale. Our UMC Series delivers a dedicated control solution built for performance..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "If you share your specific miner model (e.g., S21 or S19K Pro) and current setup (stock board vs. ePIC control board), I can provide exact configuration presets and tuning parameters.",
+                  "markdown": "If you share your **specific miner model** (e.g., S21 or S19K Pro) and **current setup** (stock board vs. ePIC control board), I can provide exact configuration presets and tuning parameters.",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "ePIC Blockchain Technologies",
+                  "domain": "epicblockchain.io",
+                  "url": "https://epicblockchain.io/product/umc-os/",
+                  "title": "Mining Fleet Enhancement | ePIC Blockchain Technologies",
+                  "text": "Custom Antminer Firmware Built for Institutional Scale. Our UMC Series delivers a dedicated control solution built for performance..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=eb30yInbBn0",
+                  "title": "ePIC UMC improves hashrate with no Dev fee",
+                  "text": "ePIC UMC improves hashrate with no Dev fee hey what's going on everyone vegan here for Surfer next tech and in this video we'll be..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "ePIC Blockchain Technologies",
+                  "domain": "epicblockchain.io",
+                  "url": "https://epicblockchain.io/product/",
+                  "title": "Fleet Enhancement Products for Bitcoin Mining",
+                  "text": "Built Around Custom Firmware and Control Optimizing a Bitcoin mining deployment requires more than fleet visibility alone. Operato..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "ePIC Blockchain Technologies",
+                  "domain": "epicblockchain.io",
+                  "url": "https://epicblockchain.io/custom-antminer-firmware-guide-umc-os-bitcoin-mining-firmware-installation-with-rigrunner/",
+                  "title": "Custom Antminer Firmware Guide: UMC OS Bitcoin Mining ...",
+                  "text": "bitcoin mining firmware Key features include Perpetual Tune (Voltage Optimizer, ChipTune, and Board Tune), overclocking capabiliti..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "ePIC Blockchain Technologies",
+                  "domain": "epicblockchain.io",
+                  "url": "https://epicblockchain.io/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets/",
+                  "title": "ePIC Blockchain Reduces UMC OS Development Fee to 1.5%",
+                  "text": "ePIC Blockchain Technologies Reduces UMC OS Development Fee to 1.5%, Extending Institutional-Grade Optimization Across Mining Flee..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "github.com",
+              "title": "ePIC BLOCKCHAIN TECHNOLOGIES epicblockchain",
+              "url": "https://github.com/epicblockchain",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://github.com › epicblockchain",
+              "website_name": "GitHub",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Public UMC firmware for Antminer. Public RigRunner tool designed for installing UMC OS firmware. Public UMCOS firmware for stock Amlogic (AML), BeagleBone (BBB ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "UMC firmware",
+                "UMC OS firmware",
+                "firmware"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.prnewswire.com",
+              "title": "ePIC Blockchain Technologies Reduces UMC OS ...",
+              "url": "https://www.prnewswire.com/news-releases/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets-302669401.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.prnewswire.com › news-releases › epic-bloc...",
+              "website_name": "PR Newswire",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jan 26, 2026 — UMC OS is a custom firmware solution built on ePIC's Universal Mining Controller (UMC) platform, designed to improve mining efficiency and ... Read more",
+              "pre_snippet": "01/26/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "custom firmware solution built on ePIC's Universal Mining Controller (UMC) platform"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.prnewswire.com/news-releases/epic-blockchain-technologies-reduces-umc-os-development-fee-to-1-5-extending-institutional-grade-optimization-across-mining-fleets-302669401.html#:~:text=UMC%20OS%20is%20a%20custom,performance%20without%20requiring%20hardware%20replacement.",
+                  "domain": "www.prnewswire.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-01-26 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "ePIC UMC improves hashrate with no Dev fee",
+              "url": "https://www.youtube.com/watch?v=eb30yInbBn0",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "400+ views  ·  2 years ago",
+              "website_name": "YouTube · SerpentX Tech",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "ePic Blockchain website Firmware : https://epicblockchain.io/support/firmware/ Additional Firmware releases: ePIC UMC improves hashrate with no ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "ePic Blockchain website Firmware"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-02-02 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "finance.yahoo.com",
+              "title": "ePIC Launches UMC OS and AltairOS",
+              "url": "https://finance.yahoo.com/news/epic-launches-umc-os-altairos-130000411.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://finance.yahoo.com › news › epic-launches-umc-...",
+              "website_name": "Yahoo Finance",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 27, 2025 — ePIC Launches UMC OS and AltairOS: Powerful Third-Party Firmware for Bitcoin Mining, Now Available for Both Institutional and Retail Users. Read more",
+              "pre_snippet": "05/27/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Powerful Third-Party Firmware for Bitcoin Mining"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://finance.yahoo.com/news/epic-launches-umc-os-altairos-130000411.html#:~:text=ePIC%20Launches%20UMC%20OS%20and,Both%20Institutional%20and%20Retail%20Users",
+                  "domain": "finance.yahoo.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-05-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "epicblockchain.io",
+              "title": "Custom Antminer Firmware Built for Institutional Scale",
+              "url": "https://epicblockchain.io/product/umc-os/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://epicblockchain.io › Products",
+              "website_name": "ePIC Blockchain Technologies",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "ePIC UMC OS (Universal Mining Controller Operating System) is custom Antminer firmware that replaces the stock Bitmain firmware on Antminer S19x and S21 series ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "ePIC UMC OS"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://epicblockchain.io/product/umc-os/#:~:text=ePIC%20UMC%20OS%20(Universal%20Mining,Antminer%20S19x%20and%20S21%20series",
+                  "domain": "epicblockchain.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "x.com",
+              "title": "ePIC Blockchain (@ePICBlockchain) ...",
+              "url": "https://x.com/ePICBlockchain?lang=en",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "2.2K+ followers",
+              "website_name": "X · ePICBlockchain",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "UMC OS makes firmware remote installs that much easier! UMC-OS firmware on all AMLOGIC control boards, including the latest antminers with disabled micro-USB ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "UMC-OS firmware"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "altairtech.io",
+              "title": "ePIC UMC Universal Mining Control Board V4 & Firmware ...",
+              "url": "https://altairtech.io/product/epic-umc-universal-mining-control-board/?srsltid=AU7gw4U0v9ba6lgVolYK_edgFYJalYSImSB7iPoPmkrOo_sojgQJAsyY",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://altairtech.io › Bitmain",
+              "website_name": "Altair Technology",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The ePIC UMC Universal Mining Control Board V4 with advanced firmware is the ultimate upgrade for Antminer S19 and S21 series. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 7,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 139.99,
+                "regular": null,
+                "max_value": 149.99,
+                "currency": "USD",
+                "is_price_range": true,
+                "displayed_price": "$139.99 to $149.99"
+              },
+              "highlighted": [
+                "ePIC UMC Universal Mining Control Board V4 with advanced firmware"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://altairtech.io/product/epic-umc-universal-mining-control-board/?srsltid=AU7gw4U0v9ba6lgVolYK_edgFYJalYSImSB7iPoPmkrOo_sojgQJAsyY#:~:text=The%20ePIC%20UMC%20Universal%20Mining,Antminer%20S19%20and%20S21%20series.",
+                  "domain": "altairtech.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Epic umc os firmware download",
+                "Epic umc os firmware sd card",
+                "ePIC blockchain",
+                "ePIC control board",
+                "Epic blockminer model 520i price",
+                "Epic-miner",
+                "Epic Chain website",
+                "Epic blockminer model 740a price"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

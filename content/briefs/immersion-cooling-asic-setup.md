@@ -3,7 +3,8 @@
 **Cluster:** immersion-cooling-mining
 **Brief type:** Spoke — how-to / transactional
 **Created:** 2026-06-19
-**Priority:** P1
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. Volume n/d.
+**Target (architecture v2, 2026-09-25):** `/en/asics-cooling/immersion-systems` (existing page), H2 Deployment steps, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 
 ---
 
@@ -24,14 +25,16 @@ Also captures organic traffic from operators who stumble on the guide and haven'
 
 ## Target Keywords
 
-| Type | Keyword | Volume |
-|---|---|---|
-| Primary | `ASIC immersion cooling setup` | N/A |
-| Secondary | `how to set up immersion cooling for mining` | N/A |
-| Secondary | `immersion cooling mining installation` | N/A |
-| Secondary | `bitcoin miner immersion tank setup` | N/A |
-| Long-tail | `how to immersion cool an Antminer` | N/A |
-| Long-tail | `immersion cooling ASIC step by step` | N/A |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Type | Keyword | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Primary | `ASIC immersion cooling setup` | n/d (<10) | — | — |
+| Secondary | `how to set up immersion cooling for mining` | n/d (<10) | — | — |
+| Secondary | `immersion cooling mining installation` | n/d (<10) | — | — |
+| Secondary | `bitcoin miner immersion tank setup` | n/d (<10) | — | — |
+| Long-tail | `how to immersion cool an Antminer` | n/d (<10) | — | — |
+| Long-tail | `immersion cooling ASIC step by step` | n/d (<10) | — | — |
 
 ---
 

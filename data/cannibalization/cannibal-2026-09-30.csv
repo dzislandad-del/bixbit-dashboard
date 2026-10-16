@@ -1,0 +1,732 @@
+query,kind,impressions,clicks,page,locale,page_impr,share,position
+bixbit,brand,5655,388,https://bixbit.io/en,en,960,0.17,1.7
+bixbit,brand,5655,388,https://bixbit.io/en/ams,en,627,0.11,2.1
+bixbit,brand,5655,388,https://bixbit.io/en/firmwares,en,600,0.11,1.8
+whatsminer,cross_locale,793,1,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,398,0.5,5.5
+whatsminer,cross_locale,793,1,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,331,0.42,7.9
+whatsminer tool descargar,same_locale,455,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,97,0.21,9.7
+whatsminer tool descargar,same_locale,455,0,https://bixbit.io/en/firmwares,en,80,0.18,30.7
+whatsminer tool descargar,same_locale,455,0,https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool,en,74,0.16,25.1
+whatsminer tool descargar,same_locale,455,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,73,0.16,40.5
+whatsminer tool descargar,same_locale,455,0,https://bixbit.io/en/firmwares/whatsminer-series-m6x,en,72,0.16,36.2
+whatsminer tool descargar,same_locale,455,0,https://bixbit.io/en/firmwares/whatsminer-series-m5x,en,50,0.11,49.3
+antminer firmware,same_locale,375,0,https://bixbit.io/en/firmwares/antminer,en,194,0.52,13.9
+antminer firmware,same_locale,375,0,https://bixbit.io/en/firmwares,en,94,0.25,36.2
+antminer firmware,same_locale,375,0,https://bixbit.io/en/firmwares/asic-T9-plus,en,51,0.14,65.4
+bixbit прошивка,brand,299,38,https://bixbit.io/ru/firmwares,ru,38,0.13,1.0
+bixbit прошивка,brand,299,38,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,38,0.13,2.3
+bixbit прошивка,brand,299,38,https://bixbit.io/ru/firmwares/antminer,ru,32,0.11,1.9
+bixbit прошивка,brand,299,38,https://bixbit.io/ru/blog/post/ustanovka-obnovlennoy-versii-proshivki-whatsminer,ru,31,0.1,4.3
+bixbit прошивка,brand,299,38,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-1-podgotovka-k-ustanovke-proshivki-bixbit,ru,31,0.1,6.0
+whatsminer custom firmware,same_locale,281,3,https://bixbit.io/en/firmwares,en,59,0.21,2.1
+whatsminer custom firmware,same_locale,281,3,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,54,0.19,7.1
+whatsminer custom firmware,same_locale,281,3,https://bixbit.io/en/firmwares/whatsminer-series-m6x,en,43,0.15,15.2
+firmware antminer,same_locale,275,0,https://bixbit.io/en/firmwares/antminer,en,146,0.53,13.7
+firmware antminer,same_locale,275,0,https://bixbit.io/en/firmwares,en,82,0.3,38.7
+whatsminer firmware update,same_locale,230,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,38,0.17,4.1
+whatsminer firmware update,same_locale,230,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,31,0.13,10.9
+whatsminer firmware download,same_locale,221,1,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,46,0.21,3.5
+whatsminer firmware download,same_locale,221,1,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,34,0.15,9.7
+охлаждение майнинг ферм,same_locale,220,0,https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy,ru,93,0.42,8.5
+охлаждение майнинг ферм,same_locale,220,0,https://bixbit.io/ru/blog/post/mayning-na-videokartah-s-vodoblokami-zanimatsya-ili-net,ru,40,0.18,74.4
+охлаждение майнинг ферм,same_locale,220,0,https://bixbit.io/ru/products,ru,40,0.18,58.4
+охлаждение майнинг ферм,same_locale,220,0,https://bixbit.io/ru/blog/post/immersionnoe-ohlazhdenie-ili-kak-ne-pustit-dengi-na-vozduh,ru,26,0.12,90.3
+ams bixbit,brand,209,31,https://bixbit.io/en/ams,en,29,0.14,1.2
+ams bixbit,brand,209,31,https://bixbit.io/en/ams/connect,en,29,0.14,3.1
+ams bixbit,brand,209,31,https://bixbit.io/en,en,22,0.11,5.7
+whatsminer tool download,same_locale,197,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,58,0.29,8.7
+whatsminer tool download,same_locale,197,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,36,0.18,17.6
+whatsminer tool download,same_locale,197,0,https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool,en,35,0.18,25.5
+whatsminer tool download,same_locale,197,0,https://bixbit.io/en/firmwares/whatsminer-series-m6x,en,22,0.11,39.3
+antminer s19,cross_locale,192,0,https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost,ru,111,0.58,11.7
+antminer s19,cross_locale,192,0,https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide,en,74,0.39,20.1
+whatsminer immersion firmware,same_locale,192,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,26,0.14,5.7
+whatsminer immersion firmware,same_locale,192,0,https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series,en,23,0.12,20.3
+охлаждение для майнинга,same_locale,188,0,https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy,ru,67,0.36,11.6
+охлаждение для майнинга,same_locale,188,0,https://bixbit.io/ru/blog/post/immersionnoe-ohlazhdenie-ili-kak-ne-pustit-dengi-na-vozduh,ru,38,0.2,70.7
+охлаждение для майнинга,same_locale,188,0,https://bixbit.io/ru/products,ru,38,0.2,57.0
+охлаждение для майнинга,same_locale,188,0,https://bixbit.io/ru/blog/post/mayning-na-videokartah-s-vodoblokami-zanimatsya-ili-net,ru,24,0.13,39.7
+whatsminer m61 firmware,same_locale,183,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,27,0.15,5.8
+whatsminer m61 firmware,same_locale,183,0,https://bixbit.io/en/firmwares/whatsminer-series-m6x,en,25,0.14,11.2
+whatsminer m61 firmware,same_locale,183,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,20,0.11,27.1
+mejor firmware para antminer s9,same_locale,181,0,https://bixbit.io/en/firmwares/antminer,en,75,0.41,23.2
+mejor firmware para antminer s9,same_locale,181,0,https://bixbit.io/en/firmwares,en,74,0.41,44.5
+mejor firmware para antminer s9,same_locale,181,0,https://bixbit.io/en/firmwares/asic-s9-s9j-s9i,en,21,0.12,61.1
+whatsminer m50 firmware,same_locale,173,0,https://bixbit.io/en/firmwares,en,26,0.15,11.3
+whatsminer m50 firmware,same_locale,173,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,26,0.15,5.7
+прошивка биоса для майнинга,same_locale,172,0,https://bixbit.io/ru/firmwares,ru,42,0.24,50.1
+прошивка биоса для майнинга,same_locale,172,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2-obnovlenie-proshivki-bloka-pitaniia,ru,40,0.23,73.7
+прошивка биоса для майнинга,same_locale,172,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,38,0.22,77.4
+прошивка биоса для майнинга,same_locale,172,0,https://bixbit.io/ru,ru,35,0.2,28.4
+whatsminer m3 overclock,same_locale,171,0,https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock,en,32,0.19,1.6
+whatsminer m3 overclock,same_locale,171,0,https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series,en,25,0.15,23.5
+whatsminer m3 overclock,same_locale,171,0,https://bixbit.io/en/blog/post/how-to-overclock-whatsminer-asics-over-50,en,19,0.11,39.2
+crypto mining shipping container,same_locale,168,0,https://bixbit.io/en/products/container,en,121,0.72,19.1
+crypto mining shipping container,same_locale,168,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,47,0.28,51.3
+прошивки для майнинга,same_locale,166,0,https://bixbit.io/ru/firmwares,ru,66,0.4,12.9
+прошивки для майнинга,same_locale,166,0,https://bixbit.io/ru/firmwares/antminer,ru,33,0.2,18.5
+прошивки для майнинга,same_locale,166,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,23,0.14,86.3
+прошивки для майнинга,same_locale,166,0,https://bixbit.io/ru/blog/post/kak-obnovit-proshivku-whatsminer,ru,20,0.12,88.0
+whatsminer m3 firmware,same_locale,163,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,27,0.17,4.0
+whatsminer m3 firmware,same_locale,163,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,20,0.12,20.1
+whatsminer m30s прошивка bixbit,brand,162,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,17,0.1,8.1
+whatsminer m30s прошивка bixbit,brand,162,0,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,17,0.1,1.8
+whatsminer m30s прошивка bixbit,brand,162,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,17,0.1,4.9
+whatsminer m30s прошивка bixbit,brand,162,0,https://bixbit.io/ru/firmwares,ru,17,0.1,6.0
+водяное охлаждение майнинг,same_locale,158,0,https://bixbit.io/ru/blog/post/mayning-na-videokartah-s-vodoblokami-zanimatsya-ili-net,ru,75,0.47,15.9
+водяное охлаждение майнинг,same_locale,158,0,https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy,ru,61,0.39,27.1
+водяное охлаждение майнинг,same_locale,158,0,https://bixbit.io/ru/blog/post/immersionnaya-zhidkost-kakuyu-vybrat-dlya-mayninga-i-pochemu,ru,18,0.11,90.2
+whatsminer software,same_locale,150,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,33,0.22,6.4
+whatsminer software,same_locale,150,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,20,0.13,21.1
+whatsminer software,same_locale,150,0,https://bixbit.io/en/firmwares/whatsminer-series-m6x,en,19,0.13,22.0
+whatsminer software,same_locale,150,0,https://bixbit.io/en/firmwares,en,18,0.12,36.6
+fpga майнинг,same_locale,148,2,https://bixbit.io/ru/blog/post/malenkiy-sekret-bolshogo-mayninga-nedorogie-fpga-kak-vyhod-iz-krizisa,ru,92,0.62,2.8
+fpga майнинг,same_locale,148,2,https://bixbit.io/ru/blog/post/fpga-dlya-mayninga-kakie-trendy-budut-preobladat-v-2019-godu,ru,53,0.36,18.5
+whatsminer download,same_locale,147,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,35,0.24,4.3
+whatsminer download,same_locale,147,0,https://bixbit.io/en/firmwares,en,19,0.13,21.3
+whatsminer download,same_locale,147,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,19,0.13,11.4
+майнинг разгон,same_locale,143,0,https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25,ru,40,0.28,70.1
+майнинг разгон,same_locale,143,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera,ru,40,0.28,55.4
+майнинг разгон,same_locale,143,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-3-dopolnitelnye-nastroiki-razgona,ru,32,0.22,52.1
+ошибки whatsminer,same_locale,137,22,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,108,0.79,2.8
+ошибки whatsminer,same_locale,137,22,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic,ru,25,0.18,10.5
+whatsminer m20s firmware download,same_locale,137,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,37,0.27,2.1
+whatsminer m20s firmware download,same_locale,137,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,23,0.17,12.3
+whatsminer m20s firmware download,same_locale,137,0,https://bixbit.io/en/firmwares,en,20,0.15,26.9
+whatsminer m20s firmware download,same_locale,137,0,https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware,en,14,0.1,47.2
+whatsminer m20s firmware download,same_locale,137,0,https://bixbit.io/en/firmwares/whatsminer-series-m6x,en,14,0.1,54.4
+classic майнинг,cross_locale,133,0,https://bixbit.io/ru/blog/post/kak-nachat-maynit-ethereum-classic,ru,103,0.77,8.7
+classic майнинг,cross_locale,133,0,https://bixbit.io/en/blog/post/how-to-start-mining-ethereum-classic,en,30,0.23,73.9
+whatsminer m21s firmware download,same_locale,130,1,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,30,0.23,3.8
+whatsminer m21s firmware download,same_locale,130,1,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,23,0.18,14.2
+whatsminer m21s firmware download,same_locale,130,1,https://bixbit.io/en/firmwares,en,16,0.12,27.5
+whatsminer m20s firmware,cross_locale,128,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,33,0.26,2.0
+whatsminer m20s firmware,cross_locale,128,0,https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware,en,19,0.15,27.7
+whatsminer m20s firmware,cross_locale,128,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,19,0.15,12.9
+whatsminer m20s firmware,cross_locale,128,0,https://bixbit.io/en/firmwares,en,18,0.14,39.2
+whatsminer m20s firmware,cross_locale,128,0,https://bixbit.io/en/firmwares/whatsminer-series-m6x,en,16,0.12,56.6
+whatsminer m20s firmware,cross_locale,128,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,16,0.12,74.5
+whatsminer tool software download,same_locale,128,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,32,0.25,5.9
+whatsminer tool software download,same_locale,128,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,20,0.16,13.2
+whatsminer tool software download,same_locale,128,0,https://bixbit.io/en/firmwares,en,17,0.13,26.5
+whatsminer m21s firmware,cross_locale,126,1,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,28,0.22,2.1
+whatsminer m21s firmware,cross_locale,126,1,https://bixbit.io/en/firmwares,en,20,0.16,27.7
+whatsminer m21s firmware,cross_locale,126,1,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,20,0.16,16.2
+whatsminer m21s firmware,cross_locale,126,1,https://bixbit.io/en/firmwares/whatsminer-series-m6x,en,15,0.12,43.9
+whatsminer m21s firmware,cross_locale,126,1,https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware,en,13,0.1,55.1
+whatsminer m21s firmware,cross_locale,126,1,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,13,0.1,66.2
+antminer s19 pro,cross_locale,126,0,https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost,ru,77,0.61,10.5
+antminer s19 pro,cross_locale,126,0,https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide,en,45,0.36,20.9
+descargar firmware antminer s9,same_locale,120,0,https://bixbit.io/en/firmwares,en,62,0.52,38.3
+descargar firmware antminer s9,same_locale,120,0,https://bixbit.io/en/firmwares/antminer,en,48,0.4,18.1
+bitmain antminer l7,cross_locale,118,0,https://bixbit.io/en/blog/post/bitmain-antminer-l7-review-specifications-price-payback,en,86,0.73,9.9
+bitmain antminer l7,cross_locale,118,0,https://bixbit.io/ru/blog/post/razgon-antminer-l7,ru,28,0.24,16.9
+whatsminer m60 firmware,cross_locale,116,0,https://bixbit.io/en/firmwares,en,19,0.16,6.3
+whatsminer m60 firmware,cross_locale,116,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,14,0.12,16.9
+whatsminer m60 firmware,cross_locale,116,0,https://bixbit.io/en/firmwares/whatsminer-series-m6x,en,14,0.12,43.0
+whatsminer m60 firmware,cross_locale,116,0,https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware,en,13,0.11,60.3
+whatsminer m60 firmware,cross_locale,116,0,https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool,en,13,0.11,63.2
+whatsminer m60 firmware,cross_locale,116,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,13,0.11,27.8
+whatsminer m60 firmware,cross_locale,116,0,https://bixbit.io/en/firmwares/whatsminer-series-m5x,en,13,0.11,66.6
+whatsminer m60 firmware,cross_locale,116,0,https://bixbit.io/ru/blog/post/kak-obnovit-proshivku-whatsminer,ru,12,0.1,69.2
+whatsminer m66 firmware,same_locale,113,0,https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series,en,14,0.12,39.7
+whatsminer m66 firmware,same_locale,113,0,https://bixbit.io/en/firmwares,en,12,0.11,24.0
+whatsminer m53 firmware,same_locale,108,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,17,0.16,33.6
+whatsminer m53 firmware,same_locale,108,0,https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware,en,11,0.1,84.8
+whatsminer m53 firmware,same_locale,108,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,11,0.1,63.5
+11 майнинг,same_locale,102,0,https://bixbit.io/ru/blog/post/novye-asic-antminer-z11-razobrali-za-20-minut-po-predzakazu,ru,65,0.64,21.9
+11 майнинг,same_locale,102,0,https://bixbit.io/ru/blog/post/samyy-vygodnyy-mayner-x11-algoritma-chto-est-na-rynke,ru,37,0.36,39.6
+s19,cross_locale,101,0,https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide,en,51,0.5,22.2
+s19,cross_locale,101,0,https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost,ru,50,0.5,9.4
+ошибки при майнинге,same_locale,99,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,51,0.52,10.5
+ошибки при майнинге,same_locale,99,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic,ru,40,0.4,68.9
+whatsminer tools software,same_locale,97,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,21,0.22,8.4
+whatsminer tools software,same_locale,97,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,14,0.14,19.0
+whatsminer tools software,same_locale,97,0,https://bixbit.io/en/firmwares/whatsminer-series-m6x,en,14,0.14,32.0
+whatsminer tools software,same_locale,97,0,https://bixbit.io/en/firmwares,en,11,0.11,42.9
+whatsminer tools software,same_locale,97,0,https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series,en,10,0.1,74.8
+whatsminer tools software,same_locale,97,0,https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool,en,10,0.1,61.2
+whatsminer tools software,same_locale,97,0,https://bixbit.io/en/firmwares/whatsminer-series-m5x,en,10,0.1,70.8
+стойка для майнинга,same_locale,96,0,https://bixbit.io/ru/products/rack,ru,76,0.79,10.8
+стойка для майнинга,same_locale,96,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,20,0.21,15.7
+bix bit,brand,95,9,https://bixbit.io/en,en,33,0.35,2.0
+bix bit,brand,95,9,https://bixbit.io/en/ams,en,16,0.17,1.9
+bix bit,brand,95,9,https://bixbit.io/en/about,en,15,0.16,6.8
+bix bit,brand,95,9,https://bixbit.io/en/firmwares,en,13,0.14,1.2
+antminer firmware download,same_locale,95,1,https://bixbit.io/en/firmwares/antminer,en,48,0.51,15.1
+antminer firmware download,same_locale,95,1,https://bixbit.io/en/firmwares,en,20,0.21,27.9
+antminer firmware download,same_locale,95,1,https://bixbit.io/en/firmwares/asic-T9-plus,en,12,0.13,66.3
+как подключить майнинг,same_locale,94,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,21,0.22,90.8
+как подключить майнинг,same_locale,94,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov,ru,21,0.22,57.2
+как подключить майнинг,same_locale,94,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva,ru,20,0.21,75.8
+как подключить майнинг,same_locale,94,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva,ru,19,0.2,86.6
+как подключить майнинг,same_locale,94,0,https://bixbit.io/ru/blog/post/rekomendacii-po-ustanovke-asic-v-kvartire,ru,12,0.13,44.1
+bitmain antminer s17,same_locale,91,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,53,0.58,11.3
+bitmain antminer s17,same_locale,91,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,26,0.29,9.4
+bitcoin mining shipping container,same_locale,90,0,https://bixbit.io/en/products/container,en,59,0.66,18.5
+bitcoin mining shipping container,same_locale,90,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,31,0.34,50.1
+какая скорость нужна для майнинга,same_locale,90,0,https://bixbit.io/ru/blog/post/kakaya-skorost-interneta-nuzhna-dlya-mayninga-na-asikah-i-fermah,ru,74,0.82,8.9
+какая скорость нужна для майнинга,same_locale,90,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,15,0.17,84.7
+asic immersion cooling,same_locale,89,0,https://bixbit.io/en/products,en,37,0.42,9.5
+asic immersion cooling,same_locale,89,0,https://bixbit.io/en/products/cell,en,17,0.19,85.2
+asic immersion cooling,same_locale,89,0,https://bixbit.io/en/products/coolant,en,17,0.19,71.8
+asic immersion cooling,same_locale,89,0,https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining,en,15,0.17,41.3
+контейнер для майнинга,same_locale,88,0,https://bixbit.io/ru/products/container,ru,44,0.5,38.0
+контейнер для майнинга,same_locale,88,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,36,0.41,10.3
+whatsminer m3,cross_locale,85,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,18,0.21,31.1
+whatsminer m3,cross_locale,85,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,17,0.2,50.4
+whatsminer m3,cross_locale,85,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,16,0.19,43.1
+whatsminer m3,cross_locale,85,0,https://bixbit.io/ru/blog/post/polnyy-obzor-asikov-microbt-whatsminer-m50-m50s-i-m53-harakteristiki-pribyl-okupaemost,ru,15,0.18,80.1
+мобильный майнинг,same_locale,85,0,https://bixbit.io/ru/blog/post/mobilnyy-mayning-preimushchestva-i-nedostatki,ru,49,0.58,12.8
+мобильный майнинг,same_locale,85,0,https://bixbit.io/ru/blog/post/mayning-kriptovalyuty-na-telefone-v-chem-opasnost,ru,36,0.42,60.1
+hydro container,same_locale,84,0,https://bixbit.io/en/products/container-hydro,en,65,0.77,12.9
+hydro container,same_locale,84,0,https://bixbit.io/en/asics-cooling/hydro-systems,en,19,0.23,40.3
+antminer s17,cross_locale,83,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,50,0.6,10.1
+antminer s17,cross_locale,83,0,https://bixbit.io/en/firmwares/asic-S17-S17Pro,en,14,0.17,23.1
+antminer s17,cross_locale,83,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,13,0.16,17.6
+asic monitoring software,cross_locale,82,0,https://bixbit.io/en/ams,en,70,0.85,2.9
+asic monitoring software,cross_locale,82,0,https://bixbit.io/ru/ams,ru,12,0.15,70.4
+microbt whatsminer official website,same_locale,82,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,21,0.26,9.0
+microbt whatsminer official website,same_locale,82,0,https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware,en,20,0.24,22.9
+microbt whatsminer official website,same_locale,82,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,19,0.23,25.8
+microbt whatsminer official website,same_locale,82,0,https://bixbit.io/en/firmwares,en,17,0.21,29.2
+whatsminer m30,same_locale,81,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,59,0.73,14.5
+whatsminer m30,same_locale,81,0,https://bixbit.io/en/blog/post/antminer-s19-pro-vs-whatsminer-m30-unveiling-the-power-of-cryptocurrency-mining,en,14,0.17,20.0
+shipping container mining,same_locale,79,0,https://bixbit.io/en/products/container,en,43,0.54,18.6
+shipping container mining,same_locale,79,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,36,0.46,62.9
+майнинг отопление,same_locale,79,0,https://bixbit.io/ru/blog/post/besplatnoe-otoplenie-za-schet-mayninga-pribyl-v-pervyy-zhe-sezon,ru,52,0.66,11.7
+майнинг отопление,same_locale,79,0,https://bixbit.io/ru/blog/post/biznes-na-teplichnom-hozyaystve-i-dobyche-kriptovalyut-kak-stat-uspeshnym-fermerom-maynerom,ru,27,0.34,55.3
+прошивка вотсмайнер,same_locale,76,0,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,16,0.21,13.6
+прошивка вотсмайнер,same_locale,76,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,14,0.18,2.8
+прошивка вотсмайнер,same_locale,76,0,https://bixbit.io/ru/firmwares,ru,12,0.16,30.8
+прошивка вотсмайнер,same_locale,76,0,https://bixbit.io/ru/blog/post/kak-obnovit-proshivku-whatsminer,ru,10,0.13,29.9
+прошивка вотсмайнер,same_locale,76,0,https://bixbit.io/ru/firmwares/whatsminer-all-series,ru,9,0.12,17.9
+l7 miner,cross_locale,75,0,https://bixbit.io/en/blog/post/bitmain-antminer-l7-review-specifications-price-payback,en,67,0.89,14.0
+l7 miner,cross_locale,75,0,https://bixbit.io/ru/blog/post/razgon-antminer-l7,ru,8,0.11,17.8
+whatsminer error code,cross_locale,72,7,https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1,en,63,0.88,2.2
+whatsminer error code,cross_locale,72,7,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,9,0.12,7.4
+whatsminer m21s,cross_locale,71,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,23,0.32,53.0
+whatsminer m21s,cross_locale,71,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,22,0.31,33.0
+whatsminer m21s,cross_locale,71,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,15,0.21,66.5
+whatsminer m21s,cross_locale,71,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/7-3-sbros-nastroek-mainera-do-zavodskikh-znachenii,ru,11,0.15,37.9
+antminer s17 pro,cross_locale,70,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,26,0.37,18.7
+antminer s17 pro,cross_locale,70,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,18,0.26,15.9
+antminer s17 pro,cross_locale,70,0,https://bixbit.io/en/firmwares/asic-S17-S17Pro,en,13,0.19,12.5
+antminer s17 pro,cross_locale,70,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,13,0.19,13.2
+asic whatsminer,same_locale,70,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,41,0.59,6.7
+asic whatsminer,same_locale,70,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva,ru,21,0.3,47.1
+asic whatsminer,same_locale,70,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,7,0.1,61.4
+l7 antminer,cross_locale,70,0,https://bixbit.io/en/blog/post/bitmain-antminer-l7-review-specifications-price-payback,en,59,0.84,13.5
+l7 antminer,cross_locale,70,0,https://bixbit.io/ru/blog/post/razgon-antminer-l7,ru,9,0.13,16.3
+whatsminer asic,same_locale,68,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,34,0.5,5.2
+whatsminer asic,same_locale,68,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva,ru,16,0.24,56.2
+whatsminer asic,same_locale,68,0,https://bixbit.io/ru/firmwares/whatsminer-all-series,ru,10,0.15,38.6
+whatsminer asic,same_locale,68,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,7,0.1,58.7
+прошивка для asic whatsminer серии m3x,same_locale,68,0,https://bixbit.io/ru/blog/post/proshivka-dlya-whatsminer-razgon-dlya-m2x-m3x-m5x-seriy,ru,21,0.31,9.4
+прошивка для asic whatsminer серии m3x,same_locale,68,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,20,0.29,5.4
+прошивка для asic whatsminer серии m3x,same_locale,68,0,https://bixbit.io/ru/firmwares/whatsminer-all-series,ru,19,0.28,3.3
+разгон для майнинга,same_locale,68,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera,ru,41,0.6,44.8
+разгон для майнинга,same_locale,68,0,https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25,ru,13,0.19,63.2
+разгон для майнинга,same_locale,68,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-3-dopolnitelnye-nastroiki-razgona,ru,12,0.18,59.6
+custom firmware for miner,same_locale,67,0,https://bixbit.io/en/firmwares,en,37,0.55,5.4
+custom firmware for miner,same_locale,67,0,https://bixbit.io/en/firmwares/antminer,en,24,0.36,27.7
+операционная система для майнинга,same_locale,67,0,https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk,ru,50,0.75,54.7
+операционная система для майнинга,same_locale,67,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,17,0.25,82.9
+bitmain antminer s19,cross_locale,65,0,https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost,ru,42,0.65,12.4
+bitmain antminer s19,cross_locale,65,0,https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide,en,22,0.34,19.0
+майнинг память,same_locale,64,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,47,0.73,48.9
+майнинг память,same_locale,64,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,17,0.27,73.3
+whatsminer m32,cross_locale,63,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,24,0.38,16.3
+whatsminer m32,cross_locale,63,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera,ru,15,0.24,34.7
+whatsminer m32,cross_locale,63,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,12,0.19,79.2
+whatsminer m32,cross_locale,63,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,9,0.14,75.3
+майнинг два блока,same_locale,63,0,https://bixbit.io/ru/blog/post/dual-mayning-vygodno-li-im-zanimatsya-v-2019-godu,ru,53,0.84,18.8
+майнинг два блока,same_locale,63,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,10,0.16,76.5
+hydro mining rack,same_locale,62,1,https://bixbit.io/en/products/rack-hydro,en,29,0.47,9.8
+hydro mining rack,same_locale,62,1,https://bixbit.io/en/asics-cooling/hydro-systems,en,21,0.34,27.3
+hydro mining rack,same_locale,62,1,https://bixbit.io/en/products/rack,en,12,0.19,46.2
+antminer immersion cooling,same_locale,62,0,https://bixbit.io/en/products,en,20,0.32,17.1
+antminer immersion cooling,same_locale,62,0,https://bixbit.io/en/asics-cooling,en,14,0.23,49.2
+antminer immersion cooling,same_locale,62,0,https://bixbit.io/en/products/cell,en,13,0.21,64.0
+antminer immersion cooling,same_locale,62,0,https://bixbit.io/en/products/coolant,en,7,0.11,66.9
+whatsminer m31s,cross_locale,61,0,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,19,0.31,14.9
+whatsminer m31s,cross_locale,61,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,19,0.31,33.9
+whatsminer m31s,cross_locale,61,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,15,0.25,49.7
+whatsminer m31s,cross_locale,61,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,8,0.13,18.8
+shipping container crypto mining,same_locale,60,0,https://bixbit.io/en/products/container,en,41,0.68,17.4
+shipping container crypto mining,same_locale,60,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,19,0.32,51.1
+каркас для майнинга размеры,same_locale,60,0,https://bixbit.io/ru/products/rack,ru,44,0.73,16.2
+каркас для майнинга размеры,same_locale,60,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,16,0.27,56.1
+antminer s19 firmware,same_locale,59,0,https://bixbit.io/en/firmwares/antminer,en,49,0.83,13.0
+antminer s19 firmware,same_locale,59,0,https://bixbit.io/en/firmwares/asic-s19,en,7,0.12,52.4
+immersion cooling antminer,same_locale,59,0,https://bixbit.io/en/products,en,23,0.39,16.9
+immersion cooling antminer,same_locale,59,0,https://bixbit.io/en/asics-cooling,en,14,0.24,57.3
+immersion cooling antminer,same_locale,59,0,https://bixbit.io/en/products/cell,en,14,0.24,63.2
+whatsminer m20s,cross_locale,58,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,26,0.45,32.8
+whatsminer m20s,cross_locale,58,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,17,0.29,70.2
+whatsminer m20s,cross_locale,58,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,15,0.26,63.8
+x11 калькулятор майнинга,same_locale,58,0,https://bixbit.io/ru/blog/post/samyy-vygodnyy-mayner-x11-algoritma-chto-est-na-rynke,ru,35,0.6,30.6
+x11 калькулятор майнинга,same_locale,58,0,https://bixbit.io/ru/calc,ru,23,0.4,22.8
+какую память для майнинга,same_locale,58,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,39,0.67,56.9
+какую память для майнинга,same_locale,58,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,19,0.33,51.0
+как подключить асик к мобильному интернету,same_locale,57,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva,ru,17,0.3,31.9
+как подключить асик к мобильному интернету,same_locale,57,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,16,0.28,55.3
+как подключить асик к мобильному интернету,same_locale,57,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva,ru,15,0.26,64.5
+как подключить асик к мобильному интернету,same_locale,57,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov,ru,9,0.16,45.6
+майнинг на памяти,same_locale,57,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,38,0.67,49.0
+майнинг на памяти,same_locale,57,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,19,0.33,67.2
+ошибки вотсмайнер,same_locale,56,14,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,48,0.86,2.2
+ошибки вотсмайнер,same_locale,56,14,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic,ru,8,0.14,9.2
+asic immersion cooling system,same_locale,56,0,https://bixbit.io/en/products,en,26,0.46,9.1
+asic immersion cooling system,same_locale,56,0,https://bixbit.io/en/products/cell,en,15,0.27,74.3
+asic immersion cooling system,same_locale,56,0,https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling,en,10,0.18,49.1
+майнинг на xp,same_locale,56,0,https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk,ru,38,0.68,69.4
+майнинг на xp,same_locale,56,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,18,0.32,65.2
+коды ошибок whatsminer,same_locale,55,2,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,41,0.75,2.9
+коды ошибок whatsminer,same_locale,55,2,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic,ru,9,0.16,9.8
+antminer l7 overclock firmware,same_locale,55,0,https://bixbit.io/en/blog/post/bixbit-releases-new-firmware-for-the-s17-s17-pro-bitmain-antminer-series-with-overclocking-potential-of-up-to-60,en,15,0.27,23.3
+antminer l7 overclock firmware,same_locale,55,0,https://bixbit.io/en/firmwares/asic-S17-S17Pro,en,14,0.25,12.4
+antminer l7 overclock firmware,same_locale,55,0,https://bixbit.io/en/firmwares,en,12,0.22,59.8
+antminer l7 overclock firmware,same_locale,55,0,https://bixbit.io/en/firmwares/antminer,en,11,0.2,58.6
+bitcoin immersion cooling,same_locale,55,0,https://bixbit.io/en/products,en,24,0.44,24.7
+bitcoin immersion cooling,same_locale,55,0,https://bixbit.io/en/asics-cooling,en,16,0.29,63.5
+bitcoin immersion cooling,same_locale,55,0,https://bixbit.io/en/products/cell,en,15,0.27,81.0
+bitmain antminer s19 pro,cross_locale,55,0,https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost,ru,33,0.6,10.1
+bitmain antminer s19 pro,cross_locale,55,0,https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide,en,17,0.31,37.4
+crypto mining cooling systems,same_locale,54,0,https://bixbit.io/en/asics-cooling/hydro-systems,en,29,0.54,37.7
+crypto mining cooling systems,same_locale,54,0,https://bixbit.io/en/asics-cooling,en,16,0.3,27.3
+crypto mining cooling systems,same_locale,54,0,https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air,en,9,0.17,4.2
+whatsminer m,same_locale,54,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,29,0.54,8.1
+whatsminer m,same_locale,54,0,https://bixbit.io/ru/blog/post/polnyy-obzor-asikov-microbt-whatsminer-m50-m50s-i-m53-harakteristiki-pribyl-okupaemost,ru,14,0.26,60.3
+whatsminer m,same_locale,54,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,11,0.2,69.5
+майнинг скорость,same_locale,54,0,https://bixbit.io/ru/blog/post/kakaya-skorost-interneta-nuzhna-dlya-mayninga-na-asikah-i-fermah,ru,47,0.87,19.9
+майнинг скорость,same_locale,54,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,7,0.13,68.7
+antminer custom firmware,same_locale,52,0,https://bixbit.io/en/firmwares/antminer,en,30,0.58,9.7
+antminer custom firmware,same_locale,52,0,https://bixbit.io/en/firmwares,en,16,0.31,26.7
+antminer custom firmware,same_locale,52,0,https://bixbit.io/en/firmwares/asic-s19,en,6,0.12,60.5
+asic immersion cooling kit,same_locale,52,0,https://bixbit.io/en/products/cell,en,30,0.58,22.2
+asic immersion cooling kit,same_locale,52,0,https://bixbit.io/en/products,en,20,0.38,51.0
+asic miner firmware,same_locale,52,0,https://bixbit.io/en/firmwares/antminer,en,28,0.54,23.7
+asic miner firmware,same_locale,52,0,https://bixbit.io/en/firmwares,en,21,0.4,21.7
+майнинг пк,same_locale,52,0,https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk,ru,41,0.79,60.9
+майнинг пк,same_locale,52,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,11,0.21,78.2
+immersion cooling system for mining,same_locale,51,0,https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air,en,24,0.47,11.8
+immersion cooling system for mining,same_locale,51,0,https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining,en,19,0.37,30.3
+immersion cooling system for mining,same_locale,51,0,https://bixbit.io/en/products/cell,en,8,0.16,79.1
+bitcoin mining container,same_locale,50,0,https://bixbit.io/en/products/container,en,43,0.86,23.2
+bitcoin mining container,same_locale,50,0,https://bixbit.io/en/products/container-hydro,en,7,0.14,75.9
+hydro cooling system,same_locale,49,0,https://bixbit.io/en/products/rack-hydro,en,30,0.61,53.7
+hydro cooling system,same_locale,49,0,https://bixbit.io/en/asics-cooling/hydro-systems,en,19,0.39,27.3
+immersion cooling asic,same_locale,49,0,https://bixbit.io/en/products,en,15,0.31,14.0
+immersion cooling asic,same_locale,49,0,https://bixbit.io/en/asics-cooling,en,11,0.22,73.5
+immersion cooling asic,same_locale,49,0,https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling,en,11,0.22,46.5
+immersion cooling asic,same_locale,49,0,https://bixbit.io/en/products/cell,en,7,0.14,88.4
+immersion mining container,same_locale,49,0,https://bixbit.io/en/products/container,en,28,0.57,22.0
+immersion mining container,same_locale,49,0,https://bixbit.io/en/products/container-1k,en,20,0.41,51.7
+miner immersion cooling,same_locale,49,0,https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining,en,28,0.57,18.3
+miner immersion cooling,same_locale,49,0,https://bixbit.io/en/products/cell,en,18,0.37,55.1
+виндовс для майнинга,same_locale,49,0,https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk,ru,41,0.84,39.7
+виндовс для майнинга,same_locale,49,0,https://bixbit.io/ru/blog/post/kak-uberechsya-ot-kriptodzhekinga-na-windows-za-pyat-shagov,ru,8,0.16,65.6
+программа майнинга на пк,same_locale,49,0,https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk,ru,43,0.88,40.1
+программа майнинга на пк,same_locale,49,0,https://bixbit.io/ru/blog/post/kak-uberechsya-ot-kriptodzhekinga-na-windows-za-pyat-shagov,ru,6,0.12,82.2
+asic miner immersion cooling,same_locale,48,0,https://bixbit.io/en/products,en,22,0.46,11.2
+asic miner immersion cooling,same_locale,48,0,https://bixbit.io/en/asics-cooling,en,13,0.27,53.2
+asic miner immersion cooling,same_locale,48,0,https://bixbit.io/en/products/cell,en,12,0.25,78.2
+how to overclock whatsminer m3,same_locale,48,0,https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock,en,23,0.48,2.1
+how to overclock whatsminer m3,same_locale,48,0,https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series,en,11,0.23,5.3
+how to overclock whatsminer m3,same_locale,48,0,https://bixbit.io/en/blog/post/how-to-overclock-whatsminer-asics-over-50,en,8,0.17,4.0
+how to overclock whatsminer m3,same_locale,48,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,5,0.1,1.0
+виндовс 10 для майнинга,same_locale,48,0,https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk,ru,43,0.9,58.2
+виндовс 10 для майнинга,same_locale,48,0,https://bixbit.io/ru/blog/post/kak-uberechsya-ot-kriptodzhekinga-na-windows-za-pyat-shagov,ru,5,0.1,33.4
+antminer s19 custom firmware,same_locale,47,0,https://bixbit.io/en/firmwares,en,20,0.43,27.6
+antminer s19 custom firmware,same_locale,47,0,https://bixbit.io/en/firmwares/antminer,en,20,0.43,11.8
+antminer s19 custom firmware,same_locale,47,0,https://bixbit.io/en/firmwares/asic-s19,en,7,0.15,46.1
+mining immersion cooling,same_locale,47,0,https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air,en,22,0.47,11.3
+mining immersion cooling,same_locale,47,0,https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining,en,16,0.34,25.0
+mining immersion cooling,same_locale,47,0,https://bixbit.io/en/products/cell,en,9,0.19,74.4
+объем памяти для майнинга,same_locale,47,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,22,0.47,69.5
+объем памяти для майнинга,same_locale,47,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,20,0.43,53.0
+объем памяти для майнинга,same_locale,47,0,https://bixbit.io/ru/products/container,ru,5,0.11,68.8
+температура для майнинга,same_locale,47,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera,ru,31,0.66,35.9
+температура для майнинга,same_locale,47,0,https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy,ru,16,0.34,23.3
+bitcoin mining immersion cooling,same_locale,46,0,https://bixbit.io/en/products,en,28,0.61,31.8
+bitcoin mining immersion cooling,same_locale,46,0,https://bixbit.io/en/products/cell,en,12,0.26,70.2
+bitcoin mining immersion cooling,same_locale,46,0,https://bixbit.io/en/asics-cooling,en,6,0.13,59.3
+whatsminer s30,same_locale,46,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,21,0.46,11.5
+whatsminer s30,same_locale,46,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,12,0.26,70.8
+whatsminer s30,same_locale,46,0,https://bixbit.io/ru/blog/post/bystryy-obzor-microbt-whatsminer-m30s-harakteristiki-cena-okupaemost,ru,10,0.22,1.0
+пример майнера на fpga,same_locale,45,0,https://bixbit.io/ru/blog/post/malenkiy-sekret-bolshogo-mayninga-nedorogie-fpga-kak-vyhod-iz-krizisa,ru,36,0.8,5.3
+пример майнера на fpga,same_locale,45,0,https://bixbit.io/ru/blog/post/fpga-dlya-mayninga-kakie-trendy-budut-preobladat-v-2019-godu,ru,9,0.2,10.8
+самый лучший майнинг 2017,same_locale,45,0,https://bixbit.io/ru/blog/post/top-5-asic-kotorye-ostayutsya-aktualnymi-do-halvinga-bitkoina,ru,24,0.53,15.8
+самый лучший майнинг 2017,same_locale,45,0,https://bixbit.io/ru/blog/post/luchshiy-mayner,ru,21,0.47,58.0
+shipping container mining rig,same_locale,44,0,https://bixbit.io/en/products/container,en,30,0.68,17.5
+shipping container mining rig,same_locale,44,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,14,0.32,57.1
+биос для майнинга,same_locale,44,0,https://bixbit.io/ru,ru,22,0.5,26.3
+биос для майнинга,same_locale,44,0,https://bixbit.io/ru/blog/post/materinskaya-plata-dlya-mayninga-kakuyu-vybrat-v-2019-2020,ru,22,0.5,44.5
+майнинг на телефоне андроид,same_locale,44,0,https://bixbit.io/ru/blog/post/mayning-kriptovalyuty-na-telefone-v-chem-opasnost,ru,28,0.64,37.7
+майнинг на телефоне андроид,same_locale,44,0,https://bixbit.io/ru/blog/post/mobilnyy-mayning-preimushchestva-i-nedostatki,ru,16,0.36,69.9
+сколько памяти для майнинга,same_locale,44,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,26,0.59,66.9
+сколько памяти для майнинга,same_locale,44,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,18,0.41,65.3
+hydro mining container,same_locale,43,1,https://bixbit.io/en/products/container-hydro,en,33,0.77,8.6
+hydro mining container,same_locale,43,1,https://bixbit.io/en/asics-cooling/hydro-systems,en,9,0.21,45.0
+firmware whatsminer,same_locale,43,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,27,0.63,4.2
+firmware whatsminer,same_locale,43,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,9,0.21,8.6
+firmware whatsminer,same_locale,43,0,https://bixbit.io/en/firmwares,en,6,0.14,10.0
+fpga mining,cross_locale,42,1,https://bixbit.io/en/blog/post/small-secret-of-big-mining-inexpensive-fpga-for-getting-out-the-crisis,en,36,0.86,15.2
+fpga mining,cross_locale,42,1,https://bixbit.io/ru/blog/post/malenkiy-sekret-bolshogo-mayninga-nedorogie-fpga-kak-vyhod-iz-krizisa,ru,6,0.14,1.8
+asic s19,cross_locale,42,0,https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost,ru,34,0.81,11.0
+asic s19,cross_locale,42,0,https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide,en,5,0.12,30.0
+pos майнинг,cross_locale,42,0,https://bixbit.io/ru/blog/post/kriptovalyuty-na-proof-of-stake-shest-interesnyh-variantov,ru,29,0.69,27.0
+pos майнинг,cross_locale,42,0,https://bixbit.io/en/blog/post/exploring-proof-of-stake-pos-an-energy-efficient-and-accessible-consensus-mechanism-for-cryptocurrencies,en,13,0.31,10.4
+whatsminer прошивка,same_locale,41,2,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,22,0.54,2.6
+whatsminer прошивка,same_locale,41,2,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,6,0.15,7.2
+whatsminer прошивка,same_locale,41,2,https://bixbit.io/ru/firmwares/whatsminer-all-series,ru,5,0.12,6.6
+bitcoin immersion cooling system,same_locale,41,0,https://bixbit.io/en/products,en,20,0.49,20.9
+bitcoin immersion cooling system,same_locale,41,0,https://bixbit.io/en/asics-cooling,en,10,0.24,61.5
+bitcoin immersion cooling system,same_locale,41,0,https://bixbit.io/en/products/cell,en,10,0.24,79.4
+crypto shipping container,same_locale,41,0,https://bixbit.io/en/products/container,en,22,0.54,27.6
+crypto shipping container,same_locale,41,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,19,0.46,22.0
+gddr5 майнинг,same_locale,41,0,https://bixbit.io/ru/blog/post/geforce-rtx-3050-ne-podoydet-dlya-mayninga-ethereum-zayavili-v-nvidia,ru,21,0.51,24.0
+gddr5 майнинг,same_locale,41,0,https://bixbit.io/ru/blog/post/na-gibridnyh-processorah-playstation-5-hotyat-maynit-eth-i-ton,ru,16,0.39,77.1
+watsminer,cross_locale,41,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,31,0.76,5.3
+watsminer,cross_locale,41,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,7,0.17,9.0
+большой майнинг,same_locale,41,0,https://bixbit.io/ru/blog/post/v-ukraine-obnaruzhili-rekordnuyu-mayning-fermu-na-5-tys-ustroystv,ru,20,0.49,17.4
+большой майнинг,same_locale,41,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,18,0.44,78.4
+ошибка 540 whatsminer,cross_locale,41,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,31,0.76,1.8
+ошибка 540 whatsminer,cross_locale,41,0,https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1,en,5,0.12,22.0
+ошибка 540 whatsminer,cross_locale,41,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic,ru,5,0.12,23.6
+майнинг на дедиках,same_locale,40,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,28,0.7,75.8
+майнинг на дедиках,same_locale,40,0,https://bixbit.io/ru/blog/post/mayning-na-dache-seychas-vygodnee-vsego-istoriya-iz-orenburga,ru,12,0.3,86.4
+программы для майнинга на видеокарте nvidia,same_locale,40,0,https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk,ru,27,0.68,67.8
+программы для майнинга на видеокарте nvidia,same_locale,40,0,https://bixbit.io/ru/blog/post/nicehash-polnostyu-razblokiroval-videokarty-nvidia-dlya-mayninga,ru,13,0.33,24.4
+asic monitor,same_locale,39,0,https://bixbit.io/en/ams,en,35,0.9,6.8
+asic monitor,same_locale,39,0,https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining,en,4,0.1,41.2
+immersion cooling asic miner,same_locale,39,0,https://bixbit.io/en/products,en,20,0.51,12.8
+immersion cooling asic miner,same_locale,39,0,https://bixbit.io/en/products/cell,en,11,0.28,70.5
+immersion cooling asic miner,same_locale,39,0,https://bixbit.io/en/asics-cooling,en,7,0.18,53.3
+microbt whatsminer d1,cross_locale,39,0,https://bixbit.io/en/firmwares,en,14,0.36,60.3
+microbt whatsminer d1,cross_locale,39,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,9,0.23,38.6
+microbt whatsminer d1,cross_locale,39,0,https://bixbit.io/ru/firmwares/whatsminer-all-series,ru,9,0.23,60.2
+microbt whatsminer d1,cross_locale,39,0,https://bixbit.io/en/documentation,en,4,0.1,60.5
+майнинг монитор,same_locale,39,0,https://bixbit.io/ru/ams,ru,23,0.59,6.8
+майнинг монитор,same_locale,39,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,10,0.26,75.6
+майнинг монитор,same_locale,39,0,https://bixbit.io/ru/blog/post/obsluzhivanie-asic-uhod-i-diagnostika,ru,6,0.15,59.0
+antminer s19 pro firmware,same_locale,38,2,https://bixbit.io/en/firmwares/antminer,en,29,0.76,13.3
+antminer s19 pro firmware,same_locale,38,2,https://bixbit.io/en/firmwares/asic-s19,en,8,0.21,46.4
+asic liquid cooling,same_locale,38,0,https://bixbit.io/en/blog/post/asic-cooling-trends-2026,en,17,0.45,12.0
+asic liquid cooling,same_locale,38,0,https://bixbit.io/en/products,en,8,0.21,32.0
+asic liquid cooling,same_locale,38,0,https://bixbit.io/en/products/cell,en,8,0.21,75.9
+whatsminer hydro container,same_locale,38,0,https://bixbit.io/en/products/container-hydro,en,19,0.5,6.5
+whatsminer hydro container,same_locale,38,0,https://bixbit.io/en/asics-cooling/hydro-systems,en,12,0.32,34.3
+whatsminer hydro container,same_locale,38,0,https://bixbit.io/en/products/container-1k,en,5,0.13,1.4
+криптовалюта на смартфоне,same_locale,38,0,https://bixbit.io/ru/blog/post/top-5-luchshih-smartfonov-dlya-fanatov-kriptovalyuty,ru,29,0.76,9.7
+криптовалюта на смартфоне,same_locale,38,0,https://bixbit.io/ru/blog/post/mayning-kriptovalyuty-na-telefone-v-chem-opasnost,ru,9,0.24,18.9
+крупный майнинг,same_locale,38,0,https://bixbit.io/ru/blog/post/v-ukraine-obnaruzhili-rekordnuyu-mayning-fermu-na-5-tys-ustroystv,ru,27,0.71,10.5
+крупный майнинг,same_locale,38,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,11,0.29,88.6
+antminer s 17,same_locale,37,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,17,0.46,10.6
+antminer s 17,same_locale,37,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,11,0.3,11.4
+antminer s 17,same_locale,37,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,7,0.19,19.0
+antminer s17pro,same_locale,37,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,20,0.54,9.6
+antminer s17pro,same_locale,37,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,14,0.38,15.1
+antminer s19 overclock,same_locale,37,0,https://bixbit.io/en/firmwares/antminer,en,29,0.78,16.8
+antminer s19 overclock,same_locale,37,0,https://bixbit.io/en/firmwares/asic-s19,en,8,0.22,35.6
+whatminer,cross_locale,37,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,31,0.84,6.3
+whatminer,cross_locale,37,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,6,0.16,6.5
+whatsminer m30s,cross_locale,36,1,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,19,0.53,16.2
+whatsminer m30s,cross_locale,36,1,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,7,0.19,9.1
+whatsminer m30s,cross_locale,36,1,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,7,0.19,29.9
+asic miner cooling system,same_locale,36,0,https://bixbit.io/en/products/cell,en,15,0.42,50.9
+asic miner cooling system,same_locale,36,0,https://bixbit.io/en/asics-cooling/hydro-systems,en,12,0.33,19.0
+asic miner cooling system,same_locale,36,0,https://bixbit.io/en/asics-cooling,en,9,0.25,30.3
+asic whatsminer m20s,cross_locale,36,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,13,0.36,39.6
+asic whatsminer m20s,cross_locale,36,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,12,0.33,74.2
+asic whatsminer m20s,cross_locale,36,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,11,0.31,51.2
+bitmain antminer s17 pro,same_locale,36,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,17,0.47,8.5
+bitmain antminer s17 pro,same_locale,36,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,10,0.28,17.9
+bitmain antminer s17 pro,same_locale,36,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,8,0.22,13.4
+immersion asic cooling,same_locale,36,0,https://bixbit.io/en/products,en,15,0.42,13.9
+immersion asic cooling,same_locale,36,0,https://bixbit.io/en/products/cell,en,12,0.33,77.9
+immersion asic cooling,same_locale,36,0,https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling,en,8,0.22,44.1
+whatsminer m2,cross_locale,36,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,20,0.56,23.2
+whatsminer m2,cross_locale,36,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,7,0.19,79.4
+майнинг битконнект,same_locale,36,0,https://bixbit.io/ru/blog/post/soosnovatelyu-bitconnect-predyavili-obvinenie-v-sozdanii-shemy-ponci,ru,29,0.81,20.2
+майнинг битконнект,same_locale,36,0,https://bixbit.io/ru,ru,4,0.11,10.8
+что такое асики,same_locale,36,0,https://bixbit.io/ru/blog/post/evolyuciya-asic-chto-budet-s-vychislitelnymi-ustroystvami-dlya-mayninga,ru,18,0.5,10.4
+что такое асики,same_locale,36,0,https://bixbit.io/ru/blog/post/rekomendacii-po-ustanovke-asic-v-kvartire,ru,18,0.5,68.8
+antminer прошивка,same_locale,35,0,https://bixbit.io/ru/firmwares/antminer,ru,28,0.8,3.3
+antminer прошивка,same_locale,35,0,https://bixbit.io/ru/firmwares,ru,6,0.17,22.8
+best asic firmware,same_locale,35,0,https://bixbit.io/en/firmwares,en,17,0.49,22.0
+best asic firmware,same_locale,35,0,https://bixbit.io/en/blog,en,13,0.37,40.0
+best asic firmware,same_locale,35,0,https://bixbit.io/en/firmwares/antminer,en,5,0.14,56.8
+s17 antminer,cross_locale,35,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,12,0.34,23.1
+s17 antminer,cross_locale,35,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,9,0.26,16.7
+s17 antminer,cross_locale,35,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,8,0.23,37.2
+s17 antminer,cross_locale,35,0,https://bixbit.io/en/firmwares/asic-S17-S17Pro,en,6,0.17,31.7
+shipping container bitcoin mining,same_locale,35,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,18,0.51,44.0
+shipping container bitcoin mining,same_locale,35,0,https://bixbit.io/en/products/container,en,17,0.49,20.3
+antminer t19 firmware,same_locale,34,0,https://bixbit.io/en/firmwares/antminer,en,26,0.76,13.2
+antminer t19 firmware,same_locale,34,0,https://bixbit.io/en/firmwares/asic-s19,en,8,0.24,46.1
+asic miner s17 pro,same_locale,34,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,15,0.44,13.4
+asic miner s17 pro,same_locale,34,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,10,0.29,21.2
+asic miner s17 pro,same_locale,34,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,9,0.26,13.9
+chieftec майнинг,same_locale,34,0,https://bixbit.io/ru/asics-cooling/hydro-systems,ru,29,0.85,45.1
+chieftec майнинг,same_locale,34,0,https://bixbit.io/ru/products/container,ru,5,0.15,75.4
+industrial containers bitcoin mining,same_locale,34,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,17,0.5,45.7
+industrial containers bitcoin mining,same_locale,34,0,https://bixbit.io/en/products/container,en,17,0.5,22.6
+bitcoin mining shipping containers,same_locale,33,0,https://bixbit.io/en/products/container,en,17,0.52,20.0
+bitcoin mining shipping containers,same_locale,33,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,16,0.48,45.7
+firmware for asic,same_locale,33,0,https://bixbit.io/en/firmwares,en,17,0.52,11.3
+firmware for asic,same_locale,33,0,https://bixbit.io/en/firmwares/asic-s19,en,7,0.21,79.7
+firmware for asic,same_locale,33,0,https://bixbit.io/en/firmwares/asic-s9-s9j-s9i,en,5,0.15,92.0
+firmware for asic,same_locale,33,0,https://bixbit.io/en/firmwares/antminer,en,4,0.12,42.2
+hydro cooled container,same_locale,33,0,https://bixbit.io/en/asics-cooling/hydro-systems,en,17,0.52,34.4
+hydro cooled container,same_locale,33,0,https://bixbit.io/en/products/container-hydro,en,14,0.42,38.1
+industrial container bitcoin mining,same_locale,33,0,https://bixbit.io/en/products/container,en,17,0.52,21.7
+industrial container bitcoin mining,same_locale,33,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,16,0.48,48.4
+shipping containers bitcoin mining,same_locale,33,0,https://bixbit.io/en/products/container,en,17,0.52,20.5
+shipping containers bitcoin mining,same_locale,33,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,16,0.48,43.4
+антмайнер s17,same_locale,33,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,20,0.61,15.5
+антмайнер s17,same_locale,33,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,11,0.33,10.8
+каркас для майнинга,same_locale,33,0,https://bixbit.io/ru/products/rack,ru,28,0.85,17.2
+каркас для майнинга,same_locale,33,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,5,0.15,57.2
+bitcoin mining industrial container,same_locale,32,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,16,0.5,47.5
+bitcoin mining industrial container,same_locale,32,0,https://bixbit.io/en/products/container,en,16,0.5,20.8
+bitcoin mining industrial containers,same_locale,32,0,https://bixbit.io/en/products/container,en,17,0.53,22.4
+bitcoin mining industrial containers,same_locale,32,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,15,0.47,48.9
+whatsminer m21s 56t,cross_locale,32,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,11,0.34,55.7
+whatsminer m21s 56t,cross_locale,32,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,11,0.34,46.8
+whatsminer m21s 56t,cross_locale,32,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,10,0.31,31.0
+прошивки для асиков,same_locale,32,0,https://bixbit.io/ru/firmwares,ru,26,0.81,4.9
+прошивки для асиков,same_locale,32,0,https://bixbit.io/ru/firmwares/antminer,ru,6,0.19,17.3
+ошибка 2320 whatsminer,cross_locale,31,1,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,19,0.61,6.2
+ошибка 2320 whatsminer,cross_locale,31,1,https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1,en,7,0.23,12.9
+ошибка 2320 whatsminer,cross_locale,31,1,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic,ru,5,0.16,22.8
+antminer l7 custom firmware,same_locale,31,0,https://bixbit.io/en/firmwares/antminer,en,16,0.52,12.7
+antminer l7 custom firmware,same_locale,31,0,https://bixbit.io/en/firmwares,en,15,0.48,27.3
+firmware antminer l7,same_locale,31,0,https://bixbit.io/en/firmwares/asic-S17-S17Pro,en,13,0.42,45.8
+firmware antminer l7,same_locale,31,0,https://bixbit.io/en/firmwares,en,12,0.39,21.2
+firmware antminer l7,same_locale,31,0,https://bixbit.io/en/firmwares/antminer,en,6,0.19,23.5
+antminer l9 firmware,same_locale,30,0,https://bixbit.io/en/firmwares/antminer,en,14,0.47,17.4
+antminer l9 firmware,same_locale,30,0,https://bixbit.io/en/firmwares,en,11,0.37,35.9
+antminer l9 firmware,same_locale,30,0,https://bixbit.io/en/firmwares/asic-s19,en,5,0.17,73.8
+immersion cooling container,same_locale,30,0,https://bixbit.io/en/products/container-1k,en,20,0.67,44.0
+immersion cooling container,same_locale,30,0,https://bixbit.io/en/products/cell,en,10,0.33,72.0
+immersion cooling mining rig,same_locale,30,0,https://bixbit.io/en/products/cell,en,23,0.77,49.6
+immersion cooling mining rig,same_locale,30,0,https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling,en,4,0.13,28.0
+s17 miner,same_locale,30,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,14,0.47,24.6
+s17 miner,same_locale,30,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,10,0.33,10.8
+s17 miner,same_locale,30,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,6,0.2,28.5
+microbt whatsminer,same_locale,29,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,16,0.55,22.8
+microbt whatsminer,same_locale,29,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,6,0.21,62.2
+microbt whatsminer,same_locale,29,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,4,0.14,52.2
+асик s 17,same_locale,29,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,20,0.69,10.1
+асик s 17,same_locale,29,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,6,0.21,19.5
+компьютерный майнинг,same_locale,29,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,11,0.38,69.3
+компьютерный майнинг,same_locale,29,0,https://bixbit.io/ru/blog/post/kak-uberechsya-ot-kriptodzhekinga-na-windows-za-pyat-shagov,ru,10,0.34,91.7
+компьютерный майнинг,same_locale,29,0,https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk,ru,8,0.28,58.5
+ошибка 560 whatsminer,cross_locale,29,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,21,0.72,3.4
+ошибка 560 whatsminer,cross_locale,29,0,https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1,en,4,0.14,16.5
+ошибка 560 whatsminer,cross_locale,29,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic,ru,4,0.14,23.8
+прошивка для ватсмайнер м30s,cross_locale,29,0,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,12,0.41,6.6
+прошивка для ватсмайнер м30s,cross_locale,29,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,8,0.28,13.1
+прошивка для ватсмайнер м30s,cross_locale,29,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,5,0.17,24.0
+прошивка для ватсмайнер м30s,cross_locale,29,0,https://bixbit.io/ru/blog/post/bystryy-obzor-microbt-whatsminer-m30s-harakteristiki-cena-okupaemost,ru,4,0.14,4.2
+whatsminer m50 прошивка,same_locale,28,1,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,14,0.5,3.6
+whatsminer m50 прошивка,same_locale,28,1,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,10,0.36,11.3
+whatsminer m50 прошивка,same_locale,28,1,https://bixbit.io/ru/firmwares/whatsminer-all-series,ru,4,0.14,26.2
+antminer s19 overclock firmware,same_locale,28,0,https://bixbit.io/en/firmwares/antminer,en,21,0.75,16.9
+antminer s19 overclock firmware,same_locale,28,0,https://bixbit.io/en/firmwares/asic-s19,en,7,0.25,36.7
+asic bitmain antminer s17 pro,same_locale,28,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,10,0.36,12.2
+asic bitmain antminer s17 pro,same_locale,28,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,9,0.32,9.6
+asic bitmain antminer s17 pro,same_locale,28,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,9,0.32,16.9
+asic immersion cooling tank,same_locale,28,0,https://bixbit.io/en/products/cell,en,15,0.54,58.9
+asic immersion cooling tank,same_locale,28,0,https://bixbit.io/en/products,en,13,0.46,17.2
+s19 antminer,cross_locale,28,0,https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost,ru,19,0.68,13.1
+s19 antminer,cross_locale,28,0,https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide,en,7,0.25,17.9
+асик это,same_locale,28,0,https://bixbit.io/ru/blog/post/rekomendacii-po-ustanovke-asic-v-kvartire,ru,20,0.71,58.1
+асик это,same_locale,28,0,https://bixbit.io/ru/blog/post/evolyuciya-asic-chto-budet-s-vychislitelnymi-ustroystvami-dlya-mayninga,ru,8,0.29,19.4
+каркас для майнинга чертеж,same_locale,28,0,https://bixbit.io/ru/products/rack,ru,21,0.75,36.1
+каркас для майнинга чертеж,same_locale,28,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,7,0.25,63.7
+место под майнинг,same_locale,28,0,https://bixbit.io/ru/blog/post/v-ukraine-obnaruzhili-rekordnuyu-mayning-fermu-na-5-tys-ustroystv,ru,20,0.71,13.5
+место под майнинг,same_locale,28,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,8,0.29,69.6
+bixbit usa,brand,27,1,https://bixbit.io/en,en,10,0.37,2.6
+bixbit usa,brand,27,1,https://bixbit.io/en/about,en,9,0.33,6.9
+bixbit usa,brand,27,1,https://bixbit.io/en/blog/post/bixbit-2025-year-in-numbers,en,8,0.3,5.2
+antminer s17 firmware,same_locale,27,0,https://bixbit.io/en/blog/post/bixbit-releases-new-firmware-for-the-s17-s17-pro-bitmain-antminer-series-with-overclocking-potential-of-up-to-60,en,13,0.48,5.8
+antminer s17 firmware,same_locale,27,0,https://bixbit.io/en/firmwares/asic-S17-S17Pro,en,6,0.22,13.2
+antminer s17 firmware,same_locale,27,0,https://bixbit.io/en/firmwares,en,3,0.11,50.3
+antminer s19 pro overclock,same_locale,27,0,https://bixbit.io/en/firmwares/antminer,en,18,0.67,14.5
+antminer s19 pro overclock,same_locale,27,0,https://bixbit.io/en/firmwares/asic-s19,en,9,0.33,36.3
+antminer s19 xp profitability,same_locale,27,0,https://bixbit.io/en/blog/post/introducing-the-bitmain-antminer-s19-xp-is-it-worth-it,en,19,0.7,9.1
+antminer s19 xp profitability,same_locale,27,0,https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide,en,8,0.3,12.2
+asic s17,cross_locale,27,0,https://bixbit.io/en/firmwares/asic-S17-S17Pro,en,9,0.33,9.4
+asic s17,cross_locale,27,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,9,0.33,18.4
+asic s17,cross_locale,27,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,9,0.33,12.2
+immersion container,same_locale,27,0,https://bixbit.io/en/products/container-1k,en,14,0.52,36.6
+immersion container,same_locale,27,0,https://bixbit.io/en/products/container,en,13,0.48,68.6
+mining container setup cost,same_locale,27,0,https://bixbit.io/en/products/container,en,24,0.89,26.5
+mining container setup cost,same_locale,27,0,https://bixbit.io/en/products/container-1k,en,3,0.11,2.3
+overclocking asic miners,same_locale,27,0,https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock,en,16,0.59,14.4
+overclocking asic miners,same_locale,27,0,https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings,en,6,0.22,42.5
+overclocking asic miners,same_locale,27,0,https://bixbit.io/en/blog/post/how-to-overclock-whatsminer-asics-over-50,en,4,0.15,70.2
+s17 pro miner,same_locale,27,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,10,0.37,16.1
+s17 pro miner,same_locale,27,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,9,0.33,9.4
+s17 pro miner,same_locale,27,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,7,0.26,25.7
+whatsminer d1,same_locale,27,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,13,0.48,17.2
+whatsminer d1,same_locale,27,0,https://bixbit.io/ru/firmwares,ru,7,0.26,46.1
+whatsminer tool,same_locale,27,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,8,0.3,11.5
+whatsminer tool,same_locale,27,0,https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool,en,6,0.22,28.0
+whatsminer tool,same_locale,27,0,https://bixbit.io/en/firmwares,en,5,0.19,21.2
+whatsminer tool,same_locale,27,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,5,0.19,39.4
+xfx майнинг,same_locale,27,0,https://bixbit.io/ru/blog/post/maynery-podtverzhdayut-zanizhenie-heshreyta-u-rtx-3080-ti,ru,17,0.63,41.4
+xfx майнинг,same_locale,27,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,10,0.37,73.2
+whatsminer m30s прошивка,same_locale,26,1,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,10,0.38,3.1
+whatsminer m30s прошивка,same_locale,26,1,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,7,0.27,15.3
+whatsminer m30s прошивка,same_locale,26,1,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,4,0.15,27.5
+whatsminer m30s прошивка,same_locale,26,1,https://bixbit.io/ru/blog/post/bystryy-obzor-microbt-whatsminer-m30s-harakteristiki-cena-okupaemost,ru,3,0.12,4.7
+прошивка ватсмайнер м50,same_locale,26,1,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,17,0.65,3.4
+прошивка ватсмайнер м50,same_locale,26,1,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,8,0.31,14.5
+asic hydro cooling,same_locale,26,0,https://bixbit.io/en/asics-cooling/hydro-systems,en,15,0.58,28.7
+asic hydro cooling,same_locale,26,0,https://bixbit.io/en/products/rack-hydro,en,11,0.42,12.5
+asic m20s,same_locale,26,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,14,0.54,60.3
+asic m20s,same_locale,26,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,10,0.38,43.7
+bitmain antminer s17pro,same_locale,26,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,9,0.35,20.2
+bitmain antminer s17pro,same_locale,26,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,9,0.35,9.6
+bitmain antminer s17pro,same_locale,26,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,7,0.27,15.6
+bitmain s17 pro,same_locale,26,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,9,0.35,15.4
+bitmain s17 pro,same_locale,26,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,9,0.35,11.8
+bitmain s17 pro,same_locale,26,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,8,0.31,10.8
+immersion cooling mining,same_locale,26,0,https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining,en,23,0.88,14.1
+immersion cooling mining,same_locale,26,0,https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air,en,3,0.12,14.0
+майнер s17 pro,same_locale,26,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,9,0.35,16.2
+майнер s17 pro,same_locale,26,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,9,0.35,16.0
+майнер s17 pro,same_locale,26,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,8,0.31,17.2
+охлаждение асиков,same_locale,26,0,https://bixbit.io/ru/products,ru,11,0.42,11.1
+охлаждение асиков,same_locale,26,0,https://bixbit.io/ru/blog/post/ohlazhdenie-asikov-trendy-2026,ru,9,0.35,10.2
+охлаждение асиков,same_locale,26,0,https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy,ru,3,0.12,26.7
+ошибка 206 whatsminer,cross_locale,26,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,16,0.62,3.8
+ошибка 206 whatsminer,cross_locale,26,0,https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1,en,5,0.19,16.4
+ошибка 206 whatsminer,cross_locale,26,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic,ru,5,0.19,25.6
+firmware antminer s21,same_locale,25,0,https://bixbit.io/en/firmwares/antminer,en,14,0.56,34.7
+firmware antminer s21,same_locale,25,0,https://bixbit.io/en/firmwares,en,11,0.44,23.9
+microbt m20s,cross_locale,25,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,13,0.52,58.5
+microbt m20s,cross_locale,25,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,12,0.48,53.8
+mining firmware,same_locale,25,0,https://bixbit.io/en/firmwares,en,14,0.56,20.1
+mining firmware,same_locale,25,0,https://bixbit.io/en/firmwares/antminer,en,11,0.44,63.9
+whatsminer m30 прошивка,same_locale,25,0,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,8,0.32,4.4
+whatsminer m30 прошивка,same_locale,25,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,5,0.2,26.8
+whatsminer m30 прошивка,same_locale,25,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,5,0.2,14.0
+whatsminer m30 прошивка,same_locale,25,0,https://bixbit.io/ru/blog/post/bystryy-obzor-microbt-whatsminer-m30s-harakteristiki-cena-okupaemost,ru,3,0.12,8.3
+whatsminer m30 прошивка,same_locale,25,0,https://bixbit.io/ru/blog/post/proshivka-dlya-whatsminer-razgon-dlya-m2x-m3x-m5x-seriy,ru,3,0.12,5.3
+асики это,same_locale,25,0,https://bixbit.io/ru/blog/post/rekomendacii-po-ustanovke-asic-v-kvartire,ru,22,0.88,59.8
+асики это,same_locale,25,0,https://bixbit.io/ru/blog/post/evolyuciya-asic-chto-budet-s-vychislitelnymi-ustroystvami-dlya-mayninga,ru,3,0.12,28.3
+майнинг ферма красноярск,same_locale,25,0,https://bixbit.io/ru/blog/post/zhiteli-krasnoyarska-nashli-v-podvale-zhilogo-doma-mayning-fermu,ru,19,0.76,4.6
+майнинг ферма красноярск,same_locale,25,0,https://bixbit.io/ru/blog/post/zhilcy-mnogokvartirnogo-doma-v-krasnoyarske-vychislili-mayning-fermu,ru,6,0.24,12.8
+ошибка 210 whatsminer m21s,cross_locale,25,0,https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1,en,12,0.48,15.3
+ошибка 210 whatsminer m21s,cross_locale,25,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,12,0.48,4.4
+whatsminer ошибки,same_locale,24,6,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,19,0.79,2.7
+whatsminer ошибки,same_locale,24,6,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic,ru,5,0.21,10.6
+antminer s21 firmware,same_locale,24,0,https://bixbit.io/en/firmwares,en,15,0.62,29.6
+antminer s21 firmware,same_locale,24,0,https://bixbit.io/en/firmwares/antminer,en,7,0.29,15.6
+antminer s21 pro firmware,same_locale,24,0,https://bixbit.io/en/firmwares,en,12,0.5,40.5
+antminer s21 pro firmware,same_locale,24,0,https://bixbit.io/en/firmwares/antminer,en,12,0.5,31.1
+bitmain s17,same_locale,24,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,11,0.46,12.5
+bitmain s17,same_locale,24,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,7,0.29,18.4
+bitmain s17,same_locale,24,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,5,0.21,13.4
+miner s17 pro,same_locale,24,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,8,0.33,9.1
+miner s17 pro,same_locale,24,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,8,0.33,25.9
+miner s17 pro,same_locale,24,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,7,0.29,17.1
+как найти айпи адрес асика,same_locale,24,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-1-identifikatsiia-mainera-v-seti,ru,20,0.83,7.7
+как найти айпи адрес асика,same_locale,24,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva,ru,4,0.17,43.5
+майнинг город,same_locale,24,0,https://bixbit.io/ru/blog/post/u-zhitelya-krivogo-roga-nashli-kustarnuyu-mayning-fermu,ru,14,0.58,57.1
+майнинг город,same_locale,24,0,https://bixbit.io/ru/blog/post/mayning-na-dache-seychas-vygodnee-vsego-istoriya-iz-orenburga,ru,10,0.42,71.5
+майнинг на 32 битной системе,same_locale,24,0,https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk,ru,11,0.46,62.7
+майнинг на 32 битной системе,same_locale,24,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,11,0.46,93.4
+размещение майнинг,same_locale,24,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,14,0.58,80.3
+размещение майнинг,same_locale,24,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,10,0.42,40.1
+fpga miner,cross_locale,23,2,https://bixbit.io/en/blog/post/small-secret-of-big-mining-inexpensive-fpga-for-getting-out-the-crisis,en,16,0.7,12.5
+fpga miner,cross_locale,23,2,https://bixbit.io/ru/blog/post/malenkiy-sekret-bolshogo-mayninga-nedorogie-fpga-kak-vyhod-iz-krizisa,ru,6,0.26,3.5
+antminer t21 firmware,same_locale,23,0,https://bixbit.io/en/firmwares/antminer,en,15,0.65,23.7
+antminer t21 firmware,same_locale,23,0,https://bixbit.io/en/firmwares,en,8,0.35,41.4
+bitmain s19,cross_locale,23,0,https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost,ru,17,0.74,13.4
+bitmain s19,cross_locale,23,0,https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide,en,6,0.26,23.0
+microbt whatsminer m32 68t,cross_locale,23,0,https://bixbit.io/ru/firmwares/whatsminer-series-m3x,ru,15,0.65,68.9
+microbt whatsminer m32 68t,cross_locale,23,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,8,0.35,38.6
+s17 bitmain,cross_locale,23,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,8,0.35,8.4
+s17 bitmain,cross_locale,23,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,7,0.3,22.9
+s17 bitmain,cross_locale,23,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,5,0.22,33.0
+s17 bitmain,cross_locale,23,0,https://bixbit.io/en/firmwares/asic-S17-S17Pro,en,3,0.13,70.3
+whatsminer hydro cooling,same_locale,23,0,https://bixbit.io/en/asics-cooling/hydro-systems,en,16,0.7,17.7
+whatsminer hydro cooling,same_locale,23,0,https://bixbit.io/en/products/container-hydro,en,7,0.3,42.9
+whatsminer официальный сайт,cross_locale,23,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,11,0.48,3.7
+whatsminer официальный сайт,cross_locale,23,0,https://bixbit.io/en/firmwares/whatsminer-series-m3x,en,4,0.17,6.2
+whatsminer официальный сайт,cross_locale,23,0,https://bixbit.io/ru/blog/post/kak-obnovit-proshivku-whatsminer,ru,3,0.13,23.7
+антмайнер s17 pro,same_locale,23,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,9,0.39,13.8
+антмайнер s17 pro,same_locale,23,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,8,0.35,9.8
+антмайнер s17 pro,same_locale,23,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,6,0.26,18.3
+асик s17,same_locale,23,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,14,0.61,11.0
+асик s17,same_locale,23,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,8,0.35,20.6
+майнинг 460,same_locale,23,0,https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat,ru,16,0.7,74.8
+майнинг 460,same_locale,23,0,https://bixbit.io/ru/blog/post/mayning-na-dache-seychas-vygodnee-vsego-istoriya-iz-orenburga,ru,7,0.3,72.7
+майнинг эфира 2017,same_locale,23,0,https://bixbit.io/ru/blog/post/kak-nachat-maynit-ethereum-classic,ru,20,0.87,33.2
+майнинг эфира 2017,same_locale,23,0,https://bixbit.io/ru/blog/post/chto-budet-s-mayningom-ethereum-posle-perehoda-na-pos,ru,3,0.13,9.0
+antminer s19 pro firmware update,same_locale,22,0,https://bixbit.io/en/firmwares/antminer,en,16,0.73,12.2
+antminer s19 pro firmware update,same_locale,22,0,https://bixbit.io/en/firmwares/asic-s19,en,6,0.27,44.5
+bitcoin mining container design,same_locale,22,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,18,0.82,30.3
+bitcoin mining container design,same_locale,22,0,https://bixbit.io/en/products/container,en,4,0.18,61.8
+bitcoin mining mobile containers,same_locale,22,0,https://bixbit.io/en/products/container,en,17,0.77,24.3
+bitcoin mining mobile containers,same_locale,22,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,5,0.23,51.8
+bitmain прошивка,cross_locale,22,0,https://bixbit.io/ru/firmwares/antminer,ru,11,0.5,8.8
+bitmain прошивка,cross_locale,22,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,6,0.27,9.0
+bitmain прошивка,cross_locale,22,0,https://bixbit.io/en/firmwares,en,3,0.14,58.3
+firmware antminer l9,same_locale,22,0,https://bixbit.io/en/firmwares/antminer,en,12,0.55,24.2
+firmware antminer l9,same_locale,22,0,https://bixbit.io/en/firmwares,en,10,0.45,35.6
+microbt whatsminer m21s 56t,cross_locale,22,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,11,0.5,44.4
+microbt whatsminer m21s 56t,cross_locale,22,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,11,0.5,57.8
+portable containers bitcoin mining,same_locale,22,0,https://bixbit.io/en/products/container,en,17,0.77,26.1
+portable containers bitcoin mining,same_locale,22,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,5,0.23,49.0
+whatsminer m20s прошивки,cross_locale,22,0,https://bixbit.io/en/firmwares/whatsminer-series-m2x,en,7,0.32,5.0
+whatsminer m20s прошивки,cross_locale,22,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,6,0.27,9.3
+whatsminer m20s прошивки,cross_locale,22,0,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,5,0.23,18.0
+whatsminer m20s прошивки,cross_locale,22,0,https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware,en,4,0.18,17.2
+whatsminer m21s прошивка,same_locale,22,0,https://bixbit.io/ru/firmwares/whatsminer-series-m2x,ru,8,0.36,5.6
+whatsminer m21s прошивка,same_locale,22,0,https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer,ru,7,0.32,17.4
+whatsminer m21s прошивка,same_locale,22,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera,ru,5,0.23,21.8
+асик с17,same_locale,22,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,12,0.55,10.6
+асик с17,same_locale,22,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,7,0.32,22.1
+иммерсионное охлаждение для майнинга купить,same_locale,22,0,https://bixbit.io/ru/products,ru,12,0.55,6.9
+иммерсионное охлаждение для майнинга купить,same_locale,22,0,https://bixbit.io/ru/blog/post/immersionnaya-zhidkost-kakuyu-vybrat-dlya-mayninga-i-pochemu,ru,8,0.36,15.8
+antminer l7 firmware,same_locale,21,0,https://bixbit.io/en/firmwares,en,10,0.48,34.4
+antminer l7 firmware,same_locale,21,0,https://bixbit.io/en/firmwares/antminer,en,7,0.33,15.1
+antminer l7 firmware,same_locale,21,0,https://bixbit.io/en/firmwares/asic-S17-S17Pro,en,4,0.19,35.0
+bitcoin containers,same_locale,21,0,https://bixbit.io/en/products/container,en,11,0.52,27.2
+bitcoin containers,same_locale,21,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,10,0.48,57.8
+bitmain s17pro,same_locale,21,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,8,0.38,6.5
+bitmain s17pro,same_locale,21,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,7,0.33,22.9
+bitmain s17pro,same_locale,21,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,6,0.29,12.2
+firmware antminer s19,cross_locale,21,0,https://bixbit.io/en/firmwares/antminer,en,17,0.81,7.9
+firmware antminer s19,cross_locale,21,0,https://bixbit.io/ru/firmwares/antminer,ru,3,0.14,56.3
+s19 miner,cross_locale,21,0,https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost,ru,12,0.57,14.8
+s19 miner,cross_locale,21,0,https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide,en,9,0.43,17.7
+кабель для асика whatsminer,same_locale,21,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva,ru,14,0.67,14.0
+кабель для асика whatsminer,same_locale,21,0,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,ru,5,0.24,20.2
+майнинг ферма на балконе,same_locale,21,0,https://bixbit.io/ru/blog/post/u-zhitelya-krivogo-roga-nashli-kustarnuyu-mayning-fermu,ru,11,0.52,47.3
+майнинг ферма на балконе,same_locale,21,0,https://bixbit.io/ru/blog/post/mayning-na-dache-seychas-vygodnee-vsego-istoriya-iz-orenburga,ru,9,0.43,72.8
+ошибка 217 whatsminer,cross_locale,21,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia,ru,14,0.67,3.6
+ошибка 217 whatsminer,cross_locale,21,0,https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic,ru,4,0.19,14.0
+ошибка 217 whatsminer,cross_locale,21,0,https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1,en,3,0.14,17.0
+системы охлаждения асиков,same_locale,21,0,https://bixbit.io/ru/asics-cooling/immersion-systems,ru,11,0.52,15.0
+системы охлаждения асиков,same_locale,21,0,https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy,ru,10,0.48,15.5
+asic antminer s17,cross_locale,20,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,7,0.35,11.6
+asic antminer s17,cross_locale,20,0,https://bixbit.io/en/firmwares/asic-S17-S17Pro,en,5,0.25,13.8
+asic antminer s17,cross_locale,20,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,5,0.25,24.2
+asic antminer s17,cross_locale,20,0,https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60,ru,3,0.15,10.3
+asic s17 pro,same_locale,20,0,https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro,ru,15,0.75,6.4
+asic s17 pro,same_locale,20,0,https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi,ru,5,0.25,10.2
+immersion cooling miners,same_locale,20,0,https://bixbit.io/en/products/cell,en,13,0.65,44.2
+immersion cooling miners,same_locale,20,0,https://bixbit.io/en/products,en,5,0.25,26.6
+immersion cooling miners,same_locale,20,0,https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling,en,2,0.1,8.5
+mobile containers bitcoin mining,same_locale,20,0,https://bixbit.io/en/products/container,en,16,0.8,23.0
+mobile containers bitcoin mining,same_locale,20,0,https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry,en,4,0.2,49.8
+каркас майнинг,same_locale,20,0,https://bixbit.io/ru/products/rack,ru,11,0.55,15.2
+каркас майнинг,same_locale,20,0,https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut,ru,9,0.45,75.1

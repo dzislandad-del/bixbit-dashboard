@@ -1,0 +1,73 @@
+{
+  "engine": "gemini",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_id": "09251235-2548-0612-0000-ba09f65ba510",
+  "cost_usd": 0.058988,
+  "prompt": "Which Antminer firmware has the best autotuning for efficiency (J/TH)? Compare vendors.",
+  "model": "gemini-3.5-flash",
+  "datetime": "2026-09-25 12:35:33 +00:00",
+  "fan_out_queries": [
+    "braiins vs luxos vs vnish antminer firmware comparison",
+    "best antminer firmware autotuning efficiency comparison",
+    "antminer aftermarket firmware comparison efficiency"
+  ],
+  "answer_text": "When choosing custom firmware for your Bitmain Antminer to optimize for maximum efficiency (measured in Joules per Terahash, or **J/TH**), aftermarket options consistently outperform Bitmain’s stock firmware. By using **per-chip autotuning**—which fine-tunes the voltage and frequency of individual ASIC chips instead of applying a blanket setting across the whole board—these firmwares can improve your miner's efficiency by **10% to 20%** compared to stock.\n\nThe three industry-leading firmware providers for Antminers are **Braiins OS**, **VNish**, and **LuxOS**. Here is how they compare, which one is best for efficiency, and how to choose between them.\n\n---\n\n### 1. The Competitors\n\n#### **A. VNish (The Pure Efficiency & Customization Champion)**\n*   **Best for:** Absolute maximum efficiency gains (J/TH), underclocking, and broad hardware compatibility.\n*   **The Tuning Engine:** VNish is widely considered to have the most aggressive and highly optimized autotuner in the industry. It has highly refined voltage-frequency profiles that allow miners to \"underclock\" their machines into ultra-low power modes. For example, you can drop an S19-series miner down to an efficiency tier close to an S19 XP just by lowering the power target, with VNish perfectly balancing the individual chips at that lower voltage.\n*   **Developer Fee:** **2.0% to 2.8%** (taken via split-hashrate).\n\n#### **B. Braiins OS (The Gold Standard for Usability and Stratum V2)**\n*   **Best for:** User-friendly UI, native Stratum V2 integration, and open-source alignment.\n*   **The Tuning Engine:** Braiins features an incredibly robust autotuning engine with **Dynamic Performance Scaling (DPS)**. It allows you to set a strict **Power Target** (e.g., exactly 3000W), and the software automatically tunes the chips to squeeze out the absolute maximum hashrate possible within that power envelope. It is highly stable and does not crash during tuning cycles. \n*   **Developer Fee:** **2.0% to 2.5%**. However, the fee is **waived (0%)** if you mine directly on the Braiins Pool.\n\n#### **C. LuxOS (The Enterprise & Energy Curtailment King)**\n*   **Best for:** Commercial/industrial operations, dynamic energy pricing environments, and full-stack API integration.\n*   **The Tuning Engine:** LuxOS is built from the ground up by Luxor. Its \"AutoTuner\" is excellent, but its true efficiency power lies in **system-level intelligence**. It is designed to pair with dynamic power markets (like ERCOT in Texas). It can automatically dial down the miner's efficiency/power target in seconds when power prices spike (curtailment) and ramp it back up when power is cheap.\n*   **Developer Fee:** **2.8%**. The fee is waived if you mine on the Luxor Pool.\n\n---\n\n### 2. Feature & Performance Comparison\n\n| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Autotuning Granularity** | Per-chip | Per-chip | Per-chip |\n| **Underclocking (Low J/TH)** | Excellent (DPS Engine) | Outstanding (Highly granular profiles) | Very Good (Enterprise targets) |\n| **Stability during Tuning** | Best-in-class | Good | Good |\n| **Dev Fee** | 2.0% – 2.5% | 2.0% – 2.8% | 2.8% |\n| **Fee Waiver Option** | Yes (Mine on Braiins Pool) | No | Yes (Mine on Luxor Pool) |\n| **Stratum V2 Support** | Yes (Native) | No | No |\n| **Best suited for...** | Home miners / Medium farms | Maximizing older hardware (S19 series) | Utility-scale / Industrial farms |\n\n---\n\n### 3. Which has the *Best* Autotuning for Efficiency?\n\n#### **For Maximum Raw J/TH Efficiency (The Edge goes to VNish)**\nIf your sole goal is to get the lowest possible J/TH (for example, taking a standard S19 from 29.5 J/TH down to 21–22 J/TH in a low-power mode), **VNish** typically edges out the competition. \n* **Why:** VNish has highly optimized, pre-calculated voltage/frequency sweep profiles developed over years of managing millions of ASICs. It is incredibly skilled at identifying \"weak\" chips on a hashboard and under-volting them individually so they don't drag down the efficiency of the \"gold\" (highly efficient) chips on the same board.\n\n#### **For \"Out-of-the-Box\" Efficiency & No Dev Fee (The Edge goes to Braiins OS)**\nIf you do not want your efficiency gains eaten up by a 2%+ developer fee, **Braiins OS** is the clear winner. \n* **Why:** While VNish's tuning algorithm might occasionally squeeze out 0.5% more physical hardware efficiency, **Braiins OS offers a 0% dev fee if you use Braiins Pool**. Saving 2% to 2.5% on pool fees often completely eclipses minor algorithmic differences in tuning. Furthermore, Braiins OS supports **Stratum V2**, which reduces data transmission overhead and CPU load on the control board, yielding slight peripheral efficiency benefits.\n\n### Summary Recommendation\n* Choose **VNish** if you have older Antminers (like the S19, S19j Pro), mine on a non-proprietary pool, and want to underclock them to the absolute lowest physical J/TH limit.\n* Choose **Braiins OS** if you want the best \"net profitability\" (due to the 0% dev fee waiver with Braiins Pool) and prefer a highly stable, polished interface with Stratum V2 support.\n* Choose **LuxOS** if you run a large commercial fleet and need to dynamically scale your J/TH in real-time based on electricity market prices.",
+  "cited_urls": [
+    {
+      "title": "vnish-firmware.com",
+      "direct_url": "https://vnish-firmware.com/stock-firmware-vnish-custom-firmware-which-one-delivers-more-profit/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG0SDDISPpakpZpSG_tgX8f1mhzPG8scOWFD8kTGtxJIO6qtlbTi23Ua5u-sgcTHAVZ9UHI4NxiDfDexSFyhlsDZKWlH9wuYO9VScTjmeX61JdEeODFLl_ORJiIxL1jOt78krGSR9vHCnKEQoxvaycLr-nBGSoU2hKNtnE2dHv1wGLTOzlB3CeK1L_W0XtCH2gps9bSA=="
+    },
+    {
+      "title": "youtube.com",
+      "direct_url": "https://www.youtube.com/watch?v=YyTnyFbvsjM",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9LD_Ypya6b3bc69hG34EYPc-qh1dFDGc3-ST2_yA3BOoGZKm_xVKNg44cECIVZBn9EMGXe2ffhF2EjbCfmO3FriW_Xfj_nIQeK4LGnxa2otihncdPkE9dWgw4r3EQpONN"
+    },
+    {
+      "title": "braiins.com",
+      "direct_url": "https://braiins.com/blog/bitcoin-asic-autotuning",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECbZ3C7RT5HUd3OwN04pXkaHWw8k-Zt0rFVW5hHb9AauIjYW4laAE4r1u6eqeDvyBmRMoXpfy7vdcEPBKK66jc5iN5oEpXt5pZX40xWsq0nI90K1s4XtwndNkUDCHDWHR4AqswTts="
+    },
+    {
+      "title": "d-central.tech",
+      "direct_url": "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8S3rUV9TfiH9j9pbXRRJHKuWj8J2HUmIxn0zcHD-ARs4k4_HnKJedqYj-27Y6lcwrCM3MUVcrGjEjIDgxOnjx1oTH_fqIvXvbi8wB9Lx6huZYXwrd193tABASjXO-Jz3qbnYLjfCltTxoyGiN5syacG2chvEjiJ5dJRMrWSFsQI171uQr-WJvmgDFnLNdRI0Bos-vnDf7TxAxL1iKILTEamASST24VoS"
+    },
+    {
+      "title": "youtube.com",
+      "direct_url": "https://www.youtube.com/watch?v=iaBUkFiieVc",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwMgZizYb2jphwoeOzXzsR2zhKqYVKWw3zDkZdgf1cQ4tE9edDAefhveASLYKd0lzGjnklGyJSGGGk4xfaTqrT1hwQF5ReJXUibMfjOgjl0oVC8-8al-OIOq1rwuT-pC6X"
+    },
+    {
+      "title": "obm.io",
+      "direct_url": "https://obm.io/blog/miners-guide-to-firmware/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFTvMuK_FbqPWARb2VP0ubymJMcj_iORRzlhP20zRRqdtNE9nZFF5qAsI4EVDPwKcYO4enkoxxkRbxBw7zJY02C8DDTzlKd8ZA4LsgsKotAl9cZg9GDWEc0CiMUeJ732VQq3c="
+    },
+    {
+      "title": "youtube.com",
+      "direct_url": "https://www.youtube.com/watch?v=T-el0JbG-M8",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOXRgKnREH6Su9BFWvOjBhzQXDSsFsZDIWiYVIIuRp1jjSW-_TcJCXhGomDJ4Q0HHvEvxwMeSDXwRMKk3aqUjq8mexPVwAEfbQH_G0XoRRZP-MA_2L1FapEty0LCd6i1ME"
+    },
+    {
+      "title": "d-central.tech",
+      "direct_url": "https://d-central.tech/nicehash-and-marathon-digital-unveil-promising-bitcoin-mining-firmware/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7pRWYfv6Di3yvbmYrzmp1aTxFi2Pg8Mcv1H7rtT764QOfReSgKSKDJp57HJnBuaL8w5cXzrd2-fQYceJlkT5c77zstX29ADPX7DcTMYrQ1emnSnBWEHD3CIMXBEAw4CDgAyuj7PZhtcMmRh5DnNzvVTLJiO4LoEwgkxqFxw2sxlETHWuagbHn8Xy_WP0oLu9pN9kY"
+    },
+    {
+      "title": "reddit.com",
+      "direct_url": "https://www.reddit.com/r/BitcoinMining/comments/1oehxq4/what_firmware_are_you_running_on_your_antminer/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmF0goUj1KWwL4XiPI1i11AGkn9ZbwFGyqldGJSs22Dg3ub5uLC8tKWuOzbScf8fx6RzHREs6U5rqAReSlDa3F82M6Wn42WxotknQMmccrUUx4L85bMQGSScFbuAmR04vtti-ign88yU2TOFgyfG-KYMLgBXC6kympjhe_hNfUBx-04eokI-nxwyR3gCWNQcrUV_zo_D04YJfk0gIa"
+    },
+    {
+      "title": "hashrateindex.com",
+      "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEV9-GGoX9D0e_Np3YUBhZU6M4J73mEj34pKnEXemfNVLSHoHd_kmBtx_9uVG-UT_pZms4-WBOYVIF75WjyFMpjBF6283B4_wYezfizOGuOg20QPencfgnPUFFIRvaY65xIE4WBUiRvXGChDVW0Ba3cER9fgPCkUBd"
+    },
+    {
+      "title": "mineshop.eu",
+      "direct_url": "https://mineshop.eu/blog/mineshop-blog-tutorials/antminer-vs-whatsminer-home-mining-2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeTnDmMjvetqRu_c0hNf9VEm1kGqYNcHGRPC9nSV_em9-GIijRwowmqni7isc05cHgGsFSJSHz0P7axY-Ljf4QqIqHXK9CkYL4Ma6wtWD3wxztt8TjcfBaLTsCc-tAzLfdUt_bI7MX9JAZwfSuo2y8U91ic8VsxyG8PaiSq1qWbT4i9w3ZEzcoqJpoH6ub"
+    }
+  ]
+}

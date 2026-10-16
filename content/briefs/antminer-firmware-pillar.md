@@ -1,8 +1,9 @@
 # Content Brief: Antminer Firmware — Pillar Page
 **URL:** /en/antminer-firmware
 **File:** content/briefs/antminer-firmware-pillar.md
-**Last updated:** 2026-06-18
-**Priority:** P0
+**Last updated:** 2026-09-25 (volumes and priorities from DataForSEO)
+**Priority:** P0 (was P0; recalculated 2026-09-25 from DataForSEO US data) — Keep. antminer firmware 50/mo, CPC $70.51 (highest in the niche), KD 6, BiXBiT #15 (/en/firmwares/antminer), within reach of the top 10. Optimize the existing URL; don't create /en/antminer-firmware. Add bitmain firmware (140/mo, KD 18, BiXBiT #45) as a secondary keyword.
+**Target (architecture v2, 2026-09-25):** `/en/firmwares/antminer` (existing page), Main page content (pillar), section priority P0. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Assignee:** [Engineering writer + firmware engineer reviewer]
 
 ---
@@ -23,13 +24,15 @@ Convert ASIC farm operators and datacenter CTOs who are evaluating third-party A
 
 ## Target Keywords
 
-| Keyword | Role | Vol [NO DATA] | KD [NO DATA] |
-|---|---|---|---|
-| antminer firmware | Primary | — | — |
-| antminer custom firmware | Primary secondary | — | — |
-| best antminer firmware | Commercial | — | — |
-| third-party antminer firmware | Commercial | — | — |
-| antminer firmware comparison | Commercial | — | — |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| antminer firmware | Primary | 50 | 6 | #15 (/en/firmwares/antminer) |
+| antminer custom firmware | Primary secondary | 10 | — | — |
+| best antminer firmware | Commercial | n/d (<10) | — | — |
+| third-party antminer firmware | Commercial | n/d (<10) | — | — |
+| antminer firmware comparison | Commercial | n/d (<10) | — | — |
 
 ---
 
@@ -42,7 +45,7 @@ Convert ASIC farm operators and datacenter CTOs who are evaluating third-party A
 ## Meta
 
 **Title tag (≤60 chars):** `Antminer Firmware — Custom Firmware by BiXBiT`
-**Meta description (≤155 chars):** `BiXBiT custom firmware for Antminer S19, S21, and fleet-scale deployments. No dev fee, no backdoor, per-chip autotuning. Request access for your fleet.`
+**Meta description (≤155 chars):** `BiXBiT custom firmware for Antminer S19, S21, and fleet-scale deployments. Per-chip autotuning, transparent dev fee, no backdoor.` [VERIFY: 2026-09 audit found a 2.8% dev fee (2% on Whatsminer M2x); get the current rate from the team before publishing. Don't say "no dev fee" or "lowest dev fee"]
 
 ---
 
@@ -66,7 +69,7 @@ Use a structured feature grid (icon + heading + 1-sentence description per featu
 - **Overclocking mode** — [VERIFY: maximum hashrate boost % vs stock; temperature ceiling during overclock]
 - **Undervolting mode** — [VERIFY: power reduction % achievable while maintaining hashrate parity]
 - **Fleet deployment** — mass-push firmware updates across [VERIFY: state supported fleet size scale or API method]
-- **No dev fee** — zero hidden hashrate redirection; operator retains 100% of mining output
+- **Transparent dev fee**, disclosed up front, no hidden hashrate redirection [VERIFY: 2026-09 audit found a 2.8% dev fee (2% on Whatsminer M2x); get the current rate from the team before publishing. Don't say "no dev fee" or "lowest dev fee"]
 - **No backdoor** — [VERIFY: describe security audit or verification method used; link to any published audit]
 - **AMS integration** — native integration with BiXBiT AMS monitoring dashboard
 - **Temperature management** — [VERIFY: configurable fan curve parameters, thermal shutdown thresholds]
@@ -84,7 +87,7 @@ Side-by-side comparison table (do not use a vs-competitor table here — save th
 | Capability | Stock Bitmain | BiXBiT Custom |
 |---|---|---|
 | Per-chip tuning | No | Yes |
-| Dev fee | No | No |
+| Dev fee | No | Yes — transparent, disclosed up front [VERIFY: current rate; 2026-09 audit: 2.8%, 2% on Whatsminer M2x] |
 | Overclocking | Limited | [VERIFY] |
 | Undervolting | No | Yes |
 | Fleet API | No | Yes |
@@ -150,7 +153,7 @@ A: Yes. BiXBiT firmware natively integrates with the AMS (Advanced Mining Softwa
 - S19, S19 Pro, S19j Pro, S19 XP, S21, S21 Pro (product entities)
 - Per-chip autotuning, frequency/voltage tuning, hashboard
 - J/TH (joules per terahash) — the primary efficiency metric
-- Dev fee (negative entity for BiXBiT — we have none)
+- Dev fee (BiXBiT charges a transparent dev fee — state it plainly with the current rate [VERIFY: current rate]; never imply there is none)
 - Braiins OS+, Vnish, LuxOS, ePIC (competitor entities — mention in comparison context)
 - AMS (BiXBiT monitoring product)
 - ASIC (application-specific integrated circuit)
@@ -165,7 +168,7 @@ A: Yes. BiXBiT firmware natively integrates with the AMS (Advanced Mining Softwa
 - **Experience:** State BiXBiT's installed base (number of ASICs running BiXBiT firmware) [VERIFY]
 - **Expertise:** Author byline: firmware engineer or CTO; include title and relevant background
 - **Authoritativeness:** Link to any published technical documentation, changelogs, or third-party mentions
-- **Trustworthiness:** Explicit "no dev fee, no backdoor" statement with verification method; no vague claims
+- **Trustworthiness:** An explicit, published dev fee and a "no backdoor" statement with a verification method; no vague claims
 - Specific benchmark numbers (J/TH, %) anchored to specific test conditions — generic claims ("improves efficiency") are worthless for E-E-A-T
 - Version history / changelog link signals active maintenance
 
@@ -208,7 +211,7 @@ A: Yes. BiXBiT firmware natively integrates with the AMS (Advanced Mining Softwa
   "name": "BiXBiT Antminer Firmware",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Antminer ASIC",
-  "description": "Custom firmware for Antminer ASICs providing per-chip autotuning, overclocking, undervolting, and fleet-scale deployment with no dev fee.",
+  "description": "Custom firmware for Antminer ASICs providing per-chip autotuning, overclocking, undervolting, and fleet-scale deployment.",
   "offers": {
     "@type": "Offer",
     "availability": "https://schema.org/InStock"

@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "property": "320129421",
+  "start": "2026-09-02",
+  "end": "2026-09-29",
+  "preset": "channels",
+  "dimensions": [
+   "sessionDefaultChannelGroup"
+  ],
+  "metrics": [
+   "sessions",
+   "engagedSessions",
+   "keyEvents",
+   "totalUsers"
+  ],
+  "filter": null,
+  "rows": 11,
+  "row_count_total": 11,
+  "pulled_at": "2026-09-30T22:58:47"
+ },
+ "rows": [
+  {
+   "sessionDefaultChannelGroup": "Cross-network",
+   "sessions": 83745,
+   "engagedSessions": 61821,
+   "keyEvents": 82369,
+   "totalUsers": 64286
+  },
+  {
+   "sessionDefaultChannelGroup": "Paid Search",
+   "sessions": 32529,
+   "engagedSessions": 10947,
+   "keyEvents": 1484,
+   "totalUsers": 27897
+  },
+  {
+   "sessionDefaultChannelGroup": "Unassigned",
+   "sessions": 8605,
+   "engagedSessions": 1125,
+   "keyEvents": 1290,
+   "totalUsers": 8156
+  },
+  {
+   "sessionDefaultChannelGroup": "Referral",
+   "sessions": 4493,
+   "engagedSessions": 1208,
+   "keyEvents": 377,
+   "totalUsers": 4067
+  },
+  {
+   "sessionDefaultChannelGroup": "Direct",
+   "sessions": 3812,
+   "engagedSessions": 1288,
+   "keyEvents": 553,
+   "totalUsers": 2852
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Search",
+   "sessions": 2914,
+   "engagedSessions": 1707,
+   "keyEvents": 671,
+   "totalUsers": 1799
+  },
+  {
+   "sessionDefaultChannelGroup": "Email",
+   "sessions": 452,
+   "engagedSessions": 200,
+   "keyEvents": 0,
+   "totalUsers": 450
+  },
+  {
+   "sessionDefaultChannelGroup": "Paid Other",
+   "sessions": 405,
+   "engagedSessions": 222,
+   "keyEvents": 194,
+   "totalUsers": 294
+  },
+  {
+   "sessionDefaultChannelGroup": "AI Assistant",
+   "sessions": 65,
+   "engagedSessions": 31,
+   "keyEvents": 14,
+   "totalUsers": 37
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Social",
+   "sessions": 49,
+   "engagedSessions": 31,
+   "keyEvents": 12,
+   "totalUsers": 32
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Video",
+   "sessions": 43,
+   "engagedSessions": 26,
+   "keyEvents": 12,
+   "totalUsers": 27
+  }
+ ]
+}

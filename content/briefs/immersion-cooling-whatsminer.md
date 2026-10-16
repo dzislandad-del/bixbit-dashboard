@@ -3,7 +3,8 @@
 **Cluster:** immersion-cooling-mining
 **Brief type:** Spoke — commercial/transactional (P0)
 **Created:** 2026-06-19
-**Priority:** P0 — mirrors immersion-cooling-antminer.md; targets Whatsminer operator segment
+**Priority:** P2 (was P0; recalculated 2026-09-25 from DataForSEO US data) — Demoted. Volume n/d for every keyword. Make it a section of the ASIC-model immersion page instead of a standalone P0.
+**Target (architecture v2, 2026-09-25):** `/en/asics-cooling/immersion-systems` (existing page), H2 Antminer and Whatsminer in immersion (Whatsminer part), section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 
 ---
 
@@ -22,15 +23,17 @@ Capture commercial-intent searches combining "Whatsminer" + "immersion cooling."
 
 ## Target Keywords
 
-| Type | Keyword | Volume |
-|---|---|---|
-| Primary | `immersion cooling Whatsminer` | N/A |
-| Secondary | `Whatsminer immersion cooling` | N/A |
-| Secondary | `immersion cooling Whatsminer M50` | N/A |
-| Secondary | `immersion cooling Whatsminer M60` | N/A |
-| Secondary | `MicroBT Whatsminer immersion` | N/A |
-| Long-tail | `BiXBiT immersion cooling Whatsminer` | N/A |
-| Long-tail | `Whatsminer M60 immersion cooling firmware` | N/A |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Type | Keyword | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Primary | `immersion cooling Whatsminer` | n/d (<10) | — | — |
+| Secondary | `Whatsminer immersion cooling` | n/d (<10) | — | — |
+| Secondary | `immersion cooling Whatsminer M50` | n/d (<10) | — | — |
+| Secondary | `immersion cooling Whatsminer M60` | n/d (<10) | — | — |
+| Secondary | `MicroBT Whatsminer immersion` | n/d (<10) | — | — |
+| Long-tail | `BiXBiT immersion cooling Whatsminer` | n/d (<10) | — | — |
+| Long-tail | `Whatsminer M60 immersion cooling firmware` | n/d (<10) | — | — |
 
 ---
 

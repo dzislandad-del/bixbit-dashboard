@@ -1,0 +1,412 @@
+[
+  {
+    "keyword": "whatsminer firmware",
+    "status_code": 20000,
+    "attempts": 1,
+    "bixbit": [
+      {
+        "rank_group": 4,
+        "rank_absolute": 4,
+        "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+      },
+      {
+        "rank_group": 14,
+        "rank_absolute": 17,
+        "url": "https://bixbit.io/en/firmwares"
+      },
+      {
+        "rank_group": 26,
+        "rank_absolute": 30,
+        "url": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series"
+      },
+      {
+        "rank_group": 47,
+        "rank_absolute": 53,
+        "url": "https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware"
+      },
+      {
+        "rank_group": 63,
+        "rank_absolute": 71,
+        "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool"
+      },
+      {
+        "rank_group": 70,
+        "rank_absolute": 79,
+        "url": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware"
+      },
+      {
+        "rank_group": 76,
+        "rank_absolute": 85,
+        "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/5-2-updating-the-power-supply-unit-firmware"
+      },
+      {
+        "rank_group": 80,
+        "rank_absolute": 90,
+        "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update"
+      },
+      {
+        "rank_group": 85,
+        "rank_absolute": 95,
+        "url": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x"
+      }
+    ],
+    "top3": [
+      "www.whatsminer.com",
+      "www.whatsminer.com",
+      "www.zeusbtc.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "luxor.tech": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": {
+        "rank_group": 19,
+        "domain": "www.awesomeminer.com"
+      }
+    },
+    "total_organic": 85,
+    "notes": "bixbitusa.io (separate domain, not counted) at rg22"
+  },
+  {
+    "keyword": "bitmain firmware",
+    "status_code": 20000,
+    "attempts": 1,
+    "bixbit": [],
+    "top3": [
+      "www.reddit.com",
+      "d-central.tech",
+      "bitcointalk.org"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": {
+        "rank_group": 16,
+        "domain": "vnishfirmware.in"
+      },
+      "luxor.tech": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": {
+        "rank_group": 8,
+        "domain": "hiveon.com"
+      },
+      "awesomeminer.com": null
+    },
+    "total_organic": 17,
+    "notes": "Only 17 organic items returned despite depth 100"
+  },
+  {
+    "keyword": "antminer custom firmware",
+    "status_code": 20000,
+    "attempts": 1,
+    "bixbit": [],
+    "top3": [
+      "www.reddit.com",
+      "bitcointalk.org",
+      "www.youtube.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "luxor.tech": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": null
+    },
+    "total_organic": 18,
+    "notes": "Only 18 organic items returned despite depth 100"
+  },
+  {
+    "keyword": "custom firmware antminer",
+    "status_code": 20000,
+    "attempts": 1,
+    "bixbit": [
+      {
+        "rank_group": 5,
+        "rank_absolute": 7,
+        "url": "https://bixbit.io/en/firmwares/antminer"
+      },
+      {
+        "rank_group": 25,
+        "rank_absolute": 30,
+        "url": "https://bixbit.io/en/firmwares"
+      }
+    ],
+    "top3": [
+      "www.reddit.com",
+      "braiins.com",
+      "www.awesomeminer.com"
+    ],
+    "competitors": {
+      "braiins.com": {
+        "rank_group": 2,
+        "domain": "braiins.com"
+      },
+      "vnish": {
+        "rank_group": 11,
+        "domain": "vnish-firmware.com"
+      },
+      "luxor.tech": null,
+      "epicblockchain.io": {
+        "rank_group": 8,
+        "domain": "epicblockchain.io"
+      },
+      "emcd.io": {
+        "rank_group": 39,
+        "domain": "emcd.io"
+      },
+      "hiveon.com": {
+        "rank_group": 20,
+        "domain": "hiveon.com"
+      },
+      "awesomeminer.com": {
+        "rank_group": 3,
+        "domain": "www.awesomeminer.com"
+      }
+    },
+    "total_organic": 83
+  },
+  {
+    "keyword": "whatsminer custom firmware",
+    "status_code": 20000,
+    "attempts": 1,
+    "bixbit": [
+      {
+        "rank_group": 2,
+        "rank_absolute": 3,
+        "url": "https://bixbit.io/en/firmwares"
+      },
+      {
+        "rank_group": 6,
+        "rank_absolute": 8,
+        "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+      },
+      {
+        "rank_group": 23,
+        "rank_absolute": 28,
+        "url": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series"
+      },
+      {
+        "rank_group": 44,
+        "rank_absolute": 51,
+        "url": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware"
+      },
+      {
+        "rank_group": 58,
+        "rank_absolute": 67,
+        "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-miner-firmware-update"
+      },
+      {
+        "rank_group": 65,
+        "rank_absolute": 74,
+        "url": "https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware"
+      },
+      {
+        "rank_group": 70,
+        "rank_absolute": 80,
+        "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool"
+      },
+      {
+        "rank_group": 71,
+        "rank_absolute": 81,
+        "url": "https://bixbit.io/en/blog/post/how-to-overclock-whatsminer-asics-over-50"
+      },
+      {
+        "rank_group": 72,
+        "rank_absolute": 82,
+        "url": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-3-installing-the-updated-version"
+      },
+      {
+        "rank_group": 73,
+        "rank_absolute": 83,
+        "url": "https://bixbit.io/ru/firmwares/whatsminer-all-series"
+      }
+    ],
+    "top3": [
+      "bitcointalk.org",
+      "bixbit.io",
+      "www.whatsminer.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "luxor.tech": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": {
+        "rank_group": 11,
+        "domain": "www.awesomeminer.com"
+      }
+    },
+    "total_organic": 73,
+    "notes": "bixbitusa.io rg10 and help.bixbitusa.io rg47 (separate domain, not counted)"
+  },
+  {
+    "keyword": "braiins os",
+    "status_code": 20000,
+    "attempts": 1,
+    "bixbit": [],
+    "top3": [
+      "braiins.com",
+      "braiins.com",
+      "braiins.com"
+    ],
+    "competitors": {
+      "braiins.com": {
+        "rank_group": 1,
+        "domain": "braiins.com"
+      },
+      "vnish": null,
+      "luxor.tech": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": null
+    },
+    "total_organic": 93
+  },
+  {
+    "keyword": "vnish firmware",
+    "status_code": 20000,
+    "attempts": 1,
+    "bixbit": [],
+    "top3": [
+      "vnish-firmware.com",
+      "vnish-official.com",
+      "vnish.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": {
+        "rank_group": 1,
+        "domain": "vnish-firmware.com"
+      },
+      "luxor.tech": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": null
+    },
+    "total_organic": 76
+  },
+  {
+    "keyword": "best antminer custom firmware",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [],
+    "top3": [
+      "bitcointalk.org",
+      "www.reddit.com",
+      "www.youtube.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": null,
+      "luxor.tech": null,
+      "epicblockchain.io": null,
+      "emcd.io": null,
+      "hiveon.com": null,
+      "awesomeminer.com": null
+    },
+    "total_organic": 11,
+    "notes": "1st attempt 40101 Internal SE Server Error; retry OK but only 11 organic items returned"
+  },
+  {
+    "keyword": "antminer firmware comparison",
+    "status_code": 20000,
+    "attempts": 3,
+    "bixbit": [
+      {
+        "rank_group": 11,
+        "rank_absolute": 14,
+        "url": "https://bixbit.io/en/firmwares/antminer"
+      },
+      {
+        "rank_group": 36,
+        "rank_absolute": 41,
+        "url": "https://bixbit.io/en/firmwares"
+      }
+    ],
+    "top3": [
+      "www.reddit.com",
+      "d-central.tech",
+      "www.awesomeminer.com"
+    ],
+    "competitors": {
+      "braiins.com": null,
+      "vnish": {
+        "rank_group": 16,
+        "domain": "vni.sh"
+      },
+      "luxor.tech": null,
+      "epicblockchain.io": {
+        "rank_group": 4,
+        "domain": "epicblockchain.io"
+      },
+      "emcd.io": {
+        "rank_group": 28,
+        "domain": "emcd.io"
+      },
+      "hiveon.com": null,
+      "awesomeminer.com": {
+        "rank_group": 3,
+        "domain": "www.awesomeminer.com"
+      }
+    },
+    "total_organic": 96,
+    "notes": "Attempts 1-2 returned 40101 Internal SE Server Error; 3rd OK"
+  },
+  {
+    "keyword": "antminer dev fee firmware",
+    "status_code": 20000,
+    "attempts": 2,
+    "bixbit": [
+      {
+        "rank_group": 5,
+        "rank_absolute": 6,
+        "url": "https://bixbit.io/en/firmwares"
+      },
+      {
+        "rank_group": 25,
+        "rank_absolute": 30,
+        "url": "https://bixbit.io/en/firmwares/antminer"
+      }
+    ],
+    "top3": [
+      "www.reddit.com",
+      "www.awesomeminer.com",
+      "d-central.tech"
+    ],
+    "competitors": {
+      "braiins.com": {
+        "rank_group": 6,
+        "domain": "braiins.com"
+      },
+      "vnish": {
+        "rank_group": 19,
+        "domain": "vni.sh"
+      },
+      "luxor.tech": null,
+      "epicblockchain.io": {
+        "rank_group": 7,
+        "domain": "epicblockchain.io"
+      },
+      "emcd.io": null,
+      "hiveon.com": {
+        "rank_group": 17,
+        "domain": "hiveon.com"
+      },
+      "awesomeminer.com": {
+        "rank_group": 2,
+        "domain": "www.awesomeminer.com"
+      }
+    },
+    "total_organic": 65,
+    "notes": "1st attempt 40101 Internal SE Server Error; retry OK"
+  }
+]

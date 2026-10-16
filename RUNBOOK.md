@@ -19,6 +19,7 @@
 ## 1. Первое, что делаю в каждой сессии
 
 1. Прочитать `CLAUDE.md` (контекст бренда, ICP, правила) — загружается сам.
+   Затем `docs/agent-knowledge.md` — актуальные факты и грабли (июньские отчёты частично ложные).
 2. Проверить `data/site-structure.md`. **Если не заполнен** — реальная
    структура URL ещё неизвестна; первым делом нужен `/full-audit`, после
    которого я заполняю этот файл. Все агенты опираются на него.
@@ -40,7 +41,18 @@ MCP и API — кислород системы. Без них я работаю 
 - PageSpeed Insights / CrUX — `PAGESPEED_API_KEY`.
 - Moz + Bing Webmaster — бэклинки (бесплатные тиры).
 
-**Проверка:** перед аудитом делаю быстрый тестовый вызов каждого источника.
+**Скрипты (секреты читают сами, Claude `.env` не читает):**
+- `scripts/check-connectors.sh` — статус GSC/GA4/PageSpeed/CrUX/Moz/Bing.
+- `scripts/gsc-query.py` — выгрузка Search Console (MCP для GSC нет).
+- `scripts/serp-rank.py` — съём позиций через DataForSEO SERP (дешевле по контексту, чем MCP).
+- `scripts/ga4-query.py`, `scripts/bing-query.py` — GA4 и Bing Webmaster.
+- `scripts/page-snapshot.py` — снимок head/JSON-LD ключевых URL + diff (основа drift).
+- `scripts/crawl.py` — полный краул; `index-check.py` / `index-submit.py` — индексация и переобход;
+  `cannibalization.py`, `serp-features.py` (AIO/FS), `backlinks-monitor.py`. Полный список — `docs/agent-knowledge.md` §6.
+- `.github/workflows/seo-data.yml` — автосбор всего перечисленного по расписанию.
+Особенности источников и актуальные факты — `docs/agent-knowledge.md`.
+
+**Проверка:** перед аудитом запускаю `./scripts/check-connectors.sh` + пробный вызов DataForSEO MCP.
 Если источник не отвечает — пишу пользователю прямо: «Нет доступа к X,
 обратись к владельцу аккаунта / проверь ключ в .env», и продолжаю с тем,
 что есть. **Никогда не подставляю выдуманные метрики.**

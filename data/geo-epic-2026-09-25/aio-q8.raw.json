@@ -1,0 +1,1610 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.9923 sec.",
+  "cost": 0.00415,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09251236-2548-0139-0000-cd533517db1a",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.9280 sec.",
+      "cost": 0.00415,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "immersion cooling bitcoin mining",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "depth": 20,
+        "load_async_ai_overview": true,
+        "people_also_ask_click_depth": 1,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "immersion cooling bitcoin mining",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=immersion%20cooling%20bitcoin%20mining&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-09-25 12:36:48 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Price",
+                "url": "https://www.google.com/search?q=price+immersion+cooling+bitcoin+mining&hl=en&gl=US&shoprs=GBIqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMgkIEhIFUHJpY2VgAQ&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAF6BAgdEB8",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For Sale",
+                "url": "https://www.google.com/search?q=immersion+cooling+bitcoin+mining+for+sale&hl=en&gl=US&shoprs=GBIqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMgwIEhIIRm9yIFNhbGVgAQ&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAJ6BAgdECA",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Nearby",
+                "url": "https://www.google.com/search?q=immersion+cooling+bitcoin+mining+nearby&hl=en&gl=US&shoprs=GAMqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMgwIAxIGTmVhcmJ5GAJYuLEgYAE&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAN6BAgdECE",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Buy",
+                "url": "https://www.google.com/search?q=buy+immersion+cooling+bitcoin+mining&hl=en&gl=US&shoprs=GBIqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMgcIEhIDQnV5YAE&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAR6BAgdECI",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Reviews",
+                "url": "https://www.google.com/search?q=reviews+immersion+cooling+bitcoin+mining&hl=en&gl=US&shoprs=GBIqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMgsIEhIHUmV2aWV3c2AB&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAV6BAgdECM",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online",
+                "url": "https://www.google.com/search?q=online+immersion+cooling+bitcoin+mining&hl=en&gl=US&shoprs=GBIqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMgoIEhIGT25saW5lYAE&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAZ6BAgdECQ",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Lab Equipment",
+                "url": "https://www.google.com/search?q=lab+equipment+immersion+cooling+bitcoin+mining&hl=en&gl=US&shoprs=GAkqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMhEICRINTGFiIEVxdWlwbWVudGAB&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAd6BAgdECU",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Fans, Heatsinks & Cooling",
+                "url": "https://www.google.com/search?q=fans,+heatsinks+%26+cooling+immersion+bitcoin+mining&hl=en&gl=US&shoprs=GAkqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMh0ICRIZRmFucywgSGVhdHNpbmtzICYgQ29vbGluZ2AB&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAh6BAgdECY",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Black",
+                "url": "https://www.google.com/search?q=black+immersion+cooling+bitcoin+mining&hl=en&gl=US&shoprs=GAEqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMhcIARIFQmxhY2s6DAjYjPUBEOWK9QEwC1i4sSBgAQ&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAl6BAgdECc",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Under $3,000",
+                "url": "https://www.google.com/search?q=immersion+cooling+bitcoin+mining+under+$3,000&hl=en&gl=US&shoprs=Eg0SCxEAAADAC1rmQRgBGAUqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMiUIBRIMVW5kZXIgJDMsMDAwGAIiDRILEQAAAMALWuZBGAEqAhgBWLixIGAB&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAp6BAgdECg",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?q=free+immersion+cooling+bitcoin+mining&hl=en&gl=US&shoprs=GBIqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMggIEhIERnJlZWAB&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAt6BAgdECk",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Brand",
+                "url": "https://www.google.com/search?q=brand+immersion+cooling+bitcoin+mining&hl=en&gl=US&shoprs=GBIqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMgkIEhIFQnJhbmRgAQ&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKAx6BAgdECo",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Replacement",
+                "url": "https://www.google.com/search?q=replacement+immersion+cooling+bitcoin+mining&hl=en&gl=US&shoprs=GBIqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMg8IEhILUmVwbGFjZW1lbnRgAQ&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKA16BAgdECs",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Gray",
+                "url": "https://www.google.com/search?q=gray+immersion+cooling+bitcoin+mining&hl=en&gl=US&shoprs=GAEqIGltbWVyc2lvbiBjb29saW5nIGJpdGNvaW4gbWluaW5nMhYIARIER3JheToMCNiM9QEQ6or1ATALWLixIGAB&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQip4GKA56BAgdECw",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "video",
+            "people_also_ask",
+            "popular_products",
+            "related_searches",
+            "images"
+          ],
+          "se_results_count": 177,
+          "pages_count": 2,
+          "items_count": 24,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "Immersion cooling for Bitcoin mining involves `fully submerging ASIC mining rigs into a thermally conductive, non-conductive dielectric or petroleum-based liquid`.[[1]](https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/)[[2]](https://miners.de/en/collections/immersion-cooling)[[3]](https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/)[[4]](https://www.youtube.com/shorts/bO4YDhA-G9k)\n\n### How Immersion Cooling Works\n\n- **Submersion:** Hardware sits directly inside a specialized tank filled with engineered dielectric fluid.[[1]](https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/)[[2]](https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/)\n- **Heat Transfer:** The fluid absorbs heat directly from the microchips and circuit boards.[[1]](https://asicmarketplace.com/blog/immersion-cooling-setup-for-asic-miner/)[[2]](https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/)\n- **Circulation:** Warm fluid rises or is pumped through an external dry cooler (radiator) to expel heat before flowing back into the tank.[[1]](https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/)[[2]](https://asicmarketplace.com/blog/immersion-cooling-setup-for-asic-miner/)[[3]](https://www.youtube.com/shorts/flNMTLEIIR8)\n\n### Benefits vs. Traditional Air Cooling\n\n- **Extreme Quiet:** Removes loud chassis fans, dropping sound levels from over 75 dB down to a quiet hum under 40 dB.[[1]](https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/)\n- **Hardware Protection:** Sealed systems stop dust, humidity, and oxidation from degrading components.\n- **Overclocking Potential:** Superior thermal transfer allows miners to push hardware performance past factory limits safely.[[1]](https://www.google.com/search?q=product&prds=pvt:hg,productid:11581355676620256027&ibp=oshop)\n\n### Costs and Considerations\n\n- **Higher Initial Investment:** Setup costs for tanks, dry coolers, and specialized dielectric fluids are significantly more expensive than standard air-cooled ventilation hardware.[[1]](https://www.youtube.com/watch?v=tEbBvd2gnaE&t=36)[[2]](https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/)\n- **Mixed Opinions on ROI:** While community discussions on platforms like [Reddit](https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/) show *mixed opinions* —with some hobbyists finding small 2-to-6 miner kits practical, others note that high fluid expenses and efficient newer air-cooled models (like the S21 series) make large-scale retrofitting less financially attractive.[[1]](https://www.youtube.com/watch?v=tEbBvd2gnaE&t=36)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:11581355676620256027&ibp=oshop)[[3]](https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/)\n\nLearn more about when it makes financial sense to use liquid cooling setups:\n\n![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTc1VEzXA4LSHebaxAc38WOYRKotKIJAjF1MtwhuKQoBiGZwzy3)\n13m\n[](https://www.youtube.com/watch?v=tEbBvd2gnaE&t=36) When Should YOU Use Liquid Cooling for Bitcoin Miners? Immersion ...5.5K views  · 1 year ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=16&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · VoskCoin\n\nIf you are planning a setup, tell me:\n\n- **How many miners** you plan to run\n- **Where you plan to put them** (home, garage, or commercial space)\n\nI can help you estimate equipment sizes and configuration requirements.",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Immersion cooling for Bitcoin mining involves fully submerging ASIC mining rigs into a thermally conductive, non-conductive dielectric or petroleum-based liquid.",
+                  "markdown": "Immersion cooling for Bitcoin mining involves `fully submerging ASIC mining rigs into a thermally conductive, non-conductive dielectric or petroleum-based liquid`.[[1]](https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/)[[2]](https://miners.de/en/collections/immersion-cooling)[[3]](https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/)[[4]](https://www.youtube.com/shorts/bO4YDhA-G9k)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Crypto Miner Bros",
+                      "domain": "cryptominerbros.com",
+                      "url": "https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/",
+                      "title": "A Beginner's Guide to Immersion Cooling Your ASIC Miner",
+                      "text": "Immersion Cooling Explained Immersion cooling is a liquid cooling technique in which ASIC miners are fully submerged in a non-cond..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Miners.de",
+                      "domain": "miners.de",
+                      "url": "https://miners.de/en/collections/immersion-cooling",
+                      "title": "Immersion Cooling - Miners.de",
+                      "text": "Immersion Cooling – Liquid cooling for ASIC miners. Immersion cooling is an advanced method for cooling mining hardware in which A..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "QuoteColo",
+                      "domain": "www.quotecolo.com",
+                      "url": "https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/",
+                      "title": "Immersion Cooling for Bitcoin Mining",
+                      "text": "Because when your competition is running cooler, faster, and more efficiently, you're not just losing money—you're getting left be..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/shorts/bO4YDhA-G9k",
+                      "title": "Bitcoin and Dogecoin Miners in Liquid… why?",
+                      "text": "Bitcoin and Dogecoin Miners in Liquid… why? bitcoin miners underwater dogecoin miners underwater or actually I should say under li..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "How Immersion Cooling Works",
+                  "text": "Submersion: Hardware sits directly inside a specialized tank filled with engineered dielectric fluid. Heat Transfer: The fluid absorbs heat directly from the microchips and circuit boards. Circulation: Warm fluid rises or is pumped through an external dry cooler (radiator) to expel heat before flowing back into the tank.",
+                  "markdown": "- **Submersion:** Hardware sits directly inside a specialized tank filled with engineered dielectric fluid.[[1]](https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/)[[2]](https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/)\n- **Heat Transfer:** The fluid absorbs heat directly from the microchips and circuit boards.[[1]](https://asicmarketplace.com/blog/immersion-cooling-setup-for-asic-miner/)[[2]](https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/)\n- **Circulation:** Warm fluid rises or is pumped through an external dry cooler (radiator) to expel heat before flowing back into the tank.[[1]](https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/)[[2]](https://asicmarketplace.com/blog/immersion-cooling-setup-for-asic-miner/)[[3]](https://www.youtube.com/shorts/flNMTLEIIR8)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "QuoteColo",
+                      "domain": "www.quotecolo.com",
+                      "url": "https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/",
+                      "title": "Immersion Cooling for Bitcoin Mining",
+                      "text": "Because when your competition is running cooler, faster, and more efficiently, you're not just losing money—you're getting left be..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Crypto Miner Bros",
+                      "domain": "cryptominerbros.com",
+                      "url": "https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/",
+                      "title": "A Beginner's Guide to Immersion Cooling Your ASIC Miner",
+                      "text": "Immersion Cooling Explained Immersion cooling is a liquid cooling technique in which ASIC miners are fully submerged in a non-cond..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Asic Marketplace",
+                      "domain": "asicmarketplace.com",
+                      "url": "https://asicmarketplace.com/blog/immersion-cooling-setup-for-asic-miner/",
+                      "title": "How to Setup Immersion Cooling for Your ASIC Miner?",
+                      "text": "What Is Immersion Cooling? If you've ever used a desktop computer or a gaming console, you probably know they need cooling fans to..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Crypto Miner Bros",
+                      "domain": "cryptominerbros.com",
+                      "url": "https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/",
+                      "title": "A Beginner's Guide to Immersion Cooling Your ASIC Miner",
+                      "text": "Immersion Cooling Explained Immersion cooling is a liquid cooling technique in which ASIC miners are fully submerged in a non-cond..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Asic Marketplace",
+                      "domain": "asicmarketplace.com",
+                      "url": "https://asicmarketplace.com/blog/immersion-cooling-setup-for-asic-miner/",
+                      "title": "How to Setup Immersion Cooling for Your ASIC Miner?",
+                      "text": "What Is Immersion Cooling? If you've ever used a desktop computer or a gaming console, you probably know they need cooling fans to..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/shorts/flNMTLEIIR8",
+                      "title": "Hydromining vs Immersion Mining: Bitcoin Mining Explained #shorts",
+                      "text": "Hydromining vs Immersion Mining: Bitcoin Mining Explained #shorts enter hydro mining hydro mining is essentially liquid cooling yo..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Benefits vs. Traditional Air Cooling",
+                  "text": "Extreme Quiet: Removes loud chassis fans, dropping sound levels from over 75 dB down to a quiet hum under 40 dB. Hardware Protection: Sealed systems stop dust, humidity, and oxidation from degrading components. Overclocking Potential: Superior thermal transfer allows miners to push hardware performance past factory limits safely.",
+                  "markdown": "- **Extreme Quiet:** Removes loud chassis fans, dropping sound levels from over 75 dB down to a quiet hum under 40 dB.[[1]](https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/)\n- **Hardware Protection:** Sealed systems stop dust, humidity, and oxidation from degrading components.\n- **Overclocking Potential:** Superior thermal transfer allows miners to push hardware performance past factory limits safely.[[1]](https://www.google.com/search?q=product&prds=pvt:hg,productid:11581355676620256027&ibp=oshop)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "QuoteColo",
+                      "domain": "www.quotecolo.com",
+                      "url": "https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/",
+                      "title": "Immersion Cooling for Bitcoin Mining",
+                      "text": "Because when your competition is running cooler, faster, and more efficiently, you're not just losing money—you're getting left be..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google",
+                      "domain": "www.google.com",
+                      "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:11581355676620256027&ibp=oshop",
+                      "title": "FogHashing C2 Immersion Cooling Kit",
+                      "text": "Suitable for 2 ASICs, the C2 Kit with 12kw @ 30C Dry Cooler Immersion Kit by FogHashing is finally here. Stable Operation & Overcl..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Costs and Considerations",
+                  "text": "Higher Initial Investment: Setup costs for tanks, dry coolers, and specialized dielectric fluids are significantly more expensive than standard air-cooled ventilation hardware. Mixed Opinions on ROI: While community discussions on platforms like Reddit show mixed opinions—with some hobbyists finding small 2-to-6 miner kits practical, others note that high fluid expenses and efficient newer air-cooled models (like the S21 series) make large-scale retrofitting less financially attractive.",
+                  "markdown": "- **Higher Initial Investment:** Setup costs for tanks, dry coolers, and specialized dielectric fluids are significantly more expensive than standard air-cooled ventilation hardware.[[1]](https://www.youtube.com/watch?v=tEbBvd2gnaE&t=36)[[2]](https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/)\n- **Mixed Opinions on ROI:** While community discussions on platforms like [Reddit](https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/) show *mixed opinions* —with some hobbyists finding small 2-to-6 miner kits practical, others note that high fluid expenses and efficient newer air-cooled models (like the S21 series) make large-scale retrofitting less financially attractive.[[1]](https://www.youtube.com/watch?v=tEbBvd2gnaE&t=36)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:11581355676620256027&ibp=oshop)[[3]](https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Reddit",
+                      "description": null,
+                      "url": "https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/",
+                      "domain": "www.reddit.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=tEbBvd2gnaE&t=36",
+                      "title": "When Should YOU Use Liquid Cooling for Bitcoin Miners? Immersion ...",
+                      "text": "When Should YOU Use Liquid Cooling for Bitcoin Miners? Immersion Miner Explains and a review of how my immersion mining hardware a..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/",
+                      "title": "is immersion cooling for mining crypto worth it , and what the best system ...",
+                      "text": "Cost Considerations for Immersion Cooling: The cost of immersion cooling setups, including specialized fluids, can be substantial ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google",
+                      "domain": "www.google.com",
+                      "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:11581355676620256027&ibp=oshop",
+                      "title": "FogHashing C2 Immersion Cooling Kit",
+                      "text": "Suitable for 2 ASICs, the C2 Kit with 12kw @ 30C Dry Cooler Immersion Kit by FogHashing is finally here. Stable Operation & Overcl..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Learn more about when it makes financial sense to use liquid cooling setups: 13m When Should YOU Use Liquid Cooling for Bitcoin Miners? Immersion ... 5.5K views · 1 year ago YouTube · VoskCoin",
+                  "markdown": "Learn more about when it makes financial sense to use liquid cooling setups:\n\n![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTc1VEzXA4LSHebaxAc38WOYRKotKIJAjF1MtwhuKQoBiGZwzy3)\n13m\n[](https://www.youtube.com/watch?v=tEbBvd2gnaE&t=36) When Should YOU Use Liquid Cooling for Bitcoin Miners? Immersion ...5.5K views  · 1 year ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=16&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · VoskCoin",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "If you are planning a setup, tell me:How many miners you plan to run\nWhere you plan to put them (home, garage, or commercial space)\nI can help you estimate equipment sizes and configuration requirements.",
+                  "markdown": "If you are planning a setup, tell me:\n\n- **How many miners** you plan to run\n- **Where you plan to put them** (home, garage, or commercial space)\n\nI can help you estimate equipment sizes and configuration requirements.",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=tEbBvd2gnaE&t=36",
+                  "title": "When Should YOU Use Liquid Cooling for Bitcoin Miners? Immersion ...",
+                  "text": "When Should YOU Use Liquid Cooling for Bitcoin Miners? Immersion Miner Explains and a review of how my immersion mining hardware a..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Crypto Miner Bros",
+                  "domain": "cryptominerbros.com",
+                  "url": "https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/",
+                  "title": "A Beginner's Guide to Immersion Cooling Your ASIC Miner",
+                  "text": "Immersion Cooling Explained Immersion cooling is a liquid cooling technique in which ASIC miners are fully submerged in a non-cond..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/",
+                  "title": "is immersion cooling for mining crypto worth it , and what the best system ...",
+                  "text": "Cost Considerations for Immersion Cooling: The cost of immersion cooling setups, including specialized fluids, can be substantial ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Miners.de",
+                  "domain": "miners.de",
+                  "url": "https://miners.de/en/collections/immersion-cooling",
+                  "title": "Immersion Cooling - Miners.de",
+                  "text": "Immersion Cooling – Liquid cooling for ASIC miners. Immersion cooling is an advanced method for cooling mining hardware in which A..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "QuoteColo",
+                  "domain": "www.quotecolo.com",
+                  "url": "https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/",
+                  "title": "Immersion Cooling for Bitcoin Mining",
+                  "text": "Because when your competition is running cooler, faster, and more efficiently, you're not just losing money—you're getting left be..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Asic Marketplace",
+                  "domain": "asicmarketplace.com",
+                  "url": "https://asicmarketplace.com/blog/immersion-cooling-setup-for-asic-miner/",
+                  "title": "How to Setup Immersion Cooling for Your ASIC Miner?",
+                  "text": "What Is Immersion Cooling? If you've ever used a desktop computer or a gaming console, you probably know they need cooling fans to..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/shorts/flNMTLEIIR8",
+                  "title": "Hydromining vs Immersion Mining: Bitcoin Mining Explained #shorts",
+                  "text": "Hydromining vs Immersion Mining: Bitcoin Mining Explained #shorts enter hydro mining hydro mining is essentially liquid cooling yo..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/shorts/bO4YDhA-G9k",
+                  "title": "Bitcoin and Dogecoin Miners in Liquid… why?",
+                  "text": "Bitcoin and Dogecoin Miners in Liquid… why? bitcoin miners underwater dogecoin miners underwater or actually I should say under li..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Google",
+                  "domain": "www.google.com",
+                  "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:11581355676620256027&ibp=oshop",
+                  "title": "FogHashing C2 Immersion Cooling Kit",
+                  "text": "Suitable for 2 ASICs, the C2 Kit with 12kw @ 30C Dry Cooler Immersion Kit by FogHashing is finally here. Stable Operation & Overcl..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "www.youtube.com",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=wuusJIhqGuQ",
+                  "title": "Best Beginner Bitcoin Immersion Mining System - Fog Hashing C2 1 ...",
+                  "text": "if you're in say like a neighborhood with an HOA. and even beyond that i mean we toured BMA's immersion mining farm and their liqu..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "www.youtube.com",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=O3CGYqBRG5k",
+                  "title": "Do I REGRET Liquid Cooling My Bitcoin Miners? 2 Year Immersion ...",
+                  "text": "today's video is brought to you thanks to Revolution Mining who have a new Mine with Us 2025 partnership bundle for S23s. and S21E..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "www.mara.com",
+              "title": "Immersion-Cooled Bitcoin Mining Explained",
+              "url": "https://www.mara.com/posts/immersion-cooled-bitcoin-mining-explained",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.mara.com › posts › immersion-cooled-bitc...",
+              "website_name": "MARA Holdings Inc.",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Immersion is a method of cooling miners by submersing them into a liquid-filled tank to achieve more effective heat management, enhance productivity,",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Immersion",
+                "cooling"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube · VoskCoin",
+                  "title": "When Should YOU Use Liquid Cooling for Bitcoin Miners? ...",
+                  "timestamp": "2025-08-29 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=tEbBvd2gnaE"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · VoskCoin",
+                  "title": "Best Bitcoin Miner for Immersion Liquid Cooled Bitcoin Mining",
+                  "timestamp": "2025-05-23 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=EDIbF4u6EUU"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Sebs FinTech Channel",
+                  "title": "Should YOU be immersion cooling your mining farm? Pro's & ...",
+                  "timestamp": "2025-06-04 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=zr0-A53bnZE"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · VoskCoin",
+                  "title": "Do I REGRET Liquid Cooling My Bitcoin Miners? 2 Year ...",
+                  "timestamp": "2025-08-31 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=O3CGYqBRG5k"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "cryptominerbros.com",
+              "title": "A Beginner's Guide to Immersion Cooling Your ASIC Miner",
+              "url": "https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://cryptominerbros.com › Blog › Cryptocurrency",
+              "website_name": "Crypto Miner Bros",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Aug 23, 2025 — Immersion cooling is a liquid cooling technique in which ASIC miners are fully submerged in a non-conductive, dielectric fluid.",
+              "pre_snippet": "08/23/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "ASIC miners are fully submerged in a non-conductive, dielectric fluid"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Components of Immersion...",
+                  "description": null,
+                  "url": "https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/#Components_of_Immersion_Cooling",
+                  "domain": "cryptominerbros.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Advantages of Immersion...",
+                  "description": null,
+                  "url": "https://cryptominerbros.com/blog/immersion-cooling-for-asic-miners/#Advantages_of_Immersion_Cooling",
+                  "domain": "cryptominerbros.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-08-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the disadvantages of immersion cooling?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the most profitable Bitcoin miner right now?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is there a water-cooled Bitcoin miner available?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is it still worth it to mine Bitcoin in 2026?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How long does it take to mine $1 of Bitcoin?",
+                  "seed_question": "Is it still worth it to mine Bitcoin in 2026?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Why is crypto mining dead?",
+                  "seed_question": "Is it still worth it to mine Bitcoin in 2026?",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "bitmars.io",
+              "title": "Immersion Cooling",
+              "url": "https://bitmars.io/immersion-cooling/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bitmars.io › immersion-cooling",
+              "website_name": "Bitmars",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Immersion cooling is a technique used in Bitcoin mining to cool down the mining equipment, mainly the computer hardware known as ASICs",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "cool down the mining equipment"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "is immersion cooling for mining crypto worth it , and what ...",
+              "url": "https://www.reddit.com/r/cryptomining/comments/wkcbd3/is_immersion_cooling_for_mining_crypto_worth_it/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments  ·  4 years ago",
+              "website_name": "Reddit · r/cryptomining",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "in this poste i would like to discuss immersion cooling for crypto mining , and share some first hand experiences and opinions check out my youtube channel ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "r/BitcoinMining - How is your immersion cooling ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/BitcoinMining/comments/1ahcx79/how_is_your_immersion_cooling_experience/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Immersion cooling for ASIC miners: What is it and ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/Bitcoin/comments/spd22f/immersion_cooling_for_asic_miners_what_is_it_and/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=immersion+cooling+bitcoin+mining+site:www.reddit.com&sca_esv=6dacb47cd9b525ae&hl=en&gl=US&sxsrf=APpeQnsmub8L1kffFQLIy9qsz3IQQUpUQQ:1790339802221&sa=X&ved=2ahUKEwjq3sC_34mXAxXwwckDHQmSGOAQrQIoAnoECDEQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "www.quotecolo.com",
+              "title": "Immersion Cooling for Bitcoin Mining",
+              "url": "https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.quotecolo.com › uncategorized › immersio...",
+              "website_name": "QuoteColo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jul 1, 2025 — Immersion cooling typically reduces total facility energy consumption by 15-25% compared to air cooling systems. Lower energy usage directly ... Read more",
+              "pre_snippet": "07/01/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Immersion cooling typically reduces total facility energy consumption by 15-25"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.quotecolo.com/uncategorized/immersion-cooling-for-bitcoin-mining/#:~:text=Immersion%20cooling%20typically%20reduces%20total,carbon%20footprint%20and%20environmental%20impact.",
+                  "domain": "www.quotecolo.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-07-01 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "miners.de",
+              "title": "Immersion Cooling",
+              "url": "https://miners.de/en/collections/immersion-cooling",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://miners.de › collections › immersion-cooling",
+              "website_name": "Miners.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Immersion cooling is an advanced method for cooling mining hardware in which ASIC miners are completely immersed in a special non-conductive liquid.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "cooling mining hardware"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "www.engineeredfluids.com",
+              "title": "Solutions for Crypto & Blockchain |",
+              "url": "https://www.engineeredfluids.com/industries/crypto-blockchain/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.engineeredfluids.com › industries › crypto-...",
+              "website_name": "Engineered Fluids",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Single-phase, Liquid Immersion Cooling (SLIC ) is the most cost effective way to get the maximum hashrate from any ASIC or GPU based miner. By immersing your ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Single-phase, Liquid Immersion Cooling (SLIC"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.engineeredfluids.com/industries/crypto-blockchain/#:~:text=Single-phase%2C%20Liquid%20Immersion%20Cooling%20(SLIC),based%20miner.%20By%20immersing%20your",
+                  "domain": "www.engineeredfluids.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "hashrateindex.com",
+              "title": "A Look Inside an Immersion and Hydro Cooled Bitcoin Mine",
+              "url": "https://hashrateindex.com/blog/a-look-inside-an-immersion-and-hydro-bitcoin-mine/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hashrateindex.com › blog › a-look-inside-an-im...",
+              "website_name": "HashrateIndex",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jul 20, 2023 — Immersion Cooling: Immersion cooling involves submerging electronic components, such as servers or ASIC chips, into a non-conductive liquid or ... Read more",
+              "pre_snippet": "07/20/2023 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Immersion cooling involves submerging electronic components"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://hashrateindex.com/blog/a-look-inside-an-immersion-and-hydro-bitcoin-mine/#:~:text=Immersion%20Cooling%3A%20Immersion%20cooling%20involves,a%20non-conductive%20liquid%20or%20coolant.",
+                  "domain": "hashrateindex.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-07-20 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]",
+              "title": "Popular products",
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Fog Hashing Immersion Cooling C6, C6 Dry Cooler - 5-7 Days Delivery",
+                  "url": null,
+                  "domain": null,
+                  "description": "Asic Marketplace\nFree delivery",
+                  "more_sellers": false,
+                  "seller": "Asic Marketplace",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQonnRJIrVES5ZM2FoBzPuOLFk4F1jEcc5xtT5h7VYm36u5m6rfo4iHVI_wzNY08rf7qXf3XTrnWbl8iBUmC7lqIwAI6XfO6yjHvyPSM9AWt9SqCYJOvwvc",
+                  "price": {
+                    "current": 1529,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$1,529.00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "15462863553085926552",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Immersion Cooling Kit C2 C2 Tank + Dry cooler",
+                  "url": null,
+                  "domain": null,
+                  "description": "FogHashing",
+                  "more_sellers": false,
+                  "seller": "FogHashing",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSKmzVpIRlaTw7TYaHEldtThIhGVm50ADWFQVwUR4YWtKqSLni8mngS2dA38Ijd9hJoRyvoGc5yzYwKWK09HkCSVuS67LsOjpAOm_zH7lyfwAXpyg69EJtq",
+                  "price": {
+                    "current": 1580,
+                    "regular": 1880,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$1,580.00 $1,880"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "6750182981707376511",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Immersion Cooling Kit C6 Support 6 Asic Miners for Crypto Mining| BT-MINERS",
+                  "url": null,
+                  "domain": null,
+                  "description": "BT-Miners",
+                  "more_sellers": false,
+                  "seller": "BT-Miners",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQlm5wNQJOVe8nYmONHtx5FnxxRPUE6774o2cCZF0bj77zzCTI8iNWSmvm3-BYujSEDSEmELAT2BSV8x2s_2fbDfBRD3ONcgdwzITrYQn3CdIzgKIhC8QzzEg",
+                  "price": {
+                    "current": 4999,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$4,999.00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12096806675459526648",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "FogHashing C2 Immersion Cooling Kit",
+                  "url": null,
+                  "domain": null,
+                  "description": "Viperatech",
+                  "more_sellers": false,
+                  "seller": "Viperatech",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS3HBhNDtY_eQCQsqX-A3B-yCd5x-Vr-w_eVys9Q638UY57hZ8FglyYUzOgL3dQ5XH23-fGlElALRr6Z1mFIr-cbPM0-K6SsaE4FDEFG-vSE4wxk5ud2ACF",
+                  "price": {
+                    "current": 2990,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$2,990.00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "11581355676620256027",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Immersion cooling bitcoin mining profitability",
+                "Immersion cooling bitcoin mining reddit",
+                "Best immersion cooling bitcoin mining",
+                "Immersion cooling bitcoin mining for sale",
+                "Immersion cooling miner",
+                "Crypto mining cooling system",
+                "ASIC immersion cooling kit",
+                "Antminer Immersion cooling"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 14,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "asicmarketplace.com",
+              "title": "How to Setup Immersion Cooling for Your ASIC Miner?",
+              "url": "https://asicmarketplace.com/blog/immersion-cooling-setup-for-asic-miner/?srsltid=AU7gw4VP0r1a5vyeI_v73yji7j7Iif_u6tDoYQ7pWb1w0JafuqK_dUrt",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://asicmarketplace.com › Blog › Cryptocurrency",
+              "website_name": "Asic Marketplace",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jun 13, 2025 — Set up immersion cooling for your ASIC miner to cut noise, lower temps, and boost efficiency and performance step by step.",
+              "pre_snippet": "06/13/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Set up immersion cooling for your ASIC miner"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-06-13 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 15,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "cryptocooling.eu",
+              "title": "Best immersion systems for mining Bitcoin and other crypto!",
+              "url": "https://cryptocooling.eu/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://cryptocooling.eu",
+              "website_name": "cryptocooling.eu",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Immersion cooling delivers efficient heat dissipation and enables full recovery of the heat produced. Give rest heat new life and reuse it to heat up your house ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Immersion cooling delivers efficient heat dissipation"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://cryptocooling.eu/#:~:text=Immersion%20cooling%20delivers%20efficient%20heat,house%20or%20an%20entire%20hotel.",
+                  "domain": "cryptocooling.eu"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 11,
+              "rank_absolute": 16,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "braiins.com",
+              "title": "Economics of Immersion Cooling for Bitcoin Miners",
+              "url": "https://braiins.com/blog/economics-immersion-cooling-bitcoin-miners",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://braiins.com › blog › economics-immersion-cooli...",
+              "website_name": "Braiins Mining",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 9, 2022 — Immersion cooled infrastructure will cost $450k/MW (air cooling + $200k/MW), totalling $4.5MM in CapEx for 10 MW; There will not be a difference ... Read more",
+              "pre_snippet": "05/09/2022 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Immersion cooled infrastructure will cost $450k/MW"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://braiins.com/blog/economics-immersion-cooling-bitcoin-miners#:~:text=Immersion%20cooled%20infrastructure%20will%20cost,will%20not%20be%20a%20difference",
+                  "domain": "braiins.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-05-09 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 12,
+              "rank_absolute": 17,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "bitdeer.com",
+              "title": "Crypto Mining with Immersion Cooling: What You Need to ...",
+              "url": "https://bitdeer.com/learn/crypto-mining-with-immersion-cooling-what-you-need-to-know",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bitdeer.com › learn › crypto-mining-with-immersi...",
+              "website_name": "Bitdeer",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 6, 2025 — Immersion cooling means submerging mining hardware entirely in a non-conductive, specially formulated dielectric liquid. This liquid absorbs and ... Read more",
+              "pre_snippet": "05/06/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Immersion cooling",
+                "mining"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://bitdeer.com/learn/crypto-mining-with-immersion-cooling-what-you-need-to-know#:~:text=Immersion%20cooling%20means%20submerging%20mining,heat%20directly%20from%20the%20equipment.",
+                  "domain": "bitdeer.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-05-06 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 13,
+              "rank_absolute": 18,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.strobelfabrication.com",
+              "title": "Immersion Mining Container | Crypto Mining Cooling System",
+              "url": "https://www.strobelfabrication.com/crypto",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.strobelfabrication.com › crypto",
+              "website_name": "Strobel Fabrication",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Our unique and robust design is nearly noiseless, low maintenance and allows the submerged miners to operate with maximum stability while maintaining a stable ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "nearly noiseless, low maintenance"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.strobelfabrication.com/crypto#:~:text=Our%20unique%20and%20robust%20design,variance%20of%20external%20(environmental)%20temperatures.",
+                  "domain": "www.strobelfabrication.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 14,
+              "rank_absolute": 19,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "ezblockchain.net",
+              "title": "Immersion Mobile Crypto Mining Container – EZ Smartbox",
+              "url": "https://ezblockchain.net/immersion-cooling/?srsltid=AU7gw4V3W3GYFNpILCLcDpxJUptirFjxhakNMbxvND8Tg97u3EU-oZg0",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://ezblockchain.net › immersion-cooling",
+              "website_name": "EZ Blockchain",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Immersion cooling Bitcoin miners provide absolute noise reduction. This is because the fans, which are the primary sources of noise, are removed before ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Immersion cooling Bitcoin miners provide absolute noise reduction"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://ezblockchain.net/immersion-cooling/?srsltid=AU7gw4V3W3GYFNpILCLcDpxJUptirFjxhakNMbxvND8Tg97u3EU-oZg0#:~:text=Immersion%20cooling%20Bitcoin%20miners%20provide,noise%2C%20are%20removed%20before%20immersion.",
+                  "domain": "ezblockchain.net"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 15,
+              "rank_absolute": 20,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Immersion Cooling for Bitcoin Mining",
+              "url": "https://www.youtube.com/playlist?list=PLH776GHxs88RH-ZnzyA-4uy_H5yw62W52",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "3.6K+ followers",
+              "website_name": "YouTube · CleanSpark",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "CleanSpark is a leading sustainable Bitcoin miner and we're using innovative immersion cooling techniques at one of our mining facilities in Georgia. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "CleanSpark is a leading sustainable Bitcoin miner"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://www.youtube.com/playlist?list=PLH776GHxs88RH-ZnzyA-4uy_H5yw62W52#:~:text=Play%20all",
+                  "domain": "www.youtube.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 16,
+              "rank_absolute": 21,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Immersion Cooling an S19J Pro Bitcoin ASIC Miner With a Two ...",
+              "url": "https://www.youtube.com/watch?v=1LZ8lemCdFE",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "18.9K+ views  ·  4 years ago",
+              "website_name": "YouTube · SPACE DESIGN WAREHOUSE",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": null,
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-06-04 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 17,
+              "rank_absolute": 22,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "apextomining.com",
+              "title": "100kW 20-Slot Immersion Mining Tank for Antminer & ...",
+              "url": "https://apextomining.com/product/immersion-mining-modular-b100-tank/?srsltid=AU7gw4XFZfZVKzOexe8I45gDTR6c2heqw4A8atn48ksRWxJMuh-q9j_g",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://apextomining.com › product › immersion-minin...",
+              "website_name": "Apexto Mining",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Powerful Cooling Capacity: Each unit delivers 100kW of cooling power, accommodating up to 20 miners per tank, optimizing temperature control for enhanced ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 11180,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": "$11,180.00"
+              },
+              "highlighted": [
+                "Each unit delivers 100kW of cooling power"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Read more",
+                  "description": null,
+                  "url": "https://apextomining.com/product/immersion-mining-modular-b100-tank/?srsltid=AU7gw4XFZfZVKzOexe8I45gDTR6c2heqw4A8atn48ksRWxJMuh-q9j_g#:~:text=Powerful%20Cooling%20Capacity%3A%20Each%20unit,temperature%20control%20for%20enhanced%20performance.",
+                  "domain": "apextomining.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 23,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]",
+              "title": "Images",
+              "url": "https://www.google.com/search?sa=N&hl=en&gl=US&sca_esv=6dacb47cd9b525ae&sxsrf=APpeQns0BAQ_2hSgTB37mgbAq1LoyZRSJw:1790339805140&q=immersion+cooling+bitcoin+mining&udm=2&source=univ&fir=au8MwxVBTwY9aM%252CQo41Q5ssVzy63M%252C_%253BAt8Biki1xO-ODM%252ClQYtfO7m07qEJM%252C_%253BL0jPEhx0JOPZzM%252CVV5t25iA2796uM%252C_%253BsYHx4AAHRNsFvM%252CQo41Q5ssVzy63M%252C_%253B3ayAY1aFkKCa6M%252C5LU-Ov5VL5wKRM%252C_%253BEIhEyeY-dD3HQM%252CbmiEv1dfr1UT3M%252C_%253BGJt_M4Wgyp8plM%252CuYu7tKoNBbSshM%252C_%253Bou0JOp052HvvlM%252Clpag_n-UpVjtpM%252C_%253BHv6sLXtuDULF_M%252C_NX6-Hx2JmBdOM%252C_&usg=AI4_-kTcUMOB6-FtCFLoZAI0bd7YX1hhTA&ved=2ahUKEwjO8fLA34mXAxVN4ckDHSSxBJU4ChDsCXoECDUQBQ",
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Solutions for Crypto & Blockchain |",
+                  "url": "https://www.engineeredfluids.com/industries/crypto-blockchain/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09251236-2548-0139-0000-cd533517db1a:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Immersion-Cooled Bitcoin Mining Explained | MARA Insights",
+                  "url": "https://www.mara.com/posts/immersion-cooled-bitcoin-mining-explained",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09251236-2548-0139-0000-cd533517db1a:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Here's a brief introduction to immersion mining.",
+                  "url": "https://compassmining.io/education/immersion-bitcoin-mining-introduction",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09251236-2548-0139-0000-cd533517db1a:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Solutions for Crypto & Blockchain |",
+                  "url": "https://www.engineeredfluids.com/industries/crypto-blockchain/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT13ryOuvcjJ70iAB8lTzZOdEn8bgu_cwLniuuix-2v8M98W7nAIVPDCPI&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Bitcoin Mining Cooling Systems: Air vs. Immersion",
+                  "url": "https://www.linkedin.com/pulse/air-cooling-vs-immersion-container-whats-better-bitcoin-mining-phxfe",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU6-LGzQq9Uv07r6Hp20eosOWR12TPnJeeGAv9YJqLJ4OVamXuGqgx-qg&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "My 20000$ Bitcoin mining immersion cooling setup!?",
+                  "url": "https://www.youtube.com/watch?v=0aLPFb6Bbgc",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzarxkEKFKT2wEgCj4R-D5-jcKHnxJM5-Pu9mTJVRy&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Bitcoin Gets Liquid: BitFury Buys Immersion Cooling Specialist",
+                  "url": "https://www.datacenterknowledge.com/cooling/bitcoin-gets-liquid-bitfury-buys-immersion-cooling-specialist",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmSd2UueTK6zr11H_qAVtjMC_TRsWHxrcBgPoxGrlDeAxDUR5IUReGrvk&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Medium",
+                  "url": "https://medium.com/lumerin-blog/immersion-cooling-for-asic-miners-what-is-it-and-how-does-it-work-ce7fe044c1bd",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWXR4PwXmTEdqMZM2Yxht-diBBLIFVqFJp5H9FKRooyCPbaU-YfoyM2dU&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Bitcoin Miners Seeking Faster Computers Dunk Them in Liquid ...",
+                  "url": "https://www.bloomberg.com/news/articles/2021-11-26/bitcoin-miners-seeking-faster-computers-dunk-them-in-liquid-coolant",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQsn7zPLpK6B9VTkJLTMymlRQzvKbvVqReJ6_-FxIK147nXiULwy0tYjU&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 2,
+              "rank_absolute": 24,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Immersion cooling bitcoin mining profitability",
+                "Immersion cooling bitcoin mining reddit",
+                "Best immersion cooling bitcoin mining",
+                "Immersion cooling bitcoin mining for sale",
+                "Immersion cooling miner",
+                "Crypto mining cooling system",
+                "ASIC immersion cooling kit",
+                "Antminer Immersion cooling"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

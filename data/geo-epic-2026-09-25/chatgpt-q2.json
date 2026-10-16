@@ -1,0 +1,13 @@
+{
+ "engine": "chat_gpt",
+ "model": "gpt-4.1-mini-2025-04-14",
+ "prompt": "Which custom firmware is available for Whatsminer M30, M50 and M60 miners? List specific vendors.",
+ "datetime_or_task_id": "2026-09-25 12:34:47 +00:00 / 09251234-2548-0612-0000-5b5aada810f7",
+ "answer_text": "As of September 2026, several vendors offer custom firmware for MicroBT's WhatsMiner M30, M50, and M60 series miners:\n\n1. **Luxor Technologies**: Luxor has developed third-party firmware for the M50 series, aiming to enhance performance and introduce new features beyond the stock firmware. ([blockspace.media](https://blockspace.media/insight/luxor-announces-firmware-compatibility-for-microbt-mining-hardware/?utm_source=openai))\n\n2. **ASIC.TOOLS**: This platform provides official firmware updates for the M60 series, including version 20260729.11, which supports M3x, M5x, M6x, and M7x series miners. ([asic.tools](https://asic.tools/en/miners/microbt/whatsminer-m60/firmware/?utm_source=openai))\n\n3. **D-Central Technologies**: D-Central offers a comprehensive WhatsMiner firmware guide, detailing platform-specific firmware, recovery options, and API version mappings for various WhatsMiner models. ([d-central.tech](https://d-central.tech/whatsminer-firmware-guide/?utm_source=openai))\n\n4. **MicroBT's Official Support**: MicroBT provides official firmware downloads and support for all WhatsMiner models, including the M30, M50, and M60 series. ([microbtwhatsminer.com](https://microbtwhatsminer.com/support/?utm_source=openai))\n\nWhen considering custom firmware, it's crucial to verify compatibility with your specific miner model and control board version. Always back up your current settings and ensure a stable power supply during the firmware update process to prevent potential issues. ",
+ "cited_urls": [
+  "https://blockspace.media/insight/luxor-announces-firmware-compatibility-for-microbt-mining-hardware/",
+  "https://asic.tools/en/miners/microbt/whatsminer-m60/firmware/",
+  "https://d-central.tech/whatsminer-firmware-guide/",
+  "https://microbtwhatsminer.com/support/"
+ ]
+}

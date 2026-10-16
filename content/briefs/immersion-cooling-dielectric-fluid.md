@@ -3,7 +3,8 @@
 **Cluster:** immersion-cooling-mining
 **Brief type:** Spoke — informational (E-E-A-T builder)
 **Created:** 2026-06-19
-**Priority:** P2
+**Priority:** P1 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Promoted. The mineral oil group is already BiXBiT's: mineral oil for immersion cooling 30/mo #1; antminer mineral oil / antminer in mineral oil / mineral oil antminer 50 each at #2; mineral oil immersion cooling 20 #5 — about 200/mo, the largest owned block in the cluster. Refresh and defend the existing post /en/blog/post/immersion-liquid-choosing-the-right-one-for-mining rather than creating a new URL.
+**Target (architecture v2, 2026-09-25):** `/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining` (existing page), Refresh the existing post, section priority P1. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 
 ---
 
@@ -22,14 +23,16 @@ Deep technical reference on dielectric fluid selection for ASIC immersion coolin
 
 ## Target Keywords
 
-| Type | Keyword | Volume |
-|---|---|---|
-| Primary | `immersion cooling dielectric fluid` | N/A |
-| Secondary | `dielectric fluid for Bitcoin mining` | N/A |
-| Secondary | `mineral oil immersion cooling ASIC` | N/A |
-| Secondary | `engineered fluid immersion cooling` | N/A |
-| Long-tail | `best dielectric fluid for ASIC immersion cooling` | N/A |
-| Long-tail | `immersion cooling fluid selection guide mining` | N/A |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Type | Keyword | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Primary | `immersion cooling dielectric fluid` | n/d (<10) | — | — |
+| Secondary | `dielectric fluid for Bitcoin mining` | n/d (<10) | — | — |
+| Secondary | `mineral oil immersion cooling ASIC` | n/d (<10) | — | — |
+| Secondary | `engineered fluid immersion cooling` | n/d (<10) | — | — |
+| Long-tail | `best dielectric fluid for ASIC immersion cooling` | n/d (<10) | — | — |
+| Long-tail | `immersion cooling fluid selection guide mining` | n/d (<10) | — | — |
 
 ---
 

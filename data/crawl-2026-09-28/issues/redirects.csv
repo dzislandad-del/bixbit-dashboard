@@ -1,0 +1,4 @@
+url,hops,final_url,codes,inlinks,in_sitemap
+https://bixbit.io/,1,https://bixbit.io/en,301,2,False
+https://bixbit.io/en/blog/post/detailed-guide-on-how-to-install-the-new-bixbit-firmware-via-whatsminertool,1,https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic,302,21,True
+https://bixbit.io/ru/blog/post/podrobnaya-instrukciya-ustanovki-proshivki-cherez-whatsminertool,1,https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic,302,21,True

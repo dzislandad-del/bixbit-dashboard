@@ -3,7 +3,8 @@
 **Cluster:** immersion-cooling-mining
 **Brief type:** Spoke — commercial investigation (bottom-of-funnel)
 **Created:** 2026-06-19
-**Priority:** P1
+**Priority:** P2 (was P1; recalculated 2026-09-25 from DataForSEO US data) — Demoted. Volume n/d. Can reuse /en/calc.
+**Target (architecture v2, 2026-09-25):** `/en/asics-cooling/immersion-systems` (existing page), H2 ROI / TCO (link to /en/calc), section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 
 ---
 
@@ -24,14 +25,16 @@ Do NOT provide a live calculator tool in this brief (that requires development r
 
 ## Target Keywords
 
-| Type | Keyword | Volume |
-|---|---|---|
-| Primary | `immersion cooling ROI mining` | N/A |
-| Secondary | `immersion cooling cost benefit mining` | N/A |
-| Secondary | `immersion cooling TCO Bitcoin mining` | N/A |
-| Secondary | `is immersion cooling worth it mining` | N/A |
-| Long-tail | `immersion cooling payback period ASIC mining` | N/A |
-| Long-tail | `immersion cooling vs air cooling cost comparison` | N/A |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Type | Keyword | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| Primary | `immersion cooling ROI mining` | n/d (<10) | — | — |
+| Secondary | `immersion cooling cost benefit mining` | n/d (<10) | — | — |
+| Secondary | `immersion cooling TCO Bitcoin mining` | n/d (<10) | — | — |
+| Secondary | `is immersion cooling worth it mining` | n/d (<10) | — | — |
+| Long-tail | `immersion cooling payback period ASIC mining` | n/d (<10) | — | — |
+| Long-tail | `immersion cooling vs air cooling cost comparison` | n/d (<10) | — | — |
 
 ---
 

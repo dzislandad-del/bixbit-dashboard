@@ -1,0 +1,581 @@
+{
+ "meta": {
+  "pulled_at": "2026-09-28",
+  "endpoint": "/v3/keywords_data/google_ads/search_volume/live",
+  "location_code": 2840,
+  "location": "United States",
+  "language_code": "en",
+  "task_id": "09281650-2548-0367-0000-4e99ec292c3a",
+  "cost_usd": 0.09,
+  "note": "Blog-plan target keywords missing from dfs-blog-topics. null = no data (<10). Used by content/blog-plan.md."
+ },
+ "rows": [
+  {
+   "keyword": "asic efficiency",
+   "search_volume": 10,
+   "cpc": 1.02,
+   "competition": "LOW",
+   "monthly_last6": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "j/th",
+   "search_volume": 50,
+   "cpc": null,
+   "competition": "LOW",
+   "monthly_last6": [
+    50,
+    40,
+    30,
+    50,
+    40,
+    40
+   ]
+  },
+  {
+   "keyword": "miner efficiency j/th",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "antminer s21",
+   "search_volume": 1000,
+   "cpc": 1.94,
+   "competition": "HIGH",
+   "monthly_last6": [
+    720,
+    720,
+    720,
+    880,
+    880,
+    880
+   ]
+  },
+  {
+   "keyword": "antminer s21 xp",
+   "search_volume": 320,
+   "cpc": 2.4,
+   "competition": "HIGH",
+   "monthly_last6": [
+    260,
+    260,
+    260,
+    260,
+    260,
+    260
+   ]
+  },
+  {
+   "keyword": "antminer s21 pro",
+   "search_volume": 480,
+   "cpc": 3.22,
+   "competition": "HIGH",
+   "monthly_last6": [
+    210,
+    260,
+    320,
+    390,
+    320,
+    320
+   ]
+  },
+  {
+   "keyword": "antminer s19 xp",
+   "search_volume": 170,
+   "cpc": 0.64,
+   "competition": "HIGH",
+   "monthly_last6": [
+    50,
+    90,
+    50,
+    90,
+    90,
+    110
+   ]
+  },
+  {
+   "keyword": "antminer s19 pro",
+   "search_volume": 590,
+   "cpc": 2.29,
+   "competition": "HIGH",
+   "monthly_last6": [
+    260,
+    260,
+    320,
+    390,
+    390,
+    480
+   ]
+  },
+  {
+   "keyword": "antminer l7",
+   "search_volume": 210,
+   "cpc": 2.15,
+   "competition": "HIGH",
+   "monthly_last6": [
+    70,
+    70,
+    90,
+    140,
+    140,
+    210
+   ]
+  },
+  {
+   "keyword": "antminer vs whatsminer",
+   "search_volume": 10,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": [
+    0,
+    10,
+    10,
+    10,
+    10,
+    0
+   ]
+  },
+  {
+   "keyword": "asic undervolting",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "undervolt asic miner",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "antminer overclock",
+   "search_volume": 10,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": [
+    0,
+    10,
+    10,
+    10,
+    10,
+    0
+   ]
+  },
+  {
+   "keyword": "antminer s19 overclock",
+   "search_volume": 10,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": [
+    0,
+    10,
+    0,
+    10,
+    0,
+    10
+   ]
+  },
+  {
+   "keyword": "whatsminer overclock",
+   "search_volume": 10,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "asic miner temperature",
+   "search_volume": 10,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": [
+    0,
+    0,
+    10,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "antminer temperature",
+   "search_volume": 10,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "keyword": "antminer error codes",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "antminer fan error",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "antminer hashboard repair",
+   "search_volume": 10,
+   "cpc": null,
+   "competition": "LOW",
+   "monthly_last6": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "asic miner virus",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "antminer malware",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "bitcoin miner virus",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "pdu for mining",
+   "search_volume": 20,
+   "cpc": 0.88,
+   "competition": "LOW",
+   "monthly_last6": [
+    10,
+    40,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "mining pdu",
+   "search_volume": 20,
+   "cpc": 0.88,
+   "competition": "LOW",
+   "monthly_last6": [
+    10,
+    40,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "crypto mining pdu",
+   "search_volume": 10,
+   "cpc": 1.46,
+   "competition": "HIGH",
+   "monthly_last6": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "240v pdu",
+   "search_volume": 90,
+   "cpc": 2.28,
+   "competition": "HIGH",
+   "monthly_last6": [
+    90,
+    90,
+    110,
+    90,
+    110,
+    90
+   ]
+  },
+  {
+   "keyword": "3 phase pdu",
+   "search_volume": 90,
+   "cpc": 3.29,
+   "competition": "HIGH",
+   "monthly_last6": [
+    70,
+    50,
+    70,
+    90,
+    90,
+    90
+   ]
+  },
+  {
+   "keyword": "smart pdu",
+   "search_volume": 320,
+   "cpc": 3.61,
+   "competition": "HIGH",
+   "monthly_last6": [
+    320,
+    260,
+    260,
+    260,
+    320,
+    320
+   ]
+  },
+  {
+   "keyword": "power distribution unit",
+   "search_volume": 2900,
+   "cpc": 4.52,
+   "competition": "HIGH",
+   "monthly_last6": [
+    2400,
+    2400,
+    2400,
+    2400,
+    2400,
+    2900
+   ]
+  },
+  {
+   "keyword": "data center pue",
+   "search_volume": 1000,
+   "cpc": 7.17,
+   "competition": "LOW",
+   "monthly_last6": [
+    1300,
+    1000,
+    1300,
+    1000,
+    1300,
+    1300
+   ]
+  },
+  {
+   "keyword": "pue calculation",
+   "search_volume": 170,
+   "cpc": null,
+   "competition": "LOW",
+   "monthly_last6": [
+    210,
+    170,
+    210,
+    210,
+    210,
+    170
+   ]
+  },
+  {
+   "keyword": "what is pue",
+   "search_volume": 590,
+   "cpc": null,
+   "competition": "LOW",
+   "monthly_last6": [
+    720,
+    590,
+    590,
+    590,
+    720,
+    720
+   ]
+  },
+  {
+   "keyword": "direct to chip cooling",
+   "search_volume": 590,
+   "cpc": 11.92,
+   "competition": "MEDIUM",
+   "monthly_last6": [
+    480,
+    480,
+    480,
+    590,
+    720,
+    590
+   ]
+  },
+  {
+   "keyword": "hydro cooling asic",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "immersion cooling maintenance",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "immersion fluid maintenance",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "asic miner noise",
+   "search_volume": 10,
+   "cpc": null,
+   "competition": "LOW",
+   "monthly_last6": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    0
+   ]
+  },
+  {
+   "keyword": "bitcoin miner noise",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "how to monitor asic miners",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "asic monitoring",
+   "search_volume": 70,
+   "cpc": 0.44,
+   "competition": "MEDIUM",
+   "monthly_last6": [
+    70,
+    90,
+    90,
+    70,
+    70,
+    70
+   ]
+  },
+  {
+   "keyword": "mining farm monitoring",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "bitcoin mining curtailment",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "demand response bitcoin mining",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "ercot bitcoin mining",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "hashprice",
+   "search_volume": 590,
+   "cpc": null,
+   "competition": "LOW",
+   "monthly_last6": [
+    480,
+    390,
+    480,
+    480,
+    590,
+    590
+   ]
+  },
+  {
+   "keyword": "bitcoin mining heat reuse",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  },
+  {
+   "keyword": "antminer firmware update",
+   "search_volume": 10,
+   "cpc": null,
+   "competition": "LOW",
+   "monthly_last6": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "keyword": "whatsminer firmware update",
+   "search_volume": 10,
+   "cpc": null,
+   "competition": "LOW",
+   "monthly_last6": [
+    10,
+    10,
+    0,
+    10,
+    10,
+    0
+   ]
+  },
+  {
+   "keyword": "asic firmware safe",
+   "search_volume": null,
+   "cpc": null,
+   "competition": null,
+   "monthly_last6": []
+  }
+ ]
+}

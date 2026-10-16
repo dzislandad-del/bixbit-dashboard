@@ -2,20 +2,23 @@
 **Slug:** `/en/ams/mining-farm-power-monitoring`
 **Cluster:** mining-fleet-monitoring
 **Type:** Spoke — Informational / Commercial
-**Priority:** P2
+**Priority:** P2 (was P2; recalculated 2026-09-25 from DataForSEO US data) — Keep P2. Volume n/d.
+**Target (architecture v2, 2026-09-25):** `/en/ams` (existing page), H2 Per-unit power monitoring, section priority P2. The URL/slug listed below is superseded; see `reports/content-architecture-2026-09-25.md`.
 **Created:** 2026-06-19
 
 ---
 
 ## Target Keywords
 
-| Keyword | Role | Vol. |
-|---|---|---|
-| mining farm power monitoring | Primary | [VOL: N/A — DataForSEO 401] |
-| ASIC power consumption monitoring | Primary | [VOL: N/A] |
-| bitcoin mining power usage tracking | Secondary | [VOL: N/A] |
-| ASIC per unit power telemetry | Tertiary | [VOL: N/A] |
-| mining farm electricity monitoring | Tertiary | [VOL: N/A] |
+> **Data update 2026-09-25:** volumes come from DataForSEO Google Ads search_volume, KD from DataForSEO Labs (United States / en). `n/d` means Google Ads returned no volume (the query has fewer than ~10 searches/mo, not necessarily zero). `#N` is BiXBiT's current Google US position (DataForSEO ranked_keywords). Recalculation: `reports/cluster-repriorization-2026-09-25.md`.
+
+| Keyword | Role | Vol (US, 2026-09) | KD | BiXBiT pos |
+|---|---|---|---|---|
+| mining farm power monitoring | Primary | n/d (<10) | — | — |
+| ASIC power consumption monitoring | Primary | n/d (<10) | — | — |
+| bitcoin mining power usage tracking | Secondary | n/d (<10) | — | — |
+| ASIC per unit power telemetry | Tertiary | n/d (<10) | — | — |
+| mining farm electricity monitoring | Tertiary | n/d (<10) | — | — |
 
 ---
 

@@ -1,0 +1,762 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "14.9656 sec.",
+  "cost": 0.074603,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09251235-2548-0612-0000-006fc7fa0de1",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "14.9591 sec.",
+      "cost": 0.074603,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "gemini",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "gemini",
+        "user_prompt": "Compare the main ASIC mining firmware providers: dev fees, supported models, key features.",
+        "model_name": "gemini-3.5-flash",
+        "web_search": true,
+        "max_output_tokens": 2000,
+        "tag": "q5"
+      },
+      "result": [
+        {
+          "model_name": "gemini-3.5-flash",
+          "input_tokens": 26,
+          "output_tokens": 1996,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.074003,
+          "datetime": "2026-09-25 12:36:07 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "Three third-party firmware providers dominate the Bitcoin ASIC mining ecosystem: **Braiins OS**, **VNish**, and **LuxOS**. \n\nWhile factory (stock) firmware prioritizes predictable operations under broad climate extremes, these custom operating systems use automated, per-chip tuning to extract maximum hashrate efficiency, lower power consumption, and provide advanced management tools.\n\n---\n\n### 1. Comparison Matrix\n\n| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver | Extensive Bitmain Antminer models (S19, S21, T21, L7, L9) | Bitmain Antminer S19 & S21 series (focused on enterprise fleet deployment) |\n| **Audits / Security** | **SOC 1 Type 2 & SOC 2 Type 2** certified | Standard closed-source security practices | **SOC 2 Type 2** certified (First US-developed firmware) |\n\n---\n\n### 2. Deep Dive: Braiins OS\n\nOriginally known for launching Slush Pool (the world's first mining pool), **Braiins OS** is a highly polished, open-source-rooted firmware known for its clean API, stability, and corporate transparency.\n\n*   **Supported Models:** Broadest support for the Antminer S19 series (including S19 XP Hyd, S19j Pro, etc.), S21 series, and T21. Their management software (Braiins Manager) is being extended to monitor Whatsminer, Avalon, and IceRiver machines.\n*   **Key Features:**\n    *   **Stratum V2 Protocol:** Native support for Stratum V2, which drastically improves data efficiency and prevents hashrate hijacking.\n    *   **Energy Curtailment Integration:** Features \"Quick Ramping\" to pause and resume mining in roughly 2 seconds. This is ideal for participating in demand-response grid programs (via Enel, CPower, Voltus, etc.).\n    *   **Fault-Tolerant Mining:** If individual chips or an entire hashboard experience minor errors, Braiins OS dynamically bypasses the failure to keep the rest of the machine running.\n    *   **Zero-Fee Incentive:** While you pay a 2–2.5% dev fee, choosing Braiins Pool drops your pool fee to 0%, offsetting some of the cost.\n\n---\n\n### 3. Deep Dive: VNish\n\nDeveloped by the Hashcore team, **VNish** is highly popular among both home miners and industrial \"mining hotels\". It has a reputation for having a highly aggressive, rapid-development cycle, often releasing firmware for newer hardware variants faster than competitors.\n\n*   **Supported Models:** Incredible breadth of Bitmain machines, covering S19, T19, S21, T21, as well as Scrypt miners like the L7 and L9. It has broad compatibility across different control board types (Xilinx, BeagleBone, Amlogic, CVitek).\n*   **Key Features:**\n    *   **Granular Auto-Tuning:** Highly regarded for its sophisticated, continuous autotuner that runs at the runtime level (not just presets). It optimizes individual chip frequencies and voltages based on localized thermal and chip quality variations.\n    *   **Immersive Cooling Profiles:** VNish is exceptionally well-configured for immersion cooling setups, allowing complete fan disablement and targeted overclocking settings.\n    *   **White-Label/Partner Branding:** VNish is the go-to choice for hosting facilities; they allow large operators to inject custom branding, set custom dev-fee proxies, and split revenue streams.\n    *   **Robust Management Ecosystem:** Uses the HashCore Toolkit, Pulse (monitoring), and Proxy (hashrate aggregation) to scale from 1 to 100,000+ machines.\n\n---\n\n### 4. Deep Dive: LuxOS\n\nDeveloped by US-based **Luxor Technology**, **LuxOS** is built from the ground up as an enterprise-grade firmware tailored heavily toward North American institutional miners and highly regulated compliance standards.\n\n*   **Supported Models:** Focuses heavily on Bitmain’s S19 and S21 families (including the S19k Pro and S19 XP). \n*   **Key Features:**\n    *   **SOC 2 Type 2 Audited:** LuxOS was the first firmware to successfully undergo Big Four accounting audits to meet institutional security and financial compliance standards.\n    *   **PSU Bypass Mode:** Includes a specialized mode for home miners using 110V/120V residential power lines, allowing them to bypass typical power limitations safely.\n    *   **Dynamic Profitability Tuning:** LuxOS can be set to adjust the miner automatically based on energy hashprice. When Bitcoin hashprice rises, it overclocks; when hashprice falls, it automatically shifts to ultra-efficient undervolting.\n    *   **Ultra-Fast Load Shedding:** Shuts power down to ~25W in under 5 seconds, allowing immediate response to grid curtailment events, with rapid thermal-controlled wake-up sequences.\n    *   **Luxor Commander:** A robust, remote bulk-deployment tool that makes pushing configurations, IP setups, and updates to thousands of miners effortless.\n\n---\n\n### Which should you choose?\n\n*   Choose **Braiins OS** if you want a reliable, highly secure platform, value Stratum V2 security, and want to offset your costs by mining on Braiins Pool.\n*   Choose **VNish** if you are running newer hardware (like L7/L9 or specific S21 control boards), need aggressive autotuning to push hardware boundaries, or operate an immersion-cooled mining farm.\n*   Choose **LuxOS** if you operate a commercial or institutional fleet",
+                  "annotations": [
+                    {
+                      "title": "mineshop.eu",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB6IeAM5n2YCNXIOIKQGT6ulHPI82cQahsDfR3RfjO_CopwUFpvSlECBF4h-slDe-o174iPDtixOpSmVJmHUhJdHcGba0rM8S3cgDT0RnSgNR08B3kJqXcJpZlgfKxSHaB62Sw",
+                      "direct_url": "https://mineshop.eu/blog/crypto-mining-software",
+                      "start_index": 0,
+                      "end_index": 121,
+                      "text": "Three third-party firmware providers dominate the Bitcoin ASIC mining ecosystem: **Braiins OS**, **VNish**, and **LuxOS**"
+                    },
+                    {
+                      "title": "emcd.io",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETxT7zKtkK1nn3rAg3n8p2xu1_KNBGNO9u32uJOdOB3kj0oF7yDN5jx61MfD0R7ZTFLYtTt9_-RL3ifcBgOWjQc6V5gQAmJwi31IZv0hkVsd5wD_6Ks3zw-PnQFl6dK5ElubAfinwWUNneu_FwDqJaJNorwpNZ5Z5AIUJ_mfcRhryZGuTiXsQKVDIqCQ==",
+                      "direct_url": "https://emcd.io/articles/mining/best-custom-asic-firmware-vnish-vs-braiins-os-vs-luxos/",
+                      "start_index": 0,
+                      "end_index": 121,
+                      "text": "Three third-party firmware providers dominate the Bitcoin ASIC mining ecosystem: **Braiins OS**, **VNish**, and **LuxOS**"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 0,
+                      "end_index": 121,
+                      "text": "Three third-party firmware providers dominate the Bitcoin ASIC mining ecosystem: **Braiins OS**, **VNish**, and **LuxOS**"
+                    },
+                    {
+                      "title": "emcd.io",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETxT7zKtkK1nn3rAg3n8p2xu1_KNBGNO9u32uJOdOB3kj0oF7yDN5jx61MfD0R7ZTFLYtTt9_-RL3ifcBgOWjQc6V5gQAmJwi31IZv0hkVsd5wD_6Ks3zw-PnQFl6dK5ElubAfinwWUNneu_FwDqJaJNorwpNZ5Z5AIUJ_mfcRhryZGuTiXsQKVDIqCQ==",
+                      "direct_url": "https://emcd.io/articles/mining/best-custom-asic-firmware-vnish-vs-braiins-os-vs-luxos/",
+                      "start_index": 125,
+                      "end_index": 219,
+                      "text": "While factory (stock) firmware prioritizes predictable operations under broad climate extremes"
+                    },
+                    {
+                      "title": "hashrateindex.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHSkbXTGedc8RXcBzcRS2XTNRc7NG5_fl4wVnI6AypYFRN_AakzDxLlRFpqhxwVw4FMVvZRyLVZEdx92hYwjgZ_N0jgGsDZ1Xc21JMwQ6JdyTD5yUKR6owoZlRsp9XpLTh-3-voHrISO6bIN3CHXUVrK6Jiq_87UxCUf1ij5Ae-I7FhHXa41x41VzUL_LBeg==",
+                      "direct_url": "https://hashrateindex.com/blog/firmware-features-series-what-is-autotuner-luxos-explained/",
+                      "start_index": 125,
+                      "end_index": 385,
+                      "text": "While factory (stock) firmware prioritizes predictable operations under broad climate extremes, these custom operating systems use automated, per-chip tuning to extract maximum hashrate efficiency, lower power consumption, and provide advanced management tools"
+                    },
+                    {
+                      "title": "emcd.io",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETxT7zKtkK1nn3rAg3n8p2xu1_KNBGNO9u32uJOdOB3kj0oF7yDN5jx61MfD0R7ZTFLYtTt9_-RL3ifcBgOWjQc6V5gQAmJwi31IZv0hkVsd5wD_6Ks3zw-PnQFl6dK5ElubAfinwWUNneu_FwDqJaJNorwpNZ5Z5AIUJ_mfcRhryZGuTiXsQKVDIqCQ==",
+                      "direct_url": "https://emcd.io/articles/mining/best-custom-asic-firmware-vnish-vs-braiins-os-vs-luxos/",
+                      "start_index": 125,
+                      "end_index": 385,
+                      "text": "While factory (stock) firmware prioritizes predictable operations under broad climate extremes, these custom operating systems use automated, per-chip tuning to extract maximum hashrate efficiency, lower power consumption, and provide advanced management tools"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 125,
+                      "end_index": 385,
+                      "text": "While factory (stock) firmware prioritizes predictable operations under broad climate extremes, these custom operating systems use automated, per-chip tuning to extract maximum hashrate efficiency, lower power consumption, and provide advanced management tools"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 419,
+                      "end_index": 539,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic)"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 419,
+                      "end_index": 581,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin)"
+                    },
+                    {
+                      "title": "hashcore.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUuCTzdgxjkDmlyPuc8xRQPw4TfgHKxE3wtnNu77WTGDMobyD_QLYq5GIzm2sBH5c-kwjj28JgaIODTC4vQpamiEqLZhFd7CAb6IZqh-tserFRCNqt38GuugXPB11I_b7tJhoZg7UIHs=",
+                      "direct_url": "https://docs.hashcore.com/en/firmware/about/opisanie",
+                      "start_index": 419,
+                      "end_index": 581,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin)"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjkV22jb6RqF4s5OeSHdlcVlyFUAFDQE3bCR72n1aF7eNevhnMmEU5jxsrtokxH98yqSQI2I6rj16kwv4xmzBY0IfvUEIMcApFUetl_RxMfnEH5mhVcPY=",
+                      "direct_url": "https://luxor.tech/mining/firmware",
+                      "start_index": 419,
+                      "end_index": 616,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States)"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 419,
+                      "end_index": 616,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States)"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAqUQ_iC2_DRYWoOQ7TYOjhwztDp-AJxn3ENqvmbyvL-zpB6m997yV3BP1_aqqDlLrSYwVoOFAhHyCehHThF4y_acIROJ8yXy5ff578WVJ80eI2_AOZzVv2RGEoUE=",
+                      "direct_url": "https://braiins.com/os-firmware/download",
+                      "start_index": 419,
+                      "end_index": 678,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent)"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 419,
+                      "end_index": 678,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent)"
+                    },
+                    {
+                      "title": "vnish.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC25nNm3n_jqm5WKQH5cTPeCY9L9bXOKdquuO9wQD_0MM02pH8Y58GyILrjtrZBxXfkKtIqVtYNNnotVr1RMArFtqPDxvezw==",
+                      "direct_url": "https://vnish.com/",
+                      "start_index": 419,
+                      "end_index": 716,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent)"
+                    },
+                    {
+                      "title": "vnish-firmware.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOv2CgnJeI0uOpeNQ18Nm0BwfSx4mOrwwylmE1tuJ0um-lQElpHseaxdaUSILsOneb_BL17V0kXy-5lrkWKzczsThwy5AmYYAyX2zSW2wTBA==",
+                      "direct_url": "https://vnish-firmware.com/",
+                      "start_index": 419,
+                      "end_index": 716,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent)"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9y63TQ3q1kQIktmS7kIzTL8bmytHosTnDh-Usv-TfGixWlEiCW0BYggQmZ6DTNicPxR736SGBXP4ZZfeFJv_NB5A-A5L-wMk89pn1MOyWWXZsmH46jG3ygyEzYvO-RKCG",
+                      "direct_url": "https://d-central.tech/luxos-firmware-guide/",
+                      "start_index": 419,
+                      "end_index": 740,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 419,
+                      "end_index": 740,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAqUQ_iC2_DRYWoOQ7TYOjhwztDp-AJxn3ENqvmbyvL-zpB6m997yV3BP1_aqqDlLrSYwVoOFAhHyCehHThF4y_acIROJ8yXy5ff578WVJ80eI2_AOZzVv2RGEoUE=",
+                      "direct_url": "https://braiins.com/os-firmware/download",
+                      "start_index": 419,
+                      "end_index": 815,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool**"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 419,
+                      "end_index": 815,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool**"
+                    },
+                    {
+                      "title": "vnish-firmware.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOv2CgnJeI0uOpeNQ18Nm0BwfSx4mOrwwylmE1tuJ0um-lQElpHseaxdaUSILsOneb_BL17V0kXy-5lrkWKzczsThwy5AmYYAyX2zSW2wTBA==",
+                      "direct_url": "https://vnish-firmware.com/",
+                      "start_index": 419,
+                      "end_index": 886,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners)"
+                    },
+                    {
+                      "title": "vnish.io",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7YA_NmOExn6FXMLXgvLP7PZgdk7yEKc2bewqCAO29HFEUaLPJO9cyG4e2T4bZawPQGVf0vN78wbc_h2t4AmVWNKI3s5-A",
+                      "direct_url": "https://vnish.io/",
+                      "start_index": 419,
+                      "end_index": 886,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners)"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjkV22jb6RqF4s5OeSHdlcVlyFUAFDQE3bCR72n1aF7eNevhnMmEU5jxsrtokxH98yqSQI2I6rj16kwv4xmzBY0IfvUEIMcApFUetl_RxMfnEH5mhVcPY=",
+                      "direct_url": "https://luxor.tech/mining/firmware",
+                      "start_index": 419,
+                      "end_index": 935,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool**"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 419,
+                      "end_index": 935,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool**"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJpk8eQvbEDOO0kTJ-xhHBcTkc_xW352y-DVd64S3Cbs_92QmSUwlEZCrQKT6Gwy4ukQ90nrq2V3_9lij1S3oELf7VAHSHg0RRckTepTCF2K8k0ukzt7AMa1drJ97Naolij2MVA3z5w3mPEQ=",
+                      "direct_url": "https://academy.braiins.com/braiins-manager/limitations",
+                      "start_index": 419,
+                      "end_index": 1052,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAqUQ_iC2_DRYWoOQ7TYOjhwztDp-AJxn3ENqvmbyvL-zpB6m997yV3BP1_aqqDlLrSYwVoOFAhHyCehHThF4y_acIROJ8yXy5ff578WVJ80eI2_AOZzVv2RGEoUE=",
+                      "direct_url": "https://braiins.com/os-firmware/download",
+                      "start_index": 419,
+                      "end_index": 1052,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver"
+                    },
+                    {
+                      "title": "mineshop.eu",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTdZq_2i0sLpMJ3aKWiMKqdnybfq4o45QlhB4pex0N6gU6sMGVHpfmGJ05M2gavCLmrPuiCIUKKMmE3eRLJMDombSaM6fbN0kfPz8nTn3R52O1oWSW9X6hSJjmfA7Kbw87RhvevBGLwIg-SEJt94uxL_wN2gC9Hj-I7ZUHDuE13V9mnWFRN3ZgjWXLg==",
+                      "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+                      "start_index": 419,
+                      "end_index": 1052,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver"
+                    },
+                    {
+                      "title": "vnish-firmware.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOv2CgnJeI0uOpeNQ18Nm0BwfSx4mOrwwylmE1tuJ0um-lQElpHseaxdaUSILsOneb_BL17V0kXy-5lrkWKzczsThwy5AmYYAyX2zSW2wTBA==",
+                      "direct_url": "https://vnish-firmware.com/",
+                      "start_index": 419,
+                      "end_index": 1112,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver | Extensive Bitmain Antminer models (S19, S21, T21, L7, L9)"
+                    },
+                    {
+                      "title": "hashrateindex.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSd3jtsnuD2CqGS_1OaexdG7KWA1p_Ig8Ob1euMJJQQjNiAm_tHJmhiBoByUU3jvuclBRVfa-3-1IK_iLNuO8rjm1-fxeprGZtSqdtYvmVbfMlqnqK2zuxdSE9ZTGb7eQwjjbngnqW2hCxLNCeXSnpIztbJ4-S6JM=",
+                      "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+                      "start_index": 419,
+                      "end_index": 1189,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver | Extensive Bitmain Antminer models (S19, S21, T21, L7, L9) | Bitmain Antminer S19 & S21 series (focused on enterprise fleet deployment)"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9y63TQ3q1kQIktmS7kIzTL8bmytHosTnDh-Usv-TfGixWlEiCW0BYggQmZ6DTNicPxR736SGBXP4ZZfeFJv_NB5A-A5L-wMk89pn1MOyWWXZsmH46jG3ygyEzYvO-RKCG",
+                      "direct_url": "https://d-central.tech/luxos-firmware-guide/",
+                      "start_index": 419,
+                      "end_index": 1189,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver | Extensive Bitmain Antminer models (S19, S21, T21, L7, L9) | Bitmain Antminer S19 & S21 series (focused on enterprise fleet deployment)"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 419,
+                      "end_index": 1189,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver | Extensive Bitmain Antminer models (S19, S21, T21, L7, L9) | Bitmain Antminer S19 & S21 series (focused on enterprise fleet deployment)"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZpLSxGbor7upfcBrUWdABFoTyid_RZr63euswlwQn76lfmDf7943G8dTJomGfRc98fsA3VMzDj7qCJ1-XV8CRNnvLNicanNe95xweu0VjN-ynqBh_Op6CtM3Ta2c5gXq",
+                      "direct_url": "https://academy.braiins.com/braiins-os/about",
+                      "start_index": 419,
+                      "end_index": 1259,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver | Extensive Bitmain Antminer models (S19, S21, T21, L7, L9) | Bitmain Antminer S19 & S21 series (focused on enterprise fleet deployment) |\n| **Audits / Security** | **SOC 1 Type 2 & SOC 2 Type 2** certified"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKubSh8NY4IPH1ux9K7oYV9odEN43ecETQkT8EFo6xP6BPCf_xJoAhLDHzpTMKsEQmsDmUAjEWkZEh1HyPd1EViuIhnohOd3uoUEspCZYmrkq6I_WQUrkCsbq1TqjiOCMfv-HR97nIyLlU1AnXkDJJupZWGo0Oo1YPybqnn7MpGnuB8d1GrIYvorTLezY=",
+                      "direct_url": "https://d-central.tech/unleashing-the-true-power-of-your-asic-miner-with-vnish-firmware/",
+                      "start_index": 419,
+                      "end_index": 1303,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver | Extensive Bitmain Antminer models (S19, S21, T21, L7, L9) | Bitmain Antminer S19 & S21 series (focused on enterprise fleet deployment) |\n| **Audits / Security** | **SOC 1 Type 2 & SOC 2 Type 2** certified | Standard closed-source security practices"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjkV22jb6RqF4s5OeSHdlcVlyFUAFDQE3bCR72n1aF7eNevhnMmEU5jxsrtokxH98yqSQI2I6rj16kwv4xmzBY0IfvUEIMcApFUetl_RxMfnEH5mhVcPY=",
+                      "direct_url": "https://luxor.tech/mining/firmware",
+                      "start_index": 419,
+                      "end_index": 1362,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver | Extensive Bitmain Antminer models (S19, S21, T21, L7, L9) | Bitmain Antminer S19 & S21 series (focused on enterprise fleet deployment) |\n| **Audits / Security** | **SOC 1 Type 2 & SOC 2 Type 2** certified | Standard closed-source security practices | **SOC 2 Type 2** certified (First US-developed firmware)"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZR4oUn244Q9KlLYKacsiJDeMIYLm3bHS_K5IgwOlla8ZZkGIT8h_QoHexfVhin_Sa83tTkYOiDC_9LCykxEvDuEmF824bUKDI20ph8HPnyJpnNs7uBKXInroPGxTngxvmdKCjEYF_YgyqQPhhRg==",
+                      "direct_url": "https://docs.luxor.tech/firmware/introduction-to-firmware",
+                      "start_index": 419,
+                      "end_index": 1362,
+                      "text": "| Feature | Braiins OS | VNish | LuxOS |\n| :--- | :--- | :--- | :--- |\n| **Developer Origin** | Braiins (Czech Republic) | Independent / Hashcore (Russian origin) | Luxor Technology (United States) |\n| **Typical Dev Fee** | **2.0% – 2.5%** (model dependent) | **2.0% – 2.8%** (model dependent) | **2.8%** flat dev fee |\n| **Dev Fee Rebates** | **0% Pool Fees** if you mine on **Braiins Pool** | No standard pool-level rebate (custom structures for large partners) | **0% Pool Fees** if you mine on **Luxor Pool** |\n| **Main Hardware Focus** | Bitmain Antminers (deepest support), with growing tools for Whatsminer/Avalon/IceRiver | Extensive Bitmain Antminer models (S19, S21, T21, L7, L9) | Bitmain Antminer S19 & S21 series (focused on enterprise fleet deployment) |\n| **Audits / Security** | **SOC 1 Type 2 & SOC 2 Type 2** certified | Standard closed-source security practices | **SOC 2 Type 2** certified (First US-developed firmware)"
+                    },
+                    {
+                      "title": "youtube.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAZqbyqO1paai9L2WxlEIiYcpkOIaK7et6GEmiagsiRuqd44zRk3s-ZXlPj5xQWpgC7iFudKexN-s4GaPykyBjBjRhLLIiwwVpnTQlBispW16lU0fQUr17Cq6e81no0g==",
+                      "direct_url": "https://www.youtube.com/shorts/iXxsBr7pLqs",
+                      "start_index": 1401,
+                      "end_index": 1474,
+                      "text": "Originally known for launching Slush Pool (the world's first mining pool)"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZpLSxGbor7upfcBrUWdABFoTyid_RZr63euswlwQn76lfmDf7943G8dTJomGfRc98fsA3VMzDj7qCJ1-XV8CRNnvLNicanNe95xweu0VjN-ynqBh_Op6CtM3Ta2c5gXq",
+                      "direct_url": "https://academy.braiins.com/braiins-os/about",
+                      "start_index": 1401,
+                      "end_index": 1603,
+                      "text": "Originally known for launching Slush Pool (the world's first mining pool), **Braiins OS** is a highly polished, open-source-rooted firmware known for its clean API, stability, and corporate transparency"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAqUQ_iC2_DRYWoOQ7TYOjhwztDp-AJxn3ENqvmbyvL-zpB6m997yV3BP1_aqqDlLrSYwVoOFAhHyCehHThF4y_acIROJ8yXy5ff578WVJ80eI2_AOZzVv2RGEoUE=",
+                      "direct_url": "https://braiins.com/os-firmware/download",
+                      "start_index": 1401,
+                      "end_index": 1603,
+                      "text": "Originally known for launching Slush Pool (the world's first mining pool), **Braiins OS** is a highly polished, open-source-rooted firmware known for its clean API, stability, and corporate transparency"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKHML8oSCOoTmf0y7gOXPvZMOXqHcDFjZ9qmlrI2-qLXwPODY3qi8QVGr1LfUAilF2o_w2vsWxyNVEmchl18e8XYs3IFR9e2g2PnSYFF7pxz7xZ4W-3GAQFWleKJwRMW32YB-S9Oa9bmi9BtvVKDKLSQ3diC_Mwq4YB4q-BohGIFJGE9oRuNpll1nuP5V65NCg",
+                      "direct_url": "https://d-central.tech/braiinsos-unlocking-the-power-of-advanced-autotuning-for-asic-miners/",
+                      "start_index": 1401,
+                      "end_index": 1603,
+                      "text": "Originally known for launching Slush Pool (the world's first mining pool), **Braiins OS** is a highly polished, open-source-rooted firmware known for its clean API, stability, and corporate transparency"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHz-I1G9sliLlZfQWg3bBCHJnXSbIIxGk1m1JfT_gHVVdgR5kj8SEpWb4Os6dV1K14UENfF0Jp190YzAVY4JKUbvCke0AiIUy0H-_1Ov79fT45dJ0sTKNeP6P8Bo-F966KHo543A==",
+                      "direct_url": "https://academy.braiins.com/braiins-os/whats-new",
+                      "start_index": 1606,
+                      "end_index": 1736,
+                      "text": "*   **Supported Models:** Broadest support for the Antminer S19 series (including S19 XP Hyd, S19j Pro, etc.), S21 series, and T21"
+                    },
+                    {
+                      "title": "mineshop.eu",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTdZq_2i0sLpMJ3aKWiMKqdnybfq4o45QlhB4pex0N6gU6sMGVHpfmGJ05M2gavCLmrPuiCIUKKMmE3eRLJMDombSaM6fbN0kfPz8nTn3R52O1oWSW9X6hSJjmfA7Kbw87RhvevBGLwIg-SEJt94uxL_wN2gC9Hj-I7ZUHDuE13V9mnWFRN3ZgjWXLg==",
+                      "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+                      "start_index": 1606,
+                      "end_index": 1736,
+                      "text": "*   **Supported Models:** Broadest support for the Antminer S19 series (including S19 XP Hyd, S19j Pro, etc.), S21 series, and T21"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJpk8eQvbEDOO0kTJ-xhHBcTkc_xW352y-DVd64S3Cbs_92QmSUwlEZCrQKT6Gwy4ukQ90nrq2V3_9lij1S3oELf7VAHSHg0RRckTepTCF2K8k0ukzt7AMa1drJ97Naolij2MVA3z5w3mPEQ=",
+                      "direct_url": "https://academy.braiins.com/braiins-manager/limitations",
+                      "start_index": 1738,
+                      "end_index": 1852,
+                      "text": "Their management software (Braiins Manager) is being extended to monitor Whatsminer, Avalon, and IceRiver machines"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZpLSxGbor7upfcBrUWdABFoTyid_RZr63euswlwQn76lfmDf7943G8dTJomGfRc98fsA3VMzDj7qCJ1-XV8CRNnvLNicanNe95xweu0VjN-ynqBh_Op6CtM3Ta2c5gXq",
+                      "direct_url": "https://academy.braiins.com/braiins-os/about",
+                      "start_index": 1854,
+                      "end_index": 2014,
+                      "text": "*   **Key Features:**\n    *   **Stratum V2 Protocol:** Native support for Stratum V2, which drastically improves data efficiency and prevents hashrate hijacking"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZpLSxGbor7upfcBrUWdABFoTyid_RZr63euswlwQn76lfmDf7943G8dTJomGfRc98fsA3VMzDj7qCJ1-XV8CRNnvLNicanNe95xweu0VjN-ynqBh_Op6CtM3Ta2c5gXq",
+                      "direct_url": "https://academy.braiins.com/braiins-os/about",
+                      "start_index": 2020,
+                      "end_index": 2132,
+                      "text": "*   **Energy Curtailment Integration:** Features \"Quick Ramping\" to pause and resume mining in roughly 2 seconds"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJpk8eQvbEDOO0kTJ-xhHBcTkc_xW352y-DVd64S3Cbs_92QmSUwlEZCrQKT6Gwy4ukQ90nrq2V3_9lij1S3oELf7VAHSHg0RRckTepTCF2K8k0ukzt7AMa1drJ97Naolij2MVA3z5w3mPEQ=",
+                      "direct_url": "https://academy.braiins.com/braiins-manager/limitations",
+                      "start_index": 2134,
+                      "end_index": 2231,
+                      "text": "This is ideal for participating in demand-response grid programs (via Enel, CPower, Voltus, etc.)"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZpLSxGbor7upfcBrUWdABFoTyid_RZr63euswlwQn76lfmDf7943G8dTJomGfRc98fsA3VMzDj7qCJ1-XV8CRNnvLNicanNe95xweu0VjN-ynqBh_Op6CtM3Ta2c5gXq",
+                      "direct_url": "https://academy.braiins.com/braiins-os/about",
+                      "start_index": 2134,
+                      "end_index": 2231,
+                      "text": "This is ideal for participating in demand-response grid programs (via Enel, CPower, Voltus, etc.)"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZpLSxGbor7upfcBrUWdABFoTyid_RZr63euswlwQn76lfmDf7943G8dTJomGfRc98fsA3VMzDj7qCJ1-XV8CRNnvLNicanNe95xweu0VjN-ynqBh_Op6CtM3Ta2c5gXq",
+                      "direct_url": "https://academy.braiins.com/braiins-os/about",
+                      "start_index": 2237,
+                      "end_index": 2419,
+                      "text": "*   **Fault-Tolerant Mining:** If individual chips or an entire hashboard experience minor errors, Braiins OS dynamically bypasses the failure to keep the rest of the machine running"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAqUQ_iC2_DRYWoOQ7TYOjhwztDp-AJxn3ENqvmbyvL-zpB6m997yV3BP1_aqqDlLrSYwVoOFAhHyCehHThF4y_acIROJ8yXy5ff578WVJ80eI2_AOZzVv2RGEoUE=",
+                      "direct_url": "https://braiins.com/os-firmware/download",
+                      "start_index": 2425,
+                      "end_index": 2563,
+                      "text": "*   **Zero-Fee Incentive:** While you pay a 2–2.5% dev fee, choosing Braiins Pool drops your pool fee to 0%, offsetting some of the cost"
+                    },
+                    {
+                      "title": "youtube.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAZqbyqO1paai9L2WxlEIiYcpkOIaK7et6GEmiagsiRuqd44zRk3s-ZXlPj5xQWpgC7iFudKexN-s4GaPykyBjBjRhLLIiwwVpnTQlBispW16lU0fQUr17Cq6e81no0g==",
+                      "direct_url": "https://www.youtube.com/shorts/iXxsBr7pLqs",
+                      "start_index": 2425,
+                      "end_index": 2563,
+                      "text": "*   **Zero-Fee Incentive:** While you pay a 2–2.5% dev fee, choosing Braiins Pool drops your pool fee to 0%, offsetting some of the cost"
+                    },
+                    {
+                      "title": "hashcore.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUuCTzdgxjkDmlyPuc8xRQPw4TfgHKxE3wtnNu77WTGDMobyD_QLYq5GIzm2sBH5c-kwjj28JgaIODTC4vQpamiEqLZhFd7CAb6IZqh-tserFRCNqt38GuugXPB11I_b7tJhoZg7UIHs=",
+                      "direct_url": "https://docs.hashcore.com/en/firmware/about/opisanie",
+                      "start_index": 2596,
+                      "end_index": 2626,
+                      "text": "Developed by the Hashcore team"
+                    },
+                    {
+                      "title": "vnish.ninja",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHojJ5lBJzPAsEORgXbsvkD-oH1sPz097dmK3qlc6If-4flFYhSJJYAYHwVkvwFwTPCgJXXfxygbdOmk3hnFgPrIDZgl7L6sVphrTMrSThiN-I=",
+                      "direct_url": "https://vnish.ninja/arsenal/",
+                      "start_index": 2596,
+                      "end_index": 2709,
+                      "text": "Developed by the Hashcore team, **VNish** is highly popular among both home miners and industrial \"mining hotels\""
+                    },
+                    {
+                      "title": "vnish.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC25nNm3n_jqm5WKQH5cTPeCY9L9bXOKdquuO9wQD_0MM02pH8Y58GyILrjtrZBxXfkKtIqVtYNNnotVr1RMArFtqPDxvezw==",
+                      "direct_url": "https://vnish.com/",
+                      "start_index": 2711,
+                      "end_index": 2864,
+                      "text": "It has a reputation for having a highly aggressive, rapid-development cycle, often releasing firmware for newer hardware variants faster than competitors"
+                    },
+                    {
+                      "title": "vnish-firmware.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOv2CgnJeI0uOpeNQ18Nm0BwfSx4mOrwwylmE1tuJ0um-lQElpHseaxdaUSILsOneb_BL17V0kXy-5lrkWKzczsThwy5AmYYAyX2zSW2wTBA==",
+                      "direct_url": "https://vnish-firmware.com/",
+                      "start_index": 2711,
+                      "end_index": 2864,
+                      "text": "It has a reputation for having a highly aggressive, rapid-development cycle, often releasing firmware for newer hardware variants faster than competitors"
+                    },
+                    {
+                      "title": "vnish-firmware.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOv2CgnJeI0uOpeNQ18Nm0BwfSx4mOrwwylmE1tuJ0um-lQElpHseaxdaUSILsOneb_BL17V0kXy-5lrkWKzczsThwy5AmYYAyX2zSW2wTBA==",
+                      "direct_url": "https://vnish-firmware.com/",
+                      "start_index": 2867,
+                      "end_index": 3005,
+                      "text": "*   **Supported Models:** Incredible breadth of Bitmain machines, covering S19, T19, S21, T21, as well as Scrypt miners like the L7 and L9"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAqUQ_iC2_DRYWoOQ7TYOjhwztDp-AJxn3ENqvmbyvL-zpB6m997yV3BP1_aqqDlLrSYwVoOFAhHyCehHThF4y_acIROJ8yXy5ff578WVJ80eI2_AOZzVv2RGEoUE=",
+                      "direct_url": "https://braiins.com/os-firmware/download",
+                      "start_index": 3007,
+                      "end_index": 3108,
+                      "text": "It has broad compatibility across different control board types (Xilinx, BeagleBone, Amlogic, CVitek)"
+                    },
+                    {
+                      "title": "mineshop.eu",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ7M-QzHGK1m5DAPpnF72grXdRJf3HkY9hMyUE13Dghiowed68Wa8DxvlbakAz02TRj7g4akzqwA23ITGLIWlhePuI27Cy0UDSUM3DOe2kY4ScxEtdVmDpSOXncPrZtIdAtowX2cJ99ucPVxbQtxPwA82N8sK7MmQ2oTQpB4Sektb80EL0lrfc6zNssh0vNfhn7kMrboIwrCMedefhQ_6oGVZ1BnZImucToZC4iw96fMJSQbi2m2u1aTZNeYWC_XI=",
+                      "direct_url": "https://mineshop.eu/blog/mineshop-blog-tutorials/unlocking-maximum-potential-a-comprehensive-guide-to-luxos-firmware-for-antminer-s19k-pro",
+                      "start_index": 3007,
+                      "end_index": 3108,
+                      "text": "It has broad compatibility across different control board types (Xilinx, BeagleBone, Amlogic, CVitek)"
+                    },
+                    {
+                      "title": "vnish.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC25nNm3n_jqm5WKQH5cTPeCY9L9bXOKdquuO9wQD_0MM02pH8Y58GyILrjtrZBxXfkKtIqVtYNNnotVr1RMArFtqPDxvezw==",
+                      "direct_url": "https://vnish.com/",
+                      "start_index": 3007,
+                      "end_index": 3108,
+                      "text": "It has broad compatibility across different control board types (Xilinx, BeagleBone, Amlogic, CVitek)"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 3110,
+                      "end_index": 3275,
+                      "text": "*   **Key Features:**\n    *   **Granular Auto-Tuning:** Highly regarded for its sophisticated, continuous autotuner that runs at the runtime level (not just presets)"
+                    },
+                    {
+                      "title": "vnish.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC25nNm3n_jqm5WKQH5cTPeCY9L9bXOKdquuO9wQD_0MM02pH8Y58GyILrjtrZBxXfkKtIqVtYNNnotVr1RMArFtqPDxvezw==",
+                      "direct_url": "https://vnish.com/",
+                      "start_index": 3110,
+                      "end_index": 3275,
+                      "text": "*   **Key Features:**\n    *   **Granular Auto-Tuning:** Highly regarded for its sophisticated, continuous autotuner that runs at the runtime level (not just presets)"
+                    },
+                    {
+                      "title": "vnish.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC25nNm3n_jqm5WKQH5cTPeCY9L9bXOKdquuO9wQD_0MM02pH8Y58GyILrjtrZBxXfkKtIqVtYNNnotVr1RMArFtqPDxvezw==",
+                      "direct_url": "https://vnish.com/",
+                      "start_index": 3277,
+                      "end_index": 3385,
+                      "text": "It optimizes individual chip frequencies and voltages based on localized thermal and chip quality variations"
+                    },
+                    {
+                      "title": "hashcore.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUuCTzdgxjkDmlyPuc8xRQPw4TfgHKxE3wtnNu77WTGDMobyD_QLYq5GIzm2sBH5c-kwjj28JgaIODTC4vQpamiEqLZhFd7CAb6IZqh-tserFRCNqt38GuugXPB11I_b7tJhoZg7UIHs=",
+                      "direct_url": "https://docs.hashcore.com/en/firmware/about/opisanie",
+                      "start_index": 3277,
+                      "end_index": 3385,
+                      "text": "It optimizes individual chip frequencies and voltages based on localized thermal and chip quality variations"
+                    },
+                    {
+                      "title": "vnish.pro",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUlStrYi6INwj0MN28cdd-_2fQ1I1BsmyCriMJmWAI4vIayLaMkSoFa2grByFWPVPZ9AdhgrTzFKEB0kwx-ThUUdpqG9Qad3-YkQ==",
+                      "direct_url": "https://vnish.pro/en/",
+                      "start_index": 3391,
+                      "end_index": 3564,
+                      "text": "*   **Immersive Cooling Profiles:** VNish is exceptionally well-configured for immersion cooling setups, allowing complete fan disablement and targeted overclocking settings"
+                    },
+                    {
+                      "title": "vnish.io",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7YA_NmOExn6FXMLXgvLP7PZgdk7yEKc2bewqCAO29HFEUaLPJO9cyG4e2T4bZawPQGVf0vN78wbc_h2t4AmVWNKI3s5-A",
+                      "direct_url": "https://vnish.io/",
+                      "start_index": 3570,
+                      "end_index": 3765,
+                      "text": "*   **White-Label/Partner Branding:** VNish is the go-to choice for hosting facilities; they allow large operators to inject custom branding, set custom dev-fee proxies, and split revenue streams"
+                    },
+                    {
+                      "title": "vnish.ninja",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHojJ5lBJzPAsEORgXbsvkD-oH1sPz097dmK3qlc6If-4flFYhSJJYAYHwVkvwFwTPCgJXXfxygbdOmk3hnFgPrIDZgl7L6sVphrTMrSThiN-I=",
+                      "direct_url": "https://vnish.ninja/arsenal/",
+                      "start_index": 3570,
+                      "end_index": 3765,
+                      "text": "*   **White-Label/Partner Branding:** VNish is the go-to choice for hosting facilities; they allow large operators to inject custom branding, set custom dev-fee proxies, and split revenue streams"
+                    },
+                    {
+                      "title": "hashcore.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUuCTzdgxjkDmlyPuc8xRQPw4TfgHKxE3wtnNu77WTGDMobyD_QLYq5GIzm2sBH5c-kwjj28JgaIODTC4vQpamiEqLZhFd7CAb6IZqh-tserFRCNqt38GuugXPB11I_b7tJhoZg7UIHs=",
+                      "direct_url": "https://docs.hashcore.com/en/firmware/about/opisanie",
+                      "start_index": 3771,
+                      "end_index": 3924,
+                      "text": "*   **Robust Management Ecosystem:** Uses the HashCore Toolkit, Pulse (monitoring), and Proxy (hashrate aggregation) to scale from 1 to 100,000+ machines"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjkV22jb6RqF4s5OeSHdlcVlyFUAFDQE3bCR72n1aF7eNevhnMmEU5jxsrtokxH98yqSQI2I6rj16kwv4xmzBY0IfvUEIMcApFUetl_RxMfnEH5mhVcPY=",
+                      "direct_url": "https://luxor.tech/mining/firmware",
+                      "start_index": 3957,
+                      "end_index": 3999,
+                      "text": "Developed by US-based **Luxor Technology**"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilvuSz-i9jU4y7tc5Xbv1jWowKQoc24NhyM5OGJLPaFavXJNOzLvx_DRMifoDjZ382JH_f3RTbM8Nt7lo6Hbkn0j45H23IvHN-DDatrK4lU4JoQSp4ezof4E9U_NmEvFoMb6OoNiuxaO8senZSlrHsQ4IUXpsC3AvMqMD3F_mnvq5Gc-vxB1pub1AgIqzcmaqEgJP",
+                      "direct_url": "https://d-central.tech/braiins-os-vs-vnish-vs-luxos-complete-antminer-firmware-comparison-2026/",
+                      "start_index": 3957,
+                      "end_index": 3999,
+                      "text": "Developed by US-based **Luxor Technology**"
+                    },
+                    {
+                      "title": "hashrateindex.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSd3jtsnuD2CqGS_1OaexdG7KWA1p_Ig8Ob1euMJJQQjNiAm_tHJmhiBoByUU3jvuclBRVfa-3-1IK_iLNuO8rjm1-fxeprGZtSqdtYvmVbfMlqnqK2zuxdSE9ZTGb7eQwjjbngnqW2hCxLNCeXSnpIztbJ4-S6JM=",
+                      "direct_url": "https://hashrateindex.com/blog/top-bitcoin-mining-firmware-of-2026/",
+                      "start_index": 3957,
+                      "end_index": 4172,
+                      "text": "Developed by US-based **Luxor Technology**, **LuxOS** is built from the ground up as an enterprise-grade firmware tailored heavily toward North American institutional miners and highly regulated compliance standards"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZR4oUn244Q9KlLYKacsiJDeMIYLm3bHS_K5IgwOlla8ZZkGIT8h_QoHexfVhin_Sa83tTkYOiDC_9LCykxEvDuEmF824bUKDI20ph8HPnyJpnNs7uBKXInroPGxTngxvmdKCjEYF_YgyqQPhhRg==",
+                      "direct_url": "https://docs.luxor.tech/firmware/introduction-to-firmware",
+                      "start_index": 3957,
+                      "end_index": 4172,
+                      "text": "Developed by US-based **Luxor Technology**, **LuxOS** is built from the ground up as an enterprise-grade firmware tailored heavily toward North American institutional miners and highly regulated compliance standards"
+                    },
+                    {
+                      "title": "mineshop.eu",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTdZq_2i0sLpMJ3aKWiMKqdnybfq4o45QlhB4pex0N6gU6sMGVHpfmGJ05M2gavCLmrPuiCIUKKMmE3eRLJMDombSaM6fbN0kfPz8nTn3R52O1oWSW9X6hSJjmfA7Kbw87RhvevBGLwIg-SEJt94uxL_wN2gC9Hj-I7ZUHDuE13V9mnWFRN3ZgjWXLg==",
+                      "direct_url": "https://mineshop.eu/blog/crypto-mining-software/how-to-install-braiins-os-antminer-2026",
+                      "start_index": 4175,
+                      "end_index": 4288,
+                      "text": "*   **Supported Models:** Focuses heavily on Bitmain’s S19 and S21 families (including the S19k Pro and S19 XP)"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9y63TQ3q1kQIktmS7kIzTL8bmytHosTnDh-Usv-TfGixWlEiCW0BYggQmZ6DTNicPxR736SGBXP4ZZfeFJv_NB5A-A5L-wMk89pn1MOyWWXZsmH46jG3ygyEzYvO-RKCG",
+                      "direct_url": "https://d-central.tech/luxos-firmware-guide/",
+                      "start_index": 4175,
+                      "end_index": 4288,
+                      "text": "*   **Supported Models:** Focuses heavily on Bitmain’s S19 and S21 families (including the S19k Pro and S19 XP)"
+                    },
+                    {
+                      "title": "mineshop.eu",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ7M-QzHGK1m5DAPpnF72grXdRJf3HkY9hMyUE13Dghiowed68Wa8DxvlbakAz02TRj7g4akzqwA23ITGLIWlhePuI27Cy0UDSUM3DOe2kY4ScxEtdVmDpSOXncPrZtIdAtowX2cJ99ucPVxbQtxPwA82N8sK7MmQ2oTQpB4Sektb80EL0lrfc6zNssh0vNfhn7kMrboIwrCMedefhQ_6oGVZ1BnZImucToZC4iw96fMJSQbi2m2u1aTZNeYWC_XI=",
+                      "direct_url": "https://mineshop.eu/blog/mineshop-blog-tutorials/unlocking-maximum-potential-a-comprehensive-guide-to-luxos-firmware-for-antminer-s19k-pro",
+                      "start_index": 4175,
+                      "end_index": 4288,
+                      "text": "*   **Supported Models:** Focuses heavily on Bitmain’s S19 and S21 families (including the S19k Pro and S19 XP)"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjkV22jb6RqF4s5OeSHdlcVlyFUAFDQE3bCR72n1aF7eNevhnMmEU5jxsrtokxH98yqSQI2I6rj16kwv4xmzBY0IfvUEIMcApFUetl_RxMfnEH5mhVcPY=",
+                      "direct_url": "https://luxor.tech/mining/firmware",
+                      "start_index": 4291,
+                      "end_index": 4492,
+                      "text": "*   **Key Features:**\n    *   **SOC 2 Type 2 Audited:** LuxOS was the first firmware to successfully undergo Big Four accounting audits to meet institutional security and financial compliance standards"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZR4oUn244Q9KlLYKacsiJDeMIYLm3bHS_K5IgwOlla8ZZkGIT8h_QoHexfVhin_Sa83tTkYOiDC_9LCykxEvDuEmF824bUKDI20ph8HPnyJpnNs7uBKXInroPGxTngxvmdKCjEYF_YgyqQPhhRg==",
+                      "direct_url": "https://docs.luxor.tech/firmware/introduction-to-firmware",
+                      "start_index": 4291,
+                      "end_index": 4492,
+                      "text": "*   **Key Features:**\n    *   **SOC 2 Type 2 Audited:** LuxOS was the first firmware to successfully undergo Big Four accounting audits to meet institutional security and financial compliance standards"
+                    },
+                    {
+                      "title": "d-central.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9y63TQ3q1kQIktmS7kIzTL8bmytHosTnDh-Usv-TfGixWlEiCW0BYggQmZ6DTNicPxR736SGBXP4ZZfeFJv_NB5A-A5L-wMk89pn1MOyWWXZsmH46jG3ygyEzYvO-RKCG",
+                      "direct_url": "https://d-central.tech/luxos-firmware-guide/",
+                      "start_index": 4498,
+                      "end_index": 4664,
+                      "text": "*   **PSU Bypass Mode:** Includes a specialized mode for home miners using 110V/120V residential power lines, allowing them to bypass typical power limitations safely"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjkV22jb6RqF4s5OeSHdlcVlyFUAFDQE3bCR72n1aF7eNevhnMmEU5jxsrtokxH98yqSQI2I6rj16kwv4xmzBY0IfvUEIMcApFUetl_RxMfnEH5mhVcPY=",
+                      "direct_url": "https://luxor.tech/mining/firmware",
+                      "start_index": 4670,
+                      "end_index": 4784,
+                      "text": "*   **Dynamic Profitability Tuning:** LuxOS can be set to adjust the miner automatically based on energy hashprice"
+                    },
+                    {
+                      "title": "hashrateindex.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHSkbXTGedc8RXcBzcRS2XTNRc7NG5_fl4wVnI6AypYFRN_AakzDxLlRFpqhxwVw4FMVvZRyLVZEdx92hYwjgZ_N0jgGsDZ1Xc21JMwQ6JdyTD5yUKR6owoZlRsp9XpLTh-3-voHrISO6bIN3CHXUVrK6Jiq_87UxCUf1ij5Ae-I7FhHXa41x41VzUL_LBeg==",
+                      "direct_url": "https://hashrateindex.com/blog/firmware-features-series-what-is-autotuner-luxos-explained/",
+                      "start_index": 4670,
+                      "end_index": 4784,
+                      "text": "*   **Dynamic Profitability Tuning:** LuxOS can be set to adjust the miner automatically based on energy hashprice"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjkV22jb6RqF4s5OeSHdlcVlyFUAFDQE3bCR72n1aF7eNevhnMmEU5jxsrtokxH98yqSQI2I6rj16kwv4xmzBY0IfvUEIMcApFUetl_RxMfnEH5mhVcPY=",
+                      "direct_url": "https://luxor.tech/mining/firmware",
+                      "start_index": 4786,
+                      "end_index": 4908,
+                      "text": "When Bitcoin hashprice rises, it overclocks; when hashprice falls, it automatically shifts to ultra-efficient undervolting"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjkV22jb6RqF4s5OeSHdlcVlyFUAFDQE3bCR72n1aF7eNevhnMmEU5jxsrtokxH98yqSQI2I6rj16kwv4xmzBY0IfvUEIMcApFUetl_RxMfnEH5mhVcPY=",
+                      "direct_url": "https://luxor.tech/mining/firmware",
+                      "start_index": 4914,
+                      "end_index": 5096,
+                      "text": "*   **Ultra-Fast Load Shedding:** Shuts power down to ~25W in under 5 seconds, allowing immediate response to grid curtailment events, with rapid thermal-controlled wake-up sequences"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjkV22jb6RqF4s5OeSHdlcVlyFUAFDQE3bCR72n1aF7eNevhnMmEU5jxsrtokxH98yqSQI2I6rj16kwv4xmzBY0IfvUEIMcApFUetl_RxMfnEH5mhVcPY=",
+                      "direct_url": "https://luxor.tech/mining/firmware",
+                      "start_index": 5102,
+                      "end_index": 5256,
+                      "text": "*   **Luxor Commander:** A robust, remote bulk-deployment tool that makes pushing configurations, IP setups, and updates to thousands of miners effortless"
+                    },
+                    {
+                      "title": "luxor.tech",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZR4oUn244Q9KlLYKacsiJDeMIYLm3bHS_K5IgwOlla8ZZkGIT8h_QoHexfVhin_Sa83tTkYOiDC_9LCykxEvDuEmF824bUKDI20ph8HPnyJpnNs7uBKXInroPGxTngxvmdKCjEYF_YgyqQPhhRg==",
+                      "direct_url": "https://docs.luxor.tech/firmware/introduction-to-firmware",
+                      "start_index": 5102,
+                      "end_index": 5256,
+                      "text": "*   **Luxor Commander:** A robust, remote bulk-deployment tool that makes pushing configurations, IP setups, and updates to thousands of miners effortless"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZpLSxGbor7upfcBrUWdABFoTyid_RZr63euswlwQn76lfmDf7943G8dTJomGfRc98fsA3VMzDj7qCJ1-XV8CRNnvLNicanNe95xweu0VjN-ynqBh_Op6CtM3Ta2c5gXq",
+                      "direct_url": "https://academy.braiins.com/braiins-os/about",
+                      "start_index": 5294,
+                      "end_index": 5450,
+                      "text": "*   Choose **Braiins OS** if you want a reliable, highly secure platform, value Stratum V2 security, and want to offset your costs by mining on Braiins Pool"
+                    },
+                    {
+                      "title": "braiins.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAqUQ_iC2_DRYWoOQ7TYOjhwztDp-AJxn3ENqvmbyvL-zpB6m997yV3BP1_aqqDlLrSYwVoOFAhHyCehHThF4y_acIROJ8yXy5ff578WVJ80eI2_AOZzVv2RGEoUE=",
+                      "direct_url": "https://braiins.com/os-firmware/download",
+                      "start_index": 5294,
+                      "end_index": 5450,
+                      "text": "*   Choose **Braiins OS** if you want a reliable, highly secure platform, value Stratum V2 security, and want to offset your costs by mining on Braiins Pool"
+                    },
+                    {
+                      "title": "youtube.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAZqbyqO1paai9L2WxlEIiYcpkOIaK7et6GEmiagsiRuqd44zRk3s-ZXlPj5xQWpgC7iFudKexN-s4GaPykyBjBjRhLLIiwwVpnTQlBispW16lU0fQUr17Cq6e81no0g==",
+                      "direct_url": "https://www.youtube.com/shorts/iXxsBr7pLqs",
+                      "start_index": 5294,
+                      "end_index": 5450,
+                      "text": "*   Choose **Braiins OS** if you want a reliable, highly secure platform, value Stratum V2 security, and want to offset your costs by mining on Braiins Pool"
+                    },
+                    {
+                      "title": "vnish.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC25nNm3n_jqm5WKQH5cTPeCY9L9bXOKdquuO9wQD_0MM02pH8Y58GyILrjtrZBxXfkKtIqVtYNNnotVr1RMArFtqPDxvezw==",
+                      "direct_url": "https://vnish.com/",
+                      "start_index": 5452,
+                      "end_index": 5650,
+                      "text": "*   Choose **VNish** if you are running newer hardware (like L7/L9 or specific S21 control boards), need aggressive autotuning to push hardware boundaries, or operate an immersion-cooled mining farm"
+                    },
+                    {
+                      "title": "vnish-firmware.com",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOv2CgnJeI0uOpeNQ18Nm0BwfSx4mOrwwylmE1tuJ0um-lQElpHseaxdaUSILsOneb_BL17V0kXy-5lrkWKzczsThwy5AmYYAyX2zSW2wTBA==",
+                      "direct_url": "https://vnish-firmware.com/",
+                      "start_index": 5452,
+                      "end_index": 5650,
+                      "text": "*   Choose **VNish** if you are running newer hardware (like L7/L9 or specific S21 control boards), need aggressive autotuning to push hardware boundaries, or operate an immersion-cooled mining farm"
+                    },
+                    {
+                      "title": "vnish.pro",
+                      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUlStrYi6INwj0MN28cdd-_2fQ1I1BsmyCriMJmWAI4vIayLaMkSoFa2grByFWPVPZ9AdhgrTzFKEB0kwx-ThUUdpqG9Qad3-YkQ==",
+                      "direct_url": "https://vnish.pro/en/",
+                      "start_index": 5452,
+                      "end_index": 5650,
+                      "text": "*   Choose **VNish** if you are running newer hardware (like L7/L9 or specific S21 control boards), need aggressive autotuning to push hardware boundaries, or operate an immersion-cooled mining farm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": [
+            "Braiins OS dev fee supported models features",
+            "VNish ASIC firmware dev fee supported models features",
+            "best ASIC mining firmware 2026",
+            "LuxOS ASIC firmware dev fee supported models features"
+          ]
+        }
+      ]
+    }
+  ]
+}

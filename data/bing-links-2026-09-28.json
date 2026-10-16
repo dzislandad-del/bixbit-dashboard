@@ -1,0 +1,14 @@
+{
+ "meta": {
+  "report": "links",
+  "method": "GetLinkCounts",
+  "site": null,
+  "rows": 0,
+  "pulled_at": "2026-09-28T15:21:42"
+ },
+ "data": {
+  "__type": "LinkCounts:#Microsoft.Bing.Webmaster.Api",
+  "Links": [],
+  "TotalPages": 0
+ }
+}

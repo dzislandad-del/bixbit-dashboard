@@ -1,0 +1,26 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "prompt": "Who are the leading immersion cooling solution providers for industrial bitcoin mining?",
+  "task_id": "09251236-2548-0612-0000-553fd0691a7a",
+  "web_search_country_iso_code": "US",
+  "cost_usd": 0.005977,
+  "answer_text": "The leading **immersion cooling solution providers for industrial bitcoin mining** include **LiquidStack**, **Green Revolution Cooling (GRC)**, **Submer**, **Fog Hashing**, and **DCX Liquid Cooling Systems**.[4][10][11][3]\n\n- **LiquidStack** is repeatedly described as a leader in liquid immersion cooling and has supported large-scale Bitcoin mining deployments, including hyperscale mining sites and a first large-scale U.S. colocation data center using 2-phase immersion cooling.[4][7]\n- **Green Revolution Cooling (GRC)** is identified as a global leader in single-phase immersion cooling and offers Bitcoin-mining-focused systems such as **HashRaQ MAX**.[10][5]\n- **Submer** is presented as a market-leading immersion cooling specialist with modular containerized systems used for cryptocurrency mining and data centers.[2][3]\n- **Fog Hashing** is described as a leading liquid-cooling provider for Bitcoin mining, with factory-assembled hydro- and immersion-cooled systems and full-stack immersion offerings for large-scale mining.[1][11][14]\n- **DCX Liquid Cooling Systems** is listed among the key crypto cooling players and is described as providing thermal management solutions for high-density computing and mining environments.[3][5]\n\nOther notable providers and ecosystem players mentioned in the sources include **CryptoTherm**, **Rosseau**, **Eureka Digital Mining**, **Bitfury**, and **Allied Control**.[8][6][9][2]\n\nIf you want, I can also rank these providers by **market visibility**, **deployment scale**, or **best fit for ASIC mining farms**.",
+  "cited_urls": [
+    "https://www.whatsminer.com/src/views/partner.html",
+    "https://dataintelo.com/report/single-phase-immersion-cooling-market",
+    "https://www.marketsandmarkets.com/ResearchInsight/crypto-cooling-companies.asp",
+    "https://www.fuelsandlubes.com/fli-article/sooner-or-later-all-crypto-miners-will-use-immersion-cooling/",
+    "https://www.marketsandmarkets.com/Market-Reports/crypto-cooling-market-49191257.html",
+    "https://www.kelvion.com/stories-media/success-stories/data-centre-cooling/customised-cooling-is-the-solution-for-rosseaus-immersion-cooling-systems-in-bitcoin-mining",
+    "https://liquidstack.com/news/standard-power-liquid-immersion-cooled-data-center-midwest",
+    "https://www.cryptotherm.com/new-immersion-cooling",
+    "https://eurekadigitalmining.com/",
+    "https://www.grcooling.com/press_releases/grc-introduces-hashraq-max-crypto-mining-system/",
+    "https://finance.yahoo.com/news/revolutionizing-bitcoin-mining-foghashings-eco-160000598.html",
+    "https://bitcoinmagazine.com/business/sunnyside-rosseau-partner-to-offer-bitcoin-mining-companies-immersion-cooling-tech",
+    "https://www.prnewswire.com/news-releases/auradine-expands-bitcoin-mining-solutions-with-asic-chips-range-of-advanced-cooling-systems-and-modular-megawatt-containers-302457993.html",
+    "https://www.prweb.com/releases/Welcoming_The_Liquid_Cooling_Era_Co_Building_a_Collaborative_Ecosystem/prweb19362912.htm",
+    "https://dataintelo.com/report/immersion-cooling-fluid-recycling-market"
+  ]
+}

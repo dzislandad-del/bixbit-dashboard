@@ -1,0 +1,13 @@
+{
+ "engine": "chat_gpt",
+ "model": "gpt-4.1-mini-2025-04-14",
+ "prompt": "Which Antminer custom firmware has the lowest dev fee?",
+ "datetime_or_task_id": "2026-09-25 12:35:10 +00:00 / 09251235-2548-0612-0000-1f6d81cf28c4",
+ "answer_text": "When evaluating custom firmware for Antminer devices, the development fee (dev fee) is a crucial factor, as it directly impacts your mining profitability. Here's a comparison of several popular custom firmware options and their associated dev fees:\n\n| Firmware        | Dev Fee | Notable Features                                                                                   |\n|-----------------|---------|----------------------------------------------------------------------------------------------------|\n| **ePIC UMC OS** | 1.5%    | Automated hashrate optimization, chip-level tuning, thermal protection, and fleet management APIs. ([epicblockchain.io](https://epicblockchain.io/product/umc-os/?utm_source=openai)) |\n| **VNISH**       | 2.8%    | Per-chip autotuning, overclocking, energy-saving features, and a wide range of supported models. ([vnish.hk](https://vnish.hk/firmware?utm_source=openai)) |\n| **VNISH MOD**   | 0.5%    | Modified version of VNISH with reduced dev fee, maintaining all original features. ([vmod.li](https://vmod.li/?utm_source=openai)) |\n| **Braiins OS+** | 2–2.5%  | Power-target autotuning, partial open-source, native Stratum V2 support. ([spark.money](https://www.spark.money/tools/bitcoin-mining-os-comparison?utm_source=openai)) |\n| **LuxOS**       | 2.8%    | 120V PSU bypass, sub-5-second curtailment, SOC 2 certified. ([spark.money](https://www.spark.money/tools/bitcoin-mining-os-comparison?utm_source=openai)) |\n\nAmong these options, **VNISH MOD** offers the lowest dev fee at 0.5%, which is significantly lower than the standard 2.8% fee of the original VNISH firmware. This reduction can lead to substantial savings over time. However, it's important to note that VNISH MOD is a modified version of VNISH, and while it retains all original features, it may not be officially supported by VNISH. Therefore, ensure you understand the support and warranty implications before proceeding.\n\nIn summary, if minimizing the dev fee is your primary concern, VNISH MOD stands out as the most cost-effective option. However, consider the trade-offs regarding official support and warranty coverage when making your decision. ",
+ "cited_urls": [
+  "https://epicblockchain.io/product/umc-os/",
+  "https://vnish.hk/firmware",
+  "https://vmod.li/",
+  "https://www.spark.money/tools/bitcoin-mining-os-comparison"
+ ]
+}

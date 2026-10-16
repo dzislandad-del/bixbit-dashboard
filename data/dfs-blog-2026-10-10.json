@@ -1,0 +1,35 @@
+{
+  "meta": {"pulled_at": "2026-10-10", "source": "DataForSEO MCP", "cost_usd_estimate": 0.05,
+    "note": "Compact extract. Labs keyword_suggestions (US/en 2840, KZ/ru 2398) + Google Trends explore US past_12_months. Volumes = Google Ads monthly; 10 = threshold 0-15."},
+  "trends_us_12m": {"keywords": ["bitcoin mining container","immersion cooling","antminer s21","asic monitoring","whatsminer"],
+    "averages": [0,44,30,1,16],
+    "observations": {
+      "immersion cooling": "peak Apr-Jun 2026 (max 100 on 2026-06-21 week), trough Aug-Oct (10-15); Nov-Dec 2025 rising to 50",
+      "antminer s21": "Nov 2025 29-38, Apr 2026 spike 75, near-zero Aug-Oct 2026 (4-9)",
+      "whatsminer": "Nov 2025 15-33, May 2026 spike 92, Oct 2026 2-3",
+      "bitcoin mining container": "0 on Trends scale (low vs others)",
+      "asic monitoring": "~1, below Trends threshold"}},
+  "suggestions_us": {
+    "mining container": [
+      {"kw":"mining container","sv":390,"cpc":4.2,"monthly":{"2025-10":1300,"2025-11":1000,"2025-12":720,"2026-01":390,"2026-03":110,"2026-08":20},"intent":"transactional"},
+      {"kw":"crypto mining container","sv":390,"cpc":4.3,"monthly":{"2025-10":1000,"2025-11":880,"2025-12":590,"2026-08":50},"intent":"transactional"},
+      {"kw":"container crypto mining","sv":390,"cpc":4.3,"intent":"commercial"},
+      {"kw":"crypto mining container for sale","sv":170,"monthly":{"2025-10":590,"2025-11":480},"intent":"transactional"},
+      {"kw":"crypto mining shipping container","sv":170,"monthly":{"2025-10":590,"2025-11":390},"intent":"transactional"},
+      {"kw":"mining container price","sv":40,"monthly":{"2025-10":170,"2025-11":140},"intent":"informational"},
+      {"kw":"hydro mining container","sv":10,"cpc":2.69},
+      {"kw":"immersion mining container","sv":10},
+      {"kw":"mobile mining container","sv":10,"monthly":{"2026-08":70}}],
+    "asic monitoring": [
+      {"kw":"asic monitoring","sv":70,"cpc":0.44,"kd":5,"intent":"navigational"},
+      {"kw":"asic miner monitoring software","sv":10,"kd":74},
+      {"kw":"asic monitoring software","sv":10}]},
+  "suggestions_kz_ru": {
+    "асики": [
+      {"kw":"асики","sv":720,"cpc":0.51,"kd":11},
+      {"kw":"асики для майнинга","sv":70,"monthly":{"2026-01":140,"2026-02":140,"2026-08":30}},
+      {"kw":"асики для майнинга купить","sv":40},
+      {"kw":"асики это","sv":20},
+      {"kw":"асики для майнинга что это","sv":10},
+      {"kw":"что такое асики для майнинга","sv":10}]}
+}

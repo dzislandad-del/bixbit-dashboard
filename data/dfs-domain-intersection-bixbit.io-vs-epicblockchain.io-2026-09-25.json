@@ -1,0 +1,34 @@
+{
+ "_note": "Compact snapshot transcribed from inline DataForSEO MCP response (response was small, no tool-results file produced). US 2840 / en. Pulled 2026-09-25.",
+ "endpoint": "/v3/dataforseo_labs/google/domain_intersection/live",
+ "intersections_true": {
+  "target1": "bixbit.io",
+  "target2": "epicblockchain.io",
+  "total_count": 1,
+  "items": [
+   {
+    "keyword": "immersion cooling mining",
+    "search_volume": 20,
+    "bixbit_rank_group": 14,
+    "bixbit_url": "/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+    "epic_rank_group": 30
+   }
+  ]
+ },
+ "intersections_false": {
+  "target1": "epicblockchain.io",
+  "target2": "bixbit.io",
+  "total_count": 9,
+  "keywords": [
+   "epic blockchain",
+   "epic miner",
+   "epic-miner",
+   "epic mining",
+   "epic block",
+   "epic chain crypto news",
+   "blockminer",
+   "epic chip",
+   "epic microsystems"
+  ]
+ }
+}

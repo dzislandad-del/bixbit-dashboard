@@ -1,0 +1,29 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "prompt": "What firmware should a mining farm with 10,000 Antminer S19 and S21 units use to reduce power consumption?",
+  "task_id": "09251236-2548-0612-0000-f57d81aeb360",
+  "web_search_country_iso_code": "US",
+  "cost_usd": 0.005983,
+  "answer_text": "For a **10,000-unit Antminer S19/S21 farm**, the best fit from the provided sources is **LuxOS** if the main goal is fleet-wide **power reduction with centralized management**. One source explicitly says LuxOS is ideal for **fleet management (5+ machines)**, while Braiins OS+ is the best all-around choice for single miners or small setups focused purely on efficiency[6][11].\n\nHere’s the practical comparison:\n\n- **LuxOS**: Best for **large fleets** because it emphasizes centralized dashboarding, API integration, and curtailment/demand-response features, which are useful at 10,000-unit scale[6][11].\n- **Braiins OS+**: Best for **maximum efficiency / set-and-forget optimization**, with autotuning and power limiting that can cut power use meaningfully on S19-class units[4][5][6][13][14].\n- **NiceHash firmware**: Supports **S19 and S21** models and is designed to **increase efficiency and reduce power consumption**, but the sources provided do not make it the strongest recommendation for very large fleet operations compared with LuxOS[2].\n\nIf your priority is strictly **lowest watts per miner**, Braiins OS+ is the strongest efficiency-focused option in the sources, with reported improvements from stock efficiency around **29.5 J/TH to roughly 26–28 J/TH** on S19-class units[1][4][12][18]. If your priority is **reducing power across 10,000 machines while operating them as a managed fleet**, **LuxOS** is the better match[6][11].",
+  "cited_urls": [
+    "https://www.spark.money/tools/bitcoin-mining-firmware-comparison",
+    "https://www.nicehash.com/firmware",
+    "https://d-central.tech/antminer-s19-firmware-guide-vnish-braiins-luxos/",
+    "https://d-central.tech/antminer-s19-power-efficiency-tips-for-cost-effective-bitcoin-mining/",
+    "https://d-central.tech/the-complete-antminer-undervolting-guide-reduce-power-lower-heat-maximize-efficiency/",
+    "https://d-central.tech/maximizing-profitability-with-antminer-s19-tips-and-tricks/",
+    "https://www.awesomeminer.com/firmware/antminer-s19xp",
+    "https://d-central.tech/the-ultimate-guide-to-custom-firmware-for-antminer-s19-enhancing-performance-and-efficiency/",
+    "https://support.awesomeminer.com/support/solutions/articles/35000189959-awesome-miner-antminer-s19-s21-firmware-installation",
+    "https://bitcointalk.org/index.php?topic=4513567.180",
+    "https://d-central.tech/the-benefits-of-updating-your-antminer-firmware/",
+    "https://braiins.com/blog/smarter-clock-speed-management-for-bitcoin-miners-maximize-roi-minimize-waste",
+    "https://braiins.com/os-firmware/download",
+    "https://braiins.com/blog/tuv-sud-testing-how-braiins-os-delivers-more-efficient-bitcoin-mining",
+    "https://bitcointalk.org/index.php?topic=4513567.20",
+    "https://bitcointalk.org/index.php?topic=4513567.420",
+    "https://bitcointalk.org/index.php?topic=5360003.0",
+    "https://www.bitmain.com/news-detail/bitmain-announces-specs-for-next-gen-antminer-s19-and-s19-pro-coming-soon-90"
+  ]
+}

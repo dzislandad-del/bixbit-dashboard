@@ -1,0 +1,5022 @@
+{
+ "pulled_at": "2026-09-30T13:30:24",
+ "host": {
+  "host_id": "https:bixbit.io:443",
+  "verified": true,
+  "main_mirror": null,
+  "ascii_host_url": "https://bixbit.io/",
+  "unicode_host_url": "https://bixbit.io/"
+ },
+ "report": "queries",
+ "window": [
+  "2026-09-02",
+  "2026-09-30"
+ ],
+ "data": {
+  "count": 918,
+  "queries": [
+   {
+    "query_id": "8311b80d19db53a5",
+    "query_text": "systemupdateminer systemupdate miner",
+    "indicators": {
+     "TOTAL_SHOWS": 96.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 12.677083333333334,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "77d5d137fb514a00",
+    "query_text": "bixbit прошивка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 36.0,
+     "TOTAL_CLICKS": 10.0,
+     "AVG_SHOW_POSITION": 1.4444444444444444,
+     "AVG_CLICK_POSITION": 1.2
+    }
+   },
+   {
+    "query_id": "37edeea63f73c986",
+    "query_text": "майнинг на жестких дисках",
+    "indicators": {
+     "TOTAL_SHOWS": 35.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 9.142857142857142,
+     "AVG_CLICK_POSITION": 8.0
+    }
+   },
+   {
+    "query_id": "f52b6168b02ef892",
+    "query_text": "калькулятор майнинга",
+    "indicators": {
+     "TOTAL_SHOWS": 32.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.15625,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "329e8408dfdd7f0a",
+    "query_text": "bixbit",
+    "indicators": {
+     "TOTAL_SHOWS": 29.0,
+     "TOTAL_CLICKS": 13.0,
+     "AVG_SHOW_POSITION": 1.5862068965517242,
+     "AVG_CLICK_POSITION": 1.5384615384615385
+    }
+   },
+   {
+    "query_id": "240ba0d9fb2601ab",
+    "query_text": "antminer t21 режим для иммерсионной жидкости",
+    "indicators": {
+     "TOTAL_SHOWS": 27.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.148148148148149,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f180f5735c5bf4da",
+    "query_text": "какой интернет нужен для асика",
+    "indicators": {
+     "TOTAL_SHOWS": 25.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.2,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "447beacc316493a6",
+    "query_text": "ватсмайнер м30 прошивка скачать",
+    "indicators": {
+     "TOTAL_SHOWS": 20.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.45,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "aef4fd9e68957e77",
+    "query_text": "прошивки для antminer s19",
+    "indicators": {
+     "TOTAL_SHOWS": 18.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.944444444444445,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b8712b92d4bb3a7f",
+    "query_text": "какая скорость интернет соединения надо для фермы",
+    "indicators": {
+     "TOTAL_SHOWS": 16.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.5625,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "25957bae05ae4e46",
+    "query_text": "m30s как майнить",
+    "indicators": {
+     "TOTAL_SHOWS": 16.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4393c8993308946d",
+    "query_text": "плоттинг",
+    "indicators": {
+     "TOTAL_SHOWS": 16.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.1875,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "523a960e0ecff398",
+    "query_text": "bixbit прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 16.0,
+     "TOTAL_CLICKS": 11.0,
+     "AVG_SHOW_POSITION": 1.625,
+     "AVG_CLICK_POSITION": 1.5454545454545454
+    }
+   },
+   {
+    "query_id": "6fe123b4b87fb32e",
+    "query_text": "можно ли майнить без интернета",
+    "indicators": {
+     "TOTAL_SHOWS": 16.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9c5207ab1ec0e13e",
+    "query_text": "где брать электричество для майнинга",
+    "indicators": {
+     "TOTAL_SHOWS": 15.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.866666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "fdfc1f179e8bfffe",
+    "query_text": "участок для майнинг фермы",
+    "indicators": {
+     "TOTAL_SHOWS": 15.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b2bce46dd57c7a07",
+    "query_text": "калькулятор доходности майнинга",
+    "indicators": {
+     "TOTAL_SHOWS": 13.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 23.846153846153847,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b67d7cfb387a2b5d",
+    "query_text": "ошибки whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 13.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 5.923076923076923,
+     "AVG_CLICK_POSITION": 4.0
+    }
+   },
+   {
+    "query_id": "e3e74eb141bd18c3",
+    "query_text": "ошибка 2010 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 13.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.769230769230769,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "266f2b8b715a93c0",
+    "query_text": "самая большая asic",
+    "indicators": {
+     "TOTAL_SHOWS": 13.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 27.76923076923077,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "7e4cfa581acd743e",
+    "query_text": "мониторинговые программы для майнинга",
+    "indicators": {
+     "TOTAL_SHOWS": 13.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 17.846153846153847,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d32017329aab8e1c",
+    "query_text": "майнинг криптовалюты и альтернативные источники энергии",
+    "indicators": {
+     "TOTAL_SHOWS": 12.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.1666666666666665,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "55448f4a56e3001a",
+    "query_text": "antminer прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 12.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.833333333333333,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b72f809661641bad",
+    "query_text": "ошибки whatsminer m30s",
+    "indicators": {
+     "TOTAL_SHOWS": 11.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.272727272727273,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4993677179cbe8af",
+    "query_text": "s19 pro прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 11.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.090909090909091,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "17dc410f058a802b",
+    "query_text": "как подключить ватсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 10.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 6.8,
+     "AVG_CLICK_POSITION": 4.5
+    }
+   },
+   {
+    "query_id": "21c9c6fa9ac75ee4",
+    "query_text": "биксбит",
+    "indicators": {
+     "TOTAL_SHOWS": 10.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.6,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2b4ef6dd38ea1566",
+    "query_text": "whatsminer прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 10.0,
+     "TOTAL_CLICKS": 3.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": 3.6666666666666665
+    }
+   },
+   {
+    "query_id": "2de2378c0f84e48e",
+    "query_text": "antminer s19 сколько интернета потребляет",
+    "indicators": {
+     "TOTAL_SHOWS": 10.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.8,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "90cdcec49fca344d",
+    "query_text": "whatsminertool",
+    "indicators": {
+     "TOTAL_SHOWS": 9.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.444444444444445,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c40ad360fb3c9615",
+    "query_text": "какой нужен интернет для асиков",
+    "indicators": {
+     "TOTAL_SHOWS": 9.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.11111111111111,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e5b875302f8c1478",
+    "query_text": "ams система",
+    "indicators": {
+     "TOTAL_SHOWS": 9.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.777777777777778,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "684505c988cfd3db",
+    "query_text": "мощная азика на воздушном охлаждении. на больницу за год биткоин.",
+    "indicators": {
+     "TOTAL_SHOWS": 9.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 21.22222222222222,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b658d4f0d3dcb0a7",
+    "query_text": "whatsminer m63s+: high как подключить питание",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "bd0a38887e2d06a5",
+    "query_text": "что нужно сделать чтобы поменять асик",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 21.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "bdbd4f04ee14c891",
+    "query_text": "прошивка antminer",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c3d3c01a21f42be9",
+    "query_text": "whatsminer m21s настройка",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c835ee08af5b7136",
+    "query_text": "прибор экономка из asic s9 экономия электроэнергии",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.625,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "dbd4b22606ac09ea",
+    "query_text": "прошивка для s19",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e45d67da0ec083db",
+    "query_text": "antminer t17 42th/s доходность",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 12.125,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "fc143b29bc0fd65c",
+    "query_text": "ethereum classic как майнить",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "22a5f744441c986b",
+    "query_text": "asic miner virus coin",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.875,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "24ac15397cf89a7c",
+    "query_text": "s19 antminer прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3a96ff217e138be9",
+    "query_text": "какие альтернативные источники энергии 3-4 квт для майнинга есть сейчас",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.875,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3d1696287df8c751",
+    "query_text": "ошибка 542 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 8.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "886766deb918c1b0",
+    "query_text": "прошивки antminer",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.428571428571429,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "94c6f4331125b637",
+    "query_text": "настройка whatsminer m21s",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "95834113a68a474b",
+    "query_text": "m30s++ как подключить",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 17.285714285714285,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9b14725d6b1c0e55",
+    "query_text": "прошивка s19 antminer",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.857142857142857,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d45c1ae19dd0c4fb",
+    "query_text": "bixbit.io",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 5.0,
+     "AVG_SHOW_POSITION": 1.4285714285714286,
+     "AVG_CLICK_POSITION": 1.6
+    }
+   },
+   {
+    "query_id": "d5a8555743698140",
+    "query_text": "прошивка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.142857142857143,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d7c4249eec55ff37",
+    "query_text": "как отапливать помещение с помощью майнинга",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 22.428571428571427,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f0c8d71d19c24649",
+    "query_text": "прошивка для whatsminer m50",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.714285714285714,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "014dca61eb432ef7",
+    "query_text": "slot0 reading chip id error",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.571428571428571,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0d60c582d790df58",
+    "query_text": "bixbite",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 1.1428571428571428,
+     "AVG_CLICK_POSITION": 1.5
+    }
+   },
+   {
+    "query_id": "11d79b11b77e7232",
+    "query_text": "whatsminer m50 прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "16914be1b5835c83",
+    "query_text": "erc20 кошельки",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.714285714285714,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1c9c5fa75578cedf",
+    "query_text": "сколько киловат надо для вацмайнера м50 102терехеш",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 23.857142857142858,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "218c51c6ff103923",
+    "query_text": "562 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.857142857142857,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4677d130539ebafc",
+    "query_text": "2320 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.142857142857143,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4fe7c82707f7cf42",
+    "query_text": "устройства на которых майнят потом ломаются?",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 18.857142857142858,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "6a805688b911fb60",
+    "query_text": "antminer s19 pro hyd прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.285714285714286,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "6d8bf29a517f340c",
+    "query_text": "slot2 loss balance",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.571428571428571,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "73183bb253fdc5cb",
+    "query_text": "какая доходность у асик майнинга м50",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 15.571428571428571,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "79b63ba5e2cb9bbe",
+    "query_text": "erc-20 wallet base",
+    "indicators": {
+     "TOTAL_SHOWS": 7.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.428571428571429,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "861445b2cefa7016",
+    "query_text": "innosilicon a11 pro",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9d2a94d3e4b48a84",
+    "query_text": "веб интерфейс асика",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 14.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a0b75edc68bdf3b5",
+    "query_text": "ошибка 206 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.833333333333334,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a0f6e9e4154794d5",
+    "query_text": "калькулятор майнинга биткоина",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 21.166666666666668,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b92421e20700484a",
+    "query_text": "how to remove miner",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.166666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c15ce03909804e99",
+    "query_text": "калькулятор майнинга биткоина на асиках",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 15.333333333333334,
+     "AVG_CLICK_POSITION": 6.5
+    }
+   },
+   {
+    "query_id": "da3f24d6c46257f4",
+    "query_text": "майнинг ssd",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e26b36f574d66c0c",
+    "query_text": "s19 pro характеристики",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e8c390d38ba7c61b",
+    "query_text": "ошибка 541 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "fe2eae3ed640d898",
+    "query_text": "ошибки ватсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 3.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": 4.0
+    }
+   },
+   {
+    "query_id": "ff960bbf4c1b3b2b",
+    "query_text": "программа для асиков",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.333333333333334,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "036ed34afcff2ce9",
+    "query_text": "whatsminer 3",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 27.833333333333332,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1e2078c0b9cb3cfd",
+    "query_text": "поиск ватсмайнера в сети",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 3.6666666666666665,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "3f836ca43be40432",
+    "query_text": "bixbit официальный сайт",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 5.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "44121466377b6d4b",
+    "query_text": "antminer s19k pro прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.166666666666667,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "49d14e5777aa14d9",
+    "query_text": "децентрализованный майнинг",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4b8d3db0b6472920",
+    "query_text": "asic какая скорость в 2017 году",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 21.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "6c82616dfbcd1e1b",
+    "query_text": "275 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "7dbdb9c25fb3f8ee",
+    "query_text": "ams bixbit tech",
+    "indicators": {
+     "TOTAL_SHOWS": 6.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ab94867d2731fcc6",
+    "query_text": "ошибка 5140 ваймайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.8,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "af6fb7a1dd8ec110",
+    "query_text": "whatsminer firmware",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.6,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "bcd7f5be78f4410d",
+    "query_text": "bcu1525",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.2,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ebdd63c97908ca14",
+    "query_text": "251 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.6,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f473abaf56dfb72f",
+    "query_text": "сколько нужно солнечных батарей чтобы питать майнинговую ферму",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 17.6,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "026336c3aa343bae",
+    "query_text": "antminer t17 что это такое простыми словами",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0700150e04c51882",
+    "query_text": "erc-20 wallet address",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.8,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "11c122790ab35182",
+    "query_text": "коды ошибок вотсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.2,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1437d5496ea06e68",
+    "query_text": "асику постоянно нужен интернет?",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 13.8,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1f996f76fc20a918",
+    "query_text": "какой телефон купить для крипты",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.8,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2715d4d2f35acb9c",
+    "query_text": "программа нахождения ip асика в сети",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "27c7333fba5c82cd",
+    "query_text": "запуск ватсмайнера",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.2,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "29eaa5dcd62f96e3",
+    "query_text": "ошибка 217 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.8,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3413a7fcd3471fcd",
+    "query_text": "ошибка 210 whatsminer m21s",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.8,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "40017de4da5fc813",
+    "query_text": "whatsminer ошибка 217",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.8,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4de72a13c02de59c",
+    "query_text": "antminer s19 pro прибыль в месяц",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 15.6,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "5f996d1915f8b17e",
+    "query_text": "phoenixcard",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "608dcd42d2e01e65",
+    "query_text": "водяное отопление в частном доме",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 22.2,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "6a3e04d2594ccf0d",
+    "query_text": "antminer s19 прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "714bc06c3eff50ec",
+    "query_text": "t17",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.4,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "75f999a012e2843f",
+    "query_text": "прошивка antminer s19k pro",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.4,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "79f4619460963e8d",
+    "query_text": "какая скорость интернета нужна для майнинга на асиках",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.4,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "7f1cdd77724da3c7",
+    "query_text": "майнер ферма из за жары перегрелась",
+    "indicators": {
+     "TOTAL_SHOWS": 5.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.6,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8d34c19a6e879f2d",
+    "query_text": "подключение асика watsminer s30",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 1.5,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "92297cb3cdcb5bca",
+    "query_text": "whatsminer ошибка 541",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": 5.0
+    }
+   },
+   {
+    "query_id": "a57160b0209e7d45",
+    "query_text": "как установить прошивку на whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a80813e16b5a243d",
+    "query_text": "whatsminer ошибка 275",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "bb92cda32f05e767",
+    "query_text": "как выглядит адрес биткоин кошелька",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c8d9d9688d3449d8",
+    "query_text": "прошивка whatsminer m30s",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ccdb0c87f0b68eec",
+    "query_text": "на асике выдает ошибка rate",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d08c9fe908acc519",
+    "query_text": "t9 перестали майнить",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d465b32215c732bc",
+    "query_text": "коды ошибок whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d7f0b7253da40f00",
+    "query_text": "air to liquid whatsminer скачать",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d909c7edb031b41c",
+    "query_text": "вайтсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "dbdc99c88a6bdbe3",
+    "query_text": "как выглядит биткоин кошелек",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 16.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "dfbcacc46bb5c97a",
+    "query_text": "не может затюниться асик ошибка определения скорости вентилятора",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 3.75,
+     "AVG_CLICK_POSITION": 3.0
+    }
+   },
+   {
+    "query_id": "e03de4896d31ffac",
+    "query_text": "какая скорость интернета нужна для майнинга на асике",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e1ed7759c2d522b4",
+    "query_text": "если на вацмайнкре нажать резет",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e7f26fc1621f9195",
+    "query_text": "как можно снизить температуру у асика",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 17.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f76d05d8892bd445",
+    "query_text": "что такое биткоин адрес",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f8b15a9d107491d6",
+    "query_text": "2350 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ffe0bd48cd32ffe8",
+    "query_text": "прошивка ватсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0179b8e2c33f5375",
+    "query_text": "как сбросить настройки на асик майнере",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0202e613e32fafa7",
+    "query_text": "antminer s19i прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1299e52cef8289a6",
+    "query_text": "прошивка асик ватсмайнер м50 на увеличение мощности",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 4.0,
+     "AVG_SHOW_POSITION": 1.5,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "23b8a0a871176507",
+    "query_text": "asic antminer s9 доходность калькулятор",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 27.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "24cf9f0f3ca191bb",
+    "query_text": "ошибки ватсмайнера",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "265ae6921cd12c92",
+    "query_text": "асик ватсмайнер доходность",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 23.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "27fe9d1617412a24",
+    "query_text": "калькулятор майнинга биткоина на asic s19 pro",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 12.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2a8a0ac7e3d1c60c",
+    "query_text": "antminer firmware download",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 12.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2e4468097ce4b344",
+    "query_text": "bixbit ams приложение",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 1.5,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "2f4fb1434a9ce190",
+    "query_text": "ошибка 540 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2f5cd14218a82b6c",
+    "query_text": "отопление от майнинг фермы",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 16.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "37ef56251b36b912",
+    "query_text": "whatsminer.com",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3849d31f28f487b9",
+    "query_text": "system update miner",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3c20dac66d076a04",
+    "query_text": "m30s как подключить и майнить",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "41095ee3312c2ed8",
+    "query_text": "майнинг на попутном газе",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "440d104c469754b2",
+    "query_text": "как добавить вокера в минере",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "47701feeb9edd665",
+    "query_text": "ошибка 560 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4cba6e23b95656f3",
+    "query_text": "ошибка 2320 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4def9d0056cc1c31",
+    "query_text": "сколько литров иммерсионной жидкости нужно для одного асика",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4f32470e0fa0a04b",
+    "query_text": "antminer firmware",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "5068ffb59b48280a",
+    "query_text": "как майнить дома на асиках",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "53e12de781134b91",
+    "query_text": "к-райта",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "570b00ac43bec38b",
+    "query_text": "на асике пишет ошибка rate",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "60bc68740551d5ba",
+    "query_text": "antminer s19j pro прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "6178341142f91cf2",
+    "query_text": "как настроить whatsminer под иммерсионное охлаждение",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "6622dc3f4047154b",
+    "query_text": "майнинг калькулятор",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 19.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "6cb54160bf177512",
+    "query_text": "airtoliquid",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "6dff83fe2a771ecd",
+    "query_text": "ошибки вотсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 4.25,
+     "AVG_CLICK_POSITION": 4.0
+    }
+   },
+   {
+    "query_id": "750f601f2d5cf34e",
+    "query_text": "antminer прошивки",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "77371310853890aa",
+    "query_text": "прошивка s19j pro",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.75,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "77ade9e169f77bfe",
+    "query_text": "ethereum classic майнинг",
+    "indicators": {
+     "TOTAL_SHOWS": 4.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.25,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "83390c28d43dc16c",
+    "query_text": "e013 whatsminer ошибка",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "84d00db89604753f",
+    "query_text": "кнопка ip found на асике",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8632c50b960d8abf",
+    "query_text": "калькулятор майнинга виа бтс",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8caebd1cec9a5673",
+    "query_text": "s19j pro прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8ebf8cd45ba524ae",
+    "query_text": "ошибка 233 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.666666666666667,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "95265eafcea039b9",
+    "query_text": "подключить ватсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.3333333333333335,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "97d8bb38b05a3018",
+    "query_text": "разгон л7",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.6666666666666665,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9f4f3bab9bc6719b",
+    "query_text": "система утилизации тепла для antminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a0a06ed43d079252",
+    "query_text": "шкшы сфыштщ vs 397s",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.333333333333333,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a0bd6a4730d6e6aa",
+    "query_text": "скачать прошивку bixbit",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 1.6666666666666667,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "a85cd0d611785656",
+    "query_text": "ошибка 600 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "acd55869d36c9214",
+    "query_text": "whatsminer ошибка 233",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "afb551c799f7543e",
+    "query_text": "нагрузка на сети при майнинге",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 18.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b0fbfab6d3291b46",
+    "query_text": "какие прописать диапазоны чтобы найти асик вацмайнер с сети",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "b2879c9fb5f85aa1",
+    "query_text": "сильно гудит станция криптовалюты",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b8564715b18a7b27",
+    "query_text": "whatsminer официальный сайт прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.333333333333333,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "bf3794fdb1130aff",
+    "query_text": "cmp 170hx",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 38.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c38ffd6d15160087",
+    "query_text": "l7 разгон",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c639293ebaa82030",
+    "query_text": "whatsminer m30s ошибка 541-561",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 3.3333333333333335,
+     "AVG_CLICK_POSITION": 3.0
+    }
+   },
+   {
+    "query_id": "d114901247b3f59a",
+    "query_text": "е013 whatminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d2c3713138c13941",
+    "query_text": "что будет после добычи всех биткоинов",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.333333333333334,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d3a322179316bb52",
+    "query_text": "что майнит innosilicon a11",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d46b51e7c8533cba",
+    "query_text": "s19 antminer доходность",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 17.666666666666668,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d5fa18a7de09abbf",
+    "query_text": "прошивка bixbit",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.3333333333333335,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d9976aa7e3156a1e",
+    "query_text": "whatsminer как прошить с флешки",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "dbb44547fba93005",
+    "query_text": "whatsminer ошибка 131",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.333333333333333,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "df62c709a396ebad",
+    "query_text": "power remained unchanged for a long time",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e2148187506026d8",
+    "query_text": "whatsminer tool customiser",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e2bc17fa3835c51c",
+    "query_text": "прошивка s19",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.333333333333334,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "eada77d189e16d6f",
+    "query_text": "ошибка 562 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ed3e9dd46239659d",
+    "query_text": "whatsminer m30s+ прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.3333333333333335,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "f0ee01bc51b75ca3",
+    "query_text": "как добавить воркера",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f169d846e3635790",
+    "query_text": "как найти айпи асика",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.666666666666667,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f1a55675fabe9329",
+    "query_text": "удалённое управление асиками",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f56765e00551e76e",
+    "query_text": "работает ли general profiles в low режиме bixbit",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.3333333333333335,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "01cdee9edfeac27c",
+    "query_text": "что такое pos чем он отличается от майнинга и почему сеть etherium перешла на эту модель кратко максимально",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "03b773f126f9e877",
+    "query_text": "прошивка whatsminer m64",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "067d42d23cb008e7",
+    "query_text": "прошивка для асика s19",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "07884adf939a8b79",
+    "query_text": "скачать прошивку whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.3333333333333335,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "09af350e5dac51e0",
+    "query_text": "phoenixcard инструкция установки bixbit",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.666666666666667,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0cb5cd20a7db77b4",
+    "query_text": "что такое экологический след криптовалют?",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.333333333333334,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0e009abebd91859f",
+    "query_text": "ошибка 561 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.333333333333333,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0ebb17889504679a",
+    "query_text": "ошибка 8000 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.333333333333333,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "11d153643c0ad682",
+    "query_text": "настройка майнера whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.333333333333333,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1573ff2914eb9d0e",
+    "query_text": "ams системой",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "15d4d2d53a7ff59c",
+    "query_text": "erc20 wallet",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "16ecd97c44923db1",
+    "query_text": "ошибка 207 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.666666666666667,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "177dab9d22bfe463",
+    "query_text": "схема утилизации не сложная. горячий воздух от майнингового оборудования собирается системой вентиляции и подается в теплообменник. там он нагревает теплоноситель (воду или антифриз) до 50-70°с. дальше этот",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.333333333333333,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1d3213c707046716",
+    "query_text": "542 ошибка считывания идентификатора чипа slot2",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.6666666666666665,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "20a860ac22677990",
+    "query_text": "поднять напряжение на б п асик",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.333333333333334,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "280ebffe327df70e",
+    "query_text": "ватсмайнер м50 характеристики",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 12.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2962484e925f1430",
+    "query_text": "российские производители жидкостей иммерсионного охлаждения",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 7.666666666666667,
+     "AVG_CLICK_POSITION": 9.0
+    }
+   },
+   {
+    "query_id": "29ebcd92ae83e808",
+    "query_text": "мониторинг асиков",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2bd03863445f7312",
+    "query_text": "whatsmainer прошить через sd карту",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2cb981185034cdd8",
+    "query_text": "иммерсионная жидкость",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 29.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "32a2f717f5bf44f5",
+    "query_text": "как прошить вотсмайнерс сд карты",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.333333333333334,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "347ddf7cbd26e497",
+    "query_text": "antminer s19 pro сколько зарабатывает за месяц",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 22.333333333333332,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "352797b6f76e0c79",
+    "query_text": "как скачать прошивку на сд карту",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "364114982d361ede",
+    "query_text": "температура воду на выходе в гидроасике",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3716a2777c6651d7",
+    "query_text": "antminer s21 pro сброс до заводских настроек",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3986d82eb3039dc0",
+    "query_text": "ошибка 251 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.666666666666667,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3a5b72b575a2b7f4",
+    "query_text": "innosilicon t2t 33th доходность",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 38.333333333333336,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3a88b18dcfa3ec11",
+    "query_text": "ошибка 275 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.333333333333333,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3eb9f7508c66ee30",
+    "query_text": "207 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.666666666666667,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "41f40b74d7644147",
+    "query_text": "прошивка на асик s9",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 3.6666666666666665,
+     "AVG_CLICK_POSITION": 3.5
+    }
+   },
+   {
+    "query_id": "4313bebf0da4f70c",
+    "query_text": "бикс бит",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "43e2dfccb6dc6504",
+    "query_text": "ошибки watsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": 4.0
+    }
+   },
+   {
+    "query_id": "44817328cc4f570e",
+    "query_text": "перепрошить antminer l3",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "478446861115e339",
+    "query_text": "environment temperature is high",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4983554f13dff9bc",
+    "query_text": "жидкость в которой можно хранить майнинг",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4a673904ae5ed790",
+    "query_text": "ветрогенератор для майнинга",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4b4efa0ba313a39e",
+    "query_text": "сколько майнит antminer s19",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 13.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4bbb72090f1daec7",
+    "query_text": "прошивка whatsminer m64 через кабель",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.6666666666666665,
+     "AVG_CLICK_POSITION": 3.0
+    }
+   },
+   {
+    "query_id": "4e5193c8b56b6cd9",
+    "query_text": "bixbitams",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "5558331e2612fa87",
+    "query_text": "приложение для контроля работа ватцмайнеров",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.666666666666666,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "60b503a46b647e5e",
+    "query_text": "bitmain скачать s19 прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "62b853d5ba4b9dca",
+    "query_text": "bixbit whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "67554fb622065277",
+    "query_text": "что такое proof-of-stake? чем он отличается от майнинга и почему есть сеть ethereum перешла на эту модель?",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "6b1896395a8fe5cf",
+    "query_text": "ватсмайнер ошибка 540",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "6e9da08f4c9e8849",
+    "query_text": "ошибка при считывании идентификатора чипа slot2",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.3333333333333335,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "78ede67afafcd229",
+    "query_text": "ватсмайнер прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "795d5dc0f8923c9b",
+    "query_text": "http://192.168.1.103/?#miner- какие еще есть команды",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.6666666666666665,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "7deebefdacc022c8",
+    "query_text": "как узнать ip адрес майнера",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "7f9147c5a8ddc9b8",
+    "query_text": "как открыть криптообменник в россии",
+    "indicators": {
+     "TOTAL_SHOWS": 3.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "80602f325f20a7b0",
+    "query_text": "miner is overheated/base .c:4943",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "80f3e300df932d18",
+    "query_text": "whatsminer m30s доходность",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 24.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8107bf51fdacad2a",
+    "query_text": "air to liquid download",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": 6.0
+    }
+   },
+   {
+    "query_id": "812c292f03a5347d",
+    "query_text": "bixit",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 1.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "814a3a415e16a2d7",
+    "query_text": "ошибка 257 ватсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "81fa934a753fe94d",
+    "query_text": "как установить прошивку на л3 оригинал",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 11.5,
+     "AVG_CLICK_POSITION": 10.0
+    }
+   },
+   {
+    "query_id": "82fed8dee2ee4c44",
+    "query_text": "rfr gjcvjnhtnm ghjibdre dfncvfqyth",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "832c762e70a35ba7",
+    "query_text": "как прописать вотсмайнер в пул бинанс",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": 3.0
+    }
+   },
+   {
+    "query_id": "838fd93d4bf46149",
+    "query_text": "прошить асик",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "84eb3c06e9a07330",
+    "query_text": "коды ошибок ватсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "854e0be5783b1ac4",
+    "query_text": "bixbit для whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "85682730926c5a3c",
+    "query_text": "ошибка 562 баланс потерь в слоте 2",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8632105353a7bda1",
+    "query_text": "как сменить mac адрес на whatseminer p21s",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "873b5ab8f93bb7ce",
+    "query_text": "прошивки s19",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "87bd206deaddcbbf",
+    "query_text": "ошибка 2350 whatsminer м50",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "87d010710b65386a",
+    "query_text": "инструкция для асика whatsminer m21s",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "890a712b39c265de",
+    "query_text": "как настроить мощность майнера",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "894202153a70e686",
+    "query_text": "кнопка резет в асиках",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "894f76dac84d801c",
+    "query_text": "распиновка платы майнера whatsminrs",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 18.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8963ac575b772e3a",
+    "query_text": "whatsminer коды ошибок",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8a163696c87659b7",
+    "query_text": "как перепрошить контрольную плату s19 на s19 pro",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8abc770958ccd9ce",
+    "query_text": "вацманер прошивки",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8be8214c226a86de",
+    "query_text": "ошибка 202 и 253 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8c15eb6f3e4565b1",
+    "query_text": "ошибка 274",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8e4b6e17cb2e8179",
+    "query_text": "даунвольтинг s19r pro",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8e89b1220d80e3ea",
+    "query_text": "могу ли дома поставить асик",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8ed5e62a64c448db",
+    "query_text": "whatsminer slot2 loss balance",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "8f0c1bf013015ca8",
+    "query_text": "как записать img файл на sd карту",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "90a9a0b2bce7917e",
+    "query_text": "ошибка 240 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "928a58e4461c6ff2",
+    "query_text": "как сделать чтоб whatsminer постоянно крутились вентиляторы",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "92f7b92f7c7c5c9c",
+    "query_text": "2010 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "956118219b0b790c",
+    "query_text": "сфыштщ ьщещк vs 397s",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9575fe07794a3149",
+    "query_text": "микросим 06 ошибка er00",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "95a9ff2ddcbe3420",
+    "query_text": "какwhatsminer sic whatsminer sd картой",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "976dae4d6ec3a02e",
+    "query_text": "как найти ip-адрес майнера",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9805568cf9761acc",
+    "query_text": "как подключить пул к вотсмайнеру",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "98d402b0412aeb6c",
+    "query_text": "slot 0 reading cheap error вотсмайнер что значит",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "98f7e0fb6490f137",
+    "query_text": "upfreqcompleted",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9958120adf540ebb",
+    "query_text": "подключение wm m50 s к автомату",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "99846096210e9f1e",
+    "query_text": "ошибка вентилятора питания 0. code: 0x20000100000 как отключить",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "998a3fa0953fe781",
+    "query_text": "прошивки ватсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": 3.0
+    }
+   },
+   {
+    "query_id": "998eb5cb7c82c060",
+    "query_text": "как проверять логи у асика",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9a871bcf57a6fa06",
+    "query_text": "как открыть обменник криптовалют с нуля в россии",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9afda80d7afcba8b",
+    "query_text": "калькулятор доходности видеокарт",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 29.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9c44a7ee5a60ed21",
+    "query_text": "slot0 reading chip id error whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "9d64e5c867d9ccef",
+    "query_text": "ошибка 217 майнера",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a181c5d47e668b51",
+    "query_text": "обновить whatsminer m30s",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": 6.0
+    }
+   },
+   {
+    "query_id": "a253254c5d4079b2",
+    "query_text": "бесплатное электричество для майнинга где взять",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a2d21fd436b97725",
+    "query_text": "m30s++_vh50.h616-cb6v10.p221b-v02-196802h не прошивается",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "a360cf6bf5d072b6",
+    "query_text": "542 slot2 reading chip id error",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a3aec9ce67a667dc",
+    "query_text": "vaneaims fxb-vac-1 отключается горят прочерки где амперы что за ошибка?",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a3db5561313aa990",
+    "query_text": "калькулятор майнинга видеокарт",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a53f1ea7788c1236",
+    "query_text": "вылетают асики из за конфликта ip адресов роутеров",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a5de8ba3b3763f40",
+    "query_text": "как подключить ватсмайнер с 1 хэш платой",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": 8.0
+    }
+   },
+   {
+    "query_id": "a680308bff5cdbdf",
+    "query_text": "m30s доходность",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 30.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a8fa9191d7832af1",
+    "query_text": "вацмайнер 500 кол ошибки",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "a909d49d08418dc3",
+    "query_text": "коды ошибок вотсмайнер m30s+",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "aaaa24f9b481dc26",
+    "query_text": "самая дешевая электроэнергия в россии по регионам 2020",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ab3162bb23277702",
+    "query_text": "как менять пул? дай инструкцию по порядку для асика",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ab417e3b1e8d9796",
+    "query_text": "вацмайнер тул",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "abfc9091fdc733a3",
+    "query_text": "antminer s23 разгон",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ac75253fa619ccf7",
+    "query_text": "прошивка bixbit whatsminer через карту",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ac8d99cb79b08f5e",
+    "query_text": "ckpool.org",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ace13361b3745483",
+    "query_text": "после отключения асик не может разогнать обороты и скидывает оборота вентилятора",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ad366545cc2f9fe9",
+    "query_text": "ватсмайнера пароль",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 1.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "adad00d1d9c8c656",
+    "query_text": "веб прошивка асик s19j pro",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b01a55d58102c06b",
+    "query_text": "ошибка 2010 whatsminer m30s",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b035cde90e93fdb7",
+    "query_text": "ams системы",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b037597a6eba91a8",
+    "query_text": "нормальная температура работы асика ватсмайнер м 50",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b04bb1b5b91294e4",
+    "query_text": "как выводить деньги с игры bitcoin miner",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b0ae5eb28b3c2ec2",
+    "query_text": "майнеры на трансформаторном масле",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b2c6fcbe8cb1357e",
+    "query_text": "intel bzm2 asic",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 12.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b3bb2c8397465d30",
+    "query_text": "как удалить пулы из асика",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b4261a7b2525a2c8",
+    "query_text": "как сбросить whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b51d96bac42479ef",
+    "query_text": "прошивка ватсмайнер м30s",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b6c7b721569887bb",
+    "query_text": "power limit setting whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b7c493201d9ef484",
+    "query_text": "ошибка 1020 ватсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b7fc2b4a69263744",
+    "query_text": "m5xfw.bin",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b82172cc55e99e8b",
+    "query_text": "база криптотрейдинга и частые ошибки новичков",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "b8c07999d1002747",
+    "query_text": "ams bixbit io",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "bab8ed06c8cc3bc1",
+    "query_text": "whatsminer error 541 542",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "bb146aa084c57b05",
+    "query_text": "whatsmainer пишет что пул abnormal что это значит",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "bca71f388e1a5dae",
+    "query_text": "оборудование для майнинга биткоина 2024",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c06a7539e6d55033",
+    "query_text": "antminer s19 pro прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c0a58a30b906366f",
+    "query_text": "whatsminer m30s++_vh85 20220926.15.rel",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 16.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c18760ca258b6502",
+    "query_text": "whatsminer m30 прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 3.5,
+     "AVG_CLICK_POSITION": 3.0
+    }
+   },
+   {
+    "query_id": "c3b06dc200089739",
+    "query_text": "как прошить m50",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c3ff37eff52c16a8",
+    "query_text": "custom прошивки на antminer z15",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c415297566298250",
+    "query_text": "antminers19 прошивка скачать",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c4f5cf2c1e8e6579",
+    "query_text": "код ошибки 217 ватсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c5380da5b3a8a74d",
+    "query_text": "причина ерора 249",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c5fbb36dd8de8d5f",
+    "query_text": "асик побочные действия",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c72328fe5662cf67",
+    "query_text": "ошибка при считывании идентификатора чипа slot0",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c80e0cb2963e4e93",
+    "query_text": "обнаружение ams",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c817cd29c553fc0f",
+    "query_text": "эфир на pos что это значит",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 14.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "c88008dab4a31468",
+    "query_text": "ignore pwm info перевод на русский",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ca00a7158040c555",
+    "query_text": "доходность cmp50hx",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 12.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ca2f911a15a1c04f",
+    "query_text": "прошивка s17",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 17.0,
+     "AVG_CLICK_POSITION": 18.0
+    }
+   },
+   {
+    "query_id": "ca9fe5fc95fc7705",
+    "query_text": "ошибка асика 370",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "cab5f65e2fc6c25c",
+    "query_text": "asic разгон",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "cb01fedf65504f6d",
+    "query_text": "как отключить майнер от пула",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 17.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "cb70fb9423f4484a",
+    "query_text": "whatsminer m50 ошибка 542",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": 9.0
+    }
+   },
+   {
+    "query_id": "cbe947c28c93da0e",
+    "query_text": "фильм про скамера биткойнов нетфликс",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 12.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "cc862cbe5cbeed97",
+    "query_text": "подключить асики к интернету",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 23.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "cd048960eb498f4c",
+    "query_text": "коды ошибки whatsminer 217",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "cd311fbeb5be2e64",
+    "query_text": "прошивка с19",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "cd3e894875cb7e54",
+    "query_text": "сколько интернета потребляют асики",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 26.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "cd582c0bee33f104",
+    "query_text": "как прошить блок питания p221b",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "cf77f3218f9dd594",
+    "query_text": ",the economist 1987;птица феникс и цифровые деньги",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "cfdc495457db02e9",
+    "query_text": "интерфейс ватсмайнера",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "d0995fcf490d9209",
+    "query_text": "код ошибки 542 ошибка чтения идентификатора чипа в слоте 2",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d1864b2689bed4f9",
+    "query_text": "ошибка 2050 на асике ватсмайнер м 50",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d2769a5c292a5dd3",
+    "query_text": "вацмайнер прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d5de1bfe9dfe6633",
+    "query_text": "chip temp whatsminer m61 89 норма?",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d5f4bec94db0917d",
+    "query_text": "antminer z15 погружение в иммерсионку",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": 8.0
+    }
+   },
+   {
+    "query_id": "d7500fe11478d4e1",
+    "query_text": "antrouter r3-sia",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d7f68c2adf7cf966",
+    "query_text": "ватсмайнер м50 ошибка 560",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d86af526b53c0e3e",
+    "query_text": "прыгает график на whatsmainer прошивка octava",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "d92a067e4d96cf44",
+    "query_text": "202 и 253 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "da5a57b5c0c22cfc",
+    "query_text": "ошибка add октаноизмеритель",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "dafdea449a5fee52",
+    "query_text": "код ошибки 560",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "dc01319089870e0a",
+    "query_text": "ether neezer и ещё что-то",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "dc171f1f39fe8543",
+    "query_text": "самый мощный асик",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 47.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "de3bc447c3be44fb",
+    "query_text": "прошивка m30s мьшыр",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "dfc33fdf713767c4",
+    "query_text": "m50 m",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "dfdeb7753227bbeb",
+    "query_text": "прошивка для иммерсии",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": 11.0
+    }
+   },
+   {
+    "query_id": "e0808b6564e8e1c8",
+    "query_text": "выключить ватсмайнер дистанционно",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e1720f39e9a77148",
+    "query_text": "как добыть бесплатное электричество",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 39.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e1b58ef0b4eedd73",
+    "query_text": "вентилятор вотцмайнер какой цвет тахометр",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e1c06b7c7dff76e7",
+    "query_text": "whatsminer ошибка 540 что это значит",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e36de353aba56812",
+    "query_text": "лучший гидроасик 2026",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 1.0,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "e425793a3828492d",
+    "query_text": "ошибка 201 асике",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e48e9acba3d319d6",
+    "query_text": "подключить к whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e4def9bc1caf863e",
+    "query_text": "сброс до заводских убивает майнеры?",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 12.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e5a254c79a4d88cb",
+    "query_text": "257 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e6633616c1d77ec0",
+    "query_text": "астки вотсмайнер не видяь обманки вентиляторов",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 4.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": 8.0
+    }
+   },
+   {
+    "query_id": "e75be961f354bc46",
+    "query_text": "игра майнер биткоинов как из из инвентаря вытащить эти для компьютера",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e78e61b8c2a61fa8",
+    "query_text": "как выгодно использовать whatsminer m30",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "e84677f0ea91f7e4",
+    "query_text": "удалённый мониторинг antminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "e9459d2af42581ca",
+    "query_text": "how do data center effect people & nature around them",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ea2c27c3ed47fa45",
+    "query_text": "ip адрес watsmainer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "ea508f14369e616d",
+    "query_text": "ватмайнер м 60 порядок установки хештег плат",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ebc9a17530711af8",
+    "query_text": "что значит сбрасывать ошибки на майнере",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ec93982cf03974fc",
+    "query_text": "выгодно ли сделать солнечные батареи для майнинга",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 24.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ecd61d25aeebabb8",
+    "query_text": "2350 hashrate loss: 0.05%",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ece7279133655b80",
+    "query_text": "wmoc overclock прошивка для watsmainer m30s++ скачать",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "edc86d9e0981c138",
+    "query_text": "ошибка 269 whatsminer м50",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ef06906104192701",
+    "query_text": "биксбит прошивки",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 1.0,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "ef299ae05dd58f5f",
+    "query_text": "нестабильный хешрейд whatsmainer на прошивке m63s",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "ef9180bffabba082",
+    "query_text": "скачать прошивку вхатсминер разгон",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": 3.0
+    }
+   },
+   {
+    "query_id": "f1691f9d5589f800",
+    "query_text": "не прописывается адресная строка пула в интерфейсе асика",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f17db211285b031c",
+    "query_text": "как сбросить вотсмайнер м50",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "f24660e113182a72",
+    "query_text": "настройка пулов в асикеы19",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f2fe9cef30481e44",
+    "query_text": "калькулятор добычи биткоина на асиках",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f35fd4c626280680",
+    "query_text": "как запустить настроить ватсмайнер м30 пошаговая инструкция",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f488ba7e94fd864c",
+    "query_text": "power initialization error or power output voltage error",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f4e435c6bc649a2a",
+    "query_text": "как поставить обманку на вентилятор блока питания майнера s9",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f717c39b622956d0",
+    "query_text": "ватсмайнер официальный сайт прошивки",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f810b6d5406b5ab7",
+    "query_text": "получение воды из промышленных отходов нефтепродуктов для майнинга",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f912e81a47cda89e",
+    "query_text": "antminer k7 что майнит",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "f97253d4f1a442d0",
+    "query_text": "контейнер для майнинга иркутск",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 38.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "fa368715d7a23c41",
+    "query_text": "e007 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "faf1926e84f9e90d",
+    "query_text": "можно ли асик погрузить в трансформаторное масло",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "fb2a671fe9756684",
+    "query_text": "bixbit личный кабинет",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 1.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "fb81beaa7c235453",
+    "query_text": "2050 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "fc2f7ae102b0de0f",
+    "query_text": "как найти асик в майнер тул",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "fd2b1c9f12e147a2",
+    "query_text": "иммерсионное охлаждение асиков whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "fd49b1d67c6696e8",
+    "query_text": "отличия хардфорка от софтфорка",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "fdd00c601605758e",
+    "query_text": "diff 1.2m в асике",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "006a6c7819321132",
+    "query_text": "biscuit firmware",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "00f4624961dce61f",
+    "query_text": "сколько интернета потребляет antminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0421cabfd6a1da39",
+    "query_text": "норма числа оборотов ватсмайнера",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "056974e5e3109e5d",
+    "query_text": "bisquit firmware",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 1.5,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "066499de93abce15",
+    "query_text": "прошивки для асиков",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "098de58721f20cf8",
+    "query_text": "whatsminer m21s калькулятор доходности",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 31.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0a9efb6d08072c39",
+    "query_text": "обозначение биткоина",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0c416c7aacec8243",
+    "query_text": "установка для майнинга на ветрогенераторе",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": 7.0
+    }
+   },
+   {
+    "query_id": "0d1db24d70223a69",
+    "query_text": "как узнать версию прошивки вацмайнера",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0e23ba0c28b4a2e4",
+    "query_text": "майнинг калькулятор доходности",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 26.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0efa4ad9ff4b3d1b",
+    "query_text": "cmp 50hx",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 47.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0f648780f180ab21",
+    "query_text": "как установить правильно вентиляторы на вотсмайнере",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0f68e02d66646e17",
+    "query_text": "вацмайнер отключаеьься и включается причины",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "0ff59a681d4ba394",
+    "query_text": "как майнить ethereum classic",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "103a9257a67dbd5e",
+    "query_text": "560 ошибка ватсмайнерп \\",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "10978b4814a4f108",
+    "query_text": "стойка для майнинга",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "112345d4fb0e6a19",
+    "query_text": "как для обычного асика сделать эмирсионную ванну",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1295432520a166db",
+    "query_text": "ватсмайнер м50s характеристики",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "141ec03773e3dca0",
+    "query_text": "bxbit",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 1.0,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "147703318c6a7e8b",
+    "query_text": "asic-майнер bitmain antminer s19 pro+ hydro 198 th/s обзор",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "157cf0c306675dc4",
+    "query_text": "warning: there are 1 errors that affect the machine running!",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "15b9365178fa4140",
+    "query_text": "прошивка s19 pro",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "15c0bcad34d496c8",
+    "query_text": "прошивка с downvolt на whatsminer форум",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "15cd9d806bf4c711",
+    "query_text": "ошибки whatsminer 201",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "172bd75587a22101",
+    "query_text": "можно ли whatsminer снять вентиляторы и поставить канальный вентилятор через обманку",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1733316b5c954f88",
+    "query_text": "прошивка на ватсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "184dff0b4a0f7b33",
+    "query_text": "прошивка контрольной платы whatsminer m30s",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 1.5,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "18f509b637736ca2",
+    "query_text": "код ошибки whatsminer 206-251",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1992d515d3e050c4",
+    "query_text": "как откатить прошивку bixbit на сток",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1ad7bfd66f634cc3",
+    "query_text": "206 ошибка whatsminer на водоблоках",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1bc67877a120b892",
+    "query_text": "ватсмайнер м61 на водяном охлаждении как отключить вентиляторы",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "1d49a113c48b7346",
+    "query_text": "как очистить водоблок майнера",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 24.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1d52e4915ae65330",
+    "query_text": "как найти асик майнер в сети",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1d920c57c0333b83",
+    "query_text": "настройка ватсмайнера на 2 кв",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1e50f4afdbb76f5b",
+    "query_text": "whatsminer overclocked",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1e697e351fb13b5a",
+    "query_text": "remove the asic fans and enable this option when immersing it in liquid. for disabling the psu fan check, go to the \"psu control\" tab",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1e8123b4a1a964c5",
+    "query_text": "портится ли иммерсионная жидкость ?",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1ebb16b3b80e67f2",
+    "query_text": "217 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "1f278f20dd00e7fe",
+    "query_text": "прошивка для whatsminer m30s",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "20a78f7bcf7db95b",
+    "query_text": "проверить как работает асик вацмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2124bdb9293ba099",
+    "query_text": "540 ошибка майнера",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "222ae792c306f3c0",
+    "query_text": "ошибка 2320 whatsminer m50",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "225de582bbb5e10b",
+    "query_text": "ошибка 560 whatsminer что значит",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "22b356fdb2b2b030",
+    "query_text": "незаконная майнинг ферма россети нижний новгород",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 14.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "235465ce0576af9e",
+    "query_text": "настройки майнера на затарку подсолнечника в полиэтиленовые мешки",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2526f111030b7551",
+    "query_text": "used asic майнер",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 12.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "27059de1581b5df7",
+    "query_text": "ошибка 370 whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "277e552510e12b7c",
+    "query_text": "как отключить вентиляторы на асике",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "28320ebacd66eede",
+    "query_text": "как зарабатывать btt",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2977711aa6d13ee5",
+    "query_text": "как ставить блок в bic 3",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2c0ce6ff1c177662",
+    "query_text": "599889 код ошибки whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 6.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2c4748c2e18df86a",
+    "query_text": "как найти асик в сети",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2cb9d0c8d1e5e640",
+    "query_text": "whatspowertool",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2d3899080a692851",
+    "query_text": "как прошить блок питания whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": 2.0
+    }
+   },
+   {
+    "query_id": "2dfd170c4d502c87",
+    "query_text": "адрес пула как узнать",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 16.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "2e5260b7c8245efc",
+    "query_text": "прошивка ватсмайнер м31с+",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 2.0,
+     "AVG_SHOW_POSITION": 1.0,
+     "AVG_CLICK_POSITION": 1.0
+    }
+   },
+   {
+    "query_id": "309985aba3bdc473",
+    "query_text": "ыасик",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 9.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "31f9ecb0c23017eb",
+    "query_text": "artforz",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "326e418f7363d1a6",
+    "query_text": "как настроить пул на асике watsmainer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "32d7d1b59fc52ae7",
+    "query_text": "ip адрес wotsmainer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3328137599c7e78f",
+    "query_text": "прошивка на увеличение тераеша на асик ватсмайнер м50",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "33c8a13d22e05015",
+    "query_text": "солнечные батареи для майнинга фермы",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 29.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "345705e874db894d",
+    "query_text": "ванна для охлаждения асиков что такое",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "349a9167cb945cad",
+    "query_text": "анонимный биткоин кошелек klerk.ru/blogs/aifory-pro/702379/",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 7.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3736fd764a4de192",
+    "query_text": "почему асик выдаёт ошибку 2320",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3aa6d73b06e7ae77",
+    "query_text": "antminer s19j pro нужно запустить в иммерсионной жидкости",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3aaf1cb9279ab137",
+    "query_text": "как сделать на вотсмайнере чтоб вентилятор крутился на полную?",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3b407bc49269e0c1",
+    "query_text": "wtm250 ошибка 90",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3bc02a77f9fdb550",
+    "query_text": "какие нудны гpадирни для watsmainera",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3c20569076b6f607",
+    "query_text": "вотсмайнер подключить к пулу",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 2.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3c30d7dc2ef0c0ea",
+    "query_text": "whatsminer m30s прошивка",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3c86968e83f8fec1",
+    "query_text": "почему незавешается повышенная частотность на watsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3d77b9a20ad99592",
+    "query_text": "whstsminer 541 ошибка",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3d7a3d9caf4d7c2a",
+    "query_text": "иммерсионное отопление",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3e5b35f9702b9189",
+    "query_text": "s19",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 44.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "3f0b4769e95bcc25",
+    "query_text": "как разогнать м31s+",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "40ecc9df216b9141",
+    "query_text": "как перезагрузить антмайнер через кнопку реснт",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "415a642746da3dce",
+    "query_text": "антмайнер прошивка асиков",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "41cc65ec57d913e2",
+    "query_text": "206 ошибка whatsminer",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "41dfdf8529778209",
+    "query_text": "wifi asic miner monitor.",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 1.0,
+     "AVG_SHOW_POSITION": 12.0,
+     "AVG_CLICK_POSITION": 11.0
+    }
+   },
+   {
+    "query_id": "423d825f7ff5afa8",
+    "query_text": "асик подключение",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 29.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "42e3783968935902",
+    "query_text": "вацмайнер м50++ 156 th почему постоянного перезагружается в иммерсионной ванне",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 10.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "434af5ae4f5ba8c0",
+    "query_text": "ошибка майнера м20 131 что значит",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 5.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "43d34d2d64f38ce2",
+    "query_text": "ошибка вот майнер 551146",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 4.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "4493bcfea06d538a",
+    "query_text": "прошивка s19k pro для даунвольтинга",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "44f2fc7c8b02ccf3",
+    "query_text": "произошла ошибка с кодом: 581051whatsminer m",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "45589987adc9476e",
+    "query_text": "как новичку создать обменник криптовалют с нуля простыми словами. с чего нужно начать.",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "457c5a18f2573c35",
+    "query_text": "список ошибок вотсмайнер",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 8.5,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "45e8596c2d7350a2",
+    "query_text": "как подключить ватсмайнер к интернету",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 3.0,
+     "AVG_CLICK_POSITION": null
+    }
+   },
+   {
+    "query_id": "46118215e7937d11",
+    "query_text": "s19a как сбросить на заводские настройки",
+    "indicators": {
+     "TOTAL_SHOWS": 2.0,
+     "TOTAL_CLICKS": 0.0,
+     "AVG_SHOW_POSITION": 11.5,
+     "AVG_CLICK_POSITION": null
+    }
+   }
+  ],
+  "date_from": "2026-09-02",
+  "date_to": "2026-09-28"
+ }
+}

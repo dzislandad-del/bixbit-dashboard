@@ -1,0 +1,20 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "prompt": "Which custom firmware is available for Whatsminer M30, M50 and M60 miners? List specific vendors.",
+  "task_id": "09251235-2548-0612-0000-87683452ca22",
+  "answer_text": "Here is an overview of the custom (third-party) firmware options available for **Whatsminer M30, M50, and M60** series miners, along with specific vendors:\n\n---\n\n### 1. 🔧 **VNISH Firmware**\nVNISH firmware is compatible with all ASIC miners Whatsminer M20S, M21S, M30S, M31S, M32, M5x, M6, M30S++, M31S+, M32S, M50, M50S, and M53. This firmware increases device performance (hashrate) by an average of 30–40%. VNISH is one of the most well-known custom firmware providers in the mining space.\n- 🌐 Website: **vnish.farm**\n\n---\n\n### 2. 🔧 **BiXBiT Firmware**\nBiXBiT offers custom firmware for the Whatsminer M3x series (supporting M30, M31, and M32 models) as well as for the Whatsminer M5x series. All firmware versions are thoroughly tested before each release, and partner devices have been operating on BiXBiT firmware for many years.\n- 🌐 Website: **bixbit.io**\n\n---\n\n### 3. 🔧 **ASICDIP Firmware**\nASICDIP firmware is compatible with all ASIC miners Whatsminer M20S, M21S, M30S, M31S, M32, M5x, M6, M30S++, M31S+, M32S, M50, M50S, M53, new M5x, and new M6x. This firmware increases device performance (hashrate) by an average of 30–40%.\n- 🌐 Website: **asicdip.com**\n\n---\n\n### 4. 🔧 **Manifold Firmware**\nManifold firmware supports increasing hashrate and improving efficiency on popular ASIC miner models including M50S, M50, M30S, M30, M31S, M32, M20, M20S, and M21S. It also features per-chip tuning to improve power efficiency by tuning each ASIC chip individually, which can yield a 20% hashrate increase without any loss of efficiency.\n- 🌐 Website: **manifoldservice.com**\n\n---\n\n### 5. 🔧 **NiceHash-Compatible Firmware (Official Collaboration)**\nWhile not fully \"third-party,\" it's worth noting: WhatsMiner, in cooperation with the NiceHash team, released new firmware for M30 and M50 series models. This firmware eliminates the lower accepted speeds that would randomly happen when mining on NiceHash.\n\n---\n\n### Summary Table\n\n| Vendor | M30 Series | M50 Series | M60 Series |\n|---|---|---|---|\n| **VNISH** | ✅ | ✅ | ✅ (M6x) |\n| **BiXBiT** | ✅ | ✅ (M5x) | ✅ (M6x) |\n| **ASICDIP** | ✅ | ✅ | ✅ (new M6x) |\n| **Manifold** | ✅ | ✅ | ❓ |\n| **NiceHash** | ✅ | ✅ | ❓ |\n\n> ⚠️ **Note:** Always verify compatibility for your specific miner model/version before flashing any custom firmware, as support can vary between sub-models. Installing custom firmware may also void your manufacturer warranty.",
+  "cited_urls": [
+    "https://vnish.farm/en/firmware/Whatsminer_M20S_M21S_M30S_M31S_M32",
+    "https://www.buywhatsminer.com/firmware/",
+    "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+    "https://asicdip.com/en/firmware/Whatsminer_M20S_M21S_M30S_M31S_M32",
+    "https://www.manifoldservice.com/firmware",
+    "https://www.nicehash.com/blog/post/whatsminer-released-a-nicehash-compatible-firmware-update-now"
+  ],
+  "cost_usd": 0.05803,
+  "datetime": "2026-09-25 12:35:33 +00:00",
+  "fan_out_queries": [
+    "custom firmware Whatsminer M30 M50 M60 miners vendors"
+  ]
+}

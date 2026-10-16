@@ -1,0 +1,1043 @@
+{
+ "meta": {
+  "collected_on": "2026-09-28",
+  "location": "United States",
+  "language": "en",
+  "compared_to": null
+ },
+ "summary": {
+  "keywords": 30,
+  "with_aio": 28,
+  "aio_cites_bixbit": 5,
+  "with_featured_snippet": 0,
+  "fs_bixbit": 0,
+  "with_paa": 17,
+  "paa_bixbit": 0,
+  "top_aio_domains": [
+   "www.youtube.com",
+   "www.reddit.com",
+   "www.nicehash.com",
+   "mineshop.eu",
+   "www.zeusbtc.com",
+   "braiins.com",
+   "bixbit.io",
+   "bitcointalk.org",
+   "vnish-firmware.com",
+   "support.bitmain.com",
+   "www.awesomeminer.com",
+   "www.hashrate.farm",
+   "www.cryptominerbros.com",
+   "d-central.tech",
+   "submer.com"
+  ],
+  "cost_usd": 0.0986
+ },
+ "changes": [],
+ "keywords": [
+  {
+   "keyword": "antminer firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "video",
+    "images",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "d-central.tech",
+    "mineshop.eu",
+    "www.ebay.com",
+    "www.google.com",
+    "www.justanswer.com",
+    "www.reddit.com",
+    "www.youtube.com",
+    "www.zeusbtc.com"
+   ],
+   "aio_competitors": [
+    "d-central.tech"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "whatsminer firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": true,
+   "aio_cited_urls_bixbit": [
+    "https://bixbit.io/en/firmwares"
+   ],
+   "aio_domains": [
+    "bixbit.io",
+    "miningsoft.org",
+    "www.nicehash.com",
+    "www.scribd.com",
+    "www.whatsminer.com",
+    "www.youtube.com",
+    "www.zeusbtc.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": 4,
+   "organic_url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+  },
+  {
+   "keyword": "bitmain firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "mineshop.eu",
+    "shop.bitmain.com",
+    "support.bitmain.com",
+    "vnish-firmware.com",
+    "vnish.ru",
+    "www.reddit.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [
+    "vnish-firmware.com",
+    "vnish.ru"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "antminer custom firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "discussions_and_forums",
+    "video",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": true,
+   "aio_cited_urls_bixbit": [
+    "https://bixbit.io/en/firmwares"
+   ],
+   "aio_domains": [
+    "bitcointalk.org",
+    "bixbit.io",
+    "braiins.com",
+    "mineshop.eu",
+    "vnish-firmware.com",
+    "www.nicehash.com",
+    "www.reddit.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [
+    "braiins.com",
+    "vnish-firmware.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": 5,
+   "organic_url": "https://bixbit.io/en/firmwares/antminer"
+  },
+  {
+   "keyword": "custom firmware antminer",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "discussions_and_forums",
+    "video",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": true,
+   "aio_cited_urls_bixbit": [
+    "https://bixbit.io/en/firmwares"
+   ],
+   "aio_domains": [
+    "bixbit.io",
+    "braiins.com",
+    "epicblockchain.io",
+    "mineshop.eu",
+    "vnish-firmware.com",
+    "www.hashrate.farm",
+    "www.nicehash.com",
+    "www.reddit.com",
+    "www.vnish.in",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [
+    "braiins.com",
+    "epicblockchain.io",
+    "vnish-firmware.com",
+    "www.vnish.in"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": 5,
+   "organic_url": "https://bixbit.io/en/firmwares/antminer"
+  },
+  {
+   "keyword": "whatsminer custom firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "video",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": true,
+   "aio_cited_urls_bixbit": [
+    "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+    "https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware",
+    "https://bixbit.io/en/firmwares",
+    "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+   ],
+   "aio_domains": [
+    "asicdip.com",
+    "bitcointalk.org",
+    "bixbit.io",
+    "bixbitusa.io",
+    "blockspace.media",
+    "support.whatsminer.com",
+    "www.nicehash.com",
+    "www.youtube.com",
+    "www.zeusbtc.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": 2,
+   "organic_url": "https://bixbit.io/en/firmwares"
+  },
+  {
+   "keyword": "braiins os",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "academy.braiins.com",
+    "braiins.com",
+    "d-central.tech",
+    "downloads.braiins.com",
+    "es.braiins.com"
+   ],
+   "aio_competitors": [
+    "academy.braiins.com",
+    "braiins.com",
+    "d-central.tech",
+    "downloads.braiins.com",
+    "es.braiins.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "vnish firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "video",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "vni.sh",
+    "vnish-firmware.com",
+    "vnish.com",
+    "vnish.io",
+    "vnish.pro",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [
+    "vni.sh",
+    "vnish-firmware.com",
+    "vnish.com",
+    "vnish.io",
+    "vnish.pro"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "best antminer custom firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "discussions_and_forums",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": true,
+   "aio_cited_urls_bixbit": [
+    "https://bixbit.io/en/firmwares/antminer"
+   ],
+   "aio_domains": [
+    "bitcointalk.org",
+    "bixbit.io",
+    "braiins.com",
+    "litecointalk.io",
+    "vnish-firmware.com",
+    "www.hashrate.farm",
+    "www.nicehash.com",
+    "www.reddit.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [
+    "braiins.com",
+    "vnish-firmware.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": 3,
+   "organic_url": "https://bixbit.io/en/firmwares/antminer"
+  },
+  {
+   "keyword": "antminer firmware comparison",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "video",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "epicblockchain.io",
+    "www.awesomeminer.com",
+    "www.reddit.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [
+    "epicblockchain.io",
+    "www.awesomeminer.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "antminer dev fee firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "video",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "antminer-repair.com",
+    "braiins.com",
+    "epicblockchain.io",
+    "www.awesomeminer.com",
+    "www.reddit.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [
+    "braiins.com",
+    "epicblockchain.io",
+    "www.awesomeminer.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": 6,
+   "organic_url": "https://bixbit.io/en/firmwares"
+  },
+  {
+   "keyword": "antminer firmware security",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "m.bitmain.com",
+    "mineshop.eu",
+    "support.bitmain.com",
+    "www.ccn.com",
+    "www.nicehash.com",
+    "www.reddit.com",
+    "www.zeusbtc.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": 9,
+   "organic_url": "https://bixbit.io/en/firmwares/antminer"
+  },
+  {
+   "keyword": "whatsminer tool",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "obm.io",
+    "support.whatsminer.com",
+    "www.hashrate.farm",
+    "www.whatsminer.com",
+    "www.youtube.com",
+    "www.zeusbtc.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "microbt firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "makecode.microbit.org",
+    "microbit.org",
+    "support.microbit.org",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": 2,
+   "organic_url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+  },
+  {
+   "keyword": "antminer s19 firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "d-central.tech",
+    "pixelplex.io",
+    "service.bitmain.com",
+    "support.bitmain.com",
+    "www.youtube.com",
+    "www.zeusbtc.com"
+   ],
+   "aio_competitors": [
+    "d-central.tech"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "antminer s21 firmware",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "asicminergroup.de",
+    "mineshop.eu",
+    "shop.bitmain.com",
+    "support.awesomeminer.com",
+    "support.bitmain.com",
+    "vnish.pro",
+    "vnish.ru",
+    "www.awesomeminer.com",
+    "www.hashrate.farm",
+    "www.nicehash.com"
+   ],
+   "aio_competitors": [
+    "support.awesomeminer.com",
+    "vnish.pro",
+    "vnish.ru",
+    "www.awesomeminer.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "immersion cooling mining",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "video",
+    "scholarly_articles",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "apextomining.com",
+    "blockeden.xyz",
+    "jetcool.com",
+    "www.google.com",
+    "www.linkedin.com",
+    "www.reddit.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "asic immersion cooling",
+   "api_status": 20000,
+   "item_types": [
+    "organic",
+    "video",
+    "people_also_ask",
+    "popular_products"
+   ],
+   "ai_overview": false,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "immersion cooling",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "video",
+    "people_also_ask",
+    "images",
+    "popular_products",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "2crsi.com",
+    "en.wikipedia.org",
+    "submer.com",
+    "www.asperitas.com",
+    "www.fluorocarbons.org",
+    "www.gigabyte.com",
+    "www.parkplacetechnologies.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [
+    "submer.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "immersion computer cooling",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "video",
+    "organic",
+    "discussions_and_forums",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "electronics.alibaba.com",
+    "immersion-cooling.thermaltake.com",
+    "www.gigabyte.com",
+    "www.reddit.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "what is immersion cooling",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "images",
+    "video",
+    "perspectives",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "baltimoreaircoil.com",
+    "en.wikipedia.org",
+    "submer.com",
+    "www.asperitas.com",
+    "www.gigabyte.com",
+    "www.inventec.dehon.com",
+    "www.parkplacetechnologies.com",
+    "www.supermicro.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [
+    "submer.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "mineral oil immersion cooling",
+   "api_status": 20000,
+   "item_types": [
+    "organic",
+    "people_also_ask",
+    "video",
+    "images",
+    "related_searches"
+   ],
+   "ai_overview": false,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": 5,
+   "organic_url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining"
+  },
+  {
+   "keyword": "antminer mineral oil",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "discussions_and_forums",
+    "video",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "altairtech.io",
+    "bitcointalk.org",
+    "globalxetfs.co",
+    "lys-sz.com",
+    "vrcoolertech.en.made-in-china.com",
+    "www.reddit.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "immersion cooling antminer",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "video",
+    "people_also_ask",
+    "popular_products",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "apextomining.com",
+    "asicmarketplace.com",
+    "braiins.com",
+    "bt-miners.com",
+    "cryptominerbros.com",
+    "www.cryptominerbros.com",
+    "www.google.com",
+    "www.lianliwork.com",
+    "www.mara.com",
+    "www.reddit.com",
+    "www.youtube.com",
+    "www.zeusbtc.com"
+   ],
+   "aio_competitors": [
+    "braiins.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "single phase vs two phase immersion cooling",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "video",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "2crsi.com",
+    "alliancechemical.com",
+    "midasimmersion.com",
+    "submer.com",
+    "www.engineeredfluids.com",
+    "www.grcooling.com",
+    "www.lubrizol.com",
+    "www.naddod.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [
+    "submer.com",
+    "www.engineeredfluids.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "asic monitor",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "popular_products",
+    "people_also_ask"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "docs.nvidia.com",
+    "mineshop.eu",
+    "www.nicehash.com",
+    "www.reddit.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "mining software",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "product_considerations",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "koinly.io",
+    "woolypooly.com",
+    "www.cryptominerbros.com",
+    "www.kryptex.com",
+    "www.nicehash.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "mining monitoring software",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "braiins.com",
+    "geospatial.trimble.com",
+    "hexagon.com",
+    "idsgeoradar.com",
+    "minerstat.com",
+    "www.awesomeminer.com",
+    "www.maxwellgeosystems.com",
+    "www.youtube.com",
+    "zebpay.com"
+   ],
+   "aio_competitors": [
+    "braiins.com",
+    "minerstat.com",
+    "www.awesomeminer.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "antminer dashboard",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "images",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "bitcointalk.org",
+    "endlessmining.com",
+    "mineshop.eu",
+    "support.bitmain.com",
+    "www.youtube.com"
+   ],
+   "aio_competitors": [],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": false,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  },
+  {
+   "keyword": "minerstat alternative",
+   "api_status": 20000,
+   "item_types": [
+    "ai_overview",
+    "organic",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "ai_overview": true,
+   "aio_cites_bixbit": false,
+   "aio_cited_urls_bixbit": [],
+   "aio_domains": [
+    "millionminer.com",
+    "minerstat.com",
+    "simplemining.net",
+    "slashdot.org",
+    "www.cryptominerbros.com",
+    "www.g2.com",
+    "www.reddit.com",
+    "www.softwaresuggest.com"
+   ],
+   "aio_competitors": [
+    "minerstat.com"
+   ],
+   "featured_snippet": false,
+   "fs_domain": null,
+   "fs_url": null,
+   "fs_is_bixbit": false,
+   "paa": true,
+   "paa_has_bixbit": false,
+   "organic_position": null,
+   "organic_url": null
+  }
+ ]
+}
