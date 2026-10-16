@@ -140,7 +140,10 @@ jobs:
       - name: Telegram alerts
         if: always()
         run: |
-          if [ "${{ github.event.schedule }}" = "0 5 * * 1" ]; then ./scripts/alerts.py --digest || true; else ./scripts/alerts.py || true; fi
+          # еженедельно — сводка; ручной запуск — итог приходит всегда (проверка связи); ежедневно — только новые P0/P1
+          if [ "${{ github.event.schedule }}" = "0 5 * * 1" ]; then ./scripts/alerts.py --digest || true
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then ./scripts/alerts.py --always || true
+          else ./scripts/alerts.py || true; fi
 
       - name: Commit snapshots
         run: |

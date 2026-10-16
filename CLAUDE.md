@@ -103,7 +103,7 @@ dev fee), масштабируемость, мониторинг парка ус
 - **Тех-элементы страниц** — `./scripts/page-snapshot.py` (сырой HTML; WebFetch не видит `<head>`).
 - **Индексация / переобход** — `./scripts/index-check.py`, `./scripts/index-submit.py` (Bing, IndexNow).
 - **Каннибализация, AIO/FS, ссылки** — `cannibalization.py`, `serp-features.py`, `backlinks-monitor.py`.
-- **Автосбор** — `.github/workflows/seo-data.yml` (ежедневно / еженедельно / ежемесячно, снимки в `data/`).
+- **Автосбор** — `.github/workflows/seo-data.yml` в **приватном** репозитории `dzislandad-del/bixbit-seo` (remote `seo`, push по умолчанию туда). Ежедневно / еженедельно / ежемесячно, бот коммитит снимки в `data/` → перед push всегда `git pull --rebase --autostash`. **Никогда не пушить в `origin`** (`bixbit-dashboard`, публичный).
 - **Bing Webmaster** — `./scripts/bing-query.py` (бесплатно; сигнал для ChatGPT search).
 - **Яндекс.Вебмастер** — `./scripts/yandex-query.py` (диагностика, запросы, индекс, переобход).
 - **Moz** — не используем (бесплатный тир бесполезен), бэклинки из DataForSEO.
