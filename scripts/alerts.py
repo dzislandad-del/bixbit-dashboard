@@ -105,6 +105,34 @@ def checks():
         if len(h) >= 2 and max(h) > 100 and h[-1] < 0.7 * max(h):
             A.append(("yandex:insearch-drop", "P0", "Яндекс: резкое падение страниц в поиске", f"{max(h)} → {h[-1]}"))
 
+    # 2a. Sitemap ↔ GSC и новые страницы (sitemap-monitor.py, еженедельно)
+    p = latest("data/sitemap/sitemap-*.json")
+    d = jload(p) if p and age_days(p) <= 8 else None
+    if d:
+        sm = d.get("summary", {})
+        if sm.get("removed", 0) >= 20:
+            A.append(("sitemap:removed", "P1", f"Из sitemap пропало {sm['removed']} URL", "проверить, не удалены ли страницы по ошибке"))
+        if sm.get("fetch_errors"):
+            A.append(("sitemap:fetch", "P1", "Sitemap не загружается полностью", f"ошибок: {sm['fetch_errors']}"))
+        for g in (d.get("gsc") or {}).get("sitemaps", []):
+            if g.get("errors"):
+                A.append((f"sitemap:gsc:{g['path']}", "P2", f"Ошибки sitemap в GSC: {g['path'].replace('https://bixbit.io', '')}", f"ошибок {g['errors']}"))
+        bad_new = [x for x in d.get("new_inspected", []) if x.get("verdict") not in ("PASS", None)]
+        if bad_new:
+            A.append(("sitemap:new-not-indexed", "P2", f"Новые страницы не в индексе Google: {len(bad_new)}",
+                      ", ".join(x["url"].replace("https://bixbit.io", "") for x in bad_new[:3])))
+
+    # 2b. Изменения на сайте между краулами (site-diff.py, ежемесячно)
+    p = latest("data/site-diff/site-diff-*.json")
+    d = jload(p) if p and age_days(p) <= 35 else None
+    if d:
+        sm, ch = d.get("summary", {}), d.get("changes", {})
+        if sm.get("gone_pages", 0) >= 10:
+            A.append(("site:gone", "P1", f"С сайта пропало {sm['gone_pages']} страниц с прошлого краула", "см. отчёт «Изменения на всём сайте»"))
+        idx_lost = [x for x in ch.get("noindex", []) if x.get("new") is True]
+        if idx_lost:
+            A.append(("site:noindex", "P0", f"На {len(idx_lost)} страницах появился noindex", ", ".join(x["url"].replace("https://bixbit.io", "") for x in idx_lost[:3])))
+
     # 3. Индексация Google (URL Inspection)
     p = latest("data/index-check/index-*.json")
     d = jload(p) if p and age_days(p) <= 3 else None

@@ -23,7 +23,7 @@
   ./scripts/crawl.py --max-pages 200 --out /tmp/crawl-test
   ./scripts/crawl.py --check-external             # + статусы внешних ссылок (HEAD)
 """
-import argparse, collections, csv, datetime as dt, gzip, json, os, re, sys, threading, time
+import argparse, hashlib, collections, csv, datetime as dt, gzip, json, os, re, sys, threading, time
 import urllib.error, urllib.parse, urllib.request, urllib.robotparser
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from html.parser import HTMLParser
@@ -96,6 +96,7 @@ class Page(HTMLParser):
         self.anchors, self.images, self.lang = [], [], None
         self._stack, self._buf, self._a = [], "", None
         self.text_len, self._skip = 0, 0
+        self.h2, self.main_parts, self._chrome = [], [], 0  # _chrome: внутри header/nav/footer — не основной текст
 
     def handle_starttag(self, tag, attrs):
         a = {k.lower(): (v if v is not None else "") for k, v in attrs}
@@ -111,6 +112,10 @@ class Page(HTMLParser):
             self.links.append(a)
         elif tag == "h1":
             self._stack.append("h1"); self._buf = ""
+        elif tag == "h2":
+            self._stack.append("h2"); self._buf = ""
+        elif tag in ("header", "nav", "footer"):
+            self._chrome += 1
         elif tag == "script":
             self._skip += 1
             if a.get("type", "").lower() == "application/ld+json":
@@ -130,6 +135,10 @@ class Page(HTMLParser):
             self.title = " ".join(self._buf.split()); self._stack.pop()
         elif tag == "h1" and self._stack[-1:] == ["h1"]:
             self.h1.append(" ".join(self._buf.split())); self._stack.pop()
+        elif tag == "h2" and self._stack[-1:] == ["h2"]:
+            self.h2.append(" ".join(self._buf.split())[:160]); self._stack.pop()
+        elif tag in ("header", "nav", "footer"):
+            self._chrome = max(0, self._chrome - 1)
         elif tag == "script":
             if self._stack[-1:] == ["ld"]:
                 self.jsonld.append(self._buf); self._stack.pop()
@@ -147,6 +156,8 @@ class Page(HTMLParser):
             self._a["text"] += data
         if not self._skip:
             self.text_len += len(data.split())
+            if not self._chrome and data.strip():
+                self.main_parts.append(data)
 
 
 def ld_info(blocks):
@@ -279,6 +290,12 @@ def main():
                 "words": pg.text_len, "images": len(pg.images),
                 "images_no_alt": [i["src"] for i in pg.images if not i["has_alt"]][:50],
                 "images_empty_alt": sum(1 for i in pg.images if i["has_alt"] and not (i["alt"] or "").strip()),
+                # для сравнения краулов (site-diff.py): основной текст без шапки/меню/подвала, H2, ALT картинок
+                "h2": pg.h2[:20],
+                "main_words": len(" ".join(pg.main_parts).split()),
+                "text_hash": hashlib.sha1(" ".join(" ".join(pg.main_parts).split()).encode()).hexdigest()[:16],
+                "img_alts": {re.sub(r"\.[0-9a-f]{8,}(?=\.)", "", i["src"].split("?")[0].rsplit("/", 1)[-1] or i["src"])[:80]: (i["alt"] or "")[:160]
+                             for i in pg.images[:60] if i["has_alt"]},
             })
             for an in pg.anchors:
                 href = an["href"].strip()

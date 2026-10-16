@@ -138,10 +138,13 @@
 | `serp-features.py` | AI Overview (цитируют ли нас) / Featured Snippet / PAA — еженедельно, ~$0.10 за 30 ключей | `--out data/serp-features/serp-features-YYYY-MM-DD.json` |
 | `backlinks-monitor.py` | ссылки: summary нас и 8 конкурентов + новые/потерянные домены — ежемесячно, ~$0.27 | `--out data/backlinks/backlinks-YYYY-MM-DD.json` |
 | `yandex-query.py` | Яндекс.Вебмастер: hosts, summary, diagnostics, queries, indexing, insearch, sitemaps, links, recrawl (`--submit`, квота 1 020 в день) | `--report diagnostics`, `--report queries --days 28 --out ...` |
-| `alerts.py` | алерты в Telegram: доступность, robots, Яндекс, индексация, noindex/canonical, позиции, краул, ссылки; только новые + «решено» | `--dry-run`, `--test`, `--digest`, `--get-chat-id` |
-| `daily-local.sh` | ежедневно в 12:00 на Mac (launchd `io.bixbit.seo.daily`): index-check → Яндекс diagnostics/insearch → alerts (пн — digest). Лог `~/Library/Logs/bixbit-seo-daily.log` | `launchctl kickstart gui/$(id -u)/io.bixbit.seo.daily` |
+| `alerts.py` | алерты в Telegram (основной отправитель — GitHub workflow `seo-data.yml`; ручной запуск — `--always`): доступность, robots, Яндекс, индексация, noindex/canonical, позиции, краул, ссылки; только новые + «решено» | `--dry-run`, `--test`, `--digest`, `--get-chat-id` |
+| `sitemap-monitor.py` | sitemap ↔ GSC: новые/удалённые URL (vs прошлый снимок), URL Inspection новых, URL без показов, страницы с показами вне sitemap, ошибки sitemap в GSC Sitemaps API → `data/sitemap/` | `--inspect N`, `--days 28` |
+| `site-diff.py` | сравнение двух краулов: новые/пропавшие страницы (пагинация и сбои загрузки отдельно), код ответа, title, description, H1, H2, текст (хэш основного текста без шапки/меню/подвала), ALT, canonical, noindex → `data/site-diff/` | `--old/--new` |
+| `quarterly-report.py` | квартальный HTML-отчёт с SVG-графиками: Google (недели, страны, страницы, запросы, позиции отслеживаемых ключей), GA4, Bing, AI Overview, техсостояние vs прошлый квартал → `reports/quarterly-YYYY-Qn.html`, кэш `data/quarterly/` | `--quarter 2026Q3`, `--to-date`, `--refresh` |
+| `daily-local.sh` | запасная проверка, ежедневно в 12:00 на Mac (launchd `io.bixbit.seo.daily`): Яндекс diagnostics/insearch → `alerts.py --dry-run` (в Telegram **не шлёт** с 2026-10-16 — алерты идут из GitHub-бота в 07:00 МСК). Лог `~/Library/Logs/bixbit-seo-daily.log` | `launchctl kickstart gui/$(id -u)/io.bixbit.seo.daily` |
 | `hreflang-check.py` | валидация hreflang по снимку page-snapshot | `data/<снимок>.json --langs en,ru,es` |
-| `page-snapshot.py` | тех-элементы страниц по сырому HTML + diff | `--out data/page-snapshot-YYYY-MM-DD.json` (список — `data/tracked-pages.txt`) |
+| `page-snapshot.py` | (с 2026-10-16 также H2/H3, ALT, основной текст по абзацам; diff показывает добавленные/удалённые абзацы)  тех-элементы страниц по сырому HTML + diff | `--out data/page-snapshot-YYYY-MM-DD.json` (список — `data/tracked-pages.txt`) |
 
 **Автоматизация:** `.github/workflows/seo-data.yml` — ежедневно index-check; еженедельно GSC/GA4/Bing/page-snapshot/
 cannibalization/serp-features; ежемесячно crawl, serp-rank, backlinks-monitor; коммитит снимки в `data/`, при критичном drift открывает issue. Работает после push и добавления

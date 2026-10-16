@@ -2,9 +2,10 @@
 """page-snapshot.py — снимок SEO-критичных элементов страниц по сырому HTML + diff.
 
 WebFetch не видит <head>/<script>, поэтому drift снимаем здесь: статус, редиректы,
-title, meta description, robots (meta + X-Robots-Tag), canonical, hreflang, H1,
+title, meta description, robots (meta + X-Robots-Tag), canonical, hreflang, H1, H2, H3,
+ALT картинок, основной текст страницы (без шапки/меню/подвала, по абзацам),
 JSON-LD (типы, ошибки парсинга, пустые FAQPage, хэш Organization.description),
-вес HTML и время ответа.
+вес HTML и время ответа. Diff показывает, какие абзацы текста добавлены/удалены и какие ALT изменились.
 
 Примеры:
   ./scripts/page-snapshot.py --out data/page-snapshot-2026-09-28.json
@@ -24,12 +25,24 @@ WATCH = ["status", "final_url", "robots", "x_robots_tag", "canonical", "title", 
          "h1", "h1_count", "hreflang", "jsonld_types", "jsonld_errors", "faqpage_empty", "org_description_hash"]
 
 
+BLOCK = {"p", "li", "h1", "h2", "h3", "h4", "h5", "h6", "td", "th", "dt", "dd", "div", "section", "article",
+         "blockquote", "figcaption", "br", "tr", "button", "summary", "label", "main"}
+
+
 class Head(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.title, self.meta, self.links, self.h1, self.jsonld = None, {}, [], [], []
         self._in_title = self._in_h1 = self._in_ld = False
         self._buf = ""
+        self.h2, self.h3, self.alts, self.blocks = [], [], {}, []
+        self._hx, self._hbuf, self._skip, self._chrome, self._text = None, "", 0, 0, ""
+
+    def _flush(self):
+        t = " ".join(self._text.split())
+        if len(t) >= 3 and not self._chrome:
+            self.blocks.append(t[:1000])
+        self._text = ""
 
     def handle_starttag(self, tag, attrs):
         a = {k.lower(): (v or "") for k, v in attrs}
@@ -45,6 +58,20 @@ class Head(HTMLParser):
             self._in_h1, self._buf = True, ""
         elif tag == "script" and a.get("type", "").lower() == "application/ld+json":
             self._in_ld, self._buf = True, ""
+        if tag in ("h2", "h3"):
+            self._hx, self._hbuf = tag, ""
+        if tag in ("script", "style", "noscript", "template", "svg", "title"):
+            self._skip += 1
+        elif tag in ("header", "nav", "footer"):
+            self._flush(); self._chrome += 1
+        elif tag in BLOCK:
+            self._flush()
+        if tag == "img" and "alt" in a:
+            src = (a.get("src") or a.get("data-src") or "").split("?")[0]
+            # имя файла без хэша сборки (logo.f275c2433ea3fd12.svg → logo.svg), иначе каждый деплой = «новые» картинки
+            key = ("inline" if src.startswith("data:") else re.sub(r"\.[0-9a-f]{8,}(?=\.)", "", src.rsplit("/", 1)[-1]))[:80] or "?"
+            if not self._chrome:
+                self.alts[key] = (a.get("alt") or "")[:200]
 
     def handle_endtag(self, tag):
         if tag == "title" and self._in_title:
@@ -53,10 +80,22 @@ class Head(HTMLParser):
             self.h1.append(" ".join(self._buf.split())); self._in_h1 = False
         elif tag == "script" and self._in_ld:
             self.jsonld.append(self._buf); self._in_ld = False
+        if tag == self._hx:
+            (self.h2 if tag == "h2" else self.h3).append(" ".join(self._hbuf.split())[:200]); self._hx = None
+        if tag in ("script", "style", "noscript", "template", "svg", "title"):
+            self._skip = max(0, self._skip - 1)
+        elif tag in ("header", "nav", "footer"):
+            self._flush(); self._chrome = max(0, self._chrome - 1)
+        elif tag in BLOCK:
+            self._flush()
 
     def handle_data(self, data):
         if self._in_title or self._in_h1 or self._in_ld:
             self._buf += data
+        if self._hx:
+            self._hbuf += data
+        if not self._skip and not self._chrome:
+            self._text += " " + data
 
 
 def ld_types(node, out):
@@ -103,6 +142,11 @@ def snapshot(url):
         return row
     p = Head()
     p.feed(body.decode("utf-8", errors="replace"))
+    p._flush()
+    blocks, total = [], 0
+    for b in p.blocks:  # уникальные абзацы в порядке появления, до 40 000 символов
+        if b not in blocks and total < 40000:
+            blocks.append(b); total += len(b)
     canon = [l.get("href") for l in p.links if "canonical" in l.get("rel", "").lower().split()]
     hreflang = sorted(f"{l.get('hreflang')}={l.get('href')}" for l in p.links
                       if "alternate" in l.get("rel", "").lower() and l.get("hreflang"))
@@ -127,7 +171,11 @@ def snapshot(url):
                 "jsonld_types": sorted(set(types)), "jsonld_blocks": len(p.jsonld), "jsonld_errors": errors,
                 "faqpage_empty": faq_empty,
                 "org_description_hash": hashlib.sha1(org_desc.encode()).hexdigest()[:10] if org_desc else None,
-                "org_description_start": (org_desc or "")[:80] or None})
+                "org_description_start": (org_desc or "")[:80] or None,
+                "h2": p.h2[:30], "h3": p.h3[:40], "img_alts": dict(list(p.alts.items())[:80]),
+                "main_words": sum(len(b.split()) for b in blocks),
+                "text_hash": hashlib.sha1("\n".join(blocks).encode()).hexdigest()[:16],
+                "text_blocks": blocks})
     return row
 
 
@@ -142,6 +190,20 @@ def diff(prev, cur):
         for f in WATCH:
             if o.get(f) != r.get(f):
                 changes.append({"url": r["url"], "field": f, "was": o.get(f), "now": r.get(f)})
+        if o.get("text_hash") and r.get("text_hash") and o["text_hash"] != r["text_hash"]:
+            ob, nb = o.get("text_blocks") or [], r.get("text_blocks") or []
+            added, removed = [b for b in nb if b not in ob], [b for b in ob if b not in nb]
+            if added or removed:
+                changes.append({"url": r["url"], "field": "text", "was": f"{o.get('main_words')} слов", "now": f"{r.get('main_words')} слов",
+                                "added": added[:15], "removed": removed[:15]})
+        for f in ("h2", "h3"):
+            if o.get(f) is not None and r.get(f) is not None and o[f] != r[f]:
+                changes.append({"url": r["url"], "field": f, "was": [h for h in o[f] if h not in r[f]][:10],
+                                "now": [h for h in r[f] if h not in o[f]][:10]})
+        if o.get("img_alts") is not None and r.get("img_alts") is not None and o["img_alts"] != r["img_alts"]:
+            ao, an = o["img_alts"], r["img_alts"]
+            changes.append({"url": r["url"], "field": "alt",
+                            "was": {k: ao[k] for k in ao if an.get(k) != ao[k]}, "now": {k: an[k] for k in an if ao.get(k) != an[k]}})
         if o.get("html_bytes") and r.get("html_bytes") and abs(r["html_bytes"] - o["html_bytes"]) / o["html_bytes"] > 0.3:
             changes.append({"url": r["url"], "field": "html_bytes (>30%)", "was": o["html_bytes"], "now": r["html_bytes"]})
     for u in set(pb) - {r["url"] for r in cur["pages"]}:

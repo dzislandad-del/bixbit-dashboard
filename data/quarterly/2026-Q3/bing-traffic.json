@@ -1,0 +1,2927 @@
+{
+ "meta": {
+  "report": "traffic",
+  "method": "GetRankAndTrafficStats",
+  "site": null,
+  "rows": 486,
+  "pulled_at": "2026-10-16T17:35:19"
+ },
+ "data": [
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-16",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-17",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-18",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-19",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-20",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-21",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-22",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-23",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-24",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-25",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-26",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-27",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-28",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-29",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-06-30",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-01",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-02",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-03",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-04",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-05",
+   "Impressions": 2
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-06",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-07",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-08",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-09",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-10",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-11",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-12",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-13",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-14",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-15",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-16",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-17",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-18",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-19",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-20",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-21",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-22",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-23",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-24",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-25",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-26",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-27",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-28",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-29",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-30",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-07-31",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-01",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-02",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-03",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-04",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-05",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-06",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-07",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-08",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-09",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-10",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-11",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-12",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-13",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-14",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-15",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-16",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-17",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-18",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-19",
+   "Impressions": 2
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-20",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-21",
+   "Impressions": 4
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-22",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-23",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-24",
+   "Impressions": 2
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-25",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-26",
+   "Impressions": 1
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-27",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-28",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-29",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-30",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-08-31",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-01",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-02",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-03",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-04",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-05",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-06",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-07",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-08",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-09",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-10",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-11",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-12",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-13",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-14",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-15",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-16",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-17",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-18",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-19",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-20",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-21",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-22",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-23",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-24",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-25",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2025-09-26",
+   "Impressions": 0
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2025-09-27",
+   "Impressions": 73
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2025-09-28",
+   "Impressions": 121
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-09-29",
+   "Impressions": 106
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-09-30",
+   "Impressions": 182
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2025-10-01",
+   "Impressions": 147
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-10-02",
+   "Impressions": 143
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-10-03",
+   "Impressions": 137
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 12,
+   "Date": "2025-10-04",
+   "Impressions": 112
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-10-05",
+   "Impressions": 89
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-10-06",
+   "Impressions": 148
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 17,
+   "Date": "2025-10-07",
+   "Impressions": 187
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 16,
+   "Date": "2025-10-08",
+   "Impressions": 130
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 14,
+   "Date": "2025-10-09",
+   "Impressions": 182
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2025-10-10",
+   "Impressions": 143
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 13,
+   "Date": "2025-10-11",
+   "Impressions": 135
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-10-12",
+   "Impressions": 129
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 16,
+   "Date": "2025-10-13",
+   "Impressions": 210
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 15,
+   "Date": "2025-10-14",
+   "Impressions": 226
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2025-10-15",
+   "Impressions": 171
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2025-10-16",
+   "Impressions": 153
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 13,
+   "Date": "2025-10-17",
+   "Impressions": 133
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-10-18",
+   "Impressions": 96
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2025-10-19",
+   "Impressions": 149
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2025-10-20",
+   "Impressions": 184
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2025-10-21",
+   "Impressions": 195
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2025-10-22",
+   "Impressions": 151
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2025-10-23",
+   "Impressions": 213
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-10-24",
+   "Impressions": 158
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2025-10-25",
+   "Impressions": 132
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2025-10-26",
+   "Impressions": 147
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 13,
+   "Date": "2025-10-27",
+   "Impressions": 250
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-10-28",
+   "Impressions": 155
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 12,
+   "Date": "2025-10-29",
+   "Impressions": 187
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2025-10-30",
+   "Impressions": 177
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-10-31",
+   "Impressions": 183
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 25,
+   "Date": "2025-11-01",
+   "Impressions": 181
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-11-02",
+   "Impressions": 197
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2025-11-03",
+   "Impressions": 156
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-11-04",
+   "Impressions": 168
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 14,
+   "Date": "2025-11-05",
+   "Impressions": 206
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2025-11-06",
+   "Impressions": 185
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 13,
+   "Date": "2025-11-07",
+   "Impressions": 205
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2025-11-08",
+   "Impressions": 135
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2025-11-09",
+   "Impressions": 135
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-11-10",
+   "Impressions": 200
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-11-11",
+   "Impressions": 174
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2025-11-12",
+   "Impressions": 183
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2025-11-13",
+   "Impressions": 170
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2025-11-14",
+   "Impressions": 120
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2025-11-15",
+   "Impressions": 112
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 13,
+   "Date": "2025-11-16",
+   "Impressions": 124
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-11-17",
+   "Impressions": 140
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-11-18",
+   "Impressions": 152
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 12,
+   "Date": "2025-11-19",
+   "Impressions": 141
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-11-20",
+   "Impressions": 141
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2025-11-21",
+   "Impressions": 88
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-11-22",
+   "Impressions": 93
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-11-23",
+   "Impressions": 126
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 15,
+   "Date": "2025-11-24",
+   "Impressions": 151
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-11-25",
+   "Impressions": 162
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2025-11-26",
+   "Impressions": 181
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 16,
+   "Date": "2025-11-27",
+   "Impressions": 138
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2025-11-28",
+   "Impressions": 98
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2025-11-29",
+   "Impressions": 74
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2025-11-30",
+   "Impressions": 146
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2025-12-01",
+   "Impressions": 127
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 14,
+   "Date": "2025-12-02",
+   "Impressions": 172
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2025-12-03",
+   "Impressions": 177
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 12,
+   "Date": "2025-12-04",
+   "Impressions": 193
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-12-05",
+   "Impressions": 176
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2025-12-06",
+   "Impressions": 121
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2025-12-07",
+   "Impressions": 101
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-12-08",
+   "Impressions": 147
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2025-12-09",
+   "Impressions": 131
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2025-12-10",
+   "Impressions": 174
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2025-12-11",
+   "Impressions": 194
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2025-12-12",
+   "Impressions": 145
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-12-13",
+   "Impressions": 116
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-12-14",
+   "Impressions": 111
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 12,
+   "Date": "2025-12-15",
+   "Impressions": 181
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-12-16",
+   "Impressions": 202
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-12-17",
+   "Impressions": 184
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-12-18",
+   "Impressions": 187
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 12,
+   "Date": "2025-12-19",
+   "Impressions": 168
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2025-12-20",
+   "Impressions": 125
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2025-12-21",
+   "Impressions": 118
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2025-12-22",
+   "Impressions": 156
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-12-23",
+   "Impressions": 155
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2025-12-24",
+   "Impressions": 110
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2025-12-25",
+   "Impressions": 91
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2025-12-26",
+   "Impressions": 83
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 12,
+   "Date": "2025-12-27",
+   "Impressions": 111
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2025-12-28",
+   "Impressions": 80
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2025-12-29",
+   "Impressions": 145
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2025-12-30",
+   "Impressions": 119
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2025-12-31",
+   "Impressions": 93
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-01-01",
+   "Impressions": 80
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-01-02",
+   "Impressions": 118
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-01-03",
+   "Impressions": 101
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-01-04",
+   "Impressions": 100
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-01-05",
+   "Impressions": 146
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-01-06",
+   "Impressions": 151
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 13,
+   "Date": "2026-01-07",
+   "Impressions": 165
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-01-08",
+   "Impressions": 124
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-01-09",
+   "Impressions": 125
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-01-10",
+   "Impressions": 75
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 16,
+   "Date": "2026-01-11",
+   "Impressions": 161
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-01-12",
+   "Impressions": 149
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-01-13",
+   "Impressions": 143
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-01-14",
+   "Impressions": 166
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-01-15",
+   "Impressions": 144
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 15,
+   "Date": "2026-01-16",
+   "Impressions": 126
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-01-17",
+   "Impressions": 94
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-01-18",
+   "Impressions": 95
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-01-19",
+   "Impressions": 160
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-01-20",
+   "Impressions": 117
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-01-21",
+   "Impressions": 117
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2026-01-22",
+   "Impressions": 168
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-01-23",
+   "Impressions": 113
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-01-24",
+   "Impressions": 90
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-01-25",
+   "Impressions": 90
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 13,
+   "Date": "2026-01-26",
+   "Impressions": 119
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-01-27",
+   "Impressions": 165
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-01-28",
+   "Impressions": 162
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2026-01-29",
+   "Impressions": 151
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-01-30",
+   "Impressions": 102
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-01-31",
+   "Impressions": 70
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-02-01",
+   "Impressions": 111
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-02-02",
+   "Impressions": 177
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 12,
+   "Date": "2026-02-03",
+   "Impressions": 157
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-02-04",
+   "Impressions": 156
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-02-05",
+   "Impressions": 129
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-02-06",
+   "Impressions": 100
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-02-07",
+   "Impressions": 91
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-02-08",
+   "Impressions": 103
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2026-02-09",
+   "Impressions": 138
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-02-10",
+   "Impressions": 160
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-02-11",
+   "Impressions": 104
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 15,
+   "Date": "2026-02-12",
+   "Impressions": 150
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2026-02-13",
+   "Impressions": 116
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-02-14",
+   "Impressions": 66
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-02-15",
+   "Impressions": 82
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-02-16",
+   "Impressions": 149
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-02-17",
+   "Impressions": 109
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-02-18",
+   "Impressions": 131
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-02-19",
+   "Impressions": 83
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-02-20",
+   "Impressions": 103
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-02-21",
+   "Impressions": 90
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-02-22",
+   "Impressions": 114
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-02-23",
+   "Impressions": 94
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-02-24",
+   "Impressions": 100
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2026-02-25",
+   "Impressions": 134
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-02-26",
+   "Impressions": 126
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-02-27",
+   "Impressions": 81
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-02-28",
+   "Impressions": 75
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-03-01",
+   "Impressions": 74
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-03-02",
+   "Impressions": 80
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-03-03",
+   "Impressions": 86
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-03-04",
+   "Impressions": 119
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-03-05",
+   "Impressions": 93
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-03-06",
+   "Impressions": 80
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-03-07",
+   "Impressions": 71
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-03-08",
+   "Impressions": 49
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-03-09",
+   "Impressions": 101
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-03-10",
+   "Impressions": 126
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-03-11",
+   "Impressions": 92
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-03-12",
+   "Impressions": 121
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-03-13",
+   "Impressions": 185
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-03-14",
+   "Impressions": 67
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-03-15",
+   "Impressions": 73
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-03-16",
+   "Impressions": 142
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-03-17",
+   "Impressions": 88
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-03-18",
+   "Impressions": 133
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-03-19",
+   "Impressions": 127
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-03-20",
+   "Impressions": 108
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-03-21",
+   "Impressions": 94
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-03-22",
+   "Impressions": 65
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-03-23",
+   "Impressions": 126
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-03-24",
+   "Impressions": 111
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-03-25",
+   "Impressions": 118
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-03-26",
+   "Impressions": 81
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-03-27",
+   "Impressions": 86
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-03-28",
+   "Impressions": 59
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-03-29",
+   "Impressions": 82
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-03-30",
+   "Impressions": 128
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-03-31",
+   "Impressions": 104
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-04-01",
+   "Impressions": 125
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-04-02",
+   "Impressions": 94
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-04-03",
+   "Impressions": 54
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-04-04",
+   "Impressions": 53
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-04-05",
+   "Impressions": 90
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-04-06",
+   "Impressions": 111
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-04-07",
+   "Impressions": 90
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2026-04-08",
+   "Impressions": 118
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-04-09",
+   "Impressions": 150
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-04-10",
+   "Impressions": 88
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-04-11",
+   "Impressions": 86
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-04-12",
+   "Impressions": 67
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-04-13",
+   "Impressions": 108
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-04-14",
+   "Impressions": 119
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-04-15",
+   "Impressions": 131
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2026-04-16",
+   "Impressions": 152
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-04-17",
+   "Impressions": 166
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-04-18",
+   "Impressions": 93
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-04-19",
+   "Impressions": 81
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-04-20",
+   "Impressions": 128
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-04-21",
+   "Impressions": 129
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-04-22",
+   "Impressions": 133
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-04-23",
+   "Impressions": 144
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-04-24",
+   "Impressions": 99
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-04-25",
+   "Impressions": 127
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-04-26",
+   "Impressions": 79
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-04-27",
+   "Impressions": 244
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-04-28",
+   "Impressions": 133
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-04-29",
+   "Impressions": 139
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-04-30",
+   "Impressions": 130
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-05-01",
+   "Impressions": 79
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-05-02",
+   "Impressions": 96
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-05-03",
+   "Impressions": 64
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-05-04",
+   "Impressions": 124
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-05-05",
+   "Impressions": 98
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-05-06",
+   "Impressions": 195
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-05-07",
+   "Impressions": 118
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-05-08",
+   "Impressions": 95
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-05-09",
+   "Impressions": 91
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-05-10",
+   "Impressions": 74
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-05-11",
+   "Impressions": 156
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-05-12",
+   "Impressions": 101
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-05-13",
+   "Impressions": 124
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-05-14",
+   "Impressions": 93
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-05-15",
+   "Impressions": 84
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-05-16",
+   "Impressions": 68
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-05-17",
+   "Impressions": 71
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-05-18",
+   "Impressions": 121
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-05-19",
+   "Impressions": 142
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-05-20",
+   "Impressions": 102
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-05-21",
+   "Impressions": 83
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-05-22",
+   "Impressions": 92
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-05-23",
+   "Impressions": 47
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-05-24",
+   "Impressions": 98
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-05-25",
+   "Impressions": 58
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-05-26",
+   "Impressions": 92
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-05-27",
+   "Impressions": 110
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-05-28",
+   "Impressions": 100
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-05-29",
+   "Impressions": 72
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-05-30",
+   "Impressions": 55
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-05-31",
+   "Impressions": 71
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-06-01",
+   "Impressions": 94
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-06-02",
+   "Impressions": 68
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-06-03",
+   "Impressions": 75
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-06-04",
+   "Impressions": 86
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-06-05",
+   "Impressions": 91
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-06-06",
+   "Impressions": 55
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-06-07",
+   "Impressions": 62
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-06-08",
+   "Impressions": 77
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-06-09",
+   "Impressions": 102
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-06-10",
+   "Impressions": 82
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-06-11",
+   "Impressions": 67
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-06-12",
+   "Impressions": 106
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-06-13",
+   "Impressions": 65
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-06-14",
+   "Impressions": 53
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-06-15",
+   "Impressions": 106
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-06-16",
+   "Impressions": 167
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 11,
+   "Date": "2026-06-17",
+   "Impressions": 95
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-06-18",
+   "Impressions": 71
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-06-19",
+   "Impressions": 59
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-06-20",
+   "Impressions": 59
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-06-21",
+   "Impressions": 52
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-06-22",
+   "Impressions": 75
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-06-23",
+   "Impressions": 89
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-06-24",
+   "Impressions": 73
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-06-25",
+   "Impressions": 84
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-06-26",
+   "Impressions": 55
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-06-27",
+   "Impressions": 36
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-06-28",
+   "Impressions": 64
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-06-29",
+   "Impressions": 77
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-06-30",
+   "Impressions": 71
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-07-01",
+   "Impressions": 152
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-07-02",
+   "Impressions": 85
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-07-03",
+   "Impressions": 72
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-07-04",
+   "Impressions": 52
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-07-05",
+   "Impressions": 50
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-07-06",
+   "Impressions": 80
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-07-07",
+   "Impressions": 59
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-07-08",
+   "Impressions": 95
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-07-09",
+   "Impressions": 100
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-07-10",
+   "Impressions": 88
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-07-11",
+   "Impressions": 58
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-07-12",
+   "Impressions": 54
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-07-13",
+   "Impressions": 98
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-07-14",
+   "Impressions": 122
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-07-15",
+   "Impressions": 108
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-07-16",
+   "Impressions": 116
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-07-17",
+   "Impressions": 69
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-07-18",
+   "Impressions": 58
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-07-19",
+   "Impressions": 54
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-07-20",
+   "Impressions": 61
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-07-21",
+   "Impressions": 88
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-07-22",
+   "Impressions": 103
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-07-23",
+   "Impressions": 82
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-07-24",
+   "Impressions": 75
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-07-25",
+   "Impressions": 93
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-07-26",
+   "Impressions": 60
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-07-27",
+   "Impressions": 78
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-07-28",
+   "Impressions": 131
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-07-29",
+   "Impressions": 107
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-07-30",
+   "Impressions": 119
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-07-31",
+   "Impressions": 91
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-08-01",
+   "Impressions": 51
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-08-02",
+   "Impressions": 42
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-08-03",
+   "Impressions": 82
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-08-04",
+   "Impressions": 112
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-08-05",
+   "Impressions": 78
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-08-06",
+   "Impressions": 99
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-08-07",
+   "Impressions": 44
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-08-08",
+   "Impressions": 73
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-08-09",
+   "Impressions": 49
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-08-10",
+   "Impressions": 88
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-08-11",
+   "Impressions": 100
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-08-12",
+   "Impressions": 96
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-08-13",
+   "Impressions": 84
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-08-14",
+   "Impressions": 61
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-08-15",
+   "Impressions": 62
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-08-16",
+   "Impressions": 96
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-08-17",
+   "Impressions": 129
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-08-18",
+   "Impressions": 81
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-08-19",
+   "Impressions": 93
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-08-20",
+   "Impressions": 73
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-08-21",
+   "Impressions": 108
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 0,
+   "Date": "2026-08-22",
+   "Impressions": 49
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-08-23",
+   "Impressions": 57
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-08-24",
+   "Impressions": 67
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-08-25",
+   "Impressions": 83
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-08-26",
+   "Impressions": 83
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-08-27",
+   "Impressions": 67
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-08-28",
+   "Impressions": 48
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-08-29",
+   "Impressions": 42
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-08-30",
+   "Impressions": 71
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 12,
+   "Date": "2026-08-31",
+   "Impressions": 107
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-09-01",
+   "Impressions": 60
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-09-02",
+   "Impressions": 115
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-09-03",
+   "Impressions": 109
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-09-04",
+   "Impressions": 54
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-09-05",
+   "Impressions": 49
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-09-06",
+   "Impressions": 58
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-09-07",
+   "Impressions": 120
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-09-08",
+   "Impressions": 79
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-09-09",
+   "Impressions": 74
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-09-10",
+   "Impressions": 101
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-09-11",
+   "Impressions": 67
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-09-12",
+   "Impressions": 49
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-09-13",
+   "Impressions": 73
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-09-14",
+   "Impressions": 181
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-09-15",
+   "Impressions": 83
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-09-16",
+   "Impressions": 119
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-09-17",
+   "Impressions": 91
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-09-18",
+   "Impressions": 67
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-09-19",
+   "Impressions": 172
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-09-20",
+   "Impressions": 154
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-09-21",
+   "Impressions": 122
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-09-22",
+   "Impressions": 111
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-09-23",
+   "Impressions": 112
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-09-24",
+   "Impressions": 145
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-09-25",
+   "Impressions": 71
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-09-26",
+   "Impressions": 74
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-09-27",
+   "Impressions": 57
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-09-28",
+   "Impressions": 93
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-09-29",
+   "Impressions": 112
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-09-30",
+   "Impressions": 143
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 4,
+   "Date": "2026-10-01",
+   "Impressions": 86
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-10-02",
+   "Impressions": 59
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-10-03",
+   "Impressions": 53
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 1,
+   "Date": "2026-10-04",
+   "Impressions": 48
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 2,
+   "Date": "2026-10-05",
+   "Impressions": 111
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-10-06",
+   "Impressions": 303
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 8,
+   "Date": "2026-10-07",
+   "Impressions": 245
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-10-08",
+   "Impressions": 139
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 10,
+   "Date": "2026-10-09",
+   "Impressions": 88
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 9,
+   "Date": "2026-10-10",
+   "Impressions": 132
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 5,
+   "Date": "2026-10-11",
+   "Impressions": 165
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 7,
+   "Date": "2026-10-12",
+   "Impressions": 83
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 6,
+   "Date": "2026-10-13",
+   "Impressions": 156
+  },
+  {
+   "__type": "RankAndTrafficStats:#Microsoft.Bing.Webmaster.Api",
+   "Clicks": 3,
+   "Date": "2026-10-14",
+   "Impressions": 86
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "meta": {
+  "property": "320129421",
+  "start": "2026-04-01",
+  "end": "2026-06-30",
+  "preset": "channels",
+  "dimensions": [
+   "sessionDefaultChannelGroup"
+  ],
+  "metrics": [
+   "sessions",
+   "engagedSessions",
+   "keyEvents",
+   "totalUsers"
+  ],
+  "filter": null,
+  "rows": 12,
+  "row_count_total": 12,
+  "pulled_at": "2026-10-16T17:35:16"
+ },
+ "rows": [
+  {
+   "sessionDefaultChannelGroup": "Cross-network",
+   "sessions": 19820,
+   "engagedSessions": 4487,
+   "keyEvents": 1279,
+   "totalUsers": 14318
+  },
+  {
+   "sessionDefaultChannelGroup": "Paid Search",
+   "sessions": 17962,
+   "engagedSessions": 5649,
+   "keyEvents": 1314,
+   "totalUsers": 14345
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Search",
+   "sessions": 12080,
+   "engagedSessions": 6952,
+   "keyEvents": 3400,
+   "totalUsers": 5751
+  },
+  {
+   "sessionDefaultChannelGroup": "Direct",
+   "sessions": 11238,
+   "engagedSessions": 4192,
+   "keyEvents": 2088,
+   "totalUsers": 8269
+  },
+  {
+   "sessionDefaultChannelGroup": "Paid Other",
+   "sessions": 8679,
+   "engagedSessions": 2928,
+   "keyEvents": 779,
+   "totalUsers": 8303
+  },
+  {
+   "sessionDefaultChannelGroup": "Referral",
+   "sessions": 1920,
+   "engagedSessions": 1091,
+   "keyEvents": 871,
+   "totalUsers": 741
+  },
+  {
+   "sessionDefaultChannelGroup": "Display",
+   "sessions": 1298,
+   "engagedSessions": 167,
+   "keyEvents": 0,
+   "totalUsers": 1086
+  },
+  {
+   "sessionDefaultChannelGroup": "Unassigned",
+   "sessions": 1059,
+   "engagedSessions": 125,
+   "keyEvents": 46,
+   "totalUsers": 972
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Video",
+   "sessions": 201,
+   "engagedSessions": 103,
+   "keyEvents": 84,
+   "totalUsers": 129
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Social",
+   "sessions": 178,
+   "engagedSessions": 93,
+   "keyEvents": 38,
+   "totalUsers": 105
+  },
+  {
+   "sessionDefaultChannelGroup": "AI Assistant",
+   "sessions": 24,
+   "engagedSessions": 13,
+   "keyEvents": 2,
+   "totalUsers": 15
+  },
+  {
+   "sessionDefaultChannelGroup": "Email",
+   "sessions": 18,
+   "engagedSessions": 11,
+   "keyEvents": 0,
+   "totalUsers": 15
+  }
+ ]
+}

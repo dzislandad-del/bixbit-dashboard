@@ -223,6 +223,21 @@ def r_bing(o, lines, urls):
     return short, [], det
 
 
+FIELD_RU = {"title": "Title", "meta_description": "Description", "h1": "H1", "h1_count": "кол-во H1", "canonical": "Canonical",
+            "robots": "meta robots", "x_robots_tag": "X-Robots-Tag", "status": "код ответа", "final_url": "редирект",
+            "hreflang": "hreflang", "jsonld_types": "разметка JSON-LD", "jsonld_errors": "ошибки JSON-LD",
+            "faqpage_empty": "пустой FAQPage", "org_description_hash": "описание Organization", "text": "текст",
+            "h2": "H2", "h3": "H3", "alt": "ALT картинок", "html_bytes (>30%)": "вес HTML", "(new url)": "новая страница в списке",
+            "(dropped from list)": "убрана из списка"}
+
+
+def short_val(v, k=120):
+    if isinstance(v, (list, dict)):
+        v = json.dumps(v, ensure_ascii=False)
+    v = "—" if v in (None, "", "None") else str(v)
+    return v if len(v) <= k else v[:k] + "…"
+
+
 def r_snapshot(o, lines, urls):
     d = jl(o[0]) if o else None
     if not d:
@@ -238,11 +253,111 @@ def r_snapshot(o, lines, urls):
         short.append(f"Без meta description: {len(nod)}.")
     if noindex:
         short.append(f"С noindex: {len(noindex)}.")
-    diff = [ln.strip() for ln in stdout(lines) if re.search(r"измен|diff|→|->|было", ln, re.I)]
-    short.append(f"Изменений с прошлого снимка: {len(diff)}." if diff else "Изменений с прошлого снимка не найдено.")
+    ch = d.get("changes")
+    since = (d.get("meta", {}).get("compared_to") or "").replace("data/page-snapshot-", "").replace(".json", "")
+    if ch is None:
+        short.append("Сравнивать не с чем — это первый снимок.")
+    elif not ch:
+        short.append(f"С прошлого снимка ({since}) на страницах ничего не изменилось.")
+    else:
+        by = {}
+        for c in ch:
+            by[FIELD_RU.get(c["field"], c["field"])] = by.get(FIELD_RU.get(c["field"], c["field"]), 0) + 1
+        short.append(f"С прошлого снимка ({since}) изменений: {len(ch)} — " + ", ".join(f"{k} {v}" for k, v in by.items()) + ".")
     todo = [f"Проверить {path_short(p['url'])}: код {p.get('status')}." for p in bad] + [f"Снять noindex или убедиться, что он нужен: {path_short(p['url'])}." for p in noindex]
-    det = ("### Изменения\n" + "\n".join(f"- `{x}`" for x in diff[:40]) + "\n\n" if diff else "")
-    det += "### Страницы\n" + table(["Страница", "Код", "Title (длина)", "Description", "Время ответа"], [[path_short(p["url"]), p.get("status"), p.get("title_len"), "есть" if p.get("meta_description") else "нет", f"{p.get('response_ms')} мс"] for p in pages])
+    crit = [c for c in (ch or []) if c["field"] in ("status", "robots", "x_robots_tag", "canonical", "final_url", "faqpage_empty", "jsonld_errors")]
+    todo += [f"Проверить изменение «{FIELD_RU.get(c['field'], c['field'])}» на {path_short(c['url'])}: {short_val(c['was'], 60)} → {short_val(c['now'], 60)}." for c in crit[:6]]
+    det = ""
+    if ch:
+        simple = [c for c in ch if c["field"] not in ("text", "alt", "h2", "h3")]
+        if simple:
+            det += "### Изменения тегов\n" + table(["Страница", "Что", "Было", "Стало"], [[path_short(c["url"]), FIELD_RU.get(c["field"], c["field"]), short_val(c["was"]), short_val(c["now"])] for c in simple]) + "\n"
+        for c in [c for c in ch if c["field"] == "text"][:10]:
+            det += f"### Текст: {path_short(c['url'])} ({c['was']} → {c['now']})\n"
+            det += "".join(f"- ➕ {short_val(b, 300)}\n" for b in c.get("added", [])[:8])
+            det += "".join(f"- ➖ {short_val(b, 300)}\n" for b in c.get("removed", [])[:8]) + "\n"
+        hx = [c for c in ch if c["field"] in ("h2", "h3")]
+        if hx:
+            det += "### Подзаголовки\n" + table(["Страница", "Уровень", "Убраны", "Добавлены"], [[path_short(c["url"]), c["field"].upper(), short_val(c["was"]), short_val(c["now"])] for c in hx]) + "\n"
+        alts = [c for c in ch if c["field"] == "alt"]
+        if alts:
+            rows = []
+            for c in alts:
+                for k in sorted(set(c["was"]) | set(c["now"])):
+                    rows.append([path_short(c["url"]), k, short_val(c["was"].get(k), 80), short_val(c["now"].get(k), 80)])
+            det += "### ALT картинок\n" + table(["Страница", "Картинка", "Было", "Стало"], rows[:60]) + "\n"
+    det += "### Страницы\n" + table(["Страница", "Код", "Title (длина)", "Description", "Слов", "Время ответа"], [[path_short(p["url"]), p.get("status"), p.get("title_len"), "есть" if p.get("meta_description") else "нет", p.get("main_words", "—"), f"{p.get('response_ms')} мс"] for p in pages])
+    return short, todo, det
+
+
+def r_sitemap(o, lines, urls):
+    d = jl(o[0]) if o else None
+    if not d:
+        return [], [], ""
+    s, g = d["summary"], d.get("gsc") or {}
+    short = [f"В sitemap {n(s['urls'])} URL в {s['sitemap_files']} файлах" + (f", ошибок загрузки {s['fetch_errors']}" if s["fetch_errors"] else "") + "."]
+    if d["meta"].get("compared_to"):
+        short.append(f"С прошлой проверки: новых страниц {s['new']}, удалено {s['removed']}, обновлён lastmod у {s['lastmod_changed']}.")
+    else:
+        short.append("Это первая проверка — новые страницы начнут отслеживаться со следующего запуска.")
+    todo, det = [], ""
+    if g.get("checked"):
+        short.append(f"GSC ({g['window']}): из sitemap не получили ни одного показа {n(g['sitemap_without_impressions'])} URL; "
+                     f"страниц с показами, которых нет в sitemap, — {n(g['gsc_not_in_sitemap'])}.")
+        for sm in g.get("sitemaps", []):
+            if sm["errors"] or sm["warnings"]:
+                todo.append(f"Sitemap в GSC {sm['path']}: ошибок {sm['errors']}, предупреждений {sm['warnings']} — исправить или удалить из GSC.")
+        if g["gsc_not_in_sitemap"]:
+            todo.append(f"Добавить в sitemap страницы с показами, которых там нет ({g['gsc_not_in_sitemap']}), или проверить, что они не дубли.")
+        det += "### Sitemap в Google Search Console\n" + table(["Файл", "Скачан Google", "URL", "Ошибки", "Предупреждения"], [[sm["path"].replace("https://bixbit.io", ""), (sm["last_downloaded"] or "—")[:10], sm["submitted"], sm["errors"], sm["warnings"]] for sm in g.get("sitemaps", [])]) + "\n"
+        det += "### URL из sitemap без показов — по разделам\n" + table(["Раздел", "URL"], list(g.get("sitemap_without_impressions_by_section", {}).items())[:20]) + "\n"
+        det += "### Страницы с показами вне sitemap (топ-20)\n" + table(["Страница", "Показы", "Клики"], [[path_short(x["url"]), n(x["impressions"]), n(x["clicks"])] for x in g.get("gsc_not_in_sitemap_top", [])[:20]]) + "\n"
+    if d.get("new_urls"):
+        insp = {x["url"]: x for x in d.get("new_inspected", [])}
+        det += "### Новые страницы\n" + table(["Страница", "Статус в Google"], [[path_short(u), (insp.get(u) or {}).get("coverage_state") or "не проверялась"] for u in d["new_urls"][:50]]) + "\n"
+        todo += [f"Новая страница не в индексе Google: {path_short(x['url'])} ({x.get('coverage_state')})." for x in d.get("new_inspected", []) if x.get("verdict") not in ("PASS", None)][:8]
+    if d.get("removed_urls"):
+        det += "### Удалены из sitemap\n" + "".join(f"- {path_short(u)}\n" for u in d["removed_urls"][:50]) + "\n"
+    return short, todo, det
+
+
+def r_site_diff(o, lines, urls):
+    f = sorted(glob.glob(os.path.join(ROOT, "data/site-diff/site-diff-*.json")))
+    d = jl(os.path.relpath(f[-1], ROOT)) if f else None
+    if not d:
+        return [], [], ""
+    s, m, c = d["summary"], d["meta"], d["changes"]
+    short = [f"Сравнение краулов {m['old_date']} → {m['new_date']}: страниц {n(s['pages_old'])} → {n(s['pages_new'])}.",
+             f"Новых страниц {s['new_pages']}, пропало {s['gone_pages']}, сменился код ответа у {s['status_changed']}."
+             + (f" Ещё {s.get('gone_fetch_errors', 0)} страниц не ответили при краулинге (сбой загрузки, не удаление) и {s.get('gone_pagination', 0)} — пагинация и теги блога." if s.get("gone_fetch_errors") or s.get("gone_pagination") else ""),
+             f"Изменились: title {s['title_changed']}, description {s['description_changed']}, H1 {s['h1_changed']}, canonical {s['canonical_changed']}, "
+             f"noindex {s['noindex_changed']}, текст {s['text_changed']}, H2 {s['h2_changed']}, ALT {s['alt_changed']}, разметка {s['jsonld_changed']}."]
+    if not s.get("text_compared"):
+        short.append("Текст, H2 и ALT по значениям пока не сравнивались — в прошлом краулинге их не было; полное сравнение — со следующего краула.")
+    todo = [f"Проверить, почему пропала страница {path_short(x['url'])} (сейчас: {x['now']})." for x in d["gone_pages"] if x.get("kind", "gone") == "gone"][:8]
+    todo += [f"Новая страница {path_short(x['url'])}: " + ("нет в sitemap" if not x.get("in_sitemap") else "в sitemap") + (", noindex" if x.get("noindex") else "") + "." for x in d["new_pages"][:8]]
+    todo += [f"Проверить смену noindex на {path_short(x['url'])}: {x['old']} → {x['new']}." for x in c.get("noindex", [])[:5]]
+    det = ""
+    if d["new_pages"]:
+        det += "### Новые страницы\n" + table(["Страница", "Title", "В sitemap", "Входящих ссылок"], [[path_short(x["url"]), short_val(x["title"], 70), "да" if x["in_sitemap"] else "нет", x.get("inlinks")] for x in d["new_pages"][:50]]) + "\n"
+    if d["gone_pages"]:
+        kind_ru = {"gone": "удалена / ошибка", "fetch_error": "не ответила при краулинге", "pagination": "пагинация / теги"}
+        det += "### Пропавшие страницы\n" + table(["Страница", "Title", "Сейчас", "Тип"], [[path_short(x["url"]), short_val(x["title"], 70), x["now"], kind_ru.get(x.get("kind", "gone"))] for x in d["gone_pages"][:50]]) + "\n"
+    for k, lbl in (("title", "Title"), ("description", "Description"), ("h1", "H1"), ("canonical", "Canonical"), ("noindex", "noindex")):
+        if c.get(k):
+            det += f"### {lbl}\n" + table(["Страница", "Было", "Стало"], [[path_short(x["url"]), short_val(x["old"]), short_val(x["new"])] for x in c[k][:40]]) + "\n"
+    if c.get("text"):
+        det += "### Изменился текст\n" + table(["Страница", "Слов было", "Слов стало", "Δ"], [[path_short(x["url"]), x["words_old"], x["words_new"], x["delta"]] for x in sorted(c["text"], key=lambda x: -abs(x["delta"]))[:40]]) + "\n"
+    if c.get("alt"):
+        rows = []
+        for x in c["alt"][:40]:
+            for y in x.get("changed", []):
+                rows.append([path_short(x["url"]), y["img"], short_val(y["old"], 60), short_val(y["new"], 60)])
+            for y in x.get("added", []):
+                rows.append([path_short(x["url"]), y["img"], "—", short_val(y["alt"], 60)])
+            if "no_alt_old" in x:
+                rows.append([path_short(x["url"]), "без ALT", x["no_alt_old"], x["no_alt_new"]])
+        det += "### ALT картинок\n" + table(["Страница", "Картинка", "Было", "Стало"], rows[:60]) + "\n"
     return short, todo, det
 
 
@@ -264,6 +379,10 @@ def r_crawl(o, lines, urls):
     main = [(k, c) for k, c in counts if c and k in ("error_pages", "broken_links", "faqpage_empty", "jsonld_errors", "title_missing", "orphans", "sitemap_bad")]
     todo = [f"{CRAWL_RU.get(k, k).capitalize()}: {n(c)} — список в data/{os.path.basename(base)}/issues/{k}.csv." for k, c in main]
     det = "### Все проверки\n" + table(["Проверка", "Найдено"], [[CRAWL_RU.get(k, k), n(c)] for k, c in counts])
+    sd = sorted(glob.glob(os.path.join(ROOT, "data/site-diff/site-diff-*.json")))
+    if sd and os.path.basename(sd[-1])[10:20] == os.path.basename(base)[6:]:
+        s2, t2, d2 = r_site_diff(o, lines, urls)
+        short += s2; todo += t2; det += "\n## Что изменилось на сайте\n\n" + d2
     return short, todo, det
 
 
@@ -362,9 +481,171 @@ def r_stdout(o, lines, urls):
     return short, todo, ""
 
 
+def r_quarterly(o, lines, urls):
+    out = stdout(lines)
+    path = next((x.split("-> ", 1)[1].strip() for x in out if x.startswith("-> ")), None)
+    head = next((x.strip() for x in out if "квартал" in x and " vs " in x), "")
+    summ = next((x.strip() for x in out if x.startswith("Google: клики")), "")
+    short = [x for x in (head, summ) if x]
+    if path:
+        short.append(f"Отчёт с графиками и таблицами: [{path}](../../{path}) — откройте его в «Документах».")
+    return short, [], ""
+
+
+# ---------- «Что изменилось с прошлого запуска» ----------
+
+def prev_of(path):
+    """Предыдущий файл той же серии: data/x-2026-10-16.json → последний data/x-YYYY-MM-DD.json раньше по дате."""
+    m = re.search(r"(\d{4}-\d{2}-\d{2})", path or "")
+    if not m:
+        return None
+    pat = path.replace(m.group(1), "????-??-??")
+    cands = sorted(f for f in glob.glob(os.path.join(ROOT, pat)) if re.search(r"\d{4}-\d{2}-\d{2}", f) and
+                   re.search(r"(\d{4}-\d{2}-\d{2})", os.path.basename(f)).group(1) < m.group(1))
+    return os.path.relpath(cands[-1], ROOT) if cands else None
+
+
+def delta(new, old, kind="n"):
+    if old in (None, 0) or new is None:
+        return f"{n(new) if kind == 'n' else new}"
+    d = new - old
+    rel = d / old * 100 if old else 0
+    arrow = "▲" if d > 0 else ("▼" if d < 0 else "=")
+    if kind == "pct":
+        return f"{new:.2f}% ({arrow} {d:+.2f} п.п.)"
+    return f"{n(new)} ({arrow} {'+' if d > 0 else ''}{n(d)}, {rel:+.0f}%)"
+
+
+def date_of(path):
+    m = re.search(r"(\d{4}-\d{2}-\d{2})", path or "")
+    return m.group(1) if m else "?"
+
+
+def ch_gsc(o):
+    rows = []
+    for p in o:
+        q = prev_of(p)
+        if not q:
+            continue
+        a, b = jl(p), jl(q)
+        dims = ",".join(a["meta"].get("dimensions") or [])
+        if dims == "country":
+            ca, ia = sum(r["clicks"] for r in a["rows"]), sum(r["impressions"] for r in a["rows"])
+            cb, ib = sum(r["clicks"] for r in b["rows"]), sum(r["impressions"] for r in b["rows"])
+            rows += [["Клики Google (28 дн.)", n(cb), delta(ca, cb)], ["Показы Google", n(ib), delta(ia, ib)],
+                     ["CTR", f"{cb / ib * 100:.2f}%" if ib else "—", delta(ca / ia * 100 if ia else 0, cb / ib * 100 if ib else 0, "pct")]]
+            us_a = next((r for r in a["rows"] if r["country"] == "usa"), None); us_b = next((r for r in b["rows"] if r["country"] == "usa"), None)
+            if us_a and us_b:
+                rows.append(["Клики США", n(us_b["clicks"]), delta(us_a["clicks"], us_b["clicks"])])
+        elif dims == "page":
+            pa = {r["page"]: r["clicks"] for r in a["rows"]}; pb = {r["page"]: r["clicks"] for r in b["rows"]}
+            mv = sorted(((u, pa.get(u, 0) - pb.get(u, 0)) for u in set(pa) | set(pb)), key=lambda x: x[1])
+            for u, d in mv[:3]:
+                if d < 0:
+                    rows.append([f"Просела: {path_short(u)}", n(pb.get(u, 0)), delta(pa.get(u, 0), pb.get(u, 0))])
+            for u, d in mv[::-1][:3]:
+                if d > 0:
+                    rows.append([f"Выросла: {path_short(u)}", n(pb.get(u, 0)), delta(pa.get(u, 0), pb.get(u, 0))])
+    return rows, (date_of(prev_of(o[0])) if o and prev_of(o[0]) else None)
+
+
+def ch_ga4(o):
+    rows = []
+    for p in o:
+        q = prev_of(p)
+        if not q:
+            continue
+        a, b = jl(p), jl(q)
+        if a["meta"].get("preset") == "channels":
+            sa, sb = sum(r["sessions"] for r in a["rows"]), sum(r["sessions"] for r in b["rows"])
+            rows.append(["Сессии GA4 (28 дн.)", n(sb), delta(sa, sb)])
+            for ch in ("Organic Search", "Direct", "Referral"):
+                ra = next((r["sessions"] for r in a["rows"] if r["sessionDefaultChannelGroup"] == ch), None)
+                rb = next((r["sessions"] for r in b["rows"] if r["sessionDefaultChannelGroup"] == ch), None)
+                if ra is not None and rb is not None:
+                    rows.append([f"— {ch}", n(rb), delta(ra, rb)])
+            ka, kb = sum(r["keyEvents"] for r in a["rows"]), sum(r["keyEvents"] for r in b["rows"])
+            rows.append(["Ключевые события", n(kb), delta(ka, kb)])
+    return rows, (date_of(prev_of(o[0])) if o and prev_of(o[0]) else None)
+
+
+def ch_bing(o):
+    rows = []
+    for p in o:
+        q = prev_of(p)
+        if not q:
+            continue
+        a, b = jl(p), jl(q)
+        if a["meta"]["report"] == "crawl":
+            la = sorted(a["data"], key=lambda r: r.get("Date", ""))[-1]; lb = sorted(b["data"], key=lambda r: r.get("Date", ""))[-1]
+            if la.get("InIndex") and lb.get("InIndex"):
+                rows.append(["Страниц в индексе Bing", n(lb["InIndex"]), delta(la["InIndex"], lb["InIndex"])])
+    return rows, (date_of(prev_of(o[0])) if o and prev_of(o[0]) else None)
+
+
+def ch_serp(o):
+    if not o or not prev_of(o[0]):
+        return [], None
+    a, b = jl(o[0])["summary"], jl(prev_of(o[0]))["summary"]
+    return [["Запросов с AI Overview", b["with_aio"], delta(a["with_aio"], b["with_aio"])],
+            ["AI Overview цитирует bixbit", b["aio_cites_bixbit"], delta(a["aio_cites_bixbit"], b["aio_cites_bixbit"])],
+            ["Featured snippet у bixbit", b["fs_bixbit"], delta(a["fs_bixbit"], b["fs_bixbit"])]], date_of(prev_of(o[0]))
+
+
+def ch_backlinks(o):
+    if not o or not prev_of(o[0]):
+        return [], None
+    a, b = jl(o[0])["summaries"].get("bixbit.io", {}), jl(prev_of(o[0]))["summaries"].get("bixbit.io", {})
+    return [["Рейтинг ссылок (0–100)", b.get("rank"), delta(a.get("rank"), b.get("rank"))],
+            ["Ссылающихся доменов", n(b.get("referring_domains")), delta(a.get("referring_domains"), b.get("referring_domains"))],
+            ["Обратных ссылок", n(b.get("backlinks")), delta(a.get("backlinks"), b.get("backlinks"))]], date_of(prev_of(o[0]))
+
+
+def ch_index(o):
+    if not o or not prev_of(o[0]):
+        return [], None
+    a, b = jl(o[0])["summary"], jl(prev_of(o[0]))["summary"]
+    return [["Ключевых страниц в индексе", b["pass"], delta(a["pass"], b["pass"])],
+            ["Чужой canonical у Google", b.get("canonical_mismatch", 0), delta(a.get("canonical_mismatch", 0), b.get("canonical_mismatch", 0))]], date_of(prev_of(o[0]))
+
+
+def ch_cannibal(o):
+    if not o or not prev_of(o[0]):
+        return [], None
+    a, b = jl(o[0])["summary"], jl(prev_of(o[0]))["summary"]
+    return [["Конфликты внутри языка", b["same_locale"], delta(a["same_locale"], b["same_locale"])],
+            ["Конфликты между языками", b["cross_locale"], delta(a["cross_locale"], b["cross_locale"])]], date_of(prev_of(o[0]))
+
+
+def ch_crawl(o):
+    f = sorted(glob.glob(os.path.join(ROOT, "data/crawl-????-??-??/summary.json")))
+    if len(f) < 2:
+        return [], None
+    a, b = json.load(open(f[-1])), json.load(open(f[-2]))
+    sa, sb = a.get("status_codes", {}), b.get("status_codes", {})
+    return [["HTML-страниц", n(b["html_pages"]), delta(a["html_pages"], b["html_pages"])],
+            ["Индексируемых", n(b["indexable"]), delta(a["indexable"], b["indexable"])],
+            ["Ответов 404", n(sb.get("404", 0)), delta(sa.get("404", 0), sb.get("404", 0))]], os.path.basename(os.path.dirname(f[-2]))[6:]
+
+
+def ch_sitemap(o):
+    if not o or not prev_of(o[0]):
+        return [], None
+    a, b = jl(o[0])["summary"], jl(prev_of(o[0]))["summary"]
+    rows = [["URL в sitemap", n(b["urls"]), delta(a["urls"], b["urls"])]]
+    if a.get("without_impressions") is not None and b.get("without_impressions") is not None:
+        rows.append(["URL из sitemap без показов", n(b["without_impressions"]), delta(a["without_impressions"], b["without_impressions"])])
+    return rows, date_of(prev_of(o[0]))
+
+
+CHANGES = {"gsc": ch_gsc, "ga4": ch_ga4, "bing": ch_bing, "serp-features": ch_serp, "backlinks": ch_backlinks,
+           "index-check": ch_index, "cannibal": ch_cannibal, "crawl": ch_crawl, "sitemap": ch_sitemap}
+
+
 FORMATTERS = {"index-check": r_index_check, "yandex-health": r_yandex, "yandex-queries": r_yandex, "gsc": r_gsc, "ga4": r_ga4,
               "bing": r_bing, "snapshot": r_snapshot, "crawl": r_crawl, "cannibal": r_cannibal, "serp-features": r_serp_features,
-              "rank": r_rank, "backlinks": r_backlinks}
+              "rank": r_rank, "backlinks": r_backlinks, "sitemap": r_sitemap, "site-diff": r_site_diff,
+              "quarterly": r_quarterly, "quarterly-qtd": r_quarterly}
 
 
 def build(cmd, title, status, lines, started=None, ended=None, urls=None):
@@ -388,6 +669,16 @@ def build(cmd, title, status, lines, started=None, ended=None, urls=None):
           "## Коротко", ""] + [f"- {s}" for s in (short or ["Команда отработала, содержательных данных в выводе нет."])] + [""]
     if todo:
         md += ["## Что сделать", ""] + [f"{i}. {t}" for i, t in enumerate(todo[:12], 1)] + [""]
+    if cmd in CHANGES:
+        try:
+            crow, since = CHANGES[cmd](o)
+        except Exception as e:  # сравнение не должно ронять отчёт
+            crow, since = [], f"ошибка сравнения: {type(e).__name__}"
+        md += ["## Что изменилось с прошлого запуска", ""]
+        if crow:
+            md += [f"Сравнение с запуском от {since}.", "", table(["Показатель", "Было", "Стало"], crow), ""]
+        else:
+            md += ["Прошлого запуска для сравнения нет — сравнение появится со следующего." if not since or "ошибка" not in str(since) else str(since), ""]
     if det.strip():
         md += ["## Подробности", "", det.strip(), ""]
     if o:

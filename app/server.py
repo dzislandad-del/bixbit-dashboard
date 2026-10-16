@@ -60,14 +60,23 @@ COMMANDS = [
          steps=[["./scripts/yandex-query.py", "--report", "queries", "--days", "28", "--out", "data/yandex/yandex-queries-{today}.json"],
                 ["./scripts/yandex-query.py", "--report", "indexing", "--days", "28", "--out", "data/yandex/yandex-indexing-{today}.json"]], cost=0),
     # Аудит
-    dict(id="snapshot", group="Аудит", title="Снимок страниц (head, JSON-LD)", desc="Title, description, canonical, hreflang, schema 27 ключевых URL + diff с прошлым снимком.",
+    dict(id="snapshot", group="Аудит", title="Снимок ключевых страниц и изменения", desc="Title, description, H1–H3, текст, ALT, canonical, hreflang, разметка ключевых URL + что изменилось с прошлого снимка (вплоть до абзацев текста).",
          steps=[["./scripts/page-snapshot.py", "--out", "data/page-snapshot-{today}.json"]], cost=0),
-    dict(id="crawl", group="Аудит", title="Полный краул сайта", desc="~1 900 URL, 15–20 минут: 404, битые ссылки, редиректы, ALT, дубли, перелинковка.",
-         steps=[["./scripts/crawl.py", "--check-external"]], cost=0, long=True),
+    dict(id="crawl", group="Аудит", title="Полный краул сайта и изменения", desc="~1 900 URL, 15–20 минут: 404, битые ссылки, редиректы, ALT, дубли, перелинковка + сравнение с прошлым краулом (новые/пропавшие страницы, title, description, текст, ALT).",
+         steps=[["./scripts/crawl.py", "--check-external"], ["./scripts/site-diff.py"]], cost=0, long=True),
+    dict(id="site-diff", group="Аудит", title="Изменения на всём сайте", desc="Сравнить два последних краула: новые и пропавшие страницы, коды ответа, title, description, H1, H2, текст, ALT, canonical, noindex.",
+         steps=[["./scripts/site-diff.py"]], cost=0),
+    dict(id="sitemap", group="Аудит", title="Sitemap ↔ GSC и новые страницы", desc="Новые и удалённые URL в sitemap, проверка индексации новых, страницы без показов в Google, страницы с показами вне sitemap, ошибки sitemap в GSC.",
+         steps=[["./scripts/sitemap-monitor.py", "--out", "data/sitemap/sitemap-{today}.json"]], cost=0),
     dict(id="cannibal", group="Аудит", title="Каннибализация", desc="Запросы, по которым показываются несколько страниц (GSC, 28 дней).",
          steps=[["./scripts/cannibalization.py", "--out", "data/cannibalization/cannibal-{today}.json"]], cost=0),
     dict(id="hreflang", group="Аудит", title="Проверка hreflang", desc="По последнему снимку страниц.",
          steps=[["./scripts/hreflang-check.py", "{latest_snapshot}", "--langs", "en,ru,es"]], cost=0, warn_codes=[1]),
+    # Отчёты
+    dict(id="quarterly", group="Отчёты", title="Квартальный отчёт", desc="HTML с графиками и таблицами: Google (клики, показы, страны, страницы, запросы, позиции), GA4, Bing, AI Overview, техсостояние — сравнение с прошлым кварталом.",
+         steps=[["./scripts/quarterly-report.py", "--formats", "html,pdf,xlsx,md"]], cost=0),
+    dict(id="quarterly-qtd", group="Отчёты", title="Текущий квартал на сегодня", desc="То же, что квартальный отчёт, для текущего квартала по сегодняшний день против того же отрезка прошлого квартала.",
+         steps=[["./scripts/quarterly-report.py", "--to-date", "--refresh", "--formats", "html,pdf,xlsx,md"]], cost=0),
     # Платные (DataForSEO)
     dict(id="serp-features", group="Позиции и AI (платно)", title="AI Overview / сниппеты", desc="Цитирует ли AIO bixbit по 30 ключам.",
          steps=[["./scripts/serp-features.py", "--out", "data/serp-features/serp-features-{today}.json"]], cost=0.10, confirm=True),
@@ -132,11 +141,31 @@ def _run_steps(job):
     job["status"], job["rc"], job["ended"] = ("warn" if job.get("warned") else "done"), 0, time.time()
 
 
-def start_job(cid, urls):
+def quarters():
+    """Кварталы для отчёта: текущий (на сегодня) + 6 завершённых; какие файлы уже созданы."""
+    t = dt.date.today()
+    y, q = t.year, (t.month - 1) // 3 + 1
+    res = []
+    for i in range(7):
+        qid = f"{y}Q{q}" + ("-qtd" if i == 0 else "")
+        base = os.path.join(ROOT, "reports", f"quarterly-{y}-Q{q}" + ("-to-date" if i == 0 else ""))
+        files = {f: os.path.relpath(base + "." + f, ROOT) for f in ("html", "pdf", "xlsx", "md") if os.path.exists(base + "." + f)}
+        mt = max((os.path.getmtime(base + "." + f) for f in files), default=None)
+        res.append({"id": qid, "label": f"{['I', 'II', 'III', 'IV'][q - 1]} квартал {y}" + (" — на сегодня" if i == 0 else ""),
+                    "files": files, "updated": dt.datetime.fromtimestamp(mt).strftime("%d.%m.%Y %H:%M") if mt else None})
+        y, q = (y - 1, 4) if q == 1 else (y, q - 1)
+    return res
+
+
+QUARTER_RE = re.compile(r"^\d{4}Q[1-4](-qtd)?$")
+FORMATS = ("pdf", "xlsx", "md")
+
+
+def start_job(cid, urls, steps_override=None, title=None):
     c = CMD[cid]
     snap = latest("data/page-snapshot-*.json") or ""
     steps = []
-    for s in c["steps"]:
+    for s in (steps_override or c["steps"]):
         argv = []
         for a in s:
             if a == "{urls}":
@@ -144,7 +173,7 @@ def start_job(cid, urls):
             else:
                 argv.append(a.replace("{today}", today()).replace("{latest_snapshot}", os.path.relpath(snap, ROOT) if snap else ""))
         steps.append(argv)
-    job = {"id": uuid.uuid4().hex[:10], "cmd": cid, "title": c["title"], "steps": steps, "lines": [],
+    job = {"id": uuid.uuid4().hex[:10], "cmd": cid, "title": title or c["title"], "steps": steps, "lines": [],
            "status": "running", "rc": None, "started": time.time(), "ended": None, "warn_codes": tuple(c.get("warn_codes", ())),
            "urls": urls, "report": None}
     with JOBS_LOCK:
@@ -336,6 +365,8 @@ class H(BaseHTTPRequestHandler):
         if u.path == "/api/commands":
             return self.send(200, {"scripts": [{k: v for k, v in c.items() if k != "steps"} | {"steps": [" ".join(s) for s in c["steps"]], "last_report": last_report(c["id"])} for c in COMMANDS],
                                    "claude": claude_commands()})
+        if u.path == "/api/quarters":
+            return self.send(200, quarters())
         if u.path == "/api/search":
             return self.send(200, search(q1("q")))
         if u.path in ("/api/file", "/api/raw", "/api/download"):
@@ -387,6 +418,18 @@ class H(BaseHTTPRequestHandler):
             if any(j["cmd"] == c["id"] and j["status"] == "running" for j in JOBS.values()):
                 return self.send(409, {"error": "эта команда уже выполняется"})
             return self.send(200, {"job": start_job(c["id"], urls)["id"]})
+        if u.path == "/api/quarterly":
+            qid = str(body.get("quarter") or "")
+            fmts = [f for f in (body.get("formats") or []) if f in FORMATS]
+            if not QUARTER_RE.match(qid):
+                return self.send(400, {"error": "квартал в формате 2026Q3"})
+            if any(j["cmd"].startswith("quarterly") and j["status"] == "running" for j in JOBS.values()):
+                return self.send(409, {"error": "квартальный отчёт уже формируется"})
+            argv = ["./scripts/quarterly-report.py", "--quarter", qid[:6], "--formats", ",".join(["html"] + fmts)]
+            if qid.endswith("-qtd"):
+                argv += ["--to-date", "--refresh"]
+            lbl = next((x["label"] for x in quarters() if x["id"] == qid), qid)
+            return self.send(200, {"job": start_job("quarterly", [], [argv], f"Квартальный отчёт: {lbl}")["id"]})
         if u.path == "/api/export":
             full = safe_path(body.get("path"))
             if not full or not os.path.isfile(full):

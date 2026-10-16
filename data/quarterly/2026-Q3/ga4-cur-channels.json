@@ -1,0 +1,114 @@
+{
+ "meta": {
+  "property": "320129421",
+  "start": "2026-07-01",
+  "end": "2026-09-30",
+  "preset": "channels",
+  "dimensions": [
+   "sessionDefaultChannelGroup"
+  ],
+  "metrics": [
+   "sessions",
+   "engagedSessions",
+   "keyEvents",
+   "totalUsers"
+  ],
+  "filter": null,
+  "rows": 13,
+  "row_count_total": 13,
+  "pulled_at": "2026-10-16T17:35:14"
+ },
+ "rows": [
+  {
+   "sessionDefaultChannelGroup": "Paid Search",
+   "sessions": 111967,
+   "engagedSessions": 38633,
+   "keyEvents": 2877,
+   "totalUsers": 96855
+  },
+  {
+   "sessionDefaultChannelGroup": "Cross-network",
+   "sessions": 93766,
+   "engagedSessions": 69817,
+   "keyEvents": 94139,
+   "totalUsers": 71449
+  },
+  {
+   "sessionDefaultChannelGroup": "Direct",
+   "sessions": 14644,
+   "engagedSessions": 7238,
+   "keyEvents": 1383,
+   "totalUsers": 11930
+  },
+  {
+   "sessionDefaultChannelGroup": "Unassigned",
+   "sessions": 11679,
+   "engagedSessions": 1612,
+   "keyEvents": 1267,
+   "totalUsers": 10993
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Search",
+   "sessions": 9420,
+   "engagedSessions": 5564,
+   "keyEvents": 2983,
+   "totalUsers": 5073
+  },
+  {
+   "sessionDefaultChannelGroup": "Paid Other",
+   "sessions": 7554,
+   "engagedSessions": 3034,
+   "keyEvents": 948,
+   "totalUsers": 7212
+  },
+  {
+   "sessionDefaultChannelGroup": "Referral",
+   "sessions": 5830,
+   "engagedSessions": 1967,
+   "keyEvents": 974,
+   "totalUsers": 4732
+  },
+  {
+   "sessionDefaultChannelGroup": "Display",
+   "sessions": 940,
+   "engagedSessions": 161,
+   "keyEvents": 2,
+   "totalUsers": 850
+  },
+  {
+   "sessionDefaultChannelGroup": "Email",
+   "sessions": 865,
+   "engagedSessions": 377,
+   "keyEvents": 0,
+   "totalUsers": 862
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Video",
+   "sessions": 133,
+   "engagedSessions": 87,
+   "keyEvents": 43,
+   "totalUsers": 72
+  },
+  {
+   "sessionDefaultChannelGroup": "Organic Social",
+   "sessions": 132,
+   "engagedSessions": 65,
+   "keyEvents": 20,
+   "totalUsers": 93
+  },
+  {
+   "sessionDefaultChannelGroup": "AI Assistant",
+   "sessions": 124,
+   "engagedSessions": 67,
+   "keyEvents": 52,
+   "totalUsers": 80
+  },
+  {
+   "sessionDefaultChannelGroup": "Paid Social",
+   "sessions": 1,
+   "engagedSessions": 1,
+   "keyEvents": 1,
+   "totalUsers": 1
+  }
+ ]
+}

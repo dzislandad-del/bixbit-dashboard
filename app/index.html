@@ -88,6 +88,16 @@ pre.json{font:12.5px/1.5 var(--mono);white-space:pre-wrap;overflow-wrap:anywhere
 .repbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:10px;font-size:13px;color:var(--muted)}
 #logbox summary{cursor:pointer;color:var(--muted);font-size:14px;margin:6px 0}
 .job[aria-current="true"]{border-color:var(--accent)}
+.qform{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:14px;max-width:720px}
+.qform label{display:grid;gap:6px;font-size:13px;color:var(--muted)} .qform select{max-width:340px;padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:14px var(--body)}
+.qform fieldset{border:0;padding:0;margin:0;display:grid;gap:8px} .qform legend{font-size:13px;color:var(--muted);margin-bottom:6px}
+.qform .chk{display:flex;gap:8px;align-items:baseline;color:var(--text);font-size:14px} .qform .chk span{color:var(--faint);font-size:12.5px}
+.note{color:var(--faint);font-size:12.5px}
+.qlist{display:grid;gap:8px;max-width:900px}
+.qitem{display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.qitem b{display:block} .qitem small{color:var(--faint);font:12px var(--mono)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+a.btn{text-decoration:none;display:inline-block} .dlbar{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:6px 0}
 .lastrep{font-size:13px;color:var(--accent-text,var(--accent))}
 .console{background:#0c0a0d;color:#e9e3ea;border:1px solid var(--line);border-radius:10px;font:12.5px/1.5 var(--mono);padding:12px 14px;white-space:pre-wrap;overflow:auto;max-height:420px;min-height:80px}
 .jobs{display:flex;flex-direction:column;gap:6px}
@@ -121,6 +131,7 @@ pre.json{font:12.5px/1.5 var(--mono);white-space:pre-wrap;overflow-wrap:anywhere
       <a href="#/overview" data-v="overview">Обзор <span class="b" id="alertBadge" hidden></span></a>
       <a href="#/docs" data-v="docs">Документы</a>
       <a href="#/commands" data-v="commands">Команды</a>
+      <a href="#/quarterly" data-v="quarterly">Квартальный отчёт</a>
       <a href="#/jobs" data-v="jobs">Запуски</a>
       <a href="#/notes" data-v="notes">Заметки</a>
     </nav>
@@ -161,8 +172,8 @@ async function viewOverview(){
   $('#pins').innerHTML=PINS.filter(p=>have.has(p[0])).map(p=>`<button class="pin" data-p="${esc(p[0])}"><b>${esc(p[1])}</b><span>${esc(p[0])}</span></button>`).join('');
   $('#pins').onclick=e=>{const b=e.target.closest('.pin');if(b)location.hash='#/doc/'+encodeURIComponent(b.dataset.p)};
   const Q=[['connectors','Проверить источники'],['index-check','Индексация Google'],['yandex-health','Диагностика Яндекса'],['snapshot','Снимок страниц']];
-  $('#quick').innerHTML=Q.map(q=>`<button class="pin" data-c="${q[0]}"><b>${q[1]}</b><span>запустить</span></button>`).join('');
-  $('#quick').onclick=e=>{const b=e.target.closest('.pin');if(b)runCmd(b.dataset.c)};
+  $('#quick').innerHTML=Q.map(q=>`<button class="pin" data-c="${q[0]}"><b>${q[1]}</b><span>запустить</span></button>`).join('')+'<button class="pin" data-go="#/quarterly"><b>Квартальный отчёт</b><span>создать и скачать: HTML, PDF, Excel, Markdown</span></button>';
+  $('#quick').onclick=e=>{const b=e.target.closest('.pin');if(!b)return;if(b.dataset.go){location.hash=b.dataset.go;return}runCmd(b.dataset.c)};
 }
 
 /* ---------- documents ---------- */
@@ -246,6 +257,25 @@ async function runCmd(id,urls){
   try{const r=await post('/api/run',{id,urls,confirmed});location.hash='#/jobs/'+r.job}catch(e){toast(e.message+(e.data&&e.data.bad&&e.data.bad.length?': '+e.data.bad.join(' '):''))}
 }
 
+/* ---------- quarterly report ---------- */
+const FMT=[['html','HTML','интерактивный, с графиками'],['pdf','PDF','для печати и рассылки'],['xlsx','Excel','все таблицы + данные графиков'],['md','Markdown','для Notion и документов']];
+function dlButtons(files){return FMT.filter(f=>files[f[0]]).map(f=>`<a class="btn dl" href="/api/download?path=${encodeURIComponent(files[f[0]])}" download>⬇ ${f[1]}</a>`).join('')+(files.html?`<a class="btn" href="#/doc/${encodeURIComponent(files.html)}">Открыть</a>`:'')}
+async function viewQuarterly(){
+  setNav('quarterly');
+  const Q=await api('/api/quarters');
+  const opts=Q.map((q,i)=>`<option value="${q.id}"${i===1?' selected':''}>${esc(q.label)}</option>`).join('');
+  $('#main').innerHTML=`<div class="view"><h1>Квартальный отчёт</h1>
+   <p class="lede">Сравнение квартала с предыдущим: Google (клики, показы, CTR, позиции, страны, страницы, запросы), GA4, Bing, AI Overview, техническое состояние. Данные берутся из GSC, GA4 и Bing на момент создания и из снимков в <code>data/</code>. Занимает 1–3 минуты.</p>
+   <div class="qform">
+     <label>Квартал<select id="qq">${opts}</select></label>
+     <fieldset><legend>Форматы</legend>${FMT.map(f=>`<label class="chk"><input type="checkbox" value="${f[0]}" ${f[0]==='html'?'checked disabled':'checked'}> <b>${f[1]}</b> <span>${f[2]}</span></label>`).join('')}</fieldset>
+     <div class="row"><button class="btn primary" id="qgo">Создать отчёт</button><span class="note">Платных запросов нет.</span></div>
+   </div>
+   <h2>Готовые отчёты</h2><div class="qlist">${Q.map(q=>`<div class="qitem"><div><b>${esc(q.label)}</b><small>${q.updated?'создан '+esc(q.updated):'ещё не создавался'}</small></div><div class="row">${Object.keys(q.files).length?dlButtons(q.files):''}</div></div>`).join('')}</div></div>`;
+  $('#qgo').onclick=async()=>{const formats=[...document.querySelectorAll('.qform input[type=checkbox]:checked')].map(x=>x.value).filter(x=>x!=='html');
+    try{const r=await post('/api/quarterly',{quarter:$('#qq').value,formats});location.hash='#/jobs/'+r.job}catch(e){toast(e.message)}};
+}
+
 /* ---------- jobs ---------- */
 let pollT=null;
 const JOB_ST={done:'готово',error:'ошибка',warn:'замечания',running:'идёт'};
@@ -274,6 +304,9 @@ async function viewJobs(id){
     if(j.lines.length){con.textContent+=j.lines.join('\n')+'\n';con.scrollTop=con.scrollHeight}next=j.next;
     if(j.status==='running'){sawRunning=true;pollT=setTimeout(tick,1000)}
     else{S.tree=[];S.status=null;S.cmds=null;await drawJobList(id);if(j.report){await showReport(j.report);$('#logbox').open=false}
+      const made=[...con.textContent.matchAll(/^-> (reports\/[^\s]+\.(html|pdf|xlsx|md))$/gm)].map(m=>m[1]);
+      const files={};made.filter(p=>!p.startsWith('reports/runs/')).forEach(p=>files[p.split('.').pop()]=p);
+      if(Object.keys(files).length){const bar=document.createElement('div');bar.className='repbar dlbar';bar.innerHTML='<span>Файлы отчёта:</span><span class="row">'+dlButtons(files)+'</span>';$('#rep').before(bar)}
       if(sawRunning&&j.status!=='error'){toast('Готово: '+j.title+(j.report?' — отчёт сохранён':''))}}};
   tick();
 }
@@ -323,6 +356,7 @@ function route(){
   if(h.startsWith('doc/'))return viewDocs(h.slice(4));
   if(h==='docs')return viewDocs();
   if(h==='commands')return viewCommands();
+  if(h==='quarterly')return viewQuarterly();
   if(h.startsWith('jobs'))return viewJobs(h.split('/')[1]);
   if(h==='notes')return viewNotes();
   return viewOverview();

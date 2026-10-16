@@ -1,0 +1,263 @@
+{
+ "meta": {
+  "created_at": "2026-10-16T17:37:29",
+  "old": "data/crawl-2026-09-28",
+  "new": "data/crawl-2026-10-10",
+  "old_date": "2026-09-28",
+  "new_date": "2026-10-10"
+ },
+ "summary": {
+  "pages_old": 1760,
+  "pages_new": 1739,
+  "new_pages": 3,
+  "gone_pages": 0,
+  "gone_fetch_errors": 0,
+  "gone_pagination": 24,
+  "status_changed": 9,
+  "title_changed": 0,
+  "description_changed": 0,
+  "h1_changed": 0,
+  "canonical_changed": 0,
+  "noindex_changed": 0,
+  "robots_changed": 0,
+  "in_sitemap_changed": 0,
+  "html_lang_changed": 0,
+  "text_changed": 0,
+  "h2_changed": 0,
+  "alt_changed": 0,
+  "jsonld_changed": 0,
+  "hreflang_changed": 0,
+  "text_compared": false
+ },
+ "new_pages": [
+  {
+   "url": "https://bixbit.io/en/blog/post/asic-and-pool-what-to-check-before-connecting",
+   "title": "ASIC Mining Pool Setup: What to Check | BiXBiT",
+   "in_sitemap": true,
+   "noindex": false,
+   "inlinks": 115
+  },
+  {
+   "url": "https://bixbit.io/ru/blog/post/asic-i-pul-chto-proverit-pered-podklyucheniem",
+   "title": "Как подключить ASIC к пулу: настройки и ошибки | BiXBiT",
+   "in_sitemap": true,
+   "noindex": false,
+   "inlinks": 745
+  },
+  {
+   "url": "https://bixbit.io/ru/blog/tags/tehnologii?page=31",
+   "title": "Статьи на тему Технологии| Блог BiXBiT - Страница 31",
+   "in_sitemap": false,
+   "noindex": true,
+   "inlinks": 32
+  }
+ ],
+ "gone_pages": [
+  {
+   "url": "https://bixbit.io/ru/blog?page=44",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 44",
+   "now": 0,
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=60",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 60",
+   "now": 0,
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=63",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 63",
+   "now": 0,
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=64",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 64",
+   "now": 0,
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=65",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 65",
+   "now": 0,
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=66",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 66",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=67",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 67",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=68",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 68",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=69",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 69",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=70",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 70",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=71",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 71",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=72",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 72",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=73",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 73",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=74",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 74",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=75",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 75",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=76",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 76",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=77",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 77",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=78",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 78",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=79",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 79",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=80",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 80",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=81",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 81",
+   "now": "нет в краулинге",
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=82",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 82",
+   "now": 0,
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=83",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 83",
+   "now": 0,
+   "kind": "pagination"
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=84",
+   "title": "Блог BiXBiT | Новости и обзоры из мира майнинга - Страница 84",
+   "now": 0,
+   "kind": "pagination"
+  }
+ ],
+ "status_changed": [
+  {
+   "url": "https://bixbit.io/ru/blog/tags/tehnologii?page=31",
+   "old": 0,
+   "new": 200
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=44",
+   "old": 200,
+   "new": 0
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=60",
+   "old": 200,
+   "new": 0
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=63",
+   "old": 200,
+   "new": 0
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=64",
+   "old": 200,
+   "new": 0
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=65",
+   "old": 200,
+   "new": 0
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=82",
+   "old": 200,
+   "new": 0
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=83",
+   "old": 200,
+   "new": 0
+  },
+  {
+   "url": "https://bixbit.io/ru/blog?page=84",
+   "old": 200,
+   "new": 0
+  }
+ ],
+ "changes": {
+  "title": [],
+  "description": [],
+  "h1": [],
+  "canonical": [],
+  "noindex": [],
+  "robots": [],
+  "in_sitemap": [],
+  "html_lang": [],
+  "text": [],
+  "h2": [],
+  "alt": [],
+  "jsonld": [],
+  "hreflang": []
+ }
+}

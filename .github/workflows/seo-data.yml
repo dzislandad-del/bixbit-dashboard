@@ -16,8 +16,8 @@ name: SEO data collection
 on:
   schedule:
     - cron: "0 4 * * *"   # ежедневно 04:00 UTC: индексация (URL Inspection) — бесплатно
-    - cron: "0 5 * * 1"   # еженедельно, пн 05:00 UTC: GSC, GA4, Bing, page-snapshot, каннибализация, AIO/FS (~$0.1)
-    - cron: "0 6 1 * *"   # ежемесячно, 1-го 06:00 UTC: + краул, позиции (~$1), ссылки (~$0.3)
+    - cron: "0 5 * * 1"   # еженедельно, пн 05:00 UTC: GSC, GA4, Bing, page-snapshot (текст/ALT/теги), каннибализация, AIO/FS (~$0.1), sitemap↔GSC
+    - cron: "0 6 1 * *"   # ежемесячно, 1-го 06:00 UTC: + краул и сравнение с прошлым (site-diff), позиции (~$1), ссылки (~$0.3)
   workflow_dispatch:
     inputs:
       rank_check:
@@ -96,10 +96,13 @@ jobs:
           ./scripts/page-snapshot.py --out data/page-snapshot-$D.json | tee page-snapshot.log
           ./scripts/cannibalization.py --out data/cannibalization/cannibal-$D.json | head -15 | tee -a "$GITHUB_STEP_SUMMARY"
           ./scripts/serp-features.py --out data/serp-features/serp-features-$D.json | tail -3 | tee -a "$GITHUB_STEP_SUMMARY"
+          ./scripts/sitemap-monitor.py --out data/sitemap/sitemap-$D.json | tail -12 | tee -a "$GITHUB_STEP_SUMMARY" || true
 
       - name: Monthly crawl
         if: github.event.schedule == '0 6 1 * *' || inputs.rank_check
-        run: ./scripts/crawl.py --check-external | tail -40 | tee -a "$GITHUB_STEP_SUMMARY"
+        run: |
+          ./scripts/crawl.py --check-external | tail -40 | tee -a "$GITHUB_STEP_SUMMARY"
+          ./scripts/site-diff.py | tee -a "$GITHUB_STEP_SUMMARY" || true
 
       - name: Monthly rank check (DataForSEO, paid)
         if: github.event.schedule == '0 6 1 * *' || inputs.rank_check
