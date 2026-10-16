@@ -105,6 +105,9 @@ def main():
     if not a.out:
         sys.exit("укажи --out или --dry-run")
     env = load_env(a.env)
+    if not env.get("DATAFORSEO_LOGIN") or not env.get("DATAFORSEO_PASSWORD"):
+        print("DataForSEO: пропущено — DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD не заданы")
+        return
     auth = base64.b64encode(f"{env['DATAFORSEO_LOGIN']}:{env['DATAFORSEO_PASSWORD']}".encode()).decode()
 
     rows, cost = [], 0.0
