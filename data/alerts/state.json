@@ -1,9 +1,19 @@
 {
  "active": {
-  "aio-lost:antminer custom firmware": {
+  "aio-lost:whatsminer firmware": {
    "sev": "P2",
-   "title": "AI Overview перестал цитировать bixbit: «antminer custom firmware»",
-   "since": "2026-10-16T13:26"
+   "title": "AI Overview перестал цитировать bixbit: «whatsminer firmware»",
+   "since": "2026-10-16T13:43"
+  },
+  "aio-lost:custom firmware antminer": {
+   "sev": "P2",
+   "title": "AI Overview перестал цитировать bixbit: «custom firmware antminer»",
+   "since": "2026-10-16T13:43"
+  },
+  "aio-lost:best antminer custom firmware": {
+   "sev": "P2",
+   "title": "AI Overview перестал цитировать bixbit: «best antminer custom firmware»",
+   "since": "2026-10-16T13:43"
   },
   "link-lost:bitcointalk.org": {
    "sev": "P2",
@@ -11,5 +21,5 @@
    "since": "2026-09-30T21:49"
   }
  },
- "last_run": "2026-10-16T13:26"
+ "last_run": "2026-10-16T13:43"
 }
