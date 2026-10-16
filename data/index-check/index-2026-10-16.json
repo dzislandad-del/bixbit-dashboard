@@ -1,6 +1,6 @@
 {
  "meta": {
-  "checked_at": "2026-10-16T12:03:20",
+  "checked_at": "2026-10-16T12:36:47",
   "site": "https://bixbit.io/",
   "urls": 25,
   "compared_to": "data/index-check/index-2026-10-15.json"
@@ -30,7 +30,7 @@
    "canonical_mismatch": false,
    "rich_results": null,
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=tWY8EjP8ELiUQTo5W-yKrA&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=cUhuCzJHh49r8wc_81kI8w&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/ru",
@@ -46,7 +46,7 @@
    "canonical_mismatch": false,
    "rich_results": null,
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=zSbHS-NUqfKzsG-tOkfN_Q&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=3EZ3-M_ks_p0fMo7Tp3Lkw&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/firmwares",
@@ -62,7 +62,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=OcuSafh83DLeOR4XdNV_Nw&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=dclXu-v-y4qcGyTECZqpKQ&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/firmwares/antminer",
@@ -78,7 +78,7 @@
    "canonical_mismatch": false,
    "rich_results": null,
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=Lqn-7-mIbUKYfUGLUPGLTg&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=IOuZVAunCgIDLsOWWwLgRw&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
@@ -94,7 +94,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=dzc3W7Vb8Yb-PYqQZrVBLw&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=YsHWTiwwXJTo0aPBxF2AmQ&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
@@ -110,7 +110,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=9E06B1xH0dmkhdjvLoiYKw&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=0zXVW6WzrlY-7cht_dDOPg&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/firmwares/whatsminer-series-m5x",
@@ -126,7 +126,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=5RQHZUQobdBV0hWyc0No9Q&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=dName55IhsjDf3KPC64wUw&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/ams",
@@ -142,7 +142,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=BEFYDoNkBG9gt0eMcCpvYA&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=coTvn9r6XmIwhG2tpoHcUw&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/asics-cooling",
@@ -158,7 +158,7 @@
    "canonical_mismatch": false,
    "rich_results": null,
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=qe8HqdcmMj39pmOcwsqHHQ&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=_ZiQ-WBVebwKzoz3g2lxFA&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/asics-cooling/immersion-systems",
@@ -174,7 +174,7 @@
    "canonical_mismatch": false,
    "rich_results": null,
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=TzmJHhEbdJwPFAD7kA9lLQ&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=RPmpcjF5T2eAuYKrasDjSg&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/asics-cooling/hydro-systems",
@@ -190,7 +190,7 @@
    "canonical_mismatch": false,
    "rich_results": null,
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=Fqr-KSMohaXhqK6H-BazhQ&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=4S_zPafWCv9UiFWbWV-jcg&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/products",
@@ -206,7 +206,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=XKQ8yA0qozfjpSZIIIsJ5A&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=YzPPGi54WRO-AQCjdElsvA&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/products/pdu",
@@ -222,7 +222,7 @@
    "canonical_mismatch": false,
    "rich_results": null,
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=KvzicChJRKHbO5CO08c4XQ&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=mP6Z_T1xWOp2VDO8cuB_yg&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/products/container",
@@ -238,7 +238,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=RaNRpQJAEBhgXcDPRFZGzA&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=Opdi3usuIXXQNJBEeCPzfw&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/documentation",
@@ -254,7 +254,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=dAzK1hl5rVQ5P4WsS5ljvw&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=SG4N6dqgmKPQ9IKKPzZ7-A&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
@@ -270,7 +270,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=4vgbjSY-AbHOT0dyY4eTdQ&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=h86-MAPvgQFBwAeLT3h6WQ&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/faq",
@@ -286,7 +286,7 @@
    "canonical_mismatch": false,
    "rich_results": null,
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=UM7o33f9kxxsYMJCfvj04A&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=LEIK4qHLyWr3FY26LxLyZA&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/calc",
@@ -302,7 +302,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=k5eAz1H1AhH6A5sDIT6VuA&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=TB0BrfUDFRO_Z0D6yD05Pg&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/blog",
@@ -318,7 +318,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=NGkegZ7mQ2i36z5sXVIBEA&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=2NXezJfzU3p9tqkrHpEkxw&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
@@ -334,7 +334,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=ChKN14z2T1J9F7Js6CqAew&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=_wOhejC7Yom5WkdAdjSINg&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
@@ -350,7 +350,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=r_8me5BP59R7eXKQIvSCxw&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=Vp7fx07Egvt6u4UgqLEFpg&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/ru/firmwares",
@@ -366,7 +366,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=ectLWYRHxZubzwQYsfpcUQ&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=SR2TBBo_-1En33bXSuA2MA&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/es/firmwares",
@@ -382,7 +382,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=6krsyJk-in9fFpI1WLrccg&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=im4nHYurST4dE1xD8z8IQQ&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/firmwares/whatsminer-all-series",
@@ -398,7 +398,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=OuboEsVPZKVI0CRA-Y1e1g&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=itQtYjNzi1Q5GTYOpLTMPw&utm_medium=link&utm_source=api"
   },
   {
    "url": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
@@ -414,7 +414,7 @@
    "canonical_mismatch": false,
    "rich_results": "PASS",
    "rich_results_issues": [],
-   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=JKdqCd863uyoFrjr7IJR8g&utm_medium=link&utm_source=api"
+   "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://bixbit.io/&id=22uCnqoDGJ4DwkluVwHXpg&utm_medium=link&utm_source=api"
   }
  ]
 }

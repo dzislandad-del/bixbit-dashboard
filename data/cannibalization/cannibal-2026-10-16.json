@@ -1,0 +1,7180 @@
+{
+ "meta": {
+  "source": "data/gsc-queries-pages-all-2026-10-16.json",
+  "window": "2026-09-16..2026-10-13",
+  "country": "all",
+  "min_impressions": 20,
+  "min_share": 0.1,
+  "compared_to": "data/cannibalization/cannibal-2026-10-10.json",
+  "note": "GSC query-разрез не включает анонимизированные запросы"
+ },
+ "summary": {
+  "queries_checked": 739,
+  "same_locale": 196,
+  "cross_locale": 39,
+  "brand": 8,
+  "new": 22,
+  "resolved": 20
+ },
+ "top_page_pairs": [
+  {
+   "pages": [
+    "https://bixbit.io/en/firmwares",
+    "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+   ],
+   "impressions": 1857
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/firmwares",
+    "https://bixbit.io/en/firmwares/antminer"
+   ],
+   "impressions": 812
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+    "https://bixbit.io/en/products/container"
+   ],
+   "impressions": 677
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+    "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia"
+   ],
+   "impressions": 466
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/products",
+    "https://bixbit.io/en/products/cell"
+   ],
+   "impressions": 360
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware",
+    "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+   ],
+   "impressions": 296
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+    "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro"
+   ],
+   "impressions": 294
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/blog/post/mayning-na-videokartah-s-vodoblokami-zanimatsya-ili-net",
+    "https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy"
+   ],
+   "impressions": 241
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+    "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi"
+   ],
+   "impressions": 230
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/products/container",
+    "https://bixbit.io/en/products/container-1k"
+   ],
+   "impressions": 188
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/firmwares",
+    "https://bixbit.io/ru/firmwares/antminer"
+   ],
+   "impressions": 182
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/firmwares",
+    "https://bixbit.io/en/firmwares/whatsminer-series-m2x"
+   ],
+   "impressions": 176
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/blog/post/kakaya-skorost-interneta-nuzhna-dlya-mayninga-na-asikah-i-fermah",
+    "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat"
+   ],
+   "impressions": 163
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+    "https://bixbit.io/ru/products/rack"
+   ],
+   "impressions": 160
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+    "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat"
+   ],
+   "impressions": 157
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+    "https://bixbit.io/en/firmwares/whatsminer-series-m2x"
+   ],
+   "impressions": 151
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+    "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva"
+   ],
+   "impressions": 151
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+    "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock"
+   ],
+   "impressions": 149
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy",
+    "https://bixbit.io/ru/products"
+   ],
+   "impressions": 143
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+    "https://bixbit.io/en/blog/post/full-review-of-microbt-whatsminer-m50-m50s-and-m53-asics-features-profit-payback"
+   ],
+   "impressions": 141
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+    "https://bixbit.io/en/firmwares/whatsminer-series-m3x"
+   ],
+   "impressions": 138
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/blog/post/fpga-dlya-mayninga-kakie-trendy-budut-preobladat-v-2019-godu",
+    "https://bixbit.io/ru/blog/post/malenkiy-sekret-bolshogo-mayninga-nedorogie-fpga-kak-vyhod-iz-krizisa"
+   ],
+   "impressions": 129
+  },
+  {
+   "pages": [
+    "https://bixbit.io/ru/blog/post/kak-uberechsya-ot-kriptodzhekinga-na-windows-za-pyat-shagov",
+    "https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk"
+   ],
+   "impressions": 129
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air",
+    "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining"
+   ],
+   "impressions": 119
+  },
+  {
+   "pages": [
+    "https://bixbit.io/en/asics-cooling/hydro-systems",
+    "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air"
+   ],
+   "impressions": 115
+  }
+ ],
+ "new_conflicts": [
+  "asic antminer s17",
+  "asic mining firmware",
+  "asic s17",
+  "bitcoin mining portable containers",
+  "bitmain прошивка",
+  "container mining bitcoin",
+  "l7 доходность",
+  "mining cooling systems",
+  "whatminer",
+  "whatsminer m30s 112t",
+  "whatsminer m30s прошивка bixbit",
+  "whatsminer m53s firmware",
+  "whatsminer m63 firmware",
+  "windows 10 для майнинга",
+  "майнинг nvidia",
+  "майнинг какой криптовалюты выгоднее",
+  "майнинг на 470",
+  "место под майнинг",
+  "ошибка ватсмайнер",
+  "ошибки ватсмайнер",
+  "фермы для майнинга криптовалют 2017",
+  "хешрейт ио"
+ ],
+ "resolved_conflicts": [
+  "best asic firmware",
+  "bitmain antminer s17 pro",
+  "chieftec майнинг",
+  "firmware antminer s19",
+  "hydro container",
+  "hydro cooling system",
+  "microbt whatsminer m21s 56t",
+  "mining container cost",
+  "s19",
+  "whatsminer m20s прошивки",
+  "win для майнинга",
+  "асик s17",
+  "как подключить асик к мобильному интернету",
+  "криптовалюта на алгоритме x11",
+  "майнинг два блока",
+  "майнинг на оперативной памяти",
+  "майнинг эфира 2017",
+  "ошибки вотсмайнер",
+  "программы для майнинга на видеокарте nvidia",
+  "стеллажи для майнинга"
+ ],
+ "conflicts": [
+  {
+   "query": "bixbit",
+   "kind": "brand",
+   "impressions": 12684,
+   "clicks": 412,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en",
+     "locale": "en",
+     "impressions": 2120,
+     "clicks": 196,
+     "share": 0.17,
+     "position": 2.2
+    },
+    {
+     "page": "https://bixbit.io/en/ams",
+     "locale": "en",
+     "impressions": 1558,
+     "clicks": 21,
+     "share": 0.12,
+     "position": 1.6
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 1529,
+     "clicks": 23,
+     "share": 0.12,
+     "position": 1.4
+    },
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 1393,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 1.1
+    },
+    {
+     "page": "https://bixbit.io/en/about",
+     "locale": "en",
+     "impressions": 1392,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 1.2
+    }
+   ]
+  },
+  {
+   "query": "whatsminer firmware",
+   "kind": "same_locale",
+   "impressions": 892,
+   "clicks": 8,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 300,
+     "clicks": 6,
+     "share": 0.34,
+     "position": 4.6
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 97,
+     "clicks": 1,
+     "share": 0.11,
+     "position": 12.6
+    }
+   ]
+  },
+  {
+   "query": "bixbit ams",
+   "kind": "brand",
+   "impressions": 886,
+   "clicks": 87,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/ams",
+     "locale": "en",
+     "impressions": 100,
+     "clicks": 45,
+     "share": 0.11,
+     "position": 1.2
+    },
+    {
+     "page": "https://bixbit.io/en",
+     "locale": "en",
+     "impressions": 92,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 5.0
+    }
+   ]
+  },
+  {
+   "query": "whatsminer",
+   "kind": "cross_locale",
+   "impressions": 757,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 466,
+     "clicks": 0,
+     "share": 0.62,
+     "position": 6.1
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 240,
+     "clicks": 1,
+     "share": 0.32,
+     "position": 8.1
+    }
+   ]
+  },
+  {
+   "query": "bixbit прошивка",
+   "kind": "brand",
+   "impressions": 375,
+   "clicks": 59,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/firmwares",
+     "locale": "ru",
+     "impressions": 50,
+     "clicks": 41,
+     "share": 0.13,
+     "position": 1.0
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 49,
+     "clicks": 10,
+     "share": 0.13,
+     "position": 2.4
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/antminer",
+     "locale": "ru",
+     "impressions": 43,
+     "clicks": 2,
+     "share": 0.11,
+     "position": 3.1
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/ustanovka-obnovlennoy-versii-proshivki-whatsminer",
+     "locale": "ru",
+     "impressions": 42,
+     "clicks": 3,
+     "share": 0.11,
+     "position": 4.9
+    },
+    {
+     "page": "https://bixbit.io/ru",
+     "locale": "ru",
+     "impressions": 40,
+     "clicks": 2,
+     "share": 0.11,
+     "position": 4.8
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-1-podgotovka-k-ustanovke-proshivki-bixbit",
+     "locale": "ru",
+     "impressions": 40,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 7.0
+    }
+   ]
+  },
+  {
+   "query": "antminer s19",
+   "kind": "cross_locale",
+   "impressions": 310,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost",
+     "locale": "ru",
+     "impressions": 238,
+     "clicks": 0,
+     "share": 0.77,
+     "position": 9.0
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide",
+     "locale": "en",
+     "impressions": 72,
+     "clicks": 0,
+     "share": 0.23,
+     "position": 22.8
+    }
+   ]
+  },
+  {
+   "query": "antminer firmware",
+   "kind": "cross_locale",
+   "impressions": 289,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 197,
+     "clicks": 0,
+     "share": 0.68,
+     "position": 7.8
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 58,
+     "clicks": 0,
+     "share": 0.2,
+     "position": 38.2
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/antminer",
+     "locale": "ru",
+     "impressions": 34,
+     "clicks": 1,
+     "share": 0.12,
+     "position": 4.0
+    }
+   ]
+  },
+  {
+   "query": "whatsminer custom firmware",
+   "kind": "same_locale",
+   "impressions": 248,
+   "clicks": 6,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 64,
+     "clicks": 4,
+     "share": 0.26,
+     "position": 2.2
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 58,
+     "clicks": 2,
+     "share": 0.23,
+     "position": 3.9
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+     "locale": "en",
+     "impressions": 31,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 12.4
+    }
+   ]
+  },
+  {
+   "query": "whatsminer tool descargar",
+   "kind": "same_locale",
+   "impressions": 232,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 82,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 9.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 42,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 32.0
+    },
+    {
+     "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+     "locale": "en",
+     "impressions": 38,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 26.1
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+     "locale": "en",
+     "impressions": 32,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 34.6
+    }
+   ]
+  },
+  {
+   "query": "firmware antminer",
+   "kind": "same_locale",
+   "impressions": 199,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 149,
+     "clicks": 0,
+     "share": 0.75,
+     "position": 7.3
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 45,
+     "clicks": 0,
+     "share": 0.23,
+     "position": 39.6
+    }
+   ]
+  },
+  {
+   "query": "antminer s19 pro",
+   "kind": "cross_locale",
+   "impressions": 170,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost",
+     "locale": "ru",
+     "impressions": 134,
+     "clicks": 1,
+     "share": 0.79,
+     "position": 8.5
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide",
+     "locale": "en",
+     "impressions": 36,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 23.8
+    }
+   ]
+  },
+  {
+   "query": "whatsminer firmware download",
+   "kind": "same_locale",
+   "impressions": 162,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 55,
+     "clicks": 0,
+     "share": 0.34,
+     "position": 3.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware",
+     "locale": "en",
+     "impressions": 20,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 35.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 20,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 12.9
+    }
+   ]
+  },
+  {
+   "query": "bix bit",
+   "kind": "brand",
+   "impressions": 160,
+   "clicks": 9,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en",
+     "locale": "en",
+     "impressions": 44,
+     "clicks": 7,
+     "share": 0.28,
+     "position": 2.1
+    },
+    {
+     "page": "https://bixbit.io/en/ams",
+     "locale": "en",
+     "impressions": 26,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 2.4
+    },
+    {
+     "page": "https://bixbit.io/en/about",
+     "locale": "en",
+     "impressions": 25,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 4.6
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 21,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 1.3
+    }
+   ]
+  },
+  {
+   "query": "ошибки whatsminer",
+   "kind": "same_locale",
+   "impressions": 159,
+   "clicks": 28,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+     "locale": "ru",
+     "impressions": 122,
+     "clicks": 28,
+     "share": 0.77,
+     "position": 3.0
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 35,
+     "clicks": 0,
+     "share": 0.22,
+     "position": 9.2
+    }
+   ]
+  },
+  {
+   "query": "whatsminer immersion firmware",
+   "kind": "same_locale",
+   "impressions": 151,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 25,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 3.2
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 10.6
+    }
+   ]
+  },
+  {
+   "query": "охлаждение для майнинга",
+   "kind": "same_locale",
+   "impressions": 143,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy",
+     "locale": "ru",
+     "impressions": 56,
+     "clicks": 0,
+     "share": 0.39,
+     "position": 11.8
+    },
+    {
+     "page": "https://bixbit.io/ru/products",
+     "locale": "ru",
+     "impressions": 25,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 50.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/immersionnoe-ohlazhdenie-ili-kak-ne-pustit-dengi-na-vozduh",
+     "locale": "ru",
+     "impressions": 21,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 66.4
+    },
+    {
+     "page": "https://bixbit.io/ru/asics-cooling",
+     "locale": "ru",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 46.8
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m53s firmware",
+   "kind": "same_locale",
+   "impressions": 141,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/full-review-of-microbt-whatsminer-m50-m50s-and-m53-asics-features-profit-payback",
+     "locale": "en",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 32.3
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 15.7
+    }
+   ]
+  },
+  {
+   "query": "охлаждение майнинг ферм",
+   "kind": "same_locale",
+   "impressions": 140,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy",
+     "locale": "ru",
+     "impressions": 58,
+     "clicks": 0,
+     "share": 0.41,
+     "position": 9.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-videokartah-s-vodoblokami-zanimatsya-ili-net",
+     "locale": "ru",
+     "impressions": 23,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 60.3
+    },
+    {
+     "page": "https://bixbit.io/ru/products",
+     "locale": "ru",
+     "impressions": 20,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 60.6
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m30s прошивка bixbit",
+   "kind": "brand",
+   "impressions": 139,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 7.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 1.9
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 5.1
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 6.1
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m50 firmware",
+   "kind": "same_locale",
+   "impressions": 131,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 28,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 6.2
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 26,
+     "clicks": 0,
+     "share": 0.2,
+     "position": 10.5
+    }
+   ]
+  },
+  {
+   "query": "прошивки для майнинга",
+   "kind": "same_locale",
+   "impressions": 130,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/firmwares",
+     "locale": "ru",
+     "impressions": 45,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 18.0
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/antminer",
+     "locale": "ru",
+     "impressions": 35,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 15.1
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 78.1
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-obnovit-proshivku-whatsminer",
+     "locale": "ru",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 85.6
+    }
+   ]
+  },
+  {
+   "query": "mejor firmware para antminer s9",
+   "kind": "same_locale",
+   "impressions": 125,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 81,
+     "clicks": 0,
+     "share": 0.65,
+     "position": 14.9
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 41,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 45.5
+    }
+   ]
+  },
+  {
+   "query": "ошибки ватсмайнер",
+   "kind": "same_locale",
+   "impressions": 122,
+   "clicks": 23,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+     "locale": "ru",
+     "impressions": 106,
+     "clicks": 22,
+     "share": 0.87,
+     "position": 2.9
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 15,
+     "clicks": 1,
+     "share": 0.12,
+     "position": 7.7
+    }
+   ]
+  },
+  {
+   "query": "ams bixbit",
+   "kind": "brand",
+   "impressions": 117,
+   "clicks": 21,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/ams",
+     "locale": "en",
+     "impressions": 20,
+     "clicks": 16,
+     "share": 0.17,
+     "position": 1.1
+    },
+    {
+     "page": "https://bixbit.io/en/ams/connect",
+     "locale": "en",
+     "impressions": 20,
+     "clicks": 2,
+     "share": 0.17,
+     "position": 3.2
+    },
+    {
+     "page": "https://bixbit.io/en",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 4.2
+    }
+   ]
+  },
+  {
+   "query": "whatsminer tool download",
+   "kind": "same_locale",
+   "impressions": 116,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 44,
+     "clicks": 0,
+     "share": 0.38,
+     "position": 8.4
+    },
+    {
+     "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+     "locale": "en",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 25.8
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 15.9
+    }
+   ]
+  },
+  {
+   "query": "bitmain antminer s17",
+   "kind": "same_locale",
+   "impressions": 110,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 79,
+     "clicks": 0,
+     "share": 0.72,
+     "position": 8.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 8.5
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 15.8
+    }
+   ]
+  },
+  {
+   "query": "водяное охлаждение майнинг",
+   "kind": "same_locale",
+   "impressions": 101,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-videokartah-s-vodoblokami-zanimatsya-ili-net",
+     "locale": "ru",
+     "impressions": 59,
+     "clicks": 0,
+     "share": 0.58,
+     "position": 12.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy",
+     "locale": "ru",
+     "impressions": 30,
+     "clicks": 0,
+     "share": 0.3,
+     "position": 35.0
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m3 overclock",
+   "kind": "same_locale",
+   "impressions": 100,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+     "locale": "en",
+     "impressions": 27,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 1.6
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 11.8
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m61 firmware",
+   "kind": "same_locale",
+   "impressions": 100,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 21,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 6.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 10.6
+    }
+   ]
+  },
+  {
+   "query": "bitmain antminer l7",
+   "kind": "cross_locale",
+   "impressions": 98,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/bitmain-antminer-l7-review-specifications-price-payback",
+     "locale": "en",
+     "impressions": 75,
+     "clicks": 0,
+     "share": 0.77,
+     "position": 9.1
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/razgon-antminer-l7",
+     "locale": "ru",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 16.0
+    }
+   ]
+  },
+  {
+   "query": "fpga майнинг",
+   "kind": "same_locale",
+   "impressions": 96,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/malenkiy-sekret-bolshogo-mayninga-nedorogie-fpga-kak-vyhod-iz-krizisa",
+     "locale": "ru",
+     "impressions": 57,
+     "clicks": 1,
+     "share": 0.59,
+     "position": 2.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/fpga-dlya-mayninga-kakie-trendy-budut-preobladat-v-2019-godu",
+     "locale": "ru",
+     "impressions": 36,
+     "clicks": 0,
+     "share": 0.38,
+     "position": 22.7
+    }
+   ]
+  },
+  {
+   "query": "прошивка биоса для майнинга",
+   "kind": "same_locale",
+   "impressions": 94,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru",
+     "locale": "ru",
+     "impressions": 34,
+     "clicks": 0,
+     "share": 0.36,
+     "position": 26.7
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares",
+     "locale": "ru",
+     "impressions": 21,
+     "clicks": 0,
+     "share": 0.22,
+     "position": 54.9
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.2,
+     "position": 75.5
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/5-2-obnovlenie-proshivki-bloka-pitaniia",
+     "locale": "ru",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.2,
+     "position": 76.7
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m53 firmware",
+   "kind": "same_locale",
+   "impressions": 93,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.2,
+     "position": 7.6
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 24.2
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m20s firmware download",
+   "kind": "same_locale",
+   "impressions": 90,
+   "clicks": 2,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 34,
+     "clicks": 2,
+     "share": 0.38,
+     "position": 2.6
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 20.2
+    }
+   ]
+  },
+  {
+   "query": "asic firmware",
+   "kind": "same_locale",
+   "impressions": 90,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 75,
+     "clicks": 0,
+     "share": 0.83,
+     "position": 5.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 29.5
+    }
+   ]
+  },
+  {
+   "query": "whatsminer software",
+   "kind": "same_locale",
+   "impressions": 87,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 31,
+     "clicks": 1,
+     "share": 0.36,
+     "position": 5.8
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 21.6
+    }
+   ]
+  },
+  {
+   "query": "asic immersion cooling",
+   "kind": "same_locale",
+   "impressions": 86,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 48,
+     "clicks": 0,
+     "share": 0.56,
+     "position": 9.2
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 36.8
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 86.9
+    },
+    {
+     "page": "https://bixbit.io/en/products/coolant",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 73.4
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m21s firmware download",
+   "kind": "same_locale",
+   "impressions": 86,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 26,
+     "clicks": 0,
+     "share": 0.3,
+     "position": 3.6
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 21.6
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 29.4
+    }
+   ]
+  },
+  {
+   "query": "whatsminer download",
+   "kind": "same_locale",
+   "impressions": 85,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 30,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 4.6
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 11.9
+    }
+   ]
+  },
+  {
+   "query": "whatsminer tool software download",
+   "kind": "same_locale",
+   "impressions": 85,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 30,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 6.3
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 21.5
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 37.0
+    }
+   ]
+  },
+  {
+   "query": "classic майнинг",
+   "kind": "cross_locale",
+   "impressions": 83,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-nachat-maynit-ethereum-classic",
+     "locale": "ru",
+     "impressions": 67,
+     "clicks": 0,
+     "share": 0.81,
+     "position": 9.1
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-to-start-mining-ethereum-classic",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 75.2
+    }
+   ]
+  },
+  {
+   "query": "crypto mining shipping container",
+   "kind": "same_locale",
+   "impressions": 83,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 57,
+     "clicks": 0,
+     "share": 0.69,
+     "position": 17.6
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 26,
+     "clicks": 0,
+     "share": 0.31,
+     "position": 49.6
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining shipping container",
+   "kind": "same_locale",
+   "impressions": 81,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 52,
+     "clicks": 0,
+     "share": 0.64,
+     "position": 17.5
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 29,
+     "clicks": 0,
+     "share": 0.36,
+     "position": 50.2
+    }
+   ]
+  },
+  {
+   "query": "прошивка вотсмайнер",
+   "kind": "cross_locale",
+   "impressions": 80,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer",
+     "locale": "ru",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 14.4
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 2.7
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares",
+     "locale": "ru",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 22.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-obnovit-proshivku-whatsminer",
+     "locale": "ru",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 30.9
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 38.1
+    }
+   ]
+  },
+  {
+   "query": "antminer s17",
+   "kind": "same_locale",
+   "impressions": 79,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 63,
+     "clicks": 0,
+     "share": 0.8,
+     "position": 10.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 17.1
+    }
+   ]
+  },
+  {
+   "query": "descargar firmware antminer s9",
+   "kind": "same_locale",
+   "impressions": 79,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 45,
+     "clicks": 0,
+     "share": 0.57,
+     "position": 14.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 33,
+     "clicks": 0,
+     "share": 0.42,
+     "position": 43.9
+    }
+   ]
+  },
+  {
+   "query": "прошивка для asic whatsminer серии m3x",
+   "kind": "same_locale",
+   "impressions": 79,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/proshivka-dlya-whatsminer-razgon-dlya-m2x-m3x-m5x-seriy",
+     "locale": "ru",
+     "impressions": 20,
+     "clicks": 0,
+     "share": 0.25,
+     "position": 9.1
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.23,
+     "position": 4.5
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-all-series",
+     "locale": "ru",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 1.0
+    }
+   ]
+  },
+  {
+   "query": "bitmain antminer s19",
+   "kind": "cross_locale",
+   "impressions": 78,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost",
+     "locale": "ru",
+     "impressions": 63,
+     "clicks": 0,
+     "share": 0.81,
+     "position": 8.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 18.7
+    }
+   ]
+  },
+  {
+   "query": "контейнер для майнинга",
+   "kind": "same_locale",
+   "impressions": 78,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 35,
+     "clicks": 0,
+     "share": 0.45,
+     "position": 7.8
+    },
+    {
+     "page": "https://bixbit.io/ru/products/container",
+     "locale": "ru",
+     "impressions": 27,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 34.4
+    },
+    {
+     "page": "https://bixbit.io/ru/products/container-hydro",
+     "locale": "ru",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 45.9
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m63 firmware",
+   "kind": "same_locale",
+   "impressions": 77,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 10.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 12.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 36.8
+    }
+   ]
+  },
+  {
+   "query": "mining container",
+   "kind": "same_locale",
+   "impressions": 75,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 61,
+     "clicks": 0,
+     "share": 0.81,
+     "position": 26.4
+    },
+    {
+     "page": "https://bixbit.io/en/products/container-1k",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 10.8
+    }
+   ]
+  },
+  {
+   "query": "whatsminer tools software",
+   "kind": "same_locale",
+   "impressions": 75,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.29,
+     "position": 6.5
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 26.7
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 50.1
+    }
+   ]
+  },
+  {
+   "query": "майнинг разгон",
+   "kind": "same_locale",
+   "impressions": 74,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+     "locale": "ru",
+     "impressions": 24,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 47.1
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+     "locale": "ru",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.26,
+     "position": 67.7
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-3-dopolnitelnye-nastroiki-razgona",
+     "locale": "ru",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 53.7
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona",
+     "locale": "ru",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 92.9
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m30",
+   "kind": "same_locale",
+   "impressions": 72,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 48,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 14.0
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.22,
+     "position": 22.5
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/antminer-s19-pro-vs-whatsminer-m30-unveiling-the-power-of-cryptocurrency-mining",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 18.2
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m60 firmware",
+   "kind": "cross_locale",
+   "impressions": 72,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 5.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 8.7
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 56.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/installing-the-updated-version-of-whatsminer-firmware",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 66.2
+    },
+    {
+     "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 43.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-obnovit-proshivku-whatsminer",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 71.2
+    }
+   ]
+  },
+  {
+   "query": "asic whatsminer",
+   "kind": "same_locale",
+   "impressions": 70,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 40,
+     "clicks": 0,
+     "share": 0.57,
+     "position": 8.6
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+     "locale": "ru",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.31,
+     "position": 30.8
+    }
+   ]
+  },
+  {
+   "query": "майнинг отопление",
+   "kind": "same_locale",
+   "impressions": 70,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/besplatnoe-otoplenie-za-schet-mayninga-pribyl-v-pervyy-zhe-sezon",
+     "locale": "ru",
+     "impressions": 42,
+     "clicks": 0,
+     "share": 0.6,
+     "position": 11.5
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/biznes-na-teplichnom-hozyaystve-i-dobyche-kriptovalyut-kak-stat-uspeshnym-fermerom-maynerom",
+     "locale": "ru",
+     "impressions": 28,
+     "clicks": 0,
+     "share": 0.4,
+     "position": 53.7
+    }
+   ]
+  },
+  {
+   "query": "ошибки при майнинге",
+   "kind": "same_locale",
+   "impressions": 69,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+     "locale": "ru",
+     "impressions": 40,
+     "clicks": 0,
+     "share": 0.58,
+     "position": 12.2
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.26,
+     "position": 69.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/10-tipichnyh-oshibok-nachinayushchego-kriptotreydera-i-kak-ih-izbezhat",
+     "locale": "ru",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 42.4
+    }
+   ]
+  },
+  {
+   "query": "antminer s17 pro",
+   "kind": "same_locale",
+   "impressions": 67,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 29,
+     "clicks": 0,
+     "share": 0.43,
+     "position": 13.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.28,
+     "position": 20.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.25,
+     "position": 7.5
+    }
+   ]
+  },
+  {
+   "query": "bitmain antminer s19 pro",
+   "kind": "cross_locale",
+   "impressions": 67,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost",
+     "locale": "ru",
+     "impressions": 44,
+     "clicks": 0,
+     "share": 0.66,
+     "position": 7.8
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide",
+     "locale": "en",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 38.2
+    }
+   ]
+  },
+  {
+   "query": "crypto mining cooling systems",
+   "kind": "same_locale",
+   "impressions": 67,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.25,
+     "position": 4.1
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 28.2
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling/immersion-systems",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.22,
+     "position": 43.8
+    },
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 75.6
+    }
+   ]
+  },
+  {
+   "query": "стойка для майнинга",
+   "kind": "same_locale",
+   "impressions": 65,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/products/rack",
+     "locale": "ru",
+     "impressions": 57,
+     "clicks": 0,
+     "share": 0.88,
+     "position": 9.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 16.1
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m20s firmware",
+   "kind": "cross_locale",
+   "impressions": 64,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 26,
+     "clicks": 1,
+     "share": 0.41,
+     "position": 2.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 18.4
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 29.2
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-all-series",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 61.7
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 68.0
+    }
+   ]
+  },
+  {
+   "query": "microbt whatsminer official website",
+   "kind": "same_locale",
+   "impressions": 62,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 20,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 10.2
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/announcement-of-whatsminer-firmware",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 26.8
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.26,
+     "position": 27.7
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 27.1
+    }
+   ]
+  },
+  {
+   "query": "какая скорость нужна для майнинга",
+   "kind": "same_locale",
+   "impressions": 62,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/kakaya-skorost-interneta-nuzhna-dlya-mayninga-na-asikah-i-fermah",
+     "locale": "ru",
+     "impressions": 52,
+     "clicks": 0,
+     "share": 0.84,
+     "position": 7.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 84.6
+    }
+   ]
+  },
+  {
+   "query": "antminer immersion cooling",
+   "kind": "same_locale",
+   "impressions": 61,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.25,
+     "position": 18.1
+    },
+    {
+     "page": "https://bixbit.io/en/products/coolant",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 62.7
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 55.2
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 12.9
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 55.1
+    }
+   ]
+  },
+  {
+   "query": "температура для майнинга",
+   "kind": "same_locale",
+   "impressions": 61,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/prilozhenie-2-opredelenie-dopustimoi-temperatury-chipov-mainera",
+     "locale": "ru",
+     "impressions": 33,
+     "clicks": 0,
+     "share": 0.54,
+     "position": 39.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy",
+     "locale": "ru",
+     "impressions": 28,
+     "clicks": 0,
+     "share": 0.46,
+     "position": 24.0
+    }
+   ]
+  },
+  {
+   "query": "antminer s19 firmware",
+   "kind": "cross_locale",
+   "impressions": 59,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 48,
+     "clicks": 0,
+     "share": 0.81,
+     "position": 9.8
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/antminer",
+     "locale": "ru",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 59.7
+    }
+   ]
+  },
+  {
+   "query": "whatsminer asic",
+   "kind": "same_locale",
+   "impressions": 58,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 34,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 5.3
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 31.6
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 74.2
+    }
+   ]
+  },
+  {
+   "query": "коды ошибок whatsminer",
+   "kind": "same_locale",
+   "impressions": 57,
+   "clicks": 4,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+     "locale": "ru",
+     "impressions": 42,
+     "clicks": 4,
+     "share": 0.74,
+     "position": 2.9
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 8.6
+    }
+   ]
+  },
+  {
+   "query": "immersion cooling asic",
+   "kind": "same_locale",
+   "impressions": 56,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 24,
+     "clicks": 0,
+     "share": 0.43,
+     "position": 10.2
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 82.2
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 32.6
+    },
+    {
+     "page": "https://bixbit.io/en/products/coolant",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 74.0
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m21s",
+   "kind": "cross_locale",
+   "impressions": 56,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+     "locale": "ru",
+     "impressions": 29,
+     "clicks": 0,
+     "share": 0.52,
+     "position": 30.9
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 57.9
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 54.8
+    }
+   ]
+  },
+  {
+   "query": "биос для майнинга",
+   "kind": "same_locale",
+   "impressions": 55,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru",
+     "locale": "ru",
+     "impressions": 37,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 26.7
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/materinskaya-plata-dlya-mayninga-kakuyu-vybrat-v-2019-2020",
+     "locale": "ru",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 52.4
+    }
+   ]
+  },
+  {
+   "query": "asic miner firmware",
+   "kind": "same_locale",
+   "impressions": 54,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 40,
+     "clicks": 0,
+     "share": 0.74,
+     "position": 9.1
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 25.6
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m21s firmware",
+   "kind": "cross_locale",
+   "impressions": 54,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.31,
+     "position": 2.2
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 19.6
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 31.4
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 61.2
+    }
+   ]
+  },
+  {
+   "query": "какая скорость интернета для майнинга",
+   "kind": "same_locale",
+   "impressions": 54,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/kakaya-skorost-interneta-nuzhna-dlya-mayninga-na-asikah-i-fermah",
+     "locale": "ru",
+     "impressions": 46,
+     "clicks": 0,
+     "share": 0.85,
+     "position": 6.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 76.9
+    }
+   ]
+  },
+  {
+   "query": "асик для майнинга окупаемость",
+   "kind": "same_locale",
+   "impressions": 53,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-kupit-1-000-asikov-i-sdelat-iz-nih-1-500-chudesa-immersionnogo-ohlazhdeniya",
+     "locale": "ru",
+     "impressions": 40,
+     "clicks": 0,
+     "share": 0.75,
+     "position": 8.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/top-5-asic-kotorye-ostayutsya-aktualnymi-do-halvinga-bitkoina",
+     "locale": "ru",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.25,
+     "position": 17.9
+    }
+   ]
+  },
+  {
+   "query": "antminer firmware download",
+   "kind": "same_locale",
+   "impressions": 51,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 36,
+     "clicks": 1,
+     "share": 0.71,
+     "position": 9.2
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 31.3
+    }
+   ]
+  },
+  {
+   "query": "hydro mining rack",
+   "kind": "same_locale",
+   "impressions": 51,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/rack-hydro",
+     "locale": "en",
+     "impressions": 29,
+     "clicks": 1,
+     "share": 0.57,
+     "position": 6.9
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 19.4
+    },
+    {
+     "page": "https://bixbit.io/en/products/rack",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 39.6
+    }
+   ]
+  },
+  {
+   "query": "11 майнинг",
+   "kind": "same_locale",
+   "impressions": 51,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/novye-asic-antminer-z11-razobrali-za-20-minut-po-predzakazu",
+     "locale": "ru",
+     "impressions": 30,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 37.8
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/samyy-vygodnyy-mayner-x11-algoritma-chto-est-na-rynke",
+     "locale": "ru",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 20.1
+    }
+   ]
+  },
+  {
+   "query": "antminer s19 xp",
+   "kind": "cross_locale",
+   "impressions": 50,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/introducing-the-bitmain-antminer-s19-xp-is-it-worth-it",
+     "locale": "en",
+     "impressions": 33,
+     "clicks": 0,
+     "share": 0.66,
+     "position": 20.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bitmain-gotovit-novoe-pokolenie-asikov-na-5-nm-chipah-antminer-s19xp-obzor",
+     "locale": "ru",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 15.2
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 39.6
+    }
+   ]
+  },
+  {
+   "query": "immersion cooling mining",
+   "kind": "same_locale",
+   "impressions": 50,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+     "locale": "en",
+     "impressions": 21,
+     "clicks": 0,
+     "share": 0.42,
+     "position": 14.8
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air",
+     "locale": "en",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.38,
+     "position": 20.8
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling",
+     "locale": "en",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 15.8
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m",
+   "kind": "same_locale",
+   "impressions": 50,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 35,
+     "clicks": 0,
+     "share": 0.7,
+     "position": 8.7
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/polnyy-obzor-asikov-microbt-whatsminer-m50-m50s-i-m53-harakteristiki-pribyl-okupaemost",
+     "locale": "ru",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 54.1
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 65.8
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m31s",
+   "kind": "cross_locale",
+   "impressions": 50,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.38,
+     "position": 22.8
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "locale": "ru",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.3,
+     "position": 34.7
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 19.0
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 77.2
+    }
+   ]
+  },
+  {
+   "query": "container for mining",
+   "kind": "same_locale",
+   "impressions": 49,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 29,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 22.0
+    },
+    {
+     "page": "https://bixbit.io/en/products/container-1k",
+     "locale": "en",
+     "impressions": 20,
+     "clicks": 0,
+     "share": 0.41,
+     "position": 5.4
+    }
+   ]
+  },
+  {
+   "query": "how to overclock whatsminer m3",
+   "kind": "same_locale",
+   "impressions": 49,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+     "locale": "en",
+     "impressions": 24,
+     "clicks": 0,
+     "share": 0.49,
+     "position": 1.7
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 20,
+     "clicks": 0,
+     "share": 0.41,
+     "position": 5.3
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m30s",
+   "kind": "cross_locale",
+   "impressions": 49,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 16.6
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "locale": "ru",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 40.8
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+     "locale": "ru",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 24.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 9.0
+    }
+   ]
+  },
+  {
+   "query": "overclocking asic miners",
+   "kind": "same_locale",
+   "impressions": 48,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-miner-overclock",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 13.2
+    },
+    {
+     "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-3-additional-overclocking-settings",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 46.1
+    },
+    {
+     "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/6-5-overclocking-recommendations",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 41.0
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-to-overclock-whatsminer-asics-over-50",
+     "locale": "en",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 75.0
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m20s",
+   "kind": "cross_locale",
+   "impressions": 48,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 37,
+     "clicks": 0,
+     "share": 0.77,
+     "position": 25.4
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 63.0
+    }
+   ]
+  },
+  {
+   "query": "мобильный майнинг",
+   "kind": "same_locale",
+   "impressions": 48,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/mobilnyy-mayning-preimushchestva-i-nedostatki",
+     "locale": "ru",
+     "impressions": 32,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 13.5
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-kriptovalyuty-na-telefone-v-chem-opasnost",
+     "locale": "ru",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 65.2
+    }
+   ]
+  },
+  {
+   "query": "l7 miner",
+   "kind": "cross_locale",
+   "impressions": 47,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/bitmain-antminer-l7-review-specifications-price-payback",
+     "locale": "en",
+     "impressions": 41,
+     "clicks": 0,
+     "share": 0.87,
+     "position": 13.7
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/razgon-antminer-l7",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 18.2
+    }
+   ]
+  },
+  {
+   "query": "x11 калькулятор майнинга",
+   "kind": "same_locale",
+   "impressions": 47,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/samyy-vygodnyy-mayner-x11-algoritma-chto-est-na-rynke",
+     "locale": "ru",
+     "impressions": 24,
+     "clicks": 0,
+     "share": 0.51,
+     "position": 36.0
+    },
+    {
+     "page": "https://bixbit.io/ru/calc",
+     "locale": "ru",
+     "impressions": 23,
+     "clicks": 0,
+     "share": 0.49,
+     "position": 22.2
+    }
+   ]
+  },
+  {
+   "query": "как подключить майнинг",
+   "kind": "same_locale",
+   "impressions": 47,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-3-nastroika-pulov-i-vorkerov",
+     "locale": "ru",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 50.9
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 91.8
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/2-podkliuchenie-ustroistva",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 78.7
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 80.8
+    }
+   ]
+  },
+  {
+   "query": "майнинг монитор",
+   "kind": "same_locale",
+   "impressions": 47,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/ams",
+     "locale": "ru",
+     "impressions": 40,
+     "clicks": 0,
+     "share": 0.85,
+     "position": 6.5
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/obsluzhivanie-asic-uhod-i-diagnostika",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 58.0
+    }
+   ]
+  },
+  {
+   "query": "майнинг скорость",
+   "kind": "same_locale",
+   "impressions": 47,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/kakaya-skorost-interneta-nuzhna-dlya-mayninga-na-asikah-i-fermah",
+     "locale": "ru",
+     "impressions": 38,
+     "clicks": 0,
+     "share": 0.81,
+     "position": 14.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 71.8
+    }
+   ]
+  },
+  {
+   "query": "fpga miner",
+   "kind": "cross_locale",
+   "impressions": 46,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/small-secret-of-big-mining-inexpensive-fpga-for-getting-out-the-crisis",
+     "locale": "en",
+     "impressions": 41,
+     "clicks": 1,
+     "share": 0.89,
+     "position": 6.8
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/malenkiy-sekret-bolshogo-mayninga-nedorogie-fpga-kak-vyhod-iz-krizisa",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 4.4
+    }
+   ]
+  },
+  {
+   "query": "s19 antminer",
+   "kind": "cross_locale",
+   "impressions": 46,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost",
+     "locale": "ru",
+     "impressions": 39,
+     "clicks": 0,
+     "share": 0.85,
+     "position": 9.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 17.9
+    }
+   ]
+  },
+  {
+   "query": "виндовс для майнинга",
+   "kind": "same_locale",
+   "impressions": 46,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk",
+     "locale": "ru",
+     "impressions": 31,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 40.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-uberechsya-ot-kriptodzhekinga-na-windows-za-pyat-shagov",
+     "locale": "ru",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 55.1
+    }
+   ]
+  },
+  {
+   "query": "bixbit usa",
+   "kind": "brand",
+   "impressions": 45,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 1,
+     "share": 0.33,
+     "position": 3.5
+    },
+    {
+     "page": "https://bixbit.io/en/about",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 6.1
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/bixbit-2025-year-in-numbers",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.29,
+     "position": 7.0
+    }
+   ]
+  },
+  {
+   "query": "asic custom firmware",
+   "kind": "same_locale",
+   "impressions": 45,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 34,
+     "clicks": 0,
+     "share": 0.76,
+     "position": 6.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.22,
+     "position": 28.8
+    }
+   ]
+  },
+  {
+   "query": "модели асиков",
+   "kind": "same_locale",
+   "impressions": 45,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/top-5-asic-kotorye-ostayutsya-aktualnymi-do-halvinga-bitkoina",
+     "locale": "ru",
+     "impressions": 31,
+     "clicks": 0,
+     "share": 0.69,
+     "position": 14.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/na-chem-maynit-v-2021-novye-modeli-asikov-vs-starye-na-immersionnom-ohlazhdenii",
+     "locale": "ru",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.29,
+     "position": 10.5
+    }
+   ]
+  },
+  {
+   "query": "antminer custom firmware",
+   "kind": "same_locale",
+   "impressions": 44,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 30,
+     "clicks": 0,
+     "share": 0.68,
+     "position": 7.2
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 24.1
+    }
+   ]
+  },
+  {
+   "query": "whatsminer hydro container",
+   "kind": "same_locale",
+   "impressions": 44,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container-hydro",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.39,
+     "position": 6.6
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.23,
+     "position": 32.7
+    },
+    {
+     "page": "https://bixbit.io/en/products/container-1k",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.2,
+     "position": 1.6
+    },
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 59.9
+    }
+   ]
+  },
+  {
+   "query": "разгон для майнинга",
+   "kind": "same_locale",
+   "impressions": 44,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+     "locale": "ru",
+     "impressions": 31,
+     "clicks": 0,
+     "share": 0.7,
+     "position": 40.2
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 45.5
+    }
+   ]
+  },
+  {
+   "query": "whatsminer прошивка",
+   "kind": "same_locale",
+   "impressions": 43,
+   "clicks": 4,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 24,
+     "clicks": 3,
+     "share": 0.56,
+     "position": 2.6
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.23,
+     "position": 9.7
+    }
+   ]
+  },
+  {
+   "query": "mining immersion cooling",
+   "kind": "same_locale",
+   "impressions": 43,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+     "locale": "en",
+     "impressions": 24,
+     "clicks": 0,
+     "share": 0.56,
+     "position": 12.4
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air",
+     "locale": "en",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.42,
+     "position": 16.1
+    }
+   ]
+  },
+  {
+   "query": "каркас для майнинга размеры",
+   "kind": "same_locale",
+   "impressions": 43,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/products/rack",
+     "locale": "ru",
+     "impressions": 33,
+     "clicks": 0,
+     "share": 0.77,
+     "position": 15.5
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.23,
+     "position": 54.9
+    }
+   ]
+  },
+  {
+   "query": "лучший erc20 кошелек",
+   "kind": "cross_locale",
+   "impressions": 43,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/popular-erc-20-compatible-wallets",
+     "locale": "en",
+     "impressions": 35,
+     "clicks": 0,
+     "share": 0.81,
+     "position": 19.1
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/populyarnye-koshelki-sovmestimye-s-er-20",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 15.8
+    }
+   ]
+  },
+  {
+   "query": "immersion cooling antminer",
+   "kind": "same_locale",
+   "impressions": 42,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.4,
+     "position": 19.8
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.26,
+     "position": 58.8
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 10.0
+    },
+    {
+     "page": "https://bixbit.io/en/products/coolant",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 60.6
+    }
+   ]
+  },
+  {
+   "query": "hydro mining container",
+   "kind": "same_locale",
+   "impressions": 41,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container-hydro",
+     "locale": "en",
+     "impressions": 30,
+     "clicks": 1,
+     "share": 0.73,
+     "position": 8.2
+    },
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 37.8
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 57.2
+    }
+   ]
+  },
+  {
+   "query": "shipping container mining",
+   "kind": "same_locale",
+   "impressions": 41,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 24,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 18.2
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.39,
+     "position": 65.1
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m32",
+   "kind": "cross_locale",
+   "impressions": 41,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 21,
+     "clicks": 0,
+     "share": 0.51,
+     "position": 11.1
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "locale": "ru",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 53.5
+    }
+   ]
+  },
+  {
+   "query": "майнинг битконнект",
+   "kind": "same_locale",
+   "impressions": 41,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/soosnovatelyu-bitconnect-predyavili-obvinenie-v-sozdanii-shemy-ponci",
+     "locale": "ru",
+     "impressions": 26,
+     "clicks": 0,
+     "share": 0.63,
+     "position": 13.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 31.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/obzor-bitmain-antminer-l7-harakteristiki-cena-okupaemost",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 62.6
+    }
+   ]
+  },
+  {
+   "query": "asic immersion cooling kit",
+   "kind": "same_locale",
+   "impressions": 40,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 24,
+     "clicks": 0,
+     "share": 0.6,
+     "position": 22.8
+    },
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 45.4
+    }
+   ]
+  },
+  {
+   "query": "l7 antminer",
+   "kind": "cross_locale",
+   "impressions": 40,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/bitmain-antminer-l7-review-specifications-price-payback",
+     "locale": "en",
+     "impressions": 32,
+     "clicks": 0,
+     "share": 0.8,
+     "position": 12.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/razgon-antminer-l7",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 15.8
+    }
+   ]
+  },
+  {
+   "query": "shipping container crypto mining",
+   "kind": "same_locale",
+   "impressions": 40,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 26,
+     "clicks": 0,
+     "share": 0.65,
+     "position": 16.2
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 48.0
+    }
+   ]
+  },
+  {
+   "query": "разгон r9 майнинг",
+   "kind": "same_locale",
+   "impressions": 40,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-razgon-mainera",
+     "locale": "ru",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.42,
+     "position": 44.8
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-4-obshchaia-strategiia-razgona",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 44.4
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/podkliuchenie-dopolnitelnogo-reguliruemogo-bloka-pitaniia/6-primer-razgona-mainera-m30s-v70-na-25",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 48.0
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/6-3-dopolnitelnye-nastroiki-razgona",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 69.2
+    }
+   ]
+  },
+  {
+   "query": "firmware whatsminer",
+   "kind": "same_locale",
+   "impressions": 39,
+   "clicks": 9,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 24,
+     "clicks": 5,
+     "share": 0.62,
+     "position": 4.2
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 2,
+     "share": 0.13,
+     "position": 7.2
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 11.8
+    }
+   ]
+  },
+  {
+   "query": "прошивка whatsminer",
+   "kind": "same_locale",
+   "impressions": 39,
+   "clicks": 2,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 17,
+     "clicks": 2,
+     "share": 0.44,
+     "position": 2.2
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares",
+     "locale": "ru",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.44,
+     "position": 9.7
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m3",
+   "kind": "cross_locale",
+   "impressions": 39,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.31,
+     "position": 30.9
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.31,
+     "position": 18.9
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "locale": "ru",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.31,
+     "position": 31.2
+    }
+   ]
+  },
+  {
+   "query": "asic immersion cooling system",
+   "kind": "same_locale",
+   "impressions": 38,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 23,
+     "clicks": 0,
+     "share": 0.61,
+     "position": 7.4
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 60.8
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 64.2
+    }
+   ]
+  },
+  {
+   "query": "bitmain s19",
+   "kind": "cross_locale",
+   "impressions": 38,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/bitmain-vypustil-modeli-antminer-s19-i-antminer-s19-pro-harakteristiki-i-pribylnost",
+     "locale": "ru",
+     "impressions": 34,
+     "clicks": 0,
+     "share": 0.89,
+     "position": 9.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 22.0
+    }
+   ]
+  },
+  {
+   "query": "майнинг на памяти",
+   "kind": "same_locale",
+   "impressions": 38,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 28,
+     "clicks": 0,
+     "share": 0.74,
+     "position": 45.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.26,
+     "position": 63.8
+    }
+   ]
+  },
+  {
+   "query": "asic miner cooling system",
+   "kind": "same_locale",
+   "impressions": 37,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+     "locale": "en",
+     "impressions": 21,
+     "clicks": 0,
+     "share": 0.57,
+     "position": 20.4
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.3,
+     "position": 57.3
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 36.5
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining shipping containers",
+   "kind": "same_locale",
+   "impressions": 37,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.51,
+     "position": 18.8
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.49,
+     "position": 43.6
+    }
+   ]
+  },
+  {
+   "query": "crypto shipping container",
+   "kind": "same_locale",
+   "impressions": 37,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 22.3
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.41,
+     "position": 21.8
+    }
+   ]
+  },
+  {
+   "query": "custom firmware for miner",
+   "kind": "same_locale",
+   "impressions": 37,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 2.9
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.41,
+     "position": 17.6
+    }
+   ]
+  },
+  {
+   "query": "immersion mining container",
+   "kind": "same_locale",
+   "impressions": 37,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 21,
+     "clicks": 0,
+     "share": 0.57,
+     "position": 20.1
+    },
+    {
+     "page": "https://bixbit.io/en/products/container-1k",
+     "locale": "en",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.41,
+     "position": 48.3
+    }
+   ]
+  },
+  {
+   "query": "industrial container bitcoin mining",
+   "kind": "same_locale",
+   "impressions": 37,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.51,
+     "position": 24.2
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.49,
+     "position": 49.4
+    }
+   ]
+  },
+  {
+   "query": "miner immersion cooling",
+   "kind": "same_locale",
+   "impressions": 37,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+     "locale": "en",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.51,
+     "position": 16.7
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 61.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air",
+     "locale": "en",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 31.0
+    }
+   ]
+  },
+  {
+   "query": "s17 antminer",
+   "kind": "same_locale",
+   "impressions": 37,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 20.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.22,
+     "position": 11.1
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 30.7
+    }
+   ]
+  },
+  {
+   "query": "операционная система для майнинга",
+   "kind": "same_locale",
+   "impressions": 37,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk",
+     "locale": "ru",
+     "impressions": 32,
+     "clicks": 0,
+     "share": 0.86,
+     "position": 53.8
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 84.8
+    }
+   ]
+  },
+  {
+   "query": "программа майнинга на пк",
+   "kind": "same_locale",
+   "impressions": 37,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk",
+     "locale": "ru",
+     "impressions": 33,
+     "clicks": 0,
+     "share": 0.89,
+     "position": 37.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-uberechsya-ot-kriptodzhekinga-na-windows-za-pyat-shagov",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 58.0
+    }
+   ]
+  },
+  {
+   "query": "shipping container bitcoin mining",
+   "kind": "same_locale",
+   "impressions": 36,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.53,
+     "position": 45.3
+    },
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.47,
+     "position": 20.4
+    }
+   ]
+  },
+  {
+   "query": "whatsminer s30",
+   "kind": "same_locale",
+   "impressions": 36,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.47,
+     "position": 12.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bystryy-obzor-microbt-whatsminer-m30s-harakteristiki-cena-okupaemost",
+     "locale": "ru",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.25,
+     "position": 1.0
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 49.3
+    }
+   ]
+  },
+  {
+   "query": "альтернативные криптовалюты",
+   "kind": "same_locale",
+   "impressions": 36,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/kakie-ekologicheski-chistye-kriptovalyuty-mogut-zamenit-bitkoin",
+     "locale": "ru",
+     "impressions": 31,
+     "clicks": 0,
+     "share": 0.86,
+     "position": 32.8
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/samye-neobychnye-kriptovalyuty-2021-goda-8-otbornyh-blokcheynov",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 19.2
+    }
+   ]
+  },
+  {
+   "query": "ошибка ватсмайнер",
+   "kind": "same_locale",
+   "impressions": 35,
+   "clicks": 8,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+     "locale": "ru",
+     "impressions": 30,
+     "clicks": 8,
+     "share": 0.86,
+     "position": 2.8
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 10.2
+    }
+   ]
+  },
+  {
+   "query": "ошибка 2320 whatsminer",
+   "kind": "cross_locale",
+   "impressions": 35,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+     "locale": "ru",
+     "impressions": 25,
+     "clicks": 1,
+     "share": 0.71,
+     "position": 6.9
+    },
+    {
+     "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 13.2
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 24.6
+    }
+   ]
+  },
+  {
+   "query": "asic miner immersion cooling",
+   "kind": "same_locale",
+   "impressions": 35,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.49,
+     "position": 11.4
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.26,
+     "position": 65.1
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 48.4
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 13.0
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining immersion cooling",
+   "kind": "same_locale",
+   "impressions": 35,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 23,
+     "clicks": 0,
+     "share": 0.66,
+     "position": 32.2
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 68.0
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 58.8
+    }
+   ]
+  },
+  {
+   "query": "antminer s19 pro firmware",
+   "kind": "cross_locale",
+   "impressions": 34,
+   "clicks": 2,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 26,
+     "clicks": 2,
+     "share": 0.76,
+     "position": 8.1
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/antminer",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 53.4
+    }
+   ]
+  },
+  {
+   "query": "bitmain прошивка",
+   "kind": "same_locale",
+   "impressions": 34,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/firmwares/antminer",
+     "locale": "ru",
+     "impressions": 28,
+     "clicks": 0,
+     "share": 0.82,
+     "position": 7.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 8.7
+    }
+   ]
+  },
+  {
+   "query": "какую память для майнинга",
+   "kind": "same_locale",
+   "impressions": 34,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.53,
+     "position": 53.1
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.47,
+     "position": 43.2
+    }
+   ]
+  },
+  {
+   "query": "antminer l7 overclock firmware",
+   "kind": "same_locale",
+   "impressions": 33,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.36,
+     "position": 12.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/bixbit-releases-new-firmware-for-the-s17-s17-pro-bitmain-antminer-series-with-overclocking-potential-of-up-to-60",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.3,
+     "position": 27.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 51.4
+    }
+   ]
+  },
+  {
+   "query": "h s в майнинге что это",
+   "kind": "same_locale",
+   "impressions": 33,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/chto-takoe-heshreyt-i-slozhnost-mayninga",
+     "locale": "ru",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.55,
+     "position": 25.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/islandiya-ray-dlya-maynerov-kotorym-dovolny-ne-vse",
+     "locale": "ru",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 11.5
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/goldshell-razrabotal-ustanovki-dlya-aziatskih-hoummaynerov-obzor-i-pribylnost",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 66.5
+    }
+   ]
+  },
+  {
+   "query": "immersion cooling mining rig",
+   "kind": "same_locale",
+   "impressions": 33,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/asics-cooling/immersion-systems",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.48,
+     "position": 39.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 26.7
+    },
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 30.2
+    }
+   ]
+  },
+  {
+   "query": "industrial containers bitcoin mining",
+   "kind": "same_locale",
+   "impressions": 33,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.52,
+     "position": 43.6
+    },
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.48,
+     "position": 25.6
+    }
+   ]
+  },
+  {
+   "query": "watsminer",
+   "kind": "cross_locale",
+   "impressions": 33,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 25,
+     "clicks": 0,
+     "share": 0.76,
+     "position": 6.0
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 7.0
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m50 прошивка",
+   "kind": "same_locale",
+   "impressions": 33,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 2.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 10.6
+    }
+   ]
+  },
+  {
+   "query": "майнинг память",
+   "kind": "same_locale",
+   "impressions": 33,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 26,
+     "clicks": 0,
+     "share": 0.79,
+     "position": 42.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 74.0
+    }
+   ]
+  },
+  {
+   "query": "пример майнера на fpga",
+   "kind": "same_locale",
+   "impressions": 33,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/malenkiy-sekret-bolshogo-mayninga-nedorogie-fpga-kak-vyhod-iz-krizisa",
+     "locale": "ru",
+     "impressions": 24,
+     "clicks": 0,
+     "share": 0.73,
+     "position": 6.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/fpga-dlya-mayninga-kakie-trendy-budut-preobladat-v-2019-godu",
+     "locale": "ru",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 10.8
+    }
+   ]
+  },
+  {
+   "query": "иммерсионная жидкость купить",
+   "kind": "same_locale",
+   "impressions": 32,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/products/coolant",
+     "locale": "ru",
+     "impressions": 24,
+     "clicks": 1,
+     "share": 0.75,
+     "position": 6.8
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/immersionnaya-zhidkost-kakuyu-vybrat-dlya-mayninga-i-pochemu",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.25,
+     "position": 24.6
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining asic 2025 overview",
+   "kind": "same_locale",
+   "impressions": 32,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/review-of-miners-2021-new-models-vs-old-ones-with-immersion-cooling",
+     "locale": "en",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 12.8
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/asic-evolution-what-will-happen-to-computing-devices-for-mining",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.41,
+     "position": 29.2
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining industrial container",
+   "kind": "same_locale",
+   "impressions": 32,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.5,
+     "position": 47.1
+    },
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.5,
+     "position": 21.1
+    }
+   ]
+  },
+  {
+   "query": "shipping containers bitcoin mining",
+   "kind": "same_locale",
+   "impressions": 32,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.5,
+     "position": 44.0
+    },
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.5,
+     "position": 20.2
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m30s прошивка",
+   "kind": "cross_locale",
+   "impressions": 31,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 1,
+     "share": 0.45,
+     "position": 4.1
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.23,
+     "position": 9.4
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 18.0
+    }
+   ]
+  },
+  {
+   "query": "иммерсионное охлаждение для майнинга купить",
+   "kind": "same_locale",
+   "impressions": 31,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/products",
+     "locale": "ru",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.39,
+     "position": 7.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/immersionnaya-zhidkost-kakuyu-vybrat-dlya-mayninga-i-pochemu",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.23,
+     "position": 17.1
+    },
+    {
+     "page": "https://bixbit.io/ru/asics-cooling/immersion-systems/ict-100",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.13,
+     "position": 14.0
+    }
+   ]
+  },
+  {
+   "query": "bitbix",
+   "kind": "brand",
+   "impressions": 30,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en",
+     "locale": "en",
+     "impressions": 21,
+     "clicks": 1,
+     "share": 0.7,
+     "position": 1.4
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.3,
+     "position": 7.3
+    }
+   ]
+  },
+  {
+   "query": "bitcoin immersion cooling system",
+   "kind": "same_locale",
+   "impressions": 30,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.47,
+     "position": 20.1
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling/immersion-systems",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.3,
+     "position": 47.8
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 68.0
+    }
+   ]
+  },
+  {
+   "query": "immersion asic cooling",
+   "kind": "same_locale",
+   "impressions": 30,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.43,
+     "position": 13.1
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 71.3
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling/immersion-systems",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 57.2
+    }
+   ]
+  },
+  {
+   "query": "s17 pro",
+   "kind": "same_locale",
+   "impressions": 30,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 20,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 16.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 27.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 6.2
+    }
+   ]
+  },
+  {
+   "query": "whatminer",
+   "kind": "cross_locale",
+   "impressions": 30,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 25,
+     "clicks": 0,
+     "share": 0.83,
+     "position": 6.2
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 6.0
+    }
+   ]
+  },
+  {
+   "query": "прошивка ватсмайнер м50",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 2,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 19,
+     "clicks": 2,
+     "share": 0.66,
+     "position": 2.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 12.7
+    }
+   ]
+  },
+  {
+   "query": "antminer прошивка",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/firmwares/antminer",
+     "locale": "ru",
+     "impressions": 25,
+     "clicks": 0,
+     "share": 0.86,
+     "position": 3.5
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 23.0
+    }
+   ]
+  },
+  {
+   "query": "asic liquid cooling",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.45,
+     "position": 21.2
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.34,
+     "position": 69.0
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 72.0
+    }
+   ]
+  },
+  {
+   "query": "asic устройства",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/luchshiy-mayner",
+     "locale": "ru",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.76,
+     "position": 9.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/obzor-asic-antminer-k7",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 8.5
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining container",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 24,
+     "clicks": 0,
+     "share": 0.83,
+     "position": 22.7
+    },
+    {
+     "page": "https://bixbit.io/en/products/container-hydro",
+     "locale": "en",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 70.7
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining mobile containers",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 24.5
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.41,
+     "position": 50.5
+    }
+   ]
+  },
+  {
+   "query": "immersion cooling asic miner",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 11.7
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.28,
+     "position": 60.5
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling",
+     "locale": "en",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 15.7
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m30 прошивка",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 5.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/proshivka-dlya-whatsminer-razgon-dlya-m2x-m3x-m5x-seriy",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 7.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bystryy-obzor-microbt-whatsminer-m30s-harakteristiki-cena-okupaemost",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 8.3
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 26.0
+    }
+   ]
+  },
+  {
+   "query": "большой майнинг",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/v-ukraine-obnaruzhili-rekordnuyu-mayning-fermu-na-5-tys-ustroystv",
+     "locale": "ru",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 18.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.28,
+     "position": 81.1
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/likvidirovan-krupnyy-mayning-park-vo-vnutrenney-mongolii",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 10.5
+    }
+   ]
+  },
+  {
+   "query": "майнинг где лучше",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/gde-seychas-vygodnee-vsego-dobyvat-kriptovalyutu-i-na-chto-obratit-vnimanie",
+     "locale": "ru",
+     "impressions": 23,
+     "clicks": 0,
+     "share": 0.79,
+     "position": 20.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-treyding-ili-holding-chto-vybrat-dlya-priumnozheniya-kapitala",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 10.0
+    }
+   ]
+  },
+  {
+   "query": "объем памяти для майнинга",
+   "kind": "same_locale",
+   "impressions": 29,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.52,
+     "position": 53.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.34,
+     "position": 57.4
+    },
+    {
+     "page": "https://bixbit.io/ru/products/container",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 65.8
+    }
+   ]
+  },
+  {
+   "query": "antminer s 17",
+   "kind": "same_locale",
+   "impressions": 28,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.43,
+     "position": 9.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.29,
+     "position": 14.1
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.25,
+     "position": 18.1
+    }
+   ]
+  },
+  {
+   "query": "ошибка 210 whatsminer m21s",
+   "kind": "cross_locale",
+   "impressions": 28,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.5,
+     "position": 4.7
+    },
+    {
+     "page": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.46,
+     "position": 14.6
+    }
+   ]
+  },
+  {
+   "query": "хешрейт ио",
+   "kind": "same_locale",
+   "impressions": 28,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/chto-takoe-heshreyt-i-slozhnost-mayninga",
+     "locale": "ru",
+     "impressions": 25,
+     "clicks": 0,
+     "share": 0.89,
+     "position": 6.8
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/heshreyt-seti-bitkoin-dostig-kosmicheskih-znacheniy-v-248-11-eh-s",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.11,
+     "position": 8.0
+    }
+   ]
+  },
+  {
+   "query": "antminer s19 custom firmware",
+   "kind": "same_locale",
+   "impressions": 27,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 6.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.41,
+     "position": 30.8
+    }
+   ]
+  },
+  {
+   "query": "mining container setup cost",
+   "kind": "same_locale",
+   "impressions": 27,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container-1k",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.52,
+     "position": 5.4
+    },
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.48,
+     "position": 27.0
+    }
+   ]
+  },
+  {
+   "query": "mining coolant",
+   "kind": "same_locale",
+   "impressions": 27,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.52,
+     "position": 49.4
+    },
+    {
+     "page": "https://bixbit.io/en/products/coolant",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.48,
+     "position": 28.8
+    }
+   ]
+  },
+  {
+   "query": "каркас для майнинга",
+   "kind": "same_locale",
+   "impressions": 27,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/products/rack",
+     "locale": "ru",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.81,
+     "position": 17.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 57.2
+    }
+   ]
+  },
+  {
+   "query": "asic immersion cooling tank",
+   "kind": "same_locale",
+   "impressions": 26,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.42,
+     "position": 14.9
+    },
+    {
+     "page": "https://bixbit.io/en/products/cell",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.31,
+     "position": 50.5
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling/immersion-systems",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 64.3
+    }
+   ]
+  },
+  {
+   "query": "asic miner s17 pro",
+   "kind": "same_locale",
+   "impressions": 26,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.54,
+     "position": 11.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.31,
+     "position": 11.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 28.0
+    }
+   ]
+  },
+  {
+   "query": "hydro cooled container",
+   "kind": "same_locale",
+   "impressions": 26,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.54,
+     "position": 23.1
+    },
+    {
+     "page": "https://bixbit.io/en/products/container-hydro",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.38,
+     "position": 48.7
+    }
+   ]
+  },
+  {
+   "query": "immersion cooling system for mining",
+   "kind": "same_locale",
+   "impressions": 26,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.62,
+     "position": 10.1
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.38,
+     "position": 23.6
+    }
+   ]
+  },
+  {
+   "query": "leading miner rack providers?",
+   "kind": "same_locale",
+   "impressions": 26,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/rack",
+     "locale": "en",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.69,
+     "position": 4.0
+    },
+    {
+     "page": "https://bixbit.io/en/products/rack-hydro",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.31,
+     "position": 3.4
+    }
+   ]
+  },
+  {
+   "query": "mining cooling",
+   "kind": "same_locale",
+   "impressions": 26,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air",
+     "locale": "en",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.85,
+     "position": 15.0
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+     "locale": "en",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 49.7
+    }
+   ]
+  },
+  {
+   "query": "shipping container mining rig",
+   "kind": "same_locale",
+   "impressions": 26,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.69,
+     "position": 16.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.31,
+     "position": 55.9
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m2",
+   "kind": "cross_locale",
+   "impressions": 26,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.42,
+     "position": 27.3
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 59.3
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 61.2
+    }
+   ]
+  },
+  {
+   "query": "майнинг закроют",
+   "kind": "same_locale",
+   "impressions": 26,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/v-kyrgyzstane-zakryli-nelegalnuyu-mayning-fermu-na-2-500-ustroystv",
+     "locale": "ru",
+     "impressions": 22,
+     "clicks": 0,
+     "share": 0.85,
+     "position": 32.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/v-uzbekistane-zakryli-mayning-fermu-rabotavshuyu-s-konca-leta-2020-goda",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 26.5
+    }
+   ]
+  },
+  {
+   "query": "asic whatsminer m20s",
+   "kind": "cross_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.36,
+     "position": 43.4
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 53.8
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 73.8
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining container design",
+   "kind": "same_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.72,
+     "position": 27.8
+    },
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.28,
+     "position": 62.0
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining cooling system",
+   "kind": "same_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.44,
+     "position": 29.9
+    },
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 53.8
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling",
+     "locale": "en",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 41.7
+    }
+   ]
+  },
+  {
+   "query": "immersion cooled mining rig",
+   "kind": "same_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.44,
+     "position": 47.2
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling/immersion-systems",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 33.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-to-make-1500-asics-out-of-1000-bought-the-magic-of-immersion-cooling",
+     "locale": "en",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 13.2
+    }
+   ]
+  },
+  {
+   "query": "whatsminer официальный сайт",
+   "kind": "cross_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.52,
+     "position": 4.3
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 6.0
+    }
+   ]
+  },
+  {
+   "query": "антмайнер s17",
+   "kind": "same_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.52,
+     "position": 14.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.28,
+     "position": 13.1
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.2,
+     "position": 13.6
+    }
+   ]
+  },
+  {
+   "query": "асик s 17",
+   "kind": "same_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.44,
+     "position": 9.5
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.28,
+     "position": 15.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 20.5
+    }
+   ]
+  },
+  {
+   "query": "каркас майнинг",
+   "kind": "same_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.52,
+     "position": 67.5
+    },
+    {
+     "page": "https://bixbit.io/ru/products/rack",
+     "locale": "ru",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.48,
+     "position": 15.3
+    }
+   ]
+  },
+  {
+   "query": "майнер s17 pro",
+   "kind": "same_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.4,
+     "position": 13.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 18.1
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.28,
+     "position": 13.7
+    }
+   ]
+  },
+  {
+   "query": "майнинг на 470",
+   "kind": "same_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/solo-mayning-bitkoinov-opyat-stanovitsya-pribylnym",
+     "locale": "ru",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.6,
+     "position": 40.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.4,
+     "position": 70.4
+    }
+   ]
+  },
+  {
+   "query": "программы для майнинга на домашнем",
+   "kind": "same_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk",
+     "locale": "ru",
+     "impressions": 21,
+     "clicks": 0,
+     "share": 0.84,
+     "position": 67.5
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/oblachnyy-mayning-vs-domashniy-mayning-vybiraem-luchshiy-variant",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 21.8
+    }
+   ]
+  },
+  {
+   "query": "прошивка для ватсмайнер м30s",
+   "kind": "cross_locale",
+   "impressions": 25,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer",
+     "locale": "ru",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.44,
+     "position": 6.2
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.16,
+     "position": 12.5
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 26.7
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bystryy-obzor-microbt-whatsminer-m30s-harakteristiki-cena-okupaemost",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 4.0
+    }
+   ]
+  },
+  {
+   "query": "whatsminer ошибки",
+   "kind": "same_locale",
+   "impressions": 24,
+   "clicks": 4,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic/spisok-oshibok-i-sposoby-resheniia",
+     "locale": "ru",
+     "impressions": 21,
+     "clicks": 4,
+     "share": 0.88,
+     "position": 2.9
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/kody-oshibok-dlia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 7.3
+    }
+   ]
+  },
+  {
+   "query": "bitcoin container",
+   "kind": "same_locale",
+   "impressions": 24,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.79,
+     "position": 24.1
+    },
+    {
+     "page": "https://bixbit.io/en/products/container-hydro",
+     "locale": "en",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 71.0
+    }
+   ]
+  },
+  {
+   "query": "bitcoin immersion cooling",
+   "kind": "same_locale",
+   "impressions": 24,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 21.8
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.21,
+     "position": 58.8
+    }
+   ]
+  },
+  {
+   "query": "windows 10 для майнинга",
+   "kind": "same_locale",
+   "impressions": 24,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk",
+     "locale": "ru",
+     "impressions": 21,
+     "clicks": 0,
+     "share": 0.88,
+     "position": 56.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-uberechsya-ot-kriptodzhekinga-na-windows-za-pyat-shagov",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.12,
+     "position": 34.3
+    }
+   ]
+  },
+  {
+   "query": "место под майнинг",
+   "kind": "same_locale",
+   "impressions": 24,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 58.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/v-ukraine-obnaruzhili-rekordnuyu-mayning-fermu-na-5-tys-ustroystv",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 13.4
+    }
+   ]
+  },
+  {
+   "query": "asic antminer s17",
+   "kind": "same_locale",
+   "impressions": 23,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.43,
+     "position": 17.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 10.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.17,
+     "position": 17.8
+    }
+   ]
+  },
+  {
+   "query": "асик whatsminer",
+   "kind": "same_locale",
+   "impressions": 23,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.78,
+     "position": 11.8
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/3-pervichnaia-nastroika-ustroistva",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.22,
+     "position": 6.6
+    }
+   ]
+  },
+  {
+   "query": "прошивки для асиков",
+   "kind": "same_locale",
+   "impressions": 23,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/firmwares",
+     "locale": "ru",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.78,
+     "position": 5.0
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/antminer",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.22,
+     "position": 16.6
+    }
+   ]
+  },
+  {
+   "query": "сколько памяти для майнинга",
+   "kind": "same_locale",
+   "impressions": 23,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.57,
+     "position": 59.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-konteynery-dlya-mayninga-menyayut-industriyu-dobychi-kriptovalyut",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.43,
+     "position": 66.8
+    }
+   ]
+  },
+  {
+   "query": "whatsminer tool",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.5,
+     "position": 10.5
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 25.5
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 3,
+     "clicks": 1,
+     "share": 0.14,
+     "position": 3.3
+    },
+    {
+     "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+     "locale": "en",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 32.0
+    }
+   ]
+  },
+  {
+   "query": "antminer s19 pro overclock",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.82,
+     "position": 14.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/antminer-19-series-profitability-and-price-guide",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 51.0
+    }
+   ]
+  },
+  {
+   "query": "asic s17",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.55,
+     "position": 12.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 11.9
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining industrial containers",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 13,
+     "clicks": 0,
+     "share": 0.59,
+     "position": 22.5
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 9,
+     "clicks": 0,
+     "share": 0.41,
+     "position": 51.8
+    }
+   ]
+  },
+  {
+   "query": "container mining bitcoin",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.64,
+     "position": 32.9
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.36,
+     "position": 28.2
+    }
+   ]
+  },
+  {
+   "query": "l7 доходность",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/razgon-antminer-l7",
+     "locale": "ru",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.73,
+     "position": 19.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/obzor-bitmain-antminer-l7-harakteristiki-cena-okupaemost",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 18.5
+    }
+   ]
+  },
+  {
+   "query": "mining cooling systems",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+     "locale": "en",
+     "impressions": 18,
+     "clicks": 0,
+     "share": 0.82,
+     "position": 31.7
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/immersion-cooling-or-how-to-stop-wasting-money-on-air",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 13.8
+    }
+   ]
+  },
+  {
+   "query": "mobile containers bitcoin mining",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.77,
+     "position": 23.4
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.23,
+     "position": 48.6
+    }
+   ]
+  },
+  {
+   "query": "s17 pro miner",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.36,
+     "position": 12.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.36,
+     "position": 11.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 20.0
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m21s 56t",
+   "kind": "cross_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.36,
+     "position": 48.4
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.36,
+     "position": 29.1
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.27,
+     "position": 42.7
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m66 firmware",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.23,
+     "position": 31.2
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/firmware-for-whatsminer-overclocking-for-m2x-m3x-m5x-series",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 16.0
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.18,
+     "position": 61.5
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 85.0
+    }
+   ]
+  },
+  {
+   "query": "whatsminertools",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.64,
+     "position": 8.4
+    },
+    {
+     "page": "https://bixbit.io/en/documentation/user-guide-for-whatsminer-asic/4-1-update-the-firmware-using-the-utility-whatsminertool",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.32,
+     "position": 6.1
+    }
+   ]
+  },
+  {
+   "query": "виндовс 10 для майнинга",
+   "kind": "same_locale",
+   "impressions": 22,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk",
+     "locale": "ru",
+     "impressions": 19,
+     "clicks": 0,
+     "share": 0.86,
+     "position": 57.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/kak-uberechsya-ot-kriptodzhekinga-na-windows-za-pyat-shagov",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 30.7
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m21s прошивка",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 1,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 1,
+     "share": 0.33,
+     "position": 5.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/anons-proshivki-dlya-whatsminer",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 17.8
+    },
+    {
+     "page": "https://bixbit.io/ru/documentation/rukovodstvo-polzovatelia-whatsminer-asic/4-obnovlenie-proshivki-mainera",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 25.0
+    }
+   ]
+  },
+  {
+   "query": "antminer l7 custom firmware",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.52,
+     "position": 14.7
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.48,
+     "position": 31.2
+    }
+   ]
+  },
+  {
+   "query": "antminer s17pro",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 9.8
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 20.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 15.7
+    }
+   ]
+  },
+  {
+   "query": "asic bitmain antminer s17 pro",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.38,
+     "position": 8.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 18.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 6,
+     "clicks": 0,
+     "share": 0.29,
+     "position": 12.5
+    }
+   ]
+  },
+  {
+   "query": "asic s17 pro",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.52,
+     "position": 5.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 11.0
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.14,
+     "position": 14.7
+    }
+   ]
+  },
+  {
+   "query": "bitcoin mining portable containers",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.76,
+     "position": 28.6
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 45.0
+    }
+   ]
+  },
+  {
+   "query": "crypto mining cooling solutions",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/asics-cooling/hydro-systems",
+     "locale": "en",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 32.4
+    },
+    {
+     "page": "https://bixbit.io/en/asics-cooling",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 25.1
+    }
+   ]
+  },
+  {
+   "query": "portable containers bitcoin mining",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/products/container",
+     "locale": "en",
+     "impressions": 17,
+     "clicks": 0,
+     "share": 0.81,
+     "position": 27.1
+    },
+    {
+     "page": "https://bixbit.io/en/blog/post/how-shipping-containers-change-the-cryptocurrency-mining-industry",
+     "locale": "en",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 50.0
+    }
+   ]
+  },
+  {
+   "query": "асик s17 pro",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 11.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 17.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 10.6
+    }
+   ]
+  },
+  {
+   "query": "майнинг какой криптовалюты выгоднее",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/gde-seychas-vygodnee-vsego-dobyvat-kriptovalyutu-i-na-chto-obratit-vnimanie",
+     "locale": "ru",
+     "impressions": 12,
+     "clicks": 0,
+     "share": 0.57,
+     "position": 14.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-treyding-ili-holding-chto-vybrat-dlya-priumnozheniya-kapitala",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.24,
+     "position": 12.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-dache-seychas-vygodnee-vsego-istoriya-iz-orenburga",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.19,
+     "position": 22.2
+    }
+   ]
+  },
+  {
+   "query": "майнинг на xp",
+   "kind": "same_locale",
+   "impressions": 21,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/luchshie-programmy-dlya-mayninga-2019-goda-na-pk",
+     "locale": "ru",
+     "impressions": 14,
+     "clicks": 0,
+     "share": 0.67,
+     "position": 70.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.33,
+     "position": 54.9
+    }
+   ]
+  },
+  {
+   "query": "asic mining firmware",
+   "kind": "same_locale",
+   "impressions": 20,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.8,
+     "position": 16.1
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 40.7
+    }
+   ]
+  },
+  {
+   "query": "bitmain antminer s17pro",
+   "kind": "same_locale",
+   "impressions": 20,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/stali-izvestny-harakteristiki-novyh-asic-bitmain-s17-i-s17-pro",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.4,
+     "position": 9.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/blic-obzor-bitmain-antminer-s17-i-s17-pro-dohodnost-okupaemost-itogi",
+     "locale": "ru",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 22.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/bixbit-razrabotal-proshivku-dlya-novyh-modeley-bitmain-antminer-s17-s17-pro-s-razgonom-do-60",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.25,
+     "position": 15.8
+    }
+   ]
+  },
+  {
+   "query": "gddr5 майнинг",
+   "kind": "same_locale",
+   "impressions": 20,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/na-gibridnyh-processorah-playstation-5-hotyat-maynit-eth-i-ton",
+     "locale": "ru",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.55,
+     "position": 51.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/mayning-na-zhestkom-diske-vse-chto-nuzhno-znat",
+     "locale": "ru",
+     "impressions": 5,
+     "clicks": 0,
+     "share": 0.25,
+     "position": 45.6
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/geforce-rtx-3050-ne-podoydet-dlya-mayninga-ethereum-zayavili-v-nvidia",
+     "locale": "ru",
+     "impressions": 4,
+     "clicks": 0,
+     "share": 0.2,
+     "position": 16.2
+    }
+   ]
+  },
+  {
+   "query": "microbt m20s",
+   "kind": "cross_locale",
+   "impressions": 20,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+     "locale": "en",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.5,
+     "position": 49.9
+    },
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m2x",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.5,
+     "position": 63.3
+    }
+   ]
+  },
+  {
+   "query": "mining firmware",
+   "kind": "same_locale",
+   "impressions": 20,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/en/firmwares",
+     "locale": "en",
+     "impressions": 11,
+     "clicks": 0,
+     "share": 0.55,
+     "position": 24.4
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/antminer",
+     "locale": "en",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.4,
+     "position": 37.0
+    }
+   ]
+  },
+  {
+   "query": "whatsminer m30s 112t",
+   "kind": "cross_locale",
+   "impressions": 20,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/firmwares/whatsminer-series-m3x",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.5,
+     "position": 41.1
+    },
+    {
+     "page": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+     "locale": "en",
+     "impressions": 7,
+     "clicks": 0,
+     "share": 0.35,
+     "position": 31.9
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/na-chem-maynit-v-2021-novye-modeli-asikov-vs-starye-na-immersionnom-ohlazhdenii",
+     "locale": "ru",
+     "impressions": 2,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 28.0
+    }
+   ]
+  },
+  {
+   "query": "майнинг nvidia",
+   "kind": "same_locale",
+   "impressions": 20,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/geforce-rtx-3050-ne-podoydet-dlya-mayninga-ethereum-zayavili-v-nvidia",
+     "locale": "ru",
+     "impressions": 16,
+     "clicks": 0,
+     "share": 0.8,
+     "position": 20.8
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/topovaya-videokarta-nvidia-dlya-mayninga-stoit-4-300-usd-okupaemost",
+     "locale": "ru",
+     "impressions": 2,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 46.5
+    }
+   ]
+  },
+  {
+   "query": "системы охлаждения асиков",
+   "kind": "same_locale",
+   "impressions": 20,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/asics-cooling/immersion-systems",
+     "locale": "ru",
+     "impressions": 10,
+     "clicks": 0,
+     "share": 0.5,
+     "position": 13.2
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/ohlazhdenie-mayning-fermy",
+     "locale": "ru",
+     "impressions": 8,
+     "clicks": 0,
+     "share": 0.4,
+     "position": 16.4
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/ohlazhdenie-asikov-trendy-2026",
+     "locale": "ru",
+     "impressions": 2,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 7.5
+    }
+   ]
+  },
+  {
+   "query": "фермы для майнинга криптовалют 2017",
+   "kind": "same_locale",
+   "impressions": 20,
+   "clicks": 0,
+   "pages": [
+    {
+     "page": "https://bixbit.io/ru/blog/post/v-ukraine-obnaruzhili-rekordnuyu-mayning-fermu-na-5-tys-ustroystv",
+     "locale": "ru",
+     "impressions": 15,
+     "clicks": 0,
+     "share": 0.75,
+     "position": 24.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog",
+     "locale": "ru",
+     "impressions": 3,
+     "clicks": 0,
+     "share": 0.15,
+     "position": 36.3
+    },
+    {
+     "page": "https://bixbit.io/ru/blog/post/v-knr-nashli-mayning-fermu-na-200-ustroystv-skolko-ih-eshche-v-strane",
+     "locale": "ru",
+     "impressions": 2,
+     "clicks": 0,
+     "share": 0.1,
+     "position": 23.0
+    }
+   ]
+  }
+ ]
+}
