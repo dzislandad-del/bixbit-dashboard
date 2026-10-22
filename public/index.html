@@ -577,32 +577,42 @@ async function loadState(){
   setSS('saving');
   try{
     const r=await sbFetch(`/rest/v1/dashboard_state?project=eq.${DK}&select=payload`);
+    if(!r.ok){console.error('HTTP',r.status,await r.text());setSS('err');render();return}
     const rows=await r.json();
-    console.log('Supabase response:',JSON.stringify(rows).slice(0,200));
-    if(rows&&rows[0]&&rows[0].payload&&Object.keys(rows[0].payload).length>0){
-      // Map payload to period-keyed state
+    console.log('Raw keys:',rows&&rows[0]?Object.keys(rows[0].payload||{}):[]);
+    if(rows&&rows[0]&&rows[0].payload){
       const raw=rows[0].payload;
-      // If data has period keys (contains '|'), use as-is; else wrap in current period
+      // Check if already period-keyed
       const hasPeriods=Object.keys(raw).some(k=>k.includes('|'));
-      if(hasPeriods){S=raw}
+      if(hasPeriods){S=raw;console.log('Period-keyed data, periods:',Object.keys(raw));}
       else{
-        // Flat structure: map channel data directly, normalize statuses
+        // Flat: map all channels, store into EVERY quarter so period switch works
+        const chMap={google:'google',yandex:'yandex',aaads:'aaads',linkedin:'linkedin',
+                     'a-ads':'aaads','a_ads':'aaads','aads':'aaads'};
         const mapped={};
-        ['google','yandex','aaads','linkedin'].forEach(ch=>{
-          if(raw[ch]){
-            const camps=(raw[ch].campaigns||[]).map(c=>({
+        Object.keys(raw).forEach(rawKey=>{
+          const ch=chMap[rawKey.toLowerCase()]||rawKey.toLowerCase();
+          if(['google','yandex','aaads','linkedin'].includes(ch)&&raw[rawKey]){
+            const camps=(raw[rawKey].campaigns||raw[rawKey]||[]);
+            const arr=Array.isArray(camps)?camps:[];
+            mapped[ch]={campaigns:arr.map(c=>({
               ...c,
-              status: c.status==='active'?'▶':c.status==='paused'?'⏸':'NEW',
+              status: c.status==='active'?'▶':c.status==='paused'?'⏸':c.status||'NEW',
               planfix: c.planfix_leads||c.planfix||0
-            }));
-            mapped[ch]={campaigns:camps};
+            }))};
           }
         });
         if(raw.organic)mapped.organic=raw.organic;
-        // Store under current period key
-        S[curP]=Object.keys(mapped).length>0?{...defPD(),...mapped}:defPD();
+        console.log('Mapped channels:',Object.keys(mapped));
+        console.log('Google camps:',mapped.google?.campaigns?.length);
+        console.log('Yandex camps:',mapped.yandex?.campaigns?.length);
+        // Load into all quarters
+        Object.entries(QQ).forEach(([q,[f,t]])=>{
+          const key=pk(f,t);
+          S[key]={...defPD(),...mapped};
+        });
       }
-      setTS();console.log('Data loaded OK, periods:',Object.keys(S));
+      setTS();
     }
     render();setSS('ok')
   }catch(e){console.error('loadState error:',e);setSS('err');render()}
@@ -689,7 +699,10 @@ function renderCh(ch){
 
 function renderFB(pfx,ch,camps){
   const el=document.getElementById(pfx+'-fb');if(!el)return;
-  const all=camps.length,run=camps.filter(c=>c.status==='▶').length,nw=camps.filter(c=>c.status==='NEW').length,pau=camps.filter(c=>c.status==='⏸').length;
+  const all=camps.length,
+    run=camps.filter(c=>c.status==='▶'||c.status==='active').length,
+    nw=camps.filter(c=>c.status==='NEW').length,
+    pau=camps.filter(c=>c.status==='⏸'||c.status==='paused').length;
   el.innerHTML=`<button class="fb on">Все<span class="fc">${all}</span></button><button class="fb">▶ Работают<span class="fc">${run}</span></button><button class="fb">NEW<span class="fc">${nw}</span></button><button class="fb">⏸ Стоп<span class="fc">${pau}</span></button><span class="fspc"></span>${editMode?`<button class="btn-add" onclick="addCamp('${ch}')">+ Кампания</button>`:''}`;
   el.querySelectorAll('.fb').forEach(b=>{b.onclick=function(){el.querySelectorAll('.fb').forEach(x=>x.classList.remove('on'));this.classList.add('on')}})
 }
