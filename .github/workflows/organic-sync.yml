@@ -1,0 +1,55 @@
+name: Organic Sync (GSC + GA4 → dashboard)
+
+# Ежедневно обновляет органику текущего квартала в дашборде (Supabase):
+# показы, клики, время на сайте, отказы, конверсии и топ-10 страниц по RU / EN / ES.
+# Ручной запуск: можно указать прошлый квартал (напр. 2026-Q1) для заполнения истории.
+#
+# Секреты (уже есть в репозитории): GOOGLE_SA_JSON, GSC_SITE_URL, GA4_PROPERTY_ID,
+# SUPABASE_URL, SUPABASE_ANON_KEY
+
+on:
+  schedule:
+    - cron: "30 5 * * *"   # ежедневно 05:30 UTC (08:30 Минск)
+  workflow_dispatch:
+    inputs:
+      quarter:
+        description: "Квартал, напр. 2026-Q1 (пусто = текущий)"
+        required: false
+        default: ""
+      overwrite:
+        description: "Перезаписать Google-данные прошлого квартала, если они уже есть"
+        type: boolean
+        default: false
+
+concurrency:
+  group: supabase-dashboard-write
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Service account from secrets
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+        run: |
+          umask 077
+          printf '%s' "$GOOGLE_SA_JSON" > "$RUNNER_TEMP/sa.json"
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/sa.json" >> "$GITHUB_ENV"
+
+      - name: Sync organic to Supabase
+        env:
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          QUARTER: ${{ github.event.inputs.quarter }}
+          OVERWRITE: ${{ github.event.inputs.overwrite }}
+        run: |
+          ARGS=""
+          [ -n "$QUARTER" ] && ARGS="$ARGS --quarter $QUARTER"
+          [ "$OVERWRITE" = "true" ] && ARGS="$ARGS --overwrite"
+          python3 scripts/organic_sync.py $ARGS | tee -a "$GITHUB_STEP_SUMMARY"

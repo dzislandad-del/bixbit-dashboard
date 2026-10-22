@@ -656,22 +656,24 @@ function mergePeriods(list){
   out._derived=true;return out
 }
 
+function normKey(k){const m=/^(\d{4}-\d{2}-\d{2})\|(\d{4}-\d{2}-\d{2})(\|.*)?$/.exec(k);return m?m[1]+'|'+m[2]:null}
 function buildStateFromPayload(raw){
   const st={};
-  // 1) Периоды, уже сохранённые в новом формате (ключи "from|to" на верхнем уровне)
-  Object.keys(raw).filter(k=>k.includes('|')&&!k.includes('nodate')).forEach(k=>{
-    const p=raw[k];st[k]=isV2Period(p)?p:periodIn(p);
-  });
-  // 2) Legacy-архив periods — основной источник (туда же пишут синк-скрипты), имеет приоритет
   const P=raw.periods||{};
-  Object.keys(P).filter(k=>k.includes('|')&&!k.includes('nodate')).forEach(k=>{st[k]=periodIn(P[k])});
+  // 1) Legacy-архив periods — основной источник (туда же пишут синк-скрипты).
+  //    Ключи с хвостом "|nodate" — артефакт старой версии (копия текущих данных), пропускаем.
+  const legacyKeys=Object.keys(P).filter(k=>normKey(k)===k);
+  legacyKeys.forEach(k=>{st[k]=periodIn(P[k])});
+  // 2) Ключи "from|to" на верхнем уровне — копии, записанные сломанной версией 22.10;
+  //    используем, только если legacy-архива нет совсем
+  if(!legacyKeys.length)Object.keys(raw).filter(k=>normKey(k)===k).forEach(k=>{const p=raw[k];st[k]=isV2Period(p)?p:periodIn(p)});
   // 3) Активный период старого дашборда (верхний уровень), если его нет в архиве
-  const ak=raw.lastActivePeriodKey;
-  if(ak&&ak.includes('|')&&!st[ak]&&['google','yandex','aads','linkedin','organic'].some(c=>raw[c]))st[ak]=periodIn(raw);
-  // 4) Кварталы без точного ключа — собрать из вложенных периодов (месяцы и т.п.)
+  const ak=raw.lastActivePeriodKey&&normKey(raw.lastActivePeriodKey);
+  if(ak&&(!st[ak]||!hasData(st[ak]))&&['google','yandex','aads','linkedin','organic'].some(c=>raw[c])){const p=periodIn(raw);if(hasData(p)||!st[ak])st[ak]=p}
+  // 4) Кварталы без данных — собрать из вложенных периодов (месяцы и т.п.)
   Object.values(QQ).forEach(([f,t])=>{
-    const qk=pk(f,t);if(st[qk])return;
-    const inner=Object.keys(st).filter(k=>{const[a,b]=k.split('|');return a>=f&&b<=t&&k!==qk}).sort();
+    const qk=pk(f,t);if(st[qk]&&hasData(st[qk]))return;
+    const inner=Object.keys(st).filter(k=>{const[a,b]=k.split('|');return a>=f&&b<=t&&k!==qk&&hasData(st[k])}).sort();
     const picked=[];let lastEnd='';
     inner.forEach(k=>{const[a,b]=k.split('|');if(a>lastEnd){picked.push(st[k]);lastEnd=b}});
     if(picked.length)st[qk]=mergePeriods(picked);
@@ -684,7 +686,7 @@ function buildStateFromPayload(raw){
 function hasData(p){
   if(!p)return false;
   return Object.keys(LCH).some(ch=>(p[ch]?.campaigns||[]).some(c=>nz(c.budget)||nz(c.impressions)||nz(c.clicks)))||
-    ['ru','en','es'].some(g=>nz(p.organic?.[g]?.impressions)||nz(p.organic?.[g]?.clicks)||(p.organic?.[g]?.pages||[]).length)
+    ['ru','en','es'].some(g=>nz(p.organic?.[g]?.impressions)||nz(p.organic?.[g]?.clicks)||(p.organic?.[g]?.pages||[]).some(x=>nz(x.clicks)||nz(x.impressions)))
 }
 
 async function fetchPayload(){
