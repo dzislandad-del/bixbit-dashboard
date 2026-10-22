@@ -99,15 +99,27 @@ def cid(name): return 'g_' + hashlib.md5(name.encode()).hexdigest()[:8]
 def _sbh(): return {'apikey': SUPABASE_KEY, 'Authorization': f'Bearer {SUPABASE_KEY}',
                     'Content-Type': 'application/json'}
 
+_ROW_COL = None  # 'project' (dashboard) or legacy 'key'
+
 def load_state():
-    r = requests.get(f'{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?key=eq.{SUPABASE_ROW}&select=payload',
-                     headers=_sbh(), timeout=30)
-    r.raise_for_status()
-    d = r.json()
-    return d[0]['payload'] or {} if d else {}
+    global _ROW_COL
+    for col in ('project', 'key'):
+        r = requests.get(f'{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?{col}=eq.{SUPABASE_ROW}&select=payload',
+                         headers=_sbh(), timeout=30)
+        if r.status_code == 400:  # column does not exist
+            continue
+        r.raise_for_status()
+        d = r.json()
+        if d:
+            _ROW_COL = col
+            print(f'  Supabase row found by column "{col}"')
+            return d[0]['payload'] or {}
+    raise RuntimeError(f'Supabase row "{SUPABASE_ROW}" not found in {SUPABASE_TABLE} — aborting to avoid data loss')
 
 def save_state(state):
-    r = requests.patch(f'{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?key=eq.{SUPABASE_ROW}',
+    if not _ROW_COL:
+        raise RuntimeError('save_state called before successful load_state')
+    r = requests.patch(f'{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?{_ROW_COL}=eq.{SUPABASE_ROW}',
                        headers={**_sbh(), 'Prefer': 'return=minimal'},
                        json={'payload': state}, timeout=30)
     r.raise_for_status()

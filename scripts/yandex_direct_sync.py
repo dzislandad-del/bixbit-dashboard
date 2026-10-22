@@ -171,18 +171,29 @@ def _sb_headers():
     }
 
 
+_ROW_COL = None  # 'project' (dashboard) or legacy 'key'
+
+
 def load_state() -> dict:
-    url = f'{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?key=eq.{SUPABASE_ROW}&select=payload'
-    resp = requests.get(url, headers=_sb_headers(), timeout=30)
-    resp.raise_for_status()
-    data = resp.json()
-    if data:
-        return data[0]['payload'] or {}
-    return {}
+    global _ROW_COL
+    for col in ('project', 'key'):
+        url = f'{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?{col}=eq.{SUPABASE_ROW}&select=payload'
+        resp = requests.get(url, headers=_sb_headers(), timeout=30)
+        if resp.status_code == 400:  # column does not exist
+            continue
+        resp.raise_for_status()
+        data = resp.json()
+        if data:
+            _ROW_COL = col
+            print(f'  Supabase row found by column "{col}"')
+            return data[0]['payload'] or {}
+    raise RuntimeError(f'Supabase row "{SUPABASE_ROW}" not found in {SUPABASE_TABLE} — aborting to avoid data loss')
 
 
 def save_state(state: dict):
-    url = f'{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?key=eq.{SUPABASE_ROW}'
+    if not _ROW_COL:
+        raise RuntimeError('save_state called before successful load_state')
+    url = f'{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?{_ROW_COL}=eq.{SUPABASE_ROW}'
     headers = {**_sb_headers(), 'Prefer': 'return=minimal'}
     resp = requests.patch(url, headers=headers, json={'payload': state}, timeout=30)
     resp.raise_for_status()
