@@ -166,12 +166,13 @@ body{background:var(--bg);color:var(--txt);font-family:var(--fu);font-size:13px;
 .btn-add:hover{color:var(--txt-m);border-color:var(--n600)}
 
 /* ── KPI grid ── */
-.kg{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-bottom:20px}
+.kg{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));grid-auto-rows:max-content;align-items:start;align-content:start;gap:10px;margin-bottom:20px}
 .kc{background:var(--surf);border:1px solid var(--brd);border-radius:var(--rc);padding:14px;position:relative;overflow:hidden}
 .kc::after{content:'';position:absolute;top:0;left:0;right:0;height:2px}
 .kc.cm::after{background:var(--m600)}
 .kc.cs::after{background:var(--ok300)}
 .kc.cw::after{background:var(--warn300)}
+.kc.cw{height:auto}
 .kc.ci::after{background:var(--info300)}
 .kc.ce::after{background:var(--err300)}
 .kl{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--txt-m);margin-bottom:6px}
@@ -199,6 +200,19 @@ tr:hover td{background:rgba(255,255,255,.02)}
 .edit-mode .name-inp:hover{border-color:var(--brd)}
 .edit-mode .name-inp:focus{border-color:var(--n0);background:var(--elem)}
 .name-inp[readonly]{cursor:default}
+/* название кампании — целиком в одну строку */
+td.ncell{white-space:nowrap;min-width:220px}
+.name-inp{width:auto!important;min-width:0!important;field-sizing:content;max-width:none}
+.btn-sm.on{border-color:var(--acc);color:var(--n0);background:var(--acc)}
+.btn-del{width:22px;height:22px;border:1px solid transparent;background:transparent;color:var(--txt-d);border-radius:var(--r);cursor:pointer;font-size:13px;line-height:1;padding:0}
+.btn-del:hover{border-color:var(--brd);color:#da7262}
+.edit-only{display:none}.edit-mode .edit-only{display:table-cell}
+.edit-mode .edit-only.blk{display:block}
+.edit-banner{display:none;margin:0 0 14px;padding:8px 12px;border:1px dashed var(--acc);border-radius:var(--r);font-size:11px;color:var(--txt-m)}
+.edit-mode .edit-banner{display:block}
+.src-tbl input.editable{min-width:70px}
+.org-inp{min-width:70px}
+.url-inp{width:auto!important;min-width:180px;field-sizing:content}
 /* Status badge */
 .sb2{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:var(--rp);font-size:10px;font-weight:600;white-space:nowrap;cursor:pointer;user-select:none;border:1px solid;transition:opacity .15s}
 .sb2:hover{opacity:.75}
@@ -356,7 +370,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
 
     <div class="tg-row">
       <span class="tg-lbl">Режим правки</span>
-      <label class="tg"><input type="checkbox" id="etg" onchange="setEditMode(this.checked)"><span class="tgs"></span></label>
+      <label class="tg"><input type="checkbox" id="etg" onchange="toggleEdit(this.checked)"><span class="tgs"></span></label>
     </div>
 
     <div class="ur">
@@ -378,7 +392,8 @@ tr:hover td{background:rgba(255,255,255,.02)}
     <div class="hdr-acts">
       <span class="lsync" id="lsync"></span>
       <button class="btn-sm" onclick="loadState()">↺ Обновить</button>
-      <button class="btn-acc-sm" id="sbtn" onclick="saveState()">Сохранить</button>
+      <button class="btn-sm" id="ebtn" onclick="toggleEdit()" title="Ручной ввод данных">✎ Правка</button>
+      <button class="btn-acc-sm" id="sbtn" onclick="saveState()" style="display:none">Сохранить</button>
       <button class="btn-ico" onclick="doLogout()" title="Выйти">
         <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M8.5 1.5H11a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.5M5.5 3.5 8.5 6.5l-3 3M8.5 6.5H1" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
@@ -386,6 +401,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
   </header>
 
   <div id="content">
+    <div class="edit-banner">✎ Режим правки: значения в таблицах можно менять вручную, вставлять из Google Sheets (Ctrl+V), добавлять и удалять строки. Изменения сохраняются автоматически через 2 секунды и при выходе из режима.</div>
 
     <!-- ═══ GOOGLE ═══ -->
     <div id="p-google" class="panel on">
@@ -393,7 +409,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <div class="fbar" id="g-fb"></div>
       <div class="tw">
         <div class="th2"><span class="tt">Кампании Google Ads</span><div class="ta"><span class="api-badge api-pend">API: настройка</span></div></div>
-        <div class="tov"><table><thead><tr><th>Кампания</th><th>Статус</th><th>Бюджет $</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC $</th><th>Конверсии</th><th>CPL $</th><th>Planfix</th></tr></thead><tbody id="g-tb"></tbody><tfoot><tr><td colspan="10" style="padding:0"><div class="tfoot" id="g-tf"></div></td></tr></tfoot></table></div>
+        <div class="tov"><table><thead><tr><th>Кампания</th><th>Статус</th><th>Бюджет $</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC $</th><th>Конверсии</th><th>CPL $</th><th>Planfix</th><th class="edit-only"></th></tr></thead><tbody id="g-tb"></tbody><tfoot><tr><td colspan="11" style="padding:0"><div class="tfoot" id="g-tf"></div></td></tr></tfoot></table></div>
         <div class="paste-hint">Ctrl+V — вставка из Google Sheets (TSV)</div>
       </div>
       <div class="cg"><div class="cc"><div class="ct">Показы и клики по кампаниям</div><div class="cw"><canvas id="g-c1"></canvas></div></div><div class="cc"><div class="ct">CTR % и CPC $</div><div class="cw"><canvas id="g-c2"></canvas></div></div></div>
@@ -405,7 +421,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <div class="fbar" id="y-fb"></div>
       <div class="tw">
         <div class="th2"><span class="tt">Кампании Яндекс Директ</span><div class="ta"><span class="api-badge api-pend">OAuth: ожидание доступа</span></div></div>
-        <div class="tov"><table><thead><tr><th>Кампания</th><th>Статус</th><th>Бюджет $</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC ₽</th><th>Конверсии</th><th>CPL ₽</th><th>Planfix</th></tr></thead><tbody id="y-tb"></tbody><tfoot><tr><td colspan="10" style="padding:0"><div class="tfoot" id="y-tf"></div></td></tr></tfoot></table></div>
+        <div class="tov"><table><thead><tr><th>Кампания</th><th>Статус</th><th>Бюджет $</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC ₽</th><th>Конверсии</th><th>CPL ₽</th><th>Planfix</th><th class="edit-only"></th></tr></thead><tbody id="y-tb"></tbody><tfoot><tr><td colspan="11" style="padding:0"><div class="tfoot" id="y-tf"></div></td></tr></tfoot></table></div>
         <div class="paste-hint">Ctrl+V — вставка из Яндекс.Метрики (TSV)</div>
       </div>
       <div class="cg"><div class="cc"><div class="ct">Показы и клики по кампаниям</div><div class="cw"><canvas id="y-c1"></canvas></div></div><div class="cc"><div class="ct">CTR % и CPC ₽</div><div class="cw"><canvas id="y-c2"></canvas></div></div></div>
@@ -417,7 +433,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <div class="fbar" id="a-fb"></div>
       <div class="tw">
         <div class="th2"><span class="tt">A-ADS · Кампания #210094</span><div class="ta"><span class="api-badge api-manual">Ручной ввод</span></div></div>
-        <div class="tov"><table><thead><tr><th>Кампания</th><th>Статус</th><th>Бюджет $</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC $</th><th>Конверсии</th><th>CPL $</th><th>Planfix</th></tr></thead><tbody id="a-tb"></tbody><tfoot><tr><td colspan="10" style="padding:0"><div class="tfoot" id="a-tf"></div></td></tr></tfoot></table></div>
+        <div class="tov"><table><thead><tr><th>Кампания</th><th>Статус</th><th>Бюджет $</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC $</th><th>Конверсии</th><th>CPL $</th><th>Planfix</th><th class="edit-only"></th></tr></thead><tbody id="a-tb"></tbody><tfoot><tr><td colspan="11" style="padding:0"><div class="tfoot" id="a-tf"></div></td></tr></tfoot></table></div>
       </div>
       <div class="cg"><div class="cc"><div class="ct">Показы и клики по кампаниям</div><div class="cw"><canvas id="a-c1"></canvas></div></div><div class="cc"><div class="ct">CTR % и CPC $</div><div class="cw"><canvas id="a-c2"></canvas></div></div></div>
     </div>
@@ -428,7 +444,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <div class="fbar" id="l-fb"></div>
       <div class="tw">
         <div class="th2"><span class="tt">Кампании LinkedIn Ads</span><div class="ta"><span class="api-badge api-pend">API: ожидание одобрения</span></div></div>
-        <div class="tov"><table><thead><tr><th>Кампания</th><th>Статус</th><th>Бюджет $</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC $</th><th>Конверсии</th><th>CPL $</th><th>Planfix</th></tr></thead><tbody id="l-tb"></tbody><tfoot><tr><td colspan="10" style="padding:0"><div class="tfoot" id="l-tf"></div></td></tr></tfoot></table></div>
+        <div class="tov"><table><thead><tr><th>Кампания</th><th>Статус</th><th>Бюджет $</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC $</th><th>Конверсии</th><th>CPL $</th><th>Planfix</th><th class="edit-only"></th></tr></thead><tbody id="l-tb"></tbody><tfoot><tr><td colspan="11" style="padding:0"><div class="tfoot" id="l-tf"></div></td></tr></tfoot></table></div>
         <div class="paste-hint">Ctrl+V — вставка TSV</div>
       </div>
       <div class="cg"><div class="cc"><div class="ct">Показы и клики по кампаниям</div><div class="cw"><canvas id="l-c1"></canvas></div></div><div class="cc"><div class="ct">CTR % и CPC $</div><div class="cw"><canvas id="l-c2"></canvas></div></div></div>
@@ -439,7 +455,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <div class="kg" id="all-kpi"></div>
       <div class="tw">
         <div class="th2"><span class="tt">Сводка — все каналы</span></div>
-        <div class="tov"><table><thead><tr><th>Канал</th><th>Бюджет</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC</th><th>Конверсии</th><th>CPL</th><th>Planfix</th></tr></thead><tbody id="all-tb"></tbody></table></div>
+        <div class="tov"><table><thead><tr><th>Канал</th><th>Бюджет</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC</th><th>Конверсии</th><th>CPL</th><th>Planfix</th><th class="edit-only"></th></tr></thead><tbody id="all-tb"></tbody></table></div>
       </div>
       <div class="cg">
         <div class="cc"><div class="ct">Бюджет по каналам</div><div class="cw"><canvas id="all-c1"></canvas></div></div>
@@ -458,20 +474,23 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <!-- RU -->
       <div id="org-ru">
         <div class="kg" id="oru-kpi"></div>
+        <div class="tw" id="oru-src"></div>
         <div class="cg"><div class="cc"><div class="ct">Показы и клики · bixbit.io/ru</div><div class="cw"><canvas id="oru-c1"></canvas></div></div><div class="cc"><div class="ct">Отказы % / Время на сайте</div><div class="cw"><canvas id="oru-c2"></canvas></div></div></div>
-        <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io/ru</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th></tr></thead><tbody id="oru-tb"></tbody></table></div></div>
+        <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io/ru</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th><th class="edit-only"></th></tr></thead><tbody id="oru-tb"></tbody></table></div></div>
       </div>
       <!-- EN -->
       <div id="org-en" style="display:none">
         <div class="kg" id="oen-kpi"></div>
+        <div class="tw" id="oen-src"></div>
         <div class="cg"><div class="cc"><div class="ct">Показы и клики · bixbit.io</div><div class="cw"><canvas id="oen-c1"></canvas></div></div><div class="cc"><div class="ct">Отказы % / Время на сайте</div><div class="cw"><canvas id="oen-c2"></canvas></div></div></div>
-        <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io (EN)</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th></tr></thead><tbody id="oen-tb"></tbody></table></div></div>
+        <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io (EN)</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th><th class="edit-only"></th></tr></thead><tbody id="oen-tb"></tbody></table></div></div>
       </div>
       <!-- ES -->
       <div id="org-es" style="display:none">
         <div class="kg" id="oes-kpi"></div>
+        <div class="tw" id="oes-src"></div>
         <div class="cg"><div class="cc"><div class="ct">Показы и клики · bixbit.io/es</div><div class="cw"><canvas id="oes-c1"></canvas></div></div><div class="cc"><div class="ct">Отказы % / Время на сайте</div><div class="cw"><canvas id="oes-c2"></canvas></div></div></div>
-        <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io/es</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th></tr></thead><tbody id="oes-tb"></tbody></table></div></div>
+        <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io/es</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th><th class="edit-only"></th></tr></thead><tbody id="oes-tb"></tbody></table></div></div>
       </div>
     </div>
 
@@ -817,7 +836,14 @@ function applyPM(){
 function setEditMode(on){
   editMode=on;document.body.classList.toggle('edit-mode',on);
   document.getElementById('sbtn').style.display=on?'block':'none';
+  const eb=document.getElementById('ebtn');if(eb){eb.classList.toggle('on',on);eb.textContent=on?'✓ Готово':'✎ Правка'}
+  const tg=document.getElementById('etg');if(tg)tg.checked=on;
   document.querySelectorAll('.editable,.name-inp').forEach(i=>{i.readOnly=!on;i.tabIndex=on?0:-1})
+}
+function toggleEdit(force){
+  const on=typeof force==='boolean'?force:!editMode;
+  if(!on&&editMode&&DIRTY.size){clearTimeout(saveTimer);saveState().finally(()=>{setEditMode(false);render()});return}
+  setEditMode(on);render()
 }
 
 /* ── Tab switch ── */
@@ -885,18 +911,20 @@ function kc(l,v,c){return`<div class="kc ${c}"><div class="kl">${l}</div><div cl
 function renderTbl(pfx,ch,camps,cfg){
   const tb=document.getElementById(pfx+'-tb'),tf=document.getElementById(pfx+'-tf');if(!tb)return;
   if(!camps.length){tb.innerHTML=`<tr><td colspan="10"><div class="empty">Нет кампаний${editMode?' — нажмите «+ Кампания»':''}</div></td></tr>`;return}
-  tb.innerHTML=camps.map((c,i)=>`<tr style="${c.status==='⏸'?'opacity:.55':''}">
-    <td><input class="name-inp" value="${esc(c.name)}" ${editMode?'':'readonly'} onchange="upd('${ch}',${i},'name',this.value)"></td>
+  const all=pd()[ch].campaigns;
+  tb.innerHTML=camps.map(c=>{const i=all.indexOf(c),ro=editMode?'':'readonly';return`<tr style="${c.status==='⏸'?'opacity:.55':''}">
+    <td class="ncell"><input class="name-inp" size="${Math.max(12,String(c.name||'').length+1)}" value="${esc(c.name)}" title="${esc(c.name)}" ${ro} onchange="upd('${ch}',${i},'name',this.value)"></td>
     <td><span class="sb2 ${sc(c.status)}" onclick="cycS('${ch}',${i})">${sl(c.status)}</span></td>
-    <td><input class="editable" type="number" value="${c.budget}" ${editMode?'':'readonly'} onchange="upd('${ch}',${i},'budget',+this.value)"></td>
-    <td><input class="editable" type="number" value="${c.impressions}" ${editMode?'':'readonly'} onchange="upd('${ch}',${i},'impressions',+this.value)"></td>
-    <td><input class="editable" type="number" value="${c.clicks}" ${editMode?'':'readonly'} onchange="upd('${ch}',${i},'clicks',+this.value)"></td>
+    <td><input class="editable" type="number" step="0.01" value="${c.budget}" ${ro} onchange="upd('${ch}',${i},'budget',+this.value)"></td>
+    <td><input class="editable" type="number" value="${c.impressions}" ${ro} onchange="upd('${ch}',${i},'impressions',+this.value)"></td>
+    <td><input class="editable" type="number" value="${c.clicks}" ${ro} onchange="upd('${ch}',${i},'clicks',+this.value)"></td>
     <td class="tmono">${c.impressions>0?(c.clicks/c.impressions*100).toFixed(2)+'%':'—'}</td>
     <td class="tmono">${c.clicks>0?(c.budget/c.clicks).toFixed(2):'—'}</td>
-    <td><input class="editable" type="number" value="${c.conversions}" ${editMode?'':'readonly'} onchange="upd('${ch}',${i},'conversions',+this.value)"></td>
-    <td class="tmono">${c.conversions>0?(c.budget/c.conversions).toFixed(0):'—'}</td>
-    <td><input class="editable" type="number" value="${c.planfix}" ${editMode?'':'readonly'} onchange="upd('${ch}',${i},'planfix',+this.value)"></td>
-  </tr>`).join('');
+    <td><input class="editable" type="number" value="${c.conversions}" ${ro} onchange="upd('${ch}',${i},'conversions',+this.value)"></td>
+    <td class="tmono">${c.conversions>0?(c.budget/c.conversions).toFixed(c.budget/c.conversions<10?2:0):'—'}</td>
+    <td><input class="editable" type="number" value="${c.planfix}" ${ro} onchange="upd('${ch}',${i},'planfix',+this.value)"></td>
+    <td class="edit-only"><button class="btn-del" title="Удалить кампанию" onclick="delCamp('${ch}',${i})">×</button></td>
+  </tr>`}).join('');
   const t=sums(camps);
   tf.innerHTML=`<div class="tfi">Бюджет<span>${fn(t.budget)} ${cfg.cur}</span></div><div class="tfi">Показы<span>${fn(t.impressions)}</span></div><div class="tfi">Клики<span>${fn(t.clicks)}</span></div><div class="tfi">Конверсии<span>${fn(t.conversions)}</span></div><div class="tfi">Planfix<span>${fn(t.planfix)}</span></div>`
 }
@@ -909,7 +937,8 @@ function cycS(ch,i){
   c.status=ord[(ord.indexOf(c.status)+1)%3];S[curP]=d;renderCh(ch);sched()
 }
 function addCamp(ch){const d=pd();d[ch].campaigns.push(defCamp());S[curP]=d;renderCh(ch);sched()}
-function upd(ch,i,f,v){if(!editMode)return;const d=pd();d[ch].campaigns[i][f]=v;S[curP]=d;sched()}
+function upd(ch,i,f,v){if(!editMode)return;const d=pd(),c=d[ch].campaigns[i];if(!c)return;c[f]=f==='name'?String(v).trim():(isFinite(v)?v:0);delete c._synthetic;S[curP]=d;sched();renderCh(ch)}
+function delCamp(ch,i){if(!editMode)return;const d=pd(),c=d[ch].campaigns[i];if(!c||!confirm('Удалить кампанию «'+c.name+'» из этого периода?'))return;d[ch].campaigns.splice(i,1);S[curP]=d;renderCh(ch);sched()}
 
 /* ── Charts ── */
 Chart.defaults.color='#808080';Chart.defaults.borderColor='#262525';
@@ -954,16 +983,60 @@ function goLang(l){
   renderOrg()
 }
 
+function orgDef(){return{impressions:0,clicks:0,avgTime:'0:00',bounceRate:0,conversions:0,pages:[]}}
+function orgOf(l){const d=pd();d.organic=d.organic||{};return d.organic[l]=d.organic[l]||orgDef()}
+function srcOf(o,k){o[k]=o[k]||{impressions:0,clicks:0,time_on_site:'0:00',bounce:0,conversions:0};return o[k]}
+function recalcOrg(o){
+  const ss=['google','yandex'].map(k=>o[k]).filter(x=>x&&(nz(x.impressions)||nz(x.clicks)||nz(x.conversions)));
+  if(!ss.length)return;
+  const w=ss.reduce((a,x)=>a+(nz(x.clicks)||1),0)||1;
+  o.impressions=ss.reduce((a,x)=>a+nz(x.impressions),0);o.clicks=ss.reduce((a,x)=>a+nz(x.clicks),0);o.conversions=ss.reduce((a,x)=>a+nz(x.conversions),0);
+  o.bounceRate=+(ss.reduce((a,x)=>a+nz(x.bounce)*(nz(x.clicks)||1),0)/w).toFixed(1);
+  o.avgTime=s2t(ss.reduce((a,x)=>a+t2s(x.time_on_site)*(nz(x.clicks)||1),0)/w);
+}
+function updSrc(l,k,f,v){if(!editMode)return;const o=orgOf(l),x=srcOf(o,k);x[f]=f==='time_on_site'?(String(v).trim()||'0:00'):nz(v);recalcOrg(o);S[curP]=pd();sched();renderOrg()}
+function updPage(l,i,f,v){if(!editMode)return;const o=orgOf(l),p=(o.pages||[])[i];if(!p)return;p[f]=(f==='url'||f==='avgTime')?String(v).trim():nz(v);S[curP]=pd();sched();renderOrg()}
+function addPage(l){if(!editMode)return;const o=orgOf(l);o.pages=o.pages||[];o.pages.push(defPage(l));S[curP]=pd();sched();renderOrg()}
+function delPage(l,i){if(!editMode)return;const o=orgOf(l);o.pages.splice(i,1);S[curP]=pd();sched();renderOrg()}
+
 function renderOrg(){
-  const l=curLang,d=pd(),od=d.organic?.[l]||{impressions:0,clicks:0,avgTime:'0:00',bounceRate:0,conversions:0,pages:[]};
+  const l=curLang,od=pd().organic?.[l]||orgDef();
   const pfxM={ru:'oru',en:'oen',es:'oes'}[l];
   const kpi=document.getElementById(pfxM+'-kpi');
   if(kpi){const ctr=od.impressions>0?(od.clicks/od.impressions*100).toFixed(2)+'%':'—';
     kpi.innerHTML=kc('Показы',fn(od.impressions||0),'ci')+kc('Клики',fn(od.clicks||0),'ci')+kc('CTR',ctr,'cs')+kc('Время',od.avgTime||'0:00','cw')+kc('Отказы',(od.bounceRate||0)+'%','ce')+kc('Конверсии',fn(od.conversions||0),'cs')}
+  // Источники: Google / Яндекс / Итого
+  const src=document.getElementById(pfxM+'-src');
+  if(src){
+    const ro=editMode?'':'readonly',row=(k,lb)=>{const x=od[k]||{};
+      return`<tr><td>${lb}</td>
+      <td><input class="editable" type="number" value="${nz(x.impressions)}" ${ro} onchange="updSrc('${l}','${k}','impressions',this.value)"></td>
+      <td><input class="editable" type="number" value="${nz(x.clicks)}" ${ro} onchange="updSrc('${l}','${k}','clicks',this.value)"></td>
+      <td><input class="editable" value="${esc(x.time_on_site||'0:00')}" placeholder="м:сс" ${ro} onchange="updSrc('${l}','${k}','time_on_site',this.value)"></td>
+      <td><input class="editable" type="number" step="0.1" value="${nz(x.bounce)}" ${ro} onchange="updSrc('${l}','${k}','bounce',this.value)"></td>
+      <td><input class="editable" type="number" value="${nz(x.conversions)}" ${ro} onchange="updSrc('${l}','${k}','conversions',this.value)"></td></tr>`};
+    const sy=od.synced?.at?` · Google обновлён автоматически ${new Date(od.synced.at).toLocaleDateString('ru')}`:'';
+    src.innerHTML=`<div class="th2"><span class="tt">Источники органики${sy}</span></div><div class="tov"><table class="src-tbl"><thead><tr><th>Источник</th><th>Показы</th><th>Клики</th><th>Время</th><th>Отказы %</th><th>Конверсии</th></tr></thead><tbody>
+      ${row('google','Google (GSC + GA4)')}${row('yandex','Яндекс (Вебмастер + Метрика)')}
+      <tr><td style="font-weight:600">Итого</td><td class="tmono">${fn(od.impressions||0)}</td><td class="tmono">${fn(od.clicks||0)}</td><td class="tmono">${od.avgTime||'0:00'}</td><td class="tmono">${od.bounceRate||0}%</td><td class="tmono">${fn(od.conversions||0)}</td></tr>
+      </tbody></table></div>`;
+  }
   const tb=document.getElementById(pfxM+'-tb');
-  if(tb){const pp=od.pages||[];
-    tb.innerHTML=pp.slice(0,10).map((p,i)=>{const pos=+p.position||0,pc=pos>0&&pos<=3?'g':pos<=10&&pos>0?'m':'';const ctr=p.impressions>0?(p.clicks/p.impressions*100).toFixed(1)+'%':'—';
-      return`<tr><td class="tmono" style="color:var(--txt-m)">${i+1}</td><td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px">${esc(p.url||'/')}</td><td class="tmono">${fn(p.impressions||0)}</td><td class="tmono">${fn(p.clicks||0)}</td><td class="tmono">${ctr}</td><td><span class="pc ${pc}">${pos>0?'#'+pos.toFixed(1):'—'}</span></td><td class="tmono">${p.avgTime||'—'}</td><td class="tmono">${p.bounceRate||0}%</td><td class="tmono">${p.conversions||0}</td></tr>`}).join('')||'<tr><td colspan="9"><div class="empty">Нет данных по страницам</div></td></tr>'}
+  if(tb){const pp=od.pages||[],ro=editMode?'':'readonly';
+    const rows=(editMode?pp:pp.slice(0,10)).map((p,i)=>{const pos=+p.position||0,pc=pos>0&&pos<=3?'g':pos<=10&&pos>0?'m':'';const ctr=p.impressions>0?(p.clicks/p.impressions*100).toFixed(1)+'%':'—';
+      if(!editMode)return`<tr><td class="tmono" style="color:var(--txt-m)">${i+1}</td><td style="white-space:nowrap;font-size:11px" title="${esc(p.url||'/')}">${esc(String(p.url||'/').replace(/^https?:\/\/(www\.)?bixbit\.io/,''))||'/'}</td><td class="tmono">${fn(p.impressions||0)}</td><td class="tmono">${fn(p.clicks||0)}</td><td class="tmono">${ctr}</td><td><span class="pc ${pc}">${pos>0?'#'+pos.toFixed(1):'—'}</span></td><td class="tmono">${p.avgTime||'—'}</td><td class="tmono">${p.bounceRate||0}%</td><td class="tmono">${p.conversions||0}</td><td class="edit-only"></td></tr>`;
+      return`<tr><td class="tmono" style="color:var(--txt-m)">${i+1}</td>
+        <td><input class="editable url-inp" size="${Math.max(18,String(p.url||'').length+1)}" value="${esc(p.url||'')}" ${ro} onchange="updPage('${l}',${i},'url',this.value)"></td>
+        <td><input class="editable" type="number" value="${nz(p.impressions)}" ${ro} onchange="updPage('${l}',${i},'impressions',this.value)"></td>
+        <td><input class="editable" type="number" value="${nz(p.clicks)}" ${ro} onchange="updPage('${l}',${i},'clicks',this.value)"></td>
+        <td class="tmono">${ctr}</td>
+        <td><input class="editable" type="number" step="0.1" value="${nz(p.position)}" ${ro} onchange="updPage('${l}',${i},'position',this.value)"></td>
+        <td><input class="editable" value="${esc(p.avgTime||'')}" placeholder="м:сс" ${ro} onchange="updPage('${l}',${i},'avgTime',this.value)"></td>
+        <td><input class="editable" type="number" step="0.1" value="${nz(p.bounceRate)}" ${ro} onchange="updPage('${l}',${i},'bounceRate',this.value)"></td>
+        <td><input class="editable" type="number" value="${nz(p.conversions)}" ${ro} onchange="updPage('${l}',${i},'conversions',this.value)"></td>
+        <td class="edit-only"><button class="btn-del" title="Удалить строку" onclick="delPage('${l}',${i})">×</button></td></tr>`}).join('');
+    tb.innerHTML=(rows||'<tr><td colspan="10"><div class="empty">Нет данных по страницам</div></td></tr>')+
+      (editMode?`<tr><td colspan="10"><button class="btn-add" onclick="addPage('${l}')">+ Страница</button> <span style="font-size:10px;color:var(--txt-d)">Ctrl+V — вставка из таблицы: URL · Показы · Клики · Позиция · Время · Отказы % · Конверсии</span></td></tr>`:'')}
   renderOrgCharts(pfxM,od)
 }
 
@@ -1062,7 +1135,16 @@ function demoLoad(){
 
 /* ── Paste (TSV) ── */
 document.addEventListener('paste',e=>{
-  if(!editMode||!CH[curTab])return;
+  if(!editMode)return;
+  if(curTab==='organic'){
+    const t=e.clipboardData.getData('text/plain');if(!t.includes('\t'))return;
+    if(e.target&&e.target.tagName==='INPUT'&&!t.includes('\n'))return;
+    e.preventDefault();
+    const o=orgOf(curLang);
+    o.pages=t.trim().split('\n').map(r=>r.split('\t')).filter(c=>c[0]&&!/^(url|страница|page)/i.test(c[0])).map(c=>({url:c[0].trim(),impressions:nz(c[1]),clicks:nz(c[2]),position:nz(String(c[3]||'').replace(',','.')),avgTime:(c[4]||'').trim(),bounceRate:nz(String(c[5]||'').replace(',','.').replace('%','')),conversions:nz(c[6])}));
+    S[curP]=pd();renderOrg();sched();return;
+  }
+  if(!CH[curTab])return;
   const txt=e.clipboardData.getData('text/plain');if(!txt.includes('\t'))return;
   const rows=txt.trim().split('\n').map(r=>r.split('\t'));if(!rows.length)return;
   const d=pd();
