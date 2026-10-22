@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
-"""Google Ads auto-sync for BiXBiT dashboard."""
-import json, os, sys, math, hashlib, requests
+"""Google Ads auto-sync for BiXBiT dashboard.
+
+Ежедневно (без аргументов): снимок за вчера → state.days[вчера].google и
+итоги квартала с начала квартала по вчера одним запросом к API → periods[квартал].google.
+Пересчёт прошлого квартала: --quarter 2026-Q3 (или --from/--to).
+
+Бюджет, показы, клики, конверсии и статусы — из Google Ads; Planfix-лиды
+(ручной ввод) сохраняются по совпадению id или названия кампании.
+Предыдущая версия блока google сохраняется в payload.backups.
+"""
+import argparse, json, os, sys, math, hashlib, requests
 from datetime import datetime, timedelta, date, timezone
 
 DEVELOPER_TOKEN   = os.environ.get('GOOGLE_ADS_DEVELOPER_TOKEN', '')
@@ -26,6 +35,15 @@ WHERE segments.date = '{date}'
   AND metrics.impressions > 0
 """
 
+GAQL_RANGE = """
+SELECT campaign.id, campaign.name, campaign.status,
+  metrics.impressions, metrics.clicks, metrics.cost_micros, metrics.conversions
+FROM campaign
+WHERE segments.date BETWEEN '{start}' AND '{end}'
+  AND campaign.status != 'REMOVED'
+  AND metrics.impressions > 0
+"""
+
 def get_access_token():
     resp = requests.post('https://oauth2.googleapis.com/token', data={
         'client_id': CLIENT_ID, 'client_secret': CLIENT_SECRET,
@@ -41,7 +59,7 @@ def ads_headers(token, use_mcc=True):
         h['login-customer-id'] = LOGIN_CUSTOMER_ID
     return h
 
-def fetch_campaigns(target_date):
+def fetch_campaigns(target_date=None, query=None):
     try:
         token = get_access_token()
         print('  OAuth token obtained OK')
@@ -49,7 +67,7 @@ def fetch_campaigns(target_date):
         print(f'  OAuth error: {e}')
         return None
     url = f'{GOOGLE_ADS_API}/customers/{CUSTOMER_ID}/googleAds:searchStream'
-    query = GAQL_QUERY.format(date=target_date).strip()
+    query = (query or GAQL_QUERY.format(date=target_date)).strip()
     attempts = [(True, 'with MCC'), (False, 'direct (no MCC)')] \
         if LOGIN_CUSTOMER_ID and LOGIN_CUSTOMER_ID != CUSTOMER_ID \
         else [(False, 'direct')]
@@ -149,52 +167,64 @@ def rows_to_daily_snapshot(rows):
             'clicks': sum(c['clicks'] for c in camps), 'campaigns': camps,
             'updated': datetime.now(timezone.utc).isoformat()}
 
-def aggregate_from_days(state, fd, td):
-    days = state.get('days', {}); cm = {}
-    tb = 0.0; ti = 0; tc = 0; has = False
-    d = datetime.strptime(fd, '%Y-%m-%d').date()
-    end = datetime.strptime(td, '%Y-%m-%d').date()
-    while d <= end:
-        g = days.get(d.isoformat(), {}).get('google')
-        if g:
-            has = True
-            tb += g.get('budget', 0); ti += g.get('impressions', 0); tc += g.get('clicks', 0)
-            for c in g.get('campaigns', []):
-                k = c.get('id') or cid(c.get('name', ''))
-                if k not in cm:
-                    cm[k] = {'id': k, 'name': c.get('name',''), 'budget': 0.0,
-                              'impressions': 0, 'clicks': 0, 'conversions': 0,
-                              'status': c.get('status','enabled')}
-                cm[k]['budget'] += c.get('budget', 0)
-                cm[k]['impressions'] += c.get('impressions', 0)
-                cm[k]['clicks'] += c.get('clicks', 0)
-                cm[k]['conversions'] += c.get('conversions', 0)
-        d += timedelta(days=1)
-    if not has: return None
-    tb = round(tb, 2)
-    camps = [{**c, 'budget': round(c['budget'], 2)} for c in cm.values()]
-    ctr = round(tc / ti * 100, 2) if ti > 0 else 0
-    cpc = _r4(tb / tc) if tc > 0 else 0
-    return {'budget': tb, 'impressions': ti, 'clicks': tc, 'ctr': ctr, 'cpc': cpc,
-            'campaigns': camps}
-
 def build_period_google(agg, existing):
-    ec = {c.get('id',''): c for c in existing.get('campaigns', [])}
+    """Метрики — из API; planfix_leads (CRM, ручной ввод) — из прежних данных по id или названию."""
+    old = existing.get('campaigns', []) or []
+    by_id = {c.get('id'): c for c in old if c.get('id')}
+    by_name = {(c.get('name') or '').strip().lower(): c for c in old}
     mc = []
-    for c in agg.get('campaigns', []):
-        k = c.get('id',''); p = ec.get(k, {})
-        mc.append({**c,
-                   'conversions': p.get('conversions', c.get('conversions', 0)),
-                   'planfix_leads': p.get('planfix_leads', 0),
-                   'status': p.get('status', c.get('status','enabled'))})
-    return {'budget': agg['budget'], 'impressions': agg['impressions'],
-            'clicks': agg['clicks'], 'ctr': agg['ctr'], 'cpc': agg['cpc'],
-            'conversions': existing.get('conversions', 0),
-            'cpl': existing.get('cpl', 0),
-            'planfix_leads': existing.get('planfix_leads', 0),
-            'campaigns': mc, 'updated': datetime.now(timezone.utc).isoformat()}
+    for c in agg['campaigns']:
+        p = by_id.get(c['id']) or by_name.get(c['name'].strip().lower()) or {}
+        mc.append({**c, 'planfix_leads': p.get('planfix_leads', 0)})
+    mc.sort(key=lambda c: -c['budget'])
+    tb = round(sum(c['budget'] for c in mc), 2)
+    ti = sum(c['impressions'] for c in mc); tc = sum(c['clicks'] for c in mc)
+    tcv = sum(c['conversions'] for c in mc); tpf = sum(c['planfix_leads'] or 0 for c in mc)
+    return {'budget': tb, 'impressions': ti, 'clicks': tc,
+            'ctr': round(tc / ti * 100, 2) if ti else 0,
+            'cpc': _r4(tb / tc) if tc else 0,
+            'conversions': tcv, 'cpl': round(tb / tcv, 2) if tcv else 0,
+            'planfix_leads': tpf, 'campaigns': mc,
+            'source': 'google-ads-api',
+            'updated': datetime.now(timezone.utc).isoformat()}
+
+def sync_period(state, f, t):
+    print(f'\nFetching campaign totals {f} .. {t} ...')
+    rows = fetch_campaigns(query=GAQL_RANGE.format(start=f, end=t))
+    if rows is None:
+        print('Could not fetch — aborting')
+        sys.exit(1)
+    agg = rows_to_daily_snapshot(rows)
+    print(f'  {len(agg["campaigns"])} campaigns, budget ${agg["budget"]}, '
+          f'impressions {agg["impressions"]}, clicks {agg["clicks"]}')
+    if not agg['campaigns']:
+        print('  No campaigns with impressions in this range — period not changed')
+        return False
+    # период хранится под ключом полного квартала (или заданного диапазона)
+    return agg
+
+def write_period(state, pkey, agg):
+    state.setdefault('periods', {})
+    state['periods'].setdefault(pkey, {})
+    eg = state['periods'][pkey].get('google', {}) or {}
+    if eg and eg.get('source') != 'google-ads-api':
+        state.setdefault('backups', {})[f'{pkey}.google.{datetime.now(timezone.utc).date().isoformat()}'] = eg
+        print('  Previous (manual) google block saved to payload.backups')
+    state['periods'][pkey]['google'] = build_period_google(agg, eg)
+    g = state['periods'][pkey]['google']
+    print(f'  periods[{pkey}].google: ${g["budget"]}, CTR {g["ctr"]}%, CPC ${g["cpc"]}, '
+          f'conv {g["conversions"]}, planfix {g["planfix_leads"]}')
+
+def parse_quarter(spec):
+    y, q = spec.upper().split('-Q'); y, q = int(y), int(q)
+    return quarter_range(date(y, 3 * (q - 1) + 1, 1))
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--quarter', help='e.g. 2026-Q3 — recompute a whole quarter from the API')
+    ap.add_argument('--from', dest='dfrom'); ap.add_argument('--to', dest='dto')
+    args = ap.parse_args()
+
     missing = [(n, v) for n, v in [
         ('GOOGLE_ADS_DEVELOPER_TOKEN', DEVELOPER_TOKEN),
         ('GOOGLE_ADS_CLIENT_ID', CLIENT_ID),
@@ -210,45 +240,40 @@ def main():
 
     today = datetime.now(timezone.utc).date()
     yesterday = today - timedelta(days=1)
+    print(f'Login customer ID set: {bool(LOGIN_CUSTOMER_ID)}')
+
+    # ── Пересчёт заданного периода ──
+    if args.quarter or (args.dfrom and args.dto):
+        f, t = parse_quarter(args.quarter) if args.quarter else (args.dfrom, args.dto)
+        end = min(t, yesterday.isoformat())
+        agg = sync_period(None, f, end)
+        if not agg:
+            sys.exit(0)
+        state = load_state()
+        write_period(state, period_key(f, t), agg)
+        save_state(state)
+        print('Done ✓')
+        return
+
+    # ── Ежедневный режим ──
     y_str = yesterday.isoformat()
     q_from, q_to = quarter_range(yesterday)
     pkey = period_key(q_from, q_to)
-
-    print(f'Google Ads sync — {y_str}')
-    print(f'Quarter: {q_from} -> {q_to}  (key: {pkey})')
-    print(f'Login customer ID set: {bool(LOGIN_CUSTOMER_ID)}')
-    print(f'\nFetching campaigns for {y_str} ...')
+    print(f'Google Ads sync — {y_str}; quarter {q_from} -> {q_to}')
 
     rows = fetch_campaigns(y_str)
     if rows is None:
         print('Could not fetch — aborting')
         sys.exit(1)
-    print(f'  Got {len(rows)} campaign row(s)')
-    if not rows:
-        print('No data for yesterday (no impressions or no campaigns)')
-        sys.exit(0)
-
     snap = rows_to_daily_snapshot(rows)
-    print(f'  Budget: ${snap["budget"]}, clicks: {snap["clicks"]}, '
-          f'impressions: {snap["impressions"]}')
+    print(f'  Yesterday: {len(rows)} campaigns, ${snap["budget"]}, clicks {snap["clicks"]}')
 
-    print('\nLoading Supabase state ...')
+    agg = sync_period(None, q_from, y_str)
+
     state = load_state()
-    state.setdefault('days', {})
-    state['days'].setdefault(y_str, {})
-    state['days'][y_str]['google'] = snap
-    print(f'  Wrote state.days[{y_str}].google')
-
-    print('\nAggregating quarter ...')
-    agg = aggregate_from_days(state, q_from, min(q_to, y_str))
+    state.setdefault('days', {}).setdefault(y_str, {})['google'] = snap
     if agg:
-        state.setdefault('periods', {})
-        state['periods'].setdefault(pkey, {})
-        eg = state['periods'][pkey].get('google', {})
-        state['periods'][pkey]['google'] = build_period_google(agg, eg)
-        print(f'  Budget: ${agg["budget"]}, ctr: {agg["ctr"]}%, cpc: ${agg["cpc"]}')
-
-    print('\nSaving to Supabase ...')
+        write_period(state, pkey, agg)
     save_state(state)
     print('Done ✓')
 
