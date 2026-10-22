@@ -4,8 +4,9 @@ name: Organic Sync (GSC + GA4 → dashboard)
 # показы, клики, время на сайте, отказы, конверсии и топ-10 страниц по RU / EN / ES.
 # Ручной запуск: можно указать прошлый квартал (напр. 2026-Q1) для заполнения истории.
 #
-# Секреты (уже есть в репозитории): GOOGLE_SA_JSON, GSC_SITE_URL, GA4_PROPERTY_ID,
-# SUPABASE_URL, SUPABASE_ANON_KEY
+# Секреты: GOOGLE_SA_JSON (JSON service account с доступом к GSC и GA4),
+# SUPABASE_URL, SUPABASE_ANON_KEY. GSC_SITE_URL / GA4_PROPERTY_ID — необязательно
+# (по умолчанию https://bixbit.io/ и 320129421).
 
 on:
   schedule:
@@ -36,19 +37,23 @@ jobs:
         env:
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
         run: |
+          if [ -z "$GOOGLE_SA_JSON" ]; then
+            echo "::error::Секрет GOOGLE_SA_JSON не задан в этом репозитории"; exit 1
+          fi
           umask 077
           printf '%s' "$GOOGLE_SA_JSON" > "$RUNNER_TEMP/sa.json"
           echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/sa.json" >> "$GITHUB_ENV"
 
       - name: Sync organic to Supabase
         env:
-          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
-          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL || 'https://bixbit.io/' }}
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID || '320129421' }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           QUARTER: ${{ github.event.inputs.quarter }}
           OVERWRITE: ${{ github.event.inputs.overwrite }}
         run: |
+          set -o pipefail
           ARGS=""
           [ -n "$QUARTER" ] && ARGS="$ARGS --quarter $QUARTER"
           [ "$OVERWRITE" = "true" ] && ARGS="$ARGS --overwrite"
