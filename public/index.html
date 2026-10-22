@@ -576,14 +576,33 @@ async function sbFetch(path,opts={}){
 async function loadState(){
   setSS('saving');
   try{
-    const r=await sbFetch(`/rest/v1/dashboard_state?key=eq.${DK}&select=*`);
+    const r=await sbFetch(`/rest/v1/dashboard_state?project=eq.${DK}&select=payload`);
     const rows=await r.json();
-    if(rows&&rows[0]){
-      // Auto-detect the JSONB data column (skip 'key', 'id', 'created_at', 'updated_at')
-      const skip=new Set(['key','id','created_at','updated_at']);
-      const col=Object.keys(rows[0]).find(k=>!skip.has(k)&&typeof rows[0][k]==='object'&&rows[0][k]!==null);
-      const payload=col?rows[0][col]:null;
-      if(payload&&Object.keys(payload).length>0){S=payload;setTS();console.log('Loaded from column:',col)}
+    console.log('Supabase response:',JSON.stringify(rows).slice(0,200));
+    if(rows&&rows[0]&&rows[0].payload&&Object.keys(rows[0].payload).length>0){
+      // Map payload to period-keyed state
+      const raw=rows[0].payload;
+      // If data has period keys (contains '|'), use as-is; else wrap in current period
+      const hasPeriods=Object.keys(raw).some(k=>k.includes('|'));
+      if(hasPeriods){S=raw}
+      else{
+        // Flat structure: map channel data directly, normalize statuses
+        const mapped={};
+        ['google','yandex','aaads','linkedin'].forEach(ch=>{
+          if(raw[ch]){
+            const camps=(raw[ch].campaigns||[]).map(c=>({
+              ...c,
+              status: c.status==='active'?'▶':c.status==='paused'?'⏸':'NEW',
+              planfix: c.planfix_leads||c.planfix||0
+            }));
+            mapped[ch]={campaigns:camps};
+          }
+        });
+        if(raw.organic)mapped.organic=raw.organic;
+        // Store under current period key
+        S[curP]=Object.keys(mapped).length>0?{...defPD(),...mapped}:defPD();
+      }
+      setTS();console.log('Data loaded OK, periods:',Object.keys(S));
     }
     render();setSS('ok')
   }catch(e){console.error('loadState error:',e);setSS('err');render()}
@@ -592,8 +611,7 @@ async function loadState(){
 async function saveState(){
   if(!editMode)return;setSS('saving');
   try{
-    // Try both 'data' and detected column name
-    const body={key:DK,data:S};
+    const body={project:DK,payload:S};
     const r=await sbFetch('/rest/v1/dashboard_state',{method:'POST',headers:{'Prefer':'resolution=merge-duplicates'},body:JSON.stringify(body)});
     if(r.ok){setTS();setSS('ok')}else{
       const err=await r.json().catch(()=>({}));
@@ -704,8 +722,8 @@ function renderTbl(pfx,ch,camps,cfg){
   tf.innerHTML=`<div class="tfi">Бюджет<span>${fn(t.budget)} ${cfg.cur}</span></div><div class="tfi">Показы<span>${fn(t.impressions)}</span></div><div class="tfi">Клики<span>${fn(t.clicks)}</span></div><div class="tfi">Конверсии<span>${fn(t.conversions)}</span></div><div class="tfi">Planfix<span>${fn(t.planfix)}</span></div>`
 }
 
-function sc(s){return s==='▶'?'s-run':s==='NEW'?'s-new':'s-pau'}
-function sl(s){return s==='▶'?'▶ Работает':s==='NEW'?'NEW':'⏸ Стоп'}
+function sc(s){return s==='▶'||s==='active'?'s-run':s==='NEW'?'s-new':'s-pau'}
+function sl(s){return s==='▶'||s==='active'?'▶ Работает':s==='NEW'?'NEW':'⏸ Стоп'}
 
 function cycS(ch,i){
   const d=pd(),c=d[ch].campaigns[i],ord=['NEW','▶','⏸'];
