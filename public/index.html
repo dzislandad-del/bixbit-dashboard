@@ -543,7 +543,7 @@ async function handleLogin(){
   try{
     const r=await fetch(`${SB_URL}/auth/v1/token?grant_type=password`,{method:'POST',headers:{'Content-Type':'application/json','apikey':SB_KEY,'Authorization':'Bearer '+SB_KEY},body:JSON.stringify({email:e,password:p})});
     const d=await r.json();
-    if(d.access_token){sessionStorage.setItem('sbt',d.access_token);sessionStorage.setItem('sbe',d.user?.email||e);onAuth(d.user?.email||e)}
+    if(d.access_token){sessionStorage.setItem('sbt',d.access_token);if(d.refresh_token)sessionStorage.setItem('sbr',d.refresh_token);sessionStorage.setItem('sbe',d.user?.email||e);onAuth(d.user?.email||e)}
     else showErr(d.error_description||'Ошибка входа')
   }catch{showErr('Ошибка сети')}
   document.getElementById('lbtxt').textContent='Войти';b.disabled=false
@@ -569,10 +569,34 @@ window.addEventListener('DOMContentLoaded',()=>{
 });
 
 /* ── Supabase ── */
+// Токен входа живёт ~1 час. Просроченный токен → обновляем по refresh_token;
+// если не вышло — читаем данные публичным ключом (RLS разрешает чтение anon),
+// а запись требует повторного входа.
+async function sbRefresh(){
+  const rt=sessionStorage.getItem('sbr');if(!rt)return false;
+  try{
+    const r=await fetch(`${SB_URL}/auth/v1/token?grant_type=refresh_token`,{method:'POST',headers:{'Content-Type':'application/json','apikey':SB_KEY},body:JSON.stringify({refresh_token:rt})});
+    const d=await r.json();
+    if(d.access_token){sessionStorage.setItem('sbt',d.access_token);if(d.refresh_token)sessionStorage.setItem('sbr',d.refresh_token);return true}
+  }catch(e){console.warn('sbRefresh:',e)}
+  return false
+}
+function sbGo(path,opts,t){return fetch(SB_URL+path,{...opts,headers:{'Content-Type':'application/json','apikey':SB_KEY,'Authorization':'Bearer '+(t||SB_KEY),...(opts.headers||{})}})}
 async function sbFetch(path,opts={}){
   const t=sessionStorage.getItem('sbt');
-  return fetch(SB_URL+path,{...opts,headers:{'Content-Type':'application/json','apikey':SB_KEY,'Authorization':'Bearer '+(t||SB_KEY),...(opts.headers||{})}})
+  let r=await sbGo(path,opts,t);
+  if(t&&(r.status===401||r.status===403)){
+    if(await sbRefresh())r=await sbGo(path,opts,sessionStorage.getItem('sbt'));
+    else{
+      sessionStorage.removeItem('sbt');
+      const isRead=!opts.method||opts.method==='GET';
+      if(isRead){console.warn('Сессия истекла — читаю данные публичным ключом');r=await sbGo(path,opts,null)}
+      else showToastSafe('Сессия истекла — войдите заново, чтобы сохранить');
+    }
+  }
+  return r
 }
+function showToastSafe(m){try{const el=document.getElementById('lsync');if(el)el.textContent=m}catch{}console.warn(m)}
 
 /* ── Legacy ⇄ v2 data bridge ──
    Supabase хранит данные в «старом» формате дашборда:
@@ -692,7 +716,8 @@ function hasData(p){
 async function fetchPayload(){
   for(let a=1;a<=3;a++){
     const r=await sbFetch(`/rest/v1/dashboard_state?project=eq.${DK}&select=payload`);
-    if(r.ok){const rows=await r.json();if(rows&&rows[0]&&rows[0].payload)return rows[0].payload;console.warn('loadState: пустой ответ, попытка',a)}
+    if(r.ok){const rows=await r.json();if(rows&&rows[0]&&rows[0].payload)return rows[0].payload;console.warn('loadState: пустой ответ, попытка',a);
+      if(sessionStorage.getItem('sbt')){const r2=await sbGo(`/rest/v1/dashboard_state?project=eq.${DK}&select=payload`,{},null);if(r2.ok){const x=await r2.json();if(x&&x[0]&&x[0].payload){console.warn('RLS для authenticated вернул пусто — данные прочитаны публичным ключом');return x[0].payload}}}}
     else console.error('loadState HTTP',r.status,await r.text());
     if(a<3)await new Promise(res=>setTimeout(res,500*a));
   }
@@ -703,7 +728,7 @@ async function loadState(){
   setSS('saving');
   try{
     const raw=await fetchPayload();
-    if(!raw){console.warn('Supabase: нет данных');RAW_OK=false;render();setSS('err');return}
+    if(!raw){console.warn('Supabase: нет данных');RAW_OK=false;render();setSS('err');showToastSafe('⚠ Не удалось загрузить данные из Supabase');return}
     RAW_OK=true;
     S=buildStateFromPayload(raw);
     const keys=Object.keys(S).sort();
