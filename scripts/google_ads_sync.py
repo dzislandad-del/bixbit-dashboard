@@ -49,7 +49,18 @@ def get_access_token():
         'client_id': CLIENT_ID, 'client_secret': CLIENT_SECRET,
         'refresh_token': REFRESH_TOKEN, 'grant_type': 'refresh_token',
     }, timeout=30)
-    resp.raise_for_status()
+    if not resp.ok:
+        try:
+            j = resp.json(); err, desc = j.get('error', ''), j.get('error_description', '')
+        except ValueError:
+            err, desc = '', resp.text[:200]
+        hint = {
+            'invalid_grant': 'refresh token отозван или истёк (OAuth-приложение в режиме Testing живёт 7 дней) — '
+                             'выпустите новый: python3 scripts/google_ads_refresh_token.py',
+            'invalid_client': 'GOOGLE_ADS_CLIENT_ID / CLIENT_SECRET не совпадают с OAuth-клиентом в Google Cloud',
+            'unauthorized_client': 'refresh token выпущен другим OAuth-клиентом — выпустите новый этим клиентом',
+        }.get(err, '')
+        raise RuntimeError(f'{resp.status_code} {err}: {desc}' + (f'\n  → {hint}' if hint else ''))
     return resp.json()['access_token']
 
 def ads_headers(token, use_mcc=True):
