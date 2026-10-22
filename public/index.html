@@ -405,7 +405,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <div class="fbar" id="y-fb"></div>
       <div class="tw">
         <div class="th2"><span class="tt">Кампании Яндекс Директ</span><div class="ta"><span class="api-badge api-pend">OAuth: ожидание доступа</span></div></div>
-        <div class="tov"><table><thead><tr><th>Кампания</th><th>Статус</th><th>Бюджет ₽</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC ₽</th><th>Конверсии</th><th>CPL ₽</th><th>Planfix</th></tr></thead><tbody id="y-tb"></tbody><tfoot><tr><td colspan="10" style="padding:0"><div class="tfoot" id="y-tf"></div></td></tr></tfoot></table></div>
+        <div class="tov"><table><thead><tr><th>Кампания</th><th>Статус</th><th>Бюджет $</th><th>Показы</th><th>Клики</th><th>CTR</th><th>CPC ₽</th><th>Конверсии</th><th>CPL ₽</th><th>Planfix</th></tr></thead><tbody id="y-tb"></tbody><tfoot><tr><td colspan="10" style="padding:0"><div class="tfoot" id="y-tf"></div></td></tr></tfoot></table></div>
         <div class="paste-hint">Ctrl+V — вставка из Яндекс.Метрики (TSV)</div>
       </div>
       <div class="cg"><div class="cc"><div class="ct">Показы и клики по кампаниям</div><div class="cw"><canvas id="y-c1"></canvas></div></div><div class="cc"><div class="ct">CTR % и CPC ₽</div><div class="cw"><canvas id="y-c2"></canvas></div></div></div>
@@ -512,12 +512,13 @@ tr:hover td{background:rgba(255,255,255,.02)}
 const SB_URL='https://bjczjgybcdfpeukfsfwh.supabase.co';
 const SB_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJqY3pqZ3liY2RmcGV1a2ZzZndoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMjI1NTcsImV4cCI6MjA5Nzg5ODU1N30.pcH1Zsq55vG1XvFBAxJAq7pMrTP2fb-8wt7KqfV3j3s'; // ← вставьте анонимный ключ
 const DK='bixbit';
+const filterSt={google:'all',yandex:'all',aaads:'all',linkedin:'all'};
 
 let S={},curP='',curTab='google',editMode=false,curLang='ru',cmpMet='ad';
 let charts={},saveTimer=null;
 
 const QQ={Q1:['2026-01-01','2026-03-31'],Q2:['2026-04-01','2026-06-30'],Q3:['2026-07-01','2026-09-30'],Q4:['2026-10-01','2026-12-31']};
-const CH={google:{lb:'Google Ads',cur:'$',col:'#4285F4'},yandex:{lb:'Яндекс Директ',cur:'₽',col:'#FF4040'},aaads:{lb:'A-ADS',cur:'$',col:'#F7931A'},linkedin:{lb:'LinkedIn Ads',cur:'$',col:'#0A66C2'}};
+const CH={google:{lb:'Google Ads',cur:'$',col:'#4285F4'},yandex:{lb:'Яндекс Директ',cur:'$',col:'#FF4040'},aaads:{lb:'A-ADS',cur:'$',col:'#F7931A'},linkedin:{lb:'LinkedIn Ads',cur:'$',col:'#0A66C2'}};
 const TL={google:'Google Ads',yandex:'Яндекс Директ',aaads:'A-ADS',linkedin:'LinkedIn Ads',all:'Все каналы',organic:'Органика',compare:'Периоды'};
 
 function pk(f,t){return f+'|'+t}
@@ -577,45 +578,47 @@ async function loadState(){
   setSS('saving');
   try{
     const r=await sbFetch(`/rest/v1/dashboard_state?project=eq.${DK}&select=payload`);
-    if(!r.ok){console.error('HTTP',r.status,await r.text());setSS('err');render();return}
+    if(!r.ok){const t=await r.text();console.error('HTTP',r.status,t);setSS('err');render();return}
     const rows=await r.json();
-    console.log('Raw keys:',rows&&rows[0]?Object.keys(rows[0].payload||{}):[]);
-    if(rows&&rows[0]&&rows[0].payload){
-      const raw=rows[0].payload;
-      // Check if already period-keyed
-      const hasPeriods=Object.keys(raw).some(k=>k.includes('|'));
-      if(hasPeriods){S=raw;console.log('Period-keyed data, periods:',Object.keys(raw));}
-      else{
-        // Flat: map all channels, store into EVERY quarter so period switch works
-        const chMap={google:'google',yandex:'yandex',aaads:'aaads',linkedin:'linkedin',
-                     'a-ads':'aaads','a_ads':'aaads','aads':'aaads'};
-        const mapped={};
-        Object.keys(raw).forEach(rawKey=>{
-          const ch=chMap[rawKey.toLowerCase()]||rawKey.toLowerCase();
-          if(['google','yandex','aaads','linkedin'].includes(ch)&&raw[rawKey]){
-            const camps=(raw[rawKey].campaigns||raw[rawKey]||[]);
-            const arr=Array.isArray(camps)?camps:[];
-            mapped[ch]={campaigns:arr.map(c=>({
-              ...c,
-              status: c.status==='active'?'▶':c.status==='paused'?'⏸':c.status||'NEW',
-              planfix: c.planfix_leads||c.planfix||0
-            }))};
-          }
-        });
-        if(raw.organic)mapped.organic=raw.organic;
-        console.log('Mapped channels:',Object.keys(mapped));
-        console.log('Google camps:',mapped.google?.campaigns?.length);
-        console.log('Yandex camps:',mapped.yandex?.campaigns?.length);
-        // Load into all quarters
-        Object.entries(QQ).forEach(([q,[f,t]])=>{
-          const key=pk(f,t);
-          S[key]={...defPD(),...mapped};
-        });
-      }
-      setTS();
+    if(!rows||!rows[0]||!rows[0].payload){console.warn('No payload');render();setSS('ok');return}
+    const raw=rows[0].payload;
+    console.log('Payload keys:',Object.keys(raw));
+    // Check if already period-keyed (contains '|' in keys)
+    const hasPeriods=Object.keys(raw).some(k=>k.includes('|'));
+    if(hasPeriods){
+      S=raw;
+      console.log('Period-keyed, periods:',Object.keys(raw));
+    } else {
+      // Flat structure — map channels and populate ALL quarters
+      const chAliases={google:'google',yandex:'yandex',aaads:'aaads',linkedin:'linkedin',
+        'a-ads':'aaads','a_ads':'aaads','aads':'aaads','linkedin_ads':'linkedin'};
+      const mapped={};
+      Object.keys(raw).forEach(k=>{
+        const ch=chAliases[k.toLowerCase()];
+        if(ch&&raw[k]){
+          const src=raw[k];
+          const arr=Array.isArray(src)?src:(src.campaigns||[]);
+          mapped[ch]={campaigns:arr.map(c=>({
+            ...c,
+            status:c.status==='active'?'▶':c.status==='paused'?'⏸':c.status||'NEW',
+            planfix:c.planfix_leads||c.planfix||0
+          }))};
+          console.log(ch,'→',mapped[ch].campaigns.length,'camps');
+        }
+      });
+      // Organic: could be top-level key
+      if(raw.organic)mapped.organic=raw.organic;
+      // Put mapped data into ALL quarters
+      Object.entries(QQ).forEach(([q,[f,t]])=>{
+        const key=pk(f,t);
+        // Preserve existing organic entered manually, merge channel data
+        const existing=S[key]||defPD();
+        S[key]={...existing,...mapped};
+      });
+      console.log('Loaded into quarters:',Object.keys(QQ).join(','));
     }
-    render();setSS('ok')
-  }catch(e){console.error('loadState error:',e);setSS('err');render()}
+    setTS();render();setSS('ok');
+  }catch(e){console.error('loadState:',e);setSS('err');render()}
 }
 
 async function saveState(){
@@ -693,18 +696,31 @@ function render(){
 const PFXMAP={google:'g',yandex:'y',aaads:'a',linkedin:'l'};
 
 function renderCh(ch){
-  const pfx=PFXMAP[ch],d=pd(),camps=d[ch]?.campaigns||[],cfg=CH[ch];
-  renderFB(pfx,ch,camps);renderKPI(pfx,camps,cfg);renderTbl(pfx,ch,camps,cfg);renderCharts(pfx,ch,camps,cfg)
+  const pfx=PFXMAP[ch],d=pd(),allCamps=d[ch]?.campaigns||[],cfg=CH[ch];
+  const f=filterSt[ch]||'all';
+  const camps=f==='all'?allCamps:allCamps.filter(c=>{
+    if(f==='▶')return c.status==='▶'||c.status==='active';
+    if(f==='⏸')return c.status==='⏸'||c.status==='paused';
+    return c.status===f;
+  });
+  renderFB(pfx,ch,allCamps);renderKPI(pfx,camps,cfg);renderTbl(pfx,ch,camps,cfg);renderCharts(pfx,ch,camps,cfg)
 }
 
-function renderFB(pfx,ch,camps){
+function renderFB(pfx,ch,allCamps){
   const el=document.getElementById(pfx+'-fb');if(!el)return;
-  const all=camps.length,
-    run=camps.filter(c=>c.status==='▶'||c.status==='active').length,
-    nw=camps.filter(c=>c.status==='NEW').length,
-    pau=camps.filter(c=>c.status==='⏸'||c.status==='paused').length;
-  el.innerHTML=`<button class="fb on">Все<span class="fc">${all}</span></button><button class="fb">▶ Работают<span class="fc">${run}</span></button><button class="fb">NEW<span class="fc">${nw}</span></button><button class="fb">⏸ Стоп<span class="fc">${pau}</span></button><span class="fspc"></span>${editMode?`<button class="btn-add" onclick="addCamp('${ch}')">+ Кампания</button>`:''}`;
-  el.querySelectorAll('.fb').forEach(b=>{b.onclick=function(){el.querySelectorAll('.fb').forEach(x=>x.classList.remove('on'));this.classList.add('on')}})
+  const all=allCamps.length,
+    run=allCamps.filter(c=>c.status==='▶'||c.status==='active').length,
+    nw=allCamps.filter(c=>c.status==='NEW').length,
+    pau=allCamps.filter(c=>c.status==='⏸'||c.status==='paused').length;
+  const cur=filterSt[ch]||'all';
+  const btns=[['all','Все',all],['▶','▶ Работают',run],['NEW','NEW',nw],['⏸','⏸ Стоп',pau]];
+  el.innerHTML=btns.map(([v,lb,cnt])=>`<button class="fb${cur===v?' on':''}" data-v="${v}">${lb}<span class="fc">${cnt}</span></button>`).join('')+`<span class="fspc"></span>${editMode?`<button class="btn-add" onclick="addCamp('${ch}')">+ Кампания</button>`:''}`;
+  el.querySelectorAll('.fb').forEach(b=>{b.onclick=function(){
+    filterSt[ch]=this.dataset.v;
+    el.querySelectorAll('.fb').forEach(x=>x.classList.remove('on'));
+    this.classList.add('on');
+    renderCh(ch);
+  }})
 }
 
 function renderKPI(pfx,camps,cfg){
