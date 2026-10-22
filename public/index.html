@@ -576,19 +576,30 @@ async function sbFetch(path,opts={}){
 async function loadState(){
   setSS('saving');
   try{
-    const r=await sbFetch(`/rest/v1/dashboard_state?key=eq.${DK}&select=data`);
+    const r=await sbFetch(`/rest/v1/dashboard_state?key=eq.${DK}&select=*`);
     const rows=await r.json();
-    if(rows&&rows[0]&&rows[0].data&&Object.keys(rows[0].data).length>0){S=rows[0].data;setTS()}
+    if(rows&&rows[0]){
+      // Auto-detect the JSONB data column (skip 'key', 'id', 'created_at', 'updated_at')
+      const skip=new Set(['key','id','created_at','updated_at']);
+      const col=Object.keys(rows[0]).find(k=>!skip.has(k)&&typeof rows[0][k]==='object'&&rows[0][k]!==null);
+      const payload=col?rows[0][col]:null;
+      if(payload&&Object.keys(payload).length>0){S=payload;setTS();console.log('Loaded from column:',col)}
+    }
     render();setSS('ok')
-  }catch{setSS('err');render()}
+  }catch(e){console.error('loadState error:',e);setSS('err');render()}
 }
 
 async function saveState(){
   if(!editMode)return;setSS('saving');
   try{
-    const r=await sbFetch('/rest/v1/dashboard_state',{method:'POST',headers:{'Prefer':'resolution=merge-duplicates'},body:JSON.stringify({key:DK,data:S})});
-    if(r.ok){setTS();setSS('ok')}else setSS('err')
-  }catch{setSS('err')}
+    // Try both 'data' and detected column name
+    const body={key:DK,data:S};
+    const r=await sbFetch('/rest/v1/dashboard_state',{method:'POST',headers:{'Prefer':'resolution=merge-duplicates'},body:JSON.stringify(body)});
+    if(r.ok){setTS();setSS('ok')}else{
+      const err=await r.json().catch(()=>({}));
+      console.error('saveState error:',err);setSS('err')
+    }
+  }catch(e){console.error('saveState:',e);setSS('err')}
 }
 
 function sched(){if(!editMode)return;clearTimeout(saveTimer);saveTimer=setTimeout(saveState,2000)}
