@@ -1,0 +1,1021 @@
+{
+ "meta": {
+  "checked_at": "2026-10-23T08:57:07",
+  "site": "",
+  "urls": 25,
+  "compared_to": "data/index-check/index-2026-10-16.json"
+ },
+ "summary": {
+  "pass": 0,
+  "not_pass": 25,
+  "canonical_mismatch": 0,
+  "safe_browsing_matches": null
+ },
+ "safe_browsing": {
+  "checked": false
+ },
+ "changes": [
+  {
+   "url": "https://bixbit.io/en",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/ru",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/firmwares",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/antminer",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/antminer",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/antminer",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/antminer",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/antminer",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/antminer",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/firmwares/antminer",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m5x",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m5x",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m5x",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m5x",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m5x",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m5x",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/firmwares/whatsminer-series-m5x",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/ams",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/ams",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/ams",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/ams",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/ams",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/ams",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/ams",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/asics-cooling",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/immersion-systems",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/immersion-systems",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/immersion-systems",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/immersion-systems",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/immersion-systems",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/immersion-systems",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/asics-cooling/immersion-systems",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/hydro-systems",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/hydro-systems",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/hydro-systems",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/hydro-systems",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/hydro-systems",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/hydro-systems",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/asics-cooling/hydro-systems",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/products",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/pdu",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/pdu",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/pdu",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/pdu",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/pdu",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/pdu",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/products/pdu",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/container",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/container",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/container",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/container",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/container",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/products/container",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/products/container",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/documentation",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/faq",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/faq",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/faq",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/faq",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/faq",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/faq",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/faq",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/calc",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/calc",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/calc",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/calc",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/calc",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/calc",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/calc",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/blog",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru/firmwares",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru/firmwares",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru/firmwares",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru/firmwares",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru/firmwares",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/ru/firmwares",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/ru/firmwares",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/es/firmwares",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/es/firmwares",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/es/firmwares",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/es/firmwares",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/es/firmwares",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/es/firmwares",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/es/firmwares",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-all-series",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-all-series",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-all-series",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-all-series",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-all-series",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-all-series",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/firmwares/whatsminer-all-series",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+   "field": "verdict",
+   "was": "PASS",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+   "field": "coverage_state",
+   "was": "Submitted and indexed",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+   "field": "indexing_state",
+   "was": "INDEXING_ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+   "field": "robots_txt_state",
+   "was": "ALLOWED",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+   "field": "page_fetch_state",
+   "was": "SUCCESSFUL",
+   "now": null
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+   "field": "google_canonical",
+   "was": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+   "now": null
+  }
+ ],
+ "urls": [
+  {
+   "url": "https://bixbit.io/en",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/ru",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/antminer",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m3x",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m2x",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m5x",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/ams",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/immersion-systems",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/asics-cooling/hydro-systems",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/products",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/products/pdu",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/products/container",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/documentation",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/documentation/error-codes-for-whatsminer-asic/list-of-errors-and-solutions-1",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/faq",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/calc",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/blog",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/how-does-immersion-cooling-work",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/blog/post/immersion-liquid-choosing-the-right-one-for-mining",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/ru/firmwares",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/es/firmwares",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-all-series",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  },
+  {
+   "url": "https://bixbit.io/en/firmwares/whatsminer-series-m6x",
+   "error": "403: You do not own this site, or the inspected URL is not part of this property."
+  }
+ ]
+}
