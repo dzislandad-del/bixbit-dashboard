@@ -1,34 +1,48 @@
 name: Yandex Direct Sync
 
-# Runs every day at 01:00 UTC (04:00 Moscow).
-# Fetches yesterday's campaign data from Yandex Direct and writes it to Supabase.
+# Ежедневно 01:00 UTC (04:00 Минск): Яндекс Директ за текущий квартал → дашборд (Supabase).
+# Ручной запуск: можно указать прошлый квартал (напр. 2026-Q3).
+#
+# Секреты: YANDEX_DIRECT_TOKEN, YANDEX_DIRECT_LOGIN (логин клиента, если токен агентский),
+# SUPABASE_URL, SUPABASE_ANON_KEY.
+# Переменные (Settings → Variables, необязательно): DIRECT_USD_RATE, DIRECT_GOALS, STOPPED_SINCE.
 
 on:
   schedule:
     - cron: '0 1 * * *'
-  workflow_dispatch:   # allow manual trigger from the Actions tab
+  workflow_dispatch:
+    inputs:
+      quarter:
+        description: "Квартал, напр. 2026-Q3 (пусто = текущий)"
+        required: false
+        default: ""
+
+concurrency:
+  group: supabase-dashboard-write
+  cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Install dependencies
-        run: pip install requests
-
+      - run: pip install requests
       - name: Run Yandex Direct sync
         env:
           YANDEX_DIRECT_TOKEN: ${{ secrets.YANDEX_DIRECT_TOKEN }}
           YANDEX_DIRECT_LOGIN: ${{ secrets.YANDEX_DIRECT_LOGIN }}
           SUPABASE_URL:        ${{ secrets.SUPABASE_URL }}
           SUPABASE_ANON_KEY:   ${{ secrets.SUPABASE_ANON_KEY }}
-        run: python scripts/yandex_direct_sync.py
+          DIRECT_USD_RATE:     ${{ vars.DIRECT_USD_RATE }}
+          DIRECT_GOALS:        ${{ vars.DIRECT_GOALS }}
+          STOPPED_SINCE:       ${{ vars.STOPPED_SINCE }}
+          QUARTER:             ${{ github.event.inputs.quarter }}
+        run: |
+          set -o pipefail
+          ARGS=""
+          [ -n "$QUARTER" ] && ARGS="--quarter $QUARTER"
+          python scripts/yandex_direct_sync.py $ARGS | tee -a "$GITHUB_STEP_SUMMARY"

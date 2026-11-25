@@ -1,448 +1,235 @@
 #!/usr/bin/env python3
+"""yandex_direct_sync.py — Яндекс Директ → дашборд (Supabase).
+
+Ежедневно (без аргументов) пересчитывает текущий квартал с его начала по вчера одним
+отчётом Reports API и пишет payload.periods["from|to"].yandex:
+расход, показы, клики, CTR, CPC, конверсии, CPL и статус по каждой кампании.
+
+Как и для Google Ads, в дашборд попадают:
+  • работающие кампании (State = ON) — всегда, даже без показов;
+  • остановленные/завершённые/архивные — только если у них были показы с STOPPED_SINCE
+    (по умолчанию 2026-10-01). Кварталы, закончившиеся раньше этой даты, не фильтруются.
+
+Расход переводится в доллары (дашборд показывает Директ в $): валюта аккаунта берётся
+из API, курс — ЦБ РФ для RUB, НБРБ для BYN или из DIRECT_USD_RATE (единиц валюты за 1 $).
+Planfix-лиды (ручной ввод) сохраняются по названию кампании; прежняя ручная версия
+блока yandex один раз копируется в payload.backups.
+
+Примеры:
+  python3 scripts/yandex_direct_sync.py                    # текущий квартал
+  python3 scripts/yandex_direct_sync.py --quarter 2026-Q3  # пересчёт прошлого квартала
+  python3 scripts/yandex_direct_sync.py --dry-run          # показать, ничего не записывать
+
+Секреты: YANDEX_DIRECT_TOKEN (OAuth, доступ к API Директа), YANDEX_DIRECT_LOGIN (логин
+клиента — если токен агентский/представителя; иначе пусто), SUPABASE_URL, SUPABASE_ANON_KEY.
+Необязательно: DIRECT_USD_RATE, DIRECT_GOALS (ID целей Метрики через запятую — считать
+конверсии только по ним), STOPPED_SINCE.
 """
-Yandex Direct auto-sync for BiXBiT dashboard.
-Fetches campaign data from Yandex Direct Reports API and writes
-to Supabase (state.days[date].yandex and state.periods[key].yandex).
+import argparse, json, os, sys, time
+from datetime import date, datetime, timedelta, timezone
 
-Run daily via GitHub Actions at 01:00 UTC (04:00 Moscow).
-
-Required env vars:
-  YANDEX_DIRECT_TOKEN  — OAuth token with direct:api scope
-  YANDEX_DIRECT_LOGIN  — advertiser client login (if accessing a client account
-                          from an agency/operator account; omit for direct access)
-  SUPABASE_URL         — e.g. https://bjczjgybcdfpeukfsfwh.supabase.co
-  SUPABASE_ANON_KEY    — Supabase anon/service-role key
-"""
-
-import json
-import os
-import sys
-import time
-import math
-import hashlib
 import requests
-from datetime import datetime, timedelta, date, timezone
 
-# ── Config ────────────────────────────────────────────────────────────────────
-YANDEX_TOKEN = os.environ.get('YANDEX_DIRECT_TOKEN', '')
-YANDEX_LOGIN = os.environ.get('YANDEX_DIRECT_LOGIN', '')  # blank = direct access
-SUPABASE_URL = os.environ.get('SUPABASE_URL', '')
-SUPABASE_KEY = os.environ.get('SUPABASE_ANON_KEY', '')
-
-DIRECT_API_URL = 'https://api.direct.yandex.com/json/v5/reports'
-SUPABASE_TABLE = 'dashboard_state'
-SUPABASE_ROW   = 'bixbit'
-
-# Report fields to request
-REPORT_FIELDS = [
-    'CampaignId',
-    'CampaignName',
-    'Impressions',
-    'Clicks',
-    'Ctr',         # already as percentage, e.g. "2.35" → 2.35 %
-    'Cost',        # rubles, 2 decimal places in TSV
-    'Conversions',
-]
-
-# ── Yandex Direct API ─────────────────────────────────────────────────────────
-
-def _direct_headers():
-    h = {
-        'Authorization': f'Bearer {YANDEX_TOKEN}',
-        'Accept-Language': 'en',
-        'Content-Type': 'application/json',
-        'skipReportSummary': 'true',   # skip "Total" row in TSV
-    }
-    if YANDEX_LOGIN:
-        h['Client-Login'] = YANDEX_LOGIN
-    return h
+TOKEN = os.environ.get('YANDEX_DIRECT_TOKEN', '')
+LOGIN = os.environ.get('YANDEX_DIRECT_LOGIN', '')
+SB_URL = os.environ.get('SUPABASE_URL', '')
+SB_KEY = os.environ.get('SUPABASE_ANON_KEY', '')
+STOPPED_SINCE = os.environ.get('STOPPED_SINCE') or '2026-10-01'
+GOALS = [g.strip() for g in os.environ.get('DIRECT_GOALS', '').split(',') if g.strip()]
+API = 'https://api.direct.yandex.com/json/v5'
+ROW = 'bixbit'
 
 
-def fetch_report(date_from: str, date_to: str) -> str | None:
-    """
-    Call Yandex Direct Reports API and return raw TSV string.
-    Handles 201/202 polling (the API can queue large reports).
-    Returns None on unrecoverable error.
-    """
-    body = {
-        'params': {
-            'SelectionCriteria': {
-                'DateFrom': date_from,
-                'DateTo':   date_to,
-            },
-            'FieldNames':   REPORT_FIELDS,
-            # Report name must be unique per account; include dates to avoid clash.
-            'ReportName':   f'bixbit_{date_from}_{date_to}',
-            'ReportType':   'CAMPAIGN_PERFORMANCE_REPORT',
-            'DateRangeType':'CUSTOM_DATE',
-            'Format':       'TSV',
-            'IncludeVAT':   'NO',
-            'IncludeDiscount': 'NO',
-        }
-    }
+# ── Директ ────────────────────────────────────────────────────────────────────
+def _h(extra=None):
+    h = {'Authorization': f'Bearer {TOKEN}', 'Accept-Language': 'ru', 'Content-Type': 'application/json'}
+    if LOGIN:
+        h['Client-Login'] = LOGIN
+    return {**h, **(extra or {})}
 
-    headers = _direct_headers()
 
-    for attempt in range(12):
-        try:
-            resp = requests.post(DIRECT_API_URL, headers=headers, json=body, timeout=60)
-        except requests.RequestException as e:
-            print(f'  HTTP error (attempt {attempt+1}): {e}')
-            time.sleep(15)
+def _explain(code, text):
+    t = text[:500]
+    if '"error_code":53' in t.replace(' ', '') or 'авторизац' in t.lower():
+        return t + '\n  → токен недействителен или истёк: выпустите новый OAuth-токен Директа'
+    if '"error_code":58' in t.replace(' ', '') or 'незавершенная регистрация' in t.lower() or 'not completed' in t.lower():
+        return t + '\n  → заявка на доступ к API Директа ещё не одобрена (Директ → Инструменты → API)'
+    if '"error_code":513' in t.replace(' ', '') or 'client-login' in t.lower():
+        return t + '\n  → проверьте YANDEX_DIRECT_LOGIN: для агентского токена нужен логин клиента'
+    return t
+
+
+def call(service, method, params):
+    r = requests.post(f'{API}/{service}', headers=_h(), json={'method': method, 'params': params}, timeout=60)
+    d = r.json() if r.headers.get('content-type', '').startswith('application/json') else {}
+    if r.status_code != 200 or 'error' in d:
+        sys.exit(f'Direct API {service}.{method}: HTTP {r.status_code} ' + _explain(r.status_code, json.dumps(d.get('error', r.text), ensure_ascii=False)))
+    return d['result']
+
+
+def report(fields, d1, d2, tag):
+    params = {'SelectionCriteria': {'DateFrom': d1, 'DateTo': d2}, 'FieldNames': fields,
+              'ReportName': f'bixbit_{tag}_{d1}_{d2}_{int(time.time())}',
+              'ReportType': 'CAMPAIGN_PERFORMANCE_REPORT', 'DateRangeType': 'CUSTOM_DATE',
+              'Format': 'TSV', 'IncludeVAT': 'NO', 'IncludeDiscount': 'NO'}
+    if GOALS and 'Conversions' in fields:
+        params['Goals'] = GOALS
+        params['AttributionModels'] = ['AUTO']
+    hdr = _h({'returnMoneyInMicros': 'false', 'skipReportHeader': 'true', 'skipReportSummary': 'true',
+              'processingMode': 'auto'})
+    for _ in range(40):
+        r = requests.post(f'{API}/reports', headers=hdr, json={'params': params}, timeout=120)
+        if r.status_code == 200:
+            lines = [l for l in r.text.strip().split('\n') if l.strip()]
+            if len(lines) < 2:
+                return []
+            head = lines[0].split('\t')
+            return [dict(zip(head, l.split('\t'))) for l in lines[1:]]
+        if r.status_code in (201, 202):
+            time.sleep(int(r.headers.get('retryIn', 10)))
             continue
-
-        if resp.status_code == 200:
-            return resp.text
-
-        if resp.status_code in (201, 202):
-            retry_after = int(resp.headers.get('retryIn', 15))
-            print(f'  Report queued (HTTP {resp.status_code}), retrying in {retry_after}s …')
-            time.sleep(retry_after)
-            continue
-
-        # 400 can happen if the ReportName clashes with an in-flight job.
-        # Wait and retry once.
-        if resp.status_code == 400:
-            err = resp.text[:300]
-            if 'already exists' in err.lower() or 'ALREADY_EXISTING' in err:
-                print(f'  Report name collision, waiting 30s …')
-                time.sleep(30)
-                continue
-
-        print(f'  API error {resp.status_code}: {resp.text[:400]}')
-        return None
-
-    print('  Exceeded max retries for Yandex Direct report')
-    return None
+        sys.exit(f'Direct Reports API: HTTP {r.status_code} ' + _explain(r.status_code, r.text))
+    sys.exit('Direct Reports API: отчёт не готов за отведённое время')
 
 
-def parse_tsv(raw: str) -> list[dict]:
-    """Parse TSV report into list-of-dicts. Skips blank and Total lines."""
-    if not raw:
-        return []
-    lines = raw.strip().split('\n')
-    if len(lines) < 2:
-        return []
-    headers = lines[0].split('\t')
-    rows = []
-    for line in lines[1:]:
-        line = line.strip()
-        if not line or line.lower().startswith('total'):
-            continue
-        cols = line.split('\t')
-        rows.append(dict(zip(headers, cols)))
-    return rows
-
-
-# ── Number helpers ────────────────────────────────────────────────────────────
-
-def _f(val, fallback=0.0) -> float:
+def num(v):
     try:
-        return float(val)
-    except (ValueError, TypeError):
-        return fallback
+        return float(v) if v not in (None, '', '--') else 0.0
+    except ValueError:
+        return 0.0
 
 
-def _i(val, fallback=0) -> int:
-    try:
-        v = int(float(val))
-        return v
-    except (ValueError, TypeError):
-        return fallback
+def usd_rate(currency):
+    """Сколько единиц валюты аккаунта в 1 $."""
+    if os.environ.get('DIRECT_USD_RATE'):
+        return float(os.environ['DIRECT_USD_RATE']), 'DIRECT_USD_RATE'
+    if currency in ('USD', 'YND_FIXED'):
+        return 1.0, 'нет конвертации'
+    if currency == 'RUB':
+        v = requests.get('https://www.cbr-xml-daily.ru/daily_json.js', timeout=30).json()['Valute']['USD']
+        return v['Value'] / v['Nominal'], 'ЦБ РФ'
+    if currency == 'BYN':
+        v = requests.get('https://api.nbrb.by/exrates/rates/USD?parammode=2', timeout=30).json()
+        return v['Cur_OfficialRate'] / v['Cur_Scale'], 'НБРБ'
+    sys.exit(f'Валюта аккаунта {currency}: задайте курс в DIRECT_USD_RATE (единиц {currency} за 1 $)')
 
 
-def _round4(x: float) -> float:
-    """Round to 4 decimal places (enough for sub-cent CPC values)."""
-    return math.floor(x * 10_000 + 0.5) / 10_000
+# ── Supabase ──────────────────────────────────────────────────────────────────
+def _sb():
+    return {'apikey': SB_KEY, 'Authorization': f'Bearer {SB_KEY}', 'Content-Type': 'application/json'}
 
 
-def campaign_id(campaign_name: str) -> str:
-    """Stable short ID derived from campaign name (deterministic across runs)."""
-    return 'y_' + hashlib.md5(campaign_name.encode()).hexdigest()[:8]
+def sb_load():
+    r = requests.get(f'{SB_URL}/rest/v1/dashboard_state?project=eq.{ROW}&select=payload', headers=_sb(), timeout=30)
+    r.raise_for_status()
+    d = r.json()
+    if not d or not d[0].get('payload'):
+        sys.exit('Supabase: строка не найдена или пустая — запись отменена')
+    return d[0]['payload']
 
 
-# ── Supabase helpers ──────────────────────────────────────────────────────────
-
-def _sb_headers():
-    return {
-        'apikey':        SUPABASE_KEY,
-        'Authorization': f'Bearer {SUPABASE_KEY}',
-        'Content-Type':  'application/json',
-    }
+def sb_save(p):
+    r = requests.patch(f'{SB_URL}/rest/v1/dashboard_state?project=eq.{ROW}',
+                       headers={**_sb(), 'Prefer': 'return=minimal'},
+                       json={'payload': p, 'updated_at': datetime.now(timezone.utc).isoformat()}, timeout=30)
+    r.raise_for_status()
 
 
-_ROW_COL = None  # 'project' (dashboard) or legacy 'key'
-
-
-def load_state() -> dict:
-    global _ROW_COL
-    for col in ('project', 'key'):
-        url = f'{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?{col}=eq.{SUPABASE_ROW}&select=payload'
-        resp = requests.get(url, headers=_sb_headers(), timeout=30)
-        if resp.status_code == 400:  # column does not exist
-            continue
-        resp.raise_for_status()
-        data = resp.json()
-        if data:
-            _ROW_COL = col
-            print(f'  Supabase row found by column "{col}"')
-            return data[0]['payload'] or {}
-    raise RuntimeError(f'Supabase row "{SUPABASE_ROW}" not found in {SUPABASE_TABLE} — aborting to avoid data loss')
-
-
-def save_state(state: dict):
-    if not _ROW_COL:
-        raise RuntimeError('save_state called before successful load_state')
-    url = f'{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?{_ROW_COL}=eq.{SUPABASE_ROW}'
-    headers = {**_sb_headers(), 'Prefer': 'return=minimal'}
-    resp = requests.patch(url, headers=headers, json={'payload': state}, timeout=30)
-    resp.raise_for_status()
-
-
-# ── Quarter helpers ───────────────────────────────────────────────────────────
-
-def quarter_range(d: date) -> tuple[str, str]:
-    """Return (quarter_start, quarter_end) as YYYY-MM-DD strings for the date d."""
-    q = (d.month - 1) // 3          # 0-based quarter index
-    start_month = q * 3 + 1
-    end_month = start_month + 2
-    # Last day of end_month
-    if end_month == 12:
-        end_day = 31
+# ── Квартал ───────────────────────────────────────────────────────────────────
+def quarter_bounds(spec, today):
+    if spec:
+        y, q = spec.upper().split('-Q'); y, q = int(y), int(q)
     else:
-        end_day = (date(d.year, end_month + 1, 1) - timedelta(days=1)).day
-    return (
-        date(d.year, start_month, 1).isoformat(),
-        date(d.year, end_month, end_day).isoformat(),
-    )
+        y, q = today.year, (today.month - 1) // 3 + 1
+    s = date(y, 3 * (q - 1) + 1, 1)
+    e = date(y + (q == 4), (3 * q) % 12 + 1, 1) - timedelta(days=1)
+    return s, e
 
-
-def period_key(from_date: str, to_date: str) -> str:
-    return f'{from_date}|{to_date}'
-
-
-# ── Data processing ───────────────────────────────────────────────────────────
-
-def rows_to_daily_snapshot(rows: list[dict]) -> dict:
-    """
-    Convert raw TSV rows for a single day into the state.days[date].yandex format:
-    { budget, clicks, impressions, campaigns: [{id, name, budget, clicks, impressions, conversions}] }
-    """
-    campaigns = []
-    for row in rows:
-        name       = row.get('CampaignName', '').strip()
-        impressions = _i(row.get('Impressions', 0))
-        clicks      = _i(row.get('Clicks', 0))
-        cost        = _f(row.get('Cost', 0))          # RUB
-        conversions = _i(row.get('Conversions', 0))
-        if not name or (impressions == 0 and clicks == 0 and cost == 0):
-            continue
-        campaigns.append({
-            'id':          campaign_id(name),
-            'name':        name,
-            'budget':      round(cost, 2),
-            'impressions': impressions,
-            'clicks':      clicks,
-            'conversions': conversions,
-            'status':      'active',
-        })
-
-    total_budget      = round(sum(c['budget'] for c in campaigns), 2)
-    total_impressions = sum(c['impressions'] for c in campaigns)
-    total_clicks      = sum(c['clicks'] for c in campaigns)
-
-    return {
-        'budget':      total_budget,
-        'impressions': total_impressions,
-        'clicks':      total_clicks,
-        'campaigns':   campaigns,
-        'updated':     datetime.now(timezone.utc).isoformat(),
-    }
-
-
-def aggregate_from_days(state: dict, from_date: str, to_date: str) -> dict | None:
-    """
-    Aggregate state.days[*].yandex snapshots within [from_date, to_date].
-    Returns aggregated dict in the same format as rows_to_daily_snapshot,
-    plus ctr and cpc. Returns None if no data found.
-    """
-    days = state.get('days', {})
-    camp_map: dict[str, dict] = {}
-    total_budget      = 0.0
-    total_impressions = 0
-    total_clicks      = 0
-    has_data = False
-
-    d = datetime.strptime(from_date, '%Y-%m-%d').date()
-    end = datetime.strptime(to_date, '%Y-%m-%d').date()
-    while d <= end:
-        key = d.isoformat()
-        y = days.get(key, {}).get('yandex')
-        if y:
-            has_data = True
-            total_budget      += y.get('budget', 0)
-            total_impressions += y.get('impressions', 0)
-            total_clicks      += y.get('clicks', 0)
-            for c in y.get('campaigns', []):
-                cid = c.get('id') or campaign_id(c.get('name', ''))
-                if cid not in camp_map:
-                    camp_map[cid] = {
-                        'id':          cid,
-                        'name':        c.get('name', ''),
-                        'budget':      0.0,
-                        'impressions': 0,
-                        'clicks':      0,
-                        'conversions': 0,
-                        'status':      c.get('status', 'active'),
-                    }
-                camp_map[cid]['budget']      += c.get('budget', 0)
-                camp_map[cid]['impressions'] += c.get('impressions', 0)
-                camp_map[cid]['clicks']      += c.get('clicks', 0)
-                camp_map[cid]['conversions'] += c.get('conversions', 0)
-        d += timedelta(days=1)
-
-    if not has_data:
-        return None
-
-    total_budget = round(total_budget, 2)
-    campaigns = []
-    for c in camp_map.values():
-        campaigns.append({
-            **c,
-            'budget': round(c['budget'], 2),
-        })
-
-    ctr = round(total_clicks / total_impressions * 100, 2) if total_impressions > 0 else 0
-    cpc = _round4(total_budget / total_clicks) if total_clicks > 0 else 0
-
-    return {
-        'budget':      total_budget,
-        'impressions': total_impressions,
-        'clicks':      total_clicks,
-        'ctr':         ctr,
-        'cpc':         cpc,
-        'campaigns':   campaigns,
-    }
-
-
-def build_period_yandex(agg: dict, existing_period_yandex: dict) -> dict:
-    """
-    Merge aggregated daily data with the existing period's Yandex entry.
-    Preserves manually-entered conversions, cpl, planfix_leads at the period
-    and campaign level.
-    """
-    # Preserve manual campaign-level fields from the existing period
-    existing_camps = {c.get('id', ''): c for c in existing_period_yandex.get('campaigns', [])}
-
-    merged_campaigns = []
-    for c in agg.get('campaigns', []):
-        cid = c.get('id', '')
-        existing = existing_camps.get(cid, {})
-        merged_campaigns.append({
-            **c,
-            # Auto-computed
-            'budget':      c['budget'],
-            'impressions': c['impressions'],
-            'clicks':      c['clicks'],
-            # Preserve manually-entered values from existing period
-            'conversions':   existing.get('conversions', c.get('conversions', 0)),
-            'planfix_leads': existing.get('planfix_leads', 0),
-            'status':        existing.get('status', c.get('status', 'active')),
-        })
-
-    total_budget      = agg['budget']
-    total_impressions = agg['impressions']
-    total_clicks      = agg['clicks']
-    total_ctr         = agg['ctr']
-    total_cpc         = agg['cpc']
-
-    # Preserve period-level manual fields
-    existing_conversions   = existing_period_yandex.get('conversions', 0)
-    existing_cpl           = existing_period_yandex.get('cpl', 0)
-    existing_planfix_leads = existing_period_yandex.get('planfix_leads', 0)
-
-    return {
-        'budget':        total_budget,
-        'impressions':   total_impressions,
-        'clicks':        total_clicks,
-        'ctr':           total_ctr,
-        'cpc':           total_cpc,
-        'conversions':   existing_conversions,
-        'cpl':           existing_cpl,
-        'planfix_leads': existing_planfix_leads,
-        'campaigns':     merged_campaigns,
-        'updated':       datetime.now(timezone.utc).isoformat(),
-    }
-
-
-# ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    # Validate config
-    if not YANDEX_TOKEN:
-        print('ERROR: YANDEX_DIRECT_TOKEN is not set'); sys.exit(1)
-    if not SUPABASE_URL or not SUPABASE_KEY:
-        print('ERROR: SUPABASE_URL or SUPABASE_ANON_KEY is not set'); sys.exit(1)
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument('--quarter')
+    ap.add_argument('--dry-run', action='store_true')
+    a = ap.parse_args()
+    missing = [n for n, v in (('YANDEX_DIRECT_TOKEN', TOKEN), ('SUPABASE_URL', SB_URL), ('SUPABASE_ANON_KEY', SB_KEY))
+               if not v and not (a.dry_run and n.startswith('SUPABASE'))]
+    if missing:
+        sys.exit('Не заданы: ' + ', '.join(missing))
 
-    today     = datetime.now(timezone.utc).date()
-    yesterday = today - timedelta(days=1)
-    y_str     = yesterday.isoformat()
+    yesterday = datetime.now(timezone(timedelta(hours=3))).date() - timedelta(days=1)
+    q_from, q_to = quarter_bounds(a.quarter, yesterday)
+    end = min(q_to, yesterday)
+    if end < q_from:
+        print('Квартал ещё не начался — пропуск'); return
+    pkey = f'{q_from.isoformat()}|{q_to.isoformat()}'
 
-    q_from, q_to = quarter_range(yesterday)
-    pkey         = period_key(q_from, q_to)
+    cur = (call('clients', 'get', {'FieldNames': ['Currency', 'Login']}).get('Clients') or [{}])[0]
+    currency = cur.get('Currency', 'RUB')
+    rate, rate_src = usd_rate(currency)
+    print(f'Аккаунт {cur.get("Login", LOGIN or "—")}, валюта {currency}, курс {rate:.4f} за $ ({rate_src})')
 
-    print(f'Yandex Direct sync — {y_str}')
-    print(f'Quarter period: {q_from} → {q_to}  (key: {pkey})')
+    states = {}
+    for c in call('campaigns', 'get', {'SelectionCriteria': {}, 'FieldNames': ['Id', 'Name', 'State']}).get('Campaigns', []):
+        states[str(c['Id'])] = {'name': c['Name'], 'state': c['State']}
 
-    # ── 1. Fetch yesterday's report ─────────────────────────────────────────
-    print(f'\nFetching daily report ({y_str}) …')
-    daily_tsv = fetch_report(y_str, y_str)
-    if daily_tsv is None:
-        print('Could not fetch daily report — aborting'); sys.exit(1)
+    rows = report(['CampaignId', 'CampaignName', 'Impressions', 'Clicks', 'Cost', 'Conversions'],
+                  q_from.isoformat(), end.isoformat(), 'q')
+    camps = {}
+    for r in rows:
+        cid = r.get('CampaignId', '')
+        x = camps.setdefault(cid, {'id': f'y_{cid}', 'name': r.get('CampaignName', '').strip(),
+                                   'budget': 0.0, 'impressions': 0, 'clicks': 0, 'conversions': 0})
+        x['budget'] += num(r.get('Cost')) / rate
+        x['impressions'] += int(num(r.get('Impressions')))
+        x['clicks'] += int(num(r.get('Clicks')))
+        x['conversions'] += int(round(num(r.get('Conversions'))))
+    for cid, x in camps.items():
+        x['status'] = 'active' if states.get(cid, {}).get('state') == 'ON' else 'paused'
 
-    daily_rows = parse_tsv(daily_tsv)
-    print(f'  Parsed {len(daily_rows)} campaign row(s)')
+    dropped = added = 0
+    if end.isoformat() >= STOPPED_SINCE:
+        since = max(q_from.isoformat(), STOPPED_SINCE)
+        recent = {r['CampaignId'] for r in report(['CampaignId', 'Impressions'], since, end.isoformat(), 'since')
+                  if num(r.get('Impressions')) > 0}
+        for cid in list(camps):
+            if camps[cid]['status'] != 'active' and cid not in recent:
+                del camps[cid]; dropped += 1
+        for cid, s in states.items():
+            if s['state'] == 'ON' and cid not in camps:
+                camps[cid] = {'id': f'y_{cid}', 'name': s['name'], 'budget': 0.0, 'impressions': 0,
+                              'clicks': 0, 'conversions': 0, 'status': 'active'}
+                added += 1
 
-    if not daily_rows:
-        print('No campaign data for yesterday — nothing to write'); sys.exit(0)
+    cl = sorted(camps.values(), key=lambda c: -c['budget'])
+    for c in cl:
+        c['budget'] = round(c['budget'], 2)
+    tb = round(sum(c['budget'] for c in cl), 2)
+    ti = sum(c['impressions'] for c in cl); tc = sum(c['clicks'] for c in cl); tcv = sum(c['conversions'] for c in cl)
+    print(f'{pkey} ({q_from}..{end}): {len(cl)} кампаний, ${tb}, показы {ti}, клики {tc}, конверсии {tcv}'
+          + (f' · отфильтровано остановленных до {STOPPED_SINCE}: {dropped}, работающих без показов: {added}' if dropped or added else ''))
+    if a.dry_run:
+        for c in cl[:10]:
+            print(f"   {c['name'][:45]:45} {c['status']:6} ${c['budget']:>9} пок {c['impressions']:>7} кл {c['clicks']:>5} конв {c['conversions']}")
+        print('dry-run: в Supabase ничего не записано'); return
 
-    daily_snapshot = rows_to_daily_snapshot(daily_rows)
-    print(f'  Budget: {daily_snapshot["budget"]} RUB, '
-          f'clicks: {daily_snapshot["clicks"]}, '
-          f'impressions: {daily_snapshot["impressions"]}')
-
-    # ── 2. Load current Supabase state ──────────────────────────────────────
-    print('\nLoading Supabase state …')
-    state = load_state()
-
-    # ── 3. Write daily snapshot ─────────────────────────────────────────────
-    state.setdefault('days', {})
-    state['days'].setdefault(y_str, {})
-    state['days'][y_str]['yandex'] = daily_snapshot
-    print(f'  Wrote state.days[{y_str}].yandex')
-
-    # ── 4. Aggregate quarter and write period ────────────────────────────────
-    print(f'\nAggregating quarter ({q_from} → {q_to}) …')
-    agg = aggregate_from_days(state, q_from, min(q_to, y_str))
-
-    if agg:
-        state.setdefault('periods', {})
-        state['periods'].setdefault(pkey, {})
-        existing_yandex = state['periods'][pkey].get('yandex', {})
-        state['periods'][pkey]['yandex'] = build_period_yandex(agg, existing_yandex)
-        print(f'  Budget: {agg["budget"]} RUB, '
-              f'clicks: {agg["clicks"]}, '
-              f'impressions: {agg["impressions"]}, '
-              f'ctr: {agg["ctr"]}%, '
-              f'cpc: {agg["cpc"]} RUB')
-        print(f'  Wrote state.periods[{pkey}].yandex')
-    else:
-        print('  No aggregated data found (days may be empty)')
-
-    # ── 5. Save state ────────────────────────────────────────────────────────
-    print('\nSaving state to Supabase …')
-    save_state(state)
-    print('Done ✓')
+    payload = sb_load()
+    period = payload.setdefault('periods', {}).setdefault(pkey, {})
+    old = period.get('yandex') or {}
+    if old.get('campaigns') and old.get('source') != 'yandex-direct-api':
+        payload.setdefault('backups', {})[f'{pkey}.yandex.{date.today().isoformat()}'] = old
+        print('  прежние ручные данные сохранены в backups')
+    pf = {str(c.get('name', '')).strip().lower(): c.get('planfix_leads', 0) for c in old.get('campaigns', [])}
+    for c in cl:
+        c['planfix_leads'] = pf.get(c['name'].lower(), 0)
+    period['yandex'] = {
+        'budget': tb, 'impressions': ti, 'clicks': tc,
+        'ctr': round(tc / ti * 100, 2) if ti else 0, 'cpc': round(tb / tc, 4) if tc else 0,
+        'conversions': tcv, 'cpl': round(tb / tcv, 2) if tcv else 0,
+        'planfix_leads': sum(c['planfix_leads'] or 0 for c in cl), 'campaigns': cl,
+        'currency': currency, 'usd_rate': round(rate, 4), 'rate_source': rate_src,
+        'source': 'yandex-direct-api', 'updated': datetime.now(timezone.utc).isoformat()}
+    sb_save(payload)
+    print(f'✓ Записано в Supabase: periods[{pkey}].yandex')
 
 
 if __name__ == '__main__':
