@@ -226,10 +226,16 @@ th.srt.on{color:var(--txt)}
 .share{display:flex;align-items:center;gap:8px;min-width:140px}
 .share i{display:block;height:6px;background:var(--acc);border-radius:1px;opacity:.85}
 .share span{font-family:var(--fm);font-size:11px;color:var(--txt-m);min-width:42px}
-.geo-grid{display:grid;grid-template-columns:minmax(280px,1fr) minmax(320px,1.4fr);gap:16px;margin-bottom:20px}
+.geo-grid{display:grid;grid-template-columns:minmax(280px,1fr) minmax(320px,1.4fr);gap:16px;margin-bottom:20px;align-items:start}
 .geo-grid .tw{margin-bottom:0}
 @media (max-width:900px){.geo-grid{grid-template-columns:1fr}}
 .flag{font-size:14px;margin-right:6px}
+.ywm-grid{display:grid;grid-template-columns:minmax(280px,1fr) minmax(360px,1.5fr);gap:16px;margin-bottom:20px;align-items:start}
+.ywm-grid .tw{margin-bottom:0}
+@media (max-width:900px){.ywm-grid{grid-template-columns:1fr}}
+.lfb{height:24px;padding:0 9px;font-size:10px}
+.ywm-h{display:flex;align-items:baseline;gap:10px;margin:4px 0 10px;font-family:var(--fh);font-size:13px;font-weight:600}
+.ywm-h small{font-family:var(--fu);font-weight:400;font-size:11px;color:var(--txt-d)}
 /* Status badge */
 .sb2{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:var(--rp);font-size:10px;font-weight:600;white-space:nowrap;cursor:pointer;user-select:none;border:1px solid;transition:opacity .15s}
 .sb2:hover{opacity:.75}
@@ -492,6 +498,7 @@ th.srt.on{color:var(--txt)}
       <div id="org-ru">
         <div class="kg" id="oru-kpi"></div>
         <div class="tw" id="oru-src"></div>
+        <div id="oru-ywm"></div>
         <div class="cg"><div class="cc"><div class="ct">Показы и клики · bixbit.io/ru</div><div class="cw"><canvas id="oru-c1"></canvas></div></div><div class="cc"><div class="ct">Отказы % / Время на сайте</div><div class="cw"><canvas id="oru-c2"></canvas></div></div></div>
         <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io/ru</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th><th class="edit-only"></th></tr></thead><tbody id="oru-tb"></tbody></table></div></div>
         <div class="tw" id="oru-all"></div>
@@ -501,6 +508,7 @@ th.srt.on{color:var(--txt)}
       <div id="org-en" style="display:none">
         <div class="kg" id="oen-kpi"></div>
         <div class="tw" id="oen-src"></div>
+        <div id="oen-ywm"></div>
         <div class="cg"><div class="cc"><div class="ct">Показы и клики · bixbit.io</div><div class="cw"><canvas id="oen-c1"></canvas></div></div><div class="cc"><div class="ct">Отказы % / Время на сайте</div><div class="cw"><canvas id="oen-c2"></canvas></div></div></div>
         <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io (EN)</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th><th class="edit-only"></th></tr></thead><tbody id="oen-tb"></tbody></table></div></div>
         <div class="tw" id="oen-all"></div>
@@ -510,6 +518,7 @@ th.srt.on{color:var(--txt)}
       <div id="org-es" style="display:none">
         <div class="kg" id="oes-kpi"></div>
         <div class="tw" id="oes-src"></div>
+        <div id="oes-ywm"></div>
         <div class="cg"><div class="cc"><div class="ct">Показы и клики · bixbit.io/es</div><div class="cw"><canvas id="oes-c1"></canvas></div></div><div class="cc"><div class="ct">Отказы % / Время на сайте</div><div class="cw"><canvas id="oes-c2"></canvas></div></div></div>
         <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io/es</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th><th class="edit-only"></th></tr></thead><tbody id="oes-tb"></tbody></table></div></div>
         <div class="tw" id="oes-all"></div>
@@ -691,6 +700,7 @@ function periodIn(lp){
   Object.entries(LCH).forEach(([n,l])=>{out[n]=chIn(lp[l]||lp[n])});
   const lo=lp.organic||{};out.organic={};
   ['ru','en','es'].forEach(g=>{out.organic[g]=orgIn(lo[g])});
+  if(lo.yandex_wm)out.organic.yandex_wm=lo.yandex_wm;
   return out
 }
 function isV2Period(p){return p&&typeof p==='object'&&('aaads' in p||Object.values(p).some(v=>v&&Array.isArray(v.campaigns)&&v.campaigns.some(c=>c&&'planfix' in c)))}
@@ -1012,10 +1022,10 @@ function srcOf(o,k){o[k]=o[k]||{impressions:0,clicks:0,time_on_site:'0:00',bounc
 function recalcOrg(o){
   const ss=['google','yandex'].map(k=>o[k]).filter(x=>x&&(nz(x.impressions)||nz(x.clicks)||nz(x.conversions)));
   if(!ss.length)return;
-  const w=ss.reduce((a,x)=>a+(nz(x.clicks)||1),0)||1;
+  const wavg=f=>{const v=ss.map(x=>[f(x),nz(x.clicks)||1]).filter(([a])=>a>0),w=v.reduce((a,[,k])=>a+k,0);return w?v.reduce((a,[x,k])=>a+x*k,0)/w:0};
   o.impressions=ss.reduce((a,x)=>a+nz(x.impressions),0);o.clicks=ss.reduce((a,x)=>a+nz(x.clicks),0);o.conversions=ss.reduce((a,x)=>a+nz(x.conversions),0);
-  o.bounceRate=+(ss.reduce((a,x)=>a+nz(x.bounce)*(nz(x.clicks)||1),0)/w).toFixed(1);
-  o.avgTime=s2t(ss.reduce((a,x)=>a+t2s(x.time_on_site)*(nz(x.clicks)||1),0)/w);
+  o.bounceRate=+wavg(x=>nz(x.bounce)).toFixed(1);
+  o.avgTime=s2t(wavg(x=>t2s(x.time_on_site)));
 }
 function updSrc(l,k,f,v){if(!editMode)return;const o=orgOf(l),x=srcOf(o,k);x[f]=f==='time_on_site'?(String(v).trim()||'0:00'):nz(v);recalcOrg(o);S[curP]=pd();sched();renderOrg()}
 function updPage(l,i,f,v){if(!editMode)return;const o=orgOf(l),p=(o.pages||[])[i];if(!p)return;p[f]=(f==='url'||f==='avgTime')?String(v).trim():nz(v);S[curP]=pd();sched();renderOrg()}
@@ -1040,7 +1050,7 @@ function renderOrg(){
       <td><input class="editable" type="number" value="${nz(x.conversions)}" ${ro} onchange="updSrc('${l}','${k}','conversions',this.value)"></td></tr>`};
     const sy=od.synced?.at?` · Google обновлён автоматически ${new Date(od.synced.at).toLocaleDateString('ru')}`:'';
     src.innerHTML=`<div class="th2"><span class="tt">Источники органики${sy}</span></div><div class="tov"><table class="src-tbl"><thead><tr><th>Источник</th><th>Показы</th><th>Клики</th><th>Время</th><th>Отказы %</th><th>Конверсии</th></tr></thead><tbody>
-      ${row('google','Google (GSC + GA4)')}${row('yandex','Яндекс (Вебмастер + Метрика)')}
+      ${row('google','Google (GSC + GA4)')}${row('yandex','Яндекс'+(od.yandex?.estimated?' <span class="xcount" title="Показы и клики — из Яндекс.Вебмастера, по языку запроса (оценка). Время, отказы, конверсии — вручную из Метрики">· Вебмастер, оценка</span>':' (Вебмастер + Метрика)'))}
       <tr><td style="font-weight:600">Итого</td><td class="tmono">${fn(od.impressions||0)}</td><td class="tmono">${fn(od.clicks||0)}</td><td class="tmono">${od.avgTime||'0:00'}</td><td class="tmono">${od.bounceRate||0}%</td><td class="tmono">${fn(od.conversions||0)}</td></tr>
       </tbody></table></div>`;
   }
@@ -1060,7 +1070,7 @@ function renderOrg(){
         <td class="edit-only"><button class="btn-del" title="Удалить строку" onclick="delPage('${l}',${i})">×</button></td></tr>`}).join('');
     tb.innerHTML=(rows||'<tr><td colspan="10"><div class="empty">Нет данных по страницам</div></td></tr>')+
       (editMode?`<tr><td colspan="10"><button class="btn-add" onclick="addPage('${l}')">+ Страница</button> <span style="font-size:10px;color:var(--txt-d)">Ctrl+V — вставка из таблицы: URL · Показы · Клики · Позиция · Время · Отказы % · Конверсии</span></td></tr>`:'')}
-  renderOrgAll(l,pfxM,od);renderOrgGeo(l,pfxM,od);
+  renderYWM(l,pfxM);renderOrgAll(l,pfxM,od);renderOrgGeo(l,pfxM,od);
   renderOrgCharts(pfxM,od)
 }
 
@@ -1112,6 +1122,57 @@ function exportAll(l){
   const rows=allRows(l),[f,t]=curP.split('|');
   csvDownload(`bixbit-pages-${l}-${f}_${t}.csv`,['URL','Показы','Клики','CTR %','Позиция','Сессии','Время','Отказы %','Конверсии'],
     rows.map(p=>[p.url,p.impressions,p.clicks,p.impressions>0?p.ctr.toFixed(2):'',p.position||'',p.sessions,p.avgTime||'',p.bounceRate??'',p.conversions]))
+}
+
+/* ── Органика: Яндекс.Вебмастер (весь сайт) ── */
+const YQ={lang:{},q:{},sort:{},lim:{}};
+function ywmData(){return pd().organic?.yandex_wm}
+function ywmRows(l){
+  const w=ywmData()||{},lg=YQ.lang[l]??l,q=(YQ.q[l]||'').toLowerCase().trim(),st=YQ.sort[l]||{k:'shows',d:-1};
+  let r=(w.queries||[]).filter(x=>(lg==='all'||x.lang===lg)&&(!q||String(x.q).toLowerCase().includes(q))).map(x=>({...x,ctr:x.shows?x.clicks/x.shows*100:0}));
+  const v=(x,k)=>k==='q'?String(x.q):(k==='pos'||k==='clickPos')?(nz(x[k])||9999):nz(x[k]);
+  r.sort((a,b)=>{const x=v(a,st.k),y=v(b,st.k);return (x>y?1:x<y?-1:0)*((st.k==='pos'||st.k==='clickPos')?-st.d:st.d)});
+  return r
+}
+const YCOLS=[['q','Запрос'],['shows','Показы'],['clicks','Клики'],['ctr','CTR'],['pos','Ср. позиция'],['clickPos','Позиция клика']];
+function renderYWM(l,pfx){
+  const el=document.getElementById(pfx+'-ywm');if(!el)return;
+  const w=ywmData();
+  if(!w){el.innerHTML=`<div class="tw"><div class="th2"><span class="tt">Яндекс.Вебмастер</span></div><div class="empty">Данные Яндекс.Вебмастера появятся после синхронизации (ежедневно в 08:30 по Минску).</div></div>`;dc(pfx+'-ywm-c');return}
+  const pr=w.problems||{},bad=(pr.FATAL||0)+(pr.CRITICAL||0),PRN={FATAL:'фатальн.',CRITICAL:'крит.',POSSIBLE_PROBLEM:'возм.',RECOMMENDATION:'рекоменд.'},prT=Object.entries(pr).filter(([,v])=>v).map(([k,v])=>(PRN[k]||k)+' '+v).join(' · ')||'нет';
+  const f=d=>d?new Date(d).toLocaleDateString('ru'):'';
+  el.innerHTML=`<div class="ywm-h">Яндекс.Вебмастер <small>весь сайт ${esc((w.hosts&&w.hosts.length?w.hosts.map(h=>h.host):[w.host]).map(h=>String(h||'').replace(/^https?:\/\//,'').replace(/\/$/,'')).join(' + '))}${w.hosts&&w.hosts.length>1?' (зеркала суммируются)':''} · ${f(w.from)} — ${f(w.to)} · обновлено ${f(w.at)}</small></div>
+  <div class="kg">${kc('Показы',fn(w.shows),'ci')}${kc('Клики',fn(w.clicks),'ci')}${kc('CTR',(w.ctr||0)+'%','cs')}${kc('Ср. позиция',w.avg_pos?'#'+w.avg_pos:'—','cw')}${kc('ИКС',w.sqi??'—','cm')}${kc('В поиске',fn(w.searchable||0),'cs')}${kc('Исключено',fn(w.excluded||0),'cw')}<div class="kc ${bad?'ce':'cs'}" title="${esc(prT)}"><div class="kl">Проблемы сайта</div><div class="kv">${bad?bad+' крит.':'нет'}</div><div class="ks" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(prT)}</div></div></div>
+  <div class="ywm-grid">
+    <div class="cc"><div class="ct">Показы и клики в Яндексе по дням</div><div class="cw"><canvas id="${pfx}-ywm-c"></canvas></div></div>
+    <div class="tw"><div class="th2"><span class="tt">Запросы · топ-500</span><div class="xbar">
+      ${[['all','Все'],['ru','RU'],['en','EN'],['es','ES']].map(([k,t])=>`<button class="fb lfb${(YQ.lang[l]??l)===k?' on':''}" onclick="YQ.lang['${l}']='${k}';YQ.lim['${l}']=30;renderYWM('${l}','${pfx}')">${t}</button>`).join('')}
+      <input class="xsearch" style="min-width:160px" placeholder="Поиск запроса…" value="${esc(YQ.q[l]||'')}" oninput="YQ.q['${l}']=this.value;YQ.lim['${l}']=30;ywmBody('${l}','${pfx}')">
+      <button class="btn-sm" onclick="exportYWM('${l}')">CSV</button></div></div>
+      <div class="tov"><table><thead><tr>${YCOLS.map(([k,t])=>`<th class="srt" data-k="${k}" onclick="ywmSort('${l}','${pfx}','${k}')">${t}</th>`).join('')}</tr></thead><tbody id="${pfx}-ywmb"></tbody></table></div>
+      <div class="xmore" id="${pfx}-ywmm"></div>
+    </div>
+  </div>`;
+  ywmBody(l,pfx);
+  const h=w.history||[];dc(pfx+'-ywm-c');const cv=document.getElementById(pfx+'-ywm-c');
+  if(cv&&h.length)charts[pfx+'-ywm-c']=new Chart(cv,{type:'line',data:{labels:h.map(x=>x.date.slice(5).split('-').reverse().join('.')),datasets:[
+    {label:'Показы',data:h.map(x=>nz(x.shows)),borderColor:'#FF4040',backgroundColor:'transparent',tension:.3,pointRadius:0,yAxisID:'y'},
+    {label:'Клики',data:h.map(x=>nz(x.clicks)),borderColor:'#60c794',backgroundColor:'transparent',tension:.3,pointRadius:0,yAxisID:'y1'}]},
+    options:co({scales:{y:{position:'left',ticks:{color:'#808080'},grid:{color:'#262525'}},y1:{position:'right',ticks:{color:'#808080'},grid:{display:false}},x:{ticks:{color:'#808080',maxTicksLimit:10},grid:{display:false}}}})})
+}
+function ywmBody(l,pfx){
+  const tb=document.getElementById(pfx+'-ywmb');if(!tb)return;
+  const r=ywmRows(l),lim=YQ.lim[l]||30,st=YQ.sort[l]||{k:'shows',d:-1};
+  document.querySelectorAll(`#${pfx}-ywm th.srt`).forEach(th=>{const on=th.dataset.k===st.k;th.classList.toggle('on',on);th.textContent=YCOLS.find(c=>c[0]===th.dataset.k)[1]+(on?(st.d<0?' ↓':' ↑'):'')});
+  tb.innerHTML=r.slice(0,lim).map(x=>{const p=nz(x.pos),pc=p>0&&p<=3?'g':p>0&&p<=10?'m':'';return`<tr><td style="font-size:11px">${esc(x.q)} <span class="xcount">${x.lang.toUpperCase()}</span></td><td class="tmono">${fn(x.shows)}</td><td class="tmono">${fn(x.clicks)}</td><td class="tmono">${x.shows?x.ctr.toFixed(1)+'%':'—'}</td><td><span class="pc ${pc}">${p?'#'+p.toFixed(1):'—'}</span></td><td class="tmono">${x.clickPos?'#'+nz(x.clickPos).toFixed(1):'—'}</td></tr>`}).join('')||'<tr><td colspan="6"><div class="empty">Нет запросов</div></td></tr>';
+  const m=document.getElementById(pfx+'-ywmm');
+  if(m){m.style.display=r.length>lim?'flex':'none';m.innerHTML=r.length>lim?`<span class="xcount">${lim} из ${r.length}</span><button class="btn-sm" onclick="YQ.lim['${l}']=${lim+50};ywmBody('${l}','${pfx}')">Показать ещё 50</button><button class="btn-sm" onclick="YQ.lim['${l}']=1e9;ywmBody('${l}','${pfx}')">Показать все</button>`:''}
+}
+function ywmSort(l,pfx,k){const st=YQ.sort[l]||{k:'shows',d:-1};YQ.sort[l]=st.k===k?{k,d:-st.d}:{k,d:k==='q'?1:-1};ywmBody(l,pfx)}
+function exportYWM(l){
+  const r=ywmRows(l),[f,t]=curP.split('|');
+  csvDownload(`bixbit-yandex-queries-${YQ.lang[l]??l}-${f}_${t}.csv`,['Запрос','Язык','Показы','Клики','CTR %','Ср. позиция','Позиция клика'],
+    r.map(x=>[x.q,x.lang,x.shows,x.clicks,x.shows?x.ctr.toFixed(2):'',x.pos??'',x.clickPos??'']))
 }
 
 /* ── Органика: география (GA4) ── */

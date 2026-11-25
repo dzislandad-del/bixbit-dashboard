@@ -213,11 +213,18 @@ def build_organic(gsc, ga4):
 
 
 def merge_totals(google, yandex):
+    """Показы/клики/конверсии суммируются; время и отказы — среднее по кликам
+    только по источникам, где эти значения заполнены (пустой Яндекс не тянет среднее к нулю)."""
     srcs = [s for s in (google, yandex or {}) if num(s.get("impressions")) or num(s.get("clicks"))]
     tot = {k: int(sum(num(s.get(k)) for s in srcs)) for k in ("impressions", "clicks", "conversions")}
-    w = sum(num(s.get("clicks")) or 1 for s in srcs) or 1
-    tot["bounce"] = round(sum(num(s.get("bounce")) * (num(s.get("clicks")) or 1) for s in srcs) / w, 1) if srcs else 0
-    tot["time_on_site"] = fmt_time(sum(parse_time(s.get("time_on_site")) * (num(s.get("clicks")) or 1) for s in srcs) / w) if srcs else "0:00"
+
+    def wavg(vals):
+        vals = [(v, num(s.get("clicks")) or 1) for s, v in vals if v > 0]
+        w = sum(x[1] for x in vals)
+        return sum(v * k for v, k in vals) / w if w else 0
+
+    tot["bounce"] = round(wavg([(s, num(s.get("bounce"))) for s in srcs]), 1)
+    tot["time_on_site"] = fmt_time(wavg([(s, parse_time(s.get("time_on_site"))) for s in srcs]))
     return tot
 
 

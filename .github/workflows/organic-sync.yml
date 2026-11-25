@@ -1,10 +1,13 @@
-name: Organic Sync (GSC + GA4 → dashboard)
+name: Organic Sync (GSC + GA4 + Яндекс.Вебмастер → dashboard)
 
 # Ежедневно обновляет органику текущего квартала в дашборде (Supabase):
 # показы, клики, время на сайте, отказы, конверсии, топ-10 и все страницы, география — по RU / EN / ES.
 # Ручной запуск: можно указать прошлый квартал (напр. 2026-Q1) для заполнения истории.
 #
-# Секреты: GOOGLE_SA_JSON (JSON service account с доступом к GSC и GA4),
+# Яндекс.Вебмастер: показы, клики, позиции, ИКС, индексация и топ-500 запросов (весь сайт)
+# + оценка показов/кликов Яндекса по языку.
+#
+# Секреты: GOOGLE_SA_JSON (JSON service account с доступом к GSC и GA4), YANDEX_WEBMASTER_TOKEN,
 # SUPABASE_URL, SUPABASE_ANON_KEY. GSC_SITE_URL / GA4_PROPERTY_ID — необязательно
 # (по умолчанию https://bixbit.io/ и 320129421).
 
@@ -64,3 +67,20 @@ jobs:
           [ "$OVERWRITE" = "true" ] && ARGS="$ARGS --overwrite"
           [ "$EXTRAS_ONLY" = "true" ] && ARGS="$ARGS --extras-only"
           python3 scripts/organic_sync.py $ARGS | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Sync Yandex Webmaster to Supabase
+        if: ${{ !cancelled() }}
+        env:
+          YANDEX_WEBMASTER_TOKEN: ${{ secrets.YANDEX_WEBMASTER_TOKEN }}
+          YANDEX_WM_HOSTS: ${{ vars.YANDEX_WM_HOSTS || 'bixbit.io,bixbit.tech' }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          QUARTER: ${{ github.event.inputs.quarter }}
+        run: |
+          set -o pipefail
+          if [ -z "$YANDEX_WEBMASTER_TOKEN" ]; then
+            echo "::error::Секрет YANDEX_WEBMASTER_TOKEN не задан в этом репозитории"; exit 1
+          fi
+          ARGS=""
+          [ -n "$QUARTER" ] && ARGS="--quarter $QUARTER"
+          python3 scripts/yandex_webmaster_sync.py $ARGS | tee -a "$GITHUB_STEP_SUMMARY"
