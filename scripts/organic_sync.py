@@ -6,7 +6,10 @@
 payload.periods["from|to"].organic[lang]:
   google  — показы/клики (GSC), время на сайте, отказы, конверсии (GA4, Organic Search / google)
   итоги   — google + yandex (yandex — ручной ввод в дашборде, не трогаем)
-  pages   — топ-10 страниц по кликам: показы, клики, позиция (GSC) + время/отказы/конверсии (GA4)
+  pages     — топ-10 страниц по кликам: показы, клики, позиция (GSC) + время/отказы/конверсии (GA4)
+  pages_all — все страницы языковой версии (до 1000): те же метрики + сессии
+  countries — география органики (GA4, Organic Search, все поисковики): сессии, пользователи,
+              время, отказы, конверсии по странам
 
 Остальные данные дашборда (реклама, другие периоды, history, positions) не меняются.
 
@@ -14,6 +17,7 @@ payload.periods["from|to"].organic[lang]:
   ./scripts/organic_sync.py                      # текущий квартал
   ./scripts/organic_sync.py --quarter 2026-Q1    # прошлый квартал (только если он пустой)
   ./scripts/organic_sync.py --quarter 2026-Q3 --overwrite
+  ./scripts/organic_sync.py --quarter 2026-Q3 --extras-only   # только все страницы + гео, итоги не трогать
   ./scripts/organic_sync.py --dry-run            # посчитать и показать, ничего не записывать
 
 Секреты: GOOGLE_APPLICATION_CREDENTIALS, GSC_SITE_URL, GA4_PROPERTY_ID (.env или окружение),
@@ -26,6 +30,7 @@ from seo_common import CTX, ENV_PATH, google_token, load_env  # noqa: E402
 
 TABLE, ROW = "dashboard_state", "bixbit"
 LANGS = ("ru", "en", "es")
+PAGES_ALL_LIMIT = 1000
 GSC_LAG_DAYS = 3
 
 
@@ -126,6 +131,40 @@ def ga4_landing(token, prop, start, end):
     return out
 
 
+def ga4_geo(token, prop, start, end):
+    """Органика (все поисковики) по странам × посадочным страницам → агрегируем по языку."""
+    body = {"dateRanges": [{"startDate": start, "endDate": end}],
+            "dimensions": [{"name": "country"}, {"name": "countryId"}, {"name": "landingPage"}],
+            "metrics": [{"name": m} for m in ("sessions", "totalUsers", "averageSessionDuration", "bounceRate", "keyEvents")],
+            "dimensionFilter": {"filter": {"fieldName": "sessionDefaultChannelGroup", "stringFilter": {"value": "Organic Search"}}},
+            "limit": 250000}
+    req = urllib.request.Request(f"https://analyticsdata.googleapis.com/v1beta/properties/{prop}:runReport",
+                                 data=json.dumps(body).encode(),
+                                 headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
+    d = http_json(req, "GA4 API (geo)") or {}
+    acc = {lg: {} for lg in LANGS}
+    for r in d.get("rows", []):
+        country, code, lp = (v["value"] for v in r["dimensionValues"])
+        s_, u, dur, br, ke = (float(v["value"]) for v in r["metricValues"])
+        lg = lang_of(lp) if lp not in ("(not set)", "") else None
+        if not lg:
+            continue
+        a = acc[lg].setdefault(code or country, {"country": country, "code": code if code != "(not set)" else "",
+                                                  "sessions": 0, "users": 0, "dur": 0, "bounce": 0, "conversions": 0})
+        a["sessions"] += s_; a["users"] += u; a["dur"] += dur * s_; a["bounce"] += br * s_; a["conversions"] += ke
+    out = {}
+    for lg in LANGS:
+        rows = []
+        for a in acc[lg].values():
+            n = a["sessions"]
+            rows.append({"country": a["country"], "code": a["code"], "sessions": int(n), "users": int(a["users"]),
+                         "avgTime": fmt_time(a["dur"] / n if n else 0),
+                         "bounceRate": round(a["bounce"] / n * 100, 1) if n else 0,
+                         "conversions": int(round(a["conversions"]))})
+        out[lg] = sorted(rows, key=lambda x: -x["sessions"])
+    return out
+
+
 def build_organic(gsc, ga4):
     """→ {lang: {"google": {...}, "pages": [...]}}"""
     ga_by_path = {}
@@ -160,7 +199,16 @@ def build_organic(gsc, ga4):
                           bounceRate=round(a["bounce"] / a["sessions"] * 100, 1),
                           conversions=int(a["conv"]))
             pages.append(pg)
-        res[lg] = {"google": google, "pages": pages}
+        allp = []
+        for r in sorted(g_rows, key=lambda x: (-x["clicks"], -x["impressions"]))[:PAGES_ALL_LIMIT]:
+            a = a_rows.get(norm_path(r["page"])) or {}
+            n = a.get("sessions", 0)
+            allp.append({"url": r["page"], "impressions": int(r["impressions"]), "clicks": int(r["clicks"]),
+                         "position": round(r["position"], 1), "sessions": int(n),
+                         "avgTime": fmt_time(a["dur"] / n) if n else "",
+                         "bounceRate": round(a["bounce"] / n * 100, 1) if n else None,
+                         "conversions": int(a.get("conv", 0))})
+        res[lg] = {"google": google, "pages": pages, "pages_all": allp}
     return res
 
 
@@ -203,6 +251,8 @@ def main():
     p.add_argument("--env", default=ENV_PATH)
     p.add_argument("--quarter", help="напр. 2026-Q1; по умолчанию текущий")
     p.add_argument("--overwrite", action="store_true", help="перезаписать Google-данные прошлого квартала, если они уже есть")
+    p.add_argument("--extras-only", action="store_true",
+                   help="записать только все страницы и гео, итоги и топ-10 не трогать (для прошлых кварталов)")
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
 
@@ -228,12 +278,14 @@ def main():
     gsc = gsc_pages(tok_gsc, env["GSC_SITE_URL"], q_start.isoformat(), gsc_end.isoformat())
     ga4 = ga4_landing(tok_ga, env["GA4_PROPERTY_ID"], q_start.isoformat(), ga_end.isoformat())
     built = build_organic(gsc, ga4)
+    geo = ga4_geo(tok_ga, env["GA4_PROPERTY_ID"], q_start.isoformat(), ga_end.isoformat())
 
     print(f"Период {pkey}: GSC {q_start}..{gsc_end} ({len(gsc)} страниц), GA4 {q_start}..{ga_end} ({len(ga4)} строк)")
     for lg in LANGS:
         g = built[lg]["google"]
         print(f"  {lg.upper()}: показы {g['impressions']}, клики {g['clicks']}, время {g['time_on_site']}, "
-              f"отказы {g['bounce']}%, конверсии {g['conversions']}, топ-страниц {len(built[lg]['pages'])}")
+              f"отказы {g['bounce']}%, конверсии {g['conversions']}, страниц {len(built[lg]['pages_all'])}, "
+              f"стран {len(geo[lg])}" + (f" (топ: {geo[lg][0]['country']} {geo[lg][0]['sessions']})" if geo[lg] else ""))
     if a.dry_run:
         print("dry-run: в Supabase ничего не записано")
         return
@@ -241,19 +293,24 @@ def main():
     payload = sb_load(env["SUPABASE_URL"], env["SUPABASE_ANON_KEY"])
     period = payload.setdefault("periods", {}).setdefault(pkey, {})
     org = period.setdefault("organic", {})
-    if not is_current and has_google_data(org) and not a.overwrite:
+    if not is_current and has_google_data(org) and not a.overwrite and not a.extras_only:
         sys.exit(f"{pkey}: Google-данные органики уже есть — добавьте --overwrite, чтобы перезаписать")
 
     synced = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     for lg in LANGS:
         cur = org.setdefault(lg, {})
+        cur["pages_all"] = built[lg]["pages_all"]
+        cur["countries"] = geo[lg]
+        if a.extras_only:
+            cur["extras_synced"] = {"gsc_end": gsc_end.isoformat(), "ga4_end": ga_end.isoformat(), "at": synced}
+            continue
         cur["google"] = built[lg]["google"]
         cur.update(merge_totals(cur["google"], cur.get("yandex")))
         cur["pages"] = built[lg]["pages"]
         cur["synced"] = {"source": "gsc+ga4", "gsc_end": gsc_end.isoformat(), "ga4_end": ga_end.isoformat(), "at": synced}
     payload["lastUpdated"] = {**(payload.get("lastUpdated") or {}), "organic": synced}
     sb_save(env["SUPABASE_URL"], env["SUPABASE_ANON_KEY"], payload)
-    print(f"✓ Записано в Supabase: periods[{pkey}].organic (ru/en/es)")
+    print(f"✓ Записано в Supabase: periods[{pkey}].organic (ru/en/es)" + (" — только все страницы и гео" if a.extras_only else ""))
 
 
 if __name__ == "__main__":

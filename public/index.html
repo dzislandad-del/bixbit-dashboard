@@ -213,6 +213,23 @@ td.ncell{white-space:nowrap;min-width:220px}
 .src-tbl input.editable{min-width:70px}
 .org-inp{min-width:70px}
 .url-inp{width:auto!important;min-width:180px;field-sizing:content}
+/* все страницы + гео */
+.xbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.xsearch{height:28px;min-width:220px;padding:0 10px;background:var(--elem);border:1px solid var(--brd);border-radius:var(--r);color:var(--txt);font-family:var(--fu);font-size:12px;outline:none}
+.xsearch:focus{border-color:var(--n0)}
+.xcount{font-size:11px;color:var(--txt-d);font-family:var(--fm)}
+th.srt{cursor:pointer;user-select:none}th.srt:hover{color:var(--txt)}
+th.srt.on{color:var(--txt)}
+.xmore{display:flex;gap:8px;justify-content:center;padding:10px;border-top:1px solid var(--brd-sub)}
+.urlc{max-width:420px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px}
+.urlc a{color:var(--txt);text-decoration:none}.urlc a:hover{text-decoration:underline}
+.share{display:flex;align-items:center;gap:8px;min-width:140px}
+.share i{display:block;height:6px;background:var(--acc);border-radius:1px;opacity:.85}
+.share span{font-family:var(--fm);font-size:11px;color:var(--txt-m);min-width:42px}
+.geo-grid{display:grid;grid-template-columns:minmax(280px,1fr) minmax(320px,1.4fr);gap:16px;margin-bottom:20px}
+.geo-grid .tw{margin-bottom:0}
+@media (max-width:900px){.geo-grid{grid-template-columns:1fr}}
+.flag{font-size:14px;margin-right:6px}
 /* Status badge */
 .sb2{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:var(--rp);font-size:10px;font-weight:600;white-space:nowrap;cursor:pointer;user-select:none;border:1px solid;transition:opacity .15s}
 .sb2:hover{opacity:.75}
@@ -477,6 +494,8 @@ td.ncell{white-space:nowrap;min-width:220px}
         <div class="tw" id="oru-src"></div>
         <div class="cg"><div class="cc"><div class="ct">Показы и клики · bixbit.io/ru</div><div class="cw"><canvas id="oru-c1"></canvas></div></div><div class="cc"><div class="ct">Отказы % / Время на сайте</div><div class="cw"><canvas id="oru-c2"></canvas></div></div></div>
         <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io/ru</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th><th class="edit-only"></th></tr></thead><tbody id="oru-tb"></tbody></table></div></div>
+        <div class="tw" id="oru-all"></div>
+        <div id="oru-geo"></div>
       </div>
       <!-- EN -->
       <div id="org-en" style="display:none">
@@ -484,6 +503,8 @@ td.ncell{white-space:nowrap;min-width:220px}
         <div class="tw" id="oen-src"></div>
         <div class="cg"><div class="cc"><div class="ct">Показы и клики · bixbit.io</div><div class="cw"><canvas id="oen-c1"></canvas></div></div><div class="cc"><div class="ct">Отказы % / Время на сайте</div><div class="cw"><canvas id="oen-c2"></canvas></div></div></div>
         <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io (EN)</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th><th class="edit-only"></th></tr></thead><tbody id="oen-tb"></tbody></table></div></div>
+        <div class="tw" id="oen-all"></div>
+        <div id="oen-geo"></div>
       </div>
       <!-- ES -->
       <div id="org-es" style="display:none">
@@ -491,6 +512,8 @@ td.ncell{white-space:nowrap;min-width:220px}
         <div class="tw" id="oes-src"></div>
         <div class="cg"><div class="cc"><div class="ct">Показы и клики · bixbit.io/es</div><div class="cw"><canvas id="oes-c1"></canvas></div></div><div class="cc"><div class="ct">Отказы % / Время на сайте</div><div class="cw"><canvas id="oes-c2"></canvas></div></div></div>
         <div class="tw"><div class="th2"><span class="tt">Топ-10 страниц · bixbit.io/es</span></div><div class="tov"><table><thead><tr><th>#</th><th>Страница</th><th>Показы</th><th>Клики</th><th>CTR</th><th>Позиция</th><th>Время</th><th>Отказы</th><th>Конв.</th><th class="edit-only"></th></tr></thead><tbody id="oes-tb"></tbody></table></div></div>
+        <div class="tw" id="oes-all"></div>
+        <div id="oes-geo"></div>
       </div>
     </div>
 
@@ -1037,7 +1060,89 @@ function renderOrg(){
         <td class="edit-only"><button class="btn-del" title="Удалить строку" onclick="delPage('${l}',${i})">×</button></td></tr>`}).join('');
     tb.innerHTML=(rows||'<tr><td colspan="10"><div class="empty">Нет данных по страницам</div></td></tr>')+
       (editMode?`<tr><td colspan="10"><button class="btn-add" onclick="addPage('${l}')">+ Страница</button> <span style="font-size:10px;color:var(--txt-d)">Ctrl+V — вставка из таблицы: URL · Показы · Клики · Позиция · Время · Отказы % · Конверсии</span></td></tr>`:'')}
+  renderOrgAll(l,pfxM,od);renderOrgGeo(l,pfxM,od);
   renderOrgCharts(pfxM,od)
+}
+
+/* ── Органика: все страницы ── */
+const ORGX={q:{},sort:{},lim:{},geoAll:{}};
+function shortUrl(u){return String(u||'/').replace(/^https?:\/\/(www\.)?bixbit\.io/,'')||'/'}
+function csvDownload(name,head,rows){
+  const esc2=v=>{v=v==null?'':String(v);return /[",;\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v};
+  const txt='﻿'+[head,...rows].map(r=>r.map(esc2).join(';')).join('\n');
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type:'text/csv;charset=utf-8'}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)
+}
+const ALLCOLS=[['url','Страница'],['impressions','Показы'],['clicks','Клики'],['ctr','CTR'],['position','Позиция'],['sessions','Сессии'],['avgTime','Время'],['bounceRate','Отказы'],['conversions','Конв.']];
+function allRows(l){
+  const od=pd().organic?.[l]||{},q=(ORGX.q[l]||'').toLowerCase().trim(),st=ORGX.sort[l]||{k:'clicks',d:-1};
+  let rows=(od.pages_all||[]).map(p=>({...p,ctr:p.impressions>0?p.clicks/p.impressions*100:0}));
+  if(q)rows=rows.filter(p=>String(p.url).toLowerCase().includes(q));
+  const v=(p,k)=>k==='url'?String(p.url):k==='avgTime'?t2s(p.avgTime):(k==='position'?(nz(p.position)||9999):nz(p[k]));
+  rows.sort((a,b)=>{const x=v(a,st.k),y=v(b,st.k);return (x>y?1:x<y?-1:0)*(st.k==='position'?-st.d:st.d)});
+  return rows
+}
+function renderOrgAll(l,pfx,od){
+  const el=document.getElementById(pfx+'-all');if(!el)return;
+  const all=od.pages_all||[];
+  const sy=od.synced?.at||od.extras_synced?.at;
+  if(!all.length){el.innerHTML=`<div class="th2"><span class="tt">Все страницы</span></div><div class="empty">Список появится после синхронизации Search Console + GA4 (ежедневно в 08:30 по Минску).</div>`;return}
+  el.innerHTML=`<div class="th2"><span class="tt">Все страницы · ${all.length}${sy?` <span class="xcount">· обновлено ${new Date(sy).toLocaleDateString('ru')}</span>`:''}</span>
+    <div class="xbar"><input class="xsearch" placeholder="Поиск по URL…" value="${esc(ORGX.q[l]||'')}" oninput="ORGX.q['${l}']=this.value;ORGX.lim['${l}']=50;renderOrgAllBody('${l}','${pfx}')">
+    <span class="xcount" id="${pfx}-allcnt"></span><button class="btn-sm" onclick="exportAll('${l}')">CSV</button></div></div>
+    <div class="tov"><table><thead><tr><th>#</th>${ALLCOLS.map(([k,t])=>`<th class="srt" data-k="${k}" onclick="sortAll('${l}','${pfx}','${k}')">${t}</th>`).join('')}</tr></thead><tbody id="${pfx}-allb"></tbody></table></div>
+    <div class="xmore" id="${pfx}-allm"></div>`;
+  renderOrgAllBody(l,pfx)
+}
+function renderOrgAllBody(l,pfx){
+  const tb=document.getElementById(pfx+'-allb');if(!tb)return;
+  const rows=allRows(l),lim=ORGX.lim[l]||50,st=ORGX.sort[l]||{k:'clicks',d:-1};
+  document.querySelectorAll(`#${pfx}-all th.srt`).forEach(th=>{const on=th.dataset.k===st.k;th.classList.toggle('on',on);th.textContent=ALLCOLS.find(c=>c[0]===th.dataset.k)[1]+(on?(st.d<0?' ↓':' ↑'):'')});
+  tb.innerHTML=rows.slice(0,lim).map((p,i)=>{const pos=nz(p.position),pc=pos>0&&pos<=3?'g':pos>0&&pos<=10?'m':'';
+    return`<tr><td class="tmono" style="color:var(--txt-m)">${i+1}</td><td class="urlc" title="${esc(p.url)}"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(shortUrl(p.url))}</a></td>
+    <td class="tmono">${fn(p.impressions)}</td><td class="tmono">${fn(p.clicks)}</td><td class="tmono">${p.impressions>0?p.ctr.toFixed(1)+'%':'—'}</td>
+    <td><span class="pc ${pc}">${pos>0?'#'+pos.toFixed(1):'—'}</span></td><td class="tmono">${fn(p.sessions)}</td><td class="tmono">${p.avgTime||'—'}</td>
+    <td class="tmono">${p.bounceRate==null?'—':p.bounceRate+'%'}</td><td class="tmono">${fn(p.conversions)}</td></tr>`}).join('')||'<tr><td colspan="10"><div class="empty">Ничего не найдено</div></td></tr>';
+  const c=document.getElementById(pfx+'-allcnt');if(c)c.textContent=`${Math.min(lim,rows.length)} из ${rows.length}`;
+  const m=document.getElementById(pfx+'-allm');
+  if(m)m.innerHTML=rows.length>lim?`<button class="btn-sm" onclick="ORGX.lim['${l}']=${lim+50};renderOrgAllBody('${l}','${pfx}')">Показать ещё 50</button><button class="btn-sm" onclick="ORGX.lim['${l}']=1e9;renderOrgAllBody('${l}','${pfx}')">Показать все</button>`:'';
+  if(m)m.style.display=rows.length>lim?'flex':'none'
+}
+function sortAll(l,pfx,k){const st=ORGX.sort[l]||{k:'clicks',d:-1};ORGX.sort[l]=st.k===k?{k,d:-st.d}:{k,d:k==='url'?1:-1};renderOrgAllBody(l,pfx)}
+function exportAll(l){
+  const rows=allRows(l),[f,t]=curP.split('|');
+  csvDownload(`bixbit-pages-${l}-${f}_${t}.csv`,['URL','Показы','Клики','CTR %','Позиция','Сессии','Время','Отказы %','Конверсии'],
+    rows.map(p=>[p.url,p.impressions,p.clicks,p.impressions>0?p.ctr.toFixed(2):'',p.position||'',p.sessions,p.avgTime||'',p.bounceRate??'',p.conversions]))
+}
+
+/* ── Органика: география (GA4) ── */
+const REGION_RU=(()=>{try{return new Intl.DisplayNames(['ru'],{type:'region'})}catch{return null}})();
+function cName(c){if(c.code&&REGION_RU){try{return REGION_RU.of(c.code)||c.country}catch{}}return c.country||'—'}
+function cFlag(code){return code&&/^[A-Za-z]{2}$/.test(code)?String.fromCodePoint(...[...code.toUpperCase()].map(x=>127397+x.charCodeAt(0))):'🌐'}
+function renderOrgGeo(l,pfx,od){
+  const el=document.getElementById(pfx+'-geo');if(!el)return;
+  const cs=od.countries||[];
+  if(!cs.length){el.innerHTML=`<div class="tw"><div class="th2"><span class="tt">География · органика</span></div><div class="empty">Данные по странам появятся после синхронизации GA4 (ежедневно в 08:30 по Минску).</div></div>`;dc(pfx+'-geo-c');return}
+  const tot=cs.reduce((a,c)=>a+nz(c.sessions),0)||1,max=nz(cs[0].sessions)||1,showAll=ORGX.geoAll[l],list=showAll?cs:cs.slice(0,15);
+  const top=cs.slice(0,3).map(c=>kc(cFlag(c.code)+' '+cName(c),fn(c.sessions)+' <span style="font-size:11px;color:var(--txt-m)">'+(c.sessions/tot*100).toFixed(1)+'%</span>','ci')).join('');
+  el.innerHTML=`<div class="kg">${kc('Стран',cs.length,'cm')}${kc('Сессии (органика)',fn(tot),'cs')}${top}</div>
+  <div class="geo-grid">
+    <div class="cc"><div class="ct">Топ-10 стран по сессиям</div><div class="cw" style="height:${Math.max(180,Math.min(10,cs.length)*28)}px"><canvas id="${pfx}-geo-c"></canvas></div></div>
+    <div class="tw"><div class="th2"><span class="tt">Страны · органический поиск (GA4)</span><div class="xbar"><button class="btn-sm" onclick="exportGeo('${l}')">CSV</button></div></div>
+      <div class="tov"><table><thead><tr><th>Страна</th><th>Сессии</th><th>Доля</th><th>Польз.</th><th>Время</th><th>Отказы</th><th>Конв.</th></tr></thead><tbody>
+      ${list.map(c=>`<tr><td style="white-space:nowrap"><span class="flag">${cFlag(c.code)}</span>${esc(cName(c))}</td><td class="tmono">${fn(c.sessions)}</td>
+        <td><div class="share"><i style="width:${Math.max(2,c.sessions/max*90)}px"></i><span>${(c.sessions/tot*100).toFixed(1)}%</span></div></td>
+        <td class="tmono">${fn(c.users)}</td><td class="tmono">${c.avgTime||'—'}</td><td class="tmono">${nz(c.bounceRate)}%</td><td class="tmono">${fn(c.conversions)}</td></tr>`).join('')}
+      </tbody></table></div>
+      ${cs.length>15?`<div class="xmore"><button class="btn-sm" onclick="ORGX.geoAll['${l}']=${!showAll};renderOrg()">${showAll?'Свернуть':'Показать все страны ('+cs.length+')'}</button></div>`:''}
+    </div>
+  </div>`;
+  const t10=cs.slice(0,10);dc(pfx+'-geo-c');const cv=document.getElementById(pfx+'-geo-c');
+  if(cv)charts[pfx+'-geo-c']=new Chart(cv,{type:'bar',data:{labels:t10.map(c=>cName(c)),datasets:[{label:'Сессии',data:t10.map(c=>nz(c.sessions)),backgroundColor:'rgba(200,65,126,.3)',borderColor:'#c8417e',borderWidth:1},{label:'Конверсии',data:t10.map(c=>nz(c.conversions)),backgroundColor:'rgba(96,199,148,.3)',borderColor:'#60c794',borderWidth:1}]},options:{...co(),indexAxis:'y'}})
+}
+function exportGeo(l){
+  const cs=pd().organic?.[l]?.countries||[],tot=cs.reduce((a,c)=>a+nz(c.sessions),0)||1,[f,t]=curP.split('|');
+  csvDownload(`bixbit-geo-${l}-${f}_${t}.csv`,['Страна','Код','Сессии','Доля %','Пользователи','Время','Отказы %','Конверсии'],
+    cs.map(c=>[cName(c),c.code,c.sessions,(c.sessions/tot*100).toFixed(2),c.users,c.avgTime,c.bounceRate,c.conversions]))
 }
 
 function renderOrgCharts(pfx,od){
