@@ -1,0 +1,27 @@
+{
+ "pulled_at": "2026-11-26T13:22:10",
+ "host": {
+  "host_id": "https:bixbit.io:443",
+  "verified": true,
+  "main_mirror": null,
+  "ascii_host_url": "https://bixbit.io/",
+  "unicode_host_url": "https://bixbit.io/"
+ },
+ "report": "insearch",
+ "window": [
+  "2026-11-12",
+  "2026-11-26"
+ ],
+ "data": {
+  "history": [
+   {
+    "date": "2026-11-13T10:00:00.000+03:00",
+    "value": 1209
+   },
+   {
+    "date": "2026-11-22T10:00:01.952+03:00",
+    "value": 1210
+   }
+  ]
+ }
+}
